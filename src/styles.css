@@ -332,9 +332,9 @@ main {
   display: inline-block;
   background: var(--subtle);
   border: 1px solid var(--line);
-  color: var(--muted);
+  color: var(--text);
   border-radius: 5px;
-  font-size: 10px;
+  font-size: 11px;
   padding: 4px 9px;
   white-space: nowrap;
 }
@@ -635,6 +635,15 @@ legend {
   grid-template-columns: 1fr 90px 1fr auto;
   gap: 12px;
   align-items: center;
+}
+.calculator > .field,
+.calculator input,
+.calculator select {
+  min-width: 0;
+}
+.calculator input,
+.calculator select {
+  width: 100%;
 }
 .calculator-result {
   display: block;
@@ -1143,7 +1152,7 @@ footer button {
     font-size: 24px;
   }
   .course-badge {
-    font-size: 9px;
+    font-size: 11px;
   }
   .subject-grid {
     grid-template-columns: repeat(2, 1fr);
@@ -1161,7 +1170,7 @@ footer button {
     padding: 16px;
   }
   .calculator {
-    grid-template-columns: 1fr 70px 1fr;
+    grid-template-columns: minmax(0, 1fr) 70px minmax(0, 1fr);
   }
   .calculator .button {
     grid-column: 1/-1;
@@ -1378,7 +1387,7 @@ footer button {
     padding: 9px 12px;
   }
   .calculator {
-    grid-template-columns: 1fr 70px 1fr;
+    grid-template-columns: minmax(0, 1fr) 70px minmax(0, 1fr);
     gap: 9px;
   }
   .history-list li {

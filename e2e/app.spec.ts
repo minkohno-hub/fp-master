@@ -1,6 +1,30 @@
 import { expect, test } from '@playwright/test';
+import AxeBuilder from '@axe-core/playwright';
 import { readFile } from 'node:fs/promises';
 import { navigate } from './helpers';
+
+test('core screens pass automated WCAG AA checks in desktop and mobile layouts', async ({ page }) => {
+  await page.goto('./');
+  async function check(screen: string) {
+    const result = await new AxeBuilder({ page }).withTags(['wcag2a', 'wcag2aa', 'wcag21aa', 'wcag22aa']).analyze();
+    expect(result.violations.map((violation) => ({ id: violation.id, targets: violation.nodes.map((node) => node.target) })), screen).toEqual([]);
+    expect(await page.evaluate(() => document.documentElement.scrollWidth <= document.documentElement.clientWidth), `${screen}: horizontal overflow`).toBe(true);
+  }
+  await check('ホーム');
+  for (const screen of ['問題演習', '計算トレーニング', '用語集', '設定・バックアップ']) {
+    await navigate(page, screen);
+    await check(screen);
+  }
+  await page.getByRole('combobox', { name: '表示モード' }).selectOption('dark');
+  await check('設定・バックアップ（ダーク）');
+  await navigate(page, 'ホーム');
+  await check('ホーム（ダーク）');
+  await page.setViewportSize({ width: 320, height: 700 });
+  await navigate(page, '計算トレーニング');
+  await check('計算トレーニング（幅320px）');
+  await navigate(page, '用語集');
+  await check('用語集（幅320px）');
+});
 
 test('Pages subpath renders without layout overflow or browser errors', async ({ page }) => {
   const errors: string[] = [];
@@ -10,7 +34,7 @@ test('Pages subpath renders without layout overflow or browser errors', async ({
   await expect(page.getByRole('main')).toBeVisible();
   await expect(page.getByRole('heading', { level: 1 })).toBeVisible();
   await expect(page).toHaveTitle(/FP Master/);
-  expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+  expect(await page.evaluate(() => document.documentElement.scrollWidth <= document.documentElement.clientWidth)).toBe(true);
   const manifestHref = await page.locator('link[rel="manifest"]').getAttribute('href');
   expect(manifestHref).toContain('/fp-master/');
   const manifest = await (await page.request.get(manifestHref!)).json();

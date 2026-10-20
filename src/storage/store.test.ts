@@ -3,6 +3,7 @@ import { IDBFactory, IDBObjectStore } from 'fake-indexeddb';
 import { openLearningStore, LEGACY_HISTORY_KEY, type LearningStore } from './store';
 import { createLearningState, type LearningState, type StoredAttempt } from './types';
 import { MAX_BACKUP_BYTES, parseBackup, parseLearningState } from './validation';
+import { scheduleCardReview } from '../features/glossary/cards';
 
 const now = '2026-10-20T10:00:00.000Z';
 const attempt = (id = 'attempt-1'): StoredAttempt => ({ id, questionId: 'q-1', selected: 1, correct: true, answeredAt: now, grade: '3', exam: 'academic', mode: 'practice', durationMs: 1200 });
@@ -80,6 +81,20 @@ describe('IndexedDB persistence', () => {
   });
 });
 describe('backup and validation', () => {
+  it('preserves legacy card reviews and the new scheduler state through storage and backup', async () => {
+    const store = await open();
+    const legacy = { termId: 'term-1', rating: 'hard' as const, reviewedAt: now, nextReviewAt: '2026-10-21T10:00:00.000Z', repetitions: 3 };
+    await store.update(s => ({ ...s, cards: [legacy] }));
+    expect((await store.load()).cards[0]).toEqual(legacy);
+    const updated = scheduleCardReview(legacy, 'term-1', 'good', legacy.nextReviewAt);
+    await store.update(s => ({ ...s, cards: [updated] }));
+    const restored = await open();
+    await restored.importBackup(await store.exportBackup());
+    expect((await restored.load()).cards[0]).toEqual(updated);
+    const base = createLearningState(now);
+    expect(() => parseLearningState({ ...base, cards: [{ ...legacy, ease: 2.5 }] })).toThrow();
+    expect(() => parseLearningState({ ...base, cards: [{ ...updated, streak: updated.repetitions + 1 }] })).toThrow();
+  });
   it('round-trips answers, bookmarks, notes, session and review state', async () => {
     const source = await open();
     await source.update(s => ({ ...s, attempts: [attempt()], bookmarks: ['q-1'], notes: [{ id: 'note-1', questionId: 'q-1', text: '計算式を確認', updatedAt: now }], reviews: [{ questionId: 'q-1', ease: 2.5, intervalDays: 1, repetitions: 1, consecutiveCorrect: 1, lastAnsweredAt: now, nextReviewAt: '2026-10-21T10:00:00.000Z', reviewCount: 1 }], cards: [{ termId: 'term-1', rating: 'hard', reviewedAt: now, nextReviewAt: '2026-10-21T10:00:00.000Z', repetitions: 1 }], session: { id: 's-1', grade: '2', exam: 'practical', mode: 'calculation', questionIds: ['q-1'], currentIndex: 0, answers: { 'q-1': '12.5' }, startedAt: now, updatedAt: now } }));

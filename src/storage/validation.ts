@@ -336,15 +336,24 @@ function card(value: unknown, path: string): CardProgress {
   const c = object(value, path);
   onlyKeys(
     c,
-    ["termId", "rating", "reviewedAt", "nextReviewAt", "repetitions"],
+    ["termId", "rating", "reviewedAt", "nextReviewAt", "repetitions", "ease", "intervalDays", "streak"],
     path,
   );
+  const metadataCount = ["ease", "intervalDays", "streak"].filter((key) => Object.hasOwn(c, key)).length;
+  if (metadataCount !== 0 && metadataCount !== 3) return fail(`${path}.scheduler`);
+  const repetitions = number(c.repetitions, `${path}.repetitions`);
+  const scheduler = metadataCount === 3 ? {
+    ease: number(c.ease, `${path}.ease`, 3, 1.3, false),
+    intervalDays: number(c.intervalDays, `${path}.intervalDays`, 365, 1),
+    streak: number(c.streak, `${path}.streak`, repetitions),
+  } : {};
   return {
     termId: id(c.termId, `${path}.termId`),
     rating: enumeration(c.rating, ratings, `${path}.rating`),
     reviewedAt: date(c.reviewedAt, `${path}.reviewedAt`),
     nextReviewAt: date(c.nextReviewAt, `${path}.nextReviewAt`),
-    repetitions: number(c.repetitions, `${path}.repetitions`),
+    repetitions,
+    ...scheduler,
   };
 }
 function session(value: unknown, path: string): SavedSession {

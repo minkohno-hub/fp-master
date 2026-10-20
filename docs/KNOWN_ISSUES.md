@@ -4,12 +4,12 @@
 
 | ID | 種別・影響 | 状態と次の対応 |
 | --- | --- | --- |
-| B01 | 公式サイト取得不可 | `www.jafp.or.jp` の対象URLがHTTPS CONNECT 403。公式制度/公開回/出題範囲/許諾の本文未取得。環境ネットワーク設定の許可後に再試行 |
+| B01 | 公式サイト取得不可 | `www.jafp.or.jp` の対象URLがHTTPS CONNECT 403。公式制度/公開回/出題範囲/許諾の本文未取得。全ドメイン許可の環境設定ドラフトは保存済みだが未適用。反映後に再試行 |
 | B02 | 確認済み教材0件 | 旧12件は出典・選択肢別解説・原典照合等が不足。隔離し、原典取得後に新規レビュー |
 | B03 | 公式全論点の分母未確定 | 公式網羅率は算定不能。6分野の仮分類を完全範囲と呼ばない |
 | B04 | 公式模試未確定 | 時間/問題数/配点/基準日/合格基準の現行原典が未確認。完全再現を有効化しない |
 | B05 | 公式教材の公開権利未確認 | 問題の個人閲覧と再配布を区別。許諾不明のPDF/図表/解説を取り込んで公開しない |
-| B06 | GitHub APIアクセスとCLI認証 | `gh pr create` は `api.github.com/graphql: Forbidden`。同hostへのHTTPS CONNECTも403。`gh auth status` は現在の `GH_TOKEN` を無効と報告し、変数を外した場合はログインなし。Gitのpush成功はAPI権限の証拠にならない。ネットワーク設定とプラットフォーム認証が整った後に再試行 |
+| B06 | GitHub APIアクセスとCLI認証 | `gh pr create` は `api.github.com/graphql: Forbidden`。同hostへのHTTPS CONNECTも403。`gh auth status` は現在の `GH_TOKEN` を無効と報告し、変数を外した場合はログインなし。Gitのpush成功はAPI権限の証拠にならない。全ドメイン許可のドラフト反映とプラットフォーム認証が整った後に再試行 |
 | B07 | 実機ブラウザ未検証 | Chromium幅エミュレーションはiPhone Safari/Android/PC実機を代替しない |
 | B08 | GitHub Pages公開未検証 | URLやHTTP表示を未確認。手動deploy完了後にbase/assets/SW/深いパスを実測 |
 | F01 | 正式要件の残機能 | 確認済み用語/全計算論点/本番模試/法改正の実原典連携/高度分析等は `TASKS.md` 参照。予定を実装済みと扱わない |

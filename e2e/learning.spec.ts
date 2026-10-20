@@ -91,6 +91,12 @@ test('glossary search, detail, favorites and flashcard self-rating', async ({ pa
   await expect(page.getByText('自動テスト専用の用語説明です。', { exact: true })).toBeVisible();
   await page.getByRole('button', { name: '覚えた', exact: true }).click();
   await expect(page.getByRole('button', { name: /用語 ・ タップで裏返す/ })).toBeVisible();
+  await expect(page.getByText(/次回復習予定：/)).toBeVisible();
+  await page.getByRole('checkbox', { name: '期限が来たカードのみ' }).check();
+  await expect(page.getByRole('heading', { name: '条件に合うカードはありません' })).toBeVisible();
+  await page.reload();
+  await navigate(page, '暗記カード');
+  await expect(page.getByText(/次回復習予定：/)).toBeVisible();
 });
 
 test('keyboard shortcuts answer and advance from the question heading', async ({ page }) => {

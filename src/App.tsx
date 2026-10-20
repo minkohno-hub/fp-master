@@ -29,6 +29,7 @@ import {
   searchTerms,
   type Term,
 } from "./features/glossary/terms";
+import { orderCards, scheduleCardReview } from "./features/glossary/cards";
 import { SessionView } from "./features/SessionView";
 import { SettingsPanel } from "./features/SettingsPanel";
 import { PlannerPanel } from "./features/PlannerPanel";
@@ -155,7 +156,8 @@ export function App({
     [flipped, setFlipped] = useState(false),
     [termSubject, setTermSubject] = useState<Subject | "">("");
   const [favoriteOnly, setFavoriteOnly] = useState(false),
-    [weakOnly, setWeakOnly] = useState(false);
+    [weakOnly, setWeakOnly] = useState(false),
+    [cardsDueOnly, setCardsDueOnly] = useState(false);
   const swipe = useRef<number | null>(null);
   const [calcA, setCalcA] = useState(""),
     [calcB, setCalcB] = useState(""),
@@ -213,18 +215,12 @@ export function App({
     grade,
     termSubject || undefined,
   ).filter((t) => !favoriteOnly || data.termFavorites.includes(t.id));
-  const cardList = termList
-    .filter(
-      (t) =>
-        !weakOnly ||
-        !data.cards.some((c) => c.termId === t.id && c.rating === "easy"),
-    )
-    .sort((a, b) => {
-      const da = data.cards.find((c) => c.termId === a.id)?.nextReviewAt ?? "";
-      const db = data.cards.find((c) => c.termId === b.id)?.nextReviewAt ?? "";
-      return da.localeCompare(db);
-    });
+  const cardList = orderCards(termList, data.cards, new Date(), {
+    dueOnly: cardsDueOnly,
+    weakFirst: weakOnly,
+  });
   const card = cardList.length ? cardList[cardIndex % cardList.length] : null;
+  const cardProgress = card ? data.cards.find((progress) => progress.termId === card.id) : undefined;
   useEffect(() => {
     document.documentElement.dataset.theme = data.settings.theme;
   }, [data.settings.theme]);
@@ -482,34 +478,16 @@ export function App({
   async function rateCard(rating: SelfRating) {
     if (!card) return;
     const now = new Date().toISOString();
-    const nextDate = new Date();
-    nextDate.setDate(
-      nextDate.getDate() +
-        (rating === "again"
-          ? 1
-          : rating === "hard"
-            ? 2
-            : rating === "good"
-              ? 6
-              : 14),
-    );
     if (
       await update((s) => ({
         ...s,
         cards: [
           ...s.cards.filter((c) => c.termId !== card.id),
-          {
-            termId: card.id,
-            rating,
-            reviewedAt: now,
-            nextReviewAt: nextDate.toISOString(),
-            repetitions:
-              (s.cards.find((c) => c.termId === card.id)?.repetitions ?? 0) + 1,
-          },
+          scheduleCardReview(s.cards.find((c) => c.termId === card.id), card.id, rating, now),
         ],
       }))
     ) {
-      setCardIndex((i) => i + 1);
+      setCardIndex(0);
       setFlipped(false);
     }
   }
@@ -1470,19 +1448,29 @@ export function App({
                     <input
                       type="checkbox"
                       checked={favoriteOnly}
-                      onChange={(e) => setFavoriteOnly(e.target.checked)}
+                      onChange={(e) => { setFavoriteOnly(e.target.checked); setCardIndex(0); }}
                     />
                     お気に入りのみ
                   </label>
                   {page === "cards" && (
-                    <label className="check">
-                      <input
-                        type="checkbox"
-                        checked={weakOnly}
-                        onChange={(e) => setWeakOnly(e.target.checked)}
-                      />
-                      苦手カード優先
-                    </label>
+                    <>
+                      <label className="check">
+                        <input
+                          type="checkbox"
+                          checked={weakOnly}
+                          onChange={(e) => { setWeakOnly(e.target.checked); setCardIndex(0); }}
+                        />
+                        苦手カード優先
+                      </label>
+                      <label className="check">
+                        <input
+                          type="checkbox"
+                          checked={cardsDueOnly}
+                          onChange={(e) => { setCardsDueOnly(e.target.checked); setCardIndex(0); }}
+                        />
+                        期限が来たカードのみ
+                      </label>
+                    </>
                   )}
                 </div>
               </Panel>
@@ -1584,13 +1572,14 @@ export function App({
                     </div>
                   )}
                   <p className="caption">
-                    スワイプでも表裏を切り替えます。評価後に次回日を保存し、次のカードへ進みます。
+                    {cardProgress ? `次回復習予定：${new Date(cardProgress.nextReviewAt).toLocaleDateString("ja-JP")}。` : "未学習のカードです。"}
+                    スワイプでも表裏を切り替えられます。評価後に復習予定を保存します。
                   </p>
                 </Panel>
               ) : (
                 <Panel>
                   <Empty title="条件に合うカードはありません">
-                    <p>苦手・お気に入りの絞り込みを変更してください。</p>
+                    <p>復習期限・お気に入りの絞り込みを変更してください。</p>
                   </Empty>
                 </Panel>
               )}

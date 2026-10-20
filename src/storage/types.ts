@@ -30,7 +30,12 @@ export interface CardProgress {
   rating: SelfRating;
   reviewedAt: string;
   nextReviewAt: string;
+  /** Total number of ratings. Legacy v1 records only contain these first five fields. */
   repetitions: number;
+  /** Optional scheduler state so existing v1 backups remain readable. */
+  ease?: number;
+  intervalDays?: number;
+  streak?: number;
 }
 export interface LearningNote {
   id: string;
