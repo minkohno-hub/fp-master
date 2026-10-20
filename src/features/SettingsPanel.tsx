@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useRef, useState } from "react";
 import { Button, Dialog, Panel } from "../components/ui";
 import { parseBackup, MAX_BACKUP_BYTES } from "../storage/validation";
 import type { ImportSummary, LearningState } from "../storage/types";
@@ -19,10 +19,16 @@ export function SettingsPanel({
   const [text, setText] = useState(""),
     [message, setMessage] = useState(""),
     [preview, setPreview] = useState<{
+      json: string;
       attempts: number;
       bookmarks: number;
+      notes: number;
+      reviews: number;
+      cards: number;
+      hasSession: boolean;
     } | null>(null),
     [working, setWorking] = useState(false);
+  const fileReadId = useRef(0);
   async function download() {
     setWorking(true);
     try {
@@ -50,8 +56,13 @@ export function SettingsPanel({
     try {
       const doc = parseBackup(text);
       setPreview({
+        json: text,
         attempts: doc.state.attempts.length,
         bookmarks: doc.state.bookmarks.length,
+        notes: doc.state.notes.length,
+        reviews: doc.state.reviews.length,
+        cards: doc.state.cards.length,
+        hasSession: doc.state.session !== null,
       });
       setMessage("");
     } catch (e) {
@@ -61,9 +72,11 @@ export function SettingsPanel({
     }
   }
   async function restore() {
+    if (!preview) return;
+    const inspectedJson = preview.json;
     setWorking(true);
     try {
-      const result = await importBackup(text);
+      const result = await importBackup(inspectedJson);
       setMessage(
         `復元しました。追加した回答 ${result.attemptsAdded}件、ブックマーク ${result.bookmarksAdded}件。既存の設定は保持しました。`,
       );
@@ -141,14 +154,23 @@ export function SettingsPanel({
             onChange={(e) => {
               const file = e.target.files?.[0];
               if (!file) return;
+              const readId = ++fileReadId.current;
+              setPreview(null);
+              setText("");
+              setMessage("");
               if (file.size > MAX_BACKUP_BYTES) {
                 setMessage("ファイルの上限は5MiBです。");
                 return;
               }
               void file
                 .text()
-                .then(setText)
-                .catch(() => setMessage("ファイルを読み込めませんでした。"));
+                .then((json) => {
+                  if (readId === fileReadId.current) setText(json);
+                })
+                .catch(() => {
+                  if (readId === fileReadId.current)
+                    setMessage("ファイルを読み込めませんでした。");
+                });
             }}
           />
         </label>
@@ -157,7 +179,11 @@ export function SettingsPanel({
           <textarea
             rows={5}
             value={text}
-            onChange={(e) => setText(e.target.value)}
+            onChange={(e) => {
+              fileReadId.current++;
+              setText(e.target.value);
+              setPreview(null);
+            }}
             maxLength={MAX_BACKUP_BYTES}
           />
         </label>
@@ -189,8 +215,10 @@ export function SettingsPanel({
           onClose={() => !working && setPreview(null)}
         >
           <p>
-            回答 {preview.attempts}件・ブックマーク {preview.bookmarks}
-            件を確認しました。重複は追加せず、競合があれば変更せず取り消します。
+            バックアップ内の回答 {preview.attempts}件、ブックマーク {preview.bookmarks}
+            件、ノート {preview.notes}件、復習予定 {preview.reviews}件、暗記カード {preview.cards}
+            件を確認しました。{preview.hasSession ? "中断中の演習も含まれます。" : ""}
+            重複は追加せず、競合があれば変更せず取り消します。
           </p>
           <p>
             テーマなどの既存設定は維持します。中断中の演習がなければバックアップの演習を復元します。異なる演習が既にある場合は全体を取り消します。
