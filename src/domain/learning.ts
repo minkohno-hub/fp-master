@@ -27,10 +27,11 @@ export function summarize(attempts: Attempt[]) {
 }
 export function reviewIds(attempts: Attempt[]): Set<string> {
   const latest = new Map<string, boolean>();
-  for (const attempt of attempts) latest.set(attempt.questionId, attempt.correct);
+  for (const attempt of [...attempts].sort((a,b)=>Date.parse(a.answeredAt)-Date.parse(b.answeredAt))) latest.set(attempt.questionId, attempt.correct);
   return new Set([...latest].filter(([, correct]) => !correct).map(([id]) => id));
 }
+/** @deprecated Legacy sample helper. Production sessions must use assessment.buildQuestionSet with the publication gate. */
 export function selectQuestions(questions: Question[], grade: Grade, mode: Mode, attempts: Attempt[], subject?: Subject): Question[] {
   const missed = reviewIds(attempts);
-  return questions.filter(q => q.grade === grade && (!subject || q.subject === subject) && (mode === 'calculation' ? q.kind === 'calculation' : mode === 'review' ? missed.has(q.id) : true));
+  return questions.filter(q => q.grade === grade && (!subject || q.subject === subject) && (mode === 'calculation' ? q.kind === 'calculation' : mode === 'review' ? missed.has(q.id) : q.kind === 'knowledge'));
 }

@@ -1,53 +1,1837 @@
-import { useEffect, useRef, useState } from 'react';
-import { questions } from './data/questions';
-import { selectQuestions, subjects, summarize, reviewIds, type Attempt, type Grade, type Mode, type Question, type Subject } from './domain/learning';
-import { loadHistory, saveHistory } from './features/history';
-type Page = 'home' | 'history' | 'review';
-interface Session { questions: Question[]; index: number; mode: Mode }
-export function App() {
-  const [initial] = useState(loadHistory);
-  const [attempts,setAttempts] = useState(initial.attempts);
-  const [warning,setWarning] = useState(initial.warning);
-  const [grade,setGrade] = useState<Grade>('3');
-  const [page,setPage] = useState<Page>('home');
-  const [session,setSession] = useState<Session | null>(null);
-  const [selected,setSelected] = useState<number | null>(null);
-  const [answered,setAnswered] = useState(false);
-  const [empty,setEmpty] = useState('');
-  const heading = useRef<HTMLHeadingElement>(null);
-  const gradeAttempts = attempts.filter(a => questions.some(q => q.id === a.questionId && q.grade === grade));
-  const stats = summarize(gradeAttempts);
-  const missed = reviewIds(gradeAttempts);
-  const current = session?.questions[session.index];
-  useEffect(() => { heading.current?.focus(); },[page,session?.index,Boolean(session)]);
-  function start(mode: Mode, subject?: Subject) {
-    const list = selectQuestions(questions,grade,mode,attempts,subject);
-    if (!list.length) { setEmpty('復習する問題はありません。演習で間違えた問題がここに集まります。'); return; }
-    setSession({questions:list,index:0,mode}); setSelected(null); setAnswered(false); setEmpty('');
+import { useEffect, useRef, useState } from "react";
+import { catalog as defaultCatalog, topicInventory } from "./data/catalog";
+import {
+  canPublish,
+  difficultyNames,
+  examNames,
+  type MaterialQuestion,
+  type Topic,
+} from "./domain/curriculum";
+import {
+  buildQuestionSet,
+  gradeAnswer,
+  type QuestionFilter,
+  type StudyMode,
+} from "./domain/assessment";
+import { analyzeLearning, getCoverage, type Rate } from "./domain/analytics";
+import { dueReviews, scheduleReview } from "./domain/review";
+import { mockReadiness } from "./domain/mockExam";
+import { examSpecifications } from "./data/examSpecifications";
+import { subjects, type Grade, type Subject } from "./domain/learning";
+import {
+  decimalToScaled,
+  divideRounded,
+  formatScaled,
+} from "./domain/calculations";
+import { useLearning } from "./features/useLearning";
+import {
+  terms as defaultTerms,
+  searchTerms,
+  type Term,
+} from "./features/glossary/terms";
+import { SessionView } from "./features/SessionView";
+import { SettingsPanel } from "./features/SettingsPanel";
+import { PlannerPanel } from "./features/PlannerPanel";
+import {
+  Button,
+  Dialog,
+  Empty,
+  Metric,
+  Panel,
+  Progress,
+} from "./components/ui";
+import {
+  LearningStorageError,
+  type LearningState,
+  type SelfRating,
+} from "./storage/types";
+type Page =
+  | "home"
+  | "practice"
+  | "calculation"
+  | "review"
+  | "glossary"
+  | "cards"
+  | "mock"
+  | "analytics"
+  | "coverage"
+  | "plan"
+  | "history"
+  | "saved"
+  | "settings"
+  | "session";
+const navigation: { id: Page; icon: string; label: string }[] = [
+  { id: "home", icon: "⌂", label: "ホーム" },
+  { id: "practice", icon: "▤", label: "問題演習" },
+  { id: "calculation", icon: "＋", label: "計算トレーニング" },
+  { id: "review", icon: "↻", label: "今日の復習" },
+  { id: "glossary", icon: "Aa", label: "用語集" },
+  { id: "cards", icon: "▣", label: "暗記カード" },
+  { id: "mock", icon: "◷", label: "模擬試験" },
+  { id: "analytics", icon: "↗", label: "成績・95%到達度" },
+  { id: "coverage", icon: "◇", label: "教材の網羅性" },
+  { id: "plan", icon: "▦", label: "学習計画" },
+  { id: "saved", icon: "☆", label: "保存・間違いノート" },
+  { id: "history", icon: "≡", label: "学習履歴" },
+  { id: "settings", icon: "⚙", label: "設定・バックアップ" },
+];
+const titles: Record<Page, [string, string]> = {
+  home: [
+    "今日の一問から、確かな力へ。",
+    "自分のペースで、一歩ずつ。目指すのは、その先の理解。",
+  ],
+  practice: [
+    "短い時間を、確かな知識に。",
+    "通常演習は知識問題のみ。計算は専用モードで学びます。",
+  ],
+  calculation: [
+    "手を動かして、計算を味方に。",
+    "数値・単位・端数処理を確認しながら学びましょう。",
+  ],
+  review: [
+    "苦手を、自信に変えよう。",
+    "正解しても曖昧だった問題を、適切な間隔でもう一度。",
+  ],
+  glossary: [
+    "言葉の意味から、理解をつなぐ。",
+    "確認済みの用語を検索し、関連する問題へ。",
+  ],
+  cards: [
+    "少しずつ、記憶を確かに。",
+    "用語の意味を思い出してから、裏面を確認しましょう。",
+  ],
+  mock: [
+    "本番に向けて、実力を確かめる。",
+    "公式の試験仕様と教材の確認後に本試験形式を提供します。",
+  ],
+  analytics: [
+    "95%へ、現在地を知ろう。",
+    "繰り返しの正解と、初見での理解を分けて確認します。",
+  ],
+  coverage: [
+    "学びの抜けを、見える形に。",
+    "問題数・論点の網羅性・あなたの習得を別々に管理します。",
+  ],
+  plan: [
+    "暮らしに合った、学びのリズム。",
+    "無理のない配分で、6分野と復習・計算を計画しましょう。",
+  ],
+  history: [
+    "積み重ねを、見える形に。",
+    "端末内に保存した回答履歴です。初見と再回答も区別します。",
+  ],
+  saved: [
+    "大切な学びを、手元に。",
+    "ブックマークと間違いノートをまとめて確認。",
+  ],
+  settings: [
+    "これからの学びを、安全に。",
+    "表示設定と端末間のバックアップを管理します。",
+  ],
+  session: ["問題演習", ""],
+};
+const percent = (r: Rate) => (r.accuracy === null ? "—" : `${r.accuracy}%`);
+const toggle = (ids: string[], id: string) =>
+  ids.includes(id) ? ids.filter((v) => v !== id) : [...ids, id];
+interface Props {
+  catalog?: MaterialQuestion[];
+  topics?: Topic[];
+  termCatalog?: Term[];
+}
+export function App({
+  catalog = defaultCatalog,
+  topics = topicInventory,
+  termCatalog = defaultTerms,
+}: Props) {
+  const { data, loading, saving, error, update, exportBackup, importBackup } =
+    useLearning();
+  const [page, setPage] = useState<Page>("home"),
+    [message, setMessage] = useState(""),
+    [more, setMore] = useState(false),
+    [summary, setSummary] = useState<{ total: number; correct: number } | null>(
+      null,
+    );
+  const [mode, setMode] = useState<StudyMode>("practice");
+  const [query, setQuery] = useState(""),
+    [term, setTerm] = useState<Term | null>(null),
+    [cardIndex, setCardIndex] = useState(0),
+    [flipped, setFlipped] = useState(false),
+    [termSubject, setTermSubject] = useState<Subject | "">("");
+  const [favoriteOnly, setFavoriteOnly] = useState(false),
+    [weakOnly, setWeakOnly] = useState(false);
+  const swipe = useRef<number | null>(null);
+  const [calcA, setCalcA] = useState(""),
+    [calcB, setCalcB] = useState(""),
+    [calcOp, setCalcOp] = useState("+"),
+    [calcResult, setCalcResult] = useState("");
+  const mainHeading = useRef<HTMLHeadingElement>(null);
+  const { grade, exam } = data.settings;
+  const published = catalog.filter((q) => canPublish(q));
+  const gradeCatalog = published.filter(
+    (q) => q.grade === grade && q.exam === exam,
+  );
+  const stats = analyzeLearning(catalog, data.attempts, grade, exam);
+  const coverage = getCoverage(topics, catalog, data.attempts, grade, exam);
+  const due = dueReviews(data.reviews).map((r) => r.questionId);
+  const missed = new Set(
+    data.attempts.filter((a) => !a.correct).map((a) => a.questionId),
+  );
+  const filter: QuestionFilter = {
+    grade,
+    exam,
+    mode:
+      page === "calculation"
+        ? "calculation"
+        : page === "review"
+          ? "review"
+          : mode,
+    count: data.settings.practiceCount,
+    subject: data.settings.subject,
+    difficulty: data.settings.difficulty,
+    topicId: data.settings.topicId,
+    unansweredOnly: data.settings.unansweredOnly,
+    bookmarkedOnly: data.settings.bookmarkedOnly,
+    origin: data.settings.origin,
+    year: data.settings.year,
+    wrongOnly: data.settings.wrongOnly,
+    dueOnly: data.settings.dueOnly,
+  };
+  const selection = buildQuestionSet(
+    catalog,
+    filter,
+    data.attempts,
+    data.bookmarks,
+    due,
+    () => 0.5,
+  );
+  const currentSession = data.session;
+  const currentQuestion = currentSession
+    ? published.find(
+        (q) => q.id === currentSession.questionIds[currentSession.currentIndex],
+      )
+    : undefined;
+  const termList = searchTerms(
+    termCatalog,
+    query,
+    grade,
+    termSubject || undefined,
+  ).filter((t) => !favoriteOnly || data.termFavorites.includes(t.id));
+  const cardList = termList
+    .filter(
+      (t) =>
+        !weakOnly ||
+        !data.cards.some((c) => c.termId === t.id && c.rating === "easy"),
+    )
+    .sort((a, b) => {
+      const da = data.cards.find((c) => c.termId === a.id)?.nextReviewAt ?? "";
+      const db = data.cards.find((c) => c.termId === b.id)?.nextReviewAt ?? "";
+      return da.localeCompare(db);
+    });
+  const card = cardList.length ? cardList[cardIndex % cardList.length] : null;
+  useEffect(() => {
+    document.documentElement.dataset.theme = data.settings.theme;
+  }, [data.settings.theme]);
+  useEffect(() => {
+    if (!loading) mainHeading.current?.focus();
+  }, [page, loading]);
+  function navigate(next: Page) {
+    setPage(next);
+    setMessage("");
+    setMore(false);
+    setSummary(null);
+    if (next === "practice") setMode("practice");
   }
-  function navigate(next: Page) {setSession(null);setPage(next);setEmpty('');}
-  function answer() {
-    if (!current || selected === null || answered) return;
-    const next: Attempt[] = [...attempts,{id:crypto.randomUUID(),questionId:current.id,selected,correct:selected === current.answer,answeredAt:new Date().toISOString()}];
-    setAttempts(next);setAnswered(true);
-    if (!initial.warning && !saveHistory(next)) setWarning('履歴を保存できませんでした。この画面を閉じると今回の記録が失われる可能性があります。');
+  async function setting(patch: Partial<LearningState["settings"]>) {
+    await update((s) => ({ ...s, settings: { ...s.settings, ...patch } }));
   }
-  return <div className="layout">
-    <a className="skip" href="#main">本文へ移動</a>
-    <aside className="sidebar"><a href="#" className="brand" onClick={e=>{e.preventDefault();navigate('home');}}><span className="brand-icon">F<span>↗</span></span>FP Master<span className="brand-sub">LEARN. GROW. ACHIEVE.</span></a>
-      <p className="nav-label">MY LEARNING</p><nav aria-label="メインメニュー">{([['home','⌂','ホーム'],['review','↻','復習'],['history','▤','学習履歴']] as const).map(([id,icon,label])=><button key={id} className={page===id&&!session?'nav-active':''} onClick={()=>navigate(id)}><span aria-hidden="true">{icon}</span>{label}{id==='review'&&missed.size>0&&<small>{missed.size}</small>}</button>)}</nav>
-      <div className="sidebar-note"><span>一歩ずつ、合格へ。</span><p>小さな積み重ねが、<br/>大きな自信になる。</p><div className="note-lines" aria-hidden="true">▂ ▄ ▅ ▇</div></div><p className="sidebar-footer">FP2級・3級 学習プラットフォーム</p>
-    </aside>
-    <div className="content"><header><span>あなたのペースで、着実に。</span><label className="grade-select">学習コース<select aria-label="学習コース" value={grade} onChange={e=>{setGrade(e.target.value as Grade);setSession(null);setEmpty('');}}><option value="3">FP3級</option><option value="2">FP2級</option></select></label></header>
-    <main id="main">{warning&&<p role="alert" className="notice">{warning}</p>}
-      {current && session ? <section className="exercise panel"><div className="section-top"><span className="eyebrow">{session.mode==='calculation'?'CALCULATION':'PRACTICE'} / FP{grade}級</span><button className="text-button" onClick={()=>setSession(null)}>演習を終了</button></div><p className="muted">問題 {session.index+1} / {session.questions.length} ・ {subjects.find(s=>s.id===current.subject)?.short}</p><h1 ref={heading} tabIndex={-1}>{current.prompt}</h1><fieldset disabled={answered}><legend>回答を1つ選択してください</legend>{current.choices.map((choice,i)=><label className={`choice ${selected===i?'chosen':''}`} key={choice}><input type="radio" name="answer" checked={selected===i} onChange={()=>setSelected(i)}/><span>{choice}</span></label>)}</fieldset>{!answered?<button className="primary" disabled={selected===null} onClick={answer}>回答する →</button>:<div className="explanation" role="status"><h2>{selected===current.answer?'正解です！':'もう一度、確認しましょう'}</h2><p><strong>正解：{current.choices[current.answer]}</strong></p><p>{current.explanation}</p><small>基準日：{current.referenceDate} ・ 基礎確認用サンプル</small><div><button className="primary" onClick={()=>{if(session.index+1<session.questions.length){setSession({...session,index:session.index+1});setSelected(null);setAnswered(false);}else{setSession(null);setPage('history');}}}>{session.index+1<session.questions.length?'次の問題へ →':'結果・学習履歴を見る →'}</button></div></div>}</section> : <>
-      <div className="page-heading"><div><p className="eyebrow">YOUR LEARNING JOURNEY</p><h1 ref={heading} tabIndex={-1}>{page==='home'?'今日の一問から、確かな力へ。':page==='review'?'苦手を、自信に変えよう。':'積み重ねを、見える形に。'}</h1><p className="muted">{page==='home'?'FP合格に向けて、自分のペースで学習を進めましょう。':page==='review'?'直近の回答で間違えた問題を、もう一度。':'この端末に保存された、あなたの学習記録です。'}</p></div><span className="course-badge">FP{grade}級コース</span></div>
-      <div className="stats"><article className="stat"><span>累計回答数</span><p>{stats.total}<small>問</small></p><span className="stat-foot">今日も一歩、前へ</span></article><article className="stat"><span>正答率</span><p>{stats.accuracy??'—'}<small>%</small></p><span className="stat-foot">目標 95%以上</span></article><article className="stat"><span>復習待ち</span><p>{missed.size}<small>問</small></p><button className="text-button" onClick={()=>navigate('review')}>苦手を確認する ↗</button></article></div>
-      {page==='home' ? <><section className="hero"><div><span className="hero-tag">LET’S GET STARTED</span><h2>「わかる」を増やす、<br/>今日の学習をはじめよう。</h2><p>6つの分野をバランスよく。<br className="mobile-break"/>一問ずつ、理解を深めていきましょう。</p><button className="light-button" onClick={()=>start('practice')}>問題演習をはじめる <span>→</span></button><small>基礎確認サンプル 全6問 / 何度でも挑戦できます</small></div><div className="hero-art" aria-hidden="true"><div className="orbit"></div><div className="art-card"><span>FP MASTER</span><strong>一問一歩。</strong><div>✓ 理解する<br/>✓ 積み重ねる<br/>✓ 自信になる</div></div><span className="art-star">✦</span></div></section>
-      <section><div className="section-title"><h2>分野から学ぶ</h2><span>6 FIELDS</span></div><div className="subjects">{subjects.map((s,i)=><button key={s.id} className="subject" onClick={()=>start('practice',s.id)}><span className={`subject-icon color-${i}`} aria-hidden="true">{s.icon}</span><div><small>FIELD 0{i+1}</small><h3>{s.name}</h3><span>サンプル 1問</span></div><span className="arrow">↗</span></button>)}</div></section>
-      <section className="tools"><article className="panel tool"><span className="tool-icon" aria-hidden="true">＋ −<br/>× ÷</span><div><h2>計算トレーニング</h2><p>手を動かして、計算の基礎を確実に。</p><button className="text-button" onClick={()=>start('calculation')}>計算問題に挑戦する →</button></div></article><article className="panel tool coming"><span className="tool-icon" aria-hidden="true">▤</span><div><span className="soon">準備中</span><h2>模擬試験</h2><p>本番形式で実力をチェック。今後追加予定。</p></div></article></section></> : page==='review'?<section className="panel"><h2>復習リスト <small>{missed.size}問</small></h2>{missed.size?<><p>正解すると復習リストから外れます。</p><button className="primary" onClick={()=>start('review')}>復習をはじめる →</button><ul className="review-list">{questions.filter(q=>q.grade===grade&&missed.has(q.id)).map(q=><li key={q.id}>{q.prompt}</li>)}</ul></>:<div className="empty"><span aria-hidden="true">✓</span><h3>復習待ちの問題はありません</h3><p>演習で間違えた問題がここに集まります。</p><button className="primary" onClick={()=>start('practice')}>問題演習へ →</button></div>}</section>:<section className="panel"><h2>回答履歴</h2>{gradeAttempts.length?<ol className="history">{[...gradeAttempts].reverse().map(a=>{const q=questions.find(q=>q.id===a.questionId);return <li key={a.id}><span className={a.correct?'result-correct':'result-wrong'}>{a.correct?'正解':'不正解'}</span><div><p>{q?.prompt??'削除された問題'}</p><small>{new Date(a.answeredAt).toLocaleString('ja-JP')} ・ 回答：{q?.choices[a.selected]??'—'}</small></div></li>;})}</ol>:<div className="empty"><h3>ここから、学習をはじめましょう</h3><p>回答すると履歴と正答率が記録されます。</p><button className="primary" onClick={()=>start('practice')}>最初の一問へ →</button></div>}</section>}
-      {empty&&<p role="status" className="notice">{empty}</p>}
-      </>}
-      <footer><strong>FP Master</strong><p>現在は開発用の基礎確認サンプルです。両級で共通の6問を使用しています。<br/>試験範囲の網羅・合格・正答率95%を保証するものではありません。履歴はこのブラウザ内に保存されます。</p></footer>
-    </main></div></div>;
+  async function begin(
+    selectedMode: StudyMode,
+    count = data.settings.practiceCount,
+    subject?: Subject,
+  ) {
+    if (data.session) {
+      setMessage(
+        "中断中の演習があります。「続きを再開」から完了してください。設定は次の演習に適用します。",
+      );
+      return;
+    }
+    const next = buildQuestionSet(
+      catalog,
+      {
+        ...filter,
+        mode: selectedMode,
+        count,
+        subject: subject ?? filter.subject,
+      },
+      data.attempts,
+      data.bookmarks,
+      due,
+    );
+    if (!next.questions.length) {
+      navigate(
+        selectedMode === "calculation"
+          ? "calculation"
+          : selectedMode === "review"
+            ? "review"
+            : "practice",
+      );
+      setMessage(
+        `条件に合う確認済み問題は0問です。未確認の教材は出題しません。`,
+      );
+      return;
+    }
+    const now = new Date().toISOString();
+    if (
+      await update((s) => {
+        if (s.session)
+          throw new LearningStorageError(
+            "conflict",
+            "別の画面で開始した演習があります。再読み込みして再開してください。",
+          );
+        return {
+          ...s,
+          session: {
+            id: crypto.randomUUID(),
+            grade,
+            exam,
+            mode: selectedMode,
+            questionIds: next.questions.map((q) => q.id),
+            currentIndex: 0,
+            answers: {},
+            selfRatings: {},
+            startedAt: now,
+            updatedAt: now,
+          },
+        };
+      })
+    ) {
+      setPage("session");
+      setSummary(null);
+      setMessage(
+        next.shortage
+          ? `指定${count}問に対し出題可能${next.questions.length}問で開始しました。重複で補いません。`
+          : "",
+      );
+    }
+  }
+  function rebuildReview(s: LearningState, questionId: string) {
+    let review;
+    for (const a of s.attempts
+      .filter((a) => a.questionId === questionId)
+      .sort((a, b) => Date.parse(a.answeredAt) - Date.parse(b.answeredAt)))
+      review = scheduleReview(review, {
+        questionId,
+        correct: a.correct,
+        rating: a.selfRating ?? (a.correct ? "good" : "again"),
+        answeredAt: a.answeredAt,
+      });
+    return review;
+  }
+  async function answer(response: number | string, durationMs: number) {
+    if (!currentQuestion || !currentSession) return false;
+    const q = currentQuestion;
+    const result = gradeAnswer(q, response);
+    if (!result.valid) return false;
+    const now = new Date().toISOString();
+    return update((s) => {
+      if (
+        !s.session ||
+        s.session.id !== currentSession.id ||
+        s.session.currentIndex !== currentSession.currentIndex ||
+        s.session.questionIds[s.session.currentIndex] !== q.id ||
+        s.session.answers[q.id] !== undefined
+      )
+        throw new LearningStorageError(
+          "conflict",
+          "演習状態が更新されています。再読み込みして続けてください。",
+        );
+      const rating: SelfRating = result.correct ? "good" : "again";
+      const attempts = [
+        ...s.attempts,
+        {
+          id: `${s.session.id}/${q.id}`,
+          questionId: q.id,
+          selected: typeof response === "number" ? response : 0,
+          response,
+          correct: result.correct,
+          answeredAt: now,
+          grade: q.grade,
+          exam: q.exam,
+          subject: q.subject,
+          difficulty: q.difficulty,
+          mode: s.session.mode,
+          durationMs,
+          selfRating: rating,
+        },
+      ];
+      const state = { ...s, attempts };
+      const review = rebuildReview(state, q.id)!;
+      return {
+        ...state,
+        reviews: [...s.reviews.filter((r) => r.questionId !== q.id), review],
+        session: {
+          ...s.session,
+          answers: { ...s.session.answers, [q.id]: response },
+          selfRatings: { ...s.session.selfRatings, [q.id]: rating },
+          updatedAt: now,
+        },
+      };
+    });
+  }
+  async function rate(rating: SelfRating) {
+    if (!currentQuestion || !currentSession) return;
+    const id = `${currentSession.id}/${currentQuestion.id}`;
+    await update((s) => {
+      if (
+        !s.session ||
+        s.session.id !== currentSession.id ||
+        s.session.currentIndex !== currentSession.currentIndex ||
+        s.session.answers[currentQuestion.id] === undefined
+      )
+        throw new LearningStorageError(
+          "conflict",
+          "演習状態が変わりました。再読み込みしてください。",
+        );
+      const attempts = s.attempts.map((a) =>
+        a.id === id ? { ...a, selfRating: rating } : a,
+      );
+      const state = { ...s, attempts };
+      const review = rebuildReview(state, currentQuestion.id);
+      return {
+        ...state,
+        reviews: review
+          ? [
+              ...s.reviews.filter((r) => r.questionId !== currentQuestion.id),
+              review,
+            ]
+          : s.reviews,
+        session: s.session
+          ? {
+              ...s.session,
+              selfRatings: {
+                ...s.session.selfRatings,
+                [currentQuestion.id]: rating,
+              },
+            }
+          : null,
+      };
+    });
+  }
+  async function next() {
+    if (!currentSession) return;
+    const final =
+      currentSession.currentIndex + 1 >= currentSession.questionIds.length;
+    const sessionAttempts = data.attempts.filter((a) =>
+      a.id.startsWith(`${currentSession.id}/`),
+    );
+    if (
+      (await update((s) => {
+        if (
+          !s.session ||
+          s.session.id !== currentSession.id ||
+          s.session.currentIndex !== currentSession.currentIndex ||
+          s.session.answers[
+            currentSession.questionIds[currentSession.currentIndex]
+          ] === undefined
+        )
+          throw new LearningStorageError(
+            "conflict",
+            "演習状態が変わりました。再読み込みしてください。",
+          );
+        return {
+          ...s,
+          session: final
+            ? null
+            : s.session
+              ? {
+                  ...s.session,
+                  currentIndex: s.session.currentIndex + 1,
+                  updatedAt: new Date().toISOString(),
+                }
+              : null,
+        };
+      })) &&
+      final
+    ) {
+      setSummary({
+        total: sessionAttempts.length,
+        correct: sessionAttempts.filter((a) => a.correct).length,
+      });
+      setPage("home");
+    }
+  }
+  async function bookmark(id: string) {
+    await update((s) => ({ ...s, bookmarks: toggle(s.bookmarks, id) }));
+  }
+  async function note(text: string) {
+    if (!currentQuestion) return;
+    const id = currentQuestion.id;
+    if (
+      await update((s) => ({
+        ...s,
+        notes: [
+          ...s.notes.filter((n) => n.questionId !== id),
+          {
+            id: `note/${id}`,
+            questionId: id,
+            text,
+            updatedAt: new Date().toISOString(),
+          },
+        ],
+      }))
+    )
+      setMessage("ノートを保存しました。");
+  }
+  async function rateCard(rating: SelfRating) {
+    if (!card) return;
+    const now = new Date().toISOString();
+    const nextDate = new Date();
+    nextDate.setDate(
+      nextDate.getDate() +
+        (rating === "again"
+          ? 1
+          : rating === "hard"
+            ? 2
+            : rating === "good"
+              ? 6
+              : 14),
+    );
+    if (
+      await update((s) => ({
+        ...s,
+        cards: [
+          ...s.cards.filter((c) => c.termId !== card.id),
+          {
+            termId: card.id,
+            rating,
+            reviewedAt: now,
+            nextReviewAt: nextDate.toISOString(),
+            repetitions:
+              (s.cards.find((c) => c.termId === card.id)?.repetitions ?? 0) + 1,
+          },
+        ],
+      }))
+    ) {
+      setCardIndex((i) => i + 1);
+      setFlipped(false);
+    }
+  }
+  function calculate() {
+    try {
+      const a = decimalToScaled(calcA, 8, "half-up"),
+        b = decimalToScaled(calcB, 8, "half-up"),
+        scale = 100000000n;
+      let value;
+      if (calcOp === "+") value = a + b;
+      else if (calcOp === "−") value = a - b;
+      else if (calcOp === "×") value = divideRounded(a * b, scale, "half-up");
+      else {
+        if (b === 0n) throw new Error("0では割れません。");
+        value = divideRounded(
+          a * scale * (b < 0n ? -1n : 1n),
+          b < 0n ? -b : b,
+          "half-up",
+        );
+      }
+      setCalcResult(formatScaled(value, 8).replace(/\.?0+$/, "") || "0");
+    } catch (e) {
+      setCalcResult(
+        e instanceof Error ? e.message : "数値を確認してください。",
+      );
+    }
+  }
+  const modeLabel =
+    page === "calculation"
+      ? "計算トレーニング"
+      : page === "review"
+        ? "復習"
+        : "通常演習";
+  if (loading)
+    return (
+      <div className="loading" role="status">
+        <strong>FP Master</strong>
+        <p>学習データを確認しています…</p>
+      </div>
+    );
+  return (
+    <div className="app">
+      <a className="skip" href="#main">
+        本文へ移動
+      </a>
+      <aside className="sidebar">
+        <a
+          className="brand"
+          href="#"
+          onClick={(e) => {
+            e.preventDefault();
+            navigate("home");
+          }}
+        >
+          <span className="brand-icon">F↗</span>
+          <span>
+            FP Master<small>LEARN. GROW. ACHIEVE.</small>
+          </span>
+        </a>
+        <p className="nav-caption">MY LEARNING</p>
+        <nav aria-label="メインメニュー">
+          {navigation.map((n) => (
+            <button
+              key={n.id}
+              aria-current={page === n.id ? "page" : undefined}
+              onClick={() => navigate(n.id)}
+            >
+              <span aria-hidden="true">{n.icon}</span>
+              {n.label}
+              {n.id === "review" && due.length > 0 && (
+                <small>{due.length}</small>
+              )}
+            </button>
+          ))}
+        </nav>
+        <div className="sidebar-note">
+          <strong>一歩ずつ、合格の先へ。</strong>
+          <p>
+            理解する。振り返る。
+            <br />
+            あなたの学びを積み重ねる。
+          </p>
+          <span aria-hidden="true">▂ ▄ ▅ ▇</span>
+        </div>
+      </aside>
+      <div className="workspace">
+        <header className="topbar">
+          <span className="mobile-brand">FP Master</span>
+          <span className="desktop-tagline">あなたのペースで、着実に。</span>
+          <div className="course-switch">
+            <label>
+              <span>級</span>
+              <select
+                aria-label="対象級"
+                disabled={saving}
+                value={grade}
+                onChange={(e) =>
+                  void setting({ grade: e.target.value as Grade })
+                }
+              >
+                <option value="3">FP3級</option>
+                <option value="2">FP2級</option>
+              </select>
+            </label>
+            <label>
+              <span>試験区分</span>
+              <select
+                aria-label="試験区分"
+                disabled={saving}
+                value={exam}
+                onChange={(e) =>
+                  void setting({
+                    exam: e.target.value as "academic" | "practical",
+                  })
+                }
+              >
+                <option value="academic">学科</option>
+                <option value="practical">実技（資産設計）</option>
+              </select>
+            </label>
+          </div>
+        </header>
+        <main id="main">
+          <div className="page-heading">
+            <div>
+              <p className="eyebrow">YOUR LEARNING JOURNEY</p>
+              <h1 ref={mainHeading} tabIndex={-1}>
+                {titles[page][0]}
+              </h1>
+              <p>{titles[page][1]}</p>
+            </div>
+            <span className="course-badge">
+              FP{grade}級 ・ {exam === "academic" ? "学科" : "日本FP協会 実技"}
+            </span>
+          </div>
+          {error && (
+            <p role="alert" className="notice notice-error">
+              {error} 保存できたと確認できるまで画面を閉じないでください。
+            </p>
+          )}
+          {message && (
+            <p role="status" className="notice">
+              {message}
+            </p>
+          )}
+          {saving && (
+            <p className="saving" role="status">
+              保存しています…
+            </p>
+          )}
+          {currentSession && page !== "session" && (
+            <div className="resume">
+              <div>
+                <strong>中断中の演習があります</strong>
+                <p>
+                  FP{currentSession.grade}級 ・{" "}
+                  {currentSession.mode === "calculation"
+                    ? "計算"
+                    : currentSession.mode === "review"
+                      ? "復習"
+                      : "知識演習"}{" "}
+                  ・ {currentSession.currentIndex + 1}/
+                  {currentSession.questionIds.length}問
+                </p>
+              </div>
+              <Button variant="secondary" onClick={() => navigate("session")}>
+                続きを再開 →
+              </Button>
+            </div>
+          )}
+          {page === "session" ? (
+            currentQuestion && currentSession ? (
+              <SessionView
+                key={`${currentSession.id}/${currentQuestion.id}`}
+                question={currentQuestion}
+                data={data}
+                saving={saving}
+                terms={termCatalog}
+                onAnswer={answer}
+                onRating={rate}
+                onNext={next}
+                onPause={() => navigate("home")}
+                onBookmark={() => bookmark(currentQuestion.id)}
+                onNote={note}
+              />
+            ) : (
+              <Panel>
+                <Empty title="出題対象の教材を確認できません">
+                  <p>
+                    教材が削除・隔離された可能性があります。履歴と中断データは保全しています。設定からバックアップしてください。
+                  </p>
+                  <Button onClick={() => navigate("settings")}>
+                    バックアップへ
+                  </Button>
+                </Empty>
+              </Panel>
+            )
+          ) : null}
+          {page === "home" && (
+            <>
+              {summary && (
+                <Panel>
+                  <h2>学習おつかれさまでした。</h2>
+                  <p role="status">
+                    {summary.total}問中{summary.correct}問正解。
+                    {summary.total
+                      ? Math.floor((summary.correct / summary.total) * 100)
+                      : 0}
+                    %でした。
+                  </p>
+                  <Button
+                    variant="secondary"
+                    onClick={() => navigate("history")}
+                  >
+                    回答を振り返る →
+                  </Button>
+                </Panel>
+              )}
+              <div className="home-intro">
+                <div className="metrics">
+                  <Metric
+                    label="累計回答数"
+                    value={
+                      <>
+                        {stats.cumulative.total}
+                        <small>問</small>
+                      </>
+                    }
+                    note="確認済み教材の回答のみ"
+                  />
+                  <Metric
+                    label="初見正答率"
+                    value={percent(stats.firstSeen)}
+                    note={`${stats.firstSeen.total}問 / 個人目標95%以上`}
+                  />
+                  <Metric
+                    label="今日の復習"
+                    value={
+                      <>
+                        {
+                          due.filter((id) =>
+                            gradeCatalog.some((q) => q.id === id),
+                          ).length
+                        }
+                        <small>問</small>
+                      </>
+                    }
+                    note="正解でも曖昧なら復習へ"
+                  />
+                </div>
+                <section className="hero">
+                  <div>
+                    <span className="eyebrow">A LITTLE EVERY DAY</span>
+                    <h2>
+                      わかる喜びを、
+                      <br />
+                      今日の5問から。
+                    </h2>
+                    <p>
+                      すきま時間に知識を磨いて、
+                      <br />
+                      自分の言葉で説明できる理解へ。
+                    </p>
+                    <Button
+                      disabled={saving}
+                      onClick={() => void begin("practice", 5)}
+                    >
+                      すぐに5問解く <span>→</span>
+                    </Button>
+                    <small>
+                      計算問題は含みません ・ 出題可能
+                      {
+                        gradeCatalog.filter((q) => q.kind === "knowledge")
+                          .length
+                      }
+                      問
+                    </small>
+                  </div>
+                  <div className="hero-art" aria-hidden="true">
+                    <div className="orbit" />
+                    <div className="study-book">
+                      <small>FP MASTER</small>
+                      <strong>一問一歩。</strong>
+                      <span>
+                        理解する
+                        <br />
+                        積み重ねる
+                        <br />
+                        自信になる
+                      </span>
+                    </div>
+                    <i>✦</i>
+                  </div>
+                </section>
+              </div>
+              <div className="section-row">
+                <h2>6つの分野を、バランスよく。</h2>
+                <Button variant="quiet" onClick={() => navigate("coverage")}>
+                  収録状況を見る ↗
+                </Button>
+              </div>
+              <div className="subject-grid">
+                {subjects.map((s, i) => (
+                  <button
+                    className="subject-card"
+                    key={s.id}
+                    onClick={() => void begin("practice", 5, s.id)}
+                    disabled={saving}
+                  >
+                    <span
+                      className={`subject-icon subject-${i}`}
+                      aria-hidden="true"
+                    >
+                      {s.icon}
+                    </span>
+                    <small>FIELD 0{i + 1}</small>
+                    <h3>{s.name}</h3>
+                    <span>
+                      {gradeCatalog.filter((q) => q.subject === s.id).length}問
+                      収録 <span aria-hidden="true">↗</span>
+                    </span>
+                  </button>
+                ))}
+              </div>
+              <div className="feature-grid">
+                <Panel>
+                  <span className="eyebrow">CALCULATION</span>
+                  <h2>計算を、確実な得点源に。</h2>
+                  <p>知識演習とは分けて、式と手順から理解する。</p>
+                  <Button
+                    variant="secondary"
+                    onClick={() => navigate("calculation")}
+                  >
+                    計算トレーニングへ →
+                  </Button>
+                </Panel>
+                <Panel>
+                  <span className="eyebrow">YOUR PROGRESS</span>
+                  <h2>95%への道筋を、正直に。</h2>
+                  <p>初見・復習・未学習範囲を別々に確認できます。</p>
+                  <Button
+                    variant="secondary"
+                    onClick={() => navigate("analytics")}
+                  >
+                    到達度を見る →
+                  </Button>
+                </Panel>
+              </div>
+              <div className="editorial-note">
+                <strong>教材品質の確認を進めています</strong>
+                <p>
+                  確認済み・公開可能な教材は現在0問です。既存サンプル12問は出典未確認のため隔離しています。原典と利用条件を確認するまで出題しません。
+                </p>
+                <Button variant="quiet" onClick={() => navigate("coverage")}>
+                  不足範囲と確認状況 →
+                </Button>
+              </div>
+            </>
+          )}
+          {(["practice", "calculation", "review"] as Page[]).includes(page) && (
+            <>
+              <Panel>
+                <div className="section-row">
+                  <h2>{modeLabel}の条件</h2>
+                  <span className="pill">出題可能 {selection.available}問</span>
+                </div>
+                <div className="form-grid">
+                  <label className="field">
+                    問題数
+                    <select
+                      value={
+                        [5, 10, 20, 50, 100].includes(
+                          data.settings.practiceCount,
+                        )
+                          ? String(data.settings.practiceCount)
+                          : "custom"
+                      }
+                      onChange={(e) => {
+                        if (e.target.value !== "custom")
+                          void setting({
+                            practiceCount: Number(e.target.value),
+                          });
+                        else void setting({ practiceCount: 7 });
+                      }}
+                      disabled={saving}
+                    >
+                      {[5, 10, 20, 50, 100].map((n) => (
+                        <option key={n} value={n}>
+                          {n}問
+                        </option>
+                      ))}
+                      <option value="custom">任意の問題数</option>
+                    </select>
+                  </label>
+                  <label className="field">
+                    出題数（1〜1000問）
+                    <input
+                      type="number"
+                      min={1}
+                      max={1000}
+                      value={data.settings.practiceCount}
+                      disabled={saving}
+                      onChange={(e) => {
+                        const n = Number(e.target.value);
+                        if (Number.isInteger(n) && n >= 1 && n <= 1000)
+                          void setting({ practiceCount: n });
+                      }}
+                    />
+                  </label>
+                  <label className="field">
+                    分野
+                    <select
+                      value={data.settings.subject ?? ""}
+                      disabled={saving}
+                      onChange={(e) =>
+                        void setting({
+                          subject: (e.target.value || undefined) as
+                            Subject | undefined,
+                          topicId: undefined,
+                        })
+                      }
+                    >
+                      <option value="">すべての分野</option>
+                      {subjects.map((s) => (
+                        <option key={s.id} value={s.id}>
+                          {s.short}
+                        </option>
+                      ))}
+                    </select>
+                  </label>
+                  <label className="field">
+                    論点
+                    <select
+                      value={data.settings.topicId ?? ""}
+                      disabled={saving}
+                      onChange={(e) =>
+                        void setting({ topicId: e.target.value || undefined })
+                      }
+                    >
+                      <option value="">すべての論点</option>
+                      {topics
+                        .filter(
+                          (t) =>
+                            !data.settings.subject ||
+                            t.subject === data.settings.subject,
+                        )
+                        .map((t) => (
+                          <option key={t.id} value={t.id}>
+                            {t.point}
+                          </option>
+                        ))}
+                    </select>
+                  </label>
+                  <label className="field">
+                    難易度
+                    <select
+                      value={data.settings.difficulty ?? ""}
+                      disabled={saving}
+                      onChange={(e) =>
+                        void setting({
+                          difficulty: (e.target.value ||
+                            undefined) as LearningState["settings"]["difficulty"],
+                        })
+                      }
+                    >
+                      <option value="">すべての難易度</option>
+                      {Object.entries(difficultyNames).map(([id, name]) => (
+                        <option key={id} value={id}>
+                          {name}
+                        </option>
+                      ))}
+                    </select>
+                  </label>
+                  <label className="field">
+                    出題年度
+                    <select
+                      value={data.settings.year ?? ""}
+                      disabled={saving}
+                      onChange={(e) =>
+                        void setting({
+                          year: e.currentTarget.value
+                            ? Number(e.currentTarget.value)
+                            : undefined,
+                        })
+                      }
+                    >
+                      <option value="">すべての年度</option>
+                      {[
+                        ...new Set(
+                          gradeCatalog
+                            .map((q) => q.year)
+                            .filter((year): year is number => year !== null),
+                        ),
+                      ]
+                        .sort((a, b) => b - a)
+                        .map((year) => (
+                          <option key={year} value={year}>
+                            {year}年
+                          </option>
+                        ))}
+                    </select>
+                  </label>
+                  <label className="field">
+                    教材の種類
+                    <select
+                      value={data.settings.origin ?? ""}
+                      disabled={saving}
+                      onChange={(e) =>
+                        void setting({
+                          origin: (e.target.value ||
+                            undefined) as LearningState["settings"]["origin"],
+                        })
+                      }
+                    >
+                      <option value="">すべての教材</option>
+                      <option value="official">公式過去問</option>
+                      <option value="adapted">加工問題</option>
+                      <option value="original">オリジナル問題</option>
+                    </select>
+                  </label>
+                </div>
+                <div className="button-row">
+                  <label className="check">
+                    <input
+                      type="checkbox"
+                      checked={data.settings.unansweredOnly ?? false}
+                      disabled={saving}
+                      onChange={(e) =>
+                        void setting({ unansweredOnly: e.target.checked })
+                      }
+                    />
+                    初見問題のみ
+                  </label>
+                  <label className="check">
+                    <input
+                      type="checkbox"
+                      checked={data.settings.bookmarkedOnly ?? false}
+                      disabled={saving}
+                      onChange={(e) =>
+                        void setting({ bookmarkedOnly: e.target.checked })
+                      }
+                    />
+                    ブックマークのみ
+                  </label>
+                  <label className="check">
+                    <input
+                      type="checkbox"
+                      checked={data.settings.wrongOnly ?? false}
+                      disabled={saving}
+                      onChange={(e) =>
+                        void setting({ wrongOnly: e.currentTarget.checked })
+                      }
+                    />
+                    直近で間違えた問題
+                  </label>
+                  <label className="check">
+                    <input
+                      type="checkbox"
+                      checked={data.settings.dueOnly ?? false}
+                      disabled={saving}
+                      onChange={(e) =>
+                        void setting({ dueOnly: e.currentTarget.checked })
+                      }
+                    />
+                    今日の復習対象
+                  </label>
+                </div>
+                <p className="notice">
+                  指定{filter.count}問 / 出題可能{selection.available}問。
+                  {selection.shortage > 0
+                    ? `${selection.shortage}問不足しています。問題を重複させず、最大${selection.questions.length}問を出題します。`
+                    : "条件を満たしています。"}
+                  {filter.mode === "practice"
+                    ? " 通常演習に計算問題は入りません。"
+                    : ""}
+                </p>
+                <Button
+                  disabled={
+                    saving ||
+                    selection.questions.length === 0 ||
+                    Boolean(data.session)
+                  }
+                  onClick={() => void begin(filter.mode)}
+                >
+                  {selection.questions.length}問の{modeLabel}を開始 →
+                </Button>
+                {selection.questions.length === 0 && (
+                  <Empty title="確認済みの出題候補がありません">
+                    <p>
+                      原典確認とWeb利用条件の確認が完了した教材だけを出題します。絞り込み条件や教材の収録状況を確認してください。
+                    </p>
+                    <Button
+                      variant="secondary"
+                      onClick={() => navigate("coverage")}
+                    >
+                      教材の収録状況へ
+                    </Button>
+                  </Empty>
+                )}
+              </Panel>
+              {page === "review" && (
+                <Panel>
+                  <h2>復習の仕組み</h2>
+                  <p>
+                    SM-2を参考に、正誤と自己評価から次回日を計算します。間違い・「覚えていない」は翌日、初回の「理解した」は翌日、次は6日後です。「曖昧」は最大2日で再確認します。
+                  </p>
+                  <p>
+                    記録済みの復習予定 {data.reviews.length}件 /
+                    過去に間違えた問題 {missed.size}
+                    問。隔離された問題は復習にも出題しません。
+                  </p>
+                  <ul className="plain-list">
+                    {data.reviews
+                      .filter((r) =>
+                        gradeCatalog.some((q) => q.id === r.questionId),
+                      )
+                      .slice(0, 30)
+                      .map((r) => (
+                        <li key={r.questionId}>
+                          <span>
+                            {
+                              gradeCatalog.find((q) => q.id === r.questionId)
+                                ?.prompt
+                            }
+                          </span>
+                          <time>
+                            {new Date(r.nextReviewAt).toLocaleDateString(
+                              "ja-JP",
+                            )}
+                          </time>
+                        </li>
+                      ))}
+                  </ul>
+                </Panel>
+              )}
+              {page === "calculation" && (
+                <Panel>
+                  <h2>学習用電卓</h2>
+                  <p className="caption">
+                    各入力は小数8桁に四捨五入し、結果も小数8桁まで。実際の問題では指定された単位と端数処理に従ってください。
+                  </p>
+                  <form
+                    className="calculator"
+                    onSubmit={(e) => {
+                      e.preventDefault();
+                      calculate();
+                    }}
+                  >
+                    <label className="field">
+                      数値A
+                      <input
+                        inputMode="decimal"
+                        value={calcA}
+                        onChange={(e) => setCalcA(e.target.value)}
+                      />
+                    </label>
+                    <label className="field">
+                      演算
+                      <select
+                        value={calcOp}
+                        onChange={(e) => setCalcOp(e.target.value)}
+                      >
+                        {["+", "−", "×", "÷"].map((o) => (
+                          <option key={o}>{o}</option>
+                        ))}
+                      </select>
+                    </label>
+                    <label className="field">
+                      数値B
+                      <input
+                        inputMode="decimal"
+                        value={calcB}
+                        onChange={(e) => setCalcB(e.target.value)}
+                      />
+                    </label>
+                    <Button>計算する</Button>
+                  </form>
+                  <output aria-live="polite" className="calculator-result">
+                    {calcResult}
+                  </output>
+                </Panel>
+              )}
+            </>
+          )}
+          {page === "analytics" && (
+            <>
+              <div className="metrics metrics-four">
+                <Metric
+                  label="累計正答率"
+                  value={percent(stats.cumulative)}
+                  note={`${stats.cumulative.total}回答`}
+                />
+                <Metric
+                  label="直近20回答"
+                  value={percent(stats.recent)}
+                  note={`${stats.recent.total}回答`}
+                />
+                <Metric
+                  label="初見正答率"
+                  value={percent(stats.firstSeen)}
+                  note={`${stats.firstSeen.total}問題`}
+                />
+                <Metric
+                  label="再回答・復習正答率"
+                  value={percent(stats.review)}
+                  note={`${stats.review.total}回答`}
+                />
+              </div>
+              <Panel>
+                <h2>95%目標の現在地</h2>
+                <Progress
+                  value={stats.firstSeen.accuracy}
+                  label="初見問題の正答率"
+                />
+                <p className="notice">{stats.confidenceMessage}</p>
+                <p>
+                  95%は個人の学習目標です。60点満点では57点、100点満点では95点に相当します。公式合格基準は別の指標であり、現行の公式資料の確認待ちです。
+                </p>
+                <dl className="info-list">
+                  <div>
+                    <dt>通常演習</dt>
+                    <dd>{percent(stats.practice)}</dd>
+                  </div>
+                  <div>
+                    <dt>計算演習</dt>
+                    <dd>{percent(stats.calculation)}</dd>
+                  </div>
+                  <div>
+                    <dt>模擬試験</dt>
+                    <dd>{percent(stats.mock)}</dd>
+                  </div>
+                  <div>
+                    <dt>未学習問題</dt>
+                    <dd>{stats.unlearnedQuestionCount}問</dd>
+                  </div>
+                  <div>
+                    <dt>解答時間の合計</dt>
+                    <dd>{Math.round(stats.durationMs / 60000)}分</dd>
+                  </div>
+                  <div>
+                    <dt>平均解答時間</dt>
+                    <dd>
+                      {stats.meanDurationMs === null
+                        ? "—"
+                        : `${Math.round(stats.meanDurationMs / 1000)}秒`}
+                    </dd>
+                  </div>
+                </dl>
+              </Panel>
+              <div className="two-column">
+                <Panel>
+                  <h2>分野別の正答率</h2>
+                  {subjects.map((s) => (
+                    <Progress
+                      key={s.id}
+                      label={`${s.short}（${stats.bySubject[s.id].total}回答）`}
+                      value={stats.bySubject[s.id].accuracy}
+                    />
+                  ))}
+                </Panel>
+                <Panel>
+                  <h2>難易度別の正答率</h2>
+                  {(
+                    Object.keys(
+                      difficultyNames,
+                    ) as (keyof typeof difficultyNames)[]
+                  ).map((d) => (
+                    <Progress
+                      key={d}
+                      label={`${difficultyNames[d]}（${stats.byDifficulty[d].total}回答）`}
+                      value={stats.byDifficulty[d].accuracy}
+                    />
+                  ))}
+                  <p className="caption">
+                    回答が少ない分野の数字だけで理解度を断定しません。未学習論点を優先して確認してください。
+                  </p>
+                  <Button
+                    variant="secondary"
+                    onClick={() => navigate("coverage")}
+                  >
+                    未収録・未習得の論点へ
+                  </Button>
+                </Panel>
+              </div>
+            </>
+          )}
+          {page === "coverage" && (
+            <>
+              <div className="metrics">
+                <Metric
+                  label="確認済み・公開可能問題"
+                  value={`${coverage.verifiedQuestions}問`}
+                  note={`収録候補 ${coverage.totalQuestions}問`}
+                />
+                <Metric
+                  label="公式論点の教材網羅率"
+                  value={
+                    coverage.topicCoverage === null
+                      ? "算定不能"
+                      : `${Math.floor(coverage.topicCoverage * 100)}%`
+                  }
+                  note="公式範囲の分母を確認中"
+                />
+                <Metric
+                  label="個人の論点習得率"
+                  value={
+                    coverage.masteryRate === null
+                      ? "算定不能"
+                      : `${Math.floor(coverage.masteryRate * 100)}%`
+                  }
+                  note="同じ問題の反復だけでは判定しません"
+                />
+              </div>
+              <Panel>
+                <h2>公式試験範囲との照合</h2>
+                <p className="notice">
+                  公式サイトへの接続が403で拒否され、最新の試験範囲・仕様・教材利用条件を確認できていません。以下は要件から作成した暫定論点表です。完全網羅と判断できる分母は未確定です。
+                </p>
+                <p>
+                  問題の確認率：
+                  {coverage.questionVerificationRate === null
+                    ? "対象問題なし"
+                    : `${Math.floor(coverage.questionVerificationRate * 100)}%`}{" "}
+                  / 未学習論点の割合：
+                  {coverage.unlearnedTopicRatio === null
+                    ? "算定不能"
+                    : `${Math.floor(coverage.unlearnedTopicRatio * 100)}%`}
+                </p>
+                <div
+                  className="table-scroll"
+                  tabIndex={0}
+                  role="region"
+                  aria-label="網羅性管理表"
+                >
+                  <table>
+                    <thead>
+                      <tr>
+                        <th>分野・論点</th>
+                        <th>対象</th>
+                        <th>問題 / 確認済</th>
+                        <th>用語</th>
+                        <th>初見成績</th>
+                        <th>状態・法令基準日</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {coverage.topics.map((row) => {
+                        const t = topics.find((t) => t.id === row.topicId)!;
+                        return (
+                          <tr key={t.id}>
+                            <th scope="row">
+                              <small>
+                                {
+                                  subjects.find((s) => s.id === t.subject)
+                                    ?.short
+                                }{" "}
+                                / {t.middleCategory}
+                              </small>
+                              {t.subcategory}：{t.point}
+                            </th>
+                            <td>{t.grades.map((g) => `${g}級`).join("・")}</td>
+                            <td>
+                              {row.totalQuestions} / {row.verifiedQuestions}
+                            </td>
+                            <td>{row.relatedTerms}</td>
+                            <td>
+                              {percent(row.firstSeen)}
+                              <small>
+                                {row.learned ? "学習済み" : "未学習"}
+                              </small>
+                            </td>
+                            <td>
+                              <span className="pill">
+                                {row.missingMaterial ? "教材不足" : "教材あり"}
+                              </span>
+                              <small>
+                                {t.scopeVerified
+                                  ? "原典照合済み"
+                                  : "公式範囲未照合"}{" "}
+                                / {row.lawReferenceDate ?? "基準日未確認"}
+                              </small>
+                            </td>
+                          </tr>
+                        );
+                      })}
+                    </tbody>
+                  </table>
+                </div>
+              </Panel>
+              <Panel>
+                <h2>原典と利用条件</h2>
+                <ul className="source-list">
+                  {[
+                    ["試験総合案内", "https://www.jafp.or.jp/exam/"],
+                    ["試験要綱", "https://www.jafp.or.jp/exam/outline/"],
+                    [
+                      "公開問題・模範解答",
+                      "https://www.jafp.or.jp/exam/mohan/",
+                    ],
+                    ["試験日程", "https://www.jafp.or.jp/exam/schedule/"],
+                  ].map(([name, url]) => (
+                    <li key={url}>
+                      <a href={url} target="_blank" rel="noreferrer">
+                        日本FP協会：{name} ↗
+                      </a>
+                      <span>本文未取得・未確認</span>
+                    </li>
+                  ))}
+                </ul>
+                <p className="caption">
+                  リンクが存在することだけでは出典確認済みと扱いません。正答・解説・法令基準日と公開の可否を個別に照合します。
+                </p>
+              </Panel>
+            </>
+          )}
+          {page === "mock" && (
+            <Panel>
+              <h2>4つの試験区分</h2>
+              <p>
+                学科は日本FP協会・きんざい共通問題、実技は日本FP協会の「資産設計提案業務」が対象です。きんざい独自実技は含みません。
+              </p>
+              <div className="exam-grid">
+                {(["3", "2"] as const).flatMap((g) =>
+                  (["academic", "practical"] as const).map((e) => {
+                    const spec = examSpecifications.find(
+                      (item) => item.grade === g && item.exam === e,
+                    )!;
+                    const readiness = mockReadiness(spec, catalog);
+                    return (
+                      <article className="exam-card" key={`${g}/${e}`}>
+                        <span className="pill">公式仕様の確認待ち</span>
+                        <h3>
+                          FP{g}級 {e === "academic" ? "学科" : "実技"}
+                        </h3>
+                        <p>
+                          {e === "practical" ? "資産設計提案業務" : "学科試験"}
+                        </p>
+                        <p>
+                          確認済み教材：
+                          {
+                            published.filter(
+                              (q) => q.grade === g && q.exam === e,
+                            ).length
+                          }
+                          問
+                        </p>
+                        <p className="caption">
+                          {readiness.reasons.join("。")}
+                        </p>
+                      </article>
+                    );
+                  }),
+                )}
+              </div>
+              <p className="notice">
+                本試験形式の開始条件を満たしていません。未確認の仕様や不足教材を用いた「完全再現」は提供しません。出題ロジックでは模試に計算問題を含め、通常演習とは区別します。
+              </p>
+            </Panel>
+          )}
+          {(["glossary", "cards"] as Page[]).includes(page) && (
+            <>
+              <Panel>
+                <div className="form-grid">
+                  <label className="field">
+                    用語を検索
+                    <input
+                      type="search"
+                      value={query}
+                      onChange={(e) => {
+                        setQuery(e.target.value);
+                        setCardIndex(0);
+                        setFlipped(false);
+                      }}
+                      placeholder="名称・読み方・説明"
+                    />
+                  </label>
+                  <label className="field">
+                    分野
+                    <select
+                      value={termSubject}
+                      onChange={(e) => {
+                        setTermSubject(e.target.value as Subject | "");
+                        setCardIndex(0);
+                      }}
+                    >
+                      <option value="">すべての分野</option>
+                      {subjects.map((s) => (
+                        <option key={s.id} value={s.id}>
+                          {s.short}
+                        </option>
+                      ))}
+                    </select>
+                  </label>
+                </div>
+                <div className="button-row">
+                  <label className="check">
+                    <input
+                      type="checkbox"
+                      checked={favoriteOnly}
+                      onChange={(e) => setFavoriteOnly(e.target.checked)}
+                    />
+                    お気に入りのみ
+                  </label>
+                  {page === "cards" && (
+                    <label className="check">
+                      <input
+                        type="checkbox"
+                        checked={weakOnly}
+                        onChange={(e) => setWeakOnly(e.target.checked)}
+                      />
+                      苦手カード優先
+                    </label>
+                  )}
+                </div>
+              </Panel>
+              {!termList.length ? (
+                <Panel>
+                  <Empty title="確認済みの用語がありません">
+                    <p>
+                      原典の確認が完了した用語を収録します。未確認の説明を暗記教材には使用しません。
+                    </p>
+                  </Empty>
+                </Panel>
+              ) : page === "glossary" ? (
+                <div className="term-grid">
+                  {termList.map((t) => (
+                    <Panel key={t.id}>
+                      <small>
+                        {t.reading} /{" "}
+                        {subjects.find((s) => s.id === t.subject)?.short}
+                      </small>
+                      <h2>
+                        <button
+                          className="term-title"
+                          onClick={() => setTerm(t)}
+                        >
+                          {t.name}
+                        </button>
+                      </h2>
+                      <p>{t.summary}</p>
+                      <div className="button-row">
+                        <Button
+                          variant="secondary"
+                          onClick={() =>
+                            void update((s) => ({
+                              ...s,
+                              termFavorites: toggle(s.termFavorites, t.id),
+                            }))
+                          }
+                        >
+                          {data.termFavorites.includes(t.id)
+                            ? "★ お気に入り"
+                            : "☆ お気に入り"}
+                        </Button>
+                        <Button
+                          variant="quiet"
+                          onClick={() =>
+                            void update((s) => ({
+                              ...s,
+                              learnedTerms: toggle(s.learnedTerms, t.id),
+                            }))
+                          }
+                        >
+                          {data.learnedTerms.includes(t.id)
+                            ? "✓ 学習済み"
+                            : "学習済みにする"}
+                        </Button>
+                      </div>
+                    </Panel>
+                  ))}
+                </div>
+              ) : card ? (
+                <Panel className="flashcard-panel">
+                  <p className="eyebrow">
+                    CARD {(cardIndex % cardList.length) + 1} / {cardList.length}
+                  </p>
+                  <button
+                    className="flashcard"
+                    onClick={() => setFlipped(!flipped)}
+                    onTouchStart={(e) => {
+                      swipe.current = e.touches[0].clientX;
+                    }}
+                    onTouchEnd={(e) => {
+                      if (
+                        swipe.current !== null &&
+                        Math.abs(e.changedTouches[0].clientX - swipe.current) >
+                          60
+                      )
+                        setFlipped((v) => !v);
+                      swipe.current = null;
+                    }}
+                  >
+                    <small>{flipped ? "意味" : "用語"} ・ タップで裏返す</small>
+                    <strong>{flipped ? card.summary : card.name}</strong>
+                    {flipped && <span>{card.detail}</span>}
+                  </button>
+                  {flipped && (
+                    <div className="button-row">
+                      {(["again", "hard", "good", "easy"] as const).map(
+                        (r, i) => (
+                          <Button
+                            key={r}
+                            variant="secondary"
+                            disabled={saving}
+                            onClick={() => void rateCard(r)}
+                          >
+                            {["覚えていない", "曖昧", "覚えた", "余裕"][i]}
+                          </Button>
+                        ),
+                      )}
+                    </div>
+                  )}
+                  <p className="caption">
+                    スワイプでも表裏を切り替えます。評価後に次回日を保存し、次のカードへ進みます。
+                  </p>
+                </Panel>
+              ) : (
+                <Panel>
+                  <Empty title="条件に合うカードはありません">
+                    <p>苦手・お気に入りの絞り込みを変更してください。</p>
+                  </Empty>
+                </Panel>
+              )}
+            </>
+          )}
+          {page === "history" && (
+            <Panel>
+              <h2>回答履歴（全コース）</h2>
+              {data.attempts.length ? (
+                <ol className="history-list">
+                  {[...data.attempts].reverse().map((a) => {
+                    const q = catalog.find((q) => q.id === a.questionId);
+                    const trusted = q && canPublish(q);
+                    return (
+                      <li key={a.id}>
+                        <span
+                          className={`result-label ${a.correct ? "is-correct" : "is-wrong"}`}
+                        >
+                          {a.correct ? "正解" : "不正解"}
+                        </span>
+                        <div>
+                          <p>
+                            {q?.prompt ??
+                              `現在の教材にない問題：${a.questionId}`}
+                          </p>
+                          <small>
+                            {new Date(a.answeredAt).toLocaleString("ja-JP")} /{" "}
+                            {a.mode ?? "旧履歴"} /{" "}
+                            {!trusted
+                              ? "未確認教材・到達度から除外"
+                              : `FP${q.grade}級 ${examNames[q.exam]}`}
+                          </small>
+                        </div>
+                      </li>
+                    );
+                  })}
+                </ol>
+              ) : (
+                <Empty title="まだ回答履歴はありません">
+                  <p>
+                    確認済み教材を解くと、ここに正誤と解答日時が記録されます。
+                  </p>
+                </Empty>
+              )}
+            </Panel>
+          )}
+          {page === "saved" && (
+            <div className="two-column">
+              <Panel>
+                <h2>ブックマーク {data.bookmarks.length}件</h2>
+                {data.bookmarks.length ? (
+                  <ul className="plain-list">
+                    {data.bookmarks.map((id) => (
+                      <li key={id}>
+                        <span>
+                          {catalog.find((q) => q.id === id)?.prompt ?? id}
+                        </span>
+                        <Button
+                          variant="quiet"
+                          disabled={saving}
+                          onClick={() => void bookmark(id)}
+                        >
+                          解除
+                        </Button>
+                      </li>
+                    ))}
+                  </ul>
+                ) : (
+                  <Empty title="気になる問題を手元に">
+                    <p>演習画面の☆ボタンで保存できます。</p>
+                  </Empty>
+                )}
+              </Panel>
+              <Panel>
+                <h2>間違いノート {data.notes.length}件</h2>
+                {data.notes.length ? (
+                  data.notes.map((n) => (
+                    <article className="note-card" key={n.id}>
+                      <h3>
+                        {catalog.find((q) => q.id === n.questionId)?.prompt ??
+                          n.questionId}
+                      </h3>
+                      <p>{n.text || "メモは空です。"}</p>
+                      <small>
+                        {new Date(n.updatedAt).toLocaleString("ja-JP")}
+                      </small>
+                    </article>
+                  ))
+                ) : (
+                  <Empty title="理解を、自分の言葉で">
+                    <p>解説画面でメモを残すと、ここで振り返れます。</p>
+                  </Empty>
+                )}
+              </Panel>
+            </div>
+          )}
+          {page === "plan" && (
+            <PlannerPanel data={data} saving={saving} update={update} />
+          )}
+          {page === "settings" && (
+            <SettingsPanel
+              data={data}
+              saving={saving}
+              update={update}
+              exportBackup={exportBackup}
+              importBackup={importBackup}
+            />
+          )}
+          <footer>
+            <strong>FP Master</strong>
+            <p>
+              個人の目標：正答率95%以上。公式合格基準と区別して表示します。
+              <br />
+              教材確認中 /
+              完全網羅・合格・目標達成を保証するものではありません。
+            </p>
+            <button onClick={() => navigate("settings")}>バックアップ ↗</button>
+          </footer>
+        </main>
+      </div>
+      <nav className="mobile-nav" aria-label="モバイルメニュー">
+        {navigation
+          .filter((n) =>
+            ["home", "practice", "review", "analytics"].includes(n.id),
+          )
+          .map((n) => (
+            <button
+              key={n.id}
+              aria-current={page === n.id ? "page" : undefined}
+              onClick={() => navigate(n.id)}
+            >
+              <span aria-hidden="true">{n.icon}</span>
+              {n.id === "analytics" ? "成績" : n.label}
+            </button>
+          ))}
+        <button aria-expanded={more} onClick={() => setMore(!more)}>
+          <span aria-hidden="true">•••</span>その他
+        </button>
+      </nav>
+      {more && (
+        <div className="more-menu">
+          <div className="section-row">
+            <strong>学習メニュー</strong>
+            <Button variant="quiet" onClick={() => setMore(false)}>
+              閉じる ×
+            </Button>
+          </div>
+          {navigation
+            .filter(
+              (n) =>
+                !["home", "practice", "review", "analytics"].includes(n.id),
+            )
+            .map((n) => (
+              <button key={n.id} onClick={() => navigate(n.id)}>
+                {n.icon} {n.label}
+              </button>
+            ))}
+        </div>
+      )}
+      {term && (
+        <Dialog title={term.name} onClose={() => setTerm(null)}>
+          <p className="caption">{term.reading}</p>
+          <p>
+            <strong>{term.summary}</strong>
+          </p>
+          <p>{term.detail}</p>
+          <h3>具体例</h3>
+          <p>{term.example}</p>
+          <h3>適用条件</h3>
+          <p>{term.conditions}</p>
+          <ul>
+            {term.figures.map((f) => (
+              <li key={f}>{f}</li>
+            ))}
+          </ul>
+          <p className="caption">
+            法令基準日：{term.legalDate} / 確認日：{term.verifiedAt}
+          </p>
+          {term.sources.map((s) => (
+            <p key={s.url}>
+              <a href={s.url} target="_blank" rel="noreferrer">
+                {s.title} ↗
+              </a>
+            </p>
+          ))}
+          <Button
+            variant="secondary"
+            onClick={() => {
+              setTerm(null);
+              navigate("practice");
+              setMessage(
+                `関連問題ID：${term.relatedQuestions.join("、") || "未収録"}。問題一覧は確認済み教材に限定されます。`,
+              );
+            }}
+          >
+            関連問題を確認
+          </Button>
+        </Dialog>
+      )}
+    </div>
+  );
 }
