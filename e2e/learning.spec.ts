@@ -4,7 +4,7 @@ import { answerKnowledge, fixtureUrl, navigate } from './helpers';
 test.beforeEach(async ({ page }) => {
   await page.goto(fixtureUrl);
   await expect(page.getByTestId('fixture-warning')).toBeVisible();
-  await expect(page.getByRole('heading', { name: '今日の一問から、確かな力へ。' })).toBeVisible();
+  await expect(page.getByRole('heading', { name: 'FP Master' })).toBeVisible();
 });
 
 test('five-question practice, explanation, bookmark, note and durable resume', async ({ page }) => {
@@ -66,7 +66,7 @@ test('one hundred questions finish once each without calculation mixing', async 
 test('calculation accepts numeric input and keeps its own mode', async ({ page }) => {
   await navigate(page, '計算トレーニング');
   await page.getByRole('button', { name: '1問の計算トレーニングを開始 →', exact: true }).click();
-  await expect(page.getByText('CALCULATION / FP3級', { exact: true })).toBeVisible();
+  await expect(page.getByText('計算 / FP3級', { exact: true })).toBeVisible();
   await expect(page.getByRole('status').filter({ hasText: '出題可能1問' })).toBeVisible();
   await page.getByRole('textbox', { name: '数値で回答（テスト単位）' }).fill('120');
   await page.getByRole('button', { name: '回答する', exact: true }).click();

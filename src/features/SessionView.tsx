@@ -87,10 +87,10 @@ export function SessionView({
         <div className="section-row">
           <span className="eyebrow">
             {session.mode === "calculation"
-              ? "CALCULATION"
+              ? "計算"
               : session.mode === "review"
-                ? "REVIEW"
-                : "PRACTICE"}{" "}
+                ? "復習"
+                : "通常演習"}{" "}
             / FP{q.grade}級
           </span>
           <Button variant="quiet" onClick={onPause}>

@@ -6,7 +6,7 @@ import { materialFixture, topicFixture } from "./domain/fixtures.test-helper";
 import { openLearningStore } from "./storage/store";
 const fixture = materialFixture();
 async function ready() {
-  await screen.findByRole("heading", { name: "今日の一問から、確かな力へ。" });
+  await screen.findByRole("heading", { name: "FP Master" });
 }
 it("does not ship unverified sample exercises and does not fabricate coverage", async () => {
   const user = userEvent.setup();

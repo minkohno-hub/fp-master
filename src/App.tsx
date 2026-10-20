@@ -76,57 +76,54 @@ const navigation: { id: Page; icon: string; label: string }[] = [
   { id: "settings", icon: "⚙", label: "設定・バックアップ" },
 ];
 const titles: Record<Page, [string, string]> = {
-  home: [
-    "今日の一問から、確かな力へ。",
-    "自分のペースで、一歩ずつ。目指すのは、その先の理解。",
-  ],
+  home: ["FP Master", "FP2級・3級の学習"],
   practice: [
-    "短い時間を、確かな知識に。",
-    "通常演習は知識問題のみ。計算は専用モードで学びます。",
+    "問題演習",
+    "計算を除いた知識問題を出題します。",
   ],
   calculation: [
-    "手を動かして、計算を味方に。",
-    "数値・単位・端数処理を確認しながら学びましょう。",
+    "計算トレーニング",
+    "数値入力で回答し、計算式と端数処理を確認できます。",
   ],
   review: [
-    "苦手を、自信に変えよう。",
-    "正解しても曖昧だった問題を、適切な間隔でもう一度。",
+    "今日の復習",
+    "間違えた問題と、正解しても曖昧だった問題を確認します。",
   ],
   glossary: [
-    "言葉の意味から、理解をつなぐ。",
-    "確認済みの用語を検索し、関連する問題へ。",
+    "用語集",
+    "確認済みの用語を検索できます。",
   ],
   cards: [
-    "少しずつ、記憶を確かに。",
-    "用語の意味を思い出してから、裏面を確認しましょう。",
+    "暗記カード",
+    "カードを裏返して意味を確認できます。",
   ],
   mock: [
-    "本番に向けて、実力を確かめる。",
+    "模擬試験",
     "公式の試験仕様と教材の確認後に本試験形式を提供します。",
   ],
   analytics: [
-    "95%へ、現在地を知ろう。",
-    "繰り返しの正解と、初見での理解を分けて確認します。",
+    "成績・95%到達度",
+    "累計・直近・初見・復習の成績を分けて表示します。",
   ],
   coverage: [
-    "学びの抜けを、見える形に。",
-    "問題数・論点の網羅性・あなたの習得を別々に管理します。",
+    "教材の網羅性",
+    "問題数・論点の網羅性・習得状況を分けて表示します。",
   ],
   plan: [
-    "暮らしに合った、学びのリズム。",
-    "無理のない配分で、6分野と復習・計算を計画しましょう。",
+    "学習計画",
+    "6分野の演習・復習・計算を日別に配分します。",
   ],
   history: [
-    "積み重ねを、見える形に。",
+    "学習履歴",
     "端末内に保存した回答履歴です。初見と再回答も区別します。",
   ],
   saved: [
-    "大切な学びを、手元に。",
-    "ブックマークと間違いノートをまとめて確認。",
+    "保存・間違いノート",
+    "ブックマークと間違いノートを確認できます。",
   ],
   settings: [
-    "これからの学びを、安全に。",
-    "表示設定と端末間のバックアップを管理します。",
+    "設定・バックアップ",
+    "表示設定と学習データのバックアップを管理します。",
   ],
   session: ["問題演習", ""],
 };
@@ -568,11 +565,9 @@ export function App({
           }}
         >
           <span className="brand-icon">F↗</span>
-          <span>
-            FP Master<small>LEARN. GROW. ACHIEVE.</small>
-          </span>
+          <span>FP Master</span>
         </a>
-        <p className="nav-caption">MY LEARNING</p>
+        <p className="nav-caption">メニュー</p>
         <nav aria-label="メインメニュー">
           {navigation.map((n) => (
             <button
@@ -588,20 +583,10 @@ export function App({
             </button>
           ))}
         </nav>
-        <div className="sidebar-note">
-          <strong>一歩ずつ、合格の先へ。</strong>
-          <p>
-            理解する。振り返る。
-            <br />
-            あなたの学びを積み重ねる。
-          </p>
-          <span aria-hidden="true">▂ ▄ ▅ ▇</span>
-        </div>
       </aside>
       <div className="workspace">
         <header className="topbar">
           <span className="mobile-brand">FP Master</span>
-          <span className="desktop-tagline">あなたのペースで、着実に。</span>
           <div className="course-switch">
             <label>
               <span>級</span>
@@ -638,11 +623,10 @@ export function App({
         <main id="main">
           <div className="page-heading">
             <div>
-              <p className="eyebrow">YOUR LEARNING JOURNEY</p>
               <h1 ref={mainHeading} tabIndex={-1}>
                 {titles[page][0]}
               </h1>
-              <p>{titles[page][1]}</p>
+              {titles[page][1] && <p>{titles[page][1]}</p>}
             </div>
             <span className="course-badge">
               FP{grade}級 ・ {exam === "academic" ? "学科" : "日本FP協会 実技"}
@@ -715,7 +699,7 @@ export function App({
             <>
               {summary && (
                 <Panel>
-                  <h2>学習おつかれさまでした。</h2>
+                  <h2>演習結果</h2>
                   <p role="status">
                     {summary.total}問中{summary.correct}問正解。
                     {summary.total
@@ -765,17 +749,8 @@ export function App({
                 </div>
                 <section className="hero">
                   <div>
-                    <span className="eyebrow">A LITTLE EVERY DAY</span>
-                    <h2>
-                      わかる喜びを、
-                      <br />
-                      今日の5問から。
-                    </h2>
-                    <p>
-                      すきま時間に知識を磨いて、
-                      <br />
-                      自分の言葉で説明できる理解へ。
-                    </p>
+                    <h2>5問演習</h2>
+                    <p>計算を除く知識問題を5問出題します。</p>
                     <Button
                       disabled={saving}
                       onClick={() => void begin("practice", 5)}
@@ -791,25 +766,10 @@ export function App({
                       問
                     </small>
                   </div>
-                  <div className="hero-art" aria-hidden="true">
-                    <div className="orbit" />
-                    <div className="study-book">
-                      <small>FP MASTER</small>
-                      <strong>一問一歩。</strong>
-                      <span>
-                        理解する
-                        <br />
-                        積み重ねる
-                        <br />
-                        自信になる
-                      </span>
-                    </div>
-                    <i>✦</i>
-                  </div>
                 </section>
               </div>
               <div className="section-row">
-                <h2>6つの分野を、バランスよく。</h2>
+                <h2>6分野の収録状況</h2>
                 <Button variant="quiet" onClick={() => navigate("coverage")}>
                   収録状況を見る ↗
                 </Button>
@@ -828,7 +788,7 @@ export function App({
                     >
                       {s.icon}
                     </span>
-                    <small>FIELD 0{i + 1}</small>
+                    <small>分野 {i + 1}</small>
                     <h3>{s.name}</h3>
                     <span>
                       {gradeCatalog.filter((q) => q.subject === s.id).length}問
@@ -839,9 +799,8 @@ export function App({
               </div>
               <div className="feature-grid">
                 <Panel>
-                  <span className="eyebrow">CALCULATION</span>
-                  <h2>計算を、確実な得点源に。</h2>
-                  <p>知識演習とは分けて、式と手順から理解する。</p>
+                  <h2>計算トレーニング</h2>
+                  <p>数値入力で解答し、計算式と手順を確認できます。</p>
                   <Button
                     variant="secondary"
                     onClick={() => navigate("calculation")}
@@ -850,8 +809,7 @@ export function App({
                   </Button>
                 </Panel>
                 <Panel>
-                  <span className="eyebrow">YOUR PROGRESS</span>
-                  <h2>95%への道筋を、正直に。</h2>
+                  <h2>成績・95%到達度</h2>
                   <p>初見・復習・未学習範囲を別々に確認できます。</p>
                   <Button
                     variant="secondary"
@@ -1587,7 +1545,7 @@ export function App({
               ) : card ? (
                 <Panel className="flashcard-panel">
                   <p className="eyebrow">
-                    CARD {(cardIndex % cardList.length) + 1} / {cardList.length}
+                    カード {(cardIndex % cardList.length) + 1} / {cardList.length}
                   </p>
                   <button
                     className="flashcard"

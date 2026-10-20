@@ -214,13 +214,6 @@ button[aria-pressed="true"] {
   height: 40px;
   border-radius: 10px;
 }
-.brand small {
-  display: block;
-  font-size: 7px;
-  letter-spacing: 1.7px;
-  font-weight: 500;
-  margin-top: 4px;
-}
 .nav-caption {
   font-size: 9px;
   letter-spacing: 1.8px;
@@ -260,25 +253,6 @@ button[aria-pressed="true"] {
 .sidebar nav small {
   margin-left: auto;
 }
-.sidebar-note {
-  padding: 18px;
-  margin: 25px 5px 0;
-  background: var(--subtle);
-  border-radius: 9px;
-}
-.sidebar-note strong {
-  font-size: 11px;
-}
-.sidebar-note p {
-  font-size: 10px;
-  color: var(--muted);
-  margin: 8px 0;
-}
-.sidebar-note > span {
-  color: var(--accent);
-  letter-spacing: 12px;
-  font-size: 25px;
-}
 .workspace {
   margin-left: 235px;
 }
@@ -287,14 +261,10 @@ button[aria-pressed="true"] {
   background: var(--surface);
   border-bottom: 1px solid var(--line);
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
   padding: 0 40px;
   gap: 15px;
-}
-.desktop-tagline {
-  font-size: 12px;
-  color: var(--muted);
 }
 .mobile-brand {
   display: none;
@@ -445,62 +415,6 @@ main {
   font-size: 10px;
   color: #c5d7c8;
   margin-top: 13px;
-}
-.hero-art {
-  position: relative;
-  width: 30%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  pointer-events: none;
-}
-.orbit {
-  position: absolute;
-  width: 245px;
-  height: 245px;
-  border: 1px solid #ffffff20;
-  border-radius: 50%;
-}
-.orbit:after {
-  content: "";
-  position: absolute;
-  inset: 30px;
-  border: 1px solid #ffffff18;
-  border-radius: 50%;
-}
-.study-book {
-  position: relative;
-  transform: rotate(9deg);
-  background: #e7eedf;
-  color: #355b41;
-  width: 155px;
-  height: 200px;
-  border-radius: 6px;
-  padding: 23px;
-  box-shadow: 12px 10px #102d232a;
-}
-.study-book small {
-  font-size: 7px;
-  letter-spacing: 1.5px;
-}
-.study-book strong {
-  font-size: 24px;
-  display: block;
-  white-space: nowrap;
-  margin: 15px 0;
-}
-.study-book > span {
-  font-size: 11px;
-  color: #537b55;
-  line-height: 2;
-}
-.hero-art > i {
-  position: absolute;
-  font-size: 30px;
-  color: #d2d6a1;
-  right: 0;
-  top: 10px;
-  font-style: normal;
 }
 .section-row {
   display: flex;
@@ -1246,9 +1160,6 @@ footer button {
   .metric {
     padding: 16px;
   }
-  .hero-art {
-    width: 28%;
-  }
   .calculator {
     grid-template-columns: 1fr 70px 1fr;
   }
@@ -1273,9 +1184,7 @@ footer button {
   .topbar {
     height: 66px;
     padding: 0 18px;
-  }
-  .desktop-tagline {
-    display: none;
+    justify-content: space-between;
   }
   .mobile-brand {
     display: block;
@@ -1351,18 +1260,6 @@ footer button {
   }
   .hero p {
     font-size: 12px;
-  }
-  .hero-art {
-    position: absolute;
-    right: -25px;
-    top: 45px;
-    width: 125px;
-    opacity: 0.28;
-  }
-  .study-book {
-    width: 130px;
-    height: 190px;
-    padding: 20px;
   }
   .hero .button {
     min-width: 222px;
