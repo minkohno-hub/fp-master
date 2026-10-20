@@ -27,3 +27,5 @@ IndexedDBで回答・設定・中断状態を原子的に保存し、旧localSto
 Node.js 24.19.0、npm 11.9.0で `npm ci`、Lint、型チェックを含む本番ビルド、Vitest 79件、npm audit（0件）、PC/モバイル相当Chromium E2E 16件が成功。実アプリの未確認教材非表示・オフライン・バックアップ復元、合成fixtureでの5問/100問・計算・用語・キーボードを検証した。幅320/390/1440pxのローカル表示も確認した。結果と限界は `TEST_RESULTS.md` に記録。
 
 公式教材・現行試験仕様・利用許諾を取得できていないため、本番出題は0件、用語0件、模試開始不可のまま。4区分すべての公式教材網羅率は算定不能。iPhone Safari/Android実機と実GitHub Pages配信も未検証。これらを完了済みと扱わず、ネットワーク設定反映後に原典調査から再開する。
+
+変更は `92aed30` でコミットし、`origin/feat/fp-learning-foundation` へpushした。`git ls-remote` でも同SHAを確認。PR作成を再試行したが `api.github.com/graphql: Forbidden`。`gh auth status` は環境の `GH_TOKEN` を無効と報告した。秘密値は表示・変更していない。PRは未作成で、解決条件は `KNOWN_ISSUES.md` B06に記録した。クラウド環境のセットアップ・開始手順と公式/APIドメイン許可は設定ドラフトへ保存済みだが、利用者による設定の保存・公開が必要であり、現行インスタンスには未反映。

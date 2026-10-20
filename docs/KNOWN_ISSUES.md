@@ -9,7 +9,7 @@
 | B03 | 公式全論点の分母未確定 | 公式網羅率は算定不能。6分野の仮分類を完全範囲と呼ばない |
 | B04 | 公式模試未確定 | 時間/問題数/配点/基準日/合格基準の現行原典が未確認。完全再現を有効化しない |
 | B05 | 公式教材の公開権利未確認 | 問題の個人閲覧と再配布を区別。許諾不明のPDF/図表/解説を取り込んで公開しない |
-| B06 | GitHub APIアクセス | 前回 `api.github.com` のPR作成がForbidden。Gitのpush成功はAPI権限の証拠にならない。許可反映後に再試行 |
+| B06 | GitHub APIアクセスとCLI認証 | `gh pr create` は `api.github.com/graphql: Forbidden`。同hostへのHTTPS CONNECTも403。`gh auth status` は現在の `GH_TOKEN` を無効と報告し、変数を外した場合はログインなし。Gitのpush成功はAPI権限の証拠にならない。ネットワーク設定とプラットフォーム認証が整った後に再試行 |
 | B07 | 実機ブラウザ未検証 | Chromium幅エミュレーションはiPhone Safari/Android/PC実機を代替しない |
 | B08 | GitHub Pages公開未検証 | URLやHTTP表示を未確認。手動deploy完了後にbase/assets/SW/深いパスを実測 |
 | F01 | 正式要件の残機能 | 確認済み用語/全計算論点/本番模試/法改正の実原典連携/高度分析等は `TASKS.md` 参照。予定を実装済みと扱わない |
