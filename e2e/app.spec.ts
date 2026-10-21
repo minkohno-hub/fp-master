@@ -48,12 +48,12 @@ test('2級／3級・学科／実技の切り替え', async ({ page }) => {
   await expect(page.getByRole('heading', { name: '2級 学科' })).toBeVisible();
   await page.getByRole('radio', { name: '実技' }).click();
   await expect(page.getByRole('heading', { name: /2級 実技/ })).toBeVisible();
-  // 2級実技は未収録（準備中表示）、3級実技は収録済み
+  // 2級・3級ともに実技を収録済み（準備中表示にならない）
   await page.goto('./#/practice');
-  await expect(page.getByText(/実技（資産設計提案業務）の問題は現在準備中/)).toBeVisible();
-  await page.getByRole('radio', { name: '3級' }).click();
   await expect(page.getByText(/出題対象 \d+問/)).toBeVisible();
   await expect(page.getByText(/実技（資産設計提案業務）の問題は現在準備中/)).toHaveCount(0);
+  await page.getByRole('radio', { name: '3級' }).click();
+  await expect(page.getByText(/出題対象 \d+問/)).toBeVisible();
 });
 
 test('3級実技：模擬試験は20問・60分・計算問題を含む', async ({ page }) => {
@@ -151,4 +151,16 @@ test('オフラインでも起動・演習できる', async ({ page, context }) 
   await page.getByRole('link', { name: 'すぐに5問解く' }).click();
   await expect(page.getByText('1 / 5')).toBeVisible();
   await context.setOffline(false);
+});
+
+test('2級実技：複数の数値欄に入力して採点できる', async ({ page }) => {
+  await page.goto('./#/q/j2-202605-13');
+  await expect(page.locator('main img').first()).toBeVisible();
+  const inputs = page.locator('fieldset input');
+  await expect(inputs).toHaveCount(3);
+  await inputs.nth(0).fill('19');
+  await inputs.nth(1).fill('572');
+  await inputs.nth(2).fill('5220');
+  await page.getByRole('button', { name: '解答する' }).click();
+  await expect(page.getByText(/^正解$/).first()).toBeVisible();
 });

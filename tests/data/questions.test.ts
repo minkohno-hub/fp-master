@@ -48,6 +48,7 @@ describe('問題データの検証', () => {
       }
       if (q.exam === 'g2') expect(p.kind === 'choice' && p.choices.length).toBe(4);
       if (q.exam === 'j3') expect(p.kind === 'choice' && p.choices.length).toBe(3);
+      if (q.exam === 'j2') for (const part of q.parts) expect(['truefalse', 'choice', 'numeric']).toContain(part.kind);
     }
   });
 

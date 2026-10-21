@@ -138,7 +138,7 @@ def apply_review(set_id: str, data: dict, report: list[str]) -> None:
         for k, v in patch.items():
             q[k] = v
         if 'field' in patch and 'theme' not in patch:
-            full = q['stem'] + ' ' + ' '.join(c['text'] for c in q['parts'][0]['choices'])
+            full = q['stem'] + ' ' + ' '.join(c['text'] for c in q['parts'][0].get('choices', []))
             q['theme'] = classify(q['field'], q['stem'], full)
         # 構造上の問題がなく、目視レビュー済みのものだけ検証済みにする
         if reviewed and q['quarantineReason'].startswith('未レビュー'):
