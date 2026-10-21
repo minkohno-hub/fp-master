@@ -1,0 +1,1003 @@
+{
+ "id": "j3_202605",
+ "exam": "j3",
+ "title": "3級 実技 2026年公表分",
+ "officialSet": true,
+ "lawBaseDate": "2025-04-01",
+ "questions": [
+  {
+   "id": "j3-202605-01",
+   "exam": "j3",
+   "field": "A",
+   "theme": "FPと関連法規",
+   "source": {
+    "kind": "official",
+    "citation": "日本FP協会 3級ファイナンシャル・プランニング技能検定実技試験（資産設計提案業務） 2026年公表分",
+    "yearMonth": "2026-05",
+    "number": 1,
+    "url": "https://www.jafp.or.jp/exam/mohan/files/j3_202605_q.pdf",
+    "answerUrl": "https://www.jafp.or.jp/exam/mohan/files/j3_202605_a.pdf",
+    "modified": false
+   },
+   "lawBaseDate": "2025-04-01",
+   "stem": "ファイナンシャル・プランニング業務を行うに当たっては、関連業法等を順守することが重要である。ファイナンシャル・プランナー（以下「ＦＰ」という）の行為に関する次の記述のうち、最も不適切なものはどれか。なお、記載のない資格の登録等については一切考慮しないこととする。",
+   "materials": [
+    {
+     "kind": "image",
+     "title": "問題・資料（原本PDFから切り出し）",
+     "src": "content-img/j3-202605-01.png",
+     "alt": "ファイナンシャル・プランニング業務を行うに当たっては、関連業法等を順守することが重要である。ファイナンシャル・プランナー（以下「ＦＰ」という）の行為に関する次の記述のうち、最も不適切なものはどれか。なお、記載のない資格の登録等については一切考慮しないこととする。（問題文と資料の画像）",
+     "includesStem": true
+    }
+   ],
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "弁護士の登録を受けていないＦＰが、相続が発生した顧客から相談を受け、報酬を得てその顧客の代理人として、遺産分割に係る法律事務を取り扱った。"
+      },
+      {
+       "id": "2",
+       "text": "税理士の登録を受けていないＦＰが、顧客から相続財産に係る相続税額の計算を依頼されたため、業務提携をしている税理士を紹介し、業務を委ねた。"
+      },
+      {
+       "id": "3",
+       "text": "社会保険労務士の登録を受けていないＦＰが、顧客の「ねんきん定期便」等の資料を参考に、公的年金の受給見込み額を計算した。"
+      }
+     ],
+     "answer": "1"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified"
+  },
+  {
+   "id": "j3-202605-02",
+   "exam": "j3",
+   "field": "A",
+   "theme": "ライフプランと係数",
+   "source": {
+    "kind": "official",
+    "citation": "日本FP協会 3級ファイナンシャル・プランニング技能検定実技試験（資産設計提案業務） 2026年公表分",
+    "yearMonth": "2026-05",
+    "number": 2,
+    "url": "https://www.jafp.or.jp/exam/mohan/files/j3_202605_q.pdf",
+    "answerUrl": "https://www.jafp.or.jp/exam/mohan/files/j3_202605_a.pdf",
+    "modified": false
+   },
+   "lawBaseDate": "2025-04-01",
+   "stem": "下記は、東条家のキャッシュフロー表（一部抜粋）である。このキャッシュフロー表の空欄（ ア ）～（ ウ ）にあてはまる数値として、誤っているものはどれか。なお、計算に当たっては、キャッシュフロー表中に記載の整数を使用すること。",
+   "materials": [
+    {
+     "kind": "image",
+     "title": "問題・資料（原本PDFから切り出し）",
+     "src": "content-img/j3-202605-02.png",
+     "alt": "下記は、東条家のキャッシュフロー表（一部抜粋）である。このキャッシュフロー表の空欄（ ア ）～（ ウ ）にあてはまる数値として、誤っているものはどれか。なお、計算に当たっては、キャッシュフロー表中に記載の整数を使用すること。（問題文と資料の画像）",
+     "includesStem": true
+    }
+   ],
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "（ ア ）２７６"
+      },
+      {
+       "id": "2",
+       "text": "（ イ ）２０３"
+      },
+      {
+       "id": "3",
+       "text": "（ ウ ）９０４"
+      }
+     ],
+     "answer": "3"
+    }
+   ],
+   "requiresCalculation": true,
+   "status": "verified",
+   "calcReason": "数値資料から計算して答えを求める"
+  },
+  {
+   "id": "j3-202605-03",
+   "exam": "j3",
+   "field": "A",
+   "theme": "その他",
+   "source": {
+    "kind": "official",
+    "citation": "日本FP協会 3級ファイナンシャル・プランニング技能検定実技試験（資産設計提案業務） 2026年公表分",
+    "yearMonth": "2026-05",
+    "number": 3,
+    "url": "https://www.jafp.or.jp/exam/mohan/files/j3_202605_q.pdf",
+    "answerUrl": "https://www.jafp.or.jp/exam/mohan/files/j3_202605_a.pdf",
+    "modified": false
+   },
+   "lawBaseDate": "2025-04-01",
+   "stem": "山本家の現時点の資産および負債が下記＜資料＞のとおりである場合、＜資料＞に基づく山本家のバランスシートの空欄（ ア ）にあてはまる金額として、正しいものはどれか。なお、記載のない事項については一切考慮しないこととする。",
+   "materials": [
+    {
+     "kind": "image",
+     "title": "問題・資料（原本PDFから切り出し）",
+     "src": "content-img/j3-202605-03.png",
+     "alt": "山本家の現時点の資産および負債が下記＜資料＞のとおりである場合、＜資料＞に基づく山本家のバランスシートの空欄（ ア ）にあてはまる金額として、正しいものはどれか。なお、記載のない事項については一切考慮しないこととする。（問題文と資料の画像）",
+     "includesStem": true
+    }
+   ],
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "２,６００（万円）"
+      },
+      {
+       "id": "2",
+       "text": "２,６８０（万円）"
+      },
+      {
+       "id": "3",
+       "text": "５,４８０（万円）"
+      }
+     ],
+     "answer": "2"
+    }
+   ],
+   "requiresCalculation": true,
+   "status": "verified",
+   "calcReason": "数値資料から計算して答えを求める"
+  },
+  {
+   "id": "j3-202605-04",
+   "exam": "j3",
+   "field": "A",
+   "theme": "ライフプランと係数",
+   "source": {
+    "kind": "official",
+    "citation": "日本FP協会 3級ファイナンシャル・プランニング技能検定実技試験（資産設計提案業務） 2026年公表分",
+    "yearMonth": "2026-05",
+    "number": 4,
+    "url": "https://www.jafp.or.jp/exam/mohan/files/j3_202605_q.pdf",
+    "answerUrl": "https://www.jafp.or.jp/exam/mohan/files/j3_202605_a.pdf",
+    "modified": false
+   },
+   "lawBaseDate": "2025-04-01",
+   "stem": "木村さんは、老後資金として貯めた８００万円を生活資金に充てるため、年利２.０％で複利運用しながら５年間で均等に取り崩すこととしている。この場合、年間で取り崩すことができる最大金額として、正しいものはどれか。なお、下記＜資料＞の３つの係数の中から最も適切な係数を選択して計算すること。また、記載のない事項については一切考慮しないこととする。",
+   "materials": [
+    {
+     "kind": "image",
+     "title": "問題・資料（原本PDFから切り出し）",
+     "src": "content-img/j3-202605-04.png",
+     "alt": "木村さんは、老後資金として貯めた８００万円を生活資金に充てるため、年利２.０％で複利運用しながら５年間で均等に取り崩すこととしている。この場合、年間で取り崩すことができる最大金額として、正しいものはどれか。なお、下記＜資料＞の３つの係数の中から最も適切な係数を選択して計算すること。また、記載のない事項については一切考慮しないこととする。（問題文と資料の画像）",
+     "includesStem": true
+    }
+   ],
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "１,５３７,２８０円"
+      },
+      {
+       "id": "2",
+       "text": "１,６９７,２８０円"
+      },
+      {
+       "id": "3",
+       "text": "１,７６６,４００円"
+      }
+     ],
+     "answer": "2"
+    }
+   ],
+   "requiresCalculation": true,
+   "status": "verified",
+   "calcReason": "数値資料から計算して答えを求める"
+  },
+  {
+   "id": "j3-202605-05",
+   "exam": "j3",
+   "field": "A",
+   "theme": "公的医療保険",
+   "source": {
+    "kind": "official",
+    "citation": "日本FP協会 3級ファイナンシャル・プランニング技能検定実技試験（資産設計提案業務） 2026年公表分",
+    "yearMonth": "2026-05",
+    "number": 5,
+    "url": "https://www.jafp.or.jp/exam/mohan/files/j3_202605_q.pdf",
+    "answerUrl": "https://www.jafp.or.jp/exam/mohan/files/j3_202605_a.pdf",
+    "modified": false
+   },
+   "lawBaseDate": "2025-04-01",
+   "stem": "全国健康保険協会管掌健康保険（協会けんぽ）の任意継続被保険者に関する次の記述の空欄（ ア ）～（ ウ ）にあてはまる語句の組み合わせとして、最も適切なものはどれか。",
+   "materials": [
+    {
+     "kind": "image",
+     "title": "問題・資料（原本PDFから切り出し）",
+     "src": "content-img/j3-202605-05.png",
+     "alt": "全国健康保険協会管掌健康保険（協会けんぽ）の任意継続被保険者に関する次の記述の空欄（ ア ）～（ ウ ）にあてはまる語句の組み合わせとして、最も適切なものはどれか。（問題文と資料の画像）",
+     "includesStem": true
+    }
+   ],
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "（ ア ）２ヵ月 （ イ ）２０日 （ ウ ）２年間"
+      },
+      {
+       "id": "2",
+       "text": "（ ア ）２ヵ月 （ イ ）３０日 （ ウ ）２年間"
+      },
+      {
+       "id": "3",
+       "text": "（ ア ）３ヵ月 （ イ ）３０日 （ ウ ）３年間"
+      }
+     ],
+     "answer": "1"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified"
+  },
+  {
+   "id": "j3-202605-06",
+   "exam": "j3",
+   "field": "C",
+   "theme": "株式",
+   "source": {
+    "kind": "official",
+    "citation": "日本FP協会 3級ファイナンシャル・プランニング技能検定実技試験（資産設計提案業務） 2026年公表分",
+    "yearMonth": "2026-05",
+    "number": 6,
+    "url": "https://www.jafp.or.jp/exam/mohan/files/j3_202605_q.pdf",
+    "answerUrl": "https://www.jafp.or.jp/exam/mohan/files/j3_202605_a.pdf",
+    "modified": false
+   },
+   "lawBaseDate": "2025-04-01",
+   "stem": "下記＜資料＞に基づくＷＡ株式会社の投資指標の値の組み合わせとして、正しいものはどれか。なお、記載のない事項については一切考慮しないこととする。",
+   "materials": [
+    {
+     "kind": "image",
+     "title": "問題・資料（原本PDFから切り出し）",
+     "src": "content-img/j3-202605-06.png",
+     "alt": "下記＜資料＞に基づくＷＡ株式会社の投資指標の値の組み合わせとして、正しいものはどれか。なお、記載のない事項については一切考慮しないこととする。（問題文と資料の画像）",
+     "includesStem": true
+    }
+   ],
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "株価純資産倍率（ＰＢＲ） ０.８倍株価収益率（ＰＥＲ） ０.１倍"
+      },
+      {
+       "id": "2",
+       "text": "株価純資産倍率（ＰＢＲ）１.２５倍株価収益率（ＰＥＲ）１０.０倍"
+      },
+      {
+       "id": "3",
+       "text": "株価純資産倍率（ＰＢＲ）１.２５倍株価収益率（ＰＥＲ）５０.０倍"
+      }
+     ],
+     "answer": "2"
+    }
+   ],
+   "requiresCalculation": true,
+   "status": "verified",
+   "calcReason": "数値資料から計算して答えを求める"
+  },
+  {
+   "id": "j3-202605-07",
+   "exam": "j3",
+   "field": "C",
+   "theme": "投資信託",
+   "source": {
+    "kind": "official",
+    "citation": "日本FP協会 3級ファイナンシャル・プランニング技能検定実技試験（資産設計提案業務） 2026年公表分",
+    "yearMonth": "2026-05",
+    "number": 7,
+    "url": "https://www.jafp.or.jp/exam/mohan/files/j3_202605_q.pdf",
+    "answerUrl": "https://www.jafp.or.jp/exam/mohan/files/j3_202605_a.pdf",
+    "modified": false
+   },
+   "lawBaseDate": "2025-04-01",
+   "stem": "下記＜資料＞の投資信託を２０万口購入する場合の購入金額として、正しいものはどれか。なお、解答に当たっては、円未満を切り捨てること。",
+   "materials": [
+    {
+     "kind": "image",
+     "title": "問題・資料（原本PDFから切り出し）",
+     "src": "content-img/j3-202605-07.png",
+     "alt": "下記＜資料＞の投資信託を２０万口購入する場合の購入金額として、正しいものはどれか。なお、解答に当たっては、円未満を切り捨てること。（問題文と資料の画像）",
+     "includesStem": true
+    }
+   ],
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "２４６,６３１円"
+      },
+      {
+       "id": "2",
+       "text": "２４８,０３９円"
+      },
+      {
+       "id": "3",
+       "text": "２５１,９７１円"
+      }
+     ],
+     "answer": "2"
+    }
+   ],
+   "requiresCalculation": true,
+   "status": "verified",
+   "calcReason": "数値資料から計算して答えを求める"
+  },
+  {
+   "id": "j3-202605-08",
+   "exam": "j3",
+   "field": "C",
+   "theme": "債券",
+   "source": {
+    "kind": "official",
+    "citation": "日本FP協会 3級ファイナンシャル・プランニング技能検定実技試験（資産設計提案業務） 2026年公表分",
+    "yearMonth": "2026-05",
+    "number": 8,
+    "url": "https://www.jafp.or.jp/exam/mohan/files/j3_202605_q.pdf",
+    "answerUrl": "https://www.jafp.or.jp/exam/mohan/files/j3_202605_a.pdf",
+    "modified": false
+   },
+   "lawBaseDate": "2025-04-01",
+   "stem": "下記＜資料＞の債券の応募者利回り（単利・年率）として、正しいものはどれか。なお、税金や手数料等は考慮しないこととし、計算結果については小数点以下第３位を四捨五入すること。",
+   "materials": [
+    {
+     "kind": "image",
+     "title": "問題・資料（原本PDFから切り出し）",
+     "src": "content-img/j3-202605-08.png",
+     "alt": "下記＜資料＞の債券の応募者利回り（単利・年率）として、正しいものはどれか。なお、税金や手数料等は考慮しないこととし、計算結果については小数点以下第３位を四捨五入すること。（問題文と資料の画像）",
+     "includesStem": true
+    }
+   ],
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "１.０９％"
+      },
+      {
+       "id": "2",
+       "text": "１.１０％"
+      },
+      {
+       "id": "3",
+       "text": "１.１９％"
+      }
+     ],
+     "answer": "1"
+    }
+   ],
+   "requiresCalculation": true,
+   "status": "verified",
+   "calcReason": "数値資料から計算して答えを求める"
+  },
+  {
+   "id": "j3-202605-09",
+   "exam": "j3",
+   "field": "E",
+   "theme": "都市計画法・建築基準法",
+   "source": {
+    "kind": "official",
+    "citation": "日本FP協会 3級ファイナンシャル・プランニング技能検定実技試験（資産設計提案業務） 2026年公表分",
+    "yearMonth": "2026-05",
+    "number": 9,
+    "url": "https://www.jafp.or.jp/exam/mohan/files/j3_202605_q.pdf",
+    "answerUrl": "https://www.jafp.or.jp/exam/mohan/files/j3_202605_a.pdf",
+    "modified": false
+   },
+   "lawBaseDate": "2025-04-01",
+   "stem": "建築基準法に従い、下記＜資料＞の土地に建築物を建築する場合、その土地に対する建築物の建築面積の最高限度として、正しいものはどれか。なお、記載のない事項については一切考慮しないこととする。",
+   "materials": [
+    {
+     "kind": "image",
+     "title": "問題・資料（原本PDFから切り出し）",
+     "src": "content-img/j3-202605-09.png",
+     "alt": "建築基準法に従い、下記＜資料＞の土地に建築物を建築する場合、その土地に対する建築物の建築面積の最高限度として、正しいものはどれか。なお、記載のない事項については一切考慮しないこととする。（問題文と資料の画像）",
+     "includesStem": true
+    }
+   ],
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "２４０ｍ2"
+      },
+      {
+       "id": "2",
+       "text": "１,０８０ｍ2"
+      },
+      {
+       "id": "3",
+       "text": "１,２００ｍ2"
+      }
+     ],
+     "answer": "1"
+    }
+   ],
+   "requiresCalculation": true,
+   "status": "verified",
+   "calcReason": "数値資料から計算して答えを求める"
+  },
+  {
+   "id": "j3-202605-10",
+   "exam": "j3",
+   "field": "E",
+   "theme": "不動産の調査・登記",
+   "source": {
+    "kind": "official",
+    "citation": "日本FP協会 3級ファイナンシャル・プランニング技能検定実技試験（資産設計提案業務） 2026年公表分",
+    "yearMonth": "2026-05",
+    "number": 10,
+    "url": "https://www.jafp.or.jp/exam/mohan/files/j3_202605_q.pdf",
+    "answerUrl": "https://www.jafp.or.jp/exam/mohan/files/j3_202605_a.pdf",
+    "modified": false
+   },
+   "lawBaseDate": "2025-04-01",
+   "stem": "不動産の鑑定評価の手法に関する下表の空欄（ ア ）～（ ウ ）にあてはまる語句の組み合わせとして、最も適切なものはどれか。",
+   "materials": [
+    {
+     "kind": "image",
+     "title": "問題・資料（原本PDFから切り出し）",
+     "src": "content-img/j3-202605-10.png",
+     "alt": "不動産の鑑定評価の手法に関する下表の空欄（ ア ）～（ ウ ）にあてはまる語句の組み合わせとして、最も適切なものはどれか。（問題文と資料の画像）",
+     "includesStem": true
+    }
+   ],
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "（ ア ）比準価格 （ イ ）取引事例比較法 （ ウ ）将来価値"
+      },
+      {
+       "id": "2",
+       "text": "（ ア ）再調達原価 （ イ ）ＤＣＦ法 （ ウ ）現在価値"
+      },
+      {
+       "id": "3",
+       "text": "（ ア ）再調達原価 （ イ ）取引事例比較法 （ ウ ）現在価値"
+      }
+     ],
+     "answer": "3"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified"
+  },
+  {
+   "id": "j3-202605-11",
+   "exam": "j3",
+   "field": "E",
+   "theme": "借地借家法",
+   "source": {
+    "kind": "official",
+    "citation": "日本FP協会 3級ファイナンシャル・プランニング技能検定実技試験（資産設計提案業務） 2026年公表分",
+    "yearMonth": "2026-05",
+    "number": 11,
+    "url": "https://www.jafp.or.jp/exam/mohan/files/j3_202605_q.pdf",
+    "answerUrl": "https://www.jafp.or.jp/exam/mohan/files/j3_202605_a.pdf",
+    "modified": false
+   },
+   "lawBaseDate": "2025-04-01",
+   "stem": "借地借家法に基づく借家権に関する下表の空欄（ ア ）～（ ウ ）にあてはまる語句の組み合わせとして、最も適切なものはどれか。なお、「公正証書による等書面」には電磁的記録によるものを含むものとする。",
+   "materials": [
+    {
+     "kind": "image",
+     "title": "問題・資料（原本PDFから切り出し）",
+     "src": "content-img/j3-202605-11.png",
+     "alt": "借地借家法に基づく借家権に関する下表の空欄（ ア ）～（ ウ ）にあてはまる語句の組み合わせとして、最も適切なものはどれか。なお、「公正証書による等書面」には電磁的記録によるものを含むものとする。（問題文と資料の画像）",
+     "includesStem": true
+    }
+   ],
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "（ ア ）１年 （ イ ）期間満了により終了 （ ウ ）公正証書による等書面"
+      },
+      {
+       "id": "2",
+       "text": "（ ア ）１年 （ イ ）更新できる （ ウ ）公正証書による等書面"
+      },
+      {
+       "id": "3",
+       "text": "（ ア ）３年 （ イ ）期間満了により終了 （ ウ ）公正証書に限られる"
+      }
+     ],
+     "answer": "1"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified"
+  },
+  {
+   "id": "j3-202605-12",
+   "exam": "j3",
+   "field": "B",
+   "theme": "生命保険の商品と仕組み",
+   "source": {
+    "kind": "official",
+    "citation": "日本FP協会 3級ファイナンシャル・プランニング技能検定実技試験（資産設計提案業務） 2026年公表分",
+    "yearMonth": "2026-05",
+    "number": 12,
+    "url": "https://www.jafp.or.jp/exam/mohan/files/j3_202605_q.pdf",
+    "answerUrl": "https://www.jafp.or.jp/exam/mohan/files/j3_202605_a.pdf",
+    "modified": false
+   },
+   "lawBaseDate": "2025-04-01",
+   "stem": "大下秀雄さんが加入している生命保険（下記＜資料＞参照）の保障内容に関する次の記述の空欄（ ア ）にあてはまる金額として、正しいものはどれか。なお、保険金および給付金の支払事由が生じたときにおいて、保険契約は有効に継続しているものとする。また、秀雄さんはこれまでに＜資料＞の保険から保険金および給付金を一度も受け取っていないものとする。",
+   "materials": [
+    {
+     "kind": "image",
+     "title": "問題・資料（原本PDFから切り出し）",
+     "src": "content-img/j3-202605-12.png",
+     "alt": "大下秀雄さんが加入している生命保険（下記＜資料＞参照）の保障内容に関する次の記述の空欄（ ア ）にあてはまる金額として、正しいものはどれか。なお、保険金および給付金の支払事由が生じたときにおいて、保険契約は有効に継続しているものとする。また、秀雄さんはこれまでに＜資料＞の保険から保険金および給付金を一度も受け取っていないものとする。（問題文と資料の画像）",
+     "includesStem": true
+    }
+   ],
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "７４０,０００円"
+      },
+      {
+       "id": "2",
+       "text": "１,７４０,０００円"
+      },
+      {
+       "id": "3",
+       "text": "２,６４０,０００円"
+      }
+     ],
+     "answer": "2"
+    }
+   ],
+   "requiresCalculation": true,
+   "status": "verified",
+   "calcReason": "数値資料から計算して答えを求める"
+  },
+  {
+   "id": "j3-202605-13",
+   "exam": "j3",
+   "field": "A",
+   "theme": "公的年金",
+   "source": {
+    "kind": "official",
+    "citation": "日本FP協会 3級ファイナンシャル・プランニング技能検定実技試験（資産設計提案業務） 2026年公表分",
+    "yearMonth": "2026-05",
+    "number": 13,
+    "url": "https://www.jafp.or.jp/exam/mohan/files/j3_202605_q.pdf",
+    "answerUrl": "https://www.jafp.or.jp/exam/mohan/files/j3_202605_a.pdf",
+    "modified": false
+   },
+   "lawBaseDate": "2025-04-01",
+   "stem": "会社員の大久保さんは、自身が死亡した場合に備え、生命保険への加入を検討している。下記＜資料＞に基づき、現時点で大久保さんが死亡した場合の遺族の必要保障額の見込額として、最も適切なものはどれか。なお、記載のない事項については一切考慮しないこととする。",
+   "materials": [
+    {
+     "kind": "image",
+     "title": "問題・資料（原本PDFから切り出し）",
+     "src": "content-img/j3-202605-13.png",
+     "alt": "会社員の大久保さんは、自身が死亡した場合に備え、生命保険への加入を検討している。下記＜資料＞に基づき、現時点で大久保さんが死亡した場合の遺族の必要保障額の見込額として、最も適切なものはどれか。なお、記載のない事項については一切考慮しないこととする。（問題文と資料の画像）",
+     "includesStem": true
+    }
+   ],
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "２,４００万円"
+      },
+      {
+       "id": "2",
+       "text": "３,４００万円"
+      },
+      {
+       "id": "3",
+       "text": "７,３００万円"
+      }
+     ],
+     "answer": "1"
+    }
+   ],
+   "requiresCalculation": true,
+   "status": "verified",
+   "calcReason": "数値資料から計算して答えを求める"
+  },
+  {
+   "id": "j3-202605-14",
+   "exam": "j3",
+   "field": "B",
+   "theme": "損害保険",
+   "source": {
+    "kind": "official",
+    "citation": "日本FP協会 3級ファイナンシャル・プランニング技能検定実技試験（資産設計提案業務） 2026年公表分",
+    "yearMonth": "2026-05",
+    "number": 14,
+    "url": "https://www.jafp.or.jp/exam/mohan/files/j3_202605_q.pdf",
+    "answerUrl": "https://www.jafp.or.jp/exam/mohan/files/j3_202605_a.pdf",
+    "modified": false
+   },
+   "lawBaseDate": "2025-04-01",
+   "stem": "斉藤さんが契約している自動車保険の主な内容は、下記＜資料＞のとおりである。斉藤さんに関する次の記述のうち、自動車保険による補償の対象となるものはどれか。なお、被保険自動車の運転者はいずれも斉藤さんである。また、記載のない事項については一切考慮しないこととする。",
+   "materials": [
+    {
+     "kind": "image",
+     "title": "問題・資料（原本PDFから切り出し）",
+     "src": "content-img/j3-202605-14.png",
+     "alt": "斉藤さんが契約している自動車保険の主な内容は、下記＜資料＞のとおりである。斉藤さんに関する次の記述のうち、自動車保険による補償の対象となるものはどれか。なお、被保険自動車の運転者はいずれも斉藤さんである。また、記載のない事項については一切考慮しないこととする。（問題文と資料の画像）",
+     "includesStem": true
+    }
+   ],
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "被保険自動車を運転中に、誤って自宅の車庫を損壊した場合の車庫の修理費用"
+      },
+      {
+       "id": "2",
+       "text": "被保険自動車を運転中に、ブレーキ操作を誤って単独事故を起こし、車体が損傷した場合の車の修理費用"
+      },
+      {
+       "id": "3",
+       "text": "被保険自動車を駐車場に駐車する際に、誘導中の妻に誤って車が接触し、ケガを負わせた場合の治療費用"
+      }
+     ],
+     "answer": "2"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified"
+  },
+  {
+   "id": "j3-202605-15",
+   "exam": "j3",
+   "field": "D",
+   "theme": "所得控除",
+   "source": {
+    "kind": "official",
+    "citation": "日本FP協会 3級ファイナンシャル・プランニング技能検定実技試験（資産設計提案業務） 2026年公表分",
+    "yearMonth": "2026-05",
+    "number": 15,
+    "url": "https://www.jafp.or.jp/exam/mohan/files/j3_202605_q.pdf",
+    "answerUrl": "https://www.jafp.or.jp/exam/mohan/files/j3_202605_a.pdf",
+    "modified": false
+   },
+   "lawBaseDate": "2025-04-01",
+   "stem": "中岡さんは、個人でアパートの賃貸をしている青色申告者である。中岡さんの当年分の所得および所得控除等が下記＜資料＞のとおりである場合、＜資料＞に基づく中岡さんの当年分の所得税額として、正しいものはどれか。なお、記載のない事項については一切考慮しないこととする。",
+   "materials": [
+    {
+     "kind": "image",
+     "title": "問題・資料（原本PDFから切り出し）",
+     "src": "content-img/j3-202605-15.png",
+     "alt": "中岡さんは、個人でアパートの賃貸をしている青色申告者である。中岡さんの当年分の所得および所得控除等が下記＜資料＞のとおりである場合、＜資料＞に基づく中岡さんの当年分の所得税額として、正しいものはどれか。なお、記載のない事項については一切考慮しないこととする。（問題文と資料の画像）",
+     "includesStem": true
+    }
+   ],
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "２１２,０００円"
+      },
+      {
+       "id": "2",
+       "text": "９０５,０００円"
+      },
+      {
+       "id": "3",
+       "text": "９１２,５００円"
+      }
+     ],
+     "answer": "3"
+    }
+   ],
+   "requiresCalculation": true,
+   "status": "verified",
+   "calcReason": "数値資料から計算して答えを求める"
+  },
+  {
+   "id": "j3-202605-16",
+   "exam": "j3",
+   "field": "D",
+   "theme": "所得控除",
+   "source": {
+    "kind": "official",
+    "citation": "日本FP協会 3級ファイナンシャル・プランニング技能検定実技試験（資産設計提案業務） 2026年公表分",
+    "yearMonth": "2026-05",
+    "number": 16,
+    "url": "https://www.jafp.or.jp/exam/mohan/files/j3_202605_q.pdf",
+    "answerUrl": "https://www.jafp.or.jp/exam/mohan/files/j3_202605_a.pdf",
+    "modified": false
+   },
+   "lawBaseDate": "2025-04-01",
+   "stem": "会社員の近藤敏彦さんの当年中に支払った医療費等が下記＜資料＞のとおりである場合、敏彦さんの当年分の所得税における医療費控除の金額として、正しいものはどれか。なお、敏彦さんの当年中の所得は、給与所得８００万円のみであり、支払った医療費等はすべて敏彦さんおよび生計を一にする親族のために支払ったものである。また、医療費控除の金額が最も大きくなるように計算することとし、「特定一般用医薬品等購入費を支払った場合の医療費控除の特例（セルフメディケーション税制）」その他記載のない事項については一切考慮しないこととする。",
+   "materials": [
+    {
+     "kind": "image",
+     "title": "問題・資料（原本PDFから切り出し）",
+     "src": "content-img/j3-202605-16.png",
+     "alt": "会社員の近藤敏彦さんの当年中に支払った医療費等が下記＜資料＞のとおりである場合、敏彦さんの当年分の所得税における医療費控除の金額として、正しいものはどれか。なお、敏彦さんの当年中の所得は、給与所得８００万円のみであり、支払った医療費等はすべて敏彦さんおよび生計を一にする親族のために支払ったものである。また、医療費控除の金額が最も大きくなるように計算することとし、「特定一般用医薬品等購入費を支払った場合の医療費控除の特例（セルフメディケーション税制）」その他記載のない事項については一切考慮しないこととする。（問題文と資料の画像）",
+     "includesStem": true
+    }
+   ],
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "７万円"
+      },
+      {
+       "id": "2",
+       "text": "２７万円"
+      },
+      {
+       "id": "3",
+       "text": "４０万円"
+      }
+     ],
+     "answer": "1"
+    }
+   ],
+   "requiresCalculation": true,
+   "status": "verified",
+   "calcReason": "数値資料から計算して答えを求める"
+  },
+  {
+   "id": "j3-202605-17",
+   "exam": "j3",
+   "field": "D",
+   "theme": "確定申告・青色申告",
+   "source": {
+    "kind": "official",
+    "citation": "日本FP協会 3級ファイナンシャル・プランニング技能検定実技試験（資産設計提案業務） 2026年公表分",
+    "yearMonth": "2026-05",
+    "number": 17,
+    "url": "https://www.jafp.or.jp/exam/mohan/files/j3_202605_q.pdf",
+    "answerUrl": "https://www.jafp.or.jp/exam/mohan/files/j3_202605_a.pdf",
+    "modified": false
+   },
+   "lawBaseDate": "2025-04-01",
+   "stem": "所得税の青色申告制度に関する下表の空欄（ ア ）～（ ウ ）にあてはまる語句および数値の組み合わせとして、最も適切なものはどれか。",
+   "materials": [
+    {
+     "kind": "image",
+     "title": "問題・資料（原本PDFから切り出し）",
+     "src": "content-img/j3-202605-17.png",
+     "alt": "所得税の青色申告制度に関する下表の空欄（ ア ）～（ ウ ）にあてはまる語句および数値の組み合わせとして、最も適切なものはどれか。（問題文と資料の画像）",
+     "includesStem": true
+    }
+   ],
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "（ ア ）山林所得 （ イ ）３月１５日 （ ウ ）１０"
+      },
+      {
+       "id": "2",
+       "text": "（ ア ）山林所得 （ イ ）３月３１日 （ ウ ）１０"
+      },
+      {
+       "id": "3",
+       "text": "（ ア ）雑所得 （ イ ）３月１５日 （ ウ ）３０"
+      }
+     ],
+     "answer": "1"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified"
+  },
+  {
+   "id": "j3-202605-18",
+   "exam": "j3",
+   "field": "F",
+   "theme": "相続の基礎（民法）",
+   "source": {
+    "kind": "official",
+    "citation": "日本FP協会 3級ファイナンシャル・プランニング技能検定実技試験（資産設計提案業務） 2026年公表分",
+    "yearMonth": "2026-05",
+    "number": 18,
+    "url": "https://www.jafp.or.jp/exam/mohan/files/j3_202605_q.pdf",
+    "answerUrl": "https://www.jafp.or.jp/exam/mohan/files/j3_202605_a.pdf",
+    "modified": false
+   },
+   "lawBaseDate": "2025-04-01",
+   "stem": "森隆男さん（被相続人）の＜親族関係図＞が下記のとおりである場合、民法上の相続人および法定相続分の組み合わせとして、最も適切なものはどれか。なお、記載のない事項については一切考慮しないこととする。",
+   "materials": [
+    {
+     "kind": "image",
+     "title": "問題・資料（原本PDFから切り出し）",
+     "src": "content-img/j3-202605-18.png",
+     "alt": "森隆男さん（被相続人）の＜親族関係図＞が下記のとおりである場合、民法上の相続人および法定相続分の組み合わせとして、最も適切なものはどれか。なお、記載のない事項については一切考慮しないこととする。（問題文と資料の画像）",
+     "includesStem": true
+    }
+   ],
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "綾子 １／２ 夏帆 １／２"
+      },
+      {
+       "id": "2",
+       "text": "綾子 １／２ 夏帆 １／４ 真奈 １／４"
+      },
+      {
+       "id": "3",
+       "text": "綾子 １／２ 夏帆 １／６ 真奈 １／６ 寛太 １／６"
+      }
+     ],
+     "answer": "2"
+    }
+   ],
+   "requiresCalculation": true,
+   "status": "verified",
+   "calcReason": "数値資料から計算して答えを求める"
+  },
+  {
+   "id": "j3-202605-19",
+   "exam": "j3",
+   "field": "F",
+   "theme": "相続税の計算",
+   "source": {
+    "kind": "official",
+    "citation": "日本FP協会 3級ファイナンシャル・プランニング技能検定実技試験（資産設計提案業務） 2026年公表分",
+    "yearMonth": "2026-05",
+    "number": 19,
+    "url": "https://www.jafp.or.jp/exam/mohan/files/j3_202605_q.pdf",
+    "answerUrl": "https://www.jafp.or.jp/exam/mohan/files/j3_202605_a.pdf",
+    "modified": false
+   },
+   "lawBaseDate": "2025-04-01",
+   "stem": "藤田信二さん（被相続人）の＜親族関係図＞が下記のとおりである場合、相続税の計算における遺産に係る基礎控除額として、正しいものはどれか。",
+   "materials": [
+    {
+     "kind": "image",
+     "title": "問題・資料（原本PDFから切り出し）",
+     "src": "content-img/j3-202605-19.png",
+     "alt": "藤田信二さん（被相続人）の＜親族関係図＞が下記のとおりである場合、相続税の計算における遺産に係る基礎控除額として、正しいものはどれか。（問題文と資料の画像）",
+     "includesStem": true
+    }
+   ],
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "４,８００万円"
+      },
+      {
+       "id": "2",
+       "text": "５,０００万円"
+      },
+      {
+       "id": "3",
+       "text": "５,４００万円"
+      }
+     ],
+     "answer": "3"
+    }
+   ],
+   "requiresCalculation": true,
+   "status": "verified",
+   "calcReason": "数値資料から計算して答えを求める"
+  },
+  {
+   "id": "j3-202605-20",
+   "exam": "j3",
+   "field": "F",
+   "theme": "財産評価",
+   "source": {
+    "kind": "official",
+    "citation": "日本FP協会 3級ファイナンシャル・プランニング技能検定実技試験（資産設計提案業務） 2026年公表分",
+    "yearMonth": "2026-05",
+    "number": 20,
+    "url": "https://www.jafp.or.jp/exam/mohan/files/j3_202605_q.pdf",
+    "answerUrl": "https://www.jafp.or.jp/exam/mohan/files/j3_202605_a.pdf",
+    "modified": false
+   },
+   "lawBaseDate": "2025-04-01",
+   "stem": "西川さんが自宅の敷地および建物を夫の相続により取得し、自宅の敷地（相続税評価額：５,０００万円）のすべてについて特定居住用宅地等として小規模宅地等の特例の適用を受けた場合、相続税の課税価格に算入すべき自宅の敷地の価額として、正しいものはどれか。",
+   "materials": [
+    {
+     "kind": "image",
+     "title": "問題・資料（原本PDFから切り出し）",
+     "src": "content-img/j3-202605-20.png",
+     "alt": "西川さんが自宅の敷地および建物を夫の相続により取得し、自宅の敷地（相続税評価額：５,０００万円）のすべてについて特定居住用宅地等として小規模宅地等の特例の適用を受けた場合、相続税の課税価格に算入すべき自宅の敷地の価額として、正しいものはどれか。（問題文と資料の画像）",
+     "includesStem": true
+    }
+   ],
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "１,０００万円"
+      },
+      {
+       "id": "2",
+       "text": "２,５００万円"
+      },
+      {
+       "id": "3",
+       "text": "４,０００万円"
+      }
+     ],
+     "answer": "1"
+    }
+   ],
+   "requiresCalculation": true,
+   "status": "verified",
+   "calcReason": "数値資料から計算して答えを求める"
+  }
+ ]
+}

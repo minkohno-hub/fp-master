@@ -48,8 +48,22 @@ test('2級／3級・学科／実技の切り替え', async ({ page }) => {
   await expect(page.getByRole('heading', { name: '2級 学科' })).toBeVisible();
   await page.getByRole('radio', { name: '実技' }).click();
   await expect(page.getByRole('heading', { name: /2級 実技/ })).toBeVisible();
+  // 2級実技は未収録（準備中表示）、3級実技は収録済み
   await page.goto('./#/practice');
   await expect(page.getByText(/実技（資産設計提案業務）の問題は現在準備中/)).toBeVisible();
+  await page.getByRole('radio', { name: '3級' }).click();
+  await expect(page.getByText(/出題対象 \d+問/)).toBeVisible();
+  await expect(page.getByText(/実技（資産設計提案業務）の問題は現在準備中/)).toHaveCount(0);
+});
+
+test('3級実技：模擬試験は20問・60分・計算問題を含む', async ({ page }) => {
+  await page.goto('./#/mock');
+  await page.getByRole('radio', { name: '3級' }).click();
+  await page.getByRole('radio', { name: '実技' }).click();
+  await page.getByRole('button', { name: /3級 実技 2026年公表分/ }).click();
+  await expect(page.getByText(/20問（うち計算問題 [1-9]\d*問）／制限時間 60分/)).toBeVisible();
+  await page.getByRole('button', { name: '開始する' }).click();
+  await expect(page.locator('main img').first()).toBeVisible();
 });
 
 test('計算トレーニング：答え合わせと計算過程の表示', async ({ page }) => {
@@ -105,7 +119,7 @@ test('バックアップ・復元（往復でデータが保持される）', as
   const [download] = await Promise.all([page.waitForEvent('download'), page.getByRole('button', { name: 'JSONファイルに書き出す' }).click()]);
   const path = await download.path();
   await page.getByLabel('バックアップファイルを選択').setInputFiles(path!);
-  await expect(page.getByText('解答履歴')).toBeVisible();
+  await expect(page.getByRole('cell', { name: '解答履歴' })).toBeVisible();
   await page.getByRole('button', { name: '復元する' }).click();
   await expect(page.getByText('復元しました。')).toBeVisible();
   // 壊れたファイルは復元しない

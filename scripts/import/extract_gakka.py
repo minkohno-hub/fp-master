@@ -353,6 +353,12 @@ def crop_question_image(pdf: Path, qid: str, n: int, paper: bool) -> str:
     subprocess.run(['pdftoppm', '-r', str(dpi), '-png', '-singlefile', '-f', str(head[0]), '-l', str(head[0]),
                     '-x', str(int(x0 * sc)), '-y', str(int(y0 * sc)), '-W', str(int((x1 - x0) * sc)), '-H', str(int((y1 - y0) * sc)),
                     str(pdf), str(out)], check=True)
+    try:  # 16階調に減色して容量を約1/4に（Pillow がない環境ではそのまま）
+        from PIL import Image
+        png = out.with_suffix('.png')
+        Image.open(png).convert('L').quantize(colors=16).save(png, optimize=True)
+    except ImportError:
+        pass
     return f'content-img/{qid}.png'
 
 

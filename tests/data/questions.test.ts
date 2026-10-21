@@ -30,10 +30,11 @@ describe('問題データの検証', () => {
     }
   });
 
-  it('公表セットは問1〜問60が欠落・重複なく揃っている', () => {
+  it('公表セットは問1〜問N（本試験の問題数）が欠落・重複なく揃っている', () => {
+    const count: Record<string, number> = { g3: 60, g2: 60, j3: 20, j2: 40 };
     for (const s of sets.filter((x) => x.officialSet)) {
       const nums = s.questions.map((q) => (q.source.kind === 'official' ? q.source.number : 0)).sort((a, b) => a - b);
-      expect(nums).toEqual(Array.from({ length: 60 }, (_, i) => i + 1));
+      expect(nums, s.id).toEqual(Array.from({ length: count[s.exam]! }, (_, i) => i + 1));
     }
   });
 
@@ -46,6 +47,7 @@ describe('問題データの検証', () => {
         else expect(p.kind === 'choice' && p.choices.length).toBe(3);
       }
       if (q.exam === 'g2') expect(p.kind === 'choice' && p.choices.length).toBe(4);
+      if (q.exam === 'j3') expect(p.kind === 'choice' && p.choices.length).toBe(3);
     }
   });
 

@@ -1,0 +1,116 @@
+{
+ "reviewedAt": "2026-10-21",
+ "reviewer": "Claude（目視確認：分野・計算判定）",
+ "questions": {
+  "1": {
+   "field": "A",
+   "_reviewed": true
+  },
+  "2": {
+   "field": "A",
+   "requiresCalculation": true,
+   "calcReason": "数値資料から計算して答えを求める",
+   "_reviewed": true
+  },
+  "3": {
+   "field": "A",
+   "requiresCalculation": true,
+   "calcReason": "数値資料から計算して答えを求める",
+   "_reviewed": true
+  },
+  "4": {
+   "field": "A",
+   "requiresCalculation": true,
+   "calcReason": "数値資料から計算して答えを求める",
+   "_reviewed": true
+  },
+  "5": {
+   "field": "A",
+   "_reviewed": true
+  },
+  "6": {
+   "field": "C",
+   "requiresCalculation": true,
+   "calcReason": "数値資料から計算して答えを求める",
+   "_reviewed": true
+  },
+  "7": {
+   "field": "C",
+   "_reviewed": true
+  },
+  "8": {
+   "field": "C",
+   "requiresCalculation": true,
+   "calcReason": "数値資料から計算して答えを求める",
+   "_reviewed": true
+  },
+  "9": {
+   "field": "E",
+   "requiresCalculation": true,
+   "calcReason": "数値資料から計算して答えを求める",
+   "_reviewed": true
+  },
+  "10": {
+   "field": "E",
+   "_reviewed": true
+  },
+  "11": {
+   "field": "D",
+   "requiresCalculation": true,
+   "calcReason": "数値資料から計算して答えを求める",
+   "_reviewed": true
+  },
+  "12": {
+   "field": "B",
+   "requiresCalculation": true,
+   "calcReason": "数値資料から計算して答えを求める",
+   "_reviewed": true
+  },
+  "13": {
+   "field": "D",
+   "requiresCalculation": true,
+   "calcReason": "数値資料から計算して答えを求める",
+   "_reviewed": true
+  },
+  "14": {
+   "field": "B",
+   "_reviewed": true
+  },
+  "15": {
+   "field": "D",
+   "requiresCalculation": true,
+   "calcReason": "数値資料から計算して答えを求める",
+   "_reviewed": true
+  },
+  "16": {
+   "field": "D",
+   "requiresCalculation": true,
+   "calcReason": "数値資料から計算して答えを求める",
+   "_reviewed": true
+  },
+  "17": {
+   "field": "D",
+   "requiresCalculation": true,
+   "calcReason": "数値資料から計算して答えを求める",
+   "_reviewed": true
+  },
+  "18": {
+   "field": "F",
+   "requiresCalculation": true,
+   "calcReason": "数値資料から計算して答えを求める",
+   "_reviewed": true
+  },
+  "19": {
+   "field": "F",
+   "requiresCalculation": true,
+   "calcReason": "数値資料から計算して答えを求める",
+   "_reviewed": true
+  },
+  "20": {
+   "field": "F",
+   "requiresCalculation": true,
+   "calcReason": "数値資料から計算して答えを求める",
+   "_reviewed": true
+  }
+ }
+}
