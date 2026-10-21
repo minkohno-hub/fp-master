@@ -1,0 +1,149 @@
+[
+ {
+  "id": "r7-kiso-kojo",
+  "title": "基礎控除の引上げ（令和7年分以後）",
+  "field": "D",
+  "effective": "2025-12-01",
+  "summary": "令和7年度税制改正により、所得税の基礎控除額が合計所得金額に応じて引き上げられた（令和7年分から適用）。さらに令和8年度税制改正で令和8年分以後の金額が改正された（令和8年12月1日施行）。",
+  "before": "令和6年分以前：合計所得金額2,400万円以下は48万円",
+  "after": "令和7年分以後：合計所得金額に応じて段階的に設定（具体的な金額は国税庁 No.1199 の表を参照）",
+  "sources": [
+   {
+    "title": "国税庁 No.1199 基礎控除",
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1199.htm"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1199.htm",
+    "quote": "令和6年分以前令和7年分令和8年分令和9年分以後令和10年分以後132万円以下48万円95万円104万円99万円"
+   }
+  ],
+  "status": "confirmed",
+  "affectedQuestions": [
+   {
+    "id": "g3-202605-20",
+    "impact": "unchanged",
+    "note": "「合計所得金額にかかわらず58万円」は改正後も誤り（金額は所得に応じて異なる）。"
+   },
+   {
+    "id": "g2-202405-34",
+    "impact": "unchanged",
+    "note": "合計所得金額2,500万円超で基礎控除が0となる点は改正後も同じ。"
+   }
+  ],
+  "affectedTerms": [
+   "kiso-kojo"
+  ],
+  "checkedAt": "2026-10-21"
+ },
+ {
+  "id": "r7-kyuyo-kojo",
+  "title": "給与所得控除の最低保障額の引上げ",
+  "field": "D",
+  "effective": "2025-12-01",
+  "summary": "給与所得控除額の最低保障額が令和7年分は65万円に、令和8年分・令和9年分は74万円に引き上げられた。",
+  "before": "令和2年分〜令和6年分：最低55万円（収入162.5万円以下）",
+  "after": "令和7年分：最低65万円（収入190万円以下）／令和8年分・令和9年分：最低74万円（収入220万円以下）",
+  "sources": [
+   {
+    "title": "国税庁 No.1410 給与所得控除",
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1410.htm"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1410.htm",
+    "quote": "令和7年分給与等の収入金額(給与所得の源泉徴収票の支払金額)給与所得控除額1,900,000円まで650,000円"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1410.htm",
+    "quote": "2,200,000円まで740,000円"
+   }
+  ],
+  "status": "confirmed",
+  "affectedQuestions": [
+   {
+    "id": "g3-202505-17",
+    "impact": "unchanged",
+    "note": "収入103万円の給与所得は改正前48万円、令和7年分38万円で、いずれも0にはならないため正答（×）は変わらない。"
+   }
+  ],
+  "affectedTerms": [
+   "kyuyo-shotoku-kojo"
+  ],
+  "checkedAt": "2026-10-21"
+ },
+ {
+  "id": "r7-haigusha-shotoku",
+  "title": "配偶者控除等の配偶者の所得要件の引上げ",
+  "field": "D",
+  "effective": "2025-12-01",
+  "summary": "控除対象配偶者・扶養親族の合計所得金額要件が、令和7年分は58万円以下（令和8年分以後は62万円以下）に引き上げられた。",
+  "before": "令和2年分〜令和6年分：48万円以下",
+  "after": "令和7年分：58万円以下／令和8年分以後：62万円以下",
+  "sources": [
+   {
+    "title": "国税庁 No.1191 配偶者控除",
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1191.htm"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1191.htm",
+    "quote": "令和7年分は58万円を超え133万円以下、令和2年分から令和6年分までは48万円を超え133万円以下"
+   }
+  ],
+  "status": "confirmed",
+  "affectedQuestions": [
+   {
+    "id": "g2-202501-34",
+    "impact": "unchanged",
+    "note": "青色事業専従者は所得金額にかかわらず控除対象配偶者に該当しないため正答は変わらない。選択肢中の「48万円」は改正前の数値。"
+   },
+   {
+    "id": "g3-202405-20",
+    "impact": "unchanged",
+    "note": "医療費控除は生計を一にする配偶者の所得要件がないため、正答（×）は変わらない。「48万円」は改正前の数値。"
+   }
+  ],
+  "affectedTerms": [
+   "haigusha-kojo",
+   "fuyo-kojo"
+  ],
+  "checkedAt": "2026-10-21"
+ },
+ {
+  "id": "r5-seisan-kazei",
+  "title": "相続時精算課税の基礎控除（年110万円）の創設",
+  "field": "F",
+  "effective": "2024-01-01",
+  "summary": "令和6年1月1日以後の贈与について、相続時精算課税にも年110万円の基礎控除が設けられ、基礎控除以下の贈与は申告不要・相続財産への加算対象外となった。",
+  "before": "2023年以前：基礎控除なし（特別控除2,500万円のみ）",
+  "after": "2024年以後：年110万円の基礎控除＋特別控除2,500万円",
+  "sources": [
+   {
+    "title": "国税庁 No.4103 相続時精算課税の選択",
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4103.htm"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4103.htm",
+    "quote": "令和6年1月1日以後の贈与により取得した相続時精算課税適用財産については"
+   }
+  ],
+  "status": "confirmed",
+  "affectedQuestions": [
+   {
+    "id": "g2-202405-52",
+    "impact": "unchanged",
+    "note": "税率（一律20％）を問う誤り選択肢が正答であり、基礎控除創設の影響は受けない。"
+   }
+  ],
+  "affectedTerms": [
+   "sozokuji-seisan"
+  ],
+  "checkedAt": "2026-10-21"
+ }
+]

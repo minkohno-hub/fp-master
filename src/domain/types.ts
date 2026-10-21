@@ -24,6 +24,16 @@ export const SourceRefSchema = z.object({
 });
 export type SourceRef = z.infer<typeof SourceRefSchema>;
 
+/**
+ * 根拠の引用。url のページ本文（空白を除去したテキスト）に quote が含まれることを
+ * scripts/verify-sources.mjs で自動照合する。含まれなくなった場合は制度改正等の可能性がある。
+ */
+export const EvidenceSchema = z.object({
+  url: z.url(),
+  quote: z.string().min(4),
+});
+export type Evidence = z.infer<typeof EvidenceSchema>;
+
 export const OfficialSourceSchema = z.object({
   kind: z.literal('official'),
   /** 出典表記（日本FP協会の利用条件に従った掲載例どおりの表記） */
@@ -93,6 +103,7 @@ export const ExplanationSchema = z.object({
   mnemonic: z.string().optional(),
   relatedQuestions: z.array(z.string()).optional(),
   sources: z.array(SourceRefSchema),
+  evidence: z.array(EvidenceSchema).optional(),
   /** 解説の根拠となる法令基準日 */
   lawBaseDate: IsoDate,
   checkedAt: IsoDate,
@@ -184,8 +195,10 @@ export const TermSchema = z.object({
   importance: z.union([z.literal(1), z.literal(2), z.literal(3)]),
   grades: z.array(GradeSchema).min(1),
   field: FieldIdSchema,
+  /** verified: 根拠の引用が公式ページで照合済み / draft: 未照合（「要確認」と表示） */
   reviewStatus: z.enum(['verified', 'draft']),
   sources: z.array(SourceRefSchema),
+  evidence: z.array(EvidenceSchema).optional(),
   checkedAt: IsoDate,
 });
 export type Term = z.infer<typeof TermSchema>;
@@ -200,6 +213,7 @@ export const FactCardSchema = z.object({
   termId: z.string().optional(),
   reviewStatus: z.enum(['verified', 'draft']),
   sources: z.array(SourceRefSchema),
+  evidence: z.array(EvidenceSchema).optional(),
   lawBaseDate: IsoDate,
 });
 export type FactCard = z.infer<typeof FactCardSchema>;
@@ -214,9 +228,13 @@ export const LawChangeSchema = z.object({
   before: z.string(),
   after: z.string(),
   sources: z.array(SourceRefSchema).min(1),
+  evidence: z.array(EvidenceSchema).optional(),
   /** confirmed: 公的資料で確認済み / candidate: 変更候補（未確認・出題に反映しない） */
   status: z.enum(['confirmed', 'candidate']),
-  affectedQuestions: z.array(z.string()),
+  /** 影響を受ける問題。impact: 正答への影響（unchanged=正答は変わらないが記述が旧制度 / changed=正答が変わる / unknown=未確認） */
+  affectedQuestions: z.array(
+    z.object({ id: z.string(), impact: z.enum(['unchanged', 'changed', 'unknown']), note: z.string() }),
+  ),
   affectedTerms: z.array(z.string()),
   checkedAt: IsoDate,
 });

@@ -1,0 +1,76 @@
+@import 'tailwindcss';
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-sans: system-ui, -apple-system, 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', 'Noto Sans JP', 'Yu Gothic UI', Meiryo, sans-serif;
+  --color-brand-50: #f0fdfa;
+  --color-brand-100: #ccfbf1;
+  --color-brand-200: #99f6e4;
+  --color-brand-500: #14b8a6;
+  --color-brand-600: #0d9488;
+  --color-brand-700: #0f766e;
+  --color-brand-800: #115e59;
+  --color-brand-900: #134e4a;
+}
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+  }
+  body {
+    @apply bg-slate-50 text-slate-900 antialiased dark:bg-slate-950 dark:text-slate-100;
+    font-feature-settings: 'palt' 0;
+    line-break: strict;
+    overflow-wrap: anywhere;
+  }
+  button,
+  [role='button'] {
+    touch-action: manipulation;
+  }
+  :focus-visible {
+    @apply outline-2 outline-offset-2 outline-brand-600;
+  }
+}
+
+@utility card {
+  @apply rounded-2xl border border-slate-200 bg-white p-4 shadow-sm dark:border-slate-800 dark:bg-slate-900;
+}
+@utility btn {
+  @apply inline-flex min-h-12 items-center justify-center gap-2 rounded-xl px-4 text-base font-semibold transition-colors select-none disabled:opacity-50;
+}
+@utility btn-primary {
+  @apply btn bg-brand-700 text-white active:bg-brand-800 dark:bg-brand-600 dark:active:bg-brand-700;
+}
+@utility btn-secondary {
+  @apply btn border border-slate-300 bg-white text-slate-800 active:bg-slate-100 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-100 dark:active:bg-slate-800;
+}
+@utility btn-ghost {
+  @apply btn text-brand-700 active:bg-brand-50 dark:text-brand-200 dark:active:bg-slate-800;
+}
+@utility chip {
+  @apply inline-flex min-h-10 items-center gap-1 rounded-full border border-slate-300 px-3 text-sm dark:border-slate-700;
+}
+@utility chip-on {
+  @apply border-brand-700 bg-brand-700 text-white dark:border-brand-500 dark:bg-brand-600;
+}
+@utility badge {
+  @apply inline-flex items-center rounded-md px-1.5 py-0.5 text-xs font-medium;
+}
+@utility label {
+  @apply text-sm font-semibold text-slate-600 dark:text-slate-400;
+}
+@utility input {
+  @apply min-h-12 w-full rounded-xl border border-slate-300 bg-white px-3 text-base dark:border-slate-700 dark:bg-slate-900;
+}
+@utility qtext {
+  @apply text-[1.05rem] leading-[1.85] tracking-wide;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+  }
+}
