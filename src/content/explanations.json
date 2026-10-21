@@ -6820,5 +6820,965 @@
    "lawBaseDate": "2024-04-01",
    "checkedAt": "2026-10-21"
   }
+ },
+ "g2-202405-01": {
+  "terms": [],
+  "explanation": {
+   "status": "draft",
+   "short": "投資信託のメリットだけでなく元本・利回りの保証がないこと等のリスクも説明するのは適切。1)無断の情報提供、2)顧客の状況を無視した勧誘、4)断定的判断の提供は不適切。正解は3)。",
+   "sources": [
+    {
+     "title": "日本FP協会 試験範囲（試験要綱）",
+     "url": "https://www.jafp.or.jp/exam/outline/"
+    }
+   ],
+   "evidence": [],
+   "lawBaseDate": "2023-10-01",
+   "checkedAt": "2026-10-21"
+  }
+ },
+ "g2-202405-02": {
+  "terms": [],
+  "explanation": {
+   "status": "draft",
+   "short": "年間返済額から借入可能額を求めるには年金現価係数を使う。1)生命保険料は差し引かない、2)時価で計上、4)減債基金係数。正解は3)。",
+   "sources": [
+    {
+     "title": "日本FP協会 試験範囲（試験要綱）",
+     "url": "https://www.jafp.or.jp/exam/outline/"
+    }
+   ],
+   "evidence": [],
+   "lawBaseDate": "2023-10-01",
+   "checkedAt": "2026-10-21"
+  }
+ },
+ "g2-202405-03": {
+  "terms": [],
+  "explanation": {
+   "status": "draft",
+   "short": "傷病手当金は支給開始日から通算して最長1年6カ月。1)埋葬料は5万円、3)限度額を超えた部分が支給、4)50万円（出題時点）。正解は2)。",
+   "sources": [
+    {
+     "title": "日本FP協会 試験範囲（試験要綱）",
+     "url": "https://www.jafp.or.jp/exam/outline/"
+    }
+   ],
+   "evidence": [],
+   "lawBaseDate": "2023-10-01",
+   "checkedAt": "2026-10-21"
+  }
+ },
+ "g2-202405-04": {
+  "terms": [],
+  "explanation": {
+   "status": "draft",
+   "short": "一般の受給資格者の所定給付日数は、算定基礎期間10年以上20年未満で120日（20年以上で150日）。正解は3)。",
+   "sources": [
+    {
+     "title": "日本FP協会 試験範囲（試験要綱）",
+     "url": "https://www.jafp.or.jp/exam/outline/"
+    }
+   ],
+   "evidence": [],
+   "lawBaseDate": "2023-10-01",
+   "checkedAt": "2026-10-21"
+  }
+ },
+ "g2-202405-05": {
+  "terms": [],
+  "explanation": {
+   "status": "draft",
+   "short": "介護休業給付の対象家族には配偶者の父母も含まれる。1)最長2歳まで、2)分割取得も支給対象、3)80％以上で不支給。正解は4)。",
+   "sources": [
+    {
+     "title": "日本FP協会 試験範囲（試験要綱）",
+     "url": "https://www.jafp.or.jp/exam/outline/"
+    }
+   ],
+   "evidence": [],
+   "lawBaseDate": "2023-10-01",
+   "checkedAt": "2026-10-21"
+  }
+ },
+ "g2-202405-06": {
+  "terms": [],
+  "explanation": {
+   "status": "draft",
+   "short": "学生納付特例期間は追納しなくても受給資格期間に算入される（年金額には反映されない）。2)出産予定月の前月から4カ月、3)別々に繰下げ可、4)240月以上。正解は1)。",
+   "sources": [
+    {
+     "title": "日本FP協会 試験範囲（試験要綱）",
+     "url": "https://www.jafp.or.jp/exam/outline/"
+    }
+   ],
+   "evidence": [],
+   "lawBaseDate": "2023-10-01",
+   "checkedAt": "2026-10-21"
+  }
+ },
+ "g2-202405-07": {
+  "terms": [],
+  "explanation": {
+   "status": "draft",
+   "short": "労災の障害補償年金と同一事由で支給される場合、減額されるのは労災側で、障害基礎年金・障害厚生年金は全額支給される。正解は4)。",
+   "sources": [
+    {
+     "title": "日本FP協会 試験範囲（試験要綱）",
+     "url": "https://www.jafp.or.jp/exam/outline/"
+    }
+   ],
+   "evidence": [],
+   "lawBaseDate": "2023-10-01",
+   "checkedAt": "2026-10-21"
+  }
+ },
+ "g2-202405-08": {
+  "terms": [],
+  "explanation": {
+   "status": "draft",
+   "short": "マッチング拠出の加入者掛金は、事業主掛金の額以下かつ合計で拠出限度額以内という制限がある。正解は1)。",
+   "sources": [
+    {
+     "title": "日本FP協会 試験範囲（試験要綱）",
+     "url": "https://www.jafp.or.jp/exam/outline/"
+    }
+   ],
+   "evidence": [],
+   "lawBaseDate": "2023-10-01",
+   "checkedAt": "2026-10-21"
+  }
+ },
+ "g2-202405-09": {
+  "terms": [],
+  "explanation": {
+   "status": "draft",
+   "short": "一部繰上げ返済の利息軽減効果は返済期間短縮型のほうが大きい。正解は3)。",
+   "sources": [
+    {
+     "title": "日本FP協会 試験範囲（試験要綱）",
+     "url": "https://www.jafp.or.jp/exam/outline/"
+    }
+   ],
+   "evidence": [],
+   "lawBaseDate": "2023-10-01",
+   "checkedAt": "2026-10-21"
+  }
+ },
+ "g2-202405-10": {
+  "terms": [],
+  "explanation": {
+   "status": "draft",
+   "short": "リコース型では担保売却後に残った債務を相続人が返済する義務を負う（負わないのはノンリコース型）。正解は2)。",
+   "sources": [
+    {
+     "title": "日本FP協会 試験範囲（試験要綱）",
+     "url": "https://www.jafp.or.jp/exam/outline/"
+    }
+   ],
+   "evidence": [],
+   "lawBaseDate": "2023-10-01",
+   "checkedAt": "2026-10-21"
+  }
+ },
+ "g2-202405-11": {
+  "terms": [],
+  "explanation": {
+   "status": "draft",
+   "short": "生存保障重視型は死亡給付金・解約返戻金を低くして年金額を高くしている。1)年金の未払分相当、2)保険料免除だが年金は開始日から、3)受取時の為替レートで換算。正解は4)。",
+   "sources": [
+    {
+     "title": "日本FP協会 試験範囲（試験要綱）",
+     "url": "https://www.jafp.or.jp/exam/outline/"
+    }
+   ],
+   "evidence": [],
+   "lawBaseDate": "2023-10-01",
+   "checkedAt": "2026-10-21"
+  }
+ },
+ "g2-202405-12": {
+  "terms": [],
+  "explanation": {
+   "status": "draft",
+   "short": "Bグループ保険は告知が必要だが、医師の診査は原則不要。正解は4)。",
+   "sources": [
+    {
+     "title": "日本FP協会 試験範囲（試験要綱）",
+     "url": "https://www.jafp.or.jp/exam/outline/"
+    }
+   ],
+   "evidence": [],
+   "lawBaseDate": "2023-10-01",
+   "checkedAt": "2026-10-21"
+  }
+ },
+ "g2-202405-13": {
+  "terms": [],
+  "explanation": {
+   "status": "draft",
+   "short": "少額短期保険の保険料は生命保険料控除の対象外。正解は2)。",
+   "sources": [
+    {
+     "title": "日本FP協会 試験範囲（試験要綱）",
+     "url": "https://www.jafp.or.jp/exam/outline/"
+    }
+   ],
+   "evidence": [],
+   "lawBaseDate": "2023-10-01",
+   "checkedAt": "2026-10-21"
+  }
+ },
+ "g2-202405-14": {
+  "terms": [],
+  "explanation": {
+   "status": "draft",
+   "short": "一時払終身保険を5年以内に解約しても源泉分離課税の対象にはならず、一時所得となる（源泉分離は一時払養老保険等の金融類似商品）。正解は2)。",
+   "sources": [
+    {
+     "title": "日本FP協会 試験範囲（試験要綱）",
+     "url": "https://www.jafp.or.jp/exam/outline/"
+    }
+   ],
+   "evidence": [],
+   "lawBaseDate": "2023-10-01",
+   "checkedAt": "2026-10-21"
+  }
+ },
+ "g2-202405-15": {
+  "terms": [],
+  "explanation": {
+   "status": "draft",
+   "short": "最高解約返戻率75％（70％超85％以下）の定期保険は、前半4割期間は保険料の60％を資産計上する。40％は50％超70％以下の場合。正解は4)。",
+   "sources": [
+    {
+     "title": "日本FP協会 試験範囲（試験要綱）",
+     "url": "https://www.jafp.or.jp/exam/outline/"
+    }
+   ],
+   "evidence": [],
+   "lawBaseDate": "2023-10-01",
+   "checkedAt": "2026-10-21"
+  }
+ },
+ "g2-202405-16": {
+  "terms": [],
+  "explanation": {
+   "status": "draft",
+   "short": "記名被保険者の配偶者のケガは対人賠償保険の補償対象外（人身傷害保険などで補償）。正解は1)。",
+   "sources": [
+    {
+     "title": "日本FP協会 試験範囲（試験要綱）",
+     "url": "https://www.jafp.or.jp/exam/outline/"
+    }
+   ],
+   "evidence": [],
+   "lawBaseDate": "2023-10-01",
+   "checkedAt": "2026-10-21"
+  }
+ },
+ "g2-202405-17": {
+  "terms": [],
+  "explanation": {
+   "status": "draft",
+   "short": "地震保険の4つの割引制度は重複して適用できない。正解は3)。",
+   "sources": [
+    {
+     "title": "日本FP協会 試験範囲（試験要綱）",
+     "url": "https://www.jafp.or.jp/exam/outline/"
+    }
+   ],
+   "evidence": [],
+   "lawBaseDate": "2023-10-01",
+   "checkedAt": "2026-10-21"
+  }
+ },
+ "g2-202405-18": {
+  "terms": [],
+  "explanation": {
+   "status": "draft",
+   "short": "ケガによる入院保険金は非課税。1)2)損害賠償金・保険金は非課税、4)火災保険金も非課税。正解は3)。",
+   "sources": [
+    {
+     "title": "日本FP協会 試験範囲（試験要綱）",
+     "url": "https://www.jafp.or.jp/exam/outline/"
+    }
+   ],
+   "evidence": [],
+   "lawBaseDate": "2023-10-01",
+   "checkedAt": "2026-10-21"
+  }
+ },
+ "g2-202405-19": {
+  "terms": [],
+  "explanation": {
+   "status": "draft",
+   "short": "先進医療の対象は、療養を受けた時点で厚生労働大臣が定めるもの。正解は1)。",
+   "sources": [
+    {
+     "title": "日本FP協会 試験範囲（試験要綱）",
+     "url": "https://www.jafp.or.jp/exam/outline/"
+    }
+   ],
+   "evidence": [],
+   "lawBaseDate": "2023-10-01",
+   "checkedAt": "2026-10-21"
+  }
+ },
+ "g2-202405-20": {
+  "terms": [],
+  "explanation": {
+   "status": "draft",
+   "short": "団体信用生命保険は住宅ローン債務者の死亡時に残債を弁済する保険で、弔慰金・死亡退職金の原資には適さない。正解は1)。",
+   "sources": [
+    {
+     "title": "日本FP協会 試験範囲（試験要綱）",
+     "url": "https://www.jafp.or.jp/exam/outline/"
+    }
+   ],
+   "evidence": [],
+   "lawBaseDate": "2023-10-01",
+   "checkedAt": "2026-10-21"
+  }
+ },
+ "g2-202405-21": {
+  "terms": [],
+  "explanation": {
+   "status": "draft",
+   "short": "「生鮮食品を除く総合指数」は景気動向指数の遅行系列に採用されている（一致系列ではない）。正解は3)。",
+   "sources": [
+    {
+     "title": "日本FP協会 試験範囲（試験要綱）",
+     "url": "https://www.jafp.or.jp/exam/outline/"
+    }
+   ],
+   "evidence": [],
+   "lawBaseDate": "2023-10-01",
+   "checkedAt": "2026-10-21"
+  }
+ },
+ "g2-202405-22": {
+  "terms": [],
+  "explanation": {
+   "status": "draft",
+   "short": "仕組預金には金融機関の判断で満期日が繰り上がるものがある。2)半年複利型は個人のみ、3)預金者が指定、4)10年以上取引がないもの。正解は1)。",
+   "sources": [
+    {
+     "title": "日本FP協会 試験範囲（試験要綱）",
+     "url": "https://www.jafp.or.jp/exam/outline/"
+    }
+   ],
+   "evidence": [],
+   "lawBaseDate": "2023-10-01",
+   "checkedAt": "2026-10-21"
+  }
+ },
+ "g2-202405-23": {
+  "terms": [],
+  "explanation": {
+   "status": "draft",
+   "short": "ベア型は指数が下落すると基準価額が上昇する。1)トップダウン・アプローチ、2)割安を買い割高を売る、3)グロースはPER・PBRが高い傾向。正解は4)。",
+   "sources": [
+    {
+     "title": "日本FP協会 試験範囲（試験要綱）",
+     "url": "https://www.jafp.or.jp/exam/outline/"
+    }
+   ],
+   "evidence": [],
+   "lawBaseDate": "2023-10-01",
+   "checkedAt": "2026-10-21"
+  }
+ },
+ "g2-202405-24": {
+  "terms": [],
+  "explanation": {
+   "status": "draft",
+   "short": "所有期間利回り＝（0.5＋（96.3－100）÷2）÷100×100＝▲1.35％。正解は2)。",
+   "sources": [
+    {
+     "title": "日本FP協会 試験範囲（試験要綱）",
+     "url": "https://www.jafp.or.jp/exam/outline/"
+    }
+   ],
+   "evidence": [],
+   "lawBaseDate": "2023-10-01",
+   "checkedAt": "2026-10-21"
+  }
+ },
+ "g2-202405-25": {
+  "terms": [],
+  "explanation": {
+   "status": "draft",
+   "short": "一般に投資適格債はBBB（トリプルB）格以上。BB格以下は投機的格付け。正解は3)。",
+   "sources": [
+    {
+     "title": "日本FP協会 試験範囲（試験要綱）",
+     "url": "https://www.jafp.or.jp/exam/outline/"
+    }
+   ],
+   "evidence": [],
+   "lawBaseDate": "2023-10-01",
+   "checkedAt": "2026-10-21"
+  }
+ },
+ "g2-202405-26": {
+  "terms": [],
+  "explanation": {
+   "status": "draft",
+   "short": "当期純利益＝時価総額22兆5,000億円÷PER20＝1兆1,250億円。配当性向＝3,375億円÷1兆1,250億円＝30％。1)EPSは450円、2)株式益利回りは5％、3)PBRは6倍。正解は4)。",
+   "sources": [
+    {
+     "title": "日本FP協会 試験範囲（試験要綱）",
+     "url": "https://www.jafp.or.jp/exam/outline/"
+    }
+   ],
+   "evidence": [],
+   "lawBaseDate": "2023-10-01",
+   "checkedAt": "2026-10-21"
+  }
+ },
+ "g2-202405-27": {
+  "terms": [],
+  "explanation": {
+   "status": "draft",
+   "short": "為替予約のない外貨預金の為替差益は雑所得（一時所得ではない）。正解は3)。",
+   "sources": [
+    {
+     "title": "日本FP協会 試験範囲（試験要綱）",
+     "url": "https://www.jafp.or.jp/exam/outline/"
+    }
+   ],
+   "evidence": [],
+   "lawBaseDate": "2023-10-01",
+   "checkedAt": "2026-10-21"
+  }
+ },
+ "g2-202405-28": {
+  "terms": [],
+  "explanation": {
+   "status": "draft",
+   "short": "プット（売る権利）の買い手は、市場価格が権利行使価格より低いと権利を行使して利益を得る。放棄するのは市場価格が高い場合。正解は4)。",
+   "sources": [
+    {
+     "title": "日本FP協会 試験範囲（試験要綱）",
+     "url": "https://www.jafp.or.jp/exam/outline/"
+    }
+   ],
+   "evidence": [],
+   "lawBaseDate": "2023-10-01",
+   "checkedAt": "2026-10-21"
+  }
+ },
+ "g2-202405-29": {
+  "terms": [],
+  "explanation": {
+   "status": "draft",
+   "short": "シャープレシオ：A＝（4.0－1.0）÷1.5＝2.0、B＝（10.0－1.0）÷4.0＝2.25。Bのほうが効率的。正解は2)。",
+   "sources": [
+    {
+     "title": "日本FP協会 試験範囲（試験要綱）",
+     "url": "https://www.jafp.or.jp/exam/outline/"
+    }
+   ],
+   "evidence": [],
+   "lawBaseDate": "2023-10-01",
+   "checkedAt": "2026-10-21"
+  }
+ },
+ "g2-202405-30": {
+  "terms": [],
+  "explanation": {
+   "status": "draft",
+   "short": "消費者契約法では、事業者の不実告知等による誤認や困惑による意思表示を取り消せる。2)平均的損害を超える部分のみ無効、3)最低30万円、4)損失補てんは禁止。正解は1)。",
+   "sources": [
+    {
+     "title": "日本FP協会 試験範囲（試験要綱）",
+     "url": "https://www.jafp.or.jp/exam/outline/"
+    }
+   ],
+   "evidence": [],
+   "lawBaseDate": "2023-10-01",
+   "checkedAt": "2026-10-21"
+  }
+ },
+ "g2-202405-31": {
+  "terms": [],
+  "explanation": {
+   "status": "draft",
+   "short": "非永住者以外の居住者は、国外で生じた所得も含めすべての所得に納税義務がある。正解は3)。",
+   "sources": [
+    {
+     "title": "日本FP協会 試験範囲（試験要綱）",
+     "url": "https://www.jafp.or.jp/exam/outline/"
+    }
+   ],
+   "evidence": [],
+   "lawBaseDate": "2023-10-01",
+   "checkedAt": "2026-10-21"
+  }
+ },
+ "g2-202405-32": {
+  "terms": [],
+  "explanation": {
+   "status": "draft",
+   "short": "事業資金で購入した株式の配当金は配当所得（一時所得ではない）。正解は4)。",
+   "sources": [
+    {
+     "title": "日本FP協会 試験範囲（試験要綱）",
+     "url": "https://www.jafp.or.jp/exam/outline/"
+    }
+   ],
+   "evidence": [],
+   "lawBaseDate": "2023-10-01",
+   "checkedAt": "2026-10-21"
+  }
+ },
+ "g2-202405-33": {
+  "terms": [],
+  "explanation": {
+   "status": "draft",
+   "short": "事業所得の損失は給与所得と損益通算できる。2)上場株式等の譲渡損失、3)土地取得の負債利子部分、4)雑所得の損失は通算不可。正解は1)。",
+   "sources": [
+    {
+     "title": "日本FP協会 試験範囲（試験要綱）",
+     "url": "https://www.jafp.or.jp/exam/outline/"
+    }
+   ],
+   "evidence": [],
+   "lawBaseDate": "2023-10-01",
+   "checkedAt": "2026-10-21"
+  }
+ },
+ "g2-202405-34": {
+  "terms": [],
+  "explanation": {
+   "status": "draft",
+   "short": "医療費控除には所得制限がない。正解は3)。",
+   "sources": [
+    {
+     "title": "日本FP協会 試験範囲（試験要綱）",
+     "url": "https://www.jafp.or.jp/exam/outline/"
+    }
+   ],
+   "evidence": [],
+   "lawBaseDate": "2023-10-01",
+   "checkedAt": "2026-10-21"
+  }
+ },
+ "g2-202405-35": {
+  "terms": [],
+  "explanation": {
+   "status": "draft",
+   "short": "住宅ローン控除の初年度は確定申告が必要で、年末調整で受けられるのは2年目以降。正解は4)。",
+   "sources": [
+    {
+     "title": "日本FP協会 試験範囲（試験要綱）",
+     "url": "https://www.jafp.or.jp/exam/outline/"
+    }
+   ],
+   "evidence": [],
+   "lawBaseDate": "2023-10-01",
+   "checkedAt": "2026-10-21"
+  }
+ },
+ "g2-202405-36": {
+  "terms": [],
+  "explanation": {
+   "status": "draft",
+   "short": "納税地を異動したときは異動前の納税地の所轄税務署長に届け出る。1)2カ月以内、3)2カ月以内、4)年800万円以下。正解は2)。",
+   "sources": [
+    {
+     "title": "日本FP協会 試験範囲（試験要綱）",
+     "url": "https://www.jafp.or.jp/exam/outline/"
+    }
+   ],
+   "evidence": [],
+   "lawBaseDate": "2023-10-01",
+   "checkedAt": "2026-10-21"
+  }
+ },
+ "g2-202405-37": {
+  "terms": [],
+  "explanation": {
+   "status": "draft",
+   "short": "定期同額給与は届出不要で損金算入できる。届出が必要なのは事前確定届出給与。正解は1)。",
+   "sources": [
+    {
+     "title": "日本FP協会 試験範囲（試験要綱）",
+     "url": "https://www.jafp.or.jp/exam/outline/"
+    }
+   ],
+   "evidence": [],
+   "lawBaseDate": "2023-10-01",
+   "checkedAt": "2026-10-21"
+  }
+ },
+ "g2-202405-38": {
+  "terms": [],
+  "explanation": {
+   "status": "draft",
+   "short": "個人事業者の特定期間は前年1月1日から6月30日まで。正解は2)。",
+   "sources": [
+    {
+     "title": "日本FP協会 試験範囲（試験要綱）",
+     "url": "https://www.jafp.or.jp/exam/outline/"
+    }
+   ],
+   "evidence": [],
+   "lawBaseDate": "2023-10-01",
+   "checkedAt": "2026-10-21"
+  }
+ },
+ "g2-202405-39": {
+  "terms": [],
+  "explanation": {
+   "status": "draft",
+   "short": "役員が社宅に無償で居住した場合の通常の賃貸料相当額は、雑所得ではなく給与所得。正解は1)。",
+   "sources": [
+    {
+     "title": "日本FP協会 試験範囲（試験要綱）",
+     "url": "https://www.jafp.or.jp/exam/outline/"
+    }
+   ],
+   "evidence": [],
+   "lawBaseDate": "2023-10-01",
+   "checkedAt": "2026-10-21"
+  }
+ },
+ "g2-202405-40": {
+  "terms": [],
+  "explanation": {
+   "status": "draft",
+   "short": "適格請求書発行事業者も、要件を満たせば簡易課税制度を選択できる。正解は2)。",
+   "sources": [
+    {
+     "title": "日本FP協会 試験範囲（試験要綱）",
+     "url": "https://www.jafp.or.jp/exam/outline/"
+    }
+   ],
+   "evidence": [],
+   "lawBaseDate": "2023-10-01",
+   "checkedAt": "2026-10-21"
+  }
+ },
+ "g2-202405-41": {
+  "terms": [],
+  "explanation": {
+   "status": "draft",
+   "short": "複数期間の純収益と復帰価格を現在価値に割り引いて合計するのはDCF法。直接還元法は一期間の純収益を還元利回りで還元する。正解は1)。",
+   "sources": [
+    {
+     "title": "日本FP協会 試験範囲（試験要綱）",
+     "url": "https://www.jafp.or.jp/exam/outline/"
+    }
+   ],
+   "evidence": [],
+   "lawBaseDate": "2023-10-01",
+   "checkedAt": "2026-10-21"
+  }
+ },
+ "g2-202405-42": {
+  "terms": [],
+  "explanation": {
+   "status": "draft",
+   "short": "売主が引渡し時に不適合を知っていた（または重過失で知らなかった）場合は、1年以内の通知がなくても買主は解除等ができる。「知っていたとしても解除できない」とする記述は誤り。正解は2)。",
+   "sources": [
+    {
+     "title": "日本FP協会 試験範囲（試験要綱）",
+     "url": "https://www.jafp.or.jp/exam/outline/"
+    }
+   ],
+   "evidence": [],
+   "lawBaseDate": "2023-10-01",
+   "checkedAt": "2026-10-21"
+  }
+ },
+ "g2-202405-43": {
+  "terms": [],
+  "explanation": {
+   "status": "draft",
+   "short": "一般定期借地権の特約は公正証書等の書面（電磁的記録を含む）でしなければならない。1)長い期間も可、2)建物がある場合に限る、3)事業用でも可。正解は4)。",
+   "sources": [
+    {
+     "title": "日本FP協会 試験範囲（試験要綱）",
+     "url": "https://www.jafp.or.jp/exam/outline/"
+    }
+   ],
+   "evidence": [],
+   "lawBaseDate": "2023-10-01",
+   "checkedAt": "2026-10-21"
+  }
+ },
+ "g2-202405-44": {
+  "terms": [],
+  "explanation": {
+   "status": "draft",
+   "short": "定期借家契約は書面でよく、事業用でも公正証書は不要。正解は3)。",
+   "sources": [
+    {
+     "title": "日本FP協会 試験範囲（試験要綱）",
+     "url": "https://www.jafp.or.jp/exam/outline/"
+    }
+   ],
+   "evidence": [],
+   "lawBaseDate": "2023-10-01",
+   "checkedAt": "2026-10-21"
+  }
+ },
+ "g2-202405-45": {
+  "terms": [],
+  "explanation": {
+   "status": "draft",
+   "short": "共同住宅の共用廊下・階段の床面積は延べ面積に算入しない。1)低い方、2)いずれも算入不可、3)3分の1まで。正解は4)。",
+   "sources": [
+    {
+     "title": "日本FP協会 試験範囲（試験要綱）",
+     "url": "https://www.jafp.or.jp/exam/outline/"
+    }
+   ],
+   "evidence": [],
+   "lawBaseDate": "2023-10-01",
+   "checkedAt": "2026-10-21"
+  }
+ },
+ "g2-202405-46": {
+  "terms": [],
+  "explanation": {
+   "status": "draft",
+   "short": "敷地利用権が共有の場合、規約に別段の定めがない限り専有部分と分離して処分できない。正解は2)。",
+   "sources": [
+    {
+     "title": "日本FP協会 試験範囲（試験要綱）",
+     "url": "https://www.jafp.or.jp/exam/outline/"
+    }
+   ],
+   "evidence": [],
+   "lawBaseDate": "2023-10-01",
+   "checkedAt": "2026-10-21"
+  }
+ },
+ "g2-202405-47": {
+  "terms": [],
+  "explanation": {
+   "status": "draft",
+   "short": "都市計画税の税率は制限税率0.3％を超えられない。1)6分の1、2)所有者が納税義務者、4)市街化区域内。正解は3)。",
+   "sources": [
+    {
+     "title": "日本FP協会 試験範囲（試験要綱）",
+     "url": "https://www.jafp.or.jp/exam/outline/"
+    }
+   ],
+   "evidence": [],
+   "lawBaseDate": "2023-10-01",
+   "checkedAt": "2026-10-21"
+  }
+ },
+ "g2-202405-48": {
+  "terms": [],
+  "explanation": {
+   "status": "draft",
+   "short": "居住しなくなってから3年を経過する日の属する年の12月31日までに譲渡すればよい（6カ月ではない）。正解は2)。",
+   "sources": [
+    {
+     "title": "日本FP協会 試験範囲（試験要綱）",
+     "url": "https://www.jafp.or.jp/exam/outline/"
+    }
+   ],
+   "evidence": [],
+   "lawBaseDate": "2023-10-01",
+   "checkedAt": "2026-10-21"
+  }
+ },
+ "g2-202405-49": {
+  "terms": [],
+  "explanation": {
+   "status": "draft",
+   "short": "等価交換方式では借地権も対象となる。正解は1)。",
+   "sources": [
+    {
+     "title": "日本FP協会 試験範囲（試験要綱）",
+     "url": "https://www.jafp.or.jp/exam/outline/"
+    }
+   ],
+   "evidence": [],
+   "lawBaseDate": "2023-10-01",
+   "checkedAt": "2026-10-21"
+  }
+ },
+ "g2-202405-50": {
+  "terms": [],
+  "explanation": {
+   "status": "draft",
+   "short": "NOI利回りは年間純収益÷総投資額。2)上回る場合に有利、3)1.0未満は返済不足、4)直接還元法の説明。正解は1)。",
+   "sources": [
+    {
+     "title": "日本FP協会 試験範囲（試験要綱）",
+     "url": "https://www.jafp.or.jp/exam/outline/"
+    }
+   ],
+   "evidence": [],
+   "lawBaseDate": "2023-10-01",
+   "checkedAt": "2026-10-21"
+  }
+ },
+ "g2-202405-51": {
+  "terms": [],
+  "explanation": {
+   "status": "draft",
+   "short": "甥・姪は3親等の血族。1)姻族は3親等内、3)1親等、4)1親等。正解は2)。",
+   "sources": [
+    {
+     "title": "日本FP協会 試験範囲（試験要綱）",
+     "url": "https://www.jafp.or.jp/exam/outline/"
+    }
+   ],
+   "evidence": [],
+   "lawBaseDate": "2023-10-01",
+   "checkedAt": "2026-10-21"
+  }
+ },
+ "g2-202405-52": {
+  "terms": [],
+  "explanation": {
+   "status": "draft",
+   "short": "相続時精算課税の税率は一律20％。正解は1)。",
+   "sources": [
+    {
+     "title": "日本FP協会 試験範囲（試験要綱）",
+     "url": "https://www.jafp.or.jp/exam/outline/"
+    }
+   ],
+   "evidence": [],
+   "lawBaseDate": "2023-10-01",
+   "checkedAt": "2026-10-21"
+  }
+ },
+ "g2-202405-53": {
+  "terms": [],
+  "explanation": {
+   "status": "draft",
+   "short": "前妻との子Dは先に死亡しているので孫Iが代襲相続人。相続人は妻C・子E・子F・子G・孫Iの5名（Dの夫Hは相続人ではない）。正解は3)。",
+   "sources": [
+    {
+     "title": "日本FP協会 試験範囲（試験要綱）",
+     "url": "https://www.jafp.or.jp/exam/outline/"
+    }
+   ],
+   "evidence": [],
+   "lawBaseDate": "2023-10-01",
+   "checkedAt": "2026-10-21"
+  }
+ },
+ "g2-202405-54": {
+  "terms": [],
+  "explanation": {
+   "status": "draft",
+   "short": "代償分割で受け取った代償財産は相続税の課税対象。1)協議でできる、2)公正証書は不要、3)金銭以外も可。正解は4)。",
+   "sources": [
+    {
+     "title": "日本FP協会 試験範囲（試験要綱）",
+     "url": "https://www.jafp.or.jp/exam/outline/"
+    }
+   ],
+   "evidence": [],
+   "lawBaseDate": "2023-10-01",
+   "checkedAt": "2026-10-21"
+  }
+ },
+ "g2-202405-55": {
+  "terms": [],
+  "explanation": {
+   "status": "draft",
+   "short": "死亡保険金は受取人固有の財産なので、受け取っても単純承認したものとはみなされない。正解は1)。",
+   "sources": [
+    {
+     "title": "日本FP協会 試験範囲（試験要綱）",
+     "url": "https://www.jafp.or.jp/exam/outline/"
+    }
+   ],
+   "evidence": [],
+   "lawBaseDate": "2023-10-01",
+   "checkedAt": "2026-10-21"
+  }
+ },
+ "g2-202405-56": {
+  "terms": [],
+  "explanation": {
+   "status": "draft",
+   "short": "パソコンで作成した財産目録には、各ページに署名・押印が必要。正解は2)。",
+   "sources": [
+    {
+     "title": "日本FP協会 試験範囲（試験要綱）",
+     "url": "https://www.jafp.or.jp/exam/outline/"
+    }
+   ],
+   "evidence": [],
+   "lawBaseDate": "2023-10-01",
+   "checkedAt": "2026-10-21"
+  }
+ },
+ "g2-202405-57": {
+  "terms": [],
+  "explanation": {
+   "status": "draft",
+   "short": "延納の担保には、相続人固有の財産も提供できる。1)10カ月以内、2)申告が必要、4)10万円超。正解は3)。",
+   "sources": [
+    {
+     "title": "日本FP協会 試験範囲（試験要綱）",
+     "url": "https://www.jafp.or.jp/exam/outline/"
+    }
+   ],
+   "evidence": [],
+   "lawBaseDate": "2023-10-01",
+   "checkedAt": "2026-10-21"
+  }
+ },
+ "g2-202405-58": {
+  "terms": [],
+  "explanation": {
+   "status": "draft",
+   "short": "自分の宅地上にアパートを建てて貸している場合は貸家建付地として評価する（貸宅地ではない）。正解は4)。",
+   "sources": [
+    {
+     "title": "日本FP協会 試験範囲（試験要綱）",
+     "url": "https://www.jafp.or.jp/exam/outline/"
+    }
+   ],
+   "evidence": [],
+   "lawBaseDate": "2023-10-01",
+   "checkedAt": "2026-10-21"
+  }
+ },
+ "g2-202405-59": {
+  "terms": [],
+  "explanation": {
+   "status": "draft",
+   "short": "相続開始後に初めて居住した子が取得した宅地は、特定居住用宅地等に該当しない。正解は3)。",
+   "sources": [
+    {
+     "title": "日本FP協会 試験範囲（試験要綱）",
+     "url": "https://www.jafp.or.jp/exam/outline/"
+    }
+   ],
+   "evidence": [],
+   "lawBaseDate": "2023-10-01",
+   "checkedAt": "2026-10-21"
+  }
+ },
+ "g2-202405-60": {
+  "terms": [],
+  "explanation": {
+   "status": "draft",
+   "short": "会社事業後継者は旧代表者の親族に限られない（親族外の後継者も対象）。正解は4)。",
+   "sources": [
+    {
+     "title": "日本FP協会 試験範囲（試験要綱）",
+     "url": "https://www.jafp.or.jp/exam/outline/"
+    }
+   ],
+   "evidence": [],
+   "lawBaseDate": "2023-10-01",
+   "checkedAt": "2026-10-21"
+  }
  }
 }
