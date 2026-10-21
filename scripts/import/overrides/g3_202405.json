@@ -1,0 +1,48 @@
+{
+ "reviewedAt": "2026-10-21",
+ "reviewer": "Claude（目視確認）",
+ "questions": {
+  "38": {
+   "_release": true,
+   "_dropMaterials": true
+  },
+  "46": {
+   "_release": true,
+   "_dropMaterials": true
+  },
+  "51": {
+   "_release": true,
+   "_dropMaterials": true
+  },
+  "55": {
+   "_release": true,
+   "_dropMaterials": true
+  },
+  "60": {
+   "_release": true,
+   "_dropMaterials": true
+  },
+  "33": {
+   "requiresCalculation": true,
+   "calcReason": "減額率0.4％×繰上げ月数を計算する"
+  },
+  "43": {
+   "requiresCalculation": true,
+   "calcReason": "各資産の期待収益率を組入比率で加重平均して計算する"
+  },
+  "57": {
+   "_release": true,
+   "_stemCutAt": "〈親族関係図〉父",
+   "_materialImage": "親族関係図：父Ｅさん、母Ｆさん、元夫Ｂさん（離婚）、被相続人Ａさん、子Ｃさん、子Ｄさん"
+  },
+  "58": {
+   "_release": true,
+   "_stemCutAt": "〈資料〉上場株式",
+   "_materialImage": "上場株式Ｘの価格：死亡月の前々月の月平均額540円、前月の月平均額600円、死亡月の月平均額620円、死亡日の最終価格600円"
+  },
+  "59": {
+   "requiresCalculation": true,
+   "calcReason": "自用地評価額×（1－借地権割合×借家権割合×賃貸割合）で計算する"
+  }
+ }
+}

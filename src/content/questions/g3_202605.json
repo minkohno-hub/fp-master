@@ -1,0 +1,1976 @@
+{
+ "id": "g3_202605",
+ "exam": "g3",
+ "title": "3級 学科 2026年5月公表",
+ "officialSet": true,
+ "lawBaseDate": "2025-04-01",
+ "questions": [
+  {
+   "id": "g3-202605-01",
+   "exam": "g3",
+   "field": "A",
+   "theme": "FPと関連法規",
+   "source": {
+    "kind": "official",
+    "citation": "日本FP協会 3級ファイナンシャル・プランニング技能検定学科試験 2026年5月公表分",
+    "yearMonth": "2026-05",
+    "number": 1,
+    "url": "https://www.jafp.or.jp/exam/mohan/files/g3_202605_qa.pdf",
+    "modified": false
+   },
+   "lawBaseDate": "2025-04-01",
+   "stem": "ファイナンシャル・プランナーが顧客と投資顧問契約を締結し、当該契約に基づき金融商品取引法で定める投資助言・代理業を行うためには、金融商品取引業者として内閣総理大臣の登録を受けなければならない。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": true
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified"
+  },
+  {
+   "id": "g3-202605-02",
+   "exam": "g3",
+   "field": "A",
+   "theme": "雇用保険・労災保険",
+   "source": {
+    "kind": "official",
+    "citation": "日本FP協会 3級ファイナンシャル・プランニング技能検定学科試験 2026年5月公表分",
+    "yearMonth": "2026-05",
+    "number": 2,
+    "url": "https://www.jafp.or.jp/exam/mohan/files/g3_202605_qa.pdf",
+    "modified": false
+   },
+   "lawBaseDate": "2025-04-01",
+   "stem": "労働者災害補償保険の保険料は、その全額を事業主が負担する。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": true
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified"
+  },
+  {
+   "id": "g3-202605-03",
+   "exam": "g3",
+   "field": "A",
+   "theme": "公的年金",
+   "source": {
+    "kind": "official",
+    "citation": "日本FP協会 3級ファイナンシャル・プランニング技能検定学科試験 2026年5月公表分",
+    "yearMonth": "2026-05",
+    "number": 3,
+    "url": "https://www.jafp.or.jp/exam/mohan/files/g3_202605_qa.pdf",
+    "modified": false
+   },
+   "lawBaseDate": "2025-04-01",
+   "stem": "国民年金の第１号被保険者である学生が、学生納付特例制度を利用するためには、学生本人および世帯主の前年の所得が一定額以下でなければならない。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": false
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified"
+  },
+  {
+   "id": "g3-202605-04",
+   "exam": "g3",
+   "field": "A",
+   "theme": "企業年金・自営業者の年金",
+   "source": {
+    "kind": "official",
+    "citation": "日本FP協会 3級ファイナンシャル・プランニング技能検定学科試験 2026年5月公表分",
+    "yearMonth": "2026-05",
+    "number": 4,
+    "url": "https://www.jafp.or.jp/exam/mohan/files/g3_202605_qa.pdf",
+    "modified": false
+   },
+   "lawBaseDate": "2025-04-01",
+   "stem": "確定拠出年金の個人型年金の老齢給付金は、年金として受け取る代わりに、一時金として一括で受け取ることができる。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": true
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified"
+  },
+  {
+   "id": "g3-202605-05",
+   "exam": "g3",
+   "field": "A",
+   "theme": "企業年金・自営業者の年金",
+   "source": {
+    "kind": "official",
+    "citation": "日本FP協会 3級ファイナンシャル・プランニング技能検定学科試験 2026年5月公表分",
+    "yearMonth": "2026-05",
+    "number": 5,
+    "url": "https://www.jafp.or.jp/exam/mohan/files/g3_202605_qa.pdf",
+    "modified": false
+   },
+   "lawBaseDate": "2025-04-01",
+   "stem": "中小企業退職金共済の掛金は、その全額を事業主が負担し、掛金の一部を従業員に負担させることはできない。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": true
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified"
+  },
+  {
+   "id": "g3-202605-06",
+   "exam": "g3",
+   "field": "B",
+   "theme": "生命保険の商品と仕組み",
+   "source": {
+    "kind": "official",
+    "citation": "日本FP協会 3級ファイナンシャル・プランニング技能検定学科試験 2026年5月公表分",
+    "yearMonth": "2026-05",
+    "number": 6,
+    "url": "https://www.jafp.or.jp/exam/mohan/files/g3_202605_qa.pdf",
+    "modified": false
+   },
+   "lawBaseDate": "2025-04-01",
+   "stem": "生命保険の契約者は、契約者貸付制度を利用することにより、契約している生命保険の死亡保険金額を上限として、保険会社から貸付を受けることができる。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": false
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified"
+  },
+  {
+   "id": "g3-202605-07",
+   "exam": "g3",
+   "field": "B",
+   "theme": "生命保険の商品と仕組み",
+   "source": {
+    "kind": "official",
+    "citation": "日本FP協会 3級ファイナンシャル・プランニング技能検定学科試験 2026年5月公表分",
+    "yearMonth": "2026-05",
+    "number": 7,
+    "url": "https://www.jafp.or.jp/exam/mohan/files/g3_202605_qa.pdf",
+    "modified": false
+   },
+   "lawBaseDate": "2025-04-01",
+   "stem": "収入保障保険の死亡保険金を一時金で受け取る場合の受取額は、一般に、年金形式で受け取る場合の受取総額よりも少なくなる。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": true
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified"
+  },
+  {
+   "id": "g3-202605-08",
+   "exam": "g3",
+   "field": "B",
+   "theme": "生命保険の商品と仕組み",
+   "source": {
+    "kind": "official",
+    "citation": "日本FP協会 3級ファイナンシャル・プランニング技能検定学科試験 2026年5月公表分",
+    "yearMonth": "2026-05",
+    "number": 8,
+    "url": "https://www.jafp.or.jp/exam/mohan/files/g3_202605_qa.pdf",
+    "modified": false
+   },
+   "lawBaseDate": "2025-04-01",
+   "stem": "個人年金保険（確定年金）では、年金支払開始日以降、被保険者が生存している場合に限り、年金が支払われる。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": false
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified"
+  },
+  {
+   "id": "g3-202605-09",
+   "exam": "g3",
+   "field": "B",
+   "theme": "損害保険",
+   "source": {
+    "kind": "official",
+    "citation": "日本FP協会 3級ファイナンシャル・プランニング技能検定学科試験 2026年5月公表分",
+    "yearMonth": "2026-05",
+    "number": 9,
+    "url": "https://www.jafp.or.jp/exam/mohan/files/g3_202605_qa.pdf",
+    "modified": false
+   },
+   "lawBaseDate": "2025-04-01",
+   "stem": "居住用建物を対象とした火災保険では、地震で居住用建物が倒壊することによって被った損害は、補償の対象とならない。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": true
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified"
+  },
+  {
+   "id": "g3-202605-10",
+   "exam": "g3",
+   "field": "B",
+   "theme": "損害保険",
+   "source": {
+    "kind": "official",
+    "citation": "日本FP協会 3級ファイナンシャル・プランニング技能検定学科試験 2026年5月公表分",
+    "yearMonth": "2026-05",
+    "number": 10,
+    "url": "https://www.jafp.or.jp/exam/mohan/files/g3_202605_qa.pdf",
+    "modified": false
+   },
+   "lawBaseDate": "2025-04-01",
+   "stem": "自動車保険の車両保険では、被保険自動車が洪水により水没したことによって被った損害は、補償の対象とならない。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": false
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified"
+  },
+  {
+   "id": "g3-202605-11",
+   "exam": "g3",
+   "field": "C",
+   "theme": "預貯金・金融商品",
+   "source": {
+    "kind": "official",
+    "citation": "日本FP協会 3級ファイナンシャル・プランニング技能検定学科試験 2026年5月公表分",
+    "yearMonth": "2026-05",
+    "number": 11,
+    "url": "https://www.jafp.or.jp/exam/mohan/files/g3_202605_qa.pdf",
+    "modified": false
+   },
+   "lawBaseDate": "2025-04-01",
+   "stem": "日本銀行の公開市場操作における売りオペレーションには、市中の資金量を増加させ、金利の低下を促す効果がある。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": false
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified"
+  },
+  {
+   "id": "g3-202605-12",
+   "exam": "g3",
+   "field": "C",
+   "theme": "投資信託",
+   "source": {
+    "kind": "official",
+    "citation": "日本FP協会 3級ファイナンシャル・プランニング技能検定学科試験 2026年5月公表分",
+    "yearMonth": "2026-05",
+    "number": 12,
+    "url": "https://www.jafp.or.jp/exam/mohan/files/g3_202605_qa.pdf",
+    "modified": false
+   },
+   "lawBaseDate": "2025-04-01",
+   "stem": "上場投資信託（ＥＴＦ）は、非上場の投資信託と異なり、運用管理費用（信託報酬）は徴収されない。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": false
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified"
+  },
+  {
+   "id": "g3-202605-13",
+   "exam": "g3",
+   "field": "C",
+   "theme": "債券",
+   "source": {
+    "kind": "official",
+    "citation": "日本FP協会 3級ファイナンシャル・プランニング技能検定学科試験 2026年5月公表分",
+    "yearMonth": "2026-05",
+    "number": 13,
+    "url": "https://www.jafp.or.jp/exam/mohan/files/g3_202605_qa.pdf",
+    "modified": false
+   },
+   "lawBaseDate": "2025-04-01",
+   "stem": "個人向け国債は、適用利率の下限が年0.05％とされ、最低１万円から１万円単位で購入することができる。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": true
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified"
+  },
+  {
+   "id": "g3-202605-14",
+   "exam": "g3",
+   "field": "C",
+   "theme": "株式",
+   "source": {
+    "kind": "official",
+    "citation": "日本FP協会 3級ファイナンシャル・プランニング技能検定学科試験 2026年5月公表分",
+    "yearMonth": "2026-05",
+    "number": 14,
+    "url": "https://www.jafp.or.jp/exam/mohan/files/g3_202605_qa.pdf",
+    "modified": false
+   },
+   "lawBaseDate": "2025-04-01",
+   "stem": "日経平均株価は、東京証券取引所のプライム市場に上場する全銘柄を対象として算出される株価指標である。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": false
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified"
+  },
+  {
+   "id": "g3-202605-15",
+   "exam": "g3",
+   "field": "C",
+   "theme": "金融関連法規・セーフティネット",
+   "source": {
+    "kind": "official",
+    "citation": "日本FP協会 3級ファイナンシャル・プランニング技能検定学科試験 2026年5月公表分",
+    "yearMonth": "2026-05",
+    "number": 15,
+    "url": "https://www.jafp.or.jp/exam/mohan/files/g3_202605_qa.pdf",
+    "modified": false
+   },
+   "lawBaseDate": "2025-04-01",
+   "stem": "消費者契約法によれば、事業者が消費者に重要事項について事実と異なることを告げ、消費者がその内容が事実であると誤認したことによって消費者契約の申込みを行った場合、消費者は、当該消費者契約の申込みを取り消すことができるとされている。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": true
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified"
+  },
+  {
+   "id": "g3-202605-16",
+   "exam": "g3",
+   "field": "D",
+   "theme": "確定申告・青色申告",
+   "source": {
+    "kind": "official",
+    "citation": "日本FP協会 3級ファイナンシャル・プランニング技能検定学科試験 2026年5月公表分",
+    "yearMonth": "2026-05",
+    "number": 16,
+    "url": "https://www.jafp.or.jp/exam/mohan/files/g3_202605_qa.pdf",
+    "modified": false
+   },
+   "lawBaseDate": "2025-04-01",
+   "stem": "所得税において、源泉分離課税の対象となる所得については、他の所得金額と合計せず、分離して税額を計算し、確定申告によりその税額を納める。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": false
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified"
+  },
+  {
+   "id": "g3-202605-17",
+   "exam": "g3",
+   "field": "D",
+   "theme": "各種所得",
+   "source": {
+    "kind": "official",
+    "citation": "日本FP協会 3級ファイナンシャル・プランニング技能検定学科試験 2026年5月公表分",
+    "yearMonth": "2026-05",
+    "number": 17,
+    "url": "https://www.jafp.or.jp/exam/mohan/files/g3_202605_qa.pdf",
+    "modified": false
+   },
+   "lawBaseDate": "2025-04-01",
+   "stem": "所得税において、公的年金等に係る雑所得の金額は、その年中の公的年金等の収入金額から公的年金等控除額を控除して計算する。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": true
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified"
+  },
+  {
+   "id": "g3-202605-18",
+   "exam": "g3",
+   "field": "D",
+   "theme": "各種所得",
+   "source": {
+    "kind": "official",
+    "citation": "日本FP協会 3級ファイナンシャル・プランニング技能検定学科試験 2026年5月公表分",
+    "yearMonth": "2026-05",
+    "number": 18,
+    "url": "https://www.jafp.or.jp/exam/mohan/files/g3_202605_qa.pdf",
+    "modified": false
+   },
+   "lawBaseDate": "2025-04-01",
+   "stem": "所得税において、総合課税の対象となる譲渡所得のうち、長期譲渡所得の金額は、その２分の１相当額を他の所得金額と合計して税額を計算する。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": true
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified"
+  },
+  {
+   "id": "g3-202605-19",
+   "exam": "g3",
+   "field": "D",
+   "theme": "損益通算・繰越控除",
+   "source": {
+    "kind": "official",
+    "citation": "日本FP協会 3級ファイナンシャル・プランニング技能検定学科試験 2026年5月公表分",
+    "yearMonth": "2026-05",
+    "number": 19,
+    "url": "https://www.jafp.or.jp/exam/mohan/files/g3_202605_qa.pdf",
+    "modified": false
+   },
+   "lawBaseDate": "2025-04-01",
+   "stem": "所得税において、青色申告書を提出した年分に生じた純損失の金額（損益通算してもなお控除しきれない損失の金額）は、その損失が生じた年分の翌年以降、最長で10年間繰り越すことができる。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": false
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified"
+  },
+  {
+   "id": "g3-202605-20",
+   "exam": "g3",
+   "field": "D",
+   "theme": "所得控除",
+   "source": {
+    "kind": "official",
+    "citation": "日本FP協会 3級ファイナンシャル・プランニング技能検定学科試験 2026年5月公表分",
+    "yearMonth": "2026-05",
+    "number": 20,
+    "url": "https://www.jafp.or.jp/exam/mohan/files/g3_202605_qa.pdf",
+    "modified": false
+   },
+   "lawBaseDate": "2025-04-01",
+   "stem": "所得税において、基礎控除の控除額は、納税者の合計所得金額の多寡にかかわらず、58万円である。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": false
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified"
+  },
+  {
+   "id": "g3-202605-21",
+   "exam": "g3",
+   "field": "E",
+   "theme": "不動産の調査・登記",
+   "source": {
+    "kind": "official",
+    "citation": "日本FP協会 3級ファイナンシャル・プランニング技能検定学科試験 2026年5月公表分",
+    "yearMonth": "2026-05",
+    "number": 21,
+    "url": "https://www.jafp.or.jp/exam/mohan/files/g3_202605_qa.pdf",
+    "modified": false
+   },
+   "lawBaseDate": "2025-04-01",
+   "stem": "土地および家屋に係る固定資産税評価額は、原則として、３年ごとの基準年度において評価替えが行われる。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": true
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified"
+  },
+  {
+   "id": "g3-202605-22",
+   "exam": "g3",
+   "field": "E",
+   "theme": "借地借家法",
+   "source": {
+    "kind": "official",
+    "citation": "日本FP協会 3級ファイナンシャル・プランニング技能検定学科試験 2026年5月公表分",
+    "yearMonth": "2026-05",
+    "number": 22,
+    "url": "https://www.jafp.or.jp/exam/mohan/files/g3_202605_qa.pdf",
+    "modified": false
+   },
+   "lawBaseDate": "2025-04-01",
+   "stem": "借地借家法によれば、定期建物賃貸借契約（定期借家契約）は、賃貸借期間として１年未満の期間を定めることができない。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": false
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified"
+  },
+  {
+   "id": "g3-202605-23",
+   "exam": "g3",
+   "field": "E",
+   "theme": "都市計画法・建築基準法",
+   "source": {
+    "kind": "official",
+    "citation": "日本FP協会 3級ファイナンシャル・プランニング技能検定学科試験 2026年5月公表分",
+    "yearMonth": "2026-05",
+    "number": 23,
+    "url": "https://www.jafp.or.jp/exam/mohan/files/g3_202605_qa.pdf",
+    "modified": false
+   },
+   "lawBaseDate": "2025-04-01",
+   "stem": "農地法によれば、市街化区域内にある農地を自宅の建築を目的として宅地に転用する場合、あらかじめ農業委員会に届出をすれば、都道府県知事等の許可は不要である。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": true
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified"
+  },
+  {
+   "id": "g3-202605-24",
+   "exam": "g3",
+   "field": "E",
+   "theme": "不動産の税金",
+   "source": {
+    "kind": "official",
+    "citation": "日本FP協会 3級ファイナンシャル・プランニング技能検定学科試験 2026年5月公表分",
+    "yearMonth": "2026-05",
+    "number": 24,
+    "url": "https://www.jafp.or.jp/exam/mohan/files/g3_202605_qa.pdf",
+    "modified": false
+   },
+   "lawBaseDate": "2025-04-01",
+   "stem": "土地や家屋に係る固定資産税は、毎年４月１日現在において固定資産課税台帳に登録されている所有者に対して課される税金である。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": false
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified"
+  },
+  {
+   "id": "g3-202605-25",
+   "exam": "g3",
+   "field": "E",
+   "theme": "不動産の有効活用・投資",
+   "source": {
+    "kind": "official",
+    "citation": "日本FP協会 3級ファイナンシャル・プランニング技能検定学科試験 2026年5月公表分",
+    "yearMonth": "2026-05",
+    "number": 25,
+    "url": "https://www.jafp.or.jp/exam/mohan/files/g3_202605_qa.pdf",
+    "modified": false
+   },
+   "lawBaseDate": "2025-04-01",
+   "stem": "土地の有効活用において、事業受託方式は、有効活用の企画、建設会社の選定、建設資金の拠出および土地上に建設された建物の管理・運営のすべてをデベロッパーが行う土地活用の方式である。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": false
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified"
+  },
+  {
+   "id": "g3-202605-26",
+   "exam": "g3",
+   "field": "F",
+   "theme": "贈与税",
+   "source": {
+    "kind": "official",
+    "citation": "日本FP協会 3級ファイナンシャル・プランニング技能検定学科試験 2026年5月公表分",
+    "yearMonth": "2026-05",
+    "number": 26,
+    "url": "https://www.jafp.or.jp/exam/mohan/files/g3_202605_qa.pdf",
+    "modified": false
+   },
+   "lawBaseDate": "2025-04-01",
+   "stem": "「直系尊属から住宅取得等資金の贈与を受けた場合の贈与税の非課税」は、受贈者の贈与を受けた年の年分の所得税に係る合計所得金額が2,000万円を超える場合、適用を受けることができない。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": true
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified"
+  },
+  {
+   "id": "g3-202605-27",
+   "exam": "g3",
+   "field": "F",
+   "theme": "遺言・遺留分",
+   "source": {
+    "kind": "official",
+    "citation": "日本FP協会 3級ファイナンシャル・プランニング技能検定学科試験 2026年5月公表分",
+    "yearMonth": "2026-05",
+    "number": 27,
+    "url": "https://www.jafp.or.jp/exam/mohan/files/g3_202605_qa.pdf",
+    "modified": false
+   },
+   "lawBaseDate": "2025-04-01",
+   "stem": "相続人が被相続人の配偶者および兄弟姉妹である場合、配偶者の遺留分の額は、遺留分を算定するための財産の価額の２分の１相当額となる。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": true
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified"
+  },
+  {
+   "id": "g3-202605-28",
+   "exam": "g3",
+   "field": "F",
+   "theme": "贈与税",
+   "source": {
+    "kind": "official",
+    "citation": "日本FP協会 3級ファイナンシャル・プランニング技能検定学科試験 2026年5月公表分",
+    "yearMonth": "2026-05",
+    "number": 28,
+    "url": "https://www.jafp.or.jp/exam/mohan/files/g3_202605_qa.pdf",
+    "modified": false
+   },
+   "lawBaseDate": "2025-04-01",
+   "stem": "相続が開始した年の前年に被相続人から暦年課税による贈与により取得した財産は、その受贈者が相続または遺贈により財産を取得しなかった場合であっても、原則として、相続税の課税対象となる。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": false
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified"
+  },
+  {
+   "id": "g3-202605-29",
+   "exam": "g3",
+   "field": "F",
+   "theme": "相続税の計算",
+   "source": {
+    "kind": "official",
+    "citation": "日本FP協会 3級ファイナンシャル・プランニング技能検定学科試験 2026年5月公表分",
+    "yearMonth": "2026-05",
+    "number": 29,
+    "url": "https://www.jafp.or.jp/exam/mohan/files/g3_202605_qa.pdf",
+    "modified": false
+   },
+   "lawBaseDate": "2025-04-01",
+   "stem": "相続税額の計算上、被相続人の配偶者や子は相続税額の２割加算の対象とならず、被相続人の父母や兄弟姉妹は相続税額の２割加算の対象となる。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": false
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified"
+  },
+  {
+   "id": "g3-202605-30",
+   "exam": "g3",
+   "field": "F",
+   "theme": "相続の基礎（民法）",
+   "source": {
+    "kind": "official",
+    "citation": "日本FP協会 3級ファイナンシャル・プランニング技能検定学科試験 2026年5月公表分",
+    "yearMonth": "2026-05",
+    "number": 30,
+    "url": "https://www.jafp.or.jp/exam/mohan/files/g3_202605_qa.pdf",
+    "modified": false
+   },
+   "lawBaseDate": "2025-04-01",
+   "stem": "相続人が限定承認または相続の放棄をしようとするときは、原則として、自己のために相続の開始があったことを知った時から３カ月以内に、家庭裁判所にその旨を申述しなければならない。",
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "p1",
+     "answer": true
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified"
+  },
+  {
+   "id": "g3-202605-31",
+   "exam": "g3",
+   "field": "A",
+   "theme": "ライフプランと係数",
+   "source": {
+    "kind": "official",
+    "citation": "日本FP協会 3級ファイナンシャル・プランニング技能検定学科試験 2026年5月公表分",
+    "yearMonth": "2026-05",
+    "number": 31,
+    "url": "https://www.jafp.or.jp/exam/mohan/files/g3_202605_qa.pdf",
+    "modified": false
+   },
+   "lawBaseDate": "2025-04-01",
+   "stem": "キャッシュフロー表の作成において、一般に、各年次の金融資産残高は、「（ ）」の算式により計算された金額を計上する。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "前年末の金融資産残高×(１＋運用利率)＋当年の年間収支"
+      },
+      {
+       "id": "2",
+       "text": "(前年末の金融資産残高＋当年の年間収支)×(１＋運用利率)"
+      },
+      {
+       "id": "3",
+       "text": "当年の年間収支×(１＋運用利率)＋前年末の金融資産残高"
+      }
+     ],
+     "answer": "1"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified"
+  },
+  {
+   "id": "g3-202605-32",
+   "exam": "g3",
+   "field": "A",
+   "theme": "公的介護保険",
+   "source": {
+    "kind": "official",
+    "citation": "日本FP協会 3級ファイナンシャル・プランニング技能検定学科試験 2026年5月公表分",
+    "yearMonth": "2026-05",
+    "number": 32,
+    "url": "https://www.jafp.or.jp/exam/mohan/files/g3_202605_qa.pdf",
+    "modified": false
+   },
+   "lawBaseDate": "2025-04-01",
+   "stem": "公的介護保険の第２号被保険者は、市町村または特別区の区域内に住所を有する（ ① ）以上（ ② ）未満の医療保険加入者である。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "① 35歳 ② 60歳"
+      },
+      {
+       "id": "2",
+       "text": "① 40歳 ② 65歳"
+      },
+      {
+       "id": "3",
+       "text": "① 45歳 ② 75歳"
+      }
+     ],
+     "answer": "2"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "tags": [
+    "資料目視確認済み"
+   ]
+  },
+  {
+   "id": "g3-202605-33",
+   "exam": "g3",
+   "field": "A",
+   "theme": "企業年金・自営業者の年金",
+   "source": {
+    "kind": "official",
+    "citation": "日本FP協会 3級ファイナンシャル・プランニング技能検定学科試験 2026年5月公表分",
+    "yearMonth": "2026-05",
+    "number": 33,
+    "url": "https://www.jafp.or.jp/exam/mohan/files/g3_202605_qa.pdf",
+    "modified": false
+   },
+   "lawBaseDate": "2025-04-01",
+   "stem": "国民年金の付加保険料に係る保険料納付済期間を有する者が、65歳から老齢基礎年金を受給する場合、付加年金の額は、（ ）に付加保険料に係る保険料納付済期間の月数を乗じて得た額となる。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "200円"
+      },
+      {
+       "id": "2",
+       "text": "400円"
+      },
+      {
+       "id": "3",
+       "text": "800円"
+      }
+     ],
+     "answer": "1"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified"
+  },
+  {
+   "id": "g3-202605-34",
+   "exam": "g3",
+   "field": "A",
+   "theme": "公的年金",
+   "source": {
+    "kind": "official",
+    "citation": "日本FP協会 3級ファイナンシャル・プランニング技能検定学科試験 2026年5月公表分",
+    "yearMonth": "2026-05",
+    "number": 34,
+    "url": "https://www.jafp.or.jp/exam/mohan/files/g3_202605_qa.pdf",
+    "modified": false
+   },
+   "lawBaseDate": "2025-04-01",
+   "stem": "遺族厚生年金の額（中高齢寡婦加算額および経過的寡婦加算額を除く）は、原則として、死亡した者の厚生年金保険の被保険者記録を基礎として計算した老齢厚生年金の報酬比例部分の額の（ ）相当額である。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "２分の１"
+      },
+      {
+       "id": "2",
+       "text": "３分の２"
+      },
+      {
+       "id": "3",
+       "text": "４分の３"
+      }
+     ],
+     "answer": "3"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified"
+  },
+  {
+   "id": "g3-202605-35",
+   "exam": "g3",
+   "field": "A",
+   "theme": "教育資金・住宅ローン",
+   "source": {
+    "kind": "official",
+    "citation": "日本FP協会 3級ファイナンシャル・プランニング技能検定学科試験 2026年5月公表分",
+    "yearMonth": "2026-05",
+    "number": 35,
+    "url": "https://www.jafp.or.jp/exam/mohan/files/g3_202605_qa.pdf",
+    "modified": false
+   },
+   "lawBaseDate": "2025-04-01",
+   "stem": "日本政策金融公庫の教育一般貸付（国の教育ローン）の融資金利は（ ① ）であり、返済期間は最長で（ ② ）である。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "① 変動金利 ② 10年"
+      },
+      {
+       "id": "2",
+       "text": "① 固定金利 ② 15年"
+      },
+      {
+       "id": "3",
+       "text": "① 固定金利 ② 20年"
+      }
+     ],
+     "answer": "3"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified"
+  },
+  {
+   "id": "g3-202605-36",
+   "exam": "g3",
+   "field": "B",
+   "theme": "保険制度と契約者保護",
+   "source": {
+    "kind": "official",
+    "citation": "日本FP協会 3級ファイナンシャル・プランニング技能検定学科試験 2026年5月公表分",
+    "yearMonth": "2026-05",
+    "number": 36,
+    "url": "https://www.jafp.or.jp/exam/mohan/files/g3_202605_qa.pdf",
+    "modified": false
+   },
+   "lawBaseDate": "2025-04-01",
+   "stem": "保険法によれば、保険給付を請求する権利および保険料の返還を請求する権利は、これらを行使することができる時から（ ）行使しないときは、時効によって消滅する。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "６カ月間"
+      },
+      {
+       "id": "2",
+       "text": "１年間"
+      },
+      {
+       "id": "3",
+       "text": "３年間"
+      }
+     ],
+     "answer": "3"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified"
+  },
+  {
+   "id": "g3-202605-37",
+   "exam": "g3",
+   "field": "B",
+   "theme": "保険制度と契約者保護",
+   "source": {
+    "kind": "official",
+    "citation": "日本FP協会 3級ファイナンシャル・プランニング技能検定学科試験 2026年5月公表分",
+    "yearMonth": "2026-05",
+    "number": 37,
+    "url": "https://www.jafp.or.jp/exam/mohan/files/g3_202605_qa.pdf",
+    "modified": false
+   },
+   "lawBaseDate": "2025-04-01",
+   "stem": "保険業法上、生命保険契約を申し込んだ者は、原則として、契約の申込日または契約の申込みの撤回に関する事項を記載した書面の交付日のいずれか遅い日から、その日を含めて（ ① ）以内であれば、（ ② ）によりその申込みの撤回を行うことができる。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "① ８日 ② 書面または電磁的記録"
+      },
+      {
+       "id": "2",
+       "text": "① ８日 ② 書面または口頭"
+      },
+      {
+       "id": "3",
+       "text": "① 14日 ② 書面または口頭"
+      }
+     ],
+     "answer": "1"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified"
+  },
+  {
+   "id": "g3-202605-38",
+   "exam": "g3",
+   "field": "B",
+   "theme": "損害保険",
+   "source": {
+    "kind": "official",
+    "citation": "日本FP協会 3級ファイナンシャル・プランニング技能検定学科試験 2026年5月公表分",
+    "yearMonth": "2026-05",
+    "number": 38,
+    "url": "https://www.jafp.or.jp/exam/mohan/files/g3_202605_qa.pdf",
+    "modified": false
+   },
+   "lawBaseDate": "2025-04-01",
+   "stem": "スーパーマーケットを経営する企業が、店舗内で調理・販売した食品が原因で食中毒を発生させ、顧客に対して法律上の損害賠償責任を負担することによって被る損害を補償する保険として、（ ）がある。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "生産物賠償責任保険（ＰＬ保険）"
+      },
+      {
+       "id": "2",
+       "text": "請負業者賠償責任保険"
+      },
+      {
+       "id": "3",
+       "text": "施設所有（管理）者賠償責任保険"
+      }
+     ],
+     "answer": "1"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified"
+  },
+  {
+   "id": "g3-202605-39",
+   "exam": "g3",
+   "field": "B",
+   "theme": "第三分野の保険",
+   "source": {
+    "kind": "official",
+    "citation": "日本FP協会 3級ファイナンシャル・プランニング技能検定学科試験 2026年5月公表分",
+    "yearMonth": "2026-05",
+    "number": 39,
+    "url": "https://www.jafp.or.jp/exam/mohan/files/g3_202605_qa.pdf",
+    "modified": false
+   },
+   "lawBaseDate": "2025-04-01",
+   "stem": "リビング・ニーズ特約は、被保険者の余命が（ ）以内と判断された場合に、所定の範囲内で死亡保険金の一部または全部を生前に受け取ることができる特約である。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "６カ月"
+      },
+      {
+       "id": "2",
+       "text": "９カ月"
+      },
+      {
+       "id": "3",
+       "text": "12カ月"
+      }
+     ],
+     "answer": "1"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified"
+  },
+  {
+   "id": "g3-202605-40",
+   "exam": "g3",
+   "field": "B",
+   "theme": "損害保険",
+   "source": {
+    "kind": "official",
+    "citation": "日本FP協会 3級ファイナンシャル・プランニング技能検定学科試験 2026年5月公表分",
+    "yearMonth": "2026-05",
+    "number": 40,
+    "url": "https://www.jafp.or.jp/exam/mohan/files/g3_202605_qa.pdf",
+    "modified": false
+   },
+   "lawBaseDate": "2025-04-01",
+   "stem": "個人事業主であるＡさんが所有する事業用建物が火災により焼失し、契約者（＝保険料負担者）がＡさん、保険の対象が当該建物である火災保険からＡさんが受け取った保険金は、（ ）である。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "非課税"
+      },
+      {
+       "id": "2",
+       "text": "事業所得"
+      },
+      {
+       "id": "3",
+       "text": "一時所得"
+      }
+     ],
+     "answer": "1"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified"
+  },
+  {
+   "id": "g3-202605-41",
+   "exam": "g3",
+   "field": "C",
+   "theme": "債券",
+   "source": {
+    "kind": "official",
+    "citation": "日本FP協会 3級ファイナンシャル・プランニング技能検定学科試験 2026年5月公表分",
+    "yearMonth": "2026-05",
+    "number": 41,
+    "url": "https://www.jafp.or.jp/exam/mohan/files/g3_202605_qa.pdf",
+    "modified": false
+   },
+   "lawBaseDate": "2025-04-01",
+   "stem": "表面利率（クーポンレート）２％、残存期間５年の固定利付債券を額面100円当たり104円で購入した場合の最終利回り（年率・単利）は、（ ）である。なお、税金等は考慮しないものとし、計算結果は表示単位の小数点以下第３位を四捨五入している。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "1.15％"
+      },
+      {
+       "id": "2",
+       "text": "1.20％"
+      },
+      {
+       "id": "3",
+       "text": "1.25％"
+      }
+     ],
+     "answer": "1"
+    }
+   ],
+   "requiresCalculation": true,
+   "status": "verified",
+   "calcReason": "最終利回りを式に当てはめて計算する"
+  },
+  {
+   "id": "g3-202605-42",
+   "exam": "g3",
+   "field": "C",
+   "theme": "株式",
+   "source": {
+    "kind": "official",
+    "citation": "日本FP協会 3級ファイナンシャル・プランニング技能検定学科試験 2026年5月公表分",
+    "yearMonth": "2026-05",
+    "number": 42,
+    "url": "https://www.jafp.or.jp/exam/mohan/files/g3_202605_qa.pdf",
+    "modified": false
+   },
+   "lawBaseDate": "2025-04-01",
+   "stem": "下記の〈Ｘ社のデータ〉に基づいて計算したＸ社の配当性向は（ ① ）、配当利回りは（ ② ）である。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "① 10％ ② 20％"
+      },
+      {
+       "id": "2",
+       "text": "① 20％ ② 10％"
+      },
+      {
+       "id": "3",
+       "text": "① 40％ ② ２％"
+      }
+     ],
+     "answer": "3"
+    }
+   ],
+   "requiresCalculation": true,
+   "status": "verified",
+   "materials": [
+    {
+     "kind": "image",
+     "title": "問題（原本PDFから切り出し）",
+     "src": "content-img/g3-202605-42.png",
+     "alt": "Ｘ社のデータ：株価2,000円、1株当たり年間配当金40円、1株当たり純利益100円、1株当たり純資産1,000円",
+     "includesStem": true
+    }
+   ],
+   "calcReason": "配当性向・配当利回りを資料の数値から計算する",
+   "tags": [
+    "資料目視確認済み"
+   ]
+  },
+  {
+   "id": "g3-202605-43",
+   "exam": "g3",
+   "field": "C",
+   "theme": "ポートフォリオ理論",
+   "source": {
+    "kind": "official",
+    "citation": "日本FP協会 3級ファイナンシャル・プランニング技能検定学科試験 2026年5月公表分",
+    "yearMonth": "2026-05",
+    "number": 43,
+    "url": "https://www.jafp.or.jp/exam/mohan/files/g3_202605_qa.pdf",
+    "modified": false
+   },
+   "lawBaseDate": "2025-04-01",
+   "stem": "ポートフォリオの期待収益率は、組み入れた各資産の期待収益率を組入比率で加重平均した値（ ① ）、ポートフォリオのリスク（標準偏差）は、ポートフォリオに組み入れた各資産のリスク（標準偏差）を組入比率で加重平均した値（ ② ）。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "① よりも大きくなり ② と等しくなる"
+      },
+      {
+       "id": "2",
+       "text": "① となり ② と等しくなる"
+      },
+      {
+       "id": "3",
+       "text": "① となり ② 以下となる"
+      }
+     ],
+     "answer": "3"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified"
+  },
+  {
+   "id": "g3-202605-44",
+   "exam": "g3",
+   "field": "C",
+   "theme": "NISA・金融商品の税金",
+   "source": {
+    "kind": "official",
+    "citation": "日本FP協会 3級ファイナンシャル・プランニング技能検定学科試験 2026年5月公表分",
+    "yearMonth": "2026-05",
+    "number": 44,
+    "url": "https://www.jafp.or.jp/exam/mohan/files/g3_202605_qa.pdf",
+    "modified": false
+   },
+   "lawBaseDate": "2025-04-01",
+   "stem": "ＮＩＳＡの「成長投資枠」や「つみたて投資枠」を利用して購入した株式投資信託等の非課税保有期間は、（ ）である。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "最長で５年間"
+      },
+      {
+       "id": "2",
+       "text": "最長で20年間"
+      },
+      {
+       "id": "3",
+       "text": "無期限（制限なし）"
+      }
+     ],
+     "answer": "3"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified"
+  },
+  {
+   "id": "g3-202605-45",
+   "exam": "g3",
+   "field": "C",
+   "theme": "金融関連法規・セーフティネット",
+   "source": {
+    "kind": "official",
+    "citation": "日本FP協会 3級ファイナンシャル・プランニング技能検定学科試験 2026年5月公表分",
+    "yearMonth": "2026-05",
+    "number": 45,
+    "url": "https://www.jafp.or.jp/exam/mohan/files/g3_202605_qa.pdf",
+    "modified": false
+   },
+   "lawBaseDate": "2025-04-01",
+   "stem": "預金保険制度により全額が保護される決済用預金とは、「（ ① ）、預金者が払戻しをいつでも請求できる、（ ② ）を提供できる」という３つの要件を満たす預金である。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "① 無利息 ② 決済サービス"
+      },
+      {
+       "id": "2",
+       "text": "① 無担保 ② 自動受取サービス"
+      },
+      {
+       "id": "3",
+       "text": "① 無利息 ② 自動送金サービス"
+      }
+     ],
+     "answer": "1"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "tags": [
+    "資料目視確認済み"
+   ]
+  },
+  {
+   "id": "g3-202605-46",
+   "exam": "g3",
+   "field": "D",
+   "theme": "所得控除",
+   "source": {
+    "kind": "official",
+    "citation": "日本FP協会 3級ファイナンシャル・プランニング技能検定学科試験 2026年5月公表分",
+    "yearMonth": "2026-05",
+    "number": 46,
+    "url": "https://www.jafp.or.jp/exam/mohan/files/g3_202605_qa.pdf",
+    "modified": false
+   },
+   "lawBaseDate": "2025-04-01",
+   "stem": "給与所得者が30年間勤務した会社を定年退職し、退職金2,500万円の支給を受けた場合、所得税における退職所得の金額の計算上、退職所得控除額は（ ）となる。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "800万円＋40万円×(30年－20年)＝1,200万円"
+      },
+      {
+       "id": "2",
+       "text": "800万円＋70万円×(30年－20年)＝1,500万円"
+      },
+      {
+       "id": "3",
+       "text": "70万円×30年＝2,100万円"
+      }
+     ],
+     "answer": "2"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified"
+  },
+  {
+   "id": "g3-202605-47",
+   "exam": "g3",
+   "field": "D",
+   "theme": "各種所得",
+   "source": {
+    "kind": "official",
+    "citation": "日本FP協会 3級ファイナンシャル・プランニング技能検定学科試験 2026年5月公表分",
+    "yearMonth": "2026-05",
+    "number": 47,
+    "url": "https://www.jafp.or.jp/exam/mohan/files/g3_202605_qa.pdf",
+    "modified": false
+   },
+   "lawBaseDate": "2025-04-01",
+   "stem": "所得税において、確定拠出年金の個人型年金に加入して支払った掛金は、（ ）の対象となる。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "個人年金保険料控除"
+      },
+      {
+       "id": "2",
+       "text": "社会保険料控除"
+      },
+      {
+       "id": "3",
+       "text": "小規模企業共済等掛金控除"
+      }
+     ],
+     "answer": "3"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified"
+  },
+  {
+   "id": "g3-202605-48",
+   "exam": "g3",
+   "field": "D",
+   "theme": "所得控除",
+   "source": {
+    "kind": "official",
+    "citation": "日本FP協会 3級ファイナンシャル・プランニング技能検定学科試験 2026年5月公表分",
+    "yearMonth": "2026-05",
+    "number": 48,
+    "url": "https://www.jafp.or.jp/exam/mohan/files/g3_202605_qa.pdf",
+    "modified": false
+   },
+   "lawBaseDate": "2025-04-01",
+   "stem": "所得税において、控除対象扶養親族のうち、その年の12月31日時点の年齢が19歳以上23歳未満である特定扶養親族に係る扶養控除の控除額は、特定扶養親族１人につき（ ）である。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "38万円"
+      },
+      {
+       "id": "2",
+       "text": "48万円"
+      },
+      {
+       "id": "3",
+       "text": "63万円"
+      }
+     ],
+     "answer": "3"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified"
+  },
+  {
+   "id": "g3-202605-49",
+   "exam": "g3",
+   "field": "D",
+   "theme": "税額控除",
+   "source": {
+    "kind": "official",
+    "citation": "日本FP協会 3級ファイナンシャル・プランニング技能検定学科試験 2026年5月公表分",
+    "yearMonth": "2026-05",
+    "number": 49,
+    "url": "https://www.jafp.or.jp/exam/mohan/files/g3_202605_qa.pdf",
+    "modified": false
+   },
+   "lawBaseDate": "2025-04-01",
+   "stem": "住宅ローンを利用して認定長期優良住宅を新築し、新たに所得税における住宅借入金等特別控除の適用を受ける場合、控除額の計算上、住宅借入金の年末残高に乗じる控除率は（ ）である。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "0.7％"
+      },
+      {
+       "id": "2",
+       "text": "1.0％"
+      },
+      {
+       "id": "3",
+       "text": "1.5％"
+      }
+     ],
+     "answer": "1"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified"
+  },
+  {
+   "id": "g3-202605-50",
+   "exam": "g3",
+   "field": "D",
+   "theme": "確定申告・青色申告",
+   "source": {
+    "kind": "official",
+    "citation": "日本FP協会 3級ファイナンシャル・プランニング技能検定学科試験 2026年5月公表分",
+    "yearMonth": "2026-05",
+    "number": 50,
+    "url": "https://www.jafp.or.jp/exam/mohan/files/g3_202605_qa.pdf",
+    "modified": false
+   },
+   "lawBaseDate": "2025-04-01",
+   "stem": "所得税において、事業所得を生ずべき事業を営む青色申告者が所定の要件を満たした場合、事業所得の金額の計算上、控除することができる青色申告特別控除額は、最高で（ ）である。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "38万円"
+      },
+      {
+       "id": "2",
+       "text": "65万円"
+      },
+      {
+       "id": "3",
+       "text": "86万円"
+      }
+     ],
+     "answer": "2"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified"
+  },
+  {
+   "id": "g3-202605-51",
+   "exam": "g3",
+   "field": "E",
+   "theme": "不動産の取引",
+   "source": {
+    "kind": "official",
+    "citation": "日本FP協会 3級ファイナンシャル・プランニング技能検定学科試験 2026年5月公表分",
+    "yearMonth": "2026-05",
+    "number": 51,
+    "url": "https://www.jafp.or.jp/exam/mohan/files/g3_202605_qa.pdf",
+    "modified": false
+   },
+   "lawBaseDate": "2025-04-01",
+   "stem": "民法によれば、不動産の売買契約において、売主が200万円の解約手付を受領した場合、売主は、買主が契約の履行に着手するまでは、買主に（ ）を現実に提供することで、契約の解除をすることができる。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "100万円"
+      },
+      {
+       "id": "2",
+       "text": "200万円"
+      },
+      {
+       "id": "3",
+       "text": "400万円"
+      }
+     ],
+     "answer": "3"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified"
+  },
+  {
+   "id": "g3-202605-52",
+   "exam": "g3",
+   "field": "E",
+   "theme": "都市計画法・建築基準法",
+   "source": {
+    "kind": "official",
+    "citation": "日本FP協会 3級ファイナンシャル・プランニング技能検定学科試験 2026年5月公表分",
+    "yearMonth": "2026-05",
+    "number": 52,
+    "url": "https://www.jafp.or.jp/exam/mohan/files/g3_202605_qa.pdf",
+    "modified": false
+   },
+   "lawBaseDate": "2025-04-01",
+   "stem": "下記の200㎡の土地に建築面積100㎡、延べ面積150㎡の木造２階建ての住宅を建築した場合、当該住宅の容積率は（ ）である。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "50％"
+      },
+      {
+       "id": "2",
+       "text": "75％"
+      },
+      {
+       "id": "3",
+       "text": "100％"
+      }
+     ],
+     "answer": "2"
+    }
+   ],
+   "requiresCalculation": true,
+   "status": "verified",
+   "materials": [
+    {
+     "kind": "image",
+     "title": "問題（原本PDFから切り出し）",
+     "src": "content-img/g3-202605-52.png",
+     "alt": "幅員6mの公道に面した200㎡の土地の図",
+     "includesStem": true
+    }
+   ],
+   "calcReason": "延べ面積÷敷地面積で容積率を計算する",
+   "tags": [
+    "資料目視確認済み"
+   ]
+  },
+  {
+   "id": "g3-202605-53",
+   "exam": "g3",
+   "field": "E",
+   "theme": "区分所有法・農地法等",
+   "source": {
+    "kind": "official",
+    "citation": "日本FP協会 3級ファイナンシャル・プランニング技能検定学科試験 2026年5月公表分",
+    "yearMonth": "2026-05",
+    "number": 53,
+    "url": "https://www.jafp.or.jp/exam/mohan/files/g3_202605_qa.pdf",
+    "modified": false
+   },
+   "lawBaseDate": "2025-04-01",
+   "stem": "建物の区分所有等に関する法律（区分所有法）によれば、集会の決議によって選任された管理者は、少なくとも（ ）集会を招集しなければならない。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "毎週１回"
+      },
+      {
+       "id": "2",
+       "text": "毎月１回"
+      },
+      {
+       "id": "3",
+       "text": "毎年１回"
+      }
+     ],
+     "answer": "3"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified"
+  },
+  {
+   "id": "g3-202605-54",
+   "exam": "g3",
+   "field": "E",
+   "theme": "不動産の税金",
+   "source": {
+    "kind": "official",
+    "citation": "日本FP協会 3級ファイナンシャル・プランニング技能検定学科試験 2026年5月公表分",
+    "yearMonth": "2026-05",
+    "number": 54,
+    "url": "https://www.jafp.or.jp/exam/mohan/files/g3_202605_qa.pdf",
+    "modified": false
+   },
+   "lawBaseDate": "2025-04-01",
+   "stem": "相続により取得した土地について、「相続財産に係る譲渡所得の課税の特例」（相続税の取得費加算の特例）の適用を受けるためには、当該土地を、当該相続の開始があった日の翌日から相続税の申告期限の翌日以後（ ）を経過する日までの間に譲渡しなければならない。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "１年"
+      },
+      {
+       "id": "2",
+       "text": "２年"
+      },
+      {
+       "id": "3",
+       "text": "３年"
+      }
+     ],
+     "answer": "3"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified"
+  },
+  {
+   "id": "g3-202605-55",
+   "exam": "g3",
+   "field": "E",
+   "theme": "不動産の税金",
+   "source": {
+    "kind": "official",
+    "citation": "日本FP協会 3級ファイナンシャル・プランニング技能検定学科試験 2026年5月公表分",
+    "yearMonth": "2026-05",
+    "number": 55,
+    "url": "https://www.jafp.or.jp/exam/mohan/files/g3_202605_qa.pdf",
+    "modified": false
+   },
+   "lawBaseDate": "2025-04-01",
+   "stem": "個人が居住用財産を買い換えて、「特定の居住用財産の買換えの場合の長期譲渡所得の課税の特例」の適用を受けた場合、買換資産の取得費は譲渡資産の取得費を（ ① ）、買換資産の取得時期は譲渡資産の取得の日を（ ② ）。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "① 引き継ぎ ② 引き継がない"
+      },
+      {
+       "id": "2",
+       "text": "① 引き継がず ② 引き継ぐ"
+      },
+      {
+       "id": "3",
+       "text": "① 引き継ぎ ② 引き継ぐ"
+      }
+     ],
+     "answer": "1"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified"
+  },
+  {
+   "id": "g3-202605-56",
+   "exam": "g3",
+   "field": "F",
+   "theme": "贈与税",
+   "source": {
+    "kind": "official",
+    "citation": "日本FP協会 3級ファイナンシャル・プランニング技能検定学科試験 2026年5月公表分",
+    "yearMonth": "2026-05",
+    "number": 56,
+    "url": "https://www.jafp.or.jp/exam/mohan/files/g3_202605_qa.pdf",
+    "modified": false
+   },
+   "lawBaseDate": "2025-04-01",
+   "stem": "2024年１月１日以後に贈与により取得した財産について相続時精算課税の適用を受ける場合、贈与税額の計算上、贈与税の課税価格から基礎控除額として最高で（ ① ）、特別控除額として特定贈与者ごとに最高で（ ② ）を控除することができる。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "① 48万円 ② 2,000万円"
+      },
+      {
+       "id": "2",
+       "text": "① 110万円 ② 2,000万円"
+      },
+      {
+       "id": "3",
+       "text": "① 110万円 ② 2,500万円"
+      }
+     ],
+     "answer": "3"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified"
+  },
+  {
+   "id": "g3-202605-57",
+   "exam": "g3",
+   "field": "F",
+   "theme": "相続の基礎（民法）",
+   "source": {
+    "kind": "official",
+    "citation": "日本FP協会 3級ファイナンシャル・プランニング技能検定学科試験 2026年5月公表分",
+    "yearMonth": "2026-05",
+    "number": 57,
+    "url": "https://www.jafp.or.jp/exam/mohan/files/g3_202605_qa.pdf",
+    "modified": false
+   },
+   "lawBaseDate": "2025-04-01",
+   "stem": "下記の〈親族関係図〉において、Ａさんの相続における兄Ｅさんの法定相続分は、（ ）である。なお、父Ｃさんと母Ｄさんは、Ａさんの相続開始前に死亡している。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "４分の１"
+      },
+      {
+       "id": "2",
+       "text": "６分の１"
+      },
+      {
+       "id": "3",
+       "text": "８分の１"
+      }
+     ],
+     "answer": "3"
+    }
+   ],
+   "requiresCalculation": true,
+   "status": "verified",
+   "materials": [
+    {
+     "kind": "image",
+     "title": "問題（原本PDFから切り出し）",
+     "src": "content-img/g3-202605-57.png",
+     "alt": "親族関係図：父Ｃさん（既に死亡）、母Ｄさん（既に死亡）、兄Ｅさん、姉Ｆさん、被相続人Ａさん、妻Ｂさん",
+     "includesStem": true
+    }
+   ],
+   "calcReason": "兄弟姉妹全体の相続分を人数で割って計算する",
+   "tags": [
+    "資料目視確認済み"
+   ]
+  },
+  {
+   "id": "g3-202605-58",
+   "exam": "g3",
+   "field": "F",
+   "theme": "財産評価",
+   "source": {
+    "kind": "official",
+    "citation": "日本FP協会 3級ファイナンシャル・プランニング技能検定学科試験 2026年5月公表分",
+    "yearMonth": "2026-05",
+    "number": 58,
+    "url": "https://www.jafp.or.jp/exam/mohan/files/g3_202605_qa.pdf",
+    "modified": false
+   },
+   "lawBaseDate": "2025-04-01",
+   "stem": "相続開始時に保険事故が発生していない生命保険契約に関する権利の相続税評価額は、原則として、（ ）によって評価する。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "解約返戻金の額"
+      },
+      {
+       "id": "2",
+       "text": "既払込保険料相当額"
+      },
+      {
+       "id": "3",
+       "text": "死亡保険金の額"
+      }
+     ],
+     "answer": "1"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified"
+  },
+  {
+   "id": "g3-202605-59",
+   "exam": "g3",
+   "field": "F",
+   "theme": "財産評価",
+   "source": {
+    "kind": "official",
+    "citation": "日本FP協会 3級ファイナンシャル・プランニング技能検定学科試験 2026年5月公表分",
+    "yearMonth": "2026-05",
+    "number": 59,
+    "url": "https://www.jafp.or.jp/exam/mohan/files/g3_202605_qa.pdf",
+    "modified": false
+   },
+   "lawBaseDate": "2025-04-01",
+   "stem": "借地権（定期借地権等を除く）の目的となっている宅地の相続税評価額は、その自用地としての価額が１億円、借地権割合が60％である場合、原則として、（ ）となる。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "4,000万円"
+      },
+      {
+       "id": "2",
+       "text": "6,000万円"
+      },
+      {
+       "id": "3",
+       "text": "１億円"
+      }
+     ],
+     "answer": "1"
+    }
+   ],
+   "requiresCalculation": true,
+   "status": "verified",
+   "calcReason": "自用地評価額×（1－借地権割合）で計算する"
+  },
+  {
+   "id": "g3-202605-60",
+   "exam": "g3",
+   "field": "F",
+   "theme": "財産評価",
+   "source": {
+    "kind": "official",
+    "citation": "日本FP協会 3級ファイナンシャル・プランニング技能検定学科試験 2026年5月公表分",
+    "yearMonth": "2026-05",
+    "number": 60,
+    "url": "https://www.jafp.or.jp/exam/mohan/files/g3_202605_qa.pdf",
+    "modified": false
+   },
+   "lawBaseDate": "2025-04-01",
+   "stem": "相続人が相続により取得した宅地が「小規模宅地等についての相続税の課税価格の計算の特例」における貸付事業用宅地等に該当する場合、その宅地のうち（ ① ）までを限度面積として、評価額の（ ② ）相当額を減額した金額を、相続税の課税価格に算入すべき価額とすることができる。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "① 200㎡ ② 50％"
+      },
+      {
+       "id": "2",
+       "text": "① 330㎡ ② 80％"
+      },
+      {
+       "id": "3",
+       "text": "① 400㎡ ② 80％"
+      }
+     ],
+     "answer": "1"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified"
+  }
+ ]
+}

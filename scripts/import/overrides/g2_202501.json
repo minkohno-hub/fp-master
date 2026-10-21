@@ -1,0 +1,18 @@
+{
+ "reviewedAt": "2026-10-21",
+ "reviewer": "Claude（目視確認）",
+ "questions": {
+  "23": {
+   "requiresCalculation": true,
+   "calcReason": "各利回りの計算式を検討する",
+   "_quarantine": "選択肢が分数形式の計算式で、テキストとして正確に再現できないため隔離（画像化も選択肢を含むため未対応）"
+  },
+  "26": {
+   "requiresCalculation": true,
+   "calcReason": "資料の数値から各社の投資指標を計算して比較する",
+   "_release": true,
+   "_stemCutAt": "＜資料＞",
+   "_materialImage": "Ｘ社・Ｙ社の株価、当期純利益、純資産、配当金総額、発行済株式数の表"
+  }
+ }
+}
