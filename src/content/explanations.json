@@ -8420,5 +8420,325 @@
    "lawBaseDate": "2024-04-01",
    "checkedAt": "2026-10-21"
   }
+ },
+ "j3-202405-01": {
+  "terms": [],
+  "explanation": {
+   "status": "draft",
+   "short": "投資助言・代理業の登録なしに、投資顧問契約に基づき特定の上場株式の投資判断を有償で助言するのは金融商品取引法に抵触する。2)3)は一般的な解説なので問題ない。正解は1)。",
+   "sources": [
+    {
+     "title": "日本FP協会 試験範囲（試験要綱）",
+     "url": "https://www.jafp.or.jp/exam/outline/"
+    }
+   ],
+   "evidence": [],
+   "lawBaseDate": "2023-04-01",
+   "checkedAt": "2026-10-21"
+  }
+ },
+ "j3-202405-02": {
+  "terms": [],
+  "explanation": {
+   "status": "draft",
+   "short": "キャッシュフロー表の検算：金融資産残高＝前年残高×（1＋1％）＋年間収支。1年後＝680×1.01＋33＝720、2年後＝720×1.01－87＝640、3年後＝640×1.01＋22＝668。（ウ）は668で、662は誤り。正解は3)。",
+   "sources": [
+    {
+     "title": "日本FP協会 試験範囲（試験要綱）",
+     "url": "https://www.jafp.or.jp/exam/outline/"
+    }
+   ],
+   "evidence": [],
+   "lawBaseDate": "2023-04-01",
+   "checkedAt": "2026-10-21"
+  }
+ },
+ "j3-202405-03": {
+  "terms": [],
+  "explanation": {
+   "status": "draft",
+   "short": "資産＝400＋800＋100＋200＋80＋3,000＝4,580万円。純資産＝4,580万円－負債2,200万円＝2,380万円。正解は3)。",
+   "sources": [
+    {
+     "title": "日本FP協会 試験範囲（試験要綱）",
+     "url": "https://www.jafp.or.jp/exam/outline/"
+    }
+   ],
+   "evidence": [],
+   "lawBaseDate": "2023-04-01",
+   "checkedAt": "2026-10-21"
+  }
+ },
+ "j3-202405-04": {
+  "terms": [],
+  "explanation": {
+   "status": "draft",
+   "short": "毎年の積立額から将来の積立総額を求めるときは年金終価係数を使う。30万円×17.293＝518万7,900円。正解は2)。",
+   "sources": [
+    {
+     "title": "日本FP協会 試験範囲（試験要綱）",
+     "url": "https://www.jafp.or.jp/exam/outline/"
+    }
+   ],
+   "evidence": [],
+   "lawBaseDate": "2023-04-01",
+   "checkedAt": "2026-10-21"
+  }
+ },
+ "j3-202405-05": {
+  "terms": [],
+  "explanation": {
+   "status": "draft",
+   "short": "遺族基礎年金の「子」は、18歳到達年度の末日までの子、または20歳未満で障害等級1級・2級の障害の状態にある子。正解は2)。",
+   "sources": [
+    {
+     "title": "日本FP協会 試験範囲（試験要綱）",
+     "url": "https://www.jafp.or.jp/exam/outline/"
+    }
+   ],
+   "evidence": [],
+   "lawBaseDate": "2023-04-01",
+   "checkedAt": "2026-10-21"
+  }
+ },
+ "j3-202405-06": {
+  "terms": [],
+  "explanation": {
+   "status": "draft",
+   "short": "PER＝WAは1,200÷200＝6倍、WBは3,000÷300＝10倍。PERが低いWAのほうが割安で、WBが割安という記述が誤り。PBRはWA0.8倍、WB1.5倍。配当利回りはWA約2.08％、WB約1.67％。正解は1)。",
+   "sources": [
+    {
+     "title": "日本FP協会 試験範囲（試験要綱）",
+     "url": "https://www.jafp.or.jp/exam/outline/"
+    }
+   ],
+   "evidence": [],
+   "lawBaseDate": "2023-04-01",
+   "checkedAt": "2026-10-21"
+  }
+ },
+ "j3-202405-07": {
+  "terms": [],
+  "explanation": {
+   "status": "draft",
+   "short": "指数に連動を目指す運用がパッシブ運用、指数を上回る成果を目指す運用がアクティブ運用。正解は1)。",
+   "sources": [
+    {
+     "title": "日本FP協会 試験範囲（試験要綱）",
+     "url": "https://www.jafp.or.jp/exam/outline/"
+    }
+   ],
+   "evidence": [],
+   "lawBaseDate": "2023-04-01",
+   "checkedAt": "2026-10-21"
+  }
+ },
+ "j3-202405-08": {
+  "terms": [],
+  "explanation": {
+   "status": "draft",
+   "short": "満期時の元利合計＝10,000ドル×（1＋1.5％）＝10,150ドル。円貨に換えるのでTTB（124.40円）を使い、10,150×124.40＝1,262,660円。正解は1)。",
+   "sources": [
+    {
+     "title": "日本FP協会 試験範囲（試験要綱）",
+     "url": "https://www.jafp.or.jp/exam/outline/"
+    }
+   ],
+   "evidence": [],
+   "lawBaseDate": "2023-04-01",
+   "checkedAt": "2026-10-21"
+  }
+ },
+ "j3-202405-09": {
+  "terms": [],
+  "explanation": {
+   "status": "draft",
+   "short": "延べ面積の上限＝敷地面積×容積率。前面道路が6mなので6×6/10＝360％と指定容積率400％の小さい方。450㎡×360％＝1,620㎡。正解は2)。",
+   "sources": [
+    {
+     "title": "日本FP協会 試験範囲（試験要綱）",
+     "url": "https://www.jafp.or.jp/exam/outline/"
+    }
+   ],
+   "evidence": [],
+   "lawBaseDate": "2023-04-01",
+   "checkedAt": "2026-10-21"
+  }
+ },
+ "j3-202405-10": {
+  "terms": [],
+  "explanation": {
+   "status": "draft",
+   "short": "公示価格に対する割合は、相続税路線価が80％程度、固定資産税評価額が70％程度（評価は市町村・東京23区は東京都）。正解は3)。",
+   "sources": [
+    {
+     "title": "日本FP協会 試験範囲（試験要綱）",
+     "url": "https://www.jafp.or.jp/exam/outline/"
+    }
+   ],
+   "evidence": [],
+   "lawBaseDate": "2023-04-01",
+   "checkedAt": "2026-10-21"
+  }
+ },
+ "j3-202405-11": {
+  "terms": [],
+  "explanation": {
+   "status": "draft",
+   "short": "一般定期借地権は存続期間50年以上、契約は書面（公正証書等）。事業用定期借地権等は公正証書によって契約する。正解は3)。",
+   "sources": [
+    {
+     "title": "日本FP協会 試験範囲（試験要綱）",
+     "url": "https://www.jafp.or.jp/exam/outline/"
+    }
+   ],
+   "evidence": [],
+   "lawBaseDate": "2023-04-01",
+   "checkedAt": "2026-10-21"
+  }
+ },
+ "j3-202405-12": {
+  "terms": [],
+  "explanation": {
+   "status": "draft",
+   "short": "交通事故による死亡（災害死亡）では、終身保険200万円＋定期保険特約2,500万円＋災害割増特約2,000万円＝4,700万円。正解は3)。",
+   "sources": [
+    {
+     "title": "日本FP協会 試験範囲（試験要綱）",
+     "url": "https://www.jafp.or.jp/exam/outline/"
+    }
+   ],
+   "evidence": [],
+   "lawBaseDate": "2023-04-01",
+   "checkedAt": "2026-10-21"
+  }
+ },
+ "j3-202405-13": {
+  "terms": [],
+  "explanation": {
+   "status": "draft",
+   "short": "契約者と受取人が同じ（大久保さん）で被保険者が妻の死亡保険金は、所得税・住民税（一時所得）の対象。1)は相続税、3)は贈与税の対象になる。正解は2)。",
+   "sources": [
+    {
+     "title": "日本FP協会 試験範囲（試験要綱）",
+     "url": "https://www.jafp.or.jp/exam/outline/"
+    }
+   ],
+   "evidence": [],
+   "lawBaseDate": "2023-04-01",
+   "checkedAt": "2026-10-21"
+  }
+ },
+ "j3-202405-14": {
+  "terms": [],
+  "explanation": {
+   "status": "draft",
+   "short": "地震保険の対象は居住用建物と家財で、自動車は対象外。1)火災保険に付帯して契約する、2)保険料は建物の構造と所在地で異なる、の記述は適切。正解は3)。",
+   "sources": [
+    {
+     "title": "日本FP協会 試験範囲（試験要綱）",
+     "url": "https://www.jafp.or.jp/exam/outline/"
+    }
+   ],
+   "evidence": [],
+   "lawBaseDate": "2023-04-01",
+   "checkedAt": "2026-10-21"
+  }
+ },
+ "j3-202405-15": {
+  "terms": [],
+  "explanation": {
+   "status": "draft",
+   "short": "アルバイト50万円は給与所得控除55万円以下なので給与所得は0円。公的年金300万円は330万円以下なので控除110万円で190万円。総所得金額は190万円。正解は2)。",
+   "sources": [
+    {
+     "title": "日本FP協会 試験範囲（試験要綱）",
+     "url": "https://www.jafp.or.jp/exam/outline/"
+    }
+   ],
+   "evidence": [],
+   "lawBaseDate": "2023-04-01",
+   "checkedAt": "2026-10-21"
+  }
+ },
+ "j3-202405-16": {
+  "terms": [],
+  "explanation": {
+   "status": "draft",
+   "short": "勤続38年の退職所得控除＝800万円＋70万円×（38年－20年）＝2,060万円。（4,400万円－2,060万円）×1/2＝1,170万円。正解は2)。",
+   "sources": [
+    {
+     "title": "日本FP協会 試験範囲（試験要綱）",
+     "url": "https://www.jafp.or.jp/exam/outline/"
+    }
+   ],
+   "evidence": [],
+   "lawBaseDate": "2023-04-01",
+   "checkedAt": "2026-10-21"
+  }
+ },
+ "j3-202405-17": {
+  "terms": [],
+  "explanation": {
+   "status": "draft",
+   "short": "譲渡所得＝6,500万円－（取得費2,100万円＋譲渡費用200万円）－3,000万円特別控除＝1,200万円。正解は2)。",
+   "sources": [
+    {
+     "title": "日本FP協会 試験範囲（試験要綱）",
+     "url": "https://www.jafp.or.jp/exam/outline/"
+    }
+   ],
+   "evidence": [],
+   "lawBaseDate": "2023-04-01",
+   "checkedAt": "2026-10-21"
+  }
+ },
+ "j3-202405-18": {
+  "terms": [],
+  "explanation": {
+   "status": "draft",
+   "short": "配偶者と兄弟姉妹が相続人の場合、配偶者が4分の3、兄弟姉妹全体で4分の1。兄弟姉妹が2人なら各8分の1。正解は3)。",
+   "sources": [
+    {
+     "title": "日本FP協会 試験範囲（試験要綱）",
+     "url": "https://www.jafp.or.jp/exam/outline/"
+    }
+   ],
+   "evidence": [],
+   "lawBaseDate": "2023-04-01",
+   "checkedAt": "2026-10-21"
+  }
+ },
+ "j3-202405-19": {
+  "terms": [],
+  "explanation": {
+   "status": "draft",
+   "short": "法定相続人は配偶者と子2人。課税遺産総額8,000万円を法定相続分で分け、配偶者4,000万円×20％－200万円＝600万円、子2,000万円×15％－50万円＝250万円を2人分。合計600万円＋500万円＝1,100万円。正解は2)。",
+   "sources": [
+    {
+     "title": "日本FP協会 試験範囲（試験要綱）",
+     "url": "https://www.jafp.or.jp/exam/outline/"
+    }
+   ],
+   "evidence": [],
+   "lawBaseDate": "2023-04-01",
+   "checkedAt": "2026-10-21"
+  }
+ },
+ "j3-202405-20": {
+  "terms": [],
+  "explanation": {
+   "status": "draft",
+   "short": "祖父・祖母からの贈与は特例贈与財産。（370万円＋180万円－基礎控除110万円）＝440万円。440万円×20％－30万円＝58万円。正解は2)。",
+   "sources": [
+    {
+     "title": "日本FP協会 試験範囲（試験要綱）",
+     "url": "https://www.jafp.or.jp/exam/outline/"
+    }
+   ],
+   "evidence": [],
+   "lawBaseDate": "2023-04-01",
+   "checkedAt": "2026-10-21"
+  }
  }
 }
