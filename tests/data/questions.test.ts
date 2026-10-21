@@ -91,3 +91,15 @@ describe('問題データの検証', () => {
     }
   });
 });
+
+describe('解説と公式正答の整合', () => {
+  const expl = JSON.parse(readFileSync(join(__dirname, '../../src/content/explanations.json'), 'utf-8')) as Record<string, { explanation: { short: string } }>;
+  it('解説に書かれた正解が公式正答と一致する', () => {
+    for (const [id, e] of Object.entries(expl)) {
+      const q = all.find((x) => x.id === id)!;
+      const p = q.parts[0]!;
+      if (p.kind === 'truefalse') expect(e.explanation.short, id).toContain(p.answer ? '適切（〇）' : '不適切（×）');
+      if (p.kind === 'choice') expect(e.explanation.short, id).toContain(`正解は${p.answer})`);
+    }
+  });
+});
