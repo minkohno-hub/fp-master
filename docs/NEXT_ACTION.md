@@ -2,7 +2,7 @@
 
 1. `AGENTS.md`、`REQUIREMENTS.md`、`PROGRESS.md`、`TASKS.md`、`KNOWN_ISSUES.md`、`TEST_RESULTS.md`を読む。
 2. `/workspace/fp-master` のoriginが `https://github.com/minkohno-hub/fp-master.git` であること、ブランチ・差分・最新コミットを確認する。既存作業を上書きせず、追加worktreeを作らない。
-3. 現行 `package.json` のスクリプトとNode版を確認し、`npm ci` 後にLint・型チェック・単体/結合テスト・本番ビルドを実行。Playwright用Chromiumがある環境ではE2Eも実行。失敗原因を切り分ける。
+3. 直前の性能変更後はLint・型チェック・Vitest 87件・本番ビルドまで成功。Chromium E2Eは中断指示で未実施なので、再開時に `PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH=/usr/bin/chromium npm run test:e2e` を優先実行する。依存を入れ直す場合は現行 `package.json` のスクリプトとNode版を確認して `npm ci`、その後に各品質チェックを再実行する。
 4. 公式サイトアクセスが許可された場合、`SOURCE_POLICY.md` のURLを読み取りで再試行。本文・PDFを取得して初めて、4区分の問題数・形式・時間・配点・合格基準・基準日・CBT仕様と利用条件を確定する。
 5. 公式全範囲を版付き論点台帳へ落とし、公開可能な確認済み教材を追加する。構造検証の成功だけで確認済みにしない。旧サンプルは `src/data/quarantine.ts` に隔離を維持。本番 `src/data/catalog.ts` は検証済み教材だけ。
 6. 優先未完タスクから実装を進める。教材が0件の間も、出題・採点・復習・計算・分析・保存・復元のコードはテスト専用fixtureで検証できる。fixtureを本番教材へ混ぜない。

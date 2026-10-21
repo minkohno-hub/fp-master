@@ -98,21 +98,33 @@ export interface CoverageReport {
 export function getCoverage(topics:readonly Topic[], catalog:readonly MaterialQuestion[], attempts:readonly LearningAttempt[], grade:Grade, exam:ExamCategory): CoverageReport {
   const relevantTopics=topics.filter(t=>t.grades.includes(grade)&&t.exams.includes(exam));
   const relevantQuestions=catalog.filter(q=>q.grade===grade&&q.exam===exam);
-  const relevantIds=new Set(relevantQuestions.filter(q=>canPublish(q)).map(q=>q.id));
+  const publishableQuestions=relevantQuestions.filter(q=>canPublish(q));
+  const relevantIds=new Set(publishableQuestions.map(q=>q.id));
+  const questionById=new Map(publishableQuestions.map(q=>[q.id,q]));
+  const totalByTopic=new Map<string,number>();
+  const verifiedByTopic=new Map<string,number>();
+  for (const q of relevantQuestions) totalByTopic.set(q.topicId,(totalByTopic.get(q.topicId)??0)+1);
+  for (const q of publishableQuestions) verifiedByTopic.set(q.topicId,(verifiedByTopic.get(q.topicId)??0)+1);
   const ordered=attempts.filter(a=>Number.isFinite(Date.parse(a.answeredAt))&&relevantIds.has(a.questionId)&&(!a.grade||a.grade===grade)&&(!a.exam||a.exam===exam)).sort((a,b)=>Date.parse(a.answeredAt)-Date.parse(b.answeredAt));
   const seen=new Set<string>();
   const first=ordered.filter(a=>{const firstSeen=!seen.has(a.questionId)&&a.mode!=='review';seen.add(a.questionId);return firstSeen;});
+  const learnedTopics=new Set(ordered.map(a=>questionById.get(a.questionId)!.topicId));
+  const firstByTopic=new Map<string,LearningAttempt[]>();
+  for (const a of first) {
+    const topicId=questionById.get(a.questionId)!.topicId;
+    const records=firstByTopic.get(topicId)??[];
+    records.push(a);
+    firstByTopic.set(topicId,records);
+  }
   const rows=relevantTopics.map(t=>{
-    const qs=relevantQuestions.filter(q=>q.topicId===t.id);
-    const verified=qs.filter(q=>canPublish(q));
-    const ids=new Set(verified.map(q=>q.id));
-    const firstSeen=calculateRate(first.filter(a=>ids.has(a.questionId)&&(!a.grade||a.grade===grade)&&(!a.exam||a.exam===exam)));
-    return {topicId:t.id,totalQuestions:qs.length,verifiedQuestions:verified.length,relatedTerms:t.termIds.length,learned:ordered.some(a=>ids.has(a.questionId)),firstSeen,mastered:firstSeen.total>=3&&firstSeen.accuracy!==null&&firstSeen.accuracy>=95,missingMaterial:verified.length===0,scopeVerified:t.scopeVerified,lawReferenceDate:t.lawReferenceDate};
+    const verified=verifiedByTopic.get(t.id)??0;
+    const firstSeen=calculateRate(firstByTopic.get(t.id)??[]);
+    return {topicId:t.id,totalQuestions:totalByTopic.get(t.id)??0,verifiedQuestions:verified,relatedTerms:t.termIds.length,learned:learnedTopics.has(t.id),firstSeen,mastered:firstSeen.total>=3&&firstSeen.accuracy!==null&&firstSeen.accuracy>=95,missingMaterial:verified===0,scopeVerified:t.scopeVerified,lawReferenceDate:t.lawReferenceDate};
   });
   const verifiedScopeTopics=relevantTopics.filter(t=>t.scopeVerified&&t.officialScope?.checkedAt).length;
   const confirmed=relevantTopics.length>0&&verifiedScopeTopics===relevantTopics.length;
   const coveredTopics=rows.filter(r=>!r.missingMaterial).length;
-  const verifiedQuestions=relevantQuestions.filter(q=>canPublish(q)).length;
+  const verifiedQuestions=publishableQuestions.length;
   return {topics:rows,scopeStatus:confirmed?'confirmed':'unconfirmed',totalTopics:rows.length,verifiedScopeTopics,coveredTopics,
     topicCoverage:confirmed?coveredTopics/rows.length:null,
     questionVerificationRate:relevantQuestions.length?verifiedQuestions/relevantQuestions.length:null,

@@ -35,4 +35,15 @@ describe('attainment analysis',()=>{
   expect(coverage.questionVerificationRate).toBe(1);expect(coverage.topicCoverage).toBe(.5);expect(coverage.masteryRate).toBe(.5);expect(coverage.pendingTopicIds).toEqual(['empty-topic']);
   const unconfirmed=getCoverage([{...topic1,scopeVerified:false},topic2],qs,[],'3','academic');expect(unconfirmed.topicCoverage).toBeNull();expect(unconfirmed.masteryRate).toBeNull();
  });
+ it('counts each topic from the matching published questions and first attempts',()=>{
+  const firstTopic=topicFixture();
+  const secondTopic=topicFixture({id:'second-topic'});
+  const one=materialFixture({id:'one'});
+  const two=materialFixture({id:'two',topicId:'second-topic'});
+  const draft=materialFixture({id:'unverified',topicId:'second-topic',verification:{...one.verification,status:'draft'}});
+  const report=getCoverage([firstTopic,secondTopic],[one,two,draft],[attempt(two.id,false,2),attempt(one.id,true,1),attempt(two.id,true,3,'review')],'3','academic');
+  expect(report.topics[0]).toMatchObject({totalQuestions:1,verifiedQuestions:1,learned:true,firstSeen:{total:1,correct:1}});
+  expect(report.topics[1]).toMatchObject({totalQuestions:2,verifiedQuestions:1,learned:true,firstSeen:{total:1,correct:0}});
+  expect(report.verifiedQuestions).toBe(2);
+ });
 });

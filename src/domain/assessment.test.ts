@@ -60,6 +60,21 @@ describe("question selection and grading", () => {
       }).complete,
     ).toBe(false);
   });
+  it("interleaves available fields even when one field has many more questions", () => {
+    const life = Array.from({ length: 120 }, (_, i) =>
+      materialFixture({ id: `life-${i}` }),
+    );
+    const risk = materialFixture({ id: "risk-only", subject: "risk" });
+    const set = buildQuestionSet(
+      [...life, risk],
+      { grade: "3", exam: "academic", mode: "practice", count: 5 },
+      [], [], [], () => 0.5,
+    );
+    expect(set.available).toBe(121);
+    expect(set.questions).toHaveLength(5);
+    expect(new Set(set.questions.slice(0, 2).map((q) => q.subject))).toEqual(new Set(["life", "risk"]));
+    expect(new Set(set.questions.map((q) => q.id)).size).toBe(5);
+  });
   it("rejects unverified content and respects grade/exam/first-seen/bookmark filters", () => {
     const draft = materialFixture({
       id: "draft",

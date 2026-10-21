@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { catalog as defaultCatalog, topicInventory } from "./data/catalog";
 import {
   canPublish,
@@ -165,49 +165,64 @@ export function App({
     [calcResult, setCalcResult] = useState("");
   const mainHeading = useRef<HTMLHeadingElement>(null);
   const { grade, exam } = data.settings;
-  const published = catalog.filter((q) => canPublish(q));
-  const gradeCatalog = published.filter(
-    (q) => q.grade === grade && q.exam === exam,
+  const published = useMemo(() => catalog.filter((q) => canPublish(q)), [catalog]);
+  const publishedById = useMemo(
+    () => new Map(published.map((q) => [q.id, q])),
+    [published],
   );
-  const stats = analyzeLearning(catalog, data.attempts, grade, exam);
-  const coverage = getCoverage(topics, catalog, data.attempts, grade, exam);
-  const due = dueReviews(data.reviews).map((r) => r.questionId);
-  const missed = new Set(
-    data.attempts.filter((a) => !a.correct).map((a) => a.questionId),
+  const gradeCatalog = useMemo(
+    () => published.filter((q) => q.grade === grade && q.exam === exam),
+    [published, grade, exam],
   );
-  const filter: QuestionFilter = {
-    grade,
-    exam,
-    mode:
-      page === "calculation"
-        ? "calculation"
-        : page === "review"
-          ? "review"
-          : mode,
-    count: data.settings.practiceCount,
-    subject: data.settings.subject,
-    difficulty: data.settings.difficulty,
-    topicId: data.settings.topicId,
-    unansweredOnly: data.settings.unansweredOnly,
-    bookmarkedOnly: data.settings.bookmarkedOnly,
-    origin: data.settings.origin,
-    year: data.settings.year,
-    wrongOnly: data.settings.wrongOnly,
-    dueOnly: data.settings.dueOnly,
-  };
-  const selection = buildQuestionSet(
-    catalog,
-    filter,
-    data.attempts,
-    data.bookmarks,
-    due,
-    () => 0.5,
+  const stats = useMemo(
+    () => analyzeLearning(catalog, data.attempts, grade, exam),
+    [catalog, data.attempts, grade, exam],
+  );
+  const coverage = useMemo(
+    () => getCoverage(topics, catalog, data.attempts, grade, exam),
+    [topics, catalog, data.attempts, grade, exam],
+  );
+  // Review dates advance with wall time even if unrelated UI input causes a render.
+  // A minute bucket avoids rescanning the entire question bank for every keystroke.
+  const nowMinute = Math.floor(Date.now() / 60000);
+  const due = useMemo(
+    () => dueReviews(data.reviews, new Date(nowMinute * 60000)).map((r) => r.questionId),
+    [data.reviews, nowMinute],
+  );
+  const missed = useMemo(
+    () => new Set(data.attempts.filter((a) => !a.correct).map((a) => a.questionId)),
+    [data.attempts],
+  );
+  const filter: QuestionFilter = useMemo(
+    () => ({
+      grade: data.settings.grade,
+      exam: data.settings.exam,
+      mode:
+        page === "calculation"
+          ? "calculation"
+          : page === "review"
+            ? "review"
+            : mode,
+      count: data.settings.practiceCount,
+      subject: data.settings.subject,
+      difficulty: data.settings.difficulty,
+      topicId: data.settings.topicId,
+      unansweredOnly: data.settings.unansweredOnly,
+      bookmarkedOnly: data.settings.bookmarkedOnly,
+      origin: data.settings.origin,
+      year: data.settings.year,
+      wrongOnly: data.settings.wrongOnly,
+      dueOnly: data.settings.dueOnly,
+    }),
+    [data.settings, page, mode],
+  );
+  const selection = useMemo(
+    () => buildQuestionSet(catalog, filter, data.attempts, data.bookmarks, due, () => 0.5),
+    [catalog, filter, data.attempts, data.bookmarks, due],
   );
   const currentSession = data.session;
   const currentQuestion = currentSession
-    ? published.find(
-        (q) => q.id === currentSession.questionIds[currentSession.currentIndex],
-      )
+    ? publishedById.get(currentSession.questionIds[currentSession.currentIndex])
     : undefined;
   const termList = searchTerms(
     termCatalog,

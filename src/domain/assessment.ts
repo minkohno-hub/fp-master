@@ -89,23 +89,33 @@ export function buildQuestionSet(
     const j = Math.floor(value * (i + 1));
     [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
   }
-  const buckets = new Map<Subject, MaterialQuestion[]>();
-  for (const q of shuffled)
-    buckets.set(q.subject, [...(buckets.get(q.subject) ?? []), q]);
-  const ordered: MaterialQuestion[] = [];
-  while (ordered.length < shuffled.length)
-    for (const bucket of buckets.values()) {
-      const q = bucket.shift();
-      if (q) ordered.push(q);
+  const buckets = new Map<Subject, { items: MaterialQuestion[]; offset: number }>();
+  for (const q of shuffled) {
+    let bucket = buckets.get(q.subject);
+    if (!bucket) {
+      bucket = { items: [], offset: 0 };
+      buckets.set(q.subject, bucket);
     }
-  const selected = ordered.slice(0, filter.count);
+    bucket.items.push(q);
+  }
+  // Keep each field interleaved without copying or shifting growing arrays.
+  // A five-question session should not build an ordering for the entire catalog.
+  const selected: MaterialQuestion[] = [];
+  const limit = Math.min(filter.count, shuffled.length);
+  while (selected.length < limit) {
+    for (const bucket of buckets.values()) {
+      if (selected.length === limit) break;
+      if (bucket.offset < bucket.items.length)
+        selected.push(bucket.items[bucket.offset++]);
+    }
+  }
   // A mock exam must exercise calculations even when the first N balanced questions happen to be knowledge-only.
   if (
     filter.mode === "mock" &&
     selected.length &&
     !selected.some((q) => q.kind === "calculation")
   ) {
-    const calculation = ordered.find((q) => q.kind === "calculation");
+    const calculation = shuffled.find((q) => q.kind === "calculation");
     if (calculation) selected[selected.length - 1] = calculation;
   }
   const shortage = Math.max(0, filter.count - selected.length);
