@@ -4,6 +4,7 @@ import { loadAllQuestionSets } from './index';
 import glossaryJson from './glossary.json';
 import cardsJson from './cards.json';
 import lawJson from './law-changes.json';
+import explanationsJson from './explanations.json';
 
 export interface StudyCard {
   id: string;
@@ -31,6 +32,8 @@ export interface Content {
 export const TERMS = glossaryJson as unknown as Term[];
 export const FACT_CARDS = cardsJson as unknown as FactCard[];
 export const LAW_CHANGES = lawJson as unknown as LawChange[];
+/** 問題ID → 解説（問題データとは別ファイルで管理し、取り込みの再実行で消えないようにする） */
+export const EXPLANATIONS = explanationsJson as unknown as Record<string, { terms: string[]; explanation: NonNullable<Question['explanation']> }>;
 
 export function buildCards(terms: Term[], facts: FactCard[]): StudyCard[] {
   return [
@@ -58,7 +61,12 @@ export function buildCards(terms: Term[], facts: FactCard[]): StudyCard[] {
 }
 
 export function buildContent(sets: QuestionSet[]): Content {
-  const questions = sets.flatMap((s) => s.questions);
+  const questions = sets.flatMap((s) =>
+    s.questions.map((q) => {
+      const e = EXPLANATIONS[q.id];
+      return e ? { ...q, explanation: e.explanation, terms: [...new Set([...(q.terms ?? []), ...e.terms])] } : q;
+    }),
+  );
   const lawByQuestion: Content['lawByQuestion'] = new Map();
   for (const change of LAW_CHANGES.filter((c) => c.status === 'confirmed')) {
     for (const impact of change.affectedQuestions) {

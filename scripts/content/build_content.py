@@ -24,6 +24,7 @@ sys.path.insert(0, str(HERE))
 from glossary_src import TERMS  # noqa: E402
 from cards_src import CARDS  # noqa: E402
 from law_src import LAW_CHANGES  # noqa: E402
+from explanations_src import EXPLANATIONS  # noqa: E402
 
 ROOT = HERE.parents[1]
 OUT = ROOT / 'src' / 'content'
@@ -52,6 +53,9 @@ def fetch(url: str) -> str | None:
 def main() -> None:
     offline = '--offline' in sys.argv
     items = [('term', t) for t in TERMS] + [('card', c) for c in CARDS] + [('law', x) for x in LAW_CHANGES]
+    # 解説は evidence を explanation 内に持つので、照合用に平らにした参照を作る
+    expl_items = [{'id': 'expl:' + e['id'], 'evidence': e['explanation']['evidence'], '_src': e} for e in EXPLANATIONS]
+    items += [('expl', x) for x in expl_items]
     ids = [x['id'] for _, x in items]
     dup = {i for i in ids if ids.count(i) > 1}
     if dup:
@@ -93,6 +97,10 @@ def main() -> None:
                 ok = False
         if offline and x['id'] in prev.get('items', {}):
             ok = prev['items'][x['id']] == 'verified' and bool(x['evidence'])
+        if _ == 'expl':
+            x['_src']['explanation']['status'] = 'verified' if ok else 'draft'
+            item_status[x['id']] = 'verified' if ok else 'draft'
+            continue
         if _ == 'law':
             # 改正情報は照合できなければ「候補」に格下げする（出題・解説に反映しない）
             if not ok:
@@ -103,6 +111,15 @@ def main() -> None:
         item_status[x['id']] = x['reviewStatus']
 
     (OUT / 'glossary.json').write_text(json.dumps(TERMS, ensure_ascii=False, indent=1) + '\n', encoding='utf-8')
+    qids = {q['id'] for f in (OUT / 'questions').glob('*.json') for q in json.loads(f.read_text(encoding='utf-8'))['questions']}
+    for e in EXPLANATIONS:
+        if e['id'] not in qids:
+            raise SystemExit(f'解説の問題ID {e["id"]} が存在しません')
+        for t in e['terms']:
+            if t not in term_ids:
+                raise SystemExit(f'{e["id"]}: 用語 {t} が存在しません')
+    (OUT / 'explanations.json').write_text(json.dumps({e['id']: {'terms': e['terms'], 'explanation': e['explanation']} for e in EXPLANATIONS},
+                                                      ensure_ascii=False, indent=1) + '\n', encoding='utf-8')
     (OUT / 'law-changes.json').write_text(json.dumps(LAW_CHANGES, ensure_ascii=False, indent=1) + '\n', encoding='utf-8')
     (OUT / 'cards.json').write_text(json.dumps(CARDS, ensure_ascii=False, indent=1) + '\n', encoding='utf-8')
     CHECK.write_text(json.dumps({'checkedAt': today if not offline else prev.get('checkedAt'), 'pages': pages, 'items': item_status},

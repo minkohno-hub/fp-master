@@ -1,0 +1,44 @@
+# 公式資料（国税庁・日本年金機構・金融庁・日本FP協会）の変更検知。
+# 根拠として引用している文言がページから消えた場合、該当項目を「要確認」に格下げした差分を
+# Issue で知らせる。正答・法令内容を自動で書き換えることはしない（AGENTS.md 参照）。
+name: Source check
+
+on:
+  schedule:
+    - cron: '17 21 * * 1' # 毎週火曜 6:17 JST
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify evidence quotes against official pages
+        run: python3 -I scripts/content/build_content.py | tee check.log
+      - name: Check JAFP exam pages for changes
+        run: python3 -I scripts/sources/check_jafp.py | tee -a check.log
+      - name: Report changes
+        run: |
+          if git diff --quiet -- src/content; then
+            echo "変更なし"
+            exit 0
+          fi
+          {
+            echo "公式資料の照合結果に変化がありました。根拠の確認・影響分析・テストを経てから反映してください。"
+            echo
+            echo '```'
+            cat check.log
+            echo
+            git diff --stat -- src/content
+            echo '```'
+          } > body.md
+          gh issue create --title "公式資料の変更検知 $(date +%F)" --body-file body.md --label source-check || gh issue create --title "公式資料の変更検知 $(date +%F)" --body-file body.md
+        env:
+          GH_TOKEN: ${{ github.token }}
