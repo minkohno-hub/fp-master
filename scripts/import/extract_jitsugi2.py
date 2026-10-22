@@ -78,7 +78,7 @@ def parse_parts(answer: str, option_count: int) -> tuple[list[dict], str | None]
     if multi:
         for k, v, unit in multi:
             # 単位がある・小数・10以上は数値欄、1桁の整数は語群の番号選択
-            if unit or '.' in v or int(v.replace(',', '')) > 9:
+            if unit or '.' in v or int(v.replace(',', '')) > max(9, option_count):
                 parts.append({'kind': 'numeric', 'id': f'p{k}', 'prompt': f'({k})', 'unit': unit.strip('()') if unit else '', 'answer': float(v.replace(',', ''))})
             else:
                 parts.append({'kind': 'choice', 'id': f'p{k}', 'prompt': f'({k})', 'answer': v.strip(),
@@ -165,6 +165,11 @@ def _render(pdf: Path, pages, name: str, start: tuple[int, float], end: tuple[in
     for i in imgs:
         canvas.paste(i, (0, y))
         y += i.height
+    # 末尾の余白を切り詰める（問題が短いとき、ページ下部の空白が画像に残らないようにする）
+    from PIL import ImageOps
+    bbox = ImageOps.invert(canvas).getbbox()
+    if bbox:
+        canvas = canvas.crop((0, 0, canvas.width, min(canvas.height, bbox[3] + 16)))
     canvas.quantize(colors=16).save(g.IMG_OUT / f'{name}.png', optimize=True)
     for f in tmp.glob('*.png'):
         f.unlink()
@@ -237,7 +242,8 @@ def extract(set_id: str) -> tuple[dict, list[str]]:
             stem_lines.append(l)
         stem = g.join_jp(stem_lines) or '（抽出失敗）'
         # 選択肢（「N．」形式）または語群の最大番号
-        nums = [int(norm(m)) for m in re.findall(r'(?:^|\s)([１-９1-9])[．.]', text, flags=re.M)]
+        nums = [int(norm(m)) for m in re.findall(r'(?:^|\s)([０-９0-9]{1,2})[．.](?![０-９0-9])', text, flags=re.M)]
+        nums = [k for k in nums if 1 <= k <= 20]
         option_count = max(nums) if nums else 4
         option_count = max(option_count, 2)
         parts, err = parse_parts(answers[n], option_count)
