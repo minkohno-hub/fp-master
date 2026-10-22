@@ -1833,15 +1833,24 @@
  "g3-202505-46": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "一時所得＝300万円－100万円－50万円＝150万円。総所得金額にはその2分の1の75万円を算入。正解は2)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "国税庁 No.1490 一時所得",
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1490.htm"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1490.htm",
+     "quote": "総収入金額-収入を得るために支出した金額(注)-特別控除額(最高50万円)＝一時所得の金額"
+    },
+    {
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1490.htm",
+     "quote": "その所得金額の2分の1に相当する金額を給与所得などの他の所得の金額と合計"
+    }
+   ],
    "lawBaseDate": "2024-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -2361,15 +2370,20 @@
  "g3-202405-19": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "損益通算できるのは不動産・事業・山林・譲渡所得の損失（一定のものを除く）。適切（〇）。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "国税庁 No.2250 損益通算",
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2250.htm"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2250.htm",
+     "quote": "損益通算の対象となる所得は次の所得です。（1）不動産所得（2）事業所得（3）譲渡所得（4）山林所得"
+    }
+   ],
    "lawBaseDate": "2023-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -2712,15 +2726,24 @@
  "g3-202405-40": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "契約者（保険料負担者）と受取人が同じAさんなので、死亡保険金は所得税（一時所得）の対象。正解は3)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "国税庁 No.1750 死亡保険金を受け取ったとき",
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1750.htm"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1750.htm",
+     "quote": "所得税が課税されるのは、上記「死亡保険金の課税関係の表」のように、保険料の負担者と保険金受取人とが同一人の場合です"
+    },
+    {
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1750.htm",
+     "quote": "死亡保険金を一時金で受領した場合には、一時所得になります"
+    }
+   ],
    "lawBaseDate": "2023-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -6180,15 +6203,24 @@
  "g2-202409-14": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "契約者＝受取人（夫）で被保険者が妻の死亡保険金は、夫の一時所得（所得税）の対象。正解は3)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "国税庁 No.1750 死亡保険金を受け取ったとき",
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1750.htm"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1750.htm",
+     "quote": "所得税が課税されるのは、上記「死亡保険金の課税関係の表」のように、保険料の負担者と保険金受取人とが同一人の場合です"
+    },
+    {
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1750.htm",
+     "quote": "死亡保険金を一時金で受領した場合には、一時所得になります"
+    }
+   ],
    "lawBaseDate": "2024-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -8494,15 +8526,36 @@
  "j3-202505-17": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "一時払養老保険の満期保険金は、保険期間5年超なので一時所得（源泉分離課税ではない）。650万円－500万円－特別控除50万円＝100万円、総所得金額に算入するのはその2分の1の50万円。正解は1)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "国税庁 No.1755 生命保険契約に係る満期保険金等を受け取ったとき",
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1755.htm"
+    },
+    {
+     "title": "国税庁 No.1490 一時所得",
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1490.htm"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1755.htm",
+     "quote": "満期保険金等を一時金で受領した場合には、一時所得になります"
+    },
+    {
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1755.htm",
+     "quote": "保険期間等が5年超で5年以内に解約されたものは、源泉分離課税が適用され"
+    },
+    {
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1490.htm",
+     "quote": "総収入金額-収入を得るために支出した金額(注)-特別控除額(最高50万円)＝一時所得の金額"
+    },
+    {
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1490.htm",
+     "quote": "その所得金額の2分の1に相当する金額を給与所得などの他の所得の金額と合計"
+    }
+   ],
    "lawBaseDate": "2024-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -8803,15 +8856,24 @@
  "j3-202405-16": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "勤続38年の退職所得控除＝800万円＋70万円×（38年－20年）＝2,060万円。（4,400万円－2,060万円）×1/2＝1,170万円。正解は2)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "国税庁 No.1420 退職所得",
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1420.htm"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1420.htm",
+     "quote": "（収入金額（源泉徴収される前の金額）－退職所得控除額）×1／2＝退職所得の金額"
+    },
+    {
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1420.htm",
+     "quote": "20年以下40万円×A(80万円に満たない場合には、80万円)20年超800万円＋70万円×(A-20年)"
+    }
+   ],
    "lawBaseDate": "2023-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -9011,15 +9073,28 @@
  "j2-202605-19": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "勤続年数は35年10カ月→36年（1年未満の端数は切上げ）。退職所得控除＝800万円＋70万円×（36年－20年）＝1,920万円。退職所得＝（2,200万円－1,920万円）×1／2＝140万円。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "国税庁 No.1420 退職所得",
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1420.htm"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1420.htm",
+     "quote": "（収入金額（源泉徴収される前の金額）－退職所得控除額）×1／2＝退職所得の金額"
+    },
+    {
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1420.htm",
+     "quote": "20年以下40万円×A(80万円に満たない場合には、80万円)20年超800万円＋70万円×(A-20年)"
+    },
+    {
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1420.htm",
+     "quote": "勤続年数は11年になります。（端数の2か月は1年に切上げ）"
+    }
+   ],
    "lawBaseDate": "2025-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -9986,15 +10061,28 @@
  "j2-202505-19": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "勤続15年2カ月は1年未満の端数を切り上げて16年。退職所得控除＝40万円×16年＝640万円（20年以下の部分は1年につき40万円、最低80万円）。退職所得＝（900万円－640万円）×1／2＝130万円。正解は1)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "国税庁 No.1420 退職所得",
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1420.htm"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1420.htm",
+     "quote": "（収入金額（源泉徴収される前の金額）－退職所得控除額）×1／2＝退職所得の金額"
+    },
+    {
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1420.htm",
+     "quote": "20年以下40万円×A(80万円に満たない場合には、80万円)20年超800万円＋70万円×(A-20年)"
+    },
+    {
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1420.htm",
+     "quote": "勤続年数は11年になります。（端数の2か月は1年に切上げ）"
+    }
+   ],
    "lawBaseDate": "2024-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -10526,15 +10614,32 @@
  "j2-202501-18": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "養老保険の満期保険金は一時所得。一時所得＝（満期保険金450万円－払込保険料370万円－特別控除50万円）＝30万円。総所得金額に算入するのは2分の1で15万円。正解は1)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "国税庁 No.1755 生命保険契約に係る満期保険金等を受け取ったとき",
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1755.htm"
+    },
+    {
+     "title": "国税庁 No.1490 一時所得",
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1490.htm"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1755.htm",
+     "quote": "満期保険金等を一時金で受領した場合には、一時所得になります"
+    },
+    {
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1490.htm",
+     "quote": "総収入金額-収入を得るために支出した金額(注)-特別控除額(最高50万円)＝一時所得の金額"
+    },
+    {
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1490.htm",
+     "quote": "その所得金額の2分の1に相当する金額を給与所得などの他の所得の金額と合計"
+    }
+   ],
    "lawBaseDate": "2024-10-01",
    "checkedAt": "2026-10-21"
   }
@@ -10827,15 +10932,40 @@
  "j2-202501-36": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "勤続期間は1990年4月1日〜2025年6月30日で35年3カ月、1年未満の端数は切り上げて36年。退職所得控除＝800万円＋70万円×（36年－20年）＝1,920万円。退職所得＝（3,600万円－1,920万円）×1／2＝840万円。所得税額＝840万円×23％－63.6万円＝1,296,000円。正解は1)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "国税庁 No.1420 退職所得",
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1420.htm"
+    },
+    {
+     "title": "国税庁 No.2260 所得税の税率",
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2260.htm"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1420.htm",
+     "quote": "（収入金額（源泉徴収される前の金額）－退職所得控除額）×1／2＝退職所得の金額"
+    },
+    {
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1420.htm",
+     "quote": "20年以下40万円×A(80万円に満たない場合には、80万円)20年超800万円＋70万円×(A-20年)"
+    },
+    {
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1420.htm",
+     "quote": "勤続年数は11年になります。（端数の2か月は1年に切上げ）"
+    },
+    {
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1420.htm",
+     "quote": "退職所得は、原則として他の所得と分離して所得税額を計算します"
+    },
+    {
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2260.htm",
+     "quote": "6,950,000円から8,999,000円まで23％636,000円"
+    }
+   ],
    "lawBaseDate": "2024-10-01",
    "checkedAt": "2026-10-21"
   }
@@ -11163,15 +11293,28 @@
  "j2-202409-17": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "勤続25年1カ月は1年未満の端数を切り上げて26年。退職所得控除＝800万円＋70万円×（26年－20年）＝1,220万円。退職所得＝（2,250万円－1,220万円）×1／2＝515万円。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "国税庁 No.1420 退職所得",
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1420.htm"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1420.htm",
+     "quote": "（収入金額（源泉徴収される前の金額）－退職所得控除額）×1／2＝退職所得の金額"
+    },
+    {
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1420.htm",
+     "quote": "20年以下40万円×A(80万円に満たない場合には、80万円)20年超800万円＋70万円×(A-20年)"
+    },
+    {
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1420.htm",
+     "quote": "勤続年数は11年になります。（端数の2か月は1年に切上げ）"
+    }
+   ],
    "lawBaseDate": "2024-04-01",
    "checkedAt": "2026-10-21"
   }

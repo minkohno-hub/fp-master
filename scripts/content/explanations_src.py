@@ -1037,6 +1037,8 @@ S.update({
     'hw_kihon': {'title': 'ハローワークインターネットサービス 基本手当について', 'url': 'https://www.hellowork.mhlw.go.jp/insurance/insurance_basicbenefit.html'},
     'jasso_taiyo': {'title': '日本学生支援機構 貸与奨学金', 'url': 'https://www.jasso.go.jp/shogakukin/about/taiyo/index.html'},
     'fsa_nisa': {'title': '金融庁 新しいNISA', 'url': 'https://www.fsa.go.jp/policy/nisa2/about/index.html'},
+    'nta1750': {'title': '国税庁 No.1750 死亡保険金を受け取ったとき', 'url': 'https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1750.htm'},
+    'nta1755': {'title': '国税庁 No.1755 生命保険契約に係る満期保険金等を受け取ったとき', 'url': 'https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1755.htm'},
 })
 _Q = {
     'k4_3': ('nk_izoku_kou', '死亡した方の老齢厚生年金の報酬比例部分の4分の3の額となります'),
@@ -1082,6 +1084,18 @@ _Q = {
     'nisa_heiyo': ('fsa_nisa', 'つみたてNISAがつみたて投資枠に、一般NISAが成長投資枠に引き継がれ、併用が可能になりました'),
     'nisa_mukigen': ('fsa_nisa', '2024年からのNISAでは無期限となりました'),
     'nisa_18': ('fsa_nisa', '日本国内に住んでいる18歳以上*の方ならどなたでも開設できます'),
+    'ichiji_f': ('nta1490', '総収入金額-収入を得るために支出した金額(注)-特別控除額(最高50万円)＝一時所得の金額'),
+    'ichiji_half': ('nta1490', 'その所得金額の2分の1に相当する金額を給与所得などの他の所得の金額と合計'),
+    'man_ichiji': ('nta1755', '満期保険金等を一時金で受領した場合には、一時所得になります'),
+    'man_bunri': ('nta1755', '保険期間等が5年超で5年以内に解約されたものは、源泉分離課税が適用され'),
+    'shibo_same': ('nta1750', '所得税が課税されるのは、上記「死亡保険金の課税関係の表」のように、保険料の負担者と保険金受取人とが同一人の場合です'),
+    'shibo_ichiji': ('nta1750', '死亡保険金を一時金で受領した場合には、一時所得になります'),
+    'tsu_range': ('nta2250', '損益通算の対象となる所得は次の所得です。（1）不動産所得（2）事業所得（3）譲渡所得（4）山林所得'),
+    'taishoku_f': ('nta1420', '（収入金額（源泉徴収される前の金額）－退職所得控除額）×1／2＝退職所得の金額'),
+    'taishoku_tbl': ('nta1420', '20年以下40万円×A(80万円に満たない場合には、80万円)20年超800万円＋70万円×(A-20年)'),
+    'taishoku_round': ('nta1420', '勤続年数は11年になります。（端数の2か月は1年に切上げ）'),
+    'taishoku_bunri': ('nta1420', '退職所得は、原則として他の所得と分離して所得税額を計算します'),
+    'rate_23': ('nta2260', '6,950,000円から8,999,000円まで23％636,000円'),
 }
 _EVID = {
     'g3-202605-34': ['k4_3'],
@@ -1111,6 +1125,17 @@ _EVID = {
     'g3-202505-44': ['nisa_1800', 'nisa_1200'],
     'g3-202405-44': ['nisa_240'],
     'g2-202505-29': ['nisa_120', 'nisa_heiyo', 'nisa_mukigen', 'nisa_18'],
+    'g3-202505-46': ['ichiji_f', 'ichiji_half'],
+    'j2-202501-18': ['man_ichiji', 'ichiji_f', 'ichiji_half'],
+    'j3-202505-17': ['man_ichiji', 'man_bunri', 'ichiji_f', 'ichiji_half'],
+    'g3-202405-40': ['shibo_same', 'shibo_ichiji'],
+    'g2-202409-14': ['shibo_same', 'shibo_ichiji'],
+    'g3-202405-19': ['tsu_range'],
+    'j2-202605-19': ['taishoku_f', 'taishoku_tbl', 'taishoku_round'],
+    'j2-202505-19': ['taishoku_f', 'taishoku_tbl', 'taishoku_round'],
+    'j2-202409-17': ['taishoku_f', 'taishoku_tbl', 'taishoku_round'],
+    'j3-202405-16': ['taishoku_f', 'taishoku_tbl'],
+    'j2-202501-36': ['taishoku_f', 'taishoku_tbl', 'taishoku_round', 'taishoku_bunri', 'rate_23'],
 }
 for _e in EXPLANATIONS:
     _keys = _EVID.get(_e['id'])
