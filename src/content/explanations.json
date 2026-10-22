@@ -1914,15 +1914,24 @@
  "g3-202505-38": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "自賠責保険の支払限度額は死亡3,000万円、傷害120万円。正解は1)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 自動車損害賠償保障法施行令",
+     "url": "https://laws.e-gov.go.jp/law/330CO0000000286"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/330CO0000000286",
+     "quote": "死亡による損害（ロに掲げる損害を除く。）三千万円"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/330CO0000000286",
+     "quote": "傷害による損害百二十万円"
+    }
+   ],
    "lawBaseDate": "2024-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -3032,15 +3041,28 @@
  "g3-202405-38": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "地震保険の上限は居住用建物5,000万円、家財1,000万円。正解は3)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 地震保険に関する法律施行令",
+     "url": "https://laws.e-gov.go.jp/law/341CO0000000164"
+    },
+    {
+     "title": "e-Gov法令検索 地震保険に関する法律",
+     "url": "https://laws.e-gov.go.jp/law/341AC0000000073"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/341CO0000000164",
+     "quote": "居住用建物については五千万円、生活用動産については千万円とする"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/341AC0000000073",
+     "quote": "附帯される損害保険契約の保険金額の百分の三十以上百分の五十以下の額に相当する金額（その金額が政令で定める金額を超えるときは、当該政令で定める金額）を保険金額とすること"
+    }
+   ],
    "lawBaseDate": "2023-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -4830,15 +4852,24 @@
  "g2-202505-16": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "原動機付自転車も自賠責保険の加入が義務付けられている。正解は1)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 自動車損害賠償保障法",
+     "url": "https://laws.e-gov.go.jp/law/330AC0000000097"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/330AC0000000097",
+     "quote": "自動車は、これについてこの法律で定める自動車損害賠償責任保険（以下「責任保険」という。）又は自動車損害賠償責任共済（以下「責任共済」という。）の契約が締結されているものでなければ、運行の用に供してはならない"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/330AC0000000097",
+     "quote": "同条第三項に規定する原動機付自転車をいう"
+    }
+   ],
    "lawBaseDate": "2024-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -10026,15 +10057,20 @@
  "j2-202605-17": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "地震保険料＝保険金額×料率。保険金額は火災保険金額（1,800万円）の30〜50％の範囲で、資料の設定により900万円。資料の料率（岡山県・イ構造：730円／100万円）より、900万円×730円／100万円＝6,570円。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 地震保険に関する法律",
+     "url": "https://laws.e-gov.go.jp/law/341AC0000000073"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/341AC0000000073",
+     "quote": "附帯される損害保険契約の保険金額の百分の三十以上百分の五十以下の額に相当する金額（その金額が政令で定める金額を超えるときは、当該政令で定める金額）を保険金額とすること"
+    }
+   ],
    "lawBaseDate": "2025-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -10341,15 +10377,28 @@
  "j2-202505-17": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "地震保険の保険金額は火災保険金額の30〜50％（上限：建物5,000万円）。最大の50％＝2,000万円×50％＝1,000万円。埼玉県・ロ構造は100万円あたり年間4,110円なので、1,000万円×4,110円／100万円＝41,100円。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 地震保険に関する法律施行令",
+     "url": "https://laws.e-gov.go.jp/law/341CO0000000164"
+    },
+    {
+     "title": "e-Gov法令検索 地震保険に関する法律",
+     "url": "https://laws.e-gov.go.jp/law/341AC0000000073"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/341CO0000000164",
+     "quote": "居住用建物については五千万円、生活用動産については千万円とする"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/341AC0000000073",
+     "quote": "附帯される損害保険契約の保険金額の百分の三十以上百分の五十以下の額に相当する金額（その金額が政令で定める金額を超えるときは、当該政令で定める金額）を保険金額とすること"
+    }
+   ],
    "lawBaseDate": "2024-04-01",
    "checkedAt": "2026-10-21"
   }
