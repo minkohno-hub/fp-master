@@ -19,7 +19,7 @@
     "quote": "令和6年分以前令和7年分令和8年分令和9年分以後令和10年分以後132万円以下48万円95万円104万円99万円"
    }
   ],
-  "status": "candidate",
+  "status": "confirmed",
   "affectedQuestions": [
    {
     "id": "g3-202605-20",
@@ -61,7 +61,7 @@
     "quote": "2,200,000円まで740,000円"
    }
   ],
-  "status": "candidate",
+  "status": "confirmed",
   "affectedQuestions": [
    {
     "id": "g3-202505-17",
@@ -94,7 +94,7 @@
     "quote": "令和7年分は58万円を超え133万円以下、令和2年分から令和6年分までは48万円を超え133万円以下"
    }
   ],
-  "status": "candidate",
+  "status": "confirmed",
   "affectedQuestions": [
    {
     "id": "g2-202501-34",
@@ -133,7 +133,7 @@
     "quote": "令和6年1月1日以後の贈与により取得した相続時精算課税適用財産については"
    }
   ],
-  "status": "candidate",
+  "status": "confirmed",
   "affectedQuestions": [
    {
     "id": "g2-202405-52",

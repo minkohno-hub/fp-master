@@ -474,7 +474,7 @@
    "niwari-kasan"
   ],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "2割加算の対象は1親等の血族と配偶者以外。父母は1親等の血族なので対象外。不適切（×）。",
    "sources": [
     {
@@ -558,7 +558,7 @@
    "short": "付加年金の額は200円×付加保険料納付月数。正解は1)。",
    "sources": [
     {
-     "title": "日本年金機構 老齢基礎年金の受給要件・支給開始時期・年金額",
+     "title": "日本年金機構 老齢基礎年金（受給要件・支給開始時期・年金額）",
      "url": "https://www.nenkin.go.jp/service/jukyu/seido/roureinenkin/jukyu-yoken/20150401-02.html"
     }
    ],
@@ -576,15 +576,20 @@
  "g3-202605-34": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "遺族厚生年金の額は、老齢厚生年金の報酬比例部分の4分の3相当額。正解は3)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "日本年金機構 遺族厚生年金（受給要件・対象者・年金額）",
+     "url": "https://www.nenkin.go.jp/service/jukyu/seido/izokunenkin/jukyu-yoken/20150424.html"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://www.nenkin.go.jp/service/jukyu/seido/izokunenkin/jukyu-yoken/20150424.html",
+     "quote": "死亡した方の老齢厚生年金の報酬比例部分の4分の3の額となります"
+    }
+   ],
    "lawBaseDate": "2025-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -796,7 +801,7 @@
    "taishoku-shotoku-kojo"
   ],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "勤続20年超の退職所得控除額＝800万円＋70万円×（30年－20年）＝1,500万円。正解は2)。",
    "sources": [
     {
@@ -837,7 +842,7 @@
    "fuyo-kojo"
   ],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "特定扶養親族（19歳以上23歳未満）の扶養控除額は63万円。正解は3)。",
    "sources": [
     {
@@ -980,7 +985,7 @@
    "sozokuji-seisan"
   ],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "2024年以後の相続時精算課税は、年110万円の基礎控除と、特定贈与者ごとに累計2,500万円の特別控除がある。正解は3)。",
    "sources": [
     {
@@ -1003,7 +1008,7 @@
    "hotei-sozokubun"
   ],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "配偶者と兄弟姉妹が相続人の場合、兄弟姉妹全体で4分の1。兄と姉の2人で分けるので兄Eさんは8分の1。正解は3)。",
    "sources": [
     {
@@ -1058,7 +1063,7 @@
    "shokibo-takuchi"
   ],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "貸付事業用宅地等は200㎡まで50％減額。正解は1)。",
    "sources": [
     {
@@ -1576,15 +1581,20 @@
  "g3-202505-32": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "任意継続被保険者として加入できるのは最長2年間。正解は2)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "全国健康保険協会 退職後の健康保険（任意継続）",
+     "url": "https://www.kyoukaikenpo.or.jp/benefit/voluntary_continuation/"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://www.kyoukaikenpo.or.jp/benefit/voluntary_continuation/",
+     "quote": "被保険者期間■2年間です"
+    }
+   ],
    "lawBaseDate": "2024-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -1592,15 +1602,20 @@
  "g3-202505-33": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "繰下げ増額率＝0.7％×60カ月＝42％。正解は3)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "日本年金機構 年金の繰下げ受給",
+     "url": "https://www.nenkin.go.jp/service/jukyu/seido/roureinenkin/kuriage-kurisage/20140421-02.html"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://www.nenkin.go.jp/service/jukyu/seido/roureinenkin/kuriage-kurisage/20140421-02.html",
+     "quote": "増額率（最大84％※1）＝0.7%"
+    }
+   ],
    "lawBaseDate": "2024-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -2536,15 +2551,20 @@
  "g3-202405-32": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "傷病手当金の支給期間は支給開始日から通算して最長1年6カ月。正解は2)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "全国健康保険協会 傷病手当金",
+     "url": "https://www.kyoukaikenpo.or.jp/benefit/injury_and_sickness_allowance/"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://www.kyoukaikenpo.or.jp/benefit/injury_and_sickness_allowance/",
+     "quote": "傷病手当金の支給期間は、支給を開始した日から通算して1年6か月です"
+    }
+   ],
    "lawBaseDate": "2023-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -2552,15 +2572,20 @@
  "g3-202405-33": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "繰上げ減額率＝0.4％×60カ月＝24％。正解は1)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "日本年金機構 年金の繰上げ受給",
+     "url": "https://www.nenkin.go.jp/service/jukyu/seido/roureinenkin/kuriage-kurisage/20140421-01.html"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://www.nenkin.go.jp/service/jukyu/seido/roureinenkin/kuriage-kurisage/20140421-01.html",
+     "quote": "減額率（最大24％）＝0.4%"
+    }
+   ],
    "lawBaseDate": "2023-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -2568,15 +2593,20 @@
  "g3-202405-34": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "遺族基礎年金を受給できる遺族は、子のある配偶者と子。正解は1)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "日本年金機構 遺族基礎年金（受給要件・対象者・年金額）",
+     "url": "https://www.nenkin.go.jp/service/jukyu/seido/izokunenkin/jukyu-yoken/20150401-04.html"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://www.nenkin.go.jp/service/jukyu/seido/izokunenkin/jukyu-yoken/20150401-04.html",
+     "quote": "子のある配偶者"
+    }
+   ],
    "lawBaseDate": "2023-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -4968,15 +4998,32 @@
  "g2-202501-04": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "老齢厚生年金の受給権取得時に遺族厚生年金の受給権者だった場合、繰下げの申出はできない。1)0.7％、3)別々に繰り下げられる、4)加給年金額は増額されない。正解は2)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "日本年金機構 年金の繰下げ受給",
+     "url": "https://www.nenkin.go.jp/service/jukyu/seido/roureinenkin/kuriage-kurisage/20140421-02.html"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://www.nenkin.go.jp/service/jukyu/seido/roureinenkin/kuriage-kurisage/20140421-02.html",
+     "quote": "障害給付や遺族給付を受け取る権利があるときは、繰下げ受給の申出ができません"
+    },
+    {
+     "url": "https://www.nenkin.go.jp/service/jukyu/seido/roureinenkin/kuriage-kurisage/20140421-02.html",
+     "quote": "増額率（最大84％※1）＝0.7%"
+    },
+    {
+     "url": "https://www.nenkin.go.jp/service/jukyu/seido/roureinenkin/kuriage-kurisage/20140421-02.html",
+     "quote": "老齢基礎年金と老齢厚生年金は別々に繰り下げすることができます"
+    },
+    {
+     "url": "https://www.nenkin.go.jp/service/jukyu/seido/roureinenkin/kuriage-kurisage/20140421-02.html",
+     "quote": "加給年金額や振替加算額は増額の対象になりません"
+    }
+   ],
    "lawBaseDate": "2024-10-01",
    "checkedAt": "2026-10-21"
   }
@@ -7864,15 +7911,28 @@
  "j3-202605-05": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "任意継続被保険者は、資格喪失日の前日までに2カ月以上の被保険者期間が必要で、資格喪失日から20日以内に申し出る。加入期間は最長2年間。正解は1)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "全国健康保険協会 退職後の健康保険（任意継続）",
+     "url": "https://www.kyoukaikenpo.or.jp/benefit/voluntary_continuation/"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://www.kyoukaikenpo.or.jp/benefit/voluntary_continuation/",
+     "quote": "被保険者期間■2年間です"
+    },
+    {
+     "url": "https://www.kyoukaikenpo.or.jp/benefit/voluntary_continuation/",
+     "quote": "退職日までに被保険者期間が継続して2か月以上あること"
+    },
+    {
+     "url": "https://www.kyoukaikenpo.or.jp/benefit/voluntary_continuation/",
+     "quote": "退職日の翌日から20日以内に手続すること"
+    }
+   ],
    "lawBaseDate": "2025-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -8184,15 +8244,28 @@
  "j3-202505-05": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "老齢基礎年金の繰上げ減額率は0.4％×月数、繰下げ増額率は0.7％×月数。正解は1)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "日本年金機構 年金の繰上げ受給",
+     "url": "https://www.nenkin.go.jp/service/jukyu/seido/roureinenkin/kuriage-kurisage/20140421-01.html"
+    },
+    {
+     "title": "日本年金機構 年金の繰下げ受給",
+     "url": "https://www.nenkin.go.jp/service/jukyu/seido/roureinenkin/kuriage-kurisage/20140421-02.html"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://www.nenkin.go.jp/service/jukyu/seido/roureinenkin/kuriage-kurisage/20140421-01.html",
+     "quote": "減額率（最大24％）＝0.4%"
+    },
+    {
+     "url": "https://www.nenkin.go.jp/service/jukyu/seido/roureinenkin/kuriage-kurisage/20140421-02.html",
+     "quote": "増額率（最大84％※1）＝0.7%"
+    }
+   ],
    "lawBaseDate": "2024-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -8504,15 +8577,20 @@
  "j3-202405-05": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "遺族基礎年金の「子」は、18歳到達年度の末日までの子、または20歳未満で障害等級1級・2級の障害の状態にある子。正解は2)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "日本年金機構 遺族基礎年金（受給要件・対象者・年金額）",
+     "url": "https://www.nenkin.go.jp/service/jukyu/seido/izokunenkin/jukyu-yoken/20150401-04.html"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://www.nenkin.go.jp/service/jukyu/seido/izokunenkin/jukyu-yoken/20150401-04.html",
+     "quote": "子とは18歳になった年度の3月31日までにある方、または20歳未満で障害年金の障害等級1級または2級の状態にある方をさします"
+    }
+   ],
    "lawBaseDate": "2023-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -9592,15 +9670,28 @@
  "j2-202605-37": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "久明さんは厚生年金保険の被保険者期間中に死亡したので、要件を満たす妻に遺族厚生年金が支給される。長女（20歳）は18歳到達年度末を過ぎており遺族基礎年金の「子」に当たらないため、妻に遺族基礎年金は支給されない。妻は48歳で子がなく、40歳以上65歳未満のため、遺族厚生年金に中高齢寡婦加算が加算される。正解は4)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "日本年金機構 遺族基礎年金（受給要件・対象者・年金額）",
+     "url": "https://www.nenkin.go.jp/service/jukyu/seido/izokunenkin/jukyu-yoken/20150401-04.html"
+    },
+    {
+     "title": "日本年金機構 遺族厚生年金（受給要件・対象者・年金額）",
+     "url": "https://www.nenkin.go.jp/service/jukyu/seido/izokunenkin/jukyu-yoken/20150424.html"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://www.nenkin.go.jp/service/jukyu/seido/izokunenkin/jukyu-yoken/20150401-04.html",
+     "quote": "子とは18歳になった年度の3月31日までにある方、または20歳未満で障害年金の障害等級1級または2級の状態にある方をさします"
+    },
+    {
+     "url": "https://www.nenkin.go.jp/service/jukyu/seido/izokunenkin/jukyu-yoken/20150424.html",
+     "quote": "40歳から65歳になるまでの間"
+    }
+   ],
    "lawBaseDate": "2025-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -9608,15 +9699,28 @@
  "j2-202605-38": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "傷病手当金は、連続する3日間（待期）の後、4日目から支給される。1日（出勤）、2・3日（休業）、4日（出勤）では待期は成立せず、5・6・7日の3日間で待期が完成し、8日から支給される。1日当たりの額は〔支給開始日以前の継続した12カ月間の標準報酬月額の平均額〕×1／30×2／3。支給期間は支給開始日から通算して最長1年6カ月。正解は1)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "全国健康保険協会 傷病手当金",
+     "url": "https://www.kyoukaikenpo.or.jp/benefit/injury_and_sickness_allowance/"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://www.kyoukaikenpo.or.jp/benefit/injury_and_sickness_allowance/",
+     "quote": "連続して3日間(待期)の後"
+    },
+    {
+     "url": "https://www.kyoukaikenpo.or.jp/benefit/injury_and_sickness_allowance/",
+     "quote": "傷病手当金の支給期間は、支給を開始した日から通算して1年6か月です"
+    },
+    {
+     "url": "https://www.kyoukaikenpo.or.jp/benefit/injury_and_sickness_allowance/",
+     "quote": "5,670円×2/3＝3,780円"
+    }
+   ],
    "lawBaseDate": "2025-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -9960,15 +10064,36 @@
  "j2-202505-36": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "（ア）国民年金に任意加入している間は、老齢基礎年金の繰上げ請求はできない。不適切（×）。（イ）老齢基礎年金と老齢厚生年金の繰上げ請求は、原則として同時に行わなければならず、別々の時期に行うことはできない。適切（〇）。（ウ）加給年金額は繰下げ支給による増額の対象にならない。適切（〇）。（エ）繰上げ請求をした場合、原則として取消しはできない。適切（〇）。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "日本年金機構 年金の繰上げ受給",
+     "url": "https://www.nenkin.go.jp/service/jukyu/seido/roureinenkin/kuriage-kurisage/20140421-01.html"
+    },
+    {
+     "title": "日本年金機構 年金の繰下げ受給",
+     "url": "https://www.nenkin.go.jp/service/jukyu/seido/roureinenkin/kuriage-kurisage/20140421-02.html"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://www.nenkin.go.jp/service/jukyu/seido/roureinenkin/kuriage-kurisage/20140421-01.html",
+     "quote": "老齢年金を繰上げ請求すると、国民年金の任意加入や、保険料の追納はできなくなります"
+    },
+    {
+     "url": "https://www.nenkin.go.jp/service/jukyu/seido/roureinenkin/kuriage-kurisage/20140421-01.html",
+     "quote": "原則として老齢基礎年金と老齢厚生年金は同時に繰上げ請求をする必要があります"
+    },
+    {
+     "url": "https://www.nenkin.go.jp/service/jukyu/seido/roureinenkin/kuriage-kurisage/20140421-02.html",
+     "quote": "加給年金額や振替加算額は増額の対象になりません"
+    },
+    {
+     "url": "https://www.nenkin.go.jp/service/jukyu/seido/roureinenkin/kuriage-kurisage/20140421-01.html",
+     "quote": "老齢年金を繰上げ請求した後は、繰上げ請求を取消しすることはできません"
+    }
+   ],
    "lawBaseDate": "2024-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -9976,15 +10101,28 @@
  "j2-202505-37": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "和義さんは厚生年金保険の被保険者期間中に死亡したので、要件を満たす妻に遺族厚生年金が支給される。子（5歳）がいるため、妻に遺族基礎年金も支給される。中高齢寡婦加算は、妻が40歳以上65歳未満で生計を同じくする子がない場合などに加算されるもので、妻は35歳のため対象外。正解は3)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "日本年金機構 遺族厚生年金（受給要件・対象者・年金額）",
+     "url": "https://www.nenkin.go.jp/service/jukyu/seido/izokunenkin/jukyu-yoken/20150424.html"
+    },
+    {
+     "title": "日本年金機構 遺族基礎年金（受給要件・対象者・年金額）",
+     "url": "https://www.nenkin.go.jp/service/jukyu/seido/izokunenkin/jukyu-yoken/20150401-04.html"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://www.nenkin.go.jp/service/jukyu/seido/izokunenkin/jukyu-yoken/20150424.html",
+     "quote": "40歳から65歳になるまでの間"
+    },
+    {
+     "url": "https://www.nenkin.go.jp/service/jukyu/seido/izokunenkin/jukyu-yoken/20150401-04.html",
+     "quote": "子のある配偶者"
+    }
+   ],
    "lawBaseDate": "2024-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -10008,15 +10146,28 @@
  "j2-202505-39": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "高額療養費の対象は保険診療分のみで、入院時の食事代と差額ベッド代は対象外。窓口で支払った自己負担分36万円は3割負担なので、総医療費は120万円。標準報酬月額47万円は「28万円〜50万円」の区分で、自己負担限度額＝80,100円＋（1,200,000円－267,000円）×1％＝89,430円。高額療養費＝360,000円－89,430円＝270,570円。正解は2)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "全国健康保険協会 高額療養費",
+     "url": "https://www.kyoukaikenpo.or.jp/benefit/high_cost_medical_expenses/002/"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://www.kyoukaikenpo.or.jp/benefit/high_cost_medical_expenses/002/",
+     "quote": "保険外併用療養費の差額部分や入院時食事療養費、入院時生活療養費の自己負担額は対象になりません"
+    },
+    {
+     "url": "https://www.kyoukaikenpo.or.jp/benefit/high_cost_medical_expenses/002/",
+     "quote": "28万～50万円80,100円＋(総医療費－267,000円)×1％"
+    },
+    {
+     "url": "https://www.kyoukaikenpo.or.jp/benefit/high_cost_medical_expenses/002/",
+     "quote": "総医療費とは保険適用される診察費用の総額(10割)です"
+    }
+   ],
    "lawBaseDate": "2024-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -10568,15 +10719,28 @@
  "j2-202501-34": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "傷病手当金は連続する3日間の待期を経て、4日目から支給される。15日は休業、16日は出勤、17日（金）休業・18日・19日（公休日）で17日から19日の連続3日間で待期が完成し、支給開始は20日。1日当たりの額＝〔支給開始日以前の継続した12カ月間の各月の標準報酬月額の平均額〕×1／30×2／3。支給期間は支給を開始した日から通算して最長1年6カ月。（ア）正解は2)、（イ）5)、（ウ）8)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "全国健康保険協会 傷病手当金",
+     "url": "https://www.kyoukaikenpo.or.jp/benefit/injury_and_sickness_allowance/"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://www.kyoukaikenpo.or.jp/benefit/injury_and_sickness_allowance/",
+     "quote": "連続して3日間(待期)の後"
+    },
+    {
+     "url": "https://www.kyoukaikenpo.or.jp/benefit/injury_and_sickness_allowance/",
+     "quote": "傷病手当金の支給期間は、支給を開始した日から通算して1年6か月です"
+    },
+    {
+     "url": "https://www.kyoukaikenpo.or.jp/benefit/injury_and_sickness_allowance/",
+     "quote": "5,670円×2/3＝3,780円"
+    }
+   ],
    "lawBaseDate": "2024-10-01",
    "checkedAt": "2026-10-21"
   }
@@ -11208,15 +11372,32 @@
  "j2-202409-34": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "遺族基礎年金は、子が18歳到達年度の末日（3)）を経過すると支給されなくなる。遺族厚生年金の額は、原則として被保険者期間に基づく老齢厚生年金の報酬比例部分に相当する額の4分の3相当額（6)）。短期要件（在職中の死亡）では、被保険者期間が300月に満たない場合は300月として計算される（8)）。（ア）正解は3)、（イ）6)、（ウ）8)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "日本年金機構 遺族基礎年金（受給要件・対象者・年金額）",
+     "url": "https://www.nenkin.go.jp/service/jukyu/seido/izokunenkin/jukyu-yoken/20150401-04.html"
+    },
+    {
+     "title": "日本年金機構 遺族厚生年金（受給要件・対象者・年金額）",
+     "url": "https://www.nenkin.go.jp/service/jukyu/seido/izokunenkin/jukyu-yoken/20150424.html"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://www.nenkin.go.jp/service/jukyu/seido/izokunenkin/jukyu-yoken/20150401-04.html",
+     "quote": "子とは18歳になった年度の3月31日までにある方、または20歳未満で障害年金の障害等級1級または2級の状態にある方をさします"
+    },
+    {
+     "url": "https://www.nenkin.go.jp/service/jukyu/seido/izokunenkin/jukyu-yoken/20150424.html",
+     "quote": "死亡した方の老齢厚生年金の報酬比例部分の4分の3の額となります"
+    },
+    {
+     "url": "https://www.nenkin.go.jp/service/jukyu/seido/izokunenkin/jukyu-yoken/20150424.html",
+     "quote": "厚生年金の被保険者期間が300月（25年）未満の場合は、300月とみなして計算します"
+    }
+   ],
    "lawBaseDate": "2024-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -11832,15 +12013,28 @@
  "j2-202405-33": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "出産手当金は、出産の日以前42日（多胎妊娠は98日）から出産の日後56日までのうち、労務に服さなかった期間に支給される。出産の日が予定日より遅れた場合は、その遅れた期間分も支給される。1日当たりの額は、直近12カ月の標準報酬月額の平均額の30分の1相当額の3分の2。（ア）42日、（イ）も支給される、（ウ）3分の2。正解は1)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "全国健康保険協会 出産手当金",
+     "url": "https://www.kyoukaikenpo.or.jp/benefit/childbirth/001/"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://www.kyoukaikenpo.or.jp/benefit/childbirth/001/",
+     "quote": "出産の日（実際の出産が予定日後のときは出産予定日）以前42日（多胎妊娠の場合98日）から出産の翌日以後56日目までの範囲内で、会社を休んだ期間を対象として出産手当金が支給されます"
+    },
+    {
+     "url": "https://www.kyoukaikenpo.or.jp/benefit/childbirth/001/",
+     "quote": "出産が予定日より遅れた場合、その遅れた期間についても出産手当金が支給されます"
+    },
+    {
+     "url": "https://www.kyoukaikenpo.or.jp/benefit/childbirth/001/",
+     "quote": "5,670円×2/3＝3,780円"
+    }
+   ],
    "lawBaseDate": "2023-10-01",
    "checkedAt": "2026-10-21"
   }
@@ -11944,15 +12138,24 @@
  "j2-202405-40": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "傷病手当金は連続3日間の待期（10日〜12日）を経て、4日目から支給される。13日は出勤、14日〜18日の5日間が支給対象（休業期間中の公休日も含む）。支給開始日以前12カ月の標準報酬月額の平均額＝（380,000円×6カ月＋410,000円×6カ月）÷12＝395,000円。1日当たりの額＝395,000円×1／30＝13,166.67円→10円未満四捨五入で13,170円、これに2／3を乗じて8,780円。8,780円×5日＝43,900円。正解は3)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "全国健康保険協会 傷病手当金",
+     "url": "https://www.kyoukaikenpo.or.jp/benefit/injury_and_sickness_allowance/"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://www.kyoukaikenpo.or.jp/benefit/injury_and_sickness_allowance/",
+     "quote": "連続して3日間(待期)の後"
+    },
+    {
+     "url": "https://www.kyoukaikenpo.or.jp/benefit/injury_and_sickness_allowance/",
+     "quote": "10円未満四捨五入"
+    }
+   ],
    "lawBaseDate": "2023-10-01",
    "checkedAt": "2026-10-21"
   }

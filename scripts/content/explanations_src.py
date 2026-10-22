@@ -1013,3 +1013,81 @@ _J2_202405_F = {
     40: '傷病手当金は連続3日間の待期（10日〜12日）を経て、4日目から支給される。13日は出勤、14日〜18日の5日間が支給対象（休業期間中の公休日も含む）。支給開始日以前12カ月の標準報酬月額の平均額＝（380,000円×6カ月＋410,000円×6カ月）÷12＝395,000円。1日当たりの額＝395,000円×1／30＝13,166.67円→10円未満四捨五入で13,170円、これに2／3を乗じて8,780円。8,780円×5日＝43,900円。正解は3)。',
 }
 EXPLANATIONS = EXPLANATIONS + [E(f'j2-202405-{n:02d}', t, law='2023-10-01') for n, t in _J2_202405_F.items()]
+
+
+# ---------------------------------------------------------------------------
+# 根拠引用（evidence）の後付け：日本年金機構・全国健康保険協会の公式ページ
+# quote は出典ページ本文（空白除去後）に含まれる文字列。build_content.py が取得して自動照合する。
+# 解説の主張すべてを引用でカバーできるものだけ対象にする（一部しか裏づけられないものは draft のまま）。
+# 国税庁（nta.go.jp）はこの実行環境から取得できないため、税の解説は対象外。
+# ---------------------------------------------------------------------------
+_NK = 'https://www.nenkin.go.jp/service/jukyu/seido/'
+S.update({
+    'nk_izoku_kou': {'title': '日本年金機構 遺族厚生年金（受給要件・対象者・年金額）', 'url': _NK + 'izokunenkin/jukyu-yoken/20150424.html'},
+    'nk_izoku_kiso': {'title': '日本年金機構 遺族基礎年金（受給要件・対象者・年金額）', 'url': _NK + 'izokunenkin/jukyu-yoken/20150401-04.html'},
+    'nk_kuriage': {'title': '日本年金機構 年金の繰上げ受給', 'url': _NK + 'roureinenkin/kuriage-kurisage/20140421-01.html'},
+    'nk_kurisage': {'title': '日本年金機構 年金の繰下げ受給', 'url': _NK + 'roureinenkin/kuriage-kurisage/20140421-02.html'},
+    'nk_kiso': {'title': '日本年金機構 老齢基礎年金（受給要件・支給開始時期・年金額）', 'url': _NK + 'roureinenkin/jukyu-yoken/20150401-02.html'},
+    'kk_shobyo': {'title': '全国健康保険協会 傷病手当金', 'url': 'https://www.kyoukaikenpo.or.jp/benefit/injury_and_sickness_allowance/'},
+    'kk_shussan': {'title': '全国健康保険協会 出産手当金', 'url': 'https://www.kyoukaikenpo.or.jp/benefit/childbirth/001/'},
+    'kk_kogaku': {'title': '全国健康保険協会 高額療養費', 'url': 'https://www.kyoukaikenpo.or.jp/benefit/high_cost_medical_expenses/002/'},
+    'kk_ninni': {'title': '全国健康保険協会 退職後の健康保険（任意継続）', 'url': 'https://www.kyoukaikenpo.or.jp/benefit/voluntary_continuation/'},
+})
+_Q = {
+    'k4_3': ('nk_izoku_kou', '死亡した方の老齢厚生年金の報酬比例部分の4分の3の額となります'),
+    'k300': ('nk_izoku_kou', '厚生年金の被保険者期間が300月（25年）未満の場合は、300月とみなして計算します'),
+    'chukorei': ('nk_izoku_kou', '40歳から65歳になるまでの間'),
+    'ko_def': ('nk_izoku_kiso', '子とは18歳になった年度の3月31日までにある方、または20歳未満で障害年金の障害等級1級または2級の状態にある方をさします'),
+    'ko_haigu': ('nk_izoku_kiso', '子のある配偶者'),
+    'kuriage04': ('nk_kuriage', '減額率（最大24％）＝0.4%'),
+    'kuriage_doji': ('nk_kuriage', '原則として老齢基礎年金と老齢厚生年金は同時に繰上げ請求をする必要があります'),
+    'kuriage_torikeshi': ('nk_kuriage', '老齢年金を繰上げ請求した後は、繰上げ請求を取消しすることはできません'),
+    'kuriage_ninni': ('nk_kuriage', '老齢年金を繰上げ請求すると、国民年金の任意加入や、保険料の追納はできなくなります'),
+    'kurisage07': ('nk_kurisage', '増額率（最大84％※1）＝0.7%'),
+    'kurisage_betsu': ('nk_kurisage', '老齢基礎年金と老齢厚生年金は別々に繰り下げすることができます'),
+    'kurisage_kakyu': ('nk_kurisage', '加給年金額や振替加算額は増額の対象になりません'),
+    'kurisage_shogai': ('nk_kurisage', '障害給付や遺族給付を受け取る権利があるときは、繰下げ受給の申出ができません'),
+    'fuka': ('nk_kiso', '200円に付加保険料納付月数を乗じた額'),
+    'shobyo_machi': ('kk_shobyo', '連続して3日間(待期)の後'),
+    'shobyo_1y6': ('kk_shobyo', '傷病手当金の支給期間は、支給を開始した日から通算して1年6か月です'),
+    'shobyo_gaku': ('kk_shobyo', '10円未満四捨五入'),
+    'shobyo_23': ('kk_shobyo', '5,670円×2/3＝3,780円'),
+    'shussan': ('kk_shussan', '出産の日（実際の出産が予定日後のときは出産予定日）以前42日（多胎妊娠の場合98日）から出産の翌日以後56日目までの範囲内で、会社を休んだ期間を対象として出産手当金が支給されます'),
+    'shussan_okure': ('kk_shussan', '出産が予定日より遅れた場合、その遅れた期間についても出産手当金が支給されます'),
+    'shussan_23': ('kk_shussan', '5,670円×2/3＝3,780円'),
+    'kogaku_row3': ('kk_kogaku', '28万～50万円80,100円＋(総医療費－267,000円)×1％'),
+    'kogaku_gai': ('kk_kogaku', '保険外併用療養費の差額部分や入院時食事療養費、入院時生活療養費の自己負担額は対象になりません'),
+    'kogaku_sou': ('kk_kogaku', '総医療費とは保険適用される診察費用の総額(10割)です'),
+    'ninni_2y': ('kk_ninni', '被保険者期間■2年間です'),
+    'ninni_2m': ('kk_ninni', '退職日までに被保険者期間が継続して2か月以上あること'),
+    'ninni_20': ('kk_ninni', '退職日の翌日から20日以内に手続すること'),
+}
+_EVID = {
+    'g3-202605-34': ['k4_3'],
+    'g3-202605-33': ['fuka'],
+    'g3-202405-34': ['ko_haigu'],
+    'g3-202405-33': ['kuriage04'],
+    'g3-202405-32': ['shobyo_1y6'],
+    'g3-202505-33': ['kurisage07'],
+    'g3-202505-32': ['ninni_2y'],
+    'j3-202405-05': ['ko_def'],
+    'j3-202505-05': ['kuriage04', 'kurisage07'],
+    'j3-202605-05': ['ninni_2y', 'ninni_2m', 'ninni_20'],
+    'g2-202501-04': ['kurisage_shogai', 'kurisage07', 'kurisage_betsu', 'kurisage_kakyu'],
+    'j2-202505-36': ['kuriage_ninni', 'kuriage_doji', 'kurisage_kakyu', 'kuriage_torikeshi'],
+    'j2-202409-34': ['ko_def', 'k4_3', 'k300'],
+    'j2-202605-37': ['ko_def', 'chukorei'],
+    'j2-202505-37': ['chukorei', 'ko_haigu'],
+    'j2-202605-38': ['shobyo_machi', 'shobyo_1y6', 'shobyo_23'],
+    'j2-202501-34': ['shobyo_machi', 'shobyo_1y6', 'shobyo_23'],
+    'j2-202405-40': ['shobyo_machi', 'shobyo_gaku'],
+    'j2-202405-33': ['shussan', 'shussan_okure', 'shussan_23'],
+    'j2-202505-39': ['kogaku_gai', 'kogaku_row3', 'kogaku_sou'],
+}
+for _e in EXPLANATIONS:
+    _keys = _EVID.get(_e['id'])
+    if not _keys:
+        continue
+    _ex = _e['explanation']
+    _ex['evidence'] = [ev(S[_Q[k][0]]['url'], _Q[k][1]) for k in _keys]
+    _ex['sources'] = [S[s] for s in dict.fromkeys(_Q[k][0] for k in _keys)]

@@ -408,7 +408,7 @@
     "quote": "5パーセントから45パーセントの7段階"
    }
   ],
-  "reviewStatus": "draft",
+  "reviewStatus": "verified",
   "lawBaseDate": "2026-04-01",
   "termId": "chouka-ruishin-zeiritsu"
  },
@@ -434,7 +434,7 @@
     "quote": "特別控除額(最高50万円)＝一時所得の金額"
    }
   ],
-  "reviewStatus": "draft",
+  "reviewStatus": "verified",
   "lawBaseDate": "2026-04-01",
   "termId": "ichiji-shotoku"
  },
@@ -460,7 +460,7 @@
     "quote": "20年超800万円＋70万円×(A-20年)"
    }
   ],
-  "reviewStatus": "draft",
+  "reviewStatus": "verified",
   "lawBaseDate": "2026-04-01",
   "termId": "taishoku-shotoku-kojo"
  },
@@ -486,7 +486,7 @@
     "quote": "最高で200万円"
    }
   ],
-  "reviewStatus": "draft",
+  "reviewStatus": "verified",
   "lawBaseDate": "2026-04-01",
   "termId": "iryohi-kojo"
  },
@@ -512,7 +512,7 @@
     "quote": "特定扶養親族63万円"
    }
   ],
-  "reviewStatus": "draft",
+  "reviewStatus": "verified",
   "lawBaseDate": "2026-04-01",
   "termId": "fuyo-kojo"
  },
@@ -538,7 +538,7 @@
     "quote": "生命保険料控除額は120,000円となります"
    }
   ],
-  "reviewStatus": "draft",
+  "reviewStatus": "verified",
   "lawBaseDate": "2026-04-01",
   "termId": "seimei-hokenryo-kojo"
  },
@@ -564,7 +564,7 @@
     "quote": "50,000円超一律50,000円"
    }
   ],
-  "reviewStatus": "draft",
+  "reviewStatus": "verified",
   "lawBaseDate": "2026-04-01",
   "termId": "jishin-hokenryo-kojo"
  },
@@ -590,7 +590,7 @@
     "quote": "その日から2か月以内"
    }
   ],
-  "reviewStatus": "draft",
+  "reviewStatus": "verified",
   "lawBaseDate": "2026-04-01",
   "termId": "aoiro-shinkoku"
  },
@@ -658,7 +658,7 @@
     "quote": "売った金額の5パーセント相当額を取得費とすることができます"
    }
   ],
-  "reviewStatus": "draft",
+  "reviewStatus": "verified",
   "lawBaseDate": "2026-04-01",
   "termId": "gaisan-shutokuhi"
  },
@@ -788,7 +788,7 @@
     "quote": "3,000万円＋600万円×法定相続人の数"
    }
   ],
-  "reviewStatus": "draft",
+  "reviewStatus": "verified",
   "lawBaseDate": "2026-04-01",
   "termId": "sozokuzei-kiso-kojo"
  },
@@ -814,7 +814,7 @@
     "quote": "500万円×法定相続人の数＝非課税限度額"
    }
   ],
-  "reviewStatus": "draft",
+  "reviewStatus": "verified",
   "lawBaseDate": "2026-04-01",
   "termId": "shibo-hokenkin-hikazei"
  },
@@ -840,7 +840,7 @@
     "quote": "1億6千万円"
    }
   ],
-  "reviewStatus": "draft",
+  "reviewStatus": "verified",
   "lawBaseDate": "2026-04-01",
   "termId": "haigusha-keigen"
  },
@@ -866,7 +866,7 @@
     "quote": "特定居住用宅地等に該当する宅地等33080％"
    }
   ],
-  "reviewStatus": "draft",
+  "reviewStatus": "verified",
   "lawBaseDate": "2026-04-01",
   "termId": "shokibo-takuchi"
  },
@@ -934,7 +934,7 @@
     "quote": "基礎控除額110万円"
    }
   ],
-  "reviewStatus": "draft",
+  "reviewStatus": "verified",
   "lawBaseDate": "2026-04-01",
   "termId": "zoyozei-kiso-kojo"
  },
@@ -960,7 +960,7 @@
     "quote": "限度額2,500万円"
    }
   ],
-  "reviewStatus": "draft",
+  "reviewStatus": "verified",
   "lawBaseDate": "2026-04-01",
   "termId": "sozokuji-seisan"
  },
@@ -986,7 +986,7 @@
     "quote": "婚姻期間が20年以上の夫婦の間で"
    }
   ],
-  "reviewStatus": "draft",
+  "reviewStatus": "verified",
   "lawBaseDate": "2026-04-01",
   "termId": "zoyo-haigusha-kojo"
  }

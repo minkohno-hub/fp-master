@@ -72,6 +72,8 @@ def main() -> None:
     prev = json.loads(CHECK.read_text(encoding='utf-8')) if CHECK.exists() else {'pages': {}, 'items': {}}
     today = datetime.date.today().isoformat()
     pages: dict[str, dict] = {}
+    stale_urls: set[str] = set()
+    item_quotes: dict[str, str] = {}
     if offline:
         pages = prev.get('pages', {})
     else:
@@ -84,6 +86,12 @@ def main() -> None:
             for e in x['evidence']:
                 t = texts.get(e['url'])
                 key = e['url']
+                if t is None and prev.get('pages', {}).get(key, {}).get('fetched'):
+                    # 今回の実行環境から取得できないページ（ネットワーク制限等）は、前回の照合結果を据え置く（checkedAt も前回のまま）
+                    # 引用を変えた項目は前回の照合の対象外なので、後段で未照合（draft）になる
+                    pages[key] = prev['pages'][key]
+                    stale_urls.add(key)
+                    continue
                 pages.setdefault(key, {'fetched': t is not None, 'checkedAt': today, 'missing': []})
                 if t is not None and re.sub(r'\s+', '', e['quote']) not in t:
                     pages[key]['missing'].append({'item': x['id'], 'quote': e['quote']})
@@ -95,8 +103,14 @@ def main() -> None:
             p = pages.get(e['url'])
             if not p or not p['fetched'] or any(m['item'] == x['id'] and m['quote'] == e['quote'] for m in p['missing']):
                 ok = False
+        sig = '|'.join(sorted(e['quote'] for e in x['evidence']))
+        item_quotes[x['id']] = sig
         if offline and x['id'] in prev.get('items', {}):
             ok = prev['items'][x['id']] == 'verified' and bool(x['evidence'])
+        elif any(e['url'] in stale_urls for e in x['evidence']):
+            # 取得できなかったページに依存する項目：前回「照合済み」で、引用が前回から変わっていない場合だけ据え置く
+            pq = prev.get('itemQuotes')
+            ok = prev.get('items', {}).get(x['id']) == 'verified' and (pq is None or pq.get(x['id']) == sig) and bool(x['evidence'])
         if _ == 'expl':
             x['_src']['explanation']['status'] = 'verified' if ok else 'draft'
             item_status[x['id']] = 'verified' if ok else 'draft'
@@ -122,7 +136,7 @@ def main() -> None:
                                                       ensure_ascii=False, indent=1) + '\n', encoding='utf-8')
     (OUT / 'law-changes.json').write_text(json.dumps(LAW_CHANGES, ensure_ascii=False, indent=1) + '\n', encoding='utf-8')
     (OUT / 'cards.json').write_text(json.dumps(CARDS, ensure_ascii=False, indent=1) + '\n', encoding='utf-8')
-    CHECK.write_text(json.dumps({'checkedAt': today if not offline else prev.get('checkedAt'), 'pages': pages, 'items': item_status},
+    CHECK.write_text(json.dumps({'checkedAt': today if not offline else prev.get('checkedAt'), 'pages': pages, 'items': item_status, 'itemQuotes': item_quotes},
                                 ensure_ascii=False, indent=1) + '\n', encoding='utf-8')
     v = sum(1 for s in item_status.values() if s == 'verified')
     missing = [m for p in pages.values() for m in p['missing']]
