@@ -16,7 +16,8 @@
    "field": "A",
    "requiresCalculation": true,
    "calcReason": "数値資料から計算して答えを求める",
-   "_reviewed": true
+   "_reviewed": true,
+   "theme": "ライフプランと係数"
   },
   "4": {
    "field": "A",
@@ -48,7 +49,8 @@
    "field": "E",
    "requiresCalculation": true,
    "calcReason": "数値資料から計算して答えを求める",
-   "_reviewed": true
+   "_reviewed": true,
+   "theme": "都市計画法・建築基準法"
   },
   "10": {
    "field": "E",

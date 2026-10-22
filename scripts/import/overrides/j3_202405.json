@@ -16,7 +16,8 @@
    "field": "A",
    "requiresCalculation": true,
    "calcReason": "数値資料から計算して答えを求める",
-   "_reviewed": true
+   "_reviewed": true,
+   "theme": "ライフプランと係数"
   },
   "4": {
    "field": "A",
@@ -52,7 +53,8 @@
   },
   "10": {
    "field": "E",
-   "_reviewed": true
+   "_reviewed": true,
+   "theme": "不動産の調査・登記"
   },
   "11": {
    "field": "E",

@@ -8,7 +8,8 @@
   },
   "2": {
    "field": "A",
-   "_reviewed": true
+   "_reviewed": true,
+   "theme": "FPと関連法規"
   },
   "3": {
    "field": "C",
@@ -26,7 +27,8 @@
    "field": "C",
    "_reviewed": true,
    "requiresCalculation": true,
-   "calcReason": "資料の数値から計算して選択肢を選ぶ（問題文の語句から判定）"
+   "calcReason": "資料の数値から計算して選択肢を選ぶ（問題文の語句から判定）",
+   "theme": "株式"
   },
   "6": {
    "field": "C",
@@ -48,7 +50,8 @@
   },
   "10": {
    "field": "E",
-   "_reviewed": true
+   "_reviewed": true,
+   "theme": "不動産の税金"
   },
   "11": {
    "field": "B",
@@ -120,7 +123,8 @@
   },
   "26": {
    "field": "A",
-   "_reviewed": true
+   "_reviewed": true,
+   "theme": "ライフプランと係数"
   },
   "27": {
    "field": "A",
@@ -128,7 +132,8 @@
   },
   "28": {
    "field": "A",
-   "_reviewed": true
+   "_reviewed": true,
+   "theme": "ライフプランと係数"
   },
   "29": {
    "field": "C",

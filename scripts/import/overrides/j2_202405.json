@@ -8,7 +8,8 @@
   },
   "2": {
    "field": "A",
-   "_reviewed": true
+   "_reviewed": true,
+   "theme": "FPと関連法規"
   },
   "3": {
    "field": "C",
@@ -114,15 +115,18 @@
   },
   "26": {
    "field": "A",
-   "_reviewed": true
+   "_reviewed": true,
+   "theme": "ライフプランと係数"
   },
   "27": {
    "field": "A",
-   "_reviewed": true
+   "_reviewed": true,
+   "theme": "ライフプランと係数"
   },
   "28": {
    "field": "A",
-   "_reviewed": true
+   "_reviewed": true,
+   "theme": "ライフプランと係数"
   },
   "29": {
    "field": "A",
@@ -136,7 +140,8 @@
   },
   "31": {
    "field": "B",
-   "_reviewed": true
+   "_reviewed": true,
+   "theme": "生命保険の商品と仕組み"
   },
   "32": {
    "field": "A",

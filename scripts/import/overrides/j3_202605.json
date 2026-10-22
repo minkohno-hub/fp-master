@@ -16,7 +16,8 @@
    "field": "A",
    "requiresCalculation": true,
    "calcReason": "数値資料から計算して答えを求める",
-   "_reviewed": true
+   "_reviewed": true,
+   "theme": "ライフプランと係数"
   },
   "4": {
    "field": "A",

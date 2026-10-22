@@ -8,7 +8,8 @@
   },
   "2": {
    "field": "A",
-   "_reviewed": true
+   "_reviewed": true,
+   "theme": "FPと関連法規"
   },
   "3": {
    "field": "C",
@@ -20,11 +21,13 @@
   },
   "5": {
    "field": "C",
-   "_reviewed": true
+   "_reviewed": true,
+   "theme": "株式"
   },
   "6": {
    "field": "C",
-   "_reviewed": true
+   "_reviewed": true,
+   "theme": "企業年金・自営業者の年金"
   },
   "7": {
    "field": "C",
@@ -36,7 +39,8 @@
   },
   "9": {
    "field": "E",
-   "_reviewed": true
+   "_reviewed": true,
+   "theme": "不動産の調査・登記"
   },
   "10": {
    "field": "E",
@@ -114,7 +118,8 @@
   },
   "27": {
    "field": "F",
-   "_reviewed": true
+   "_reviewed": true,
+   "theme": "相続税の計算"
   },
   "28": {
    "field": "A",
@@ -144,7 +149,8 @@
   },
   "34": {
    "field": "A",
-   "_reviewed": true
+   "_reviewed": true,
+   "theme": "ライフプランと係数"
   },
   "35": {
    "field": "A",

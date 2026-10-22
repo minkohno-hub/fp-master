@@ -8,7 +8,8 @@
   },
   "2": {
    "field": "A",
-   "_reviewed": true
+   "_reviewed": true,
+   "theme": "FPと関連法規"
   },
   "3": {
    "field": "C",
@@ -26,7 +27,8 @@
   },
   "6": {
    "field": "A",
-   "_reviewed": true
+   "_reviewed": true,
+   "theme": "企業年金・自営業者の年金"
   },
   "7": {
    "field": "E",
@@ -92,7 +94,8 @@
   },
   "21": {
    "field": "F",
-   "_reviewed": true
+   "_reviewed": true,
+   "theme": "相続の基礎（民法）"
   },
   "22": {
    "field": "F",
@@ -116,15 +119,18 @@
   },
   "27": {
    "field": "A",
-   "_reviewed": true
+   "_reviewed": true,
+   "theme": "ライフプランと係数"
   },
   "28": {
    "field": "A",
-   "_reviewed": true
+   "_reviewed": true,
+   "theme": "ライフプランと係数"
   },
   "29": {
    "field": "A",
-   "_reviewed": true
+   "_reviewed": true,
+   "theme": "ライフプランと係数"
   },
   "30": {
    "field": "C",
