@@ -141,6 +141,11 @@
    "checkedAt": "2026-10-22",
    "missing": []
   },
+  "https://www.nenkin.go.jp/service/kokunen/menjo/20150514.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-22",
+   "missing": []
+  },
   "https://www.nenkin.go.jp/service/jukyu/seido/izokunenkin/jukyu-yoken/20150424.html": {
    "fetched": true,
    "checkedAt": "2026-10-22",
@@ -157,6 +162,11 @@
    "missing": []
   },
   "https://www.nenkin.go.jp/service/jukyu/seido/izokunenkin/jukyu-yoken/20150401-04.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-22",
+   "missing": []
+  },
+  "https://www.nenkin.go.jp/service/kokunen/menjo/20150331.html": {
    "fetched": true,
    "checkedAt": "2026-10-22",
    "missing": []
@@ -322,7 +332,7 @@
   "r5-seisan-kazei": "verified",
   "expl:g3-202605-01": "draft",
   "expl:g3-202605-02": "draft",
-  "expl:g3-202605-03": "draft",
+  "expl:g3-202605-03": "verified",
   "expl:g3-202605-04": "draft",
   "expl:g3-202605-05": "draft",
   "expl:g3-202605-06": "draft",
@@ -563,7 +573,7 @@
   "expl:g2-202505-01": "draft",
   "expl:g2-202505-02": "draft",
   "expl:g2-202505-03": "draft",
-  "expl:g2-202505-04": "draft",
+  "expl:g2-202505-04": "verified",
   "expl:g2-202505-05": "draft",
   "expl:g2-202505-06": "draft",
   "expl:g2-202505-07": "draft",
@@ -1201,7 +1211,7 @@
   "r5-seisan-kazei": "令和6年1月1日以後の贈与により取得した相続時精算課税適用財産については",
   "expl:g3-202605-01": "",
   "expl:g3-202605-02": "",
-  "expl:g3-202605-03": "",
+  "expl:g3-202605-03": "家族の方の所得の多寡は問いません|所得基準（申請者本人のみ）",
   "expl:g3-202605-04": "",
   "expl:g3-202605-05": "",
   "expl:g3-202605-06": "",
@@ -1442,7 +1452,7 @@
   "expl:g2-202505-01": "",
   "expl:g2-202505-02": "",
   "expl:g2-202505-03": "",
-  "expl:g2-202505-04": "",
+  "expl:g2-202505-04": "3年度目以降に保険料を追納する場合には、当時の保険料額に経過期間に応じた加算額が上乗せされます",
   "expl:g2-202505-05": "",
   "expl:g2-202505-06": "",
   "expl:g2-202505-07": "",

@@ -36,15 +36,24 @@
  "g3-202605-03": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "学生納付特例は学生本人の前年所得のみで判定し、世帯主の所得は問わない。不適切（×）。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "日本年金機構 国民年金保険料の学生納付特例制度",
+     "url": "https://www.nenkin.go.jp/service/kokunen/menjo/20150514.html"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://www.nenkin.go.jp/service/kokunen/menjo/20150514.html",
+     "quote": "家族の方の所得の多寡は問いません"
+    },
+    {
+     "url": "https://www.nenkin.go.jp/service/kokunen/menjo/20150514.html",
+     "quote": "所得基準（申請者本人のみ）"
+    }
+   ],
    "lawBaseDate": "2025-04-01",
    "checkedAt": "2026-10-21",
    "pitfalls": "世帯主の所得も審査対象になるのは「申請免除」。学生納付特例と混同しない。"
@@ -4052,15 +4061,20 @@
  "g2-202505-04": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "免除期間の保険料を3年度目以降に追納する場合は、当時の保険料に加算額が上乗せされる。正解は3)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "日本年金機構 国民年金保険料の追納制度",
+     "url": "https://www.nenkin.go.jp/service/kokunen/menjo/20150331.html"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://www.nenkin.go.jp/service/kokunen/menjo/20150331.html",
+     "quote": "3年度目以降に保険料を追納する場合には、当時の保険料額に経過期間に応じた加算額が上乗せされます"
+    }
+   ],
    "lawBaseDate": "2024-04-01",
    "checkedAt": "2026-10-21"
   }
