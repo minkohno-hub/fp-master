@@ -1235,15 +1235,20 @@
  "g3-202505-02": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "高年齢雇用継続基本給付金は、60歳到達時に比べ賃金が75％未満に低下した場合に支給される。不適切（×）。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 雇用保険法",
+     "url": "https://laws.e-gov.go.jp/law/349AC0000000116"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/349AC0000000116",
+     "quote": "百分の七十五に相当する額を下るに至つた場合に、当該支給対象月について支給する"
+    }
+   ],
    "lawBaseDate": "2024-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -1251,15 +1256,20 @@
  "g3-202505-03": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "第1号被保険者に扶養される配偶者は第3号ではなく第1号被保険者。第3号は第2号被保険者の被扶養配偶者。不適切（×）。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 国民年金法",
+     "url": "https://laws.e-gov.go.jp/law/334AC0000000141"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/334AC0000000141",
+     "quote": "主として第二号被保険者の収入により生計を維持するもの（第二号被保険者である者その他この法律の適用を除外すべき特別の理由がある者として厚生労働省令で定める者を除く。以下「被扶養配偶者」という。）のうち二十歳以上六十歳未満のもの（以下「第三号被保険者」という。）"
+    }
+   ],
    "lawBaseDate": "2024-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -1808,15 +1818,20 @@
  "g3-202505-34": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "遺族厚生年金の遺族の範囲は配偶者・子・父母・孫・祖父母。兄弟姉妹は含まれない。正解は2)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 厚生年金保険法",
+     "url": "https://laws.e-gov.go.jp/law/329AC0000000115"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/329AC0000000115",
+     "quote": "配偶者、子、父母、孫又は祖父母（以下単に「配偶者」、「子」、「父母」"
+    }
+   ],
    "lawBaseDate": "2024-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -2351,15 +2366,20 @@
  "g3-202405-03": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "第1号被保険者は日本国内に住所を有する20歳以上60歳未満の者（65歳未満ではない）。不適切（×）。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 国民年金法",
+     "url": "https://laws.e-gov.go.jp/law/334AC0000000141"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/334AC0000000141",
+     "quote": "日本国内に住所を有する二十歳以上六十歳未満の者であつて次号及び第三号のいずれにも該当しないもの"
+    }
+   ],
    "lawBaseDate": "2023-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -2383,15 +2403,20 @@
  "g3-202405-05": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "国民年金基金の給付は老齢年金と遺族一時金。適切（〇）。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 国民年金法",
+     "url": "https://laws.e-gov.go.jp/law/334AC0000000141"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/334AC0000000141",
+     "quote": "基金は、加入員又は加入員であつた者に対し、年金の支給を行ない、あわせて加入員又は加入員であつた者の死亡に関し、一時金の支給を行なうものとする"
+    }
+   ],
    "lawBaseDate": "2023-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -3441,15 +3466,20 @@
  "g2-202605-03": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "賃金日額は離職前6カ月の賃金総額÷180で、賞与は含めない。正解は4)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 雇用保険法",
+     "url": "https://laws.e-gov.go.jp/law/349AC0000000116"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/349AC0000000116",
+     "quote": "最後の六箇月間に支払われた賃金（臨時に支払われる賃金及び三箇月を超える期間ごとに支払われる賃金を除く。次項、第六節及び次章において同じ。）の総額を百八十で除して得た額"
+    }
+   ],
    "lawBaseDate": "2025-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -4561,15 +4591,24 @@
  "g2-202505-06": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "子のない30歳未満の妻の遺族厚生年金の支給期間は最長5年間。正解は2)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 厚生年金保険法",
+     "url": "https://laws.e-gov.go.jp/law/329AC0000000115"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/329AC0000000115",
+     "quote": "遺族厚生年金の受給権を取得した当時三十歳未満である妻が当該遺族厚生年金と同一の支給事由に基づく国民年金法による遺族基礎年金の受給権を取得しないとき当該遺族厚生年金の受給権を取得した日"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/329AC0000000115",
+     "quote": "から起算して五年を経過したとき"
+    }
+   ],
    "lawBaseDate": "2024-04-01",
    "checkedAt": "2026-10-21"
   }
