@@ -28,13 +28,16 @@ describe('出題の安全性（実データ）', () => {
     }
   });
   it('未検証（隔離）の問題は通常演習・計算・模擬試験に出題されない', () => {
-    const quarantined = new Set(all.filter((q) => q.status !== 'verified').map((q) => q.id));
+    // 実データの隔離が0件になっても検証できるよう、検証済みの問題を隔離扱いにした複製を混ぜる
+    const decoys = all.filter((q) => q.status === 'verified').slice(0, 30).map((q) => ({ ...q, id: `${q.id}-quarantined`, status: 'quarantined' as const }));
+    const pool = [...all, ...decoys];
+    const quarantined = new Set(pool.filter((q) => q.status !== 'verified').map((q) => q.id));
     expect(quarantined.size).toBeGreaterThan(0);
     const pools = [
-      eligibleForPractice(all, { exams: ['g3', 'g2'], includeCalc: true }),
-      eligibleForCalc(all, ['g3', 'g2']),
-      buildRandomMock(all, 'g2', 1).questions,
-      buildOfficialSetMock(all, 'g2', '2025-01').questions,
+      eligibleForPractice(pool, { exams: ['g3', 'g2'], includeCalc: true }),
+      eligibleForCalc(pool, ['g3', 'g2']),
+      buildRandomMock(pool, 'g2', 1).questions,
+      buildOfficialSetMock(pool, 'g2', '2025-01').questions,
     ];
     for (const p of pools) expect(p.some((q) => quarantined.has(q.id))).toBe(false);
   });
