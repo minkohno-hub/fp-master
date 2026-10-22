@@ -1161,7 +1161,7 @@ _EVID = {
     'g3-202505-20': ['haigu_1000'],
     'j2-202501-36': ['taishoku_f', 'taishoku_tbl', 'taishoku_round', 'taishoku_bunri', 'rate_23'],
 }
-from evidence_more import S_MORE, Q_MORE, EVID_MORE
+from evidence_more import S_MORE, Q_MORE, EVID_MORE, TERM_EVID, CARD_EVID
 S.update(S_MORE)
 _Q.update(Q_MORE)
 _EVID.update(EVID_MORE)
@@ -1172,3 +1172,19 @@ for _e in EXPLANATIONS:
     _ex = _e['explanation']
     _ex['evidence'] = [ev(S[_Q[k][0]]['url'], _Q[k][1]) for k in _keys]
     _ex['sources'] = [S[s] for s in dict.fromkeys(_Q[k][0] for k in _keys)]
+
+
+# 用語集への根拠追加（照合は build_content.py が行う）
+from glossary_src import TERMS as _TERMS
+_term_by_id = {t['id']: t for t in _TERMS}
+for _tid, _keys in TERM_EVID.items():
+    _t = _term_by_id[_tid]
+    _t['evidence'] = list(_t['evidence']) + [ev(S[_Q[k][0]]['url'], _Q[k][1]) for k in _keys]
+    _t['sources'] = list({s['url']: s for s in [*_t['sources'], *[S[_Q[k][0]] for k in _keys]] if s['url'] != S['jafp']['url']}.values()) or _t['sources']
+
+from cards_src import CARDS as _CARDS
+_card_by_id = {c['id']: c for c in _CARDS}
+for _cid, _keys in CARD_EVID.items():
+    _c = _card_by_id[_cid]
+    _c['evidence'] = list(_c['evidence']) + [ev(S[_Q[k][0]]['url'], _Q[k][1]) for k in _keys]
+    _c['sources'] = list({s['url']: s for s in [*_c['sources'], *[S[_Q[k][0]] for k in _keys]] if s['url'] != S['jafp']['url']}.values()) or _c['sources']

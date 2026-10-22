@@ -48,6 +48,10 @@ S_MORE = {
     'sonpo_jishin': {'title': '日本損害保険協会 地震保険', 'url': 'https://www.sonpo.or.jp/insurance/jishin/'},
     'sonpo_car': {'title': '日本損害保険協会 自動車保険', 'url': 'https://www.sonpo.or.jp/insurance/car/index.html'},
     'sonpo_jibai': {'title': '日本損害保険協会 自賠責保険', 'url': 'https://www.sonpo.or.jp/insurance/jibai/index.html'},
+    'law_dc': {'title': 'e-Gov法令検索 確定拠出年金法', 'url': _EG + '413AC0000000088'},
+    'law_kenpo': {'title': 'e-Gov法令検索 健康保険法', 'url': _EG + '211AC0000000070'},
+    'law_hokenngyo': {'title': 'e-Gov法令検索 保険業法', 'url': _EG + '407AC0000000105'},
+    'law_toki2': {'title': 'e-Gov法令検索 不動産登記法', 'url': _EG + '416AC0000000123'},
     'law_nochi': {'title': 'e-Gov法令検索 農地法', 'url': _EG + '327AC0000000229'},
 }
 
@@ -236,6 +240,29 @@ Q_MORE = {
     'sonpo_jibai2': ('sonpo_jibai', '自賠責保険で補償されるのは、交通事故などで他人を死亡させたり、ケガをさせたりした「人身事故」の場合です'),
     'sonpo_jibai3': ('sonpo_jibai', '運転者自身のケガ・自動車の修理代'),
     'sonpo_jibai4': ('sonpo_jibai', '払われる保険金の限度額死亡3,000万円ケガ120万円'),
+    # 用語集向けの追加引用
+    'jk_22b': ('law_jsk', '契約の更新（更新の請求及び土地の使用の継続によるものを含む。次条第一項において同じ。）及び建物の築造による存続期間の延長がなく'),
+    'mp_922': ('law_minpo', '相続人は、相続によって得た財産の限度においてのみ被相続人の債務及び遺贈を弁済すべきことを留保して、相続の承認をすることができる'),
+    'mp_985': ('law_minpo', '遺言は、遺言者の死亡の時からその効力を生ずる'),
+    'toki_1': ('law_toki2', '不動産の表示及び不動産に関する権利を公示するための登記に関する制度について定めることにより、国民の権利の保全を図り'),
+    'yh_1': ('law_yhoken', '預金者等の保護及び破綻金融機関に係る資金決済の確保を図るため'),
+    'hg_309': ('law_hokenngyo', 'その保険契約の申込みの撤回又は解除（以下この条において「申込みの撤回等」という。）を行うことができる'),
+    'js_chi': ('law_jishin', '地震若しくは噴火又はこれらによる津波（以下「地震等」という。）を直接又は間接の原因とする火災、損壊、埋没又は流失による損害'),
+    'ji_1': ('law_jibai', '自動車の運行によつて人の生命又は身体が害された場合における損害賠償を保障する制度を確立する'),
+    'dc_1': ('law_dc', '個人又は事業主が拠出した資金を個人が自己の責任において運用の指図を行い、高齢期においてその結果に基づいた給付を受けることができるようにするため'),
+    'kp_115': ('law_kenpo', 'が著しく高額であるときは、その療養の給付又はその保険外併用療養費、療養費、訪問看護療養費、家族療養費若しくは家族訪問看護療養費の支給を受けた者に対し、高額療養費を支給する'),
+    'kp_99': ('law_kenpo', 'その労務に服することができなくなった日から起算して三日を経過した日から労務に服することができない期間、傷病手当金を支給する'),
+    'kn_7_2': ('law_kokunen', '厚生年金保険の被保険者（以下「第二号被保険者」という。）'),
+    # カード向けの追加引用
+    'sonpo_jibai5': ('sonpo_jibai', '後遺障害の程度に応じた等級によって75万円～4,000万円'),
+    'hg_8': ('law_hokenngyo', '交付をされた日と申込みをした日とのいずれか遅い日から起算して八日を経過したとき'),
+    'kj_60': ('law_kj', '三その他の建築物十分の六'),
+    'jk_23b': ('law_jsk', '存続期間を十年以上三十年未満として借地権を設定する場合'),
+    'ks_tatekae': ('law_ksh', '区分所有者（議決権を有しないものを除く。）及び議決権の各五分の四以上の多数で、建物を取り壊し、かつ、当該建物の敷地'),
+    'mp_1042d': ('law_minpo', '前号に掲げる場合以外の場合二分の一'),
+    'kp_99b': ('law_kenpo', 'その支給を始めた日から通算して一年六月間とする'),
+    'kp_38': ('law_kenpo', '任意継続被保険者となった日から起算して二年を経過したとき'),
+    'kp_37': ('law_kenpo', '被保険者の資格を喪失した日から二十日以内にしなければならない'),
     # 不動産登記法・その他
     'toki_119': ('law_toki', '何人も、登記官に対し、手数料を納付して、登記記録に記録されている事項の全部又は一部を証明した書面'),
     'toki_36': ('law_toki', '所有権の取得の日から一月以内に、表題登記を申請しなければならない'),
@@ -388,4 +415,52 @@ EVID_MORE = {
     'g2-202605-52': ['z4452_kane'],
     'g2-202409-52': ['z4452_20'],
     'j3-202605-15': ['nta_rate20'],
+}
+
+
+# 用語集：term id -> 引用キー（TERMS の evidence / sources に追加される）
+TERM_EVID = {
+    'setsudo-gimu': ['kj_43', 'kj_42'],
+    'kenpeiritsu': ['kj_53_1'],
+    'yosekiritsu': ['kj_52_1'],
+    'teiki-shakuchiken': ['jk_22b', 'jk_22'],
+    'teiki-shakuya': ['jk_38'],
+    'choki-joto': ['sz_31'],
+    'tetsukekin': ['mp_557'],
+    'hotei-sozokunin': ['mp_890'],
+    'daishu-sozoku': ['mp_887'],
+    'sozoku-houki': ['mp_939', 'mp_922'],
+    'iryubun': ['mp_1042'],
+    'igon': ['mp_985'],
+    'kashiya-tatetsukechi': ['ht_kashiyaku'],
+    'jojo-kabushiki-hyoka': ['ht_jojo'],
+    'toki': ['toki_1'],
+    'yokin-hoken': ['yh_1'],
+    'cooling-off': ['hg_309'],
+    'jishin-hoken': ['js_chi', 'sonpo_tsuki'],
+    'jibaiseki': ['ji_5', 'ji_1'],
+    'ideco': ['dc_1'],
+    'kogaku-ryoyohi': ['kp_115'],
+    'shobyo-teatekin': ['kp_99'],
+    'hihokensha-shubetsu': ['kn_7_1', 'kn_7_2', 'kn_7_3'],
+}
+
+
+# 暗記カード：card id -> 引用キー
+CARD_EVID = {
+    'f-jishin-hoken': ['js_3050', 'js_2'],
+    'f-jibaiseki': ['ji_3000', 'ji_120', 'sonpo_jibai5'],
+    'f-cooling-off': ['hg_8', 'hg_309'],
+    'f-yokin-hoken': ['yh_1000', 'yh_54'],
+    'f-choki-joto': ['sz_31'],
+    'f-3000man-kigen': ['sz_35'],
+    'f-setsudo': ['kj_43', 'kj_42'],
+    'f-yoseki-joso': ['kj_40', 'kj_60'],
+    'f-teiki-jigyo': ['jk_23', 'jk_23b', 'jk_23doc'],
+    'f-tetsuke': ['tk_39'],
+    'f-kubun-kiyaku': ['ks_kiyaku', 'ks_tatekae'],
+    'f-houki-kigen': ['mp_915', 'mp_938'],
+    'f-iryubun': ['mp_1042', 'mp_1042b', 'mp_1042d'],
+    'f-shobyo-kikan': ['kp_99b'],
+    'f-nini-keizoku': ['kp_38', 'kp_37'],
 }
