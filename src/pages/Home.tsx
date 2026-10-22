@@ -49,10 +49,10 @@ export function HomePage() {
           </Link>
         )}
         <div className="grid grid-cols-2 gap-2">
-          <Link to="/review" className="btn-secondary">
+          <Link to="/review" className="btn-secondary px-2 text-sm">
             今日の復習{d.dueQuestions + d.dueCards > 0 ? `（${d.dueQuestions + d.dueCards}）` : ''}
           </Link>
-          <Link to="/calc" className="btn-secondary">
+          <Link to="/calc" className="btn-secondary px-2 text-sm whitespace-nowrap">
             計算トレーニング
           </Link>
         </div>
