@@ -27,6 +27,10 @@ from themes import classify  # noqa: E402
 SETS = {
     'j2_202605': dict(q='j2_202605_q.pdf', a='j2_202605_a.pdf', label='2026年公表分', ym='2026-05', law='2025-04-01'),
     'j2_202505': dict(q='j2_202505_q.pdf', a='j2_202505_a.pdf', label='2025年公表分', ym='2025-05', law='2024-04-01'),
+    # 紙試験（実施日つき）。法令基準日は問題冊子の注意事項に明記されている
+    'j2_202405': dict(q='j2_202405_q.pdf', a='j2_202405_a.pdf', label='2024年5月実施', ym='2024-05', law='2023-10-01'),
+    'j2_202409': dict(q='j2_202409_q.pdf', a='j2_202409_a.pdf', label='2024年9月実施', ym='2024-09', law='2024-04-01'),
+    'j2_202501': dict(q='j2_202501_q.pdf', a='j2_202501_a.pdf', label='2025年1月実施', ym='2025-01', law='2024-10-01'),
 }
 N = 40
 KANA = 'アイウエオ'
@@ -89,47 +93,68 @@ def parse_parts(answer: str, option_count: int) -> tuple[list[dict], str | None]
     return [], f'解答形式を解釈できない: {answer!r}'
 
 
-def crop_multi(pdf: Path, qid: str, n: int) -> str:
-    """問題見出し〜次の見出し（または最終ページの末尾）を、複数ページにまたがっても縦に連結して画像化する。"""
+_PAGES: dict = {}
+
+
+def _pages(pdf: Path):
+    """(幅, 高さ, [(xMin, yMin, xMax, yMax, text)]) のページ一覧（PDFごとにキャッシュ）"""
+    if pdf not in _PAGES:
+        html = subprocess.run(['pdftotext', '-bbox-layout', str(pdf), '-'], check=True, capture_output=True, text=True).stdout
+        pages = []
+        for chunk in html.split('<page ')[1:]:
+            m = g.PAGE_RE.match('<page ' + chunk)
+            ws = [(float(a), float(b), float(c), float(d), t) for a, b, c, d, t in g.WORD_RE.findall(chunk)]
+            pages.append((float(m.group(1)), float(m.group(2)), ws))
+        _PAGES[pdf] = pages
+    return _PAGES[pdf]
+
+
+def _zn(k) -> str:
+    return str(k).translate(str.maketrans('0123456789', '０１２３４５６７８９'))
+
+
+def _find_heading(pages, k: int):
+    for pi, (_, _, ws) in enumerate(pages):
+        for w in ws:
+            if w[0] < 80 and w[4] in (f'問{_zn(k)}', f'問{k}'):
+                return pi, w[1], w[3]
+    return None
+
+
+def _banners(pages):
+    """【第N問】の大問見出し（紙試験のみ）：[(page, yMin, 大問番号)]"""
+    out = []
+    for pi, (_, _, ws) in enumerate(pages):
+        for w in ws:
+            m = re.match(r'【第([0-9０-９]+)問】', w[4])
+            if w[0] < 80 and m:
+                out.append((pi, w[1], int(norm(m.group(1)))))
+    return out
+
+
+def _render(pdf: Path, pages, name: str, start: tuple[int, float], end: tuple[int, float] | None, min_h: float = 60) -> str | None:
+    """start=(ページ, y上端) から end=(ページ, y上端：この手前まで) までを縦に連結して画像化。高さが小さければ None。"""
     from PIL import Image
-    html = subprocess.run(['pdftotext', '-bbox-layout', str(pdf), '-'], check=True, capture_output=True, text=True).stdout
-    pages = []
-    for chunk in html.split('<page ')[1:]:
-        m = g.PAGE_RE.match('<page ' + chunk)
-        ws = [(float(a), float(b), float(c), float(d), t) for a, b, c, d, t in g.WORD_RE.findall(chunk)]
-        # (xMin, yMin, xMax, yMax, text)
-        pages.append((float(m.group(1)), float(m.group(2)), ws))
-    zn = lambda k: str(k).translate(str.maketrans('0123456789', '０１２３４５６７８９'))
-    def find(k: int):
-        for pi, (_, _, ws) in enumerate(pages):
-            for w in ws:
-                if w[0] < 80 and w[4] in (f'問{zn(k)}', f'問{k}'):
-                    return pi, w[3]
-        return None
-    start = find(n)
-    end = find(n + 1)
-    if not start:
-        raise SystemExit(f'{qid}: 見出しが見つかりません')
     segs = []
     last_page = end[0] if end else len(pages) - 1
     for pi in range(start[0], last_page + 1):
         pw, ph, ws = pages[pi]
         footer = [w[1] for w in ws if re.fullmatch(r'－\d+終?－', w[4])]
-        y0 = start[1] + 2 if pi == start[0] else 50
+        y0 = start[1] if pi == start[0] else 50
         y1 = (footer[0] - 4) if footer else ph - 40
         if end and pi == end[0]:
-            # 次の問題の見出しの直前まで（見出しの上端）
-            nxt = [w[1] for w in ws if w[0] < 80 and w[4] in (f'問{zn(n + 1)}', f'問{n + 1}')][0]
-            y1 = min(y1, nxt - 3)
+            y1 = min(y1, end[1] - 3)
         if y1 - y0 > 12:
             segs.append((pi, y0, y1, pw))
+    if sum(s[2] - s[1] for s in segs) < min_h:
+        return None
     dpi = 144
     sc = dpi / 72
     imgs = []
     tmp = g.IMG_OUT / '_tmp'
     tmp.mkdir(parents=True, exist_ok=True)
     for pi, y0, y1, pw in segs:
-        out = tmp / f'{qid}-{pi}'
+        out = tmp / f'{name}-{pi}'
         subprocess.run(['pdftoppm', '-r', str(dpi), '-png', '-singlefile', '-f', str(pi + 1), '-l', str(pi + 1),
                         '-x', str(int(50 * sc)), '-y', str(int(y0 * sc)), '-W', str(int((pw - 100) * sc)), '-H', str(int((y1 - y0) * sc)),
                         str(pdf), str(out)], check=True)
@@ -140,19 +165,59 @@ def crop_multi(pdf: Path, qid: str, n: int) -> str:
     for i in imgs:
         canvas.paste(i, (0, y))
         y += i.height
-    dest = g.IMG_OUT / f'{qid}.png'
-    canvas.quantize(colors=16).save(dest, optimize=True)
+    canvas.quantize(colors=16).save(g.IMG_OUT / f'{name}.png', optimize=True)
     for f in tmp.glob('*.png'):
         f.unlink()
     tmp.rmdir()
-    return f'content-img/{qid}.png'
+    return f'content-img/{name}.png'
+
+
+def crop_multi(pdf: Path, qid: str, n: int) -> str:
+    """問題見出し〜次の見出し（または最終ページの末尾）を、複数ページにまたがっても縦に連結して画像化する。"""
+    pages = _pages(pdf)
+    start = _find_heading(pages, n)
+    end = _find_heading(pages, n + 1)
+    if not start:
+        raise SystemExit(f'{qid}: 見出しが見つかりません')
+    end_pos = (end[0], end[1]) if end else None
+    # 紙試験は次の問題の直前に【第N問】の大問見出しがある。そこまでで切る
+    if end:
+        cands = [b for b in _banners(pages) if (b[0], b[1]) > (start[0], start[1]) and (b[0], b[1]) < (end[0], end[1])]
+        if cands:
+            end_pos = (cands[0][0], cands[0][1])
+    out = _render(pdf, pages, qid, (start[0], start[2] + 2), end_pos, min_h=20)
+    if not out:
+        raise SystemExit(f'{qid}: 問題部分の画像が空です')
+    return out
+
+
+def crop_shared(pdf: Path, set_id: str, n: int) -> str | None:
+    """紙試験：大問の見出し【第N問】から最初の問題見出しまで（複数問に共通の設例）を画像化。なければ None。"""
+    pages = _pages(pdf)
+    head = _find_heading(pages, n)
+    if not head:
+        return None
+    before = [b for b in _banners(pages) if (b[0], b[1]) < (head[0], head[1])]
+    if not before:
+        return None
+    b = before[-1]
+    # この大問の最初の問題見出し（見出しは問番号の昇順）
+    first = n
+    while first > 1:
+        h = _find_heading(pages, first - 1)
+        if not h or (h[0], h[1]) < (b[0], b[1]):
+            break
+        first -= 1
+    h0 = _find_heading(pages, first)
+    return _render(pdf, pages, f'{set_id.replace("_", "-")}-s{b[2]}', (b[0], b[1] - 2), (h0[0], h0[1]))
 
 
 def extract(set_id: str) -> tuple[dict, list[str]]:
     cfg = SETS[set_id]
     qpdf, apdf = g.fetch(cfg['q']), g.fetch(cfg['a'])
     raw = g.pdftotext(qpdf)
-    lines = [l for l in g.clean_lines(raw) if '実技試験' not in l or '問' in l]
+    lines = [l for l in g.clean_lines(raw) if ('実技試験' not in l or '問' in l) and not l.strip().startswith('【第')]
+    lbd = g.law_base_date(raw) or cfg['law']
     answers = parse_answer_sheet(apdf)
     if sorted(answers) != list(range(1, N + 1)):
         raise SystemExit(f'{set_id}: 正答を{N}問分取得できません（{sorted(set(range(1, N + 1)) - set(answers))}）')
@@ -186,6 +251,10 @@ def extract(set_id: str) -> tuple[dict, list[str]]:
         try:
             materials = [{'kind': 'image', 'title': '問題・資料（原本PDFから切り出し）', 'src': crop_multi(qpdf, qid, n),
                           'alt': f'{stem}（問題文と資料の画像）', 'includesStem': True}]
+            shared = crop_shared(qpdf, set_id, n)
+            if shared:
+                materials.insert(0, {'kind': 'image', 'title': '共通の設例（原本PDFから切り出し）', 'src': shared,
+                                     'alt': '複数の問題に共通する設例の画像', 'shared': True})
         except SystemExit as e:
             reasons.append(f'資料画像を切り出せない（{e}）')
         if not parts:
@@ -196,7 +265,7 @@ def extract(set_id: str) -> tuple[dict, list[str]]:
             'id': qid, 'exam': 'j2', 'field': field, 'theme': classify(field, stem, text),
             'source': {'kind': 'official', 'citation': citation, 'yearMonth': cfg['ym'], 'number': n,
                        'url': g.BASE_URL + cfg['q'], 'answerUrl': g.BASE_URL + cfg['a'], 'modified': False},
-            'lawBaseDate': cfg['law'], 'stem': stem, 'materials': materials, 'parts': parts,
+            'lawBaseDate': lbd, 'stem': stem, 'materials': materials, 'parts': parts,
             'requiresCalculation': numeric,
             **({'calcReason': '数値を計算して入力する解答欄がある'} if numeric else {}),
             'status': 'quarantined',
@@ -206,7 +275,7 @@ def extract(set_id: str) -> tuple[dict, list[str]]:
             q.pop('materials')
         questions.append(q)
     return {'id': set_id, 'exam': 'j2', 'title': f'2級 実技 {cfg["label"]}', 'officialSet': True,
-            'lawBaseDate': cfg['law'], 'questions': questions}, []
+            'lawBaseDate': lbd, 'questions': questions}, []
 
 
 def main(argv: list[str]) -> None:

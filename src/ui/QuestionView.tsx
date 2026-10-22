@@ -65,9 +65,18 @@ export function QuestionHeader({ q, index, total }: { q: Question; index?: numbe
 }
 
 export function Stem({ q }: { q: Question }) {
-  const img = q.materials?.find((m) => m.kind === 'image');
+  const sharedImgs = q.materials?.filter((m) => m.kind === 'image' && m.shared) ?? [];
+  const img = q.materials?.find((m) => m.kind === 'image' && !m.shared);
   return (
     <div className="space-y-3">
+      {sharedImgs.map((m, i) =>
+        m.kind === 'image' ? (
+          <figure key={`shared-${i}`}>
+            <img src={`${import.meta.env.BASE_URL}${m.src}`} alt={m.alt} className="w-full rounded-lg border border-slate-200 bg-white dark:border-slate-700" loading="lazy" />
+            <figcaption className="mt-1 text-xs text-slate-500">{m.title}</figcaption>
+          </figure>
+        ) : null,
+      )}
       {img && img.kind === 'image' && img.includesStem ? (
         <>
           <p className="sr-only">{q.stem}</p>
@@ -82,7 +91,7 @@ export function Stem({ q }: { q: Question }) {
         </p>
       )}
       {q.materials
-        ?.filter((m) => m !== img)
+        ?.filter((m) => m !== img && !sharedImgs.includes(m))
         .map((m, i) =>
           m.kind === 'table' ? (
             <div key={i} className="overflow-x-auto">

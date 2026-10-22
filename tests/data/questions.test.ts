@@ -81,6 +81,8 @@ describe('問題データの検証', () => {
   it('重複問題の検出（同一問題文は報告のみ。正答が食い違う場合は失敗）', () => {
     const byStem = new Map<string, typeof all>();
     for (const q of all) {
+      // 問題文・選択肢が画像（原本PDFの切り出し）の問題は、文面を比較できないので対象外
+      if (q.materials?.some((m) => m.kind === 'image' && m.includesStem)) continue;
       const choices = q.parts.map((p) => (p.kind === 'choice' ? p.choices.map((c) => c.text).join('|') : '')).join('/');
       const key = `${q.exam}|${q.stem}|${choices}`;
       byStem.set(key, [...(byStem.get(key) ?? []), q]);

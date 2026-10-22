@@ -1,0 +1,2549 @@
+{
+ "id": "j2_202405",
+ "exam": "j2",
+ "title": "2級 実技 2024年5月実施",
+ "officialSet": true,
+ "lawBaseDate": "2023-10-01",
+ "questions": [
+  {
+   "id": "j2-202405-01",
+   "exam": "j2",
+   "field": "A",
+   "theme": "FPと関連法規",
+   "source": {
+    "kind": "official",
+    "citation": "日本FP協会 2級ファイナンシャル・プランニング技能検定実技試験（資産設計提案業務） 2024年5月実施",
+    "yearMonth": "2024-05",
+    "number": 1,
+    "url": "https://www.jafp.or.jp/exam/mohan/files/j2_202405_q.pdf",
+    "answerUrl": "https://www.jafp.or.jp/exam/mohan/files/j2_202405_a.pdf",
+    "modified": false
+   },
+   "lawBaseDate": "2023-10-01",
+   "stem": "ファイナンシャル・プランナー（以下「ＦＰ」という）は、ファイナンシャル・プランニング業務を行ううえで関連業法等を順守することが重要である。ＦＰの行為に関する次の（ ア ）～（ エ ）の記述について、適切なものには○、不適切なものには×を解答欄に記入しなさい。",
+   "materials": [
+    {
+     "kind": "image",
+     "title": "問題・資料（原本PDFから切り出し）",
+     "src": "content-img/j2-202405-01.png",
+     "alt": "ファイナンシャル・プランナー（以下「ＦＰ」という）は、ファイナンシャル・プランニング業務を行ううえで関連業法等を順守することが重要である。ＦＰの行為に関する次の（ ア ）～（ エ ）の記述について、適切なものには○、不適切なものには×を解答欄に記入しなさい。（問題文と資料の画像）",
+     "includesStem": true
+    }
+   ],
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "pア",
+     "prompt": "(ア)",
+     "answer": true
+    },
+    {
+     "kind": "truefalse",
+     "id": "pイ",
+     "prompt": "(イ)",
+     "answer": true
+    },
+    {
+     "kind": "truefalse",
+     "id": "pウ",
+     "prompt": "(ウ)",
+     "answer": false
+    },
+    {
+     "kind": "truefalse",
+     "id": "pエ",
+     "prompt": "(エ)",
+     "answer": false
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified"
+  },
+  {
+   "id": "j2-202405-02",
+   "exam": "j2",
+   "field": "A",
+   "theme": "その他",
+   "source": {
+    "kind": "official",
+    "citation": "日本FP協会 2級ファイナンシャル・プランニング技能検定実技試験（資産設計提案業務） 2024年5月実施",
+    "yearMonth": "2024-05",
+    "number": 2,
+    "url": "https://www.jafp.or.jp/exam/mohan/files/j2_202405_q.pdf",
+    "answerUrl": "https://www.jafp.or.jp/exam/mohan/files/j2_202405_a.pdf",
+    "modified": false
+   },
+   "lawBaseDate": "2023-10-01",
+   "stem": "｢個人情報の保護に関する法律（個人情報保護法）」および著作権法に関する次の記述のうち、最も不適切なものはどれか。",
+   "materials": [
+    {
+     "kind": "image",
+     "title": "問題・資料（原本PDFから切り出し）",
+     "src": "content-img/j2-202405-02.png",
+     "alt": "｢個人情報の保護に関する法律（個人情報保護法）」および著作権法に関する次の記述のうち、最も不適切なものはどれか。（問題文と資料の画像）",
+     "includesStem": true
+    }
+   ],
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "answer": "4",
+     "choices": [
+      {
+       "id": "1",
+       "text": "1"
+      },
+      {
+       "id": "2",
+       "text": "2"
+      },
+      {
+       "id": "3",
+       "text": "3"
+      },
+      {
+       "id": "4",
+       "text": "4"
+      }
+     ]
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified"
+  },
+  {
+   "id": "j2-202405-03",
+   "exam": "j2",
+   "field": "C",
+   "theme": "投資信託",
+   "source": {
+    "kind": "official",
+    "citation": "日本FP協会 2級ファイナンシャル・プランニング技能検定実技試験（資産設計提案業務） 2024年5月実施",
+    "yearMonth": "2024-05",
+    "number": 3,
+    "url": "https://www.jafp.or.jp/exam/mohan/files/j2_202405_q.pdf",
+    "answerUrl": "https://www.jafp.or.jp/exam/mohan/files/j2_202405_a.pdf",
+    "modified": false
+   },
+   "lawBaseDate": "2023-10-01",
+   "stem": "大下さんは、保有しているＲＴ投資信託（追加型国内公募株式投資信託）の収益分配金を２０２４年４月に受け取った。ＲＴ投資信託の運用状況が下記＜資料＞のとおりである場合、収益分配後の個別元本として、正しいものはどれか。",
+   "materials": [
+    {
+     "kind": "image",
+     "title": "問題・資料（原本PDFから切り出し）",
+     "src": "content-img/j2-202405-03.png",
+     "alt": "大下さんは、保有しているＲＴ投資信託（追加型国内公募株式投資信託）の収益分配金を２０２４年４月に受け取った。ＲＴ投資信託の運用状況が下記＜資料＞のとおりである場合、収益分配後の個別元本として、正しいものはどれか。（問題文と資料の画像）",
+     "includesStem": true
+    }
+   ],
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "answer": "1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "1"
+      },
+      {
+       "id": "2",
+       "text": "2"
+      },
+      {
+       "id": "3",
+       "text": "3"
+      },
+      {
+       "id": "4",
+       "text": "4"
+      }
+     ]
+    }
+   ],
+   "requiresCalculation": true,
+   "status": "verified",
+   "calcReason": "資料の数値から計算して選択肢を選ぶ（問題文の語句から判定）"
+  },
+  {
+   "id": "j2-202405-04",
+   "exam": "j2",
+   "field": "C",
+   "theme": "投資信託",
+   "source": {
+    "kind": "official",
+    "citation": "日本FP協会 2級ファイナンシャル・プランニング技能検定実技試験（資産設計提案業務） 2024年5月実施",
+    "yearMonth": "2024-05",
+    "number": 4,
+    "url": "https://www.jafp.or.jp/exam/mohan/files/j2_202405_q.pdf",
+    "answerUrl": "https://www.jafp.or.jp/exam/mohan/files/j2_202405_a.pdf",
+    "modified": false
+   },
+   "lawBaseDate": "2023-10-01",
+   "stem": "大津さんは、投資信託への投資を検討するに当たり、ＦＰの細井さんから候補である３ファンドの過去３年間の運用パフォーマンスについて説明を受けた。ＦＰの細井さんが下記＜資料＞に基づいて説明した内容の空欄（ ア ）～（ ウ ）にあてはまる語句および数値の組み合わせとして、最も適切なものはどれか。",
+   "materials": [
+    {
+     "kind": "image",
+     "title": "問題・資料（原本PDFから切り出し）",
+     "src": "content-img/j2-202405-04.png",
+     "alt": "大津さんは、投資信託への投資を検討するに当たり、ＦＰの細井さんから候補である３ファンドの過去３年間の運用パフォーマンスについて説明を受けた。ＦＰの細井さんが下記＜資料＞に基づいて説明した内容の空欄（ ア ）～（ ウ ）にあてはまる語句および数値の組み合わせとして、最も適切なものはどれか。（問題文と資料の画像）",
+     "includesStem": true
+    }
+   ],
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "answer": "4",
+     "choices": [
+      {
+       "id": "1",
+       "text": "1"
+      },
+      {
+       "id": "2",
+       "text": "2"
+      },
+      {
+       "id": "3",
+       "text": "3"
+      },
+      {
+       "id": "4",
+       "text": "4"
+      },
+      {
+       "id": "5",
+       "text": "5"
+      },
+      {
+       "id": "6",
+       "text": "6"
+      }
+     ]
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified"
+  },
+  {
+   "id": "j2-202405-05",
+   "exam": "j2",
+   "field": "C",
+   "theme": "NISA・金融商品の税金",
+   "source": {
+    "kind": "official",
+    "citation": "日本FP協会 2級ファイナンシャル・プランニング技能検定実技試験（資産設計提案業務） 2024年5月実施",
+    "yearMonth": "2024-05",
+    "number": 5,
+    "url": "https://www.jafp.or.jp/exam/mohan/files/j2_202405_q.pdf",
+    "answerUrl": "https://www.jafp.or.jp/exam/mohan/files/j2_202405_a.pdf",
+    "modified": false
+   },
+   "lawBaseDate": "2023-10-01",
+   "stem": "下記＜資料＞は、有馬さんが同一の特定口座内で行ったＲＡ株式会社の株式の取引等に係る明細である。有馬さんが２０２４年３月４日に売却した５,０００株について、譲渡所得の取得費の計算の基礎となる１株当たりの取得価額として、正しいものはどれか。なお、消費税その他記載のない事項については一切考慮しないものとする。",
+   "materials": [
+    {
+     "kind": "image",
+     "title": "問題・資料（原本PDFから切り出し）",
+     "src": "content-img/j2-202405-05.png",
+     "alt": "下記＜資料＞は、有馬さんが同一の特定口座内で行ったＲＡ株式会社の株式の取引等に係る明細である。有馬さんが２０２４年３月４日に売却した５,０００株について、譲渡所得の取得費の計算の基礎となる１株当たりの取得価額として、正しいものはどれか。なお、消費税その他記載のない事項については一切考慮しないものとする。（問題文と資料の画像）",
+     "includesStem": true
+    }
+   ],
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "answer": "3",
+     "choices": [
+      {
+       "id": "1",
+       "text": "1"
+      },
+      {
+       "id": "2",
+       "text": "2"
+      },
+      {
+       "id": "3",
+       "text": "3"
+      },
+      {
+       "id": "4",
+       "text": "4"
+      }
+     ]
+    }
+   ],
+   "requiresCalculation": true,
+   "status": "verified",
+   "calcReason": "資料の数値から計算して選択肢を選ぶ（問題文の語句から判定）"
+  },
+  {
+   "id": "j2-202405-06",
+   "exam": "j2",
+   "field": "C",
+   "theme": "債券",
+   "source": {
+    "kind": "official",
+    "citation": "日本FP協会 2級ファイナンシャル・プランニング技能検定実技試験（資産設計提案業務） 2024年5月実施",
+    "yearMonth": "2024-05",
+    "number": 6,
+    "url": "https://www.jafp.or.jp/exam/mohan/files/j2_202405_q.pdf",
+    "answerUrl": "https://www.jafp.or.jp/exam/mohan/files/j2_202405_a.pdf",
+    "modified": false
+   },
+   "lawBaseDate": "2023-10-01",
+   "stem": "下記＜資料＞は、香川さんが購入を検討している個人向け国債の商品概要の一部である。個人向け国債に関する次の（ ア ）～（ エ ）の記述について、適切なものには○、不適切なものには×を解答欄に記入しなさい。なお、問題作成の都合上、一部を「＊＊＊」にしてある。",
+   "materials": [
+    {
+     "kind": "image",
+     "title": "問題・資料（原本PDFから切り出し）",
+     "src": "content-img/j2-202405-06.png",
+     "alt": "下記＜資料＞は、香川さんが購入を検討している個人向け国債の商品概要の一部である。個人向け国債に関する次の（ ア ）～（ エ ）の記述について、適切なものには○、不適切なものには×を解答欄に記入しなさい。なお、問題作成の都合上、一部を「＊＊＊」にしてある。（問題文と資料の画像）",
+     "includesStem": true
+    }
+   ],
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "pア",
+     "prompt": "(ア)",
+     "answer": false
+    },
+    {
+     "kind": "truefalse",
+     "id": "pイ",
+     "prompt": "(イ)",
+     "answer": true
+    },
+    {
+     "kind": "truefalse",
+     "id": "pウ",
+     "prompt": "(ウ)",
+     "answer": false
+    },
+    {
+     "kind": "truefalse",
+     "id": "pエ",
+     "prompt": "(エ)",
+     "answer": false
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified"
+  },
+  {
+   "id": "j2-202405-07",
+   "exam": "j2",
+   "field": "E",
+   "theme": "都市計画法・建築基準法",
+   "source": {
+    "kind": "official",
+    "citation": "日本FP協会 2級ファイナンシャル・プランニング技能検定実技試験（資産設計提案業務） 2024年5月実施",
+    "yearMonth": "2024-05",
+    "number": 7,
+    "url": "https://www.jafp.or.jp/exam/mohan/files/j2_202405_q.pdf",
+    "answerUrl": "https://www.jafp.or.jp/exam/mohan/files/j2_202405_a.pdf",
+    "modified": false
+   },
+   "lawBaseDate": "2023-10-01",
+   "stem": "建築基準法に従い、下記＜資料＞の土地に建築物を建てる場合の延べ面積（床面積の合計）の最高限度を計算しなさい。なお、記載のない事項は一切考慮しないものとする。また、解答に当たっては、解答用紙に記載されている単位に従うこと。",
+   "materials": [
+    {
+     "kind": "image",
+     "title": "問題・資料（原本PDFから切り出し）",
+     "src": "content-img/j2-202405-07.png",
+     "alt": "建築基準法に従い、下記＜資料＞の土地に建築物を建てる場合の延べ面積（床面積の合計）の最高限度を計算しなさい。なお、記載のない事項は一切考慮しないものとする。また、解答に当たっては、解答用紙に記載されている単位に従うこと。（問題文と資料の画像）",
+     "includesStem": true
+    }
+   ],
+   "parts": [
+    {
+     "kind": "numeric",
+     "id": "p1",
+     "unit": "㎡",
+     "answer": 260.0
+    }
+   ],
+   "requiresCalculation": true,
+   "calcReason": "数値を計算して入力する解答欄がある",
+   "status": "verified"
+  },
+  {
+   "id": "j2-202405-08",
+   "exam": "j2",
+   "field": "E",
+   "theme": "借地借家法",
+   "source": {
+    "kind": "official",
+    "citation": "日本FP協会 2級ファイナンシャル・プランニング技能検定実技試験（資産設計提案業務） 2024年5月実施",
+    "yearMonth": "2024-05",
+    "number": 8,
+    "url": "https://www.jafp.or.jp/exam/mohan/files/j2_202405_q.pdf",
+    "answerUrl": "https://www.jafp.or.jp/exam/mohan/files/j2_202405_a.pdf",
+    "modified": false
+   },
+   "lawBaseDate": "2023-10-01",
+   "stem": "増田さんは、土地の有効活用をするに当たり、ＦＰの松尾さんに、借地借家法に定める普通借地権について質問をした。下記の空欄（ ア ）～（ エ ）にあてはまる適切な語句を語群の中から選び、その番号のみを解答欄に記入しなさい。なお、同じ番号を何度選んでもよいこととする。また、「普通借地権」とは、借地借家法第２２条から第２４条の定期借地権等以外の借地権をいうものとする。",
+   "materials": [
+    {
+     "kind": "image",
+     "title": "問題・資料（原本PDFから切り出し）",
+     "src": "content-img/j2-202405-08.png",
+     "alt": "増田さんは、土地の有効活用をするに当たり、ＦＰの松尾さんに、借地借家法に定める普通借地権について質問をした。下記の空欄（ ア ）～（ エ ）にあてはまる適切な語句を語群の中から選び、その番号のみを解答欄に記入しなさい。なお、同じ番号を何度選んでもよいこととする。また、「普通借地権」とは、借地借家法第２２条から第２４条の定期借地権等以外の借地権をいうものとする。（問題文と資料の画像）",
+     "includesStem": true
+    }
+   ],
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "pア",
+     "prompt": "(ア)",
+     "answer": "3",
+     "choices": [
+      {
+       "id": "1",
+       "text": "1"
+      },
+      {
+       "id": "2",
+       "text": "2"
+      },
+      {
+       "id": "3",
+       "text": "3"
+      },
+      {
+       "id": "4",
+       "text": "4"
+      },
+      {
+       "id": "5",
+       "text": "5"
+      },
+      {
+       "id": "6",
+       "text": "6"
+      },
+      {
+       "id": "7",
+       "text": "7"
+      },
+      {
+       "id": "8",
+       "text": "8"
+      }
+     ]
+    },
+    {
+     "kind": "choice",
+     "id": "pイ",
+     "prompt": "(イ)",
+     "answer": "5",
+     "choices": [
+      {
+       "id": "1",
+       "text": "1"
+      },
+      {
+       "id": "2",
+       "text": "2"
+      },
+      {
+       "id": "3",
+       "text": "3"
+      },
+      {
+       "id": "4",
+       "text": "4"
+      },
+      {
+       "id": "5",
+       "text": "5"
+      },
+      {
+       "id": "6",
+       "text": "6"
+      },
+      {
+       "id": "7",
+       "text": "7"
+      },
+      {
+       "id": "8",
+       "text": "8"
+      }
+     ]
+    },
+    {
+     "kind": "choice",
+     "id": "pウ",
+     "prompt": "(ウ)",
+     "answer": "7",
+     "choices": [
+      {
+       "id": "1",
+       "text": "1"
+      },
+      {
+       "id": "2",
+       "text": "2"
+      },
+      {
+       "id": "3",
+       "text": "3"
+      },
+      {
+       "id": "4",
+       "text": "4"
+      },
+      {
+       "id": "5",
+       "text": "5"
+      },
+      {
+       "id": "6",
+       "text": "6"
+      },
+      {
+       "id": "7",
+       "text": "7"
+      },
+      {
+       "id": "8",
+       "text": "8"
+      }
+     ]
+    },
+    {
+     "kind": "choice",
+     "id": "pエ",
+     "prompt": "(エ)",
+     "answer": "2",
+     "choices": [
+      {
+       "id": "1",
+       "text": "1"
+      },
+      {
+       "id": "2",
+       "text": "2"
+      },
+      {
+       "id": "3",
+       "text": "3"
+      },
+      {
+       "id": "4",
+       "text": "4"
+      },
+      {
+       "id": "5",
+       "text": "5"
+      },
+      {
+       "id": "6",
+       "text": "6"
+      },
+      {
+       "id": "7",
+       "text": "7"
+      },
+      {
+       "id": "8",
+       "text": "8"
+      }
+     ]
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified"
+  },
+  {
+   "id": "j2-202405-09",
+   "exam": "j2",
+   "field": "E",
+   "theme": "不動産の調査・登記",
+   "source": {
+    "kind": "official",
+    "citation": "日本FP協会 2級ファイナンシャル・プランニング技能検定実技試験（資産設計提案業務） 2024年5月実施",
+    "yearMonth": "2024-05",
+    "number": 9,
+    "url": "https://www.jafp.or.jp/exam/mohan/files/j2_202405_q.pdf",
+    "answerUrl": "https://www.jafp.or.jp/exam/mohan/files/j2_202405_a.pdf",
+    "modified": false
+   },
+   "lawBaseDate": "2023-10-01",
+   "stem": "下記＜資料＞は、岡さんが購入を検討している物件の登記事項証明書の一部である。この登記事項証明書等に関する次の記述のうち、最も不適切なものはどれか。なお、記載のない事項については一切考慮しないものとする。",
+   "materials": [
+    {
+     "kind": "image",
+     "title": "問題・資料（原本PDFから切り出し）",
+     "src": "content-img/j2-202405-09.png",
+     "alt": "下記＜資料＞は、岡さんが購入を検討している物件の登記事項証明書の一部である。この登記事項証明書等に関する次の記述のうち、最も不適切なものはどれか。なお、記載のない事項については一切考慮しないものとする。（問題文と資料の画像）",
+     "includesStem": true
+    }
+   ],
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "answer": "4",
+     "choices": [
+      {
+       "id": "1",
+       "text": "1"
+      },
+      {
+       "id": "2",
+       "text": "2"
+      },
+      {
+       "id": "3",
+       "text": "3"
+      },
+      {
+       "id": "4",
+       "text": "4"
+      }
+     ]
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified"
+  },
+  {
+   "id": "j2-202405-10",
+   "exam": "j2",
+   "field": "E",
+   "theme": "不動産の取引",
+   "source": {
+    "kind": "official",
+    "citation": "日本FP協会 2級ファイナンシャル・プランニング技能検定実技試験（資産設計提案業務） 2024年5月実施",
+    "yearMonth": "2024-05",
+    "number": 10,
+    "url": "https://www.jafp.or.jp/exam/mohan/files/j2_202405_q.pdf",
+    "answerUrl": "https://www.jafp.or.jp/exam/mohan/files/j2_202405_a.pdf",
+    "modified": false
+   },
+   "lawBaseDate": "2023-10-01",
+   "stem": "安西さんは、宅地建物取引業者ＫＲ社の媒介により、売主である井上さんから中古マンションを購入した。下記＜資料＞は、購入時に交わした売買契約書の一部である。次の（ ア ）～（ エ ）の記述について、適切なものには○、不適切なものには×を解答欄に記入しなさい。なお、記載のない事項については一切考慮しないものとする。",
+   "materials": [
+    {
+     "kind": "image",
+     "title": "問題・資料（原本PDFから切り出し）",
+     "src": "content-img/j2-202405-10.png",
+     "alt": "安西さんは、宅地建物取引業者ＫＲ社の媒介により、売主である井上さんから中古マンションを購入した。下記＜資料＞は、購入時に交わした売買契約書の一部である。次の（ ア ）～（ エ ）の記述について、適切なものには○、不適切なものには×を解答欄に記入しなさい。なお、記載のない事項については一切考慮しないものとする。（問題文と資料の画像）",
+     "includesStem": true
+    }
+   ],
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "pア",
+     "prompt": "(ア)",
+     "answer": false
+    },
+    {
+     "kind": "truefalse",
+     "id": "pイ",
+     "prompt": "(イ)",
+     "answer": false
+    },
+    {
+     "kind": "truefalse",
+     "id": "pウ",
+     "prompt": "(ウ)",
+     "answer": false
+    },
+    {
+     "kind": "truefalse",
+     "id": "pエ",
+     "prompt": "(エ)",
+     "answer": false
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified"
+  },
+  {
+   "id": "j2-202405-11",
+   "exam": "j2",
+   "field": "B",
+   "theme": "第三分野の保険",
+   "source": {
+    "kind": "official",
+    "citation": "日本FP協会 2級ファイナンシャル・プランニング技能検定実技試験（資産設計提案業務） 2024年5月実施",
+    "yearMonth": "2024-05",
+    "number": 11,
+    "url": "https://www.jafp.or.jp/exam/mohan/files/j2_202405_q.pdf",
+    "answerUrl": "https://www.jafp.or.jp/exam/mohan/files/j2_202405_a.pdf",
+    "modified": false
+   },
+   "lawBaseDate": "2023-10-01",
+   "stem": "宮本亜紀さん（３７歳）は医療保険への加入を検討しており、下記＜資料１＞＜資料２＞の２つの商品内容を比較している。次の記述の空欄（ ア ）～（ ウ ）にあてはまる適切な語句を語群の中から選び、その番号のみを解答欄に記入しなさい。なお、各々の記述はそれぞれ独立した問題であり、相互に影響を与えないものとする。",
+   "materials": [
+    {
+     "kind": "image",
+     "title": "問題・資料（原本PDFから切り出し）",
+     "src": "content-img/j2-202405-11.png",
+     "alt": "宮本亜紀さん（３７歳）は医療保険への加入を検討しており、下記＜資料１＞＜資料２＞の２つの商品内容を比較している。次の記述の空欄（ ア ）～（ ウ ）にあてはまる適切な語句を語群の中から選び、その番号のみを解答欄に記入しなさい。なお、各々の記述はそれぞれ独立した問題であり、相互に影響を与えないものとする。（問題文と資料の画像）",
+     "includesStem": true
+    }
+   ],
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "pア",
+     "prompt": "(ア)",
+     "answer": "3",
+     "choices": [
+      {
+       "id": "1",
+       "text": "1"
+      },
+      {
+       "id": "2",
+       "text": "2"
+      },
+      {
+       "id": "3",
+       "text": "3"
+      },
+      {
+       "id": "4",
+       "text": "4"
+      },
+      {
+       "id": "5",
+       "text": "5"
+      },
+      {
+       "id": "6",
+       "text": "6"
+      },
+      {
+       "id": "7",
+       "text": "7"
+      },
+      {
+       "id": "8",
+       "text": "8"
+      }
+     ]
+    },
+    {
+     "kind": "choice",
+     "id": "pイ",
+     "prompt": "(イ)",
+     "answer": "6",
+     "choices": [
+      {
+       "id": "1",
+       "text": "1"
+      },
+      {
+       "id": "2",
+       "text": "2"
+      },
+      {
+       "id": "3",
+       "text": "3"
+      },
+      {
+       "id": "4",
+       "text": "4"
+      },
+      {
+       "id": "5",
+       "text": "5"
+      },
+      {
+       "id": "6",
+       "text": "6"
+      },
+      {
+       "id": "7",
+       "text": "7"
+      },
+      {
+       "id": "8",
+       "text": "8"
+      }
+     ]
+    },
+    {
+     "kind": "choice",
+     "id": "pウ",
+     "prompt": "(ウ)",
+     "answer": "5",
+     "choices": [
+      {
+       "id": "1",
+       "text": "1"
+      },
+      {
+       "id": "2",
+       "text": "2"
+      },
+      {
+       "id": "3",
+       "text": "3"
+      },
+      {
+       "id": "4",
+       "text": "4"
+      },
+      {
+       "id": "5",
+       "text": "5"
+      },
+      {
+       "id": "6",
+       "text": "6"
+      },
+      {
+       "id": "7",
+       "text": "7"
+      },
+      {
+       "id": "8",
+       "text": "8"
+      }
+     ]
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified"
+  },
+  {
+   "id": "j2-202405-12",
+   "exam": "j2",
+   "field": "B",
+   "theme": "保険と税金",
+   "source": {
+    "kind": "official",
+    "citation": "日本FP協会 2級ファイナンシャル・プランニング技能検定実技試験（資産設計提案業務） 2024年5月実施",
+    "yearMonth": "2024-05",
+    "number": 12,
+    "url": "https://www.jafp.or.jp/exam/mohan/files/j2_202405_q.pdf",
+    "answerUrl": "https://www.jafp.or.jp/exam/mohan/files/j2_202405_a.pdf",
+    "modified": false
+   },
+   "lawBaseDate": "2023-10-01",
+   "stem": "広尾吉弘さんが契約している下記＜資料＞の生命保険に関する次の（ ア ）～（ エ ）の記述について、適切なものには○、不適切なものには×を解答欄に記入しなさい。なお、吉弘さんの家族構成は以下のとおりであり、課税対象となる保険金はいずれも基礎控除額を超えているものとする。",
+   "materials": [
+    {
+     "kind": "image",
+     "title": "問題・資料（原本PDFから切り出し）",
+     "src": "content-img/j2-202405-12.png",
+     "alt": "広尾吉弘さんが契約している下記＜資料＞の生命保険に関する次の（ ア ）～（ エ ）の記述について、適切なものには○、不適切なものには×を解答欄に記入しなさい。なお、吉弘さんの家族構成は以下のとおりであり、課税対象となる保険金はいずれも基礎控除額を超えているものとする。（問題文と資料の画像）",
+     "includesStem": true
+    }
+   ],
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "pア",
+     "prompt": "(ア)",
+     "answer": true
+    },
+    {
+     "kind": "truefalse",
+     "id": "pイ",
+     "prompt": "(イ)",
+     "answer": false
+    },
+    {
+     "kind": "truefalse",
+     "id": "pウ",
+     "prompt": "(ウ)",
+     "answer": true
+    },
+    {
+     "kind": "truefalse",
+     "id": "pエ",
+     "prompt": "(エ)",
+     "answer": false
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified"
+  },
+  {
+   "id": "j2-202405-13",
+   "exam": "j2",
+   "field": "B",
+   "theme": "生命保険の商品と仕組み",
+   "source": {
+    "kind": "official",
+    "citation": "日本FP協会 2級ファイナンシャル・プランニング技能検定実技試験（資産設計提案業務） 2024年5月実施",
+    "yearMonth": "2024-05",
+    "number": 13,
+    "url": "https://www.jafp.or.jp/exam/mohan/files/j2_202405_q.pdf",
+    "answerUrl": "https://www.jafp.or.jp/exam/mohan/files/j2_202405_a.pdf",
+    "modified": false
+   },
+   "lawBaseDate": "2023-10-01",
+   "stem": "下記＜資料＞は、藤原さんが契約した生命保険の契約の流れを示したものである。この保険契約の責任開始日（保障が開始する日）として、最も適切なものはどれか。なお、責任開始日（期）に関する特約等はない契約であり、保険料は月払いとする。",
+   "materials": [
+    {
+     "kind": "image",
+     "title": "問題・資料（原本PDFから切り出し）",
+     "src": "content-img/j2-202405-13.png",
+     "alt": "下記＜資料＞は、藤原さんが契約した生命保険の契約の流れを示したものである。この保険契約の責任開始日（保障が開始する日）として、最も適切なものはどれか。なお、責任開始日（期）に関する特約等はない契約であり、保険料は月払いとする。（問題文と資料の画像）",
+     "includesStem": true
+    }
+   ],
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "answer": "3",
+     "choices": [
+      {
+       "id": "1",
+       "text": "1"
+      },
+      {
+       "id": "2",
+       "text": "2"
+      },
+      {
+       "id": "3",
+       "text": "3"
+      },
+      {
+       "id": "4",
+       "text": "4"
+      }
+     ]
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified"
+  },
+  {
+   "id": "j2-202405-14",
+   "exam": "j2",
+   "field": "B",
+   "theme": "損害保険",
+   "source": {
+    "kind": "official",
+    "citation": "日本FP協会 2級ファイナンシャル・プランニング技能検定実技試験（資産設計提案業務） 2024年5月実施",
+    "yearMonth": "2024-05",
+    "number": 14,
+    "url": "https://www.jafp.or.jp/exam/mohan/files/j2_202405_q.pdf",
+    "answerUrl": "https://www.jafp.or.jp/exam/mohan/files/j2_202405_a.pdf",
+    "modified": false
+   },
+   "lawBaseDate": "2023-10-01",
+   "stem": "吉田さん（４６歳）が自身を記名被保険者として契約している下記＜資料＞の自動車保険に関するＦＰの馬場さんが行った次の（ ア ）～（ エ ）の説明のうち、適切なものには○、不適切なものには×を解答欄に記入しなさい。なお、＜資料＞に記載のない特約については考慮しないものとする。",
+   "materials": [
+    {
+     "kind": "image",
+     "title": "問題・資料（原本PDFから切り出し）",
+     "src": "content-img/j2-202405-14.png",
+     "alt": "吉田さん（４６歳）が自身を記名被保険者として契約している下記＜資料＞の自動車保険に関するＦＰの馬場さんが行った次の（ ア ）～（ エ ）の説明のうち、適切なものには○、不適切なものには×を解答欄に記入しなさい。なお、＜資料＞に記載のない特約については考慮しないものとする。（問題文と資料の画像）",
+     "includesStem": true
+    }
+   ],
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "pア",
+     "prompt": "(ア)",
+     "answer": false
+    },
+    {
+     "kind": "truefalse",
+     "id": "pイ",
+     "prompt": "(イ)",
+     "answer": true
+    },
+    {
+     "kind": "truefalse",
+     "id": "pウ",
+     "prompt": "(ウ)",
+     "answer": true
+    },
+    {
+     "kind": "truefalse",
+     "id": "pエ",
+     "prompt": "(エ)",
+     "answer": false
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified"
+  },
+  {
+   "id": "j2-202405-15",
+   "exam": "j2",
+   "field": "D",
+   "theme": "各種所得",
+   "source": {
+    "kind": "official",
+    "citation": "日本FP協会 2級ファイナンシャル・プランニング技能検定実技試験（資産設計提案業務） 2024年5月実施",
+    "yearMonth": "2024-05",
+    "number": 15,
+    "url": "https://www.jafp.or.jp/exam/mohan/files/j2_202405_q.pdf",
+    "answerUrl": "https://www.jafp.or.jp/exam/mohan/files/j2_202405_a.pdf",
+    "modified": false
+   },
+   "lawBaseDate": "2023-10-01",
+   "stem": "伊丹さん（６６歳）の２０２３年分の収入および経費は以下のとおりである。伊丹さんの２０２３年分の所得税における総所得金額を計算しなさい。なお、記載のない事項については一切考慮しないものとし、総所得金額が最も少なくなるように計算すること。また、解答に当たっては、解答用紙に記載されている単位に従うこと。",
+   "materials": [
+    {
+     "kind": "image",
+     "title": "問題・資料（原本PDFから切り出し）",
+     "src": "content-img/j2-202405-15.png",
+     "alt": "伊丹さん（６６歳）の２０２３年分の収入および経費は以下のとおりである。伊丹さんの２０２３年分の所得税における総所得金額を計算しなさい。なお、記載のない事項については一切考慮しないものとし、総所得金額が最も少なくなるように計算すること。また、解答に当たっては、解答用紙に記載されている単位に従うこと。（問題文と資料の画像）",
+     "includesStem": true
+    }
+   ],
+   "parts": [
+    {
+     "kind": "numeric",
+     "id": "p1",
+     "unit": "万円",
+     "answer": 90.0
+    }
+   ],
+   "requiresCalculation": true,
+   "calcReason": "数値を計算して入力する解答欄がある",
+   "status": "verified"
+  },
+  {
+   "id": "j2-202405-16",
+   "exam": "j2",
+   "field": "D",
+   "theme": "所得控除",
+   "source": {
+    "kind": "official",
+    "citation": "日本FP協会 2級ファイナンシャル・プランニング技能検定実技試験（資産設計提案業務） 2024年5月実施",
+    "yearMonth": "2024-05",
+    "number": 16,
+    "url": "https://www.jafp.or.jp/exam/mohan/files/j2_202405_q.pdf",
+    "answerUrl": "https://www.jafp.or.jp/exam/mohan/files/j2_202405_a.pdf",
+    "modified": false
+   },
+   "lawBaseDate": "2023-10-01",
+   "stem": "会社員の関根さんが２０２３年中に支払った医療費等が下記＜資料＞のとおりである場合、関根さんの２０２３年分の所得税の確定申告における医療費控除の金額として、正しいものはどれか。なお、関根さんの２０２３年分の所得は給与所得８５０万円のみであり、関根さんは妻、長女および長男と生計を一にしているが、長男は大学進学のため、別居している。また、保険金等により補てんされる金額はないものとし、その年分の医療費控除の金額が最も多くなるように計算するものとする。",
+   "materials": [
+    {
+     "kind": "image",
+     "title": "問題・資料（原本PDFから切り出し）",
+     "src": "content-img/j2-202405-16.png",
+     "alt": "会社員の関根さんが２０２３年中に支払った医療費等が下記＜資料＞のとおりである場合、関根さんの２０２３年分の所得税の確定申告における医療費控除の金額として、正しいものはどれか。なお、関根さんの２０２３年分の所得は給与所得８５０万円のみであり、関根さんは妻、長女および長男と生計を一にしているが、長男は大学進学のため、別居している。また、保険金等により補てんされる金額はないものとし、その年分の医療費控除の金額が最も多くなるように計算するものとする。（問題文と資料の画像）",
+     "includesStem": true
+    }
+   ],
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "answer": "3",
+     "choices": [
+      {
+       "id": "1",
+       "text": "1"
+      },
+      {
+       "id": "2",
+       "text": "2"
+      },
+      {
+       "id": "3",
+       "text": "3"
+      },
+      {
+       "id": "4",
+       "text": "4"
+      }
+     ]
+    }
+   ],
+   "requiresCalculation": true,
+   "status": "verified",
+   "calcReason": "資料の数値から計算して選択肢を選ぶ（問題文の語句から判定）"
+  },
+  {
+   "id": "j2-202405-17",
+   "exam": "j2",
+   "field": "D",
+   "theme": "損益通算・繰越控除",
+   "source": {
+    "kind": "official",
+    "citation": "日本FP協会 2級ファイナンシャル・プランニング技能検定実技試験（資産設計提案業務） 2024年5月実施",
+    "yearMonth": "2024-05",
+    "number": 17,
+    "url": "https://www.jafp.or.jp/exam/mohan/files/j2_202405_q.pdf",
+    "answerUrl": "https://www.jafp.or.jp/exam/mohan/files/j2_202405_a.pdf",
+    "modified": false
+   },
+   "lawBaseDate": "2023-10-01",
+   "stem": "会社員の北村さんの２０２３年分の所得等が下記＜資料＞のとおりである場合、北村さんが２０２３年分の所得税の確定申告を行う際に、給与所得と損益通算できる損失に関する次の記述のうち、最も適切なものはどれか。なお、記載のない事項については一切考慮しないものとし、▲が付された所得の金額は、その所得に損失が発生していることを意味するものとする。",
+   "materials": [
+    {
+     "kind": "image",
+     "title": "問題・資料（原本PDFから切り出し）",
+     "src": "content-img/j2-202405-17.png",
+     "alt": "会社員の北村さんの２０２３年分の所得等が下記＜資料＞のとおりである場合、北村さんが２０２３年分の所得税の確定申告を行う際に、給与所得と損益通算できる損失に関する次の記述のうち、最も適切なものはどれか。なお、記載のない事項については一切考慮しないものとし、▲が付された所得の金額は、その所得に損失が発生していることを意味するものとする。（問題文と資料の画像）",
+     "includesStem": true
+    }
+   ],
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "answer": "2",
+     "choices": [
+      {
+       "id": "1",
+       "text": "1"
+      },
+      {
+       "id": "2",
+       "text": "2"
+      },
+      {
+       "id": "3",
+       "text": "3"
+      },
+      {
+       "id": "4",
+       "text": "4"
+      }
+     ]
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified"
+  },
+  {
+   "id": "j2-202405-18",
+   "exam": "j2",
+   "field": "D",
+   "theme": "個人住民税・個人事業税",
+   "source": {
+    "kind": "official",
+    "citation": "日本FP協会 2級ファイナンシャル・プランニング技能検定実技試験（資産設計提案業務） 2024年5月実施",
+    "yearMonth": "2024-05",
+    "number": 18,
+    "url": "https://www.jafp.or.jp/exam/mohan/files/j2_202405_q.pdf",
+    "answerUrl": "https://www.jafp.or.jp/exam/mohan/files/j2_202405_a.pdf",
+    "modified": false
+   },
+   "lawBaseDate": "2023-10-01",
+   "stem": "個人住民税（所得割）に関する次の記述のうち、最も不適切なものはどれか。",
+   "materials": [
+    {
+     "kind": "image",
+     "title": "問題・資料（原本PDFから切り出し）",
+     "src": "content-img/j2-202405-18.png",
+     "alt": "個人住民税（所得割）に関する次の記述のうち、最も不適切なものはどれか。（問題文と資料の画像）",
+     "includesStem": true
+    }
+   ],
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "answer": "1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "1"
+      },
+      {
+       "id": "2",
+       "text": "2"
+      },
+      {
+       "id": "3",
+       "text": "3"
+      },
+      {
+       "id": "4",
+       "text": "4"
+      }
+     ]
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified"
+  },
+  {
+   "id": "j2-202405-19",
+   "exam": "j2",
+   "field": "F",
+   "theme": "遺言・遺留分",
+   "source": {
+    "kind": "official",
+    "citation": "日本FP協会 2級ファイナンシャル・プランニング技能検定実技試験（資産設計提案業務） 2024年5月実施",
+    "yearMonth": "2024-05",
+    "number": 19,
+    "url": "https://www.jafp.or.jp/exam/mohan/files/j2_202405_q.pdf",
+    "answerUrl": "https://www.jafp.or.jp/exam/mohan/files/j2_202405_a.pdf",
+    "modified": false
+   },
+   "lawBaseDate": "2023-10-01",
+   "stem": "下記＜親族関係図＞の場合において、民法の規定に基づく法定相続分および遺留分に関する次の記述の空欄（ ア ）～（ ウ ）にあてはまる適切な語句または数値を語群の中から選び、その番号のみを解答欄に記入しなさい。なお、同じ番号を何度選んでもよいこととする。",
+   "materials": [
+    {
+     "kind": "image",
+     "title": "問題・資料（原本PDFから切り出し）",
+     "src": "content-img/j2-202405-19.png",
+     "alt": "下記＜親族関係図＞の場合において、民法の規定に基づく法定相続分および遺留分に関する次の記述の空欄（ ア ）～（ ウ ）にあてはまる適切な語句または数値を語群の中から選び、その番号のみを解答欄に記入しなさい。なお、同じ番号を何度選んでもよいこととする。（問題文と資料の画像）",
+     "includesStem": true
+    }
+   ],
+   "parts": [
+    {
+     "kind": "numeric",
+     "id": "pア",
+     "prompt": "(ア)",
+     "unit": "",
+     "answer": 10.0
+    },
+    {
+     "kind": "choice",
+     "id": "pイ",
+     "prompt": "(イ)",
+     "answer": "4",
+     "choices": [
+      {
+       "id": "1",
+       "text": "1"
+      },
+      {
+       "id": "2",
+       "text": "2"
+      },
+      {
+       "id": "3",
+       "text": "3"
+      },
+      {
+       "id": "4",
+       "text": "4"
+      },
+      {
+       "id": "5",
+       "text": "5"
+      },
+      {
+       "id": "6",
+       "text": "6"
+      },
+      {
+       "id": "7",
+       "text": "7"
+      },
+      {
+       "id": "8",
+       "text": "8"
+      },
+      {
+       "id": "9",
+       "text": "9"
+      }
+     ]
+    },
+    {
+     "kind": "choice",
+     "id": "pウ",
+     "prompt": "(ウ)",
+     "answer": "1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "1"
+      },
+      {
+       "id": "2",
+       "text": "2"
+      },
+      {
+       "id": "3",
+       "text": "3"
+      },
+      {
+       "id": "4",
+       "text": "4"
+      },
+      {
+       "id": "5",
+       "text": "5"
+      },
+      {
+       "id": "6",
+       "text": "6"
+      },
+      {
+       "id": "7",
+       "text": "7"
+      },
+      {
+       "id": "8",
+       "text": "8"
+      },
+      {
+       "id": "9",
+       "text": "9"
+      }
+     ]
+    }
+   ],
+   "requiresCalculation": true,
+   "calcReason": "数値を計算して入力する解答欄がある",
+   "status": "verified"
+  },
+  {
+   "id": "j2-202405-20",
+   "exam": "j2",
+   "field": "F",
+   "theme": "財産評価",
+   "source": {
+    "kind": "official",
+    "citation": "日本FP協会 2級ファイナンシャル・プランニング技能検定実技試験（資産設計提案業務） 2024年5月実施",
+    "yearMonth": "2024-05",
+    "number": 20,
+    "url": "https://www.jafp.or.jp/exam/mohan/files/j2_202405_q.pdf",
+    "answerUrl": "https://www.jafp.or.jp/exam/mohan/files/j2_202405_a.pdf",
+    "modified": false
+   },
+   "lawBaseDate": "2023-10-01",
+   "stem": "阿久津さん（５８歳）は、２０２３年１１月に夫から居住用不動産（財産評価額２,６５０万円）の贈与を受けた。阿久津さんが贈与税の配偶者控除の適用を受けた場合の２０２３年分の贈与税額として、正しいものはどれか。なお、２０２３年においては、このほかに阿久津さんが受けた贈与はないものとする。また、納付すべき贈与税額が最も少なくなるように計算すること。",
+   "materials": [
+    {
+     "kind": "image",
+     "title": "問題・資料（原本PDFから切り出し）",
+     "src": "content-img/j2-202405-20.png",
+     "alt": "阿久津さん（５８歳）は、２０２３年１１月に夫から居住用不動産（財産評価額２,６５０万円）の贈与を受けた。阿久津さんが贈与税の配偶者控除の適用を受けた場合の２０２３年分の贈与税額として、正しいものはどれか。なお、２０２３年においては、このほかに阿久津さんが受けた贈与はないものとする。また、納付すべき贈与税額が最も少なくなるように計算すること。（問題文と資料の画像）",
+     "includesStem": true
+    }
+   ],
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "answer": "3",
+     "choices": [
+      {
+       "id": "1",
+       "text": "1"
+      },
+      {
+       "id": "2",
+       "text": "2"
+      },
+      {
+       "id": "3",
+       "text": "3"
+      },
+      {
+       "id": "4",
+       "text": "4"
+      }
+     ]
+    }
+   ],
+   "requiresCalculation": true,
+   "status": "verified",
+   "calcReason": "資料の数値から計算して選択肢を選ぶ（問題文の語句から判定）"
+  },
+  {
+   "id": "j2-202405-21",
+   "exam": "j2",
+   "field": "E",
+   "theme": "不動産の調査・登記",
+   "source": {
+    "kind": "official",
+    "citation": "日本FP協会 2級ファイナンシャル・プランニング技能検定実技試験（資産設計提案業務） 2024年5月実施",
+    "yearMonth": "2024-05",
+    "number": 21,
+    "url": "https://www.jafp.or.jp/exam/mohan/files/j2_202405_q.pdf",
+    "answerUrl": "https://www.jafp.or.jp/exam/mohan/files/j2_202405_a.pdf",
+    "modified": false
+   },
+   "lawBaseDate": "2023-10-01",
+   "stem": "下記＜資料＞の土地に係る路線価方式による普通借地権の相続税評価額の計算式として、正しいものはどれか。",
+   "materials": [
+    {
+     "kind": "image",
+     "title": "問題・資料（原本PDFから切り出し）",
+     "src": "content-img/j2-202405-21.png",
+     "alt": "下記＜資料＞の土地に係る路線価方式による普通借地権の相続税評価額の計算式として、正しいものはどれか。（問題文と資料の画像）",
+     "includesStem": true
+    }
+   ],
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "answer": "2",
+     "choices": [
+      {
+       "id": "1",
+       "text": "1"
+      },
+      {
+       "id": "2",
+       "text": "2"
+      },
+      {
+       "id": "3",
+       "text": "3"
+      },
+      {
+       "id": "4",
+       "text": "4"
+      }
+     ]
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified"
+  },
+  {
+   "id": "j2-202405-22",
+   "exam": "j2",
+   "field": "F",
+   "theme": "相続税の計算",
+   "source": {
+    "kind": "official",
+    "citation": "日本FP協会 2級ファイナンシャル・プランニング技能検定実技試験（資産設計提案業務） 2024年5月実施",
+    "yearMonth": "2024-05",
+    "number": 22,
+    "url": "https://www.jafp.or.jp/exam/mohan/files/j2_202405_q.pdf",
+    "answerUrl": "https://www.jafp.or.jp/exam/mohan/files/j2_202405_a.pdf",
+    "modified": false
+   },
+   "lawBaseDate": "2023-10-01",
+   "stem": "下記の相続事例（２０２３年１２月１０日相続開始）における各人の相続税の課税価格の組み合わせとして、正しいものはどれか。なお、記載のない事項については一切考慮しないものとする。",
+   "materials": [
+    {
+     "kind": "image",
+     "title": "問題・資料（原本PDFから切り出し）",
+     "src": "content-img/j2-202405-22.png",
+     "alt": "下記の相続事例（２０２３年１２月１０日相続開始）における各人の相続税の課税価格の組み合わせとして、正しいものはどれか。なお、記載のない事項については一切考慮しないものとする。（問題文と資料の画像）",
+     "includesStem": true
+    }
+   ],
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "answer": "1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "1"
+      },
+      {
+       "id": "2",
+       "text": "2"
+      },
+      {
+       "id": "3",
+       "text": "3"
+      },
+      {
+       "id": "4",
+       "text": "4"
+      }
+     ]
+    }
+   ],
+   "requiresCalculation": true,
+   "status": "verified",
+   "calcReason": "資料の数値から計算して選択肢を選ぶ（問題文の語句から判定）"
+  },
+  {
+   "id": "j2-202405-23",
+   "exam": "j2",
+   "field": "A",
+   "theme": "ライフプランと係数",
+   "source": {
+    "kind": "official",
+    "citation": "日本FP協会 2級ファイナンシャル・プランニング技能検定実技試験（資産設計提案業務） 2024年5月実施",
+    "yearMonth": "2024-05",
+    "number": 23,
+    "url": "https://www.jafp.or.jp/exam/mohan/files/j2_202405_q.pdf",
+    "answerUrl": "https://www.jafp.or.jp/exam/mohan/files/j2_202405_a.pdf",
+    "modified": false
+   },
+   "lawBaseDate": "2023-10-01",
+   "stem": "小山家のキャッシュフロー表の空欄（ ア ）にあてはまる数値を計算しなさい。なお、計算過程においては端数処理をせず計算し、計算結果については万円未満を四捨五入すること。",
+   "materials": [
+    {
+     "kind": "image",
+     "title": "共通の設例（原本PDFから切り出し）",
+     "src": "content-img/j2-202405-s7.png",
+     "alt": "複数の問題に共通する設例の画像",
+     "shared": true
+    },
+    {
+     "kind": "image",
+     "title": "問題・資料（原本PDFから切り出し）",
+     "src": "content-img/j2-202405-23.png",
+     "alt": "小山家のキャッシュフロー表の空欄（ ア ）にあてはまる数値を計算しなさい。なお、計算過程においては端数処理をせず計算し、計算結果については万円未満を四捨五入すること。（問題文と資料の画像）",
+     "includesStem": true
+    }
+   ],
+   "parts": [
+    {
+     "kind": "numeric",
+     "id": "p1",
+     "unit": "万円",
+     "answer": 400.0
+    }
+   ],
+   "requiresCalculation": true,
+   "calcReason": "数値を計算して入力する解答欄がある",
+   "status": "verified"
+  },
+  {
+   "id": "j2-202405-24",
+   "exam": "j2",
+   "field": "A",
+   "theme": "ライフプランと係数",
+   "source": {
+    "kind": "official",
+    "citation": "日本FP協会 2級ファイナンシャル・プランニング技能検定実技試験（資産設計提案業務） 2024年5月実施",
+    "yearMonth": "2024-05",
+    "number": 24,
+    "url": "https://www.jafp.or.jp/exam/mohan/files/j2_202405_q.pdf",
+    "answerUrl": "https://www.jafp.or.jp/exam/mohan/files/j2_202405_a.pdf",
+    "modified": false
+   },
+   "lawBaseDate": "2023-10-01",
+   "stem": "小山家が考えている進学プランは下記＜資料＞のとおりである。下記＜資料＞に基づく小山家のキャッシュフロー表の空欄（ イ ）にあてはまる教育費の予測数値を計算しなさい。なお、計算過程においては端数処理をせずに計算し、計算結果については万円未満を四捨五入すること。また、記載のない事項については一切考慮しないものとする。",
+   "materials": [
+    {
+     "kind": "image",
+     "title": "共通の設例（原本PDFから切り出し）",
+     "src": "content-img/j2-202405-s7.png",
+     "alt": "複数の問題に共通する設例の画像",
+     "shared": true
+    },
+    {
+     "kind": "image",
+     "title": "問題・資料（原本PDFから切り出し）",
+     "src": "content-img/j2-202405-24.png",
+     "alt": "小山家が考えている進学プランは下記＜資料＞のとおりである。下記＜資料＞に基づく小山家のキャッシュフロー表の空欄（ イ ）にあてはまる教育費の予測数値を計算しなさい。なお、計算過程においては端数処理をせずに計算し、計算結果については万円未満を四捨五入すること。また、記載のない事項については一切考慮しないものとする。（問題文と資料の画像）",
+     "includesStem": true
+    }
+   ],
+   "parts": [
+    {
+     "kind": "numeric",
+     "id": "p1",
+     "unit": "万円",
+     "answer": 279.0
+    }
+   ],
+   "requiresCalculation": true,
+   "calcReason": "数値を計算して入力する解答欄がある",
+   "status": "verified"
+  },
+  {
+   "id": "j2-202405-25",
+   "exam": "j2",
+   "field": "A",
+   "theme": "FPと関連法規",
+   "source": {
+    "kind": "official",
+    "citation": "日本FP協会 2級ファイナンシャル・プランニング技能検定実技試験（資産設計提案業務） 2024年5月実施",
+    "yearMonth": "2024-05",
+    "number": 25,
+    "url": "https://www.jafp.or.jp/exam/mohan/files/j2_202405_q.pdf",
+    "answerUrl": "https://www.jafp.or.jp/exam/mohan/files/j2_202405_a.pdf",
+    "modified": false
+   },
+   "lawBaseDate": "2023-10-01",
+   "stem": "小山さん夫婦はマイホームの購入に当たり、夫婦での住宅ローンの借入れを検討しており、ＦＰで税理士でもある橋口さんに質問をした。橋口さんの説明の空欄（ ア ）～（ ウ ）にあてはまる語句の組み合わせとして、最も適切なものはどれか。なお、住宅ローン契約者は団体信用生命保険に加入するものとし、住宅借入金等特別控除（以下「住宅ローン控除」という）の適用を受けるための要件はすべて満たしているものとする。",
+   "materials": [
+    {
+     "kind": "image",
+     "title": "共通の設例（原本PDFから切り出し）",
+     "src": "content-img/j2-202405-s7.png",
+     "alt": "複数の問題に共通する設例の画像",
+     "shared": true
+    },
+    {
+     "kind": "image",
+     "title": "問題・資料（原本PDFから切り出し）",
+     "src": "content-img/j2-202405-25.png",
+     "alt": "小山さん夫婦はマイホームの購入に当たり、夫婦での住宅ローンの借入れを検討しており、ＦＰで税理士でもある橋口さんに質問をした。橋口さんの説明の空欄（ ア ）～（ ウ ）にあてはまる語句の組み合わせとして、最も適切なものはどれか。なお、住宅ローン契約者は団体信用生命保険に加入するものとし、住宅借入金等特別控除（以下「住宅ローン控除」という）の適用を受けるための要件はすべて満たしているものとする。（問題文と資料の画像）",
+     "includesStem": true
+    }
+   ],
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "answer": "2",
+     "choices": [
+      {
+       "id": "1",
+       "text": "1"
+      },
+      {
+       "id": "2",
+       "text": "2"
+      },
+      {
+       "id": "3",
+       "text": "3"
+      },
+      {
+       "id": "4",
+       "text": "4"
+      },
+      {
+       "id": "5",
+       "text": "5"
+      },
+      {
+       "id": "6",
+       "text": "6"
+      },
+      {
+       "id": "7",
+       "text": "7"
+      },
+      {
+       "id": "8",
+       "text": "8"
+      },
+      {
+       "id": "9",
+       "text": "9"
+      }
+     ]
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified"
+  },
+  {
+   "id": "j2-202405-26",
+   "exam": "j2",
+   "field": "A",
+   "theme": "その他",
+   "source": {
+    "kind": "official",
+    "citation": "日本FP協会 2級ファイナンシャル・プランニング技能検定実技試験（資産設計提案業務） 2024年5月実施",
+    "yearMonth": "2024-05",
+    "number": 26,
+    "url": "https://www.jafp.or.jp/exam/mohan/files/j2_202405_q.pdf",
+    "answerUrl": "https://www.jafp.or.jp/exam/mohan/files/j2_202405_a.pdf",
+    "modified": false
+   },
+   "lawBaseDate": "2023-10-01",
+   "stem": "米田さんは、自身の将来の老後資金として新たに積立てを開始する予定である。毎年年末に１２万円を積み立てるものとし、２５年間、年利１.０％で複利運用しながら積み立てた場合、２５年後の合計額はいくらになるか。",
+   "materials": [
+    {
+     "kind": "image",
+     "title": "共通の設例（原本PDFから切り出し）",
+     "src": "content-img/j2-202405-s8.png",
+     "alt": "複数の問題に共通する設例の画像",
+     "shared": true
+    },
+    {
+     "kind": "image",
+     "title": "問題・資料（原本PDFから切り出し）",
+     "src": "content-img/j2-202405-26.png",
+     "alt": "米田さんは、自身の将来の老後資金として新たに積立てを開始する予定である。毎年年末に１２万円を積み立てるものとし、２５年間、年利１.０％で複利運用しながら積み立てた場合、２５年後の合計額はいくらになるか。（問題文と資料の画像）",
+     "includesStem": true
+    }
+   ],
+   "parts": [
+    {
+     "kind": "numeric",
+     "id": "p1",
+     "unit": "円",
+     "answer": 3389160.0
+    }
+   ],
+   "requiresCalculation": true,
+   "calcReason": "数値を計算して入力する解答欄がある",
+   "status": "verified"
+  },
+  {
+   "id": "j2-202405-27",
+   "exam": "j2",
+   "field": "A",
+   "theme": "その他",
+   "source": {
+    "kind": "official",
+    "citation": "日本FP協会 2級ファイナンシャル・プランニング技能検定実技試験（資産設計提案業務） 2024年5月実施",
+    "yearMonth": "2024-05",
+    "number": 27,
+    "url": "https://www.jafp.or.jp/exam/mohan/files/j2_202405_q.pdf",
+    "answerUrl": "https://www.jafp.or.jp/exam/mohan/files/j2_202405_a.pdf",
+    "modified": false
+   },
+   "lawBaseDate": "2023-10-01",
+   "stem": "目黒さんは、孫の大学入学資金として、１５年後に２００万円を準備したいと考えている。１５年間、年利１.０％で複利運用する場合、現在いくらの資金があればよいか。",
+   "materials": [
+    {
+     "kind": "image",
+     "title": "共通の設例（原本PDFから切り出し）",
+     "src": "content-img/j2-202405-s8.png",
+     "alt": "複数の問題に共通する設例の画像",
+     "shared": true
+    },
+    {
+     "kind": "image",
+     "title": "問題・資料（原本PDFから切り出し）",
+     "src": "content-img/j2-202405-27.png",
+     "alt": "目黒さんは、孫の大学入学資金として、１５年後に２００万円を準備したいと考えている。１５年間、年利１.０％で複利運用する場合、現在いくらの資金があればよいか。（問題文と資料の画像）",
+     "includesStem": true
+    }
+   ],
+   "parts": [
+    {
+     "kind": "numeric",
+     "id": "p1",
+     "unit": "円",
+     "answer": 1722000.0
+    }
+   ],
+   "requiresCalculation": true,
+   "calcReason": "数値を計算して入力する解答欄がある",
+   "status": "verified"
+  },
+  {
+   "id": "j2-202405-28",
+   "exam": "j2",
+   "field": "A",
+   "theme": "その他",
+   "source": {
+    "kind": "official",
+    "citation": "日本FP協会 2級ファイナンシャル・プランニング技能検定実技試験（資産設計提案業務） 2024年5月実施",
+    "yearMonth": "2024-05",
+    "number": 28,
+    "url": "https://www.jafp.or.jp/exam/mohan/files/j2_202405_q.pdf",
+    "answerUrl": "https://www.jafp.or.jp/exam/mohan/files/j2_202405_a.pdf",
+    "modified": false
+   },
+   "lawBaseDate": "2023-10-01",
+   "stem": "浜松さんは、大学院まで進学することを検討している下宿中の子どもの生活費を援助するための資金として、毎年年末に６０万円を受け取りたいと考えている。受取期間を６年間とし、年利１.０％で複利運用する場合、受取り開始年の初めにいくらの資金があればよいか。",
+   "materials": [
+    {
+     "kind": "image",
+     "title": "共通の設例（原本PDFから切り出し）",
+     "src": "content-img/j2-202405-s8.png",
+     "alt": "複数の問題に共通する設例の画像",
+     "shared": true
+    },
+    {
+     "kind": "image",
+     "title": "問題・資料（原本PDFから切り出し）",
+     "src": "content-img/j2-202405-28.png",
+     "alt": "浜松さんは、大学院まで進学することを検討している下宿中の子どもの生活費を援助するための資金として、毎年年末に６０万円を受け取りたいと考えている。受取期間を６年間とし、年利１.０％で複利運用する場合、受取り開始年の初めにいくらの資金があればよいか。（問題文と資料の画像）",
+     "includesStem": true
+    }
+   ],
+   "parts": [
+    {
+     "kind": "numeric",
+     "id": "p1",
+     "unit": "円",
+     "answer": 3477000.0
+    }
+   ],
+   "requiresCalculation": true,
+   "calcReason": "数値を計算して入力する解答欄がある",
+   "status": "verified"
+  },
+  {
+   "id": "j2-202405-29",
+   "exam": "j2",
+   "field": "A",
+   "theme": "FPと関連法規",
+   "source": {
+    "kind": "official",
+    "citation": "日本FP協会 2級ファイナンシャル・プランニング技能検定実技試験（資産設計提案業務） 2024年5月実施",
+    "yearMonth": "2024-05",
+    "number": 29,
+    "url": "https://www.jafp.or.jp/exam/mohan/files/j2_202405_q.pdf",
+    "answerUrl": "https://www.jafp.or.jp/exam/mohan/files/j2_202405_a.pdf",
+    "modified": false
+   },
+   "lawBaseDate": "2023-10-01",
+   "stem": "孝義さんは、現在居住している自宅の住宅ローンの繰上げ返済を検討しており、ＦＰの東さんに質問をした。孝義さんが住宅ローンを９６回返済後に、１００万円以内で期間短縮型の繰上げ返済をする場合、この繰上げ返済により短縮される返済期間として、正しいものはどれか。なお、計算に当たっては、下記＜資料＞を使用し、繰上げ返済額は１００万円を超えない範囲での最大額とすること。また、繰上げ返済に伴う手数料等は考慮しないものとする。",
+   "materials": [
+    {
+     "kind": "image",
+     "title": "共通の設例（原本PDFから切り出し）",
+     "src": "content-img/j2-202405-s9.png",
+     "alt": "複数の問題に共通する設例の画像",
+     "shared": true
+    },
+    {
+     "kind": "image",
+     "title": "問題・資料（原本PDFから切り出し）",
+     "src": "content-img/j2-202405-29.png",
+     "alt": "孝義さんは、現在居住している自宅の住宅ローンの繰上げ返済を検討しており、ＦＰの東さんに質問をした。孝義さんが住宅ローンを９６回返済後に、１００万円以内で期間短縮型の繰上げ返済をする場合、この繰上げ返済により短縮される返済期間として、正しいものはどれか。なお、計算に当たっては、下記＜資料＞を使用し、繰上げ返済額は１００万円を超えない範囲での最大額とすること。また、繰上げ返済に伴う手数料等は考慮しないものとする。（問題文と資料の画像）",
+     "includesStem": true
+    }
+   ],
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "answer": "3",
+     "choices": [
+      {
+       "id": "1",
+       "text": "1"
+      },
+      {
+       "id": "2",
+       "text": "2"
+      },
+      {
+       "id": "3",
+       "text": "3"
+      },
+      {
+       "id": "4",
+       "text": "4"
+      }
+     ]
+    }
+   ],
+   "requiresCalculation": true,
+   "status": "verified",
+   "calcReason": "資料の数値から計算して選択肢を選ぶ（問題文の語句から判定）"
+  },
+  {
+   "id": "j2-202405-30",
+   "exam": "j2",
+   "field": "C",
+   "theme": "金融関連法規・セーフティネット",
+   "source": {
+    "kind": "official",
+    "citation": "日本FP協会 2級ファイナンシャル・プランニング技能検定実技試験（資産設計提案業務） 2024年5月実施",
+    "yearMonth": "2024-05",
+    "number": 30,
+    "url": "https://www.jafp.or.jp/exam/mohan/files/j2_202405_q.pdf",
+    "answerUrl": "https://www.jafp.or.jp/exam/mohan/files/j2_202405_a.pdf",
+    "modified": false
+   },
+   "lawBaseDate": "2023-10-01",
+   "stem": "下記＜資料＞は、小田さん夫婦（孝義さんと真由利さん）の預金保険制度の対象となるＹＱ銀行の国内支店における金融資産（時価）である。下記＜資料＞に基づくＹＱ銀行が破綻した場合の預金保険制度によって保護される金融資産の額に関する次の記述の空欄（ ア ）、（ イ ）にあてはまる数値を解答欄に記入しなさい。なお、預金の利息等の記載のない事項については一切考慮しないものとする。",
+   "materials": [
+    {
+     "kind": "image",
+     "title": "共通の設例（原本PDFから切り出し）",
+     "src": "content-img/j2-202405-s9.png",
+     "alt": "複数の問題に共通する設例の画像",
+     "shared": true
+    },
+    {
+     "kind": "image",
+     "title": "問題・資料（原本PDFから切り出し）",
+     "src": "content-img/j2-202405-30.png",
+     "alt": "下記＜資料＞は、小田さん夫婦（孝義さんと真由利さん）の預金保険制度の対象となるＹＱ銀行の国内支店における金融資産（時価）である。下記＜資料＞に基づくＹＱ銀行が破綻した場合の預金保険制度によって保護される金融資産の額に関する次の記述の空欄（ ア ）、（ イ ）にあてはまる数値を解答欄に記入しなさい。なお、預金の利息等の記載のない事項については一切考慮しないものとする。（問題文と資料の画像）",
+     "includesStem": true
+    }
+   ],
+   "parts": [
+    {
+     "kind": "numeric",
+     "id": "pア",
+     "prompt": "(ア)",
+     "unit": "万円",
+     "answer": 80.0
+    },
+    {
+     "kind": "numeric",
+     "id": "pイ",
+     "prompt": "(イ)",
+     "unit": "万円",
+     "answer": 70.0
+    }
+   ],
+   "requiresCalculation": true,
+   "calcReason": "数値を計算して入力する解答欄がある",
+   "status": "verified"
+  },
+  {
+   "id": "j2-202405-31",
+   "exam": "j2",
+   "field": "B",
+   "theme": "その他",
+   "source": {
+    "kind": "official",
+    "citation": "日本FP協会 2級ファイナンシャル・プランニング技能検定実技試験（資産設計提案業務） 2024年5月実施",
+    "yearMonth": "2024-05",
+    "number": 31,
+    "url": "https://www.jafp.or.jp/exam/mohan/files/j2_202405_q.pdf",
+    "answerUrl": "https://www.jafp.or.jp/exam/mohan/files/j2_202405_a.pdf",
+    "modified": false
+   },
+   "lawBaseDate": "2023-10-01",
+   "stem": "下記＜資料＞の孝義さんが契約している学資保険Ｃおよび学資保険Ｄに関する次の記述のうち、最も不適切なものはどれか。",
+   "materials": [
+    {
+     "kind": "image",
+     "title": "共通の設例（原本PDFから切り出し）",
+     "src": "content-img/j2-202405-s9.png",
+     "alt": "複数の問題に共通する設例の画像",
+     "shared": true
+    },
+    {
+     "kind": "image",
+     "title": "問題・資料（原本PDFから切り出し）",
+     "src": "content-img/j2-202405-31.png",
+     "alt": "下記＜資料＞の孝義さんが契約している学資保険Ｃおよび学資保険Ｄに関する次の記述のうち、最も不適切なものはどれか。（問題文と資料の画像）",
+     "includesStem": true
+    }
+   ],
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "answer": "4",
+     "choices": [
+      {
+       "id": "1",
+       "text": "1"
+      },
+      {
+       "id": "2",
+       "text": "2"
+      },
+      {
+       "id": "3",
+       "text": "3"
+      },
+      {
+       "id": "4",
+       "text": "4"
+      }
+     ]
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified"
+  },
+  {
+   "id": "j2-202405-32",
+   "exam": "j2",
+   "field": "A",
+   "theme": "FPと関連法規",
+   "source": {
+    "kind": "official",
+    "citation": "日本FP協会 2級ファイナンシャル・プランニング技能検定実技試験（資産設計提案業務） 2024年5月実施",
+    "yearMonth": "2024-05",
+    "number": 32,
+    "url": "https://www.jafp.or.jp/exam/mohan/files/j2_202405_q.pdf",
+    "answerUrl": "https://www.jafp.or.jp/exam/mohan/files/j2_202405_a.pdf",
+    "modified": false
+   },
+   "lawBaseDate": "2023-10-01",
+   "stem": "会社員である孝義さんの父の秀和さん（６４歳）は、現在の勤務先で、６５歳の定年を迎えた後も継続雇用制度を利用し、厚生年金保険に加入しつつ、７０歳まで働き続ける場合の在職老齢年金について、ＦＰの東さんに質問をした。下記＜資料＞に基づく条件で支給調整された老齢厚生年金の受給額（月額）として、正しいものはどれか。",
+   "materials": [
+    {
+     "kind": "image",
+     "title": "共通の設例（原本PDFから切り出し）",
+     "src": "content-img/j2-202405-s9.png",
+     "alt": "複数の問題に共通する設例の画像",
+     "shared": true
+    },
+    {
+     "kind": "image",
+     "title": "問題・資料（原本PDFから切り出し）",
+     "src": "content-img/j2-202405-32.png",
+     "alt": "会社員である孝義さんの父の秀和さん（６４歳）は、現在の勤務先で、６５歳の定年を迎えた後も継続雇用制度を利用し、厚生年金保険に加入しつつ、７０歳まで働き続ける場合の在職老齢年金について、ＦＰの東さんに質問をした。下記＜資料＞に基づく条件で支給調整された老齢厚生年金の受給額（月額）として、正しいものはどれか。（問題文と資料の画像）",
+     "includesStem": true
+    }
+   ],
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "answer": "4",
+     "choices": [
+      {
+       "id": "1",
+       "text": "1"
+      },
+      {
+       "id": "2",
+       "text": "2"
+      },
+      {
+       "id": "3",
+       "text": "3"
+      },
+      {
+       "id": "4",
+       "text": "4"
+      }
+     ]
+    }
+   ],
+   "requiresCalculation": true,
+   "status": "verified",
+   "calcReason": "資料の数値から計算して選択肢を選ぶ（問題文の語句から判定）"
+  },
+  {
+   "id": "j2-202405-33",
+   "exam": "j2",
+   "field": "A",
+   "theme": "FPと関連法規",
+   "source": {
+    "kind": "official",
+    "citation": "日本FP協会 2級ファイナンシャル・プランニング技能検定実技試験（資産設計提案業務） 2024年5月実施",
+    "yearMonth": "2024-05",
+    "number": 33,
+    "url": "https://www.jafp.or.jp/exam/mohan/files/j2_202405_q.pdf",
+    "answerUrl": "https://www.jafp.or.jp/exam/mohan/files/j2_202405_a.pdf",
+    "modified": false
+   },
+   "lawBaseDate": "2023-10-01",
+   "stem": "孝義さんの妹の真佐美さんは、民間企業に勤務する会社員であり、現在妊娠中である。孝義さんは、真佐美さんが出産のために仕事を休んだ場合に支給を受けることができる出産手当金について、ＦＰの東さんに質問をした。出産手当金に関する次の記述の空欄（ ア ）～（ ウ ）にあてはまる語句の組み合わせとして、最も適切なものはどれか。なお、真佐美さんは、会社に就職してから継続して全国健康保険協会管掌健康保険（協会けんぽ）の被保険者であるものとする。また、問題作成の都合上、一部を「＊＊＊」としてある。",
+   "materials": [
+    {
+     "kind": "image",
+     "title": "共通の設例（原本PDFから切り出し）",
+     "src": "content-img/j2-202405-s9.png",
+     "alt": "複数の問題に共通する設例の画像",
+     "shared": true
+    },
+    {
+     "kind": "image",
+     "title": "問題・資料（原本PDFから切り出し）",
+     "src": "content-img/j2-202405-33.png",
+     "alt": "孝義さんの妹の真佐美さんは、民間企業に勤務する会社員であり、現在妊娠中である。孝義さんは、真佐美さんが出産のために仕事を休んだ場合に支給を受けることができる出産手当金について、ＦＰの東さんに質問をした。出産手当金に関する次の記述の空欄（ ア ）～（ ウ ）にあてはまる語句の組み合わせとして、最も適切なものはどれか。なお、真佐美さんは、会社に就職してから継続して全国健康保険協会管掌健康保険（協会けんぽ）の被保険者であるものとする。また、問題作成の都合上、一部を「＊＊＊」としてある。（問題文と資料の画像）",
+     "includesStem": true
+    }
+   ],
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "answer": "1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "1"
+      },
+      {
+       "id": "2",
+       "text": "2"
+      },
+      {
+       "id": "3",
+       "text": "3"
+      },
+      {
+       "id": "4",
+       "text": "4"
+      }
+     ]
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified"
+  },
+  {
+   "id": "j2-202405-34",
+   "exam": "j2",
+   "field": "A",
+   "theme": "FPと関連法規",
+   "source": {
+    "kind": "official",
+    "citation": "日本FP協会 2級ファイナンシャル・プランニング技能検定実技試験（資産設計提案業務） 2024年5月実施",
+    "yearMonth": "2024-05",
+    "number": 34,
+    "url": "https://www.jafp.or.jp/exam/mohan/files/j2_202405_q.pdf",
+    "answerUrl": "https://www.jafp.or.jp/exam/mohan/files/j2_202405_a.pdf",
+    "modified": false
+   },
+   "lawBaseDate": "2023-10-01",
+   "stem": "孝義さんは、労働者災害補償保険（以下「労災保険」という）について、ＦＰの東さんに質問をした。労災保険の概要に関する次の（ ア ）～（ エ ）の記述について適切なものには○、不適切なものには×を解答欄に記入しなさい。",
+   "materials": [
+    {
+     "kind": "image",
+     "title": "共通の設例（原本PDFから切り出し）",
+     "src": "content-img/j2-202405-s9.png",
+     "alt": "複数の問題に共通する設例の画像",
+     "shared": true
+    },
+    {
+     "kind": "image",
+     "title": "問題・資料（原本PDFから切り出し）",
+     "src": "content-img/j2-202405-34.png",
+     "alt": "孝義さんは、労働者災害補償保険（以下「労災保険」という）について、ＦＰの東さんに質問をした。労災保険の概要に関する次の（ ア ）～（ エ ）の記述について適切なものには○、不適切なものには×を解答欄に記入しなさい。（問題文と資料の画像）",
+     "includesStem": true
+    }
+   ],
+   "parts": [
+    {
+     "kind": "truefalse",
+     "id": "pア",
+     "prompt": "(ア)",
+     "answer": false
+    },
+    {
+     "kind": "truefalse",
+     "id": "pイ",
+     "prompt": "(イ)",
+     "answer": true
+    },
+    {
+     "kind": "truefalse",
+     "id": "pウ",
+     "prompt": "(ウ)",
+     "answer": false
+    },
+    {
+     "kind": "truefalse",
+     "id": "pエ",
+     "prompt": "(エ)",
+     "answer": false
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified"
+  },
+  {
+   "id": "j2-202405-35",
+   "exam": "j2",
+   "field": "A",
+   "theme": "FPと関連法規",
+   "source": {
+    "kind": "official",
+    "citation": "日本FP協会 2級ファイナンシャル・プランニング技能検定実技試験（資産設計提案業務） 2024年5月実施",
+    "yearMonth": "2024-05",
+    "number": 35,
+    "url": "https://www.jafp.or.jp/exam/mohan/files/j2_202405_q.pdf",
+    "answerUrl": "https://www.jafp.or.jp/exam/mohan/files/j2_202405_a.pdf",
+    "modified": false
+   },
+   "lawBaseDate": "2023-10-01",
+   "stem": "ＦＰの飯田さんは、まず２０２４年４月１日現在における安藤家（雅之さんと裕子さん）のバランスシート分析を行うこととした。下表の空欄（ ア ）にあてはまる数値を計算しなさい。",
+   "materials": [
+    {
+     "kind": "image",
+     "title": "共通の設例（原本PDFから切り出し）",
+     "src": "content-img/j2-202405-s10.png",
+     "alt": "複数の問題に共通する設例の画像",
+     "shared": true
+    },
+    {
+     "kind": "image",
+     "title": "問題・資料（原本PDFから切り出し）",
+     "src": "content-img/j2-202405-35.png",
+     "alt": "ＦＰの飯田さんは、まず２０２４年４月１日現在における安藤家（雅之さんと裕子さん）のバランスシート分析を行うこととした。下表の空欄（ ア ）にあてはまる数値を計算しなさい。（問題文と資料の画像）",
+     "includesStem": true
+    }
+   ],
+   "parts": [
+    {
+     "kind": "numeric",
+     "id": "p1",
+     "unit": "万円",
+     "answer": 14020.0
+    }
+   ],
+   "requiresCalculation": true,
+   "calcReason": "数値を計算して入力する解答欄がある",
+   "status": "verified"
+  },
+  {
+   "id": "j2-202405-36",
+   "exam": "j2",
+   "field": "D",
+   "theme": "所得控除",
+   "source": {
+    "kind": "official",
+    "citation": "日本FP協会 2級ファイナンシャル・プランニング技能検定実技試験（資産設計提案業務） 2024年5月実施",
+    "yearMonth": "2024-05",
+    "number": 36,
+    "url": "https://www.jafp.or.jp/exam/mohan/files/j2_202405_q.pdf",
+    "answerUrl": "https://www.jafp.or.jp/exam/mohan/files/j2_202405_a.pdf",
+    "modified": false
+   },
+   "lawBaseDate": "2023-10-01",
+   "stem": "下記＜資料＞は、雅之さんの２０２３（令和５）年分の「給与所得の源泉徴収票（一部省略）」であり、雅之さんは、所得控除の額について、ＦＰで税理士でもある飯田さんに質問をした。下記＜資料＞に基づく雅之さんの２０２３年分の所得控除の額に関する次の記述の空欄（ ア ）～（ ウ ）にあてはまる適切な数値を語群の中から選び、その番号のみを解答欄に記入しなさい。なお、雅之さんには、２０２３年中において給与所得以外に申告すべき所得はなく、年末調整の対象となった所得控除以外に適用を受けることのできる所得控除はない。また、記載のない事項については一切考慮しないものとする。",
+   "materials": [
+    {
+     "kind": "image",
+     "title": "共通の設例（原本PDFから切り出し）",
+     "src": "content-img/j2-202405-s10.png",
+     "alt": "複数の問題に共通する設例の画像",
+     "shared": true
+    },
+    {
+     "kind": "image",
+     "title": "問題・資料（原本PDFから切り出し）",
+     "src": "content-img/j2-202405-36.png",
+     "alt": "下記＜資料＞は、雅之さんの２０２３（令和５）年分の「給与所得の源泉徴収票（一部省略）」であり、雅之さんは、所得控除の額について、ＦＰで税理士でもある飯田さんに質問をした。下記＜資料＞に基づく雅之さんの２０２３年分の所得控除の額に関する次の記述の空欄（ ア ）～（ ウ ）にあてはまる適切な数値を語群の中から選び、その番号のみを解答欄に記入しなさい。なお、雅之さんには、２０２３年中において給与所得以外に申告すべき所得はなく、年末調整の対象となった所得控除以外に適用を受けることのできる所得控除はない。また、記載のない事項については一切考慮しないものとする。（問題文と資料の画像）",
+     "includesStem": true
+    }
+   ],
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "pア",
+     "prompt": "(ア)",
+     "answer": "2",
+     "choices": [
+      {
+       "id": "1",
+       "text": "1"
+      },
+      {
+       "id": "2",
+       "text": "2"
+      },
+      {
+       "id": "3",
+       "text": "3"
+      },
+      {
+       "id": "4",
+       "text": "4"
+      },
+      {
+       "id": "5",
+       "text": "5"
+      },
+      {
+       "id": "6",
+       "text": "6"
+      },
+      {
+       "id": "7",
+       "text": "7"
+      },
+      {
+       "id": "8",
+       "text": "8"
+      }
+     ]
+    },
+    {
+     "kind": "choice",
+     "id": "pイ",
+     "prompt": "(イ)",
+     "answer": "4",
+     "choices": [
+      {
+       "id": "1",
+       "text": "1"
+      },
+      {
+       "id": "2",
+       "text": "2"
+      },
+      {
+       "id": "3",
+       "text": "3"
+      },
+      {
+       "id": "4",
+       "text": "4"
+      },
+      {
+       "id": "5",
+       "text": "5"
+      },
+      {
+       "id": "6",
+       "text": "6"
+      },
+      {
+       "id": "7",
+       "text": "7"
+      },
+      {
+       "id": "8",
+       "text": "8"
+      }
+     ]
+    },
+    {
+     "kind": "choice",
+     "id": "pウ",
+     "prompt": "(ウ)",
+     "answer": "7",
+     "choices": [
+      {
+       "id": "1",
+       "text": "1"
+      },
+      {
+       "id": "2",
+       "text": "2"
+      },
+      {
+       "id": "3",
+       "text": "3"
+      },
+      {
+       "id": "4",
+       "text": "4"
+      },
+      {
+       "id": "5",
+       "text": "5"
+      },
+      {
+       "id": "6",
+       "text": "6"
+      },
+      {
+       "id": "7",
+       "text": "7"
+      },
+      {
+       "id": "8",
+       "text": "8"
+      }
+     ]
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified"
+  },
+  {
+   "id": "j2-202405-37",
+   "exam": "j2",
+   "field": "E",
+   "theme": "不動産の税金",
+   "source": {
+    "kind": "official",
+    "citation": "日本FP協会 2級ファイナンシャル・プランニング技能検定実技試験（資産設計提案業務） 2024年5月実施",
+    "yearMonth": "2024-05",
+    "number": 37,
+    "url": "https://www.jafp.or.jp/exam/mohan/files/j2_202405_q.pdf",
+    "answerUrl": "https://www.jafp.or.jp/exam/mohan/files/j2_202405_a.pdf",
+    "modified": false
+   },
+   "lawBaseDate": "2023-10-01",
+   "stem": "雅之さんの父の三郎さんは老人ホームへの入居を検討しているため、ＦＰで税理士でもある飯田さんに所有する自宅の売却について相談をした。下記＜資料＞に基づく三郎さんの自宅の売却に係る所得税および住民税に関する次の記述の空欄（ ア ）～（ ウ ）にあてはまる語句の組み合わせとして、最も適切なものはどれか。なお、「居住用財産を譲渡した場合の３,０００万円の特別控除」および「居住用財産を譲渡した場合の長期譲渡所得の軽減税率の特例」の適用要件は満たしており、これらの適用を受けるものとする。また、所得控除その他記載のない事項については一切考慮しないものとする。",
+   "materials": [
+    {
+     "kind": "image",
+     "title": "共通の設例（原本PDFから切り出し）",
+     "src": "content-img/j2-202405-s10.png",
+     "alt": "複数の問題に共通する設例の画像",
+     "shared": true
+    },
+    {
+     "kind": "image",
+     "title": "問題・資料（原本PDFから切り出し）",
+     "src": "content-img/j2-202405-37.png",
+     "alt": "雅之さんの父の三郎さんは老人ホームへの入居を検討しているため、ＦＰで税理士でもある飯田さんに所有する自宅の売却について相談をした。下記＜資料＞に基づく三郎さんの自宅の売却に係る所得税および住民税に関する次の記述の空欄（ ア ）～（ ウ ）にあてはまる語句の組み合わせとして、最も適切なものはどれか。なお、「居住用財産を譲渡した場合の３,０００万円の特別控除」および「居住用財産を譲渡した場合の長期譲渡所得の軽減税率の特例」の適用要件は満たしており、これらの適用を受けるものとする。また、所得控除その他記載のない事項については一切考慮しないものとする。（問題文と資料の画像）",
+     "includesStem": true
+    }
+   ],
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "answer": "1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "1"
+      },
+      {
+       "id": "2",
+       "text": "2"
+      },
+      {
+       "id": "3",
+       "text": "3"
+      },
+      {
+       "id": "4",
+       "text": "4"
+      }
+     ]
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified"
+  },
+  {
+   "id": "j2-202405-38",
+   "exam": "j2",
+   "field": "C",
+   "theme": "NISA・金融商品の税金",
+   "source": {
+    "kind": "official",
+    "citation": "日本FP協会 2級ファイナンシャル・プランニング技能検定実技試験（資産設計提案業務） 2024年5月実施",
+    "yearMonth": "2024-05",
+    "number": 38,
+    "url": "https://www.jafp.or.jp/exam/mohan/files/j2_202405_q.pdf",
+    "answerUrl": "https://www.jafp.or.jp/exam/mohan/files/j2_202405_a.pdf",
+    "modified": false
+   },
+   "lawBaseDate": "2023-10-01",
+   "stem": "雅之さんが取引をしている国内の証券会社から送付された２０２３年分の特定口座年間取引報告書（抜粋）が下記＜資料＞のとおりである場合、２０２４年に繰り越すことのできる上場株式等の譲渡損失の金額（上限）を計算しなさい。なお、雅之さんはこの他に有価証券取引は行っておらず、２０２２年以前から繰り越された上場株式等の譲渡損失はないものとする。また、解答に当たっては、解答用紙に記載されている単位に従うこと。",
+   "materials": [
+    {
+     "kind": "image",
+     "title": "共通の設例（原本PDFから切り出し）",
+     "src": "content-img/j2-202405-s10.png",
+     "alt": "複数の問題に共通する設例の画像",
+     "shared": true
+    },
+    {
+     "kind": "image",
+     "title": "問題・資料（原本PDFから切り出し）",
+     "src": "content-img/j2-202405-38.png",
+     "alt": "雅之さんが取引をしている国内の証券会社から送付された２０２３年分の特定口座年間取引報告書（抜粋）が下記＜資料＞のとおりである場合、２０２４年に繰り越すことのできる上場株式等の譲渡損失の金額（上限）を計算しなさい。なお、雅之さんはこの他に有価証券取引は行っておらず、２０２２年以前から繰り越された上場株式等の譲渡損失はないものとする。また、解答に当たっては、解答用紙に記載されている単位に従うこと。（問題文と資料の画像）",
+     "includesStem": true
+    }
+   ],
+   "parts": [
+    {
+     "kind": "numeric",
+     "id": "p1",
+     "unit": "円",
+     "answer": 1494948.0
+    }
+   ],
+   "requiresCalculation": true,
+   "calcReason": "数値を計算して入力する解答欄がある",
+   "status": "verified"
+  },
+  {
+   "id": "j2-202405-39",
+   "exam": "j2",
+   "field": "A",
+   "theme": "FPと関連法規",
+   "source": {
+    "kind": "official",
+    "citation": "日本FP協会 2級ファイナンシャル・プランニング技能検定実技試験（資産設計提案業務） 2024年5月実施",
+    "yearMonth": "2024-05",
+    "number": 39,
+    "url": "https://www.jafp.or.jp/exam/mohan/files/j2_202405_q.pdf",
+    "answerUrl": "https://www.jafp.or.jp/exam/mohan/files/j2_202405_a.pdf",
+    "modified": false
+   },
+   "lawBaseDate": "2023-10-01",
+   "stem": "裕子さんは、老齢年金の繰上げ受給を検討しており、ＦＰの飯田さんに質問をした。裕子さんの老齢基礎年金の繰上げ受給に関する次の記述のうち、最も不適切なものはどれか。",
+   "materials": [
+    {
+     "kind": "image",
+     "title": "共通の設例（原本PDFから切り出し）",
+     "src": "content-img/j2-202405-s10.png",
+     "alt": "複数の問題に共通する設例の画像",
+     "shared": true
+    },
+    {
+     "kind": "image",
+     "title": "問題・資料（原本PDFから切り出し）",
+     "src": "content-img/j2-202405-39.png",
+     "alt": "裕子さんは、老齢年金の繰上げ受給を検討しており、ＦＰの飯田さんに質問をした。裕子さんの老齢基礎年金の繰上げ受給に関する次の記述のうち、最も不適切なものはどれか。（問題文と資料の画像）",
+     "includesStem": true
+    }
+   ],
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "answer": "4",
+     "choices": [
+      {
+       "id": "1",
+       "text": "1"
+      },
+      {
+       "id": "2",
+       "text": "2"
+      },
+      {
+       "id": "3",
+       "text": "3"
+      },
+      {
+       "id": "4",
+       "text": "4"
+      }
+     ]
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified"
+  },
+  {
+   "id": "j2-202405-40",
+   "exam": "j2",
+   "field": "A",
+   "theme": "FPと関連法規",
+   "source": {
+    "kind": "official",
+    "citation": "日本FP協会 2級ファイナンシャル・プランニング技能検定実技試験（資産設計提案業務） 2024年5月実施",
+    "yearMonth": "2024-05",
+    "number": 40,
+    "url": "https://www.jafp.or.jp/exam/mohan/files/j2_202405_q.pdf",
+    "answerUrl": "https://www.jafp.or.jp/exam/mohan/files/j2_202405_a.pdf",
+    "modified": false
+   },
+   "lawBaseDate": "2023-10-01",
+   "stem": "雅之さんの妹の洋子さんは、２０２４年２月中に病気（私傷病）療養のため休業した日がある。ＦＰの飯田さんが下記＜資料＞に基づいて計算した洋子さんに支給される傷病手当金の額として、正しいものはどれか。なお、洋子さんは全国健康保険協会管掌健康保険（協会けんぽ）の被保険者であるものとする。また、記載のない事項については一切考慮しないものとする。",
+   "materials": [
+    {
+     "kind": "image",
+     "title": "共通の設例（原本PDFから切り出し）",
+     "src": "content-img/j2-202405-s10.png",
+     "alt": "複数の問題に共通する設例の画像",
+     "shared": true
+    },
+    {
+     "kind": "image",
+     "title": "問題・資料（原本PDFから切り出し）",
+     "src": "content-img/j2-202405-40.png",
+     "alt": "雅之さんの妹の洋子さんは、２０２４年２月中に病気（私傷病）療養のため休業した日がある。ＦＰの飯田さんが下記＜資料＞に基づいて計算した洋子さんに支給される傷病手当金の額として、正しいものはどれか。なお、洋子さんは全国健康保険協会管掌健康保険（協会けんぽ）の被保険者であるものとする。また、記載のない事項については一切考慮しないものとする。（問題文と資料の画像）",
+     "includesStem": true
+    }
+   ],
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "answer": "3",
+     "choices": [
+      {
+       "id": "1",
+       "text": "1"
+      },
+      {
+       "id": "2",
+       "text": "2"
+      },
+      {
+       "id": "3",
+       "text": "3"
+      },
+      {
+       "id": "4",
+       "text": "4"
+      }
+     ]
+    }
+   ],
+   "requiresCalculation": true,
+   "status": "verified",
+   "calcReason": "資料の数値から計算して選択肢を選ぶ（問題文の語句から判定）"
+  }
+ ]
+}

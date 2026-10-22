@@ -474,7 +474,7 @@
    "niwari-kasan"
   ],
   "explanation": {
-   "status": "verified",
+   "status": "draft",
    "short": "2割加算の対象は1親等の血族と配偶者以外。父母は1親等の血族なので対象外。不適切（×）。",
    "sources": [
     {
@@ -796,7 +796,7 @@
    "taishoku-shotoku-kojo"
   ],
   "explanation": {
-   "status": "verified",
+   "status": "draft",
    "short": "勤続20年超の退職所得控除額＝800万円＋70万円×（30年－20年）＝1,500万円。正解は2)。",
    "sources": [
     {
@@ -837,7 +837,7 @@
    "fuyo-kojo"
   ],
   "explanation": {
-   "status": "verified",
+   "status": "draft",
    "short": "特定扶養親族（19歳以上23歳未満）の扶養控除額は63万円。正解は3)。",
    "sources": [
     {
@@ -980,7 +980,7 @@
    "sozokuji-seisan"
   ],
   "explanation": {
-   "status": "verified",
+   "status": "draft",
    "short": "2024年以後の相続時精算課税は、年110万円の基礎控除と、特定贈与者ごとに累計2,500万円の特別控除がある。正解は3)。",
    "sources": [
     {
@@ -1003,7 +1003,7 @@
    "hotei-sozokubun"
   ],
   "explanation": {
-   "status": "verified",
+   "status": "draft",
    "short": "配偶者と兄弟姉妹が相続人の場合、兄弟姉妹全体で4分の1。兄と姉の2人で分けるので兄Eさんは8分の1。正解は3)。",
    "sources": [
     {
@@ -1058,7 +1058,7 @@
    "shokibo-takuchi"
   ],
   "explanation": {
-   "status": "verified",
+   "status": "draft",
    "short": "貸付事業用宅地等は200㎡まで50％減額。正解は1)。",
    "sources": [
     {

@@ -1361,7 +1361,7 @@
     "quote": "5パーセントから45パーセントの7段階に区分されています"
    }
   ],
-  "reviewStatus": "verified",
+  "reviewStatus": "draft",
   "checkedAt": "2026-10-21"
  },
  {
@@ -1391,7 +1391,7 @@
     "quote": "7,000,000円×0.23-636,000円=974,000円"
    }
   ],
-  "reviewStatus": "verified",
+  "reviewStatus": "draft",
   "checkedAt": "2026-10-21"
  },
  {
@@ -1425,7 +1425,7 @@
     "quote": "その所得金額の2分の1に相当する金額を給与所得などの他の所得の金額と合計"
    }
   ],
-  "reviewStatus": "verified",
+  "reviewStatus": "draft",
   "checkedAt": "2026-10-21",
   "formula": {
    "name": "一時所得",
@@ -1459,7 +1459,7 @@
     "quote": "給与所得、一時所得および雑所得の金額の計算上損失が生じることはありますが、その損失の金額は他の各種所得の金額から控除することはできません"
    }
   ],
-  "reviewStatus": "verified",
+  "reviewStatus": "draft",
   "checkedAt": "2026-10-21"
  },
  {
@@ -1489,7 +1489,7 @@
     "quote": "（収入金額（源泉徴収される前の金額）－退職所得控除額）×1／2＝退職所得の金額"
    }
   ],
-  "reviewStatus": "verified",
+  "reviewStatus": "draft",
   "checkedAt": "2026-10-21"
  },
  {
@@ -1519,7 +1519,7 @@
     "quote": "20年以下40万円×A(80万円に満たない場合には、80万円)20年超800万円＋70万円×(A-20年)"
    }
   ],
-  "reviewStatus": "verified",
+  "reviewStatus": "draft",
   "checkedAt": "2026-10-21"
  },
  {
@@ -1551,7 +1551,7 @@
     "quote": "その年の総所得金額等が200万円未満の人は、総所得金額等の5パーセントの金額"
    }
   ],
-  "reviewStatus": "verified",
+  "reviewStatus": "draft",
   "checkedAt": "2026-10-21"
  },
  {
@@ -1581,7 +1581,7 @@
     "quote": "基礎控除は、納税者本人の合計所得金額に応じてそれぞれ次のとおりとなります"
    }
   ],
-  "reviewStatus": "verified",
+  "reviewStatus": "draft",
   "checkedAt": "2026-10-21"
  },
  {
@@ -1611,7 +1611,7 @@
     "quote": "令和7年分給与等の収入金額(給与所得の源泉徴収票の支払金額)給与所得控除額1,900,000円まで650,000円"
    }
   ],
-  "reviewStatus": "verified",
+  "reviewStatus": "draft",
   "checkedAt": "2026-10-21"
  },
  {
@@ -1641,7 +1641,7 @@
     "quote": "900万円以下38万円48万円"
    }
   ],
-  "reviewStatus": "verified",
+  "reviewStatus": "draft",
   "checkedAt": "2026-10-21"
  },
  {
@@ -1675,7 +1675,7 @@
     "quote": "その年12月31日現在の年齢が19歳以上23歳未満の人"
    }
   ],
-  "reviewStatus": "verified",
+  "reviewStatus": "draft",
   "checkedAt": "2026-10-21"
  },
  {
@@ -1703,7 +1703,7 @@
     "quote": "この合計額が120,000円を超える場合には、生命保険料控除額は120,000円となります"
    }
   ],
-  "reviewStatus": "verified",
+  "reviewStatus": "draft",
   "checkedAt": "2026-10-21"
  },
  {
@@ -1733,7 +1733,7 @@
     "quote": "地震保険料50,000円以下支払金額の全額50,000円超一律50,000円"
    }
   ],
-  "reviewStatus": "verified",
+  "reviewStatus": "draft",
   "checkedAt": "2026-10-21"
  },
  {
@@ -1764,7 +1764,7 @@
     "quote": "控除できる金額は、その年に支払った掛金の全額です"
    }
   ],
-  "reviewStatus": "verified",
+  "reviewStatus": "draft",
   "checkedAt": "2026-10-21"
  },
  {
@@ -1792,7 +1792,7 @@
     "quote": "16日以後開業した場合や新たに事業専従者を有することとなった場合には、その日から2か月以内"
    }
   ],
-  "reviewStatus": "verified",
+  "reviewStatus": "draft",
   "checkedAt": "2026-10-21"
  },
  {
@@ -2007,7 +2007,7 @@
     "quote": "取得費が分からない場合には、売った金額の5パーセント相当額を取得費とすることができます"
    }
   ],
-  "reviewStatus": "verified",
+  "reviewStatus": "draft",
   "checkedAt": "2026-10-21"
  },
  {
@@ -2037,7 +2037,7 @@
     "quote": "所有期間の長短に関係なく譲渡所得から最高3,000万円まで控除ができる特例があります"
    }
   ],
-  "reviewStatus": "verified",
+  "reviewStatus": "draft",
   "checkedAt": "2026-10-21"
  },
  {
@@ -2145,7 +2145,7 @@
     "quote": "配偶者と兄弟姉妹が相続人である場合＞配偶者4分の3兄弟姉妹（2人以上のときは全員で）4分の1"
    }
   ],
-  "reviewStatus": "verified",
+  "reviewStatus": "draft",
   "checkedAt": "2026-10-21"
  },
  {
@@ -2283,7 +2283,7 @@
     "quote": "被相続人に実子がいる場合は、養子のうち1人までを法定相続人に含めます"
    }
   ],
-  "reviewStatus": "verified",
+  "reviewStatus": "draft",
   "checkedAt": "2026-10-21",
   "formula": {
    "name": "基礎控除額",
@@ -2321,7 +2321,7 @@
     "quote": "相続人以外の人が取得した死亡保険金には、非課税の適用はありません"
    }
   ],
-  "reviewStatus": "verified",
+  "reviewStatus": "draft",
   "checkedAt": "2026-10-21"
  },
  {
@@ -2349,7 +2349,7 @@
     "quote": "（1）1億6千万円（2）配偶者の法定相続分相当額"
    }
   ],
-  "reviewStatus": "verified",
+  "reviewStatus": "draft",
   "checkedAt": "2026-10-21"
  },
  {
@@ -2377,7 +2377,7 @@
     "quote": "その人の相続税額にその相続税額の2割に相当する金額が加算されます"
    }
   ],
-  "reviewStatus": "verified",
+  "reviewStatus": "draft",
   "checkedAt": "2026-10-21"
  },
  {
@@ -2413,7 +2413,7 @@
     "quote": "③貸付事業用宅地等に該当する宅地等20050％"
    }
   ],
-  "reviewStatus": "verified",
+  "reviewStatus": "draft",
   "checkedAt": "2026-10-21"
  },
  {
@@ -2443,7 +2443,7 @@
     "quote": "その合計額から基礎控除額110万円を差し引きます"
    }
   ],
-  "reviewStatus": "verified",
+  "reviewStatus": "draft",
   "checkedAt": "2026-10-21"
  },
  {
@@ -2473,7 +2473,7 @@
     "quote": "贈与を受けた年の1月1日において18歳（注）以上の者に限ります。）が、直系尊属（父母や祖父母など）から贈与により取得した財産"
    }
   ],
-  "reviewStatus": "verified",
+  "reviewStatus": "draft",
   "checkedAt": "2026-10-21"
  },
  {
@@ -2511,7 +2511,7 @@
     "quote": "一律20パーセントの税率を乗じて算出します"
    }
   ],
-  "reviewStatus": "verified",
+  "reviewStatus": "draft",
   "checkedAt": "2026-10-21"
  },
  {
@@ -2539,7 +2539,7 @@
     "quote": "基礎控除額110万円のほかに最高2,000万円まで控除（配偶者控除）できる"
    }
   ],
-  "reviewStatus": "verified",
+  "reviewStatus": "draft",
   "checkedAt": "2026-10-21"
  },
  {

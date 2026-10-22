@@ -124,6 +124,8 @@ export const MaterialSchema = z.discriminatedUnion('kind', [
     alt: z.string(),
     /** 画像に問題文も含まれている（原本PDFからの切り出し） */
     includesStem: z.boolean().optional(),
+    /** 複数の問題に共通する設例の画像（問題の画像より先に表示する） */
+    shared: z.boolean().optional(),
   }),
 ]);
 export type Material = z.infer<typeof MaterialSchema>;

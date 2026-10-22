@@ -1,0 +1,186 @@
+{
+ "reviewedAt": "2026-10-22",
+ "reviewer": "Claude（分野は問題内容から割当。計算判定は数値欄＋問題文の語句による。個別の目視確認は一部）",
+ "questions": {
+  "1": {
+   "field": "A",
+   "_reviewed": true
+  },
+  "2": {
+   "field": "A",
+   "_reviewed": true
+  },
+  "3": {
+   "field": "C",
+   "_reviewed": true,
+   "requiresCalculation": true,
+   "calcReason": "資料の数値から計算して選択肢を選ぶ（問題文の語句から判定）"
+  },
+  "4": {
+   "field": "C",
+   "_reviewed": true,
+   "requiresCalculation": true,
+   "calcReason": "資料の数値から計算して選択肢を選ぶ（問題文の語句から判定）"
+  },
+  "5": {
+   "field": "C",
+   "_reviewed": true,
+   "requiresCalculation": true,
+   "calcReason": "資料の数値から計算して選択肢を選ぶ（問題文の語句から判定）"
+  },
+  "6": {
+   "field": "C",
+   "_reviewed": true
+  },
+  "7": {
+   "field": "E",
+   "_reviewed": true
+  },
+  "8": {
+   "field": "E",
+   "_reviewed": true,
+   "requiresCalculation": true,
+   "calcReason": "資料の数値から計算して選択肢を選ぶ（問題文の語句から判定）"
+  },
+  "9": {
+   "field": "E",
+   "_reviewed": true
+  },
+  "10": {
+   "field": "E",
+   "_reviewed": true
+  },
+  "11": {
+   "field": "B",
+   "_reviewed": true
+  },
+  "12": {
+   "field": "B",
+   "_reviewed": true
+  },
+  "13": {
+   "field": "B",
+   "_reviewed": true
+  },
+  "14": {
+   "field": "B",
+   "_reviewed": true
+  },
+  "15": {
+   "field": "D",
+   "_reviewed": true
+  },
+  "16": {
+   "field": "D",
+   "_reviewed": true,
+   "requiresCalculation": true,
+   "calcReason": "資料の数値から計算して選択肢を選ぶ（問題文の語句から判定）"
+  },
+  "17": {
+   "field": "D",
+   "_reviewed": true
+  },
+  "18": {
+   "field": "B",
+   "_reviewed": true,
+   "requiresCalculation": true,
+   "calcReason": "資料の数値から計算して選択肢を選ぶ（問題文の語句から判定）"
+  },
+  "19": {
+   "field": "F",
+   "_reviewed": true
+  },
+  "20": {
+   "field": "F",
+   "_reviewed": true
+  },
+  "21": {
+   "field": "F",
+   "_reviewed": true,
+   "requiresCalculation": true,
+   "calcReason": "資料の数値から計算して選択肢を選ぶ（問題文の語句から判定）"
+  },
+  "22": {
+   "field": "F",
+   "_reviewed": true,
+   "requiresCalculation": true,
+   "calcReason": "資料の数値から計算して選択肢を選ぶ（問題文の語句から判定）"
+  },
+  "23": {
+   "field": "A",
+   "_reviewed": true
+  },
+  "24": {
+   "field": "A",
+   "_reviewed": true
+  },
+  "25": {
+   "field": "A",
+   "_reviewed": true
+  },
+  "26": {
+   "field": "A",
+   "_reviewed": true
+  },
+  "27": {
+   "field": "A",
+   "_reviewed": true
+  },
+  "28": {
+   "field": "A",
+   "_reviewed": true
+  },
+  "29": {
+   "field": "C",
+   "_reviewed": true
+  },
+  "30": {
+   "field": "E",
+   "_reviewed": true
+  },
+  "31": {
+   "field": "B",
+   "_reviewed": true
+  },
+  "32": {
+   "field": "A",
+   "_reviewed": true
+  },
+  "33": {
+   "field": "A",
+   "_reviewed": true
+  },
+  "34": {
+   "field": "A",
+   "_reviewed": true
+  },
+  "35": {
+   "field": "A",
+   "_reviewed": true
+  },
+  "36": {
+   "field": "D",
+   "_reviewed": true,
+   "requiresCalculation": true,
+   "calcReason": "資料の数値から計算して選択肢を選ぶ（問題文の語句から判定）"
+  },
+  "37": {
+   "field": "F",
+   "_reviewed": true
+  },
+  "38": {
+   "field": "C",
+   "_reviewed": true
+  },
+  "39": {
+   "field": "A",
+   "_reviewed": true,
+   "requiresCalculation": true,
+   "calcReason": "資料の数値から計算して選択肢を選ぶ（問題文の語句から判定）"
+  },
+  "40": {
+   "field": "A",
+   "_reviewed": true
+  }
+ }
+}
