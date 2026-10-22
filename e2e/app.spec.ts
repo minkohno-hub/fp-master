@@ -164,3 +164,12 @@ test('2級実技：複数の数値欄に入力して採点できる', async ({ p
   await page.getByRole('button', { name: '解答する' }).click();
   await expect(page.getByText(/^正解$/).first()).toBeVisible();
 });
+
+test('解説の「標準」で択一問題の選択肢と正解が確認できる／追加解説がないときはその旨を表示', async ({ page }) => {
+  await page.goto('./#/q/g2-202501-23');
+  await page.getByRole('button', { name: '解かずに正解と解説を見る' }).click();
+  await page.getByRole('button', { name: '標準' }).click();
+  await expect(page.getByRole('heading', { name: '選択肢の確認' })).toBeVisible();
+  await expect(page.getByText('← 正解')).toBeVisible();
+  await expect(page.getByText('最も不適切なもの').first()).toBeVisible();
+});
