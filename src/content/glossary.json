@@ -382,12 +382,25 @@
   ],
   "sources": [
    {
-    "title": "日本FP協会 試験範囲（試験要綱）",
-    "url": "https://www.jafp.or.jp/exam/outline/"
+    "title": "e-Gov法令検索 国民年金法",
+    "url": "https://laws.e-gov.go.jp/law/334AC0000000141"
    }
   ],
-  "evidence": [],
-  "reviewStatus": "draft",
+  "evidence": [
+   {
+    "url": "https://laws.e-gov.go.jp/law/334AC0000000141",
+    "quote": "日本国内に住所を有する二十歳以上六十歳未満の者であつて次号及び第三号のいずれにも該当しないもの"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/334AC0000000141",
+    "quote": "厚生年金保険の被保険者（以下「第二号被保険者」という。）"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/334AC0000000141",
+    "quote": "主として第二号被保険者の収入により生計を維持するもの（第二号被保険者である者その他この法律の適用を除外すべき特別の理由がある者として厚生労働省令で定める者を除く。以下「被扶養配偶者」という。）のうち二十歳以上六十歳未満のもの（以下「第三号被保険者」という。）"
+   }
+  ],
+  "reviewStatus": "verified",
   "checkedAt": "2026-10-21",
   "aliases": [
    "第1号被保険者",
@@ -412,12 +425,17 @@
   ],
   "sources": [
    {
-    "title": "日本FP協会 試験範囲（試験要綱）",
-    "url": "https://www.jafp.or.jp/exam/outline/"
+    "title": "e-Gov法令検索 健康保険法",
+    "url": "https://laws.e-gov.go.jp/law/211AC0000000070"
    }
   ],
-  "evidence": [],
-  "reviewStatus": "draft",
+  "evidence": [
+   {
+    "url": "https://laws.e-gov.go.jp/law/211AC0000000070",
+    "quote": "が著しく高額であるときは、その療養の給付又はその保険外併用療養費、療養費、訪問看護療養費、家族療養費若しくは家族訪問看護療養費の支給を受けた者に対し、高額療養費を支給する"
+   }
+  ],
+  "reviewStatus": "verified",
   "checkedAt": "2026-10-21"
  },
  {
@@ -437,12 +455,17 @@
   ],
   "sources": [
    {
-    "title": "日本FP協会 試験範囲（試験要綱）",
-    "url": "https://www.jafp.or.jp/exam/outline/"
+    "title": "e-Gov法令検索 健康保険法",
+    "url": "https://laws.e-gov.go.jp/law/211AC0000000070"
    }
   ],
-  "evidence": [],
-  "reviewStatus": "draft",
+  "evidence": [
+   {
+    "url": "https://laws.e-gov.go.jp/law/211AC0000000070",
+    "quote": "その労務に服することができなくなった日から起算して三日を経過した日から労務に服することができない期間、傷病手当金を支給する"
+   }
+  ],
+  "reviewStatus": "verified",
   "checkedAt": "2026-10-21"
  },
  {
@@ -487,12 +510,17 @@
   ],
   "sources": [
    {
-    "title": "日本FP協会 試験範囲（試験要綱）",
-    "url": "https://www.jafp.or.jp/exam/outline/"
+    "title": "e-Gov法令検索 確定拠出年金法",
+    "url": "https://laws.e-gov.go.jp/law/413AC0000000088"
    }
   ],
-  "evidence": [],
-  "reviewStatus": "draft",
+  "evidence": [
+   {
+    "url": "https://laws.e-gov.go.jp/law/413AC0000000088",
+    "quote": "個人又は事業主が拠出した資金を個人が自己の責任において運用の指図を行い、高齢期においてその結果に基づいた給付を受けることができるようにするため"
+   }
+  ],
+  "reviewStatus": "verified",
   "checkedAt": "2026-10-21",
   "aliases": [
    "iDeCo",
@@ -745,12 +773,25 @@
   ],
   "sources": [
    {
-    "title": "日本FP協会 試験範囲（試験要綱）",
-    "url": "https://www.jafp.or.jp/exam/outline/"
+    "title": "e-Gov法令検索 地震保険に関する法律",
+    "url": "https://laws.e-gov.go.jp/law/341AC0000000073"
+   },
+   {
+    "title": "日本損害保険協会 地震保険",
+    "url": "https://www.sonpo.or.jp/insurance/jishin/"
    }
   ],
-  "evidence": [],
-  "reviewStatus": "draft",
+  "evidence": [
+   {
+    "url": "https://laws.e-gov.go.jp/law/341AC0000000073",
+    "quote": "地震若しくは噴火又はこれらによる津波（以下「地震等」という。）を直接又は間接の原因とする火災、損壊、埋没又は流失による損害"
+   },
+   {
+    "url": "https://www.sonpo.or.jp/insurance/jishin/",
+    "quote": "地震保険は単独では契約できません。火災保険にセットして契約する必要があります"
+   }
+  ],
+  "reviewStatus": "verified",
   "checkedAt": "2026-10-21"
  },
  {
@@ -768,12 +809,21 @@
   ],
   "sources": [
    {
-    "title": "日本FP協会 試験範囲（試験要綱）",
-    "url": "https://www.jafp.or.jp/exam/outline/"
+    "title": "e-Gov法令検索 自動車損害賠償保障法",
+    "url": "https://laws.e-gov.go.jp/law/330AC0000000097"
    }
   ],
-  "evidence": [],
-  "reviewStatus": "draft",
+  "evidence": [
+   {
+    "url": "https://laws.e-gov.go.jp/law/330AC0000000097",
+    "quote": "自動車は、これについてこの法律で定める自動車損害賠償責任保険（以下「責任保険」という。）又は自動車損害賠償責任共済（以下「責任共済」という。）の契約が締結されているものでなければ、運行の用に供してはならない"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/330AC0000000097",
+    "quote": "自動車の運行によつて人の生命又は身体が害された場合における損害賠償を保障する制度を確立する"
+   }
+  ],
+  "reviewStatus": "verified",
   "checkedAt": "2026-10-21"
  },
  {
@@ -837,12 +887,17 @@
   ],
   "sources": [
    {
-    "title": "日本FP協会 試験範囲（試験要綱）",
-    "url": "https://www.jafp.or.jp/exam/outline/"
+    "title": "e-Gov法令検索 保険業法",
+    "url": "https://laws.e-gov.go.jp/law/407AC0000000105"
    }
   ],
-  "evidence": [],
-  "reviewStatus": "draft",
+  "evidence": [
+   {
+    "url": "https://laws.e-gov.go.jp/law/407AC0000000105",
+    "quote": "その保険契約の申込みの撤回又は解除（以下この条において「申込みの撤回等」という。）を行うことができる"
+   }
+  ],
+  "reviewStatus": "verified",
   "checkedAt": "2026-10-21"
  },
  {
@@ -1178,12 +1233,17 @@
   ],
   "sources": [
    {
-    "title": "日本FP協会 試験範囲（試験要綱）",
-    "url": "https://www.jafp.or.jp/exam/outline/"
+    "title": "e-Gov法令検索 預金保険法",
+    "url": "https://laws.e-gov.go.jp/law/346AC0000000034"
    }
   ],
-  "evidence": [],
-  "reviewStatus": "draft",
+  "evidence": [
+   {
+    "url": "https://laws.e-gov.go.jp/law/346AC0000000034",
+    "quote": "預金者等の保護及び破綻金融機関に係る資金決済の確保を図るため"
+   }
+  ],
+  "reviewStatus": "verified",
   "checkedAt": "2026-10-21"
  },
  {
@@ -1812,12 +1872,17 @@
   ],
   "sources": [
    {
-    "title": "日本FP協会 試験範囲（試験要綱）",
-    "url": "https://www.jafp.or.jp/exam/outline/"
+    "title": "e-Gov法令検索 建築基準法",
+    "url": "https://laws.e-gov.go.jp/law/325AC0000000201"
    }
   ],
-  "evidence": [],
-  "reviewStatus": "draft",
+  "evidence": [
+   {
+    "url": "https://laws.e-gov.go.jp/law/325AC0000000201",
+    "quote": "建築物の建築面積（同一敷地内に二以上の建築物がある場合においては、その建築面積の合計）の敷地面積に対する割合（以下「建蔽率」という。）"
+   }
+  ],
+  "reviewStatus": "verified",
   "checkedAt": "2026-10-21",
   "formula": {
    "name": "建築面積の上限",
@@ -1844,12 +1909,17 @@
   ],
   "sources": [
    {
-    "title": "日本FP協会 試験範囲（試験要綱）",
-    "url": "https://www.jafp.or.jp/exam/outline/"
+    "title": "e-Gov法令検索 建築基準法",
+    "url": "https://laws.e-gov.go.jp/law/325AC0000000201"
    }
   ],
-  "evidence": [],
-  "reviewStatus": "draft",
+  "evidence": [
+   {
+    "url": "https://laws.e-gov.go.jp/law/325AC0000000201",
+    "quote": "建築物の延べ面積の敷地面積に対する割合（以下「容積率」という。）"
+   }
+  ],
+  "reviewStatus": "verified",
   "checkedAt": "2026-10-21",
   "formula": {
    "name": "延べ面積の上限",
@@ -1873,12 +1943,21 @@
   ],
   "sources": [
    {
-    "title": "日本FP協会 試験範囲（試験要綱）",
-    "url": "https://www.jafp.or.jp/exam/outline/"
+    "title": "e-Gov法令検索 建築基準法",
+    "url": "https://laws.e-gov.go.jp/law/325AC0000000201"
    }
   ],
-  "evidence": [],
-  "reviewStatus": "draft",
+  "evidence": [
+   {
+    "url": "https://laws.e-gov.go.jp/law/325AC0000000201",
+    "quote": "建築物の敷地は、道路（次に掲げるものを除く。第四十四条第一項を除き、以下同じ。）に二メートル以上接しなければならない"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/325AC0000000201",
+    "quote": "「道路」とは、次の各号のいずれかに該当する幅員四メートル"
+   }
+  ],
+  "reviewStatus": "verified",
   "checkedAt": "2026-10-21"
  },
  {
@@ -1898,12 +1977,21 @@
   ],
   "sources": [
    {
-    "title": "日本FP協会 試験範囲（試験要綱）",
-    "url": "https://www.jafp.or.jp/exam/outline/"
+    "title": "e-Gov法令検索 借地借家法",
+    "url": "https://laws.e-gov.go.jp/law/403AC0000000090"
    }
   ],
-  "evidence": [],
-  "reviewStatus": "draft",
+  "evidence": [
+   {
+    "url": "https://laws.e-gov.go.jp/law/403AC0000000090",
+    "quote": "契約の更新（更新の請求及び土地の使用の継続によるものを含む。次条第一項において同じ。）及び建物の築造による存続期間の延長がなく"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/403AC0000000090",
+    "quote": "存続期間を五十年以上として借地権を設定する場合においては"
+   }
+  ],
+  "reviewStatus": "verified",
   "checkedAt": "2026-10-21"
  },
  {
@@ -1923,12 +2011,17 @@
   ],
   "sources": [
    {
-    "title": "日本FP協会 試験範囲（試験要綱）",
-    "url": "https://www.jafp.or.jp/exam/outline/"
+    "title": "e-Gov法令検索 借地借家法",
+    "url": "https://laws.e-gov.go.jp/law/403AC0000000090"
    }
   ],
-  "evidence": [],
-  "reviewStatus": "draft",
+  "evidence": [
+   {
+    "url": "https://laws.e-gov.go.jp/law/403AC0000000090",
+    "quote": "公正証書による等書面によって契約をするときに限り、第三十条の規定にかかわらず、契約の更新がないこととする旨を定めることができる。この場合には、第二十九条第一項の規定を適用しない"
+   }
+  ],
+  "reviewStatus": "verified",
   "checkedAt": "2026-10-21",
   "aliases": [
    "定期借家契約"
@@ -1949,12 +2042,17 @@
   ],
   "sources": [
    {
-    "title": "日本FP協会 試験範囲（試験要綱）",
-    "url": "https://www.jafp.or.jp/exam/outline/"
+    "title": "e-Gov法令検索 不動産登記法",
+    "url": "https://laws.e-gov.go.jp/law/416AC0000000123"
    }
   ],
-  "evidence": [],
-  "reviewStatus": "draft",
+  "evidence": [
+   {
+    "url": "https://laws.e-gov.go.jp/law/416AC0000000123",
+    "quote": "不動産の表示及び不動産に関する権利を公示するための登記に関する制度について定めることにより、国民の権利の保全を図り"
+   }
+  ],
+  "reviewStatus": "verified",
   "checkedAt": "2026-10-21"
  },
  {
@@ -2057,12 +2155,17 @@
   ],
   "sources": [
    {
-    "title": "日本FP協会 試験範囲（試験要綱）",
-    "url": "https://www.jafp.or.jp/exam/outline/"
+    "title": "e-Gov法令検索 租税特別措置法",
+    "url": "https://laws.e-gov.go.jp/law/332AC0000000026"
    }
   ],
-  "evidence": [],
-  "reviewStatus": "draft",
+  "evidence": [
+   {
+    "url": "https://laws.e-gov.go.jp/law/332AC0000000026",
+    "quote": "その年一月一日において所有期間が五年を超えるものの譲渡"
+   }
+  ],
+  "reviewStatus": "verified",
   "checkedAt": "2026-10-21"
  },
  {
@@ -2080,12 +2183,17 @@
   ],
   "sources": [
    {
-    "title": "日本FP協会 試験範囲（試験要綱）",
-    "url": "https://www.jafp.or.jp/exam/outline/"
+    "title": "e-Gov法令検索 民法",
+    "url": "https://laws.e-gov.go.jp/law/129AC0000000089"
    }
   ],
-  "evidence": [],
-  "reviewStatus": "draft",
+  "evidence": [
+   {
+    "url": "https://laws.e-gov.go.jp/law/129AC0000000089",
+    "quote": "買主はその手付を放棄し、売主はその倍額を現実に提供して、契約の解除をすることができる。ただし、その相手方が契約の履行に着手した後は、この限りでない"
+   }
+  ],
+  "reviewStatus": "verified",
   "checkedAt": "2026-10-21"
  },
  {
@@ -2108,10 +2216,19 @@
    {
     "title": "国税庁 No.4132 相続人の範囲と法定相続分",
     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4132.htm"
+   },
+   {
+    "title": "e-Gov法令検索 民法",
+    "url": "https://laws.e-gov.go.jp/law/129AC0000000089"
    }
   ],
-  "evidence": [],
-  "reviewStatus": "draft",
+  "evidence": [
+   {
+    "url": "https://laws.e-gov.go.jp/law/129AC0000000089",
+    "quote": "被相続人の配偶者は、常に相続人となる"
+   }
+  ],
+  "reviewStatus": "verified",
   "checkedAt": "2026-10-21"
  },
  {
@@ -2165,12 +2282,17 @@
   ],
   "sources": [
    {
-    "title": "日本FP協会 試験範囲（試験要綱）",
-    "url": "https://www.jafp.or.jp/exam/outline/"
+    "title": "e-Gov法令検索 民法",
+    "url": "https://laws.e-gov.go.jp/law/129AC0000000089"
    }
   ],
-  "evidence": [],
-  "reviewStatus": "draft",
+  "evidence": [
+   {
+    "url": "https://laws.e-gov.go.jp/law/129AC0000000089",
+    "quote": "被相続人の子が、相続の開始以前に死亡したとき、又は第八百九十一条の規定に該当し、若しくは廃除によって、その相続権を失ったときは、その者の子がこれを代襲して相続人となる"
+   }
+  ],
+  "reviewStatus": "verified",
   "checkedAt": "2026-10-21"
  },
  {
@@ -2190,12 +2312,21 @@
   ],
   "sources": [
    {
-    "title": "日本FP協会 試験範囲（試験要綱）",
-    "url": "https://www.jafp.or.jp/exam/outline/"
+    "title": "e-Gov法令検索 民法",
+    "url": "https://laws.e-gov.go.jp/law/129AC0000000089"
    }
   ],
-  "evidence": [],
-  "reviewStatus": "draft",
+  "evidence": [
+   {
+    "url": "https://laws.e-gov.go.jp/law/129AC0000000089",
+    "quote": "相続の放棄をした者は、その相続に関しては、初めから相続人とならなかったものとみなす"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/129AC0000000089",
+    "quote": "相続人は、相続によって得た財産の限度においてのみ被相続人の債務及び遺贈を弁済すべきことを留保して、相続の承認をすることができる"
+   }
+  ],
+  "reviewStatus": "verified",
   "checkedAt": "2026-10-21"
  },
  {
@@ -2215,12 +2346,17 @@
   ],
   "sources": [
    {
-    "title": "日本FP協会 試験範囲（試験要綱）",
-    "url": "https://www.jafp.or.jp/exam/outline/"
+    "title": "e-Gov法令検索 民法",
+    "url": "https://laws.e-gov.go.jp/law/129AC0000000089"
    }
   ],
-  "evidence": [],
-  "reviewStatus": "draft",
+  "evidence": [
+   {
+    "url": "https://laws.e-gov.go.jp/law/129AC0000000089",
+    "quote": "兄弟姉妹以外の相続人は、遺留分として"
+   }
+  ],
+  "reviewStatus": "verified",
   "checkedAt": "2026-10-21"
  },
  {
@@ -2240,12 +2376,17 @@
   ],
   "sources": [
    {
-    "title": "日本FP協会 試験範囲（試験要綱）",
-    "url": "https://www.jafp.or.jp/exam/outline/"
+    "title": "e-Gov法令検索 民法",
+    "url": "https://laws.e-gov.go.jp/law/129AC0000000089"
    }
   ],
-  "evidence": [],
-  "reviewStatus": "draft",
+  "evidence": [
+   {
+    "url": "https://laws.e-gov.go.jp/law/129AC0000000089",
+    "quote": "遺言は、遺言者の死亡の時からその効力を生ずる"
+   }
+  ],
+  "reviewStatus": "verified",
   "checkedAt": "2026-10-21",
   "aliases": [
    "公正証書遺言",
@@ -2557,12 +2698,17 @@
   ],
   "sources": [
    {
-    "title": "日本FP協会 試験範囲（試験要綱）",
-    "url": "https://www.jafp.or.jp/exam/outline/"
+    "title": "国税庁 財産評価基本通達（貸宅地・貸家建付地の評価）",
+    "url": "https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/02/05.htm"
    }
   ],
-  "evidence": [],
-  "reviewStatus": "draft",
+  "evidence": [
+   {
+    "url": "https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/02/05.htm",
+    "quote": "貸家（94≪借家権の評価≫に定める借家権の目的となっている家屋をいう。以下同じ。）の敷地の用に供されている宅地（以下「貸家建付地」という。）"
+   }
+  ],
+  "reviewStatus": "verified",
   "checkedAt": "2026-10-21",
   "formula": {
    "name": "貸家建付地",
@@ -2584,12 +2730,17 @@
   ],
   "sources": [
    {
-    "title": "日本FP協会 試験範囲（試験要綱）",
-    "url": "https://www.jafp.or.jp/exam/outline/"
+    "title": "国税庁 財産評価基本通達（上場株式の評価）",
+    "url": "https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/08/01.htm"
    }
   ],
-  "evidence": [],
-  "reviewStatus": "draft",
+  "evidence": [
+   {
+    "url": "https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/08/01.htm",
+    "quote": "その最終価格が課税時期の属する月以前3か月間の毎日の最終価格の各月ごとの平均額（以下「最終価格の月平均額」という。）のうち最も低い価額を超える場合には、その最も低い価額によって評価する"
+   }
+  ],
+  "reviewStatus": "verified",
   "checkedAt": "2026-10-21"
  }
 ]
