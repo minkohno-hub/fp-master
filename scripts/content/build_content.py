@@ -134,6 +134,8 @@ def main() -> None:
                 raise SystemExit(f'{e["id"]}: 用語 {t} が存在しません')
     (OUT / 'explanations.json').write_text(json.dumps({e['id']: {'terms': e['terms'], 'explanation': e['explanation']} for e in EXPLANATIONS},
                                                       ensure_ascii=False, indent=1) + '\n', encoding='utf-8')
+    # 問題IDごとの関連用語（小さなファイル）。解説本体（大きい）は画面表示時に遅延読み込みするため、用語との紐づけだけを別に持つ
+    (OUT / 'question-terms.json').write_text(json.dumps({e['id']: e['terms'] for e in EXPLANATIONS if e['terms']}, ensure_ascii=False, indent=1) + '\n', encoding='utf-8')
     (OUT / 'law-changes.json').write_text(json.dumps(LAW_CHANGES, ensure_ascii=False, indent=1) + '\n', encoding='utf-8')
     (OUT / 'cards.json').write_text(json.dumps(CARDS, ensure_ascii=False, indent=1) + '\n', encoding='utf-8')
     CHECK.write_text(json.dumps({'checkedAt': today if not offline else prev.get('checkedAt'), 'pages': pages, 'items': item_status, 'itemQuotes': item_quotes},

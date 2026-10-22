@@ -4,7 +4,7 @@ import { loadAllQuestionSets } from './index';
 import glossaryJson from './glossary.json';
 import cardsJson from './cards.json';
 import lawJson from './law-changes.json';
-import explanationsJson from './explanations.json';
+import questionTermsJson from './question-terms.json';
 
 export interface StudyCard {
   id: string;
@@ -32,8 +32,30 @@ export interface Content {
 export const TERMS = glossaryJson as unknown as Term[];
 export const FACT_CARDS = cardsJson as unknown as FactCard[];
 export const LAW_CHANGES = lawJson as unknown as LawChange[];
-/** 問題ID → 解説（問題データとは別ファイルで管理し、取り込みの再実行で消えないようにする） */
-export const EXPLANATIONS = explanationsJson as unknown as Record<string, { terms: string[]; explanation: NonNullable<Question['explanation']> }>;
+/** 問題ID → 関連用語 */
+const QUESTION_TERMS = questionTermsJson as unknown as Record<string, string[]>;
+
+export type ExplanationEntry = { terms: string[]; explanation: NonNullable<Question['explanation']> };
+let explanationsPromise: Promise<Record<string, ExplanationEntry>> | null = null;
+/** 解説本体（問題データとは別ファイル・サイズが大きい）は、解説を表示するときに初めて読み込む */
+export function loadExplanations(): Promise<Record<string, ExplanationEntry>> {
+  explanationsPromise ??= import('./explanations.json').then((m) => m.default as unknown as Record<string, ExplanationEntry>);
+  return explanationsPromise;
+}
+
+/** 問題の解説を取得する（読み込み中は undefined、解説がなければ null） */
+export function useExplanationEntry(id: string): ExplanationEntry | null | undefined {
+  const [map, setMap] = useState<Record<string, ExplanationEntry> | null>(null);
+  useEffect(() => {
+    let alive = true;
+    void loadExplanations().then((m) => alive && setMap(m));
+    return () => {
+      alive = false;
+    };
+  }, []);
+  if (!map) return undefined;
+  return map[id] ?? null;
+}
 
 export function buildCards(terms: Term[], facts: FactCard[]): StudyCard[] {
   return [
@@ -63,8 +85,8 @@ export function buildCards(terms: Term[], facts: FactCard[]): StudyCard[] {
 export function buildContent(sets: QuestionSet[]): Content {
   const questions = sets.flatMap((s) =>
     s.questions.map((q) => {
-      const e = EXPLANATIONS[q.id];
-      return e ? { ...q, explanation: e.explanation, terms: [...new Set([...(q.terms ?? []), ...e.terms])] } : q;
+      const t = QUESTION_TERMS[q.id];
+      return t ? { ...q, terms: [...new Set([...(q.terms ?? []), ...t])] } : q;
     }),
   );
   const lawByQuestion: Content['lawByQuestion'] = new Map();

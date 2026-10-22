@@ -3,14 +3,13 @@ import { Link } from 'react-router';
 import type { Question } from '../domain/types';
 import { formatAnswer } from '../domain/scoring';
 import type { ExplanationMode } from '../state/settings';
-import { useContent } from '../content/store';
+import { useContent, useExplanationEntry } from '../content/store';
 import { ReviewBadge, Tex } from './common';
 import { TermText } from './TermText';
 import { LawNotice, SourceLine } from './QuestionView';
 
 /** 標準・詳細モードで簡潔解説のほかに表示できる内容があるか */
-function hasExtra(q: Question, mode: ExplanationMode): boolean {
-  const e = q.explanation;
+function hasExtra(q: Question, e: Question['explanation'], mode: ExplanationMode): boolean {
   if (!e) return false;
   if (e.standard || e.whyCorrect || e.wrongChoices) return true;
   if (mode === 'detail' && (e.detail || e.example || e.formulas?.length || e.pitfalls || e.mnemonic || e.relatedQuestions?.length)) return true;
@@ -55,7 +54,8 @@ function ChoiceReview({ q }: { q: Question }) {
 export function Explanation({ q, initialMode }: { q: Question; initialMode: ExplanationMode }) {
   const [mode, setMode] = useState<ExplanationMode>(initialMode);
   const { questionById, terms } = useContent();
-  const e = q.explanation;
+  const entry = useExplanationEntry(q.id);
+  const e = entry?.explanation;
   const relatedTerms = terms.filter((t) => q.terms?.includes(t.id));
 
   return (
@@ -91,7 +91,7 @@ export function Explanation({ q, initialMode }: { q: Question; initialMode: Expl
                 </ul>
               </div>
             )}
-            {mode !== 'short' && !hasExtra(q, mode) && (
+            {mode !== 'short' && !hasExtra(q, e, mode) && (
               <p className="text-sm text-slate-600 dark:text-slate-400">
                 この問題の{mode === 'standard' ? '標準' : '詳細'}解説は準備中です。簡潔な解説と、下の根拠資料・関連用語を参照してください。
               </p>
@@ -167,6 +167,10 @@ export function Explanation({ q, initialMode }: { q: Question; initialMode: Expl
               ))}
             </div>
           </>
+        ) : entry === undefined ? (
+          <p className="text-sm text-slate-600 dark:text-slate-400" role="status">
+            解説を読み込み中…
+          </p>
         ) : (
           <p className="text-sm text-slate-600 dark:text-slate-400">この問題の解説は準備中です（根拠資料と照合した解説のみ掲載します）。</p>
         )}
