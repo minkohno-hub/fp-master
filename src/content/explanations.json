@@ -2,15 +2,20 @@
  "g3-202605-01": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "投資顧問契約に基づき投資助言・代理業を行うには、金融商品取引業者として内閣総理大臣の登録が必要。適切（〇）。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 金融商品取引法",
+     "url": "https://laws.e-gov.go.jp/law/323AC0000000025"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/323AC0000000025",
+     "quote": "金融商品取引業は、内閣総理大臣の登録を受けた者でなければ、行うことができない"
+    }
+   ],
    "lawBaseDate": "2025-04-01",
    "checkedAt": "2026-10-21",
    "pitfalls": "登録のないFPでも、一般的な経済情勢や商品の仕組みの説明は可能。個別具体的な投資判断の助言を業として行うことが規制対象。"
@@ -246,15 +251,24 @@
  "g3-202605-15": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "消費者契約法では、重要事項の不実告知により誤認して申込みをした消費者は、申込みを取り消すことができる。適切（〇）。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 消費者契約法",
+     "url": "https://laws.e-gov.go.jp/law/412AC0000000061"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/412AC0000000061",
+     "quote": "重要事項について事実と異なることを告げること。当該告げられた内容が事実であるとの誤認"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/412AC0000000061",
+     "quote": "申込み又はその承諾の意思表示をしたときは、これを取り消すことができる"
+    }
+   ],
    "lawBaseDate": "2025-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -278,15 +292,20 @@
  "g3-202605-17": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "公的年金等に係る雑所得の金額は、公的年金等の収入金額から公的年金等控除額を差し引いて計算する。適切（〇）。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 所得税法",
+     "url": "https://laws.e-gov.go.jp/law/340AC0000000033"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/340AC0000000033",
+     "quote": "公的年金等の収入金額から公的年金等控除額を控除した残額"
+    }
+   ],
    "lawBaseDate": "2025-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -294,15 +313,24 @@
  "g3-202605-18": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "総合課税の長期譲渡所得は、その2分の1相当額を他の所得と合計する。適切（〇）。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 所得税法",
+     "url": "https://laws.e-gov.go.jp/law/340AC0000000033"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/340AC0000000033",
+     "quote": "譲渡所得の金額（第三十三条第三項第二号に掲げる所得に係る部分の金額に限る。）"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/340AC0000000033",
+     "quote": "合計額の二分の一に相当する金額"
+    }
+   ],
    "lawBaseDate": "2025-04-01",
    "checkedAt": "2026-10-21",
    "pitfalls": "土地・建物や株式等の譲渡は分離課税であり、この2分の1の扱いはない。"
@@ -413,15 +441,20 @@
  "g3-202605-24": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "固定資産税は毎年1月1日現在の固定資産課税台帳の所有者に課される。不適切（×）。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 地方税法",
+     "url": "https://laws.e-gov.go.jp/law/325AC0000000226"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/325AC0000000226",
+     "quote": "固定資産税の賦課期日は、当該年度の初日の属する年の一月一日とする"
+    }
+   ],
    "lawBaseDate": "2025-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -662,15 +695,20 @@
  "g3-202605-36": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "保険金・保険料返還の請求権は、行使できる時から3年間行使しないと時効で消滅する（保険法）。正解は3)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 保険法",
+     "url": "https://laws.e-gov.go.jp/law/420AC0000000056"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/420AC0000000056",
+     "quote": "これらを行使することができる時から三年間行使しないときは、時効によって消滅する"
+    }
+   ],
    "lawBaseDate": "2025-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -832,15 +870,24 @@
    "yokin-hoken"
   ],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "決済用預金の3要件は「無利息・要求払い・決済サービスを提供できる」。正解は1)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 預金保険法",
+     "url": "https://laws.e-gov.go.jp/law/346AC0000000034"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/346AC0000000034",
+     "quote": "その契約又は取引慣行に基づき第六十九条の二第一項に規定する政令で定める取引に用いることができるものであること"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/346AC0000000034",
+     "quote": "その預金者がその払戻しをいつでも請求することができるものであること。三利息が付されていないものであること"
+    }
+   ],
    "lawBaseDate": "2025-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -873,15 +920,24 @@
    "shokibo-kyosai-kojo"
   ],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "iDeCoの掛金は小規模企業共済等掛金控除の対象。正解は3)。",
    "sources": [
     {
-     "title": "国税庁 No.1135 小規模企業共済等掛金控除",
-     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1135.htm"
+     "title": "e-Gov法令検索 所得税法",
+     "url": "https://laws.e-gov.go.jp/law/340AC0000000033"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/340AC0000000033",
+     "quote": "同法第五十五条第二項第四号（規約の承認）に規定する個人型年金加入者掛金"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/340AC0000000033",
+     "quote": "居住者が、各年において、小規模企業共済等掛金を支払つた場合には、その支払つた金額を、その者のその年分の総所得金額、退職所得金額又は山林所得金額から控除する"
+    }
+   ],
    "lawBaseDate": "2025-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -1015,15 +1071,20 @@
  "g3-202605-54": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "相続税の取得費加算の特例は、相続開始の翌日から相続税の申告期限の翌日以後3年を経過する日までの譲渡が対象。正解は3)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 租税特別措置法",
+     "url": "https://laws.e-gov.go.jp/law/332AC0000000026"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/332AC0000000026",
+     "quote": "の提出期限の翌日以後三年を経過する日までの間に当該相続税額に係る課税価格"
+    }
+   ],
    "lawBaseDate": "2025-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -1149,15 +1210,24 @@
  "g3-202505-01": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "税理士資格のない者は、無償であっても反復継続して確定申告書を作成すれば税理士法に抵触する。不適切（×）。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 税理士法",
+     "url": "https://laws.e-gov.go.jp/law/326AC1000000237"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/326AC1000000237",
+     "quote": "税理士又は税理士法人でない者は、この法律に別段の定めがある場合を除くほか、税理士業務を行つてはならない"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/326AC1000000237",
+     "quote": "税務書類の作成"
+    }
+   ],
    "lawBaseDate": "2024-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -1373,15 +1443,20 @@
  "g3-202505-15": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "特定事業者は取引記録を作成し、取引の日から7年間保存しなければならない。適切（〇）。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 犯罪による収益の移転防止に関する法律",
+     "url": "https://laws.e-gov.go.jp/law/419AC0000000022"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/419AC0000000022",
+     "quote": "七年間保存しなければならない"
+    }
+   ],
    "lawBaseDate": "2024-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -1389,15 +1464,20 @@
  "g3-202505-16": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "病気・けがによる入院給付金は非課税。適切（〇）。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 所得税法施行令",
+     "url": "https://laws.e-gov.go.jp/law/340CO0000000096"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/340CO0000000096",
+     "quote": "共済金で、身体の傷害に基因して支払を受けるもの"
+    }
+   ],
    "lawBaseDate": "2024-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -1913,15 +1993,28 @@
  "g3-202505-45": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "一般預金等は1金融機関ごとに元本1,000万円とその利息等まで保護される。正解は2)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 預金保険法施行令",
+     "url": "https://laws.e-gov.go.jp/law/346CO0000000111"
+    },
+    {
+     "title": "e-Gov法令検索 預金保険法",
+     "url": "https://laws.e-gov.go.jp/law/346AC0000000034"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/346CO0000000111",
+     "quote": "法第五十四条第二項に規定する政令で定める金額は、千万円とする"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/346AC0000000034",
+     "quote": "その他預金等」という。）当該その他預金等に係る債権のうち元本の額及び利息等の額の合算額"
+    }
+   ],
    "lawBaseDate": "2024-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -1954,15 +2047,20 @@
  "g3-202505-47": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "国民年金基金の掛金は社会保険料控除の対象。正解は2)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 所得税法",
+     "url": "https://laws.e-gov.go.jp/law/340AC0000000033"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/340AC0000000033",
+     "quote": "国民年金法の規定により被保険者として負担する国民年金の保険料及び国民年金基金の加入員として負担する掛金"
+    }
+   ],
    "lawBaseDate": "2024-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -1970,15 +2068,20 @@
  "g3-202505-48": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "地震保険料控除（所得税）は支払保険料の全額、最高5万円。正解は1)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 所得税法",
+     "url": "https://laws.e-gov.go.jp/law/340AC0000000033"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/340AC0000000033",
+     "quote": "その金額が五万円を超える場合には五万円とする。）を、その居住者のその年分の総所得金額、退職所得金額又は山林所得金額から控除する"
+    }
+   ],
    "lawBaseDate": "2024-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -2002,15 +2105,20 @@
  "g3-202505-50": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "1月16日以後に開業した場合、青色申告承認申請書は開業日から2カ月以内に提出する。正解は1)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 所得税法",
+     "url": "https://laws.e-gov.go.jp/law/340AC0000000033"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/340AC0000000033",
+     "quote": "その年三月十五日まで（その年一月十六日以後新たに同条に規定する業務を開始した場合には、その業務を開始した日から二月以内）"
+    }
+   ],
    "lawBaseDate": "2024-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -2435,15 +2543,20 @@
  "g3-202405-15": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "適合性の原則により、顧客の知識・経験・財産・目的に照らし不適当な勧誘は禁止される。適切（〇）。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 金融商品取引法",
+     "url": "https://laws.e-gov.go.jp/law/323AC0000000025"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/323AC0000000025",
+     "quote": "顧客の知識、経験、財産の状況及び金融商品取引契約を締結する目的に照らして不適当と認められる勧誘を行つて投資者の保護に欠けることとなつており"
+    }
+   ],
    "lawBaseDate": "2023-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -2978,15 +3091,20 @@
  "g3-202405-45": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "決済用預金は預入金額にかかわらず全額保護される。正解は2)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 預金保険法",
+     "url": "https://laws.e-gov.go.jp/law/346AC0000000034"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/346AC0000000034",
+     "quote": "決済用預金（他人の名義をもつて有するものその他の政令で定める決済用預金を除く。以下「支払対象決済用預金」という。）に係る保険金の額は"
+    }
+   ],
    "lawBaseDate": "2023-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -3026,15 +3144,24 @@
  "g3-202405-48": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "新制度の各控除は最高4万円で、3つ合わせて最高12万円。正解は1)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 所得税法",
+     "url": "https://laws.e-gov.go.jp/law/340AC0000000033"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/340AC0000000033",
+     "quote": "ハその年中に支払つた新生命保険料の金額の合計額が四万円を超え八万円以下である場合三万円と当該合計額から四万円を控除した金額の四分の一に相当する金額との合計額"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/340AC0000000033",
+     "quote": "合計額が十二万円を超える場合"
+    }
+   ],
    "lawBaseDate": "2023-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -3042,15 +3169,20 @@
  "g3-202405-49": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "住宅借入金等特別控除の対象となる借入金は、償還期間10年以上のもの。正解は1)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 租税特別措置法",
+     "url": "https://laws.e-gov.go.jp/law/332AC0000000026"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/332AC0000000026",
+     "quote": "契約において償還期間が十年以上の割賦償還の方法により返済することとされているもの"
+    }
+   ],
    "lawBaseDate": "2023-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -3141,15 +3273,20 @@
  "g3-202405-54": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "譲渡した年の1月1日における所有期間が5年を超えると長期譲渡所得。正解は1)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 租税特別措置法",
+     "url": "https://laws.e-gov.go.jp/law/332AC0000000026"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/332AC0000000026",
+     "quote": "その年一月一日において所有期間が五年を超えるものの譲渡"
+    }
+   ],
    "lawBaseDate": "2023-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -3157,15 +3294,20 @@
  "g3-202405-55": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "居住しなくなった日から3年を経過する日の属する年の12月31日までに譲渡する必要がある。正解は3)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 租税特別措置法",
+     "url": "https://laws.e-gov.go.jp/law/332AC0000000026"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/332AC0000000026",
+     "quote": "当該個人の居住の用に供されなくなつた日から同日以後三年を経過する日の属する年の十二月三十一日までの間に譲渡されるものに限る"
+    }
+   ],
    "lawBaseDate": "2023-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -3763,15 +3905,28 @@
  "g2-202605-32": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "金地金の売却は譲渡所得。1)退職所得、2)一時所得、3)土地の売却は譲渡所得。正解は4)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 所得税法",
+     "url": "https://laws.e-gov.go.jp/law/340AC0000000033"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/340AC0000000033",
+     "quote": "譲渡所得とは、資産の譲渡"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/340AC0000000033",
+     "quote": "一時所得とは、利子所得、配当所得、不動産所得、事業所得、給与所得、退職所得、山林所得及び譲渡所得以外の所得のうち、営利を目的とする継続的行為から生じた所得以外の一時の所得"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/340AC0000000033",
+     "quote": "退職所得とは、退職手当、一時恩給その他の退職により一時に受ける給与及びこれらの性質を有する給与"
+    }
+   ],
    "lawBaseDate": "2025-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -3827,15 +3982,24 @@
  "g2-202605-36": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "承認申請に対して12月31日までに処分がなければ、承認されたものとみなされる。1)3月15日、2)翌年3月15日、4)2カ月以内。正解は3)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 所得税法",
+     "url": "https://laws.e-gov.go.jp/law/340AC0000000033"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/340AC0000000033",
+     "quote": "その年三月十五日まで（その年一月十六日以後新たに同条に規定する業務を開始した場合には、その業務を開始した日から二月以内）"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/340AC0000000033",
+     "quote": "十二月三十一日（その年十一月一日以後新たに同条に規定する業務を開始した場合には、その年の翌年二月十五日）までにその申請につき承認又は却下の処分がなかつたときは、その日においてその承認があつたものとみなす"
+    }
+   ],
    "lawBaseDate": "2025-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -3843,15 +4007,20 @@
  "g2-202605-37": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "棚卸資産の評価換えによる増額部分は、原則として益金不算入。正解は4)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 法人税法",
+     "url": "https://laws.e-gov.go.jp/law/340AC0000000034"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/340AC0000000034",
+     "quote": "資産の評価換えをしてその帳簿価額を増額した場合には、その増額した部分の金額は、その内国法人の各事業年度の所得の金額の計算上、益金の額に算入しない"
+    }
+   ],
    "lawBaseDate": "2025-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -4119,15 +4288,20 @@
  "g2-202605-51": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "法人からの贈与で取得した財産は、贈与税ではなく所得税（一時所得等）の対象。正解は3)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "国税庁 No.4402 贈与税がかかる場合",
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/zoyo/4402.htm"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/zoyo/4402.htm",
+     "quote": "法人から贈与により財産を取得したときは、贈与税ではなく所得税がかかります"
+    }
+   ],
    "lawBaseDate": "2025-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -4135,15 +4309,20 @@
  "g2-202605-52": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "本控除の対象は居住用不動産または居住用不動産を取得するための金銭に限られる。正解は2)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "国税庁 No.4452 贈与税の配偶者控除",
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/zoyo/4452.htm"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/zoyo/4452.htm",
+     "quote": "配偶者から贈与された財産が、居住用不動産であることまたは居住用不動産を取得するための金銭であること"
+    }
+   ],
    "lawBaseDate": "2025-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -4292,15 +4471,20 @@
  "g2-202505-01": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "社会保険労務士でないFPが報酬を得て年金の裁定請求手続を代行することは社会保険労務士法に抵触する。正解は1)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 社会保険労務士法",
+     "url": "https://laws.e-gov.go.jp/law/343AC1000000089"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/343AC1000000089",
+     "quote": "社会保険労務士又は社会保険労務士法人でない者は、他人の求めに応じ報酬を得て、第二条第一項第一号から第二号までに掲げる事務を業として行つてはならない"
+    }
+   ],
    "lawBaseDate": "2024-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -4778,15 +4962,20 @@
  "g2-202505-30": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "決済用預金は預入額にかかわらず全額保護される。正解は2)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 預金保険法",
+     "url": "https://laws.e-gov.go.jp/law/346AC0000000034"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/346AC0000000034",
+     "quote": "決済用預金（他人の名義をもつて有するものその他の政令で定める決済用預金を除く。以下「支払対象決済用預金」という。）に係る保険金の額は"
+    }
+   ],
    "lawBaseDate": "2024-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -6364,15 +6553,20 @@
  "g2-202409-02": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "社会保険労務士でないFPが有償で年金の請求書作成・手続代行を行うことは社会保険労務士法に抵触する。正解は2)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 社会保険労務士法",
+     "url": "https://laws.e-gov.go.jp/law/343AC1000000089"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/343AC1000000089",
+     "quote": "社会保険労務士又は社会保険労務士法人でない者は、他人の求めに応じ報酬を得て、第二条第一項第一号から第二号までに掲げる事務を業として行つてはならない"
+    }
+   ],
    "lawBaseDate": "2024-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -6821,15 +7015,20 @@
  "g2-202409-30": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "顧客が損害賠償を請求する場合に推定されるのは元本欠損額で、払い込んだ元本の総額ではない。正解は4)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 金融サービスの提供及び利用環境の整備等に関する法律",
+     "url": "https://laws.e-gov.go.jp/law/412AC0000000101"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/412AC0000000101",
+     "quote": "元本欠損額は、金融商品販売業者等が重要事項について説明をしなかったこと又は断定的判断の提供等を行ったことによって当該顧客に生じた損害の額"
+    }
+   ],
    "lawBaseDate": "2024-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -6853,15 +7052,24 @@
  "g2-202409-32": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "事業資金で購入した株式の配当金も配当所得。正解は4)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 所得税法",
+     "url": "https://laws.e-gov.go.jp/law/340AC0000000033"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/340AC0000000033",
+     "quote": "配当所得とは、法人（法人税法第二条第六号（定義）に規定する公益法人等及び人格のない社団等を除く。）から受ける剰余金の配当"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/340AC0000000033",
+     "quote": "一時所得とは、利子所得、配当所得、不動産所得、事業所得、給与所得、退職所得、山林所得及び譲渡所得以外の所得のうち、営利を目的とする継続的行為から生じた所得以外の一時の所得"
+    }
+   ],
    "lawBaseDate": "2024-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -6949,15 +7157,20 @@
  "g2-202409-38": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "法人の消費税の確定申告期限は、原則として課税期間の末日の翌日から2カ月以内。正解は4)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 消費税法",
+     "url": "https://laws.e-gov.go.jp/law/363AC0000000108"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/363AC0000000108",
+     "quote": "課税期間の末日の翌日から二月以内"
+    }
+   ],
    "lawBaseDate": "2024-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -7169,15 +7382,20 @@
  "g2-202409-48": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "相続で取得した土地は被相続人の取得時期を引き継ぐ（相続登記の日ではない）。正解は1)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 所得税法",
+     "url": "https://laws.e-gov.go.jp/law/340AC0000000033"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/340AC0000000033",
+     "quote": "引き続きこれを所有していたものとみなす"
+    }
+   ],
    "lawBaseDate": "2024-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -7233,15 +7451,20 @@
  "g2-202409-52": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "婚姻期間20年以上は贈与の時点で判定する（贈与年の1月1日ではない）。正解は2)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "国税庁 No.4452 贈与税の配偶者控除",
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/zoyo/4452.htm"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/zoyo/4452.htm",
+     "quote": "夫婦の婚姻期間が20年を過ぎた後に贈与が行われたこと"
+    }
+   ],
    "lawBaseDate": "2024-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -7862,15 +8085,20 @@
  "g2-202405-31": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "非永住者以外の居住者は、国外で生じた所得も含めすべての所得に納税義務がある。正解は3)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 所得税法",
+     "url": "https://laws.e-gov.go.jp/law/340AC0000000033"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/340AC0000000033",
+     "quote": "非永住者以外の居住者全ての所得"
+    }
+   ],
    "lawBaseDate": "2023-10-01",
    "checkedAt": "2026-10-21"
   }
@@ -7878,15 +8106,24 @@
  "g2-202405-32": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "事業資金で購入した株式の配当金は配当所得（一時所得ではない）。正解は4)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 所得税法",
+     "url": "https://laws.e-gov.go.jp/law/340AC0000000033"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/340AC0000000033",
+     "quote": "配当所得とは、法人（法人税法第二条第六号（定義）に規定する公益法人等及び人格のない社団等を除く。）から受ける剰余金の配当"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/340AC0000000033",
+     "quote": "一時所得とは、利子所得、配当所得、不動産所得、事業所得、給与所得、退職所得、山林所得及び譲渡所得以外の所得のうち、営利を目的とする継続的行為から生じた所得以外の一時の所得"
+    }
+   ],
    "lawBaseDate": "2023-10-01",
    "checkedAt": "2026-10-21"
   }
@@ -8165,15 +8402,20 @@
  "g2-202405-48": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "居住しなくなってから3年を経過する日の属する年の12月31日までに譲渡すればよい（6カ月ではない）。正解は2)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 租税特別措置法",
+     "url": "https://laws.e-gov.go.jp/law/332AC0000000026"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/332AC0000000026",
+     "quote": "当該個人の居住の用に供されなくなつた日から同日以後三年を経過する日の属する年の十二月三十一日までの間に譲渡されるものに限る"
+    }
+   ],
    "lawBaseDate": "2023-10-01",
    "checkedAt": "2026-10-21"
   }
@@ -8229,15 +8471,24 @@
  "g2-202405-52": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "相続時精算課税の税率は一律20％。正解は1)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 相続税法",
+     "url": "https://laws.e-gov.go.jp/law/325AC0000000073"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/325AC0000000073",
+     "quote": "特定贈与者ごとに、第二十一条の十一の二第一項の規定による控除後の贈与税の課税価格"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/325AC0000000073",
+     "quote": "にそれぞれ百分の二十の税率を乗じて計算した金額とする"
+    }
+   ],
    "lawBaseDate": "2023-10-01",
    "checkedAt": "2026-10-21"
   }
@@ -8646,15 +8897,20 @@
  "j3-202605-15": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "課税所得＝760万円－90万円＝670万円。670万円×20％－427,500円＝912,500円。正解は3)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "国税庁 No.2260 所得税の税率",
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2260.htm"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2260.htm",
+     "quote": "3,300,000円から6,949,000円まで20％427,500円"
+    }
+   ],
    "lawBaseDate": "2025-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -8978,15 +9234,24 @@
  "j3-202505-13": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "新契約の一般の生命保険料62,880円は4万円超8万円以下なので×1/4＋20,000円＝35,720円。介護医療保険料28,800円は2万円超4万円以下なので×1/2＋10,000円＝24,400円。合計60,120円。正解は3)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 所得税法",
+     "url": "https://laws.e-gov.go.jp/law/340AC0000000033"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/340AC0000000033",
+     "quote": "ハその年中に支払つた新生命保険料の金額の合計額が四万円を超え八万円以下である場合三万円と当該合計額から四万円を控除した金額の四分の一に相当する金額との合計額"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/340AC0000000033",
+     "quote": "その年中に支払つた介護医療保険料の金額の合計額が二万円を超え四万円以下である場合二万円と当該合計額から二万円を控除した金額の二分の一に相当する金額との合計額"
+    }
+   ],
    "lawBaseDate": "2024-04-01",
    "checkedAt": "2026-10-21"
   }
