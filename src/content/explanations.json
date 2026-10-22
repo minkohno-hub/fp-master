@@ -1398,15 +1398,20 @@
  "g3-202505-20": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "納税者の合計所得金額が1,000万円を超えると配偶者控除は適用されない。適切（〇）。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "国税庁 No.1191 配偶者控除",
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1191.htm"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1191.htm",
+     "quote": "950万円超1,000万円以下13万円"
+    }
+   ],
    "lawBaseDate": "2024-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -1526,15 +1531,20 @@
  "g3-202505-28": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "死亡保険金の非課税限度額は「500万円×法定相続人の数」。不適切（×）。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "国税庁 No.4114 相続税の課税対象になる死亡保険金",
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4114.htm"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4114.htm",
+     "quote": "500万円×法定相続人の数＝非課税限度額"
+    }
+   ],
    "lawBaseDate": "2024-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -2002,15 +2012,24 @@
  "g3-202505-56": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "贈与税の配偶者控除は婚姻期間20年以上、最高2,000万円。正解は3)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "国税庁 No.4452 贈与税の配偶者控除",
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/zoyo/4452.htm"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/zoyo/4452.htm",
+     "quote": "基礎控除額110万円のほかに最高2,000万円まで控除（配偶者控除）できるという特例です"
+    },
+    {
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/zoyo/4452.htm",
+     "quote": "夫婦の婚姻期間が20年を過ぎた後に贈与が行われたこと"
+    }
+   ],
    "lawBaseDate": "2024-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -2535,15 +2554,20 @@
  "g3-202405-29": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "遺産に係る基礎控除額は3,000万円＋600万円×法定相続人の数。適切（〇）。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "国税庁 No.4152 相続税の計算",
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4152.htm"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4152.htm",
+     "quote": "基礎控除額（3,000万円＋600万円×法定相続人の数）"
+    }
+   ],
    "lawBaseDate": "2023-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -2996,15 +3020,20 @@
  "g3-202405-56": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "暦年課税の基礎控除は受贈者1人につき年110万円。複数から受けても110万円。正解は2)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "国税庁 No.4402 贈与税がかかる場合",
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/zoyo/4402.htm"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/zoyo/4402.htm",
+     "quote": "その年の1月1日から12月31日までの1年間に贈与を受けた財産の価額の合計額から暦年課税に係る基礎控除額110万円を差し引いた残りの額に対してかかります"
+    }
+   ],
    "lawBaseDate": "2023-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -3940,15 +3969,28 @@
  "g2-202605-55": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "法定相続人は妻B・実子C（放棄しても算入）・養子Dの3人。3,000万円＋600万円×3＝4,800万円。正解は2)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "国税庁 No.4152 相続税の計算",
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4152.htm"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4152.htm",
+     "quote": "基礎控除額（3,000万円＋600万円×法定相続人の数）"
+    },
+    {
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4152.htm",
+     "quote": "法定相続人の数は、相続の放棄をした人がいても、その放棄がなかったものとした場合の相続人の数をいいます"
+    },
+    {
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4152.htm",
+     "quote": "被相続人に実子がいる場合は、養子のうち1人までを法定相続人に含めます"
+    }
+   ],
    "lawBaseDate": "2025-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -4874,15 +4916,20 @@
  "g2-202505-52": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "暦年課税の基礎控除は受贈者1人につき年110万円。父母両方から受けても220万円にはならない。正解は1)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "国税庁 No.4402 贈与税がかかる場合",
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/zoyo/4402.htm"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/zoyo/4402.htm",
+     "quote": "その年の1月1日から12月31日までの1年間に贈与を受けた財産の価額の合計額から暦年課税に係る基礎控除額110万円を差し引いた残りの額に対してかかります"
+    }
+   ],
    "lawBaseDate": "2024-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -5867,15 +5914,20 @@
  "g2-202501-53": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "暦年課税の基礎控除は受贈者1人につき年110万円で、贈与者ごとではない。正解は1)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "国税庁 No.4402 贈与税がかかる場合",
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/zoyo/4402.htm"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/zoyo/4402.htm",
+     "quote": "その年の1月1日から12月31日までの1年間に贈与を受けた財産の価額の合計額から暦年課税に係る基礎控除額110万円を差し引いた残りの額に対してかかります"
+    }
+   ],
    "lawBaseDate": "2024-10-01",
    "checkedAt": "2026-10-21"
   }
@@ -8225,15 +8277,24 @@
  "j3-202605-19": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "法定相続人は配偶者と子3人の4人（放棄した桜子さんも数える）。3,000万円＋600万円×4＝5,400万円。正解は3)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "国税庁 No.4152 相続税の計算",
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4152.htm"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4152.htm",
+     "quote": "基礎控除額（3,000万円＋600万円×法定相続人の数）"
+    },
+    {
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4152.htm",
+     "quote": "法定相続人の数は、相続の放棄をした人がいても、その放棄がなかったものとした場合の相続人の数をいいます"
+    }
+   ],
    "lawBaseDate": "2025-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -8579,15 +8640,20 @@
  "j3-202505-19": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "死亡保険金の非課税限度額＝500万円×法定相続人の数4人（配偶者＋子3人）＝2,000万円。3,000万円－2,000万円＝1,000万円が課税価格に算入される。正解は2)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "国税庁 No.4114 相続税の課税対象になる死亡保険金",
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4114.htm"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4114.htm",
+     "quote": "500万円×法定相続人の数＝非課税限度額"
+    }
+   ],
    "lawBaseDate": "2024-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -10138,15 +10204,32 @@
  "j2-202505-26": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "小規模宅地等の特例の限度面積は、特定居住用宅地等が330㎡、貸付事業用宅地等が200㎡、特定事業用宅地等・特定同族会社事業用宅地等が400㎡。減額割合は特定事業用宅地等・特定同族会社事業用宅地等・特定居住用宅地等が80％、貸付事業用宅地等が50％。正解は3)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "国税庁 No.4124 小規模宅地等の特例",
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4124.htm"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4124.htm",
+     "quote": "①特定事業用宅地等に該当する宅地等40080％"
+    },
+    {
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4124.htm",
+     "quote": "②特定同族会社事業用宅地等に該当する宅地等40080％"
+    },
+    {
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4124.htm",
+     "quote": "③貸付事業用宅地等に該当する宅地等20050％"
+    },
+    {
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4124.htm",
+     "quote": "⑥特定居住用宅地等に該当する宅地等33080％"
+    }
+   ],
    "lawBaseDate": "2024-04-01",
    "checkedAt": "2026-10-21"
   }
