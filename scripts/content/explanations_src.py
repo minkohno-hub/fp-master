@@ -1161,6 +1161,10 @@ _EVID = {
     'g3-202505-20': ['haigu_1000'],
     'j2-202501-36': ['taishoku_f', 'taishoku_tbl', 'taishoku_round', 'taishoku_bunri', 'rate_23'],
 }
+from evidence_more import S_MORE, Q_MORE, EVID_MORE
+S.update(S_MORE)
+_Q.update(Q_MORE)
+_EVID.update(EVID_MORE)
 for _e in EXPLANATIONS:
     _keys = _EVID.get(_e['id'])
     if not _keys:

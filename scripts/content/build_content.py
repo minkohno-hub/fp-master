@@ -39,7 +39,14 @@ def page_text(raw: str) -> str:
     return re.sub(r'\s+', '', t)
 
 
+_EGOV = re.compile(r'^https://laws\.e-gov\.go\.jp/law/([0-9A-Za-z]+)$')
+
+
 def fetch(url: str) -> str | None:
+    # e-Gov法令検索の画面はJavaScript描画のため、同じ法令のXML（法令API）の本文で照合する
+    m = _EGOV.match(url)
+    if m:
+        url = f'https://laws.e-gov.go.jp/api/1/lawdata/{m.group(1)}'
     for i in range(3):
         try:
             req = urllib.request.Request(url, headers={'User-Agent': UA})
