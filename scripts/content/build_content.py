@@ -51,7 +51,11 @@ def fetch(url: str) -> str | None:
         try:
             req = urllib.request.Request(url, headers={'User-Agent': UA})
             with urllib.request.urlopen(req, timeout=30) as r:
-                return r.read().decode('utf-8', errors='replace')
+                raw = r.read()
+            try:
+                return raw.decode('utf-8')
+            except UnicodeDecodeError:
+                return raw.decode('cp932', errors='replace')  # 国税庁の通達ページなど
         except Exception:
             time.sleep(2 ** i)
     return None

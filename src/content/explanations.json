@@ -1154,15 +1154,20 @@
  "g3-202605-58": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "保険事故が発生していない生命保険契約に関する権利は、原則として解約返戻金の額で評価する。正解は1)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "国税庁 財産評価基本通達（生命保険契約に関する権利の評価）",
+     "url": "https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/08/08.htm"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/08/08.htm",
+     "quote": "まだ保険事故（共済事故を含む。この項において同じ。）が発生していない生命保険契約に関する権利の価額は、相続開始の時において当該契約を解約するとした場合に支払われることとなる解約返戻金の額"
+    }
+   ],
    "lawBaseDate": "2025-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -1170,15 +1175,28 @@
  "g3-202605-59": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "貸宅地（底地）の評価額＝自用地評価額×（1－借地権割合）＝1億円×（1－0.6）＝4,000万円。正解は1)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "国税庁 財産評価基本通達（貸宅地・貸家建付地の評価）",
+     "url": "https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/02/05.htm"
+    },
+    {
+     "title": "国税庁 財産評価基本通達（借地権の評価）",
+     "url": "https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/02/06.htm"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/02/05.htm",
+     "quote": "から27((借地権の評価))の定めにより評価したその借地権の価額"
+    },
+    {
+     "url": "https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/02/06.htm",
+     "quote": "借地権の価額は、その借地権の目的となっている宅地の自用地としての価額に、当該価額に対する借地権の売買実例価額、精通者意見価格、地代の額等を基として評定した借地権の価額の割合（以下「借地権割合」という。）がおおむね同一と認められる地域ごとに国税局長の定める割合を乗じて計算した金額によって評価する"
+    }
+   ],
    "lawBaseDate": "2025-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -1728,15 +1746,24 @@
  "g3-202505-29": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "配偶者の税額軽減は、法定相続分相当額と1億6,000万円のいずれか多い金額まで。不適切（×）。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "国税庁 No.4158 配偶者の税額の軽減",
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4158.htm"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4158.htm",
+     "quote": "次の金額のどちらか多い金額までは配偶者に相続税はかからないという制度です"
+    },
+    {
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4158.htm",
+     "quote": "（1）1億6千万円（2）配偶者の法定相続分相当額"
+    }
+   ],
    "lawBaseDate": "2024-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -2318,15 +2345,20 @@
  "g3-202505-60": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "特定事業用宅地等は400㎡まで80％減額。正解は3)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "国税庁 No.4124 小規模宅地等の特例",
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4124.htm"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4124.htm",
+     "quote": "①特定事業用宅地等に該当する宅地等40080％"
+    }
+   ],
    "lawBaseDate": "2024-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -2810,15 +2842,20 @@
  "g3-202405-28": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "香典返戻費用は葬式費用に含まれず、債務控除の対象とならない。不適切（×）。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "国税庁 No.4129 相続財産から控除できる葬式費用",
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4129.htm"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4129.htm",
+     "quote": "香典返しのためにかかった費用"
+    }
+   ],
    "lawBaseDate": "2023-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -2847,15 +2884,20 @@
  "g3-202405-30": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "相続税の申告書は被相続人の死亡時の住所地の所轄税務署長に提出する。適切（〇）。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "国税庁 No.4205 相続税の申告と納税",
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4205.htm"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4205.htm",
+     "quote": "被相続人の死亡の時における住所が日本国内にある場合は、被相続人の住所地を所轄する税務署です"
+    }
+   ],
    "lawBaseDate": "2023-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -3386,15 +3428,20 @@
  "g3-202405-58": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "上場株式は、死亡日の終値と死亡月・前月・前々月の月平均額のうち最も低い価額（540円）で評価する。正解は1)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "国税庁 財産評価基本通達（上場株式の評価）",
+     "url": "https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/08/01.htm"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/08/01.htm",
+     "quote": "その最終価格が課税時期の属する月以前3か月間の毎日の最終価格の各月ごとの平均額（以下「最終価格の月平均額」という。）のうち最も低い価額を超える場合には、その最も低い価額によって評価する"
+    }
+   ],
    "lawBaseDate": "2023-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -3418,15 +3465,20 @@
  "g3-202405-60": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "特定居住用宅地等は330㎡まで80％減額。正解は2)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "国税庁 No.4124 小規模宅地等の特例",
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4124.htm"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4124.htm",
+     "quote": "⑥特定居住用宅地等に該当する宅地等33080％"
+    }
+   ],
    "lawBaseDate": "2023-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -4437,15 +4489,20 @@
  "g2-202605-57": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "死亡日（4/7）の終値1,210円、4月平均1,240円、3月平均1,180円、2月平均1,150円のうち最も低い1,150円。正解は2)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "国税庁 財産評価基本通達（上場株式の評価）",
+     "url": "https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/08/01.htm"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/08/01.htm",
+     "quote": "その最終価格が課税時期の属する月以前3か月間の毎日の最終価格の各月ごとの平均額（以下「最終価格の月平均額」という。）のうち最も低い価額を超える場合には、その最も低い価額によって評価する"
+    }
+   ],
    "lawBaseDate": "2025-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -4469,15 +4526,28 @@
  "g2-202605-59": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "特定事業用400㎡・80％、特定居住用330㎡・80％、特定同族会社事業用400㎡・80％。正解は1)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "国税庁 No.4124 小規模宅地等の特例",
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4124.htm"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4124.htm",
+     "quote": "①特定事業用宅地等に該当する宅地等40080％"
+    },
+    {
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4124.htm",
+     "quote": "②特定同族会社事業用宅地等に該当する宅地等40080％"
+    },
+    {
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4124.htm",
+     "quote": "⑥特定居住用宅地等に該当する宅地等33080％"
+    }
+   ],
    "lawBaseDate": "2025-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -5456,15 +5526,24 @@
  "g2-202505-55": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "算入できる普通養子は、実子がいれば1人、いなければ2人まで。正解は4)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "国税庁 No.4152 相続税の計算",
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4152.htm"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4152.htm",
+     "quote": "被相続人に実子がいる場合は、養子のうち1人までを法定相続人に含めます"
+    },
+    {
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4152.htm",
+     "quote": "被相続人に実子がいない場合は、養子のうち2人までを法定相続人に含めます"
+    }
+   ],
    "lawBaseDate": "2024-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -5472,15 +5551,20 @@
  "g2-202505-56": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "相続税の申告書の提出先は被相続人の死亡時の住所地の所轄税務署長。正解は1)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "国税庁 No.4205 相続税の申告と納税",
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4205.htm"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4205.htm",
+     "quote": "被相続人の死亡の時における住所が日本国内にある場合は、被相続人の住所地を所轄する税務署です"
+    }
+   ],
    "lawBaseDate": "2024-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -8633,15 +8717,20 @@
  "g2-202405-58": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "自分の宅地上にアパートを建てて貸している場合は貸家建付地として評価する（貸宅地ではない）。正解は4)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "国税庁 財産評価基本通達（貸宅地・貸家建付地の評価）",
+     "url": "https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/02/05.htm"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/02/05.htm",
+     "quote": "貸家（94≪借家権の評価≫に定める借家権の目的となっている家屋をいう。以下同じ。）の敷地の用に供されている宅地（以下「貸家建付地」という。）"
+    }
+   ],
    "lawBaseDate": "2023-10-01",
    "checkedAt": "2026-10-21"
   }
@@ -9047,15 +9136,20 @@
  "j3-202605-20": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "特定居住用宅地等は330㎡まで80％減額。5,000万円×（1－0.8）＝1,000万円。正解は1)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "国税庁 No.4124 小規模宅地等の特例",
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4124.htm"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4124.htm",
+     "quote": "⑥特定居住用宅地等に該当する宅地等33080％"
+    }
+   ],
    "lawBaseDate": "2025-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -9437,15 +9531,20 @@
  "j3-202505-20": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "借地権の相続税評価額＝路線価240千円×180㎡（奥行価格補正率1.0）×借地権割合70％（記号C）＝30,240千円。正解は2)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "国税庁 財産評価基本通達（借地権の評価）",
+     "url": "https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/02/06.htm"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/02/06.htm",
+     "quote": "借地権の価額は、その借地権の目的となっている宅地の自用地としての価額に、当該価額に対する借地権の売買実例価額、精通者意見価格、地代の額等を基として評定した借地権の価額の割合（以下「借地権割合」という。）がおおむね同一と認められる地域ごとに国税局長の定める割合を乗じて計算した金額によって評価する"
+    }
+   ],
    "lawBaseDate": "2024-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -10656,15 +10755,20 @@
  "j2-202605-26": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "借地権の評価額＝自用地としての評価額×借地権割合。自用地評価額＝路線価300千円×奥行価格補正率1.00×面積500㎡＝150,000千円。借地権割合70％（記号C）なので150,000千円×70％＝105,000千円。正解は2)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "国税庁 財産評価基本通達（借地権の評価）",
+     "url": "https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/02/06.htm"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/02/06.htm",
+     "quote": "借地権の価額は、その借地権の目的となっている宅地の自用地としての価額に、当該価額に対する借地権の売買実例価額、精通者意見価格、地代の額等を基として評定した借地権の価額の割合（以下「借地権割合」という。）がおおむね同一と認められる地域ごとに国税局長の定める割合を乗じて計算した金額によって評価する"
+    }
+   ],
    "lawBaseDate": "2025-04-01",
    "checkedAt": "2026-10-21"
   }
