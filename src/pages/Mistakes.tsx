@@ -40,7 +40,7 @@ export function MistakesPage() {
           <ul className="space-y-2">
             {rows.map(({ q, s, wrong, note }) => (
               <li key={q!.id} className="card">
-                <div className="mb-1 flex items-center gap-2 text-xs text-slate-500">
+                <div className="mb-1 flex items-center gap-2 text-xs text-slate-600 dark:text-slate-400">
                   <FieldBadge field={q!.field} />
                   <span>{FIELDS[q!.field].short}／{q!.theme}</span>
                   <span className="ml-auto">

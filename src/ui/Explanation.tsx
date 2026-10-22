@@ -25,7 +25,7 @@ export function Explanation({ q, initialMode }: { q: Question; initialMode: Expl
           <h2 className="font-bold">正解：{q.parts.map((p) => formatAnswer(p)).join('／')}</h2>
           {e && <ReviewBadge status={e.status} />}
         </div>
-        {q.source.kind === 'official' && <p className="text-xs text-slate-500">正答は日本FP協会の公表解答と照合済みです。</p>}
+        {q.source.kind === 'official' && <p className="text-xs text-slate-600 dark:text-slate-400">正答は日本FP協会の公表解答と照合済みです。</p>}
         {e ? (
           <>
             <p className="leading-relaxed">
@@ -122,7 +122,7 @@ export function Explanation({ q, initialMode }: { q: Question; initialMode: Expl
             </div>
           </>
         ) : (
-          <p className="text-sm text-slate-500">この問題の解説は準備中です（根拠資料と照合した解説のみ掲載します）。</p>
+          <p className="text-sm text-slate-600 dark:text-slate-400">この問題の解説は準備中です（根拠資料と照合した解説のみ掲載します）。</p>
         )}
         {relatedTerms.length > 0 && (
           <div className="flex flex-wrap gap-2 pt-1">

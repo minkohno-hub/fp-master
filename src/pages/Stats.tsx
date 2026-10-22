@@ -82,7 +82,7 @@ export function StatsPage() {
         <h2 className="font-bold">合格到達度（目安）</h2>
         <p className="text-2xl font-bold">
           {readiness.label}
-          {readiness.score !== null && <span className="ml-2 text-base text-slate-500">到達度スコア {readiness.score}</span>}
+          {readiness.score !== null && <span className="ml-2 text-base text-slate-600 dark:text-slate-400">到達度スコア {readiness.score}</span>}
         </p>
         <ul className="list-disc pl-5 text-sm text-slate-600 dark:text-slate-300">
           {readiness.notes.map((n) => (
@@ -103,7 +103,7 @@ export function StatsPage() {
             <li key={f} className="text-sm">
               <div className="flex justify-between">
                 <span>{FIELDS[f].name}</span>
-                <span className="tabular-nums text-slate-500">
+                <span className="tabular-nums text-slate-600 dark:text-slate-400">
                   正答率 {pct(byField[f].rate)}・学習済み {pct(coverage[f])}
                 </span>
               </div>
@@ -123,7 +123,7 @@ export function StatsPage() {
                 <span>
                   {FIELDS[t.field].short}：{k.split('|')[1]}
                 </span>
-                <span className="tabular-nums text-slate-500">
+                <span className="tabular-nums text-slate-600 dark:text-slate-400">
                   {t.done}/{t.total}
                 </span>
               </li>
@@ -140,7 +140,7 @@ export function StatsPage() {
             format={(v) => `${Math.round(v)}`}
             label="模擬試験の得点推移"
           />
-          <p className="text-sm text-slate-500">合格基準：{EXAM_SPECS[exam].passScore}点</p>
+          <p className="text-sm text-slate-600 dark:text-slate-400">合格基準：{EXAM_SPECS[exam].passScore}点</p>
         </section>
       )}
     </div>

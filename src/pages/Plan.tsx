@@ -65,7 +65,7 @@ export function PlanPage() {
           <span className="label">受験予定日</span>
           <input type="date" className="input mt-1" value={f.examDate} min={today} onChange={(e) => setForm({ ...f, examDate: e.target.value })} />
           {f.examDate && (
-            <span className="mt-1 block text-xs text-slate-500">
+            <span className="mt-1 block text-xs text-slate-600 dark:text-slate-400">
               {lbd ? `適用される法令基準日：${lbd}（日本FP協会 試験日程より）` : '法令基準日が公表されていない期間です。'}
             </span>
           )}

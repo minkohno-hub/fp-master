@@ -55,7 +55,7 @@ export function HistoryPage() {
         <ul className="card divide-y divide-slate-100 p-0 text-sm dark:divide-slate-800">
           {rows.slice(0, limit).map(({ a, title }) => (
             <li key={a.id} className="px-4 py-2">
-              <div className="flex justify-between text-xs text-slate-500">
+              <div className="flex justify-between text-xs text-slate-600 dark:text-slate-400">
                 <span>{new Date(a.at).toLocaleString('ja-JP')}</span>
                 <span className={a.correct ? 'text-emerald-700' : 'text-rose-700'}>
                   {a.correct ? (a.unsure ? '○（自信なし）' : '○') : '×'}

@@ -85,7 +85,7 @@ export function Layout() {
                   to={n.to}
                   end={n.to === '/'}
                   className={({ isActive }) =>
-                    `flex min-h-14 flex-col items-center justify-center text-xs ${isActive ? 'font-bold text-brand-700 dark:text-brand-200' : 'text-slate-500 dark:text-slate-400'}`
+                    `flex min-h-14 flex-col items-center justify-center text-xs ${isActive ? 'font-bold text-brand-700 dark:text-brand-200' : 'text-slate-600 dark:text-slate-400'}`
                   }
                 >
                   <span aria-hidden className="text-lg leading-none">
@@ -122,7 +122,7 @@ export function Segmented({
           role="radio"
           aria-checked={value === o.value}
           onClick={() => onChange(o.value)}
-          className={`min-h-9 min-w-11 rounded-md px-2 text-sm font-semibold ${value === o.value ? 'bg-white text-brand-700 shadow-sm dark:bg-slate-950 dark:text-brand-200' : 'text-slate-500 dark:text-slate-400'}`}
+          className={`min-h-9 min-w-11 rounded-md px-2 text-sm font-semibold ${value === o.value ? 'bg-white text-brand-700 shadow-sm dark:bg-slate-950 dark:text-brand-200' : 'text-slate-600 dark:text-slate-400'}`}
         >
           {o.label}
         </button>
@@ -135,7 +135,7 @@ export function PageTitle({ children, sub }: { children: ReactNode; sub?: ReactN
   return (
     <div className="mb-4">
       <h1 className="text-xl font-bold">{children}</h1>
-      {sub && <p className="mt-1 text-sm text-slate-500 dark:text-slate-400">{sub}</p>}
+      {sub && <p className="mt-1 text-sm text-slate-600 dark:text-slate-400">{sub}</p>}
     </div>
   );
 }

@@ -86,10 +86,10 @@ export function SessionPage() {
       <div className="pb-28">
         <div className="sticky top-0 z-10 -mx-4 bg-slate-50/95 px-4 pb-2 pt-3 backdrop-blur dark:bg-slate-950/95">
           <div className="mb-2 flex items-center justify-between">
-            <button onClick={quit} className="min-h-10 px-1 text-sm text-slate-500" aria-label="中断して戻る（続きから再開できます）">
+            <button onClick={quit} className="min-h-10 px-1 text-sm text-slate-600 dark:text-slate-400" aria-label="中断して戻る（続きから再開できます）">
               ← 中断
             </button>
-            <span className="text-sm text-slate-500">{s.title}</span>
+            <span className="text-sm text-slate-600 dark:text-slate-400">{s.title}</span>
           </div>
           <ProgressBar value={s.index + (result ? 1 : 0)} max={total} label="進み具合" />
         </div>
@@ -150,11 +150,11 @@ export function SessionResultPage() {
   return (
     <div className="space-y-4">
       <div className="card text-center">
-        <p className="text-sm text-slate-500">{s.title}</p>
+        <p className="text-sm text-slate-600 dark:text-slate-400">{s.title}</p>
         <p className="mt-2 text-4xl font-bold tabular-nums">
           {correct.length} / {answered.length}
         </p>
-        <p className="text-slate-500">正答率 {pct(rate)}</p>
+        <p className="text-slate-600 dark:text-slate-400">正答率 {pct(rate)}</p>
         {unsure.length > 0 && <p className="mt-1 text-sm text-amber-700 dark:text-amber-300">自信なしの正解：{unsure.length}問（復習予定に入りました）</p>}
       </div>
       {wrong.length > 0 && (

@@ -72,7 +72,7 @@ export function DataPage() {
       )}
       <section className="card space-y-2">
         <h2 className="font-bold">バックアップ</h2>
-        <p className="text-sm text-slate-500">
+        <p className="text-sm text-slate-600 dark:text-slate-400">
           解答履歴 {counts?.attempts ?? 0}件。別の端末へ移すときや、念のための保存に使います。
           {persisted === false && ' この端末ではストレージの永続化が許可されていないため、定期的なバックアップをおすすめします。'}
         </p>
@@ -95,7 +95,7 @@ export function DataPage() {
                 <p>作成日時：{inspection.exportedAt ? new Date(inspection.exportedAt).toLocaleString('ja-JP') : '—'}（形式 v{inspection.schemaVersion}）</p>
                 <table className="w-full">
                   <thead>
-                    <tr className="text-left text-slate-500">
+                    <tr className="text-left text-slate-600 dark:text-slate-400">
                       <th>データ</th>
                       <th className="text-right">件数</th>
                       <th className="text-right">既存と重複</th>
@@ -122,7 +122,7 @@ export function DataPage() {
                 <button className="btn-primary w-full" onClick={doRestore}>
                   復元する
                 </button>
-                <p className="text-xs text-slate-500">復元は一括で行い、途中で失敗した場合は元の状態に戻ります。</p>
+                <p className="text-xs text-slate-600 dark:text-slate-400">復元は一括で行い、途中で失敗した場合は元の状態に戻ります。</p>
               </>
             )}
           </div>
@@ -143,7 +143,7 @@ export function DataPage() {
                     </Link>
                     <p>{r.text}</p>
                   </div>
-                  <button className="min-h-10 shrink-0 px-2 text-xs text-slate-500" onClick={() => db.reports.delete(r.id!)}>
+                  <button className="min-h-10 shrink-0 px-2 text-xs text-slate-600 dark:text-slate-400" onClick={() => db.reports.delete(r.id!)}>
                     削除
                   </button>
                 </li>

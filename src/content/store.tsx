@@ -106,7 +106,7 @@ export function ContentProvider({ children }: { children: ReactNode }) {
   }
   if (!content) {
     return (
-      <div className="flex min-h-dvh items-center justify-center text-slate-500" role="status">
+      <div className="flex min-h-dvh items-center justify-center text-slate-600 dark:text-slate-400" role="status">
         読み込み中…
       </div>
     );

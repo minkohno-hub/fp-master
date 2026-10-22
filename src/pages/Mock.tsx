@@ -57,7 +57,7 @@ export function MockHomePage() {
           試験時間 {spec.minutes}分／{spec.questionCount}問／{spec.format}／合格基準 {spec.passScore}点以上（{spec.maxScore}点満点）
         </p>
         {!spec.pointsOfficial && <p className="mt-1 text-amber-700 dark:text-amber-300">※1問あたりの配点は公表されていないため、本アプリでは均等配点（1問{spec.pointsPerQuestion}点）で採点します（独自仕様）。</p>}
-        <p className="mt-1 text-xs text-slate-500">出典：日本FP協会 試験要綱（2026年10月確認）</p>
+        <p className="mt-1 text-xs text-slate-600 dark:text-slate-400">出典：日本FP協会 試験要綱（2026年10月確認）</p>
       </section>
 
       {examSets.length === 0 ? (
@@ -76,7 +76,7 @@ export function MockHomePage() {
               return (
                 <button key={s.id} className="btn-secondary w-full justify-between" onClick={() => setPreview({ title: s.title, build })}>
                   <span>{s.title}</span>
-                  <span className="text-sm text-slate-500">{build.questions.length}問</span>
+                  <span className="text-sm text-slate-600 dark:text-slate-400">{build.questions.length}問</span>
                 </button>
               );
             })}
@@ -221,7 +221,7 @@ export function MockRunPage() {
       <div className="pb-28">
         <div className="sticky top-0 z-10 -mx-4 bg-slate-50/95 px-4 pb-2 pt-3 backdrop-blur dark:bg-slate-950/95">
           <div className="mb-2 flex items-center justify-between text-sm">
-            <button className="min-h-10 px-1 text-slate-500" onClick={() => nav('/mock')}>
+            <button className="min-h-10 px-1 text-slate-600 dark:text-slate-400" onClick={() => nav('/mock')}>
               ← 中断
             </button>
             <span className={`font-mono text-base font-bold tabular-nums ${remaining !== null && remaining < 300 ? 'text-rose-700' : ''}`} aria-label="残り時間" role="timer">
@@ -322,19 +322,19 @@ export function MockResultPage() {
   return (
     <div className="space-y-4">
       <div className="card text-center">
-        <p className="text-sm text-slate-500">{r.title}</p>
+        <p className="text-sm text-slate-600 dark:text-slate-400">{r.title}</p>
         <p className="mt-2 text-4xl font-bold tabular-nums">
-          {r.score} <span className="text-lg text-slate-500">/ {r.max}点</span>
+          {r.score} <span className="text-lg text-slate-600 dark:text-slate-400">/ {r.max}点</span>
         </p>
         <p className={`mt-1 font-semibold ${r.passed ? 'text-emerald-700 dark:text-emerald-300' : 'text-rose-700 dark:text-rose-300'}`}>
           合格基準（{r.pass}点）{r.passed ? 'に到達' : `まであと${Math.round((r.pass - r.score) * 10) / 10}点`}
         </p>
-        <p className="text-sm text-slate-500">
+        <p className="text-sm text-slate-600 dark:text-slate-400">
           正解 {r.correctCount}/{r.total}問・所要 {Math.round(r.elapsedSec / 60)}分
         </p>
         {last && <p className="mt-1 text-sm">前回比：{r.score - last.score >= 0 ? '+' : ''}{Math.round((r.score - last.score) * 10) / 10}点</p>}
         {!r.complete && <p className="mt-2 text-xs text-amber-700 dark:text-amber-300">本試験と同じ問題数ではないため、得点は満点換算の参考値です。</p>}
-        {!spec.pointsOfficial && <p className="text-xs text-slate-500">配点は均等配点の独自仕様です。</p>}
+        {!spec.pointsOfficial && <p className="text-xs text-slate-600 dark:text-slate-400">配点は均等配点の独自仕様です。</p>}
       </div>
       <section className="card">
         <h2 className="mb-2 font-bold">分野別の成績</h2>

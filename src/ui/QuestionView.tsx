@@ -12,13 +12,13 @@ import { useCurrentLawBaseDate } from './hooks';
 export function SourceLine({ q }: { q: Question }) {
   if (q.source.kind === 'official') {
     return (
-      <p className="text-xs text-slate-500 dark:text-slate-400">
+      <p className="text-xs text-slate-600 dark:text-slate-400">
         出典：{q.source.citation} 問{q.source.number}
         {q.source.modified && '（加工して作成）'}
       </p>
     );
   }
-  return <p className="text-xs text-slate-500 dark:text-slate-400">オリジナル問題（FP Master作成・公式問題ではありません）</p>;
+  return <p className="text-xs text-slate-600 dark:text-slate-400">オリジナル問題（FP Master作成・公式問題ではありません）</p>;
 }
 
 export function LawNotice({ q }: { q: Question }) {
@@ -49,7 +49,7 @@ export function LawNotice({ q }: { q: Question }) {
 
 export function QuestionHeader({ q, index, total }: { q: Question; index?: number; total?: number }) {
   return (
-    <div className="mb-2 flex flex-wrap items-center gap-2 text-sm text-slate-500 dark:text-slate-400">
+    <div className="mb-2 flex flex-wrap items-center gap-2 text-sm text-slate-600 dark:text-slate-400">
       {index !== undefined && total !== undefined && (
         <span className="font-semibold tabular-nums text-slate-700 dark:text-slate-200">
           {index + 1} / {total}
@@ -59,7 +59,7 @@ export function QuestionHeader({ q, index, total }: { q: Question; index?: numbe
       <span>{q.theme}</span>
       <span className="text-xs">{EXAM_SPECS[q.exam].shortLabel}</span>
       {q.source.kind === 'original' && <span className="badge bg-indigo-100 text-indigo-800 dark:bg-indigo-900/50 dark:text-indigo-200">オリジナル</span>}
-      {q.requiresCalculation && <span className="badge bg-slate-200 dark:bg-slate-700">計算</span>}
+      {q.requiresCalculation && <span className="badge bg-slate-200 text-slate-800 dark:bg-slate-700 dark:text-slate-100">計算</span>}
     </div>
   );
 }
@@ -73,7 +73,7 @@ export function Stem({ q }: { q: Question }) {
         m.kind === 'image' ? (
           <figure key={`shared-${i}`}>
             <img src={`${import.meta.env.BASE_URL}${m.src}`} alt={m.alt} className="w-full rounded-lg border border-slate-200 bg-white dark:border-slate-700" loading="lazy" />
-            <figcaption className="mt-1 text-xs text-slate-500">{m.title}</figcaption>
+            <figcaption className="mt-1 text-xs text-slate-600 dark:text-slate-400">{m.title}</figcaption>
           </figure>
         ) : null,
       )}
@@ -82,7 +82,7 @@ export function Stem({ q }: { q: Question }) {
           <p className="sr-only">{q.stem}</p>
           <figure>
             <img src={`${import.meta.env.BASE_URL}${img.src}`} alt={img.alt} className="w-full rounded-lg border border-slate-200 bg-white dark:border-slate-700" loading="lazy" />
-            <figcaption className="mt-1 text-xs text-slate-500">{img.title}</figcaption>
+            <figcaption className="mt-1 text-xs text-slate-600 dark:text-slate-400">{img.title}</figcaption>
           </figure>
         </>
       ) : (
@@ -208,7 +208,7 @@ function PartInput({
                 className={`flex min-h-20 flex-col items-center justify-center rounded-2xl border-2 text-3xl font-bold ${style(selected, part.answer === o.v)}`}
               >
                 {o.label}
-                <span className="text-xs font-normal text-slate-500">{o.sub}</span>
+                <span className="text-xs font-normal text-slate-600 dark:text-slate-400">{o.sub}</span>
               </button>
             );
           })}

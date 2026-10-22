@@ -29,7 +29,7 @@ export function HomePage() {
       <section className="card space-y-3">
         <div className="flex items-baseline justify-between">
           <h1 className="text-lg font-bold">{spec.label}</h1>
-          {d.daysToExam !== null && d.daysToExam >= 0 && <span className="text-sm text-slate-500">受験日まで あと{d.daysToExam}日</span>}
+          {d.daysToExam !== null && d.daysToExam >= 0 && <span className="text-sm text-slate-600 dark:text-slate-400">受験日まで あと{d.daysToExam}日</span>}
         </div>
         <div>
           <div className="mb-1 flex justify-between text-sm">
@@ -74,7 +74,7 @@ export function HomePage() {
                   <div className="flex-1">
                     <ProgressBar value={Math.round((d.byField[f].rate ?? 0) * 100)} max={100} label={`${FIELDS[f].name}の正答率`} />
                   </div>
-                  <span className="w-20 text-right tabular-nums text-slate-500">
+                  <span className="w-20 text-right tabular-nums text-slate-600 dark:text-slate-400">
                     {pct(d.byField[f].rate)}（{d.byField[f].attempts}）
                   </span>
                 </li>

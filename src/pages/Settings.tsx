@@ -8,7 +8,7 @@ export function SettingsPage() {
     <div className="flex min-h-14 items-center justify-between gap-3 border-b border-slate-100 py-2 last:border-0 dark:border-slate-800">
       <div>
         <div className="font-medium">{title}</div>
-        {desc && <div className="text-xs text-slate-500">{desc}</div>}
+        {desc && <div className="text-xs text-slate-600 dark:text-slate-400">{desc}</div>}
       </div>
       <div className="shrink-0">{children}</div>
     </div>

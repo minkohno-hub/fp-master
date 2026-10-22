@@ -69,7 +69,7 @@ export function CardsHomePage() {
           ))}
         </div>
       </section>
-      <p className="text-sm text-slate-500">カードをタップすると裏返ります。右にスワイプ＝覚えた、左にスワイプ＝覚えていない。</p>
+      <p className="text-sm text-slate-600 dark:text-slate-400">カードをタップすると裏返ります。右にスワイプ＝覚えた、左にスワイプ＝覚えていない。</p>
     </div>
   );
 }
@@ -150,7 +150,7 @@ export function CardsRunPage() {
 
   return (
     <div className="flex min-h-[calc(100dvh-2rem)] flex-col gap-4 pt-3">
-      <div className="flex items-center justify-between text-sm text-slate-500">
+      <div className="flex items-center justify-between text-sm text-slate-600 dark:text-slate-400">
         <Link to="/cards" className="min-h-10 px-1">
           ← 終了
         </Link>
@@ -174,7 +174,7 @@ export function CardsRunPage() {
         style={{ transform: `translateX(${dx}px) rotate(${dx / 30}deg)` }}
         className="card flex min-h-72 flex-1 touch-pan-y flex-col items-center justify-center gap-3 p-6 text-center"
       >
-        <span className="text-xs text-slate-500">
+        <span className="text-xs text-slate-600 dark:text-slate-400">
           {FIELDS[card.field].short}・{card.kind === 'term' ? '用語' : '数字・公式'}
         </span>
         {!flipped ? <span className="text-2xl font-bold leading-relaxed">{card.front}</span> : <span className="text-lg leading-relaxed">{card.back}</span>}

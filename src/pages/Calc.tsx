@@ -91,7 +91,7 @@ export function CalcHomePage() {
                   <li key={g.id}>
                     <Link to={`/calc/run/${g.id}?d=${difficulty}`} className="flex min-h-12 items-center justify-between border-b border-slate-100 py-2 last:border-0 dark:border-slate-800">
                       <span>{g.title}</span>
-                      <span className="text-sm text-slate-500">{s ? `${pct(s.correct / s.attempts)}（${s.attempts}問）` : '未学習'} ›</span>
+                      <span className="text-sm text-slate-600 dark:text-slate-400">{s ? `${pct(s.correct / s.attempts)}（${s.attempts}問）` : '未学習'} ›</span>
                     </Link>
                   </li>
                 );
@@ -102,7 +102,7 @@ export function CalcHomePage() {
       })}
       <section className="card space-y-2">
         <h2 className="font-bold">過去問の計算問題</h2>
-        <p className="text-sm text-slate-500">公式過去問のうち、解答に計算が必要な問題（{pastCalc.length}問）を選択式で解きます。</p>
+        <p className="text-sm text-slate-600 dark:text-slate-400">公式過去問のうち、解答に計算が必要な問題（{pastCalc.length}問）を選択式で解きます。</p>
         <button
           className="btn-secondary w-full"
           disabled={!pastCalc.length || !exam}
@@ -209,26 +209,26 @@ export function CalcRunPage() {
   return (
     <div className="space-y-4 pb-24">
       <div className="flex items-center justify-between pt-3">
-        <Link to="/calc" className="min-h-10 px-1 text-sm text-slate-500">
+        <Link to="/calc" className="min-h-10 px-1 text-sm text-slate-600 dark:text-slate-400">
           ← 計算トレーニング
         </Link>
-        <span className="text-sm tabular-nums text-slate-500">
+        <span className="text-sm tabular-nums text-slate-600 dark:text-slate-400">
           {count.correct} / {count.done} 正解
         </span>
       </div>
-      <div className="text-sm text-slate-500">
+      <div className="text-sm text-slate-600 dark:text-slate-400">
         {generator.title}／{problem.pattern}／{{ 1: '基本', 2: '標準', 3: '応用' }[difficulty]}
       </div>
       <p className="qtext">{problem.prompt}</p>
       <dl className="card grid grid-cols-[auto_1fr] gap-x-3 gap-y-1 text-sm">
         {problem.given.map((g) => (
           <div key={g.label} className="contents">
-            <dt className="text-slate-500">{g.label}</dt>
+            <dt className="text-slate-600 dark:text-slate-400">{g.label}</dt>
             <dd className="tabular-nums">{g.value}</dd>
           </div>
         ))}
       </dl>
-      {problem.roundingNote && <p className="text-sm text-slate-500">端数処理：{problem.roundingNote}</p>}
+      {problem.roundingNote && <p className="text-sm text-slate-600 dark:text-slate-400">端数処理：{problem.roundingNote}</p>}
       <div className="flex items-center gap-2">
         <input
           className="input text-right text-lg tabular-nums"
@@ -276,10 +276,10 @@ export function CalcRunPage() {
               <div key={f.name}>
                 <div className="label">{f.name}</div>
                 <Tex tex={f.tex} block />
-                {f.explain && <p className="text-sm text-slate-500">{f.explain}</p>}
+                {f.explain && <p className="text-sm text-slate-600 dark:text-slate-400">{f.explain}</p>}
               </div>
             ))}
-            <p className="text-xs text-slate-500">
+            <p className="text-xs text-slate-600 dark:text-slate-400">
               根拠：{generator.sources.map((s) => (
                 <a key={s.url} href={s.url} target="_blank" rel="noreferrer" className="underline">
                   {s.title}

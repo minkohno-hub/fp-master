@@ -67,10 +67,10 @@ export function QuestionListPage() {
             return (
               <li key={x.id}>
                 <Link to={`/q/${x.id}`} className="block min-h-14 px-4 py-3">
-                  <div className="mb-1 flex flex-wrap items-center gap-2 text-xs text-slate-500">
+                  <div className="mb-1 flex flex-wrap items-center gap-2 text-xs text-slate-600 dark:text-slate-400">
                     <span>{x.source.kind === 'official' ? `${x.source.yearMonth} 問${x.source.number}` : 'オリジナル'}</span>
                     <FieldBadge field={x.field} />
-                    {x.requiresCalculation && <span className="badge bg-slate-200 dark:bg-slate-700">計算</span>}
+                    {x.requiresCalculation && <span className="badge bg-slate-200 text-slate-800 dark:bg-slate-700 dark:text-slate-100">計算</span>}
                     {x.status !== 'verified' && <span className="badge bg-rose-100 text-rose-800">隔離中</span>}
                     {st && <span className={st.lastCorrect ? 'text-emerald-700' : 'text-rose-700'}>{st.lastCorrect ? '○' : '×'} {st.correct}/{st.attempts}</span>}
                   </div>

@@ -51,9 +51,9 @@ export function ReviewPage() {
               <div>
                 <div className="font-semibold">
                   {m.filter === 'due' ? '今日の復習' : FILTER_LABELS[m.filter]}
-                  {n !== null && n !== undefined && <span className="ml-2 tabular-nums text-slate-500">{n}問</span>}
+                  {n !== null && n !== undefined && <span className="ml-2 tabular-nums text-slate-600 dark:text-slate-400">{n}問</span>}
                 </div>
-                <div className="text-sm text-slate-500">{m.desc}</div>
+                <div className="text-sm text-slate-600 dark:text-slate-400">{m.desc}</div>
               </div>
               <button className="btn-secondary min-h-10 shrink-0" disabled={n === 0} onClick={() => start(m.filter)}>
                 開始

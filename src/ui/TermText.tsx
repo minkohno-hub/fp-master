@@ -40,7 +40,7 @@ export function TermPopupProvider({ children }: { children: ReactNode }) {
       <Sheet open={!!term} onClose={() => setTerm(null)} title={term?.name ?? ''}>
         {term && (
           <div className="space-y-3">
-            <div className="flex flex-wrap gap-2 text-xs text-slate-500">
+            <div className="flex flex-wrap gap-2 text-xs text-slate-600 dark:text-slate-400">
               <span>{term.reading}</span>
               <ReviewBadge status={term.reviewStatus} />
             </div>

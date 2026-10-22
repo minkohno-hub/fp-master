@@ -167,7 +167,7 @@ export function PracticePage() {
           <label className="flex min-h-12 items-center justify-between gap-3">
             <span>
               この演習に計算問題も含める
-              <span className="block text-xs text-slate-500">初期設定は「含めない」。計算問題は「計算トレーニング」で練習できます。</span>
+              <span className="block text-xs text-slate-600 dark:text-slate-400">初期設定は「含めない」。計算問題は「計算トレーニング」で練習できます。</span>
             </span>
             <input type="checkbox" className="h-6 w-6 accent-brand-700" checked={cfg.includeCalc} onChange={(e) => setCfg({ ...cfg, includeCalc: e.target.checked })} />
           </label>
@@ -198,7 +198,7 @@ export function PracticePage() {
                 <button className="btn-secondary flex-1 justify-start" onClick={() => start({ ...cfg, ...p.config, exams: [exam] })}>
                   {p.name}
                 </button>
-                <button className="min-h-12 px-3 text-sm text-slate-500" aria-label={`${p.name}を削除`} onClick={() => setSetting('presets', settings.presets.filter((x) => x.name !== p.name))}>
+                <button className="min-h-12 px-3 text-sm text-slate-600 dark:text-slate-400" aria-label={`${p.name}を削除`} onClick={() => setSetting('presets', settings.presets.filter((x) => x.name !== p.name))}>
                   削除
                 </button>
               </li>

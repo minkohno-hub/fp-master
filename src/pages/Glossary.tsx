@@ -113,7 +113,7 @@ export function GlossaryPage() {
                     {st.get(t.id)?.favorite && <span aria-label="お気に入り">★</span>}
                     {st.get(t.id)?.learned && <span className="badge bg-emerald-100 text-emerald-800">学習済み</span>}
                   </div>
-                  <p className="line-clamp-1 text-sm text-slate-500">{t.short}</p>
+                  <p className="line-clamp-1 text-sm text-slate-600 dark:text-slate-400">{t.short}</p>
                 </Link>
               </li>
             ))}
@@ -141,14 +141,14 @@ export function TermPage() {
     <TermPopupProvider>
       <article className="space-y-4">
         <div>
-          <div className="mb-1 flex flex-wrap items-center gap-2 text-sm text-slate-500">
+          <div className="mb-1 flex flex-wrap items-center gap-2 text-sm text-slate-600 dark:text-slate-400">
             <FieldBadge field={t.field} />
             <span>{t.grades.map((g) => `${g}級`).join('・')}</span>
             <span>重要度 {'★'.repeat(t.importance)}</span>
             <ReviewBadge status={t.reviewStatus} />
           </div>
           <h1 className="text-2xl font-bold">{t.name}</h1>
-          <p className="text-sm text-slate-500">{t.reading}</p>
+          <p className="text-sm text-slate-600 dark:text-slate-400">{t.reading}</p>
         </div>
         <p className="card text-lg leading-relaxed">{t.short}</p>
         <section className="space-y-2">
@@ -207,7 +207,7 @@ export function TermPage() {
             </ul>
           </section>
         )}
-        <section className="text-xs text-slate-500">
+        <section className="text-xs text-slate-600 dark:text-slate-400">
           <h2 className="font-semibold">根拠資料（確認日 {t.checkedAt}）</h2>
           <ul>
             {t.sources.map((s) => (

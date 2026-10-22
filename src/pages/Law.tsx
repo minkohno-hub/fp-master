@@ -22,7 +22,7 @@ export function LawPage() {
             </li>
           ))}
         </ul>
-        <p className="mt-1 text-xs text-slate-500">
+        <p className="mt-1 text-xs text-slate-600 dark:text-slate-400">
           出典：
           <a className="underline" href={LAW_BASE_SOURCE.url} target="_blank" rel="noreferrer">
             {LAW_BASE_SOURCE.title}
@@ -36,14 +36,14 @@ export function LawPage() {
             <h2 className="text-base font-bold">{c.title}</h2>
             <span className={`badge ${c.status === 'confirmed' ? 'bg-emerald-100 text-emerald-800' : 'bg-amber-100 text-amber-900'}`}>{c.status === 'confirmed' ? '確認済み' : '候補（未確認）'}</span>
           </div>
-          <p className="text-slate-500">
+          <p className="text-slate-600 dark:text-slate-400">
             {FIELDS[c.field].name}／適用開始 {c.effective}
           </p>
           <p>{c.summary}</p>
           <dl className="grid grid-cols-[auto_1fr] gap-x-2">
-            <dt className="text-slate-500">改正前</dt>
+            <dt className="text-slate-600 dark:text-slate-400">改正前</dt>
             <dd>{c.before}</dd>
-            <dt className="text-slate-500">改正後</dt>
+            <dt className="text-slate-600 dark:text-slate-400">改正後</dt>
             <dd>{c.after}</dd>
           </dl>
           {c.affectedQuestions.length > 0 && (
@@ -61,7 +61,7 @@ export function LawPage() {
               </ul>
             </div>
           )}
-          <p className="text-xs text-slate-500">
+          <p className="text-xs text-slate-600 dark:text-slate-400">
             根拠：
             {c.sources.map((s) => (
               <a key={s.url} className="underline" href={s.url} target="_blank" rel="noreferrer">

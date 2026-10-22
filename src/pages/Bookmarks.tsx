@@ -29,7 +29,7 @@ export function BookmarksPage() {
           <Link to={`/q/${q!.id}`} className="min-h-12 flex-1 text-sm">
             <FieldBadge field={q!.field} /> {q!.stem.slice(0, 50)}…
           </Link>
-          <button className="min-h-10 px-2 text-xs text-slate-500" onClick={() => toggleFlag(table, q!.id)} aria-label="登録を解除">
+          <button className="min-h-10 px-2 text-xs text-slate-600 dark:text-slate-400" onClick={() => toggleFlag(table, q!.id)} aria-label="登録を解除">
             解除
           </button>
         </li>
