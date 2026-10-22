@@ -1391,15 +1391,20 @@
  "g3-202505-10": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "人身傷害保険は、自己の過失割合にかかわらず保険金額の範囲で損害額が補償される。適切（〇）。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "日本損害保険協会 自動車保険",
+     "url": "https://www.sonpo.or.jp/insurance/car/index.html"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://www.sonpo.or.jp/insurance/car/index.html",
+     "quote": "自分の過失部分を含めて、自分の契約している損害保険会社から損害額の全額が支払われます"
+    }
+   ],
    "lawBaseDate": "2024-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -1920,6 +1925,10 @@
     {
      "title": "e-Gov法令検索 自動車損害賠償保障法施行令",
      "url": "https://laws.e-gov.go.jp/law/330CO0000000286"
+    },
+    {
+     "title": "日本損害保険協会 自賠責保険",
+     "url": "https://www.sonpo.or.jp/insurance/jibai/index.html"
     }
    ],
    "evidence": [
@@ -1930,6 +1939,10 @@
     {
      "url": "https://laws.e-gov.go.jp/law/330CO0000000286",
      "quote": "傷害による損害百二十万円"
+    },
+    {
+     "url": "https://www.sonpo.or.jp/insurance/jibai/index.html",
+     "quote": "払われる保険金の限度額死亡3,000万円ケガ120万円"
     }
    ],
    "lawBaseDate": "2024-04-01",
@@ -2529,15 +2542,20 @@
  "g3-202405-10": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "対人賠償保険は自賠責保険の支払限度額を超える部分に支払われる。適切（〇）。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "日本損害保険協会 自動車保険",
+     "url": "https://www.sonpo.or.jp/insurance/car/index.html"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://www.sonpo.or.jp/insurance/car/index.html",
+     "quote": "自賠責保険の補償額を超える部分に対し保険金が支払われます"
+    }
+   ],
    "lawBaseDate": "2023-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -2593,15 +2611,20 @@
  "g3-202405-14": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "上場株式の普通取引は約定日から起算して3営業日目（2営業日後）に決済される。不適切（×）。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "日本取引所グループ 内国株の売買制度（売買の種類）",
+     "url": "https://www.jpx.co.jp/equities/trading/domestic/02.html"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://www.jpx.co.jp/equities/trading/domestic/02.html",
+     "quote": "普通取引は、基本的な売買の形態で、売買契約締結の日から起算して3日目(休業日を除きます。以下日数計算について同じです。)の日に決済を行う売買です"
+    }
+   ],
    "lawBaseDate": "2023-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -4858,6 +4881,10 @@
     {
      "title": "e-Gov法令検索 自動車損害賠償保障法",
      "url": "https://laws.e-gov.go.jp/law/330AC0000000097"
+    },
+    {
+     "title": "日本損害保険協会 自賠責保険",
+     "url": "https://www.sonpo.or.jp/insurance/jibai/index.html"
     }
    ],
    "evidence": [
@@ -4868,6 +4895,10 @@
     {
      "url": "https://laws.e-gov.go.jp/law/330AC0000000097",
      "quote": "同条第三項に規定する原動機付自転車をいう"
+    },
+    {
+     "url": "https://www.sonpo.or.jp/insurance/jibai/index.html",
+     "quote": "強制保険です。したがって、原動機付自転車なども対象になっています"
     }
    ],
    "lawBaseDate": "2024-04-01",
@@ -4877,15 +4908,20 @@
  "g2-202505-17": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "地震保険料率は建物の構造と所在地（都道府県）によって異なる。正解は2)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "日本損害保険協会 地震保険",
+     "url": "https://www.sonpo.or.jp/insurance/jishin/"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://www.sonpo.or.jp/insurance/jishin/",
+     "quote": "保険料は、建物の構造と所在地により異なります"
+    }
+   ],
    "lawBaseDate": "2024-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -9818,15 +9854,32 @@
  "j3-202405-14": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "地震保険の対象は居住用建物と家財で、自動車は対象外。1)火災保険に付帯して契約する、2)保険料は建物の構造と所在地で異なる、の記述は適切。正解は3)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 地震保険に関する法律",
+     "url": "https://laws.e-gov.go.jp/law/341AC0000000073"
+    },
+    {
+     "title": "日本損害保険協会 地震保険",
+     "url": "https://www.sonpo.or.jp/insurance/jishin/"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/341AC0000000073",
+     "quote": "居住の用に供する建物又は生活用動産のみを保険の目的とすること"
+    },
+    {
+     "url": "https://www.sonpo.or.jp/insurance/jishin/",
+     "quote": "地震保険は単独では契約できません。火災保険にセットして契約する必要があります"
+    },
+    {
+     "url": "https://www.sonpo.or.jp/insurance/jishin/",
+     "quote": "保険料は、建物の構造と所在地により異なります"
+    }
+   ],
    "lawBaseDate": "2023-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -12011,15 +12064,28 @@
  "j2-202501-31": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "自賠責保険は人身事故（他人を死傷させた場合）が対象で、物損や運転者自身のケガ・自動車の修理費用は補償されない。3)の「自宅の塀に衝突した場合の自動車の修理費用が補償の対象」は最も不適切。1)死亡は3,000万円、2)傷害は120万円、4)運転者自身のケガ（自損）は対象外で適切。正解は3)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "日本損害保険協会 自賠責保険",
+     "url": "https://www.sonpo.or.jp/insurance/jibai/index.html"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://www.sonpo.or.jp/insurance/jibai/index.html",
+     "quote": "自賠責保険で補償されるのは、交通事故などで他人を死亡させたり、ケガをさせたりした「人身事故」の場合です"
+    },
+    {
+     "url": "https://www.sonpo.or.jp/insurance/jibai/index.html",
+     "quote": "運転者自身のケガ・自動車の修理代"
+    },
+    {
+     "url": "https://www.sonpo.or.jp/insurance/jibai/index.html",
+     "quote": "払われる保険金の限度額死亡3,000万円ケガ120万円"
+    }
+   ],
    "lawBaseDate": "2024-10-01",
    "checkedAt": "2026-10-21"
   }
