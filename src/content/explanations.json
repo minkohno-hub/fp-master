@@ -1783,15 +1783,24 @@
  "g3-202505-44": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "NISAの非課税保有限度額は1,800万円、うち成長投資枠は1,200万円。正解は2)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "金融庁 新しいNISA",
+     "url": "https://www.fsa.go.jp/policy/nisa2/about/index.html"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://www.fsa.go.jp/policy/nisa2/about/index.html",
+     "quote": "1,800万円が上限となりました"
+    },
+    {
+     "url": "https://www.fsa.go.jp/policy/nisa2/about/index.html",
+     "quote": "成長投資枠はそのうち1,200万円が上限となります"
+    }
+   ],
    "lawBaseDate": "2024-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -2758,15 +2767,20 @@
  "g3-202405-44": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "成長投資枠の年間投資枠は240万円。正解は3)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "金融庁 新しいNISA",
+     "url": "https://www.fsa.go.jp/policy/nisa2/about/index.html"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://www.fsa.go.jp/policy/nisa2/about/index.html",
+     "quote": "成長投資枠が一般NISAの2倍の年間240万円"
+    }
+   ],
    "lawBaseDate": "2023-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -4438,15 +4452,32 @@
  "g2-202505-29": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "つみたて投資枠の年間投資枠は120万円。1)併用できる、2)18歳以上、3)非課税保有期間は無期限。正解は4)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "金融庁 新しいNISA",
+     "url": "https://www.fsa.go.jp/policy/nisa2/about/index.html"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://www.fsa.go.jp/policy/nisa2/about/index.html",
+     "quote": "つみたて投資枠がつみたてNISAの3倍の年間120万円"
+    },
+    {
+     "url": "https://www.fsa.go.jp/policy/nisa2/about/index.html",
+     "quote": "つみたてNISAがつみたて投資枠に、一般NISAが成長投資枠に引き継がれ、併用が可能になりました"
+    },
+    {
+     "url": "https://www.fsa.go.jp/policy/nisa2/about/index.html",
+     "quote": "2024年からのNISAでは無期限となりました"
+    },
+    {
+     "url": "https://www.fsa.go.jp/policy/nisa2/about/index.html",
+     "quote": "日本国内に住んでいる18歳以上*の方ならどなたでも開設できます"
+    }
+   ],
    "lawBaseDate": "2024-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -9622,15 +9653,20 @@
  "j2-202605-30": {
   "terms": [],
   "explanation": {
-   "status": "draft",
-   "short": "日本学生支援機構の貸与型奨学金のうち、第一種は無利子、第二種は有利子（利率固定方式・利率見直し方式）。3)の「第二種は無利子」が最も不適切。正解は3)。",
+   "status": "verified",
+   "short": "日本学生支援機構の貸与型奨学金のうち、第一種は無利子、第二種は有利子。3)の「第二種は無利子」が最も不適切。正解は3)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "日本学生支援機構 貸与奨学金",
+     "url": "https://www.jasso.go.jp/shogakukin/about/taiyo/index.html"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://www.jasso.go.jp/shogakukin/about/taiyo/index.html",
+     "quote": "利子の付かない第一種奨学金と、利子の付く第二種奨学金があります"
+    }
+   ],
    "lawBaseDate": "2025-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -10175,15 +10211,28 @@
  "j2-202505-40": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "（ア）基本手当は、離職の日以前2年間に被保険者期間が通算して12カ月以上あるときに支給される（原則）。「6カ月」は不適切（×）。（イ）基本手当日額は、離職の日の直前6カ月間に支払われた賃金総額（賞与等を除く）を180で除した賃金日額に給付率を乗じた額。「3カ月」は不適切（×）。（ウ）受給できる期間（受給期間）は、原則として離職の日の翌日から1年間。「離職日が属する月の翌月1日」は不適切（×）。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "ハローワークインターネットサービス 基本手当について",
+     "url": "https://www.hellowork.mhlw.go.jp/insurance/insurance_basicbenefit.html"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://www.hellowork.mhlw.go.jp/insurance/insurance_basicbenefit.html",
+     "quote": "離職の日以前2年間に、被保険者期間（※補足2）が通算して12か月以上あること"
+    },
+    {
+     "url": "https://www.hellowork.mhlw.go.jp/insurance/insurance_basicbenefit.html",
+     "quote": "離職した日の直前の6か月に毎月きまって支払われた賃金（つまり、賞与等は除きます。）の合計を180で割って算出した金額"
+    },
+    {
+     "url": "https://www.hellowork.mhlw.go.jp/insurance/insurance_basicbenefit.html",
+     "quote": "雇用保険の受給期間は、原則として、離職した日の翌日から1年間"
+    }
+   ],
    "lawBaseDate": "2024-04-01",
    "checkedAt": "2026-10-21"
   }
