@@ -1,0 +1,28 @@
+{
+ "reviewedAt": "2026-10-21",
+ "reviewer": "Claude（目視確認）",
+ "questions": {
+  "23": {
+   "requiresCalculation": true,
+   "calcReason": "所有期間利回りと最終利回りを計算して比較する"
+  },
+  "25": {
+   "requiresCalculation": true,
+   "calcReason": "資料の数値からPER・PBR・ROE・配当利回りを計算する",
+   "_release": true,
+   "_stemCutAt": "＜Ｘ社のデータ＞",
+   "_materialImage": "Ｘ社のデータ：株価2,500円、発行済株式数1.2億株、売上高3,600億円、営業利益150億円、当期純利益120億円、自己資本3,000億円、配当金総額60億円"
+  },
+  "27": {
+   "requiresCalculation": true,
+   "calcReason": "期待収益率を構成比で加重平均して計算する",
+   "_release": true,
+   "_stemCutAt": "ポートフォリオの資産",
+   "_materialImage": "資産別の期待収益率・構成比の表"
+  },
+  "33": {
+   "requiresCalculation": true,
+   "calcReason": "損益通算の可否を判断して総所得金額を計算する"
+  }
+ }
+}

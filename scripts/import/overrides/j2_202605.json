@@ -1,0 +1,180 @@
+{
+ "reviewedAt": "2026-10-21",
+ "reviewer": "Claude（問題文・解答形式から判定。分野は試験の出題順序に基づく）",
+ "questions": {
+  "1": {
+   "field": "A",
+   "_reviewed": true
+  },
+  "2": {
+   "field": "A",
+   "_reviewed": true,
+   "theme": "FPと関連法規"
+  },
+  "3": {
+   "field": "C",
+   "_reviewed": true
+  },
+  "4": {
+   "field": "C",
+   "_reviewed": true
+  },
+  "5": {
+   "field": "C",
+   "_reviewed": true,
+   "theme": "株式"
+  },
+  "6": {
+   "field": "C",
+   "_reviewed": true
+  },
+  "7": {
+   "field": "C",
+   "_reviewed": true
+  },
+  "8": {
+   "field": "E",
+   "_reviewed": true
+  },
+  "9": {
+   "field": "E",
+   "_reviewed": true
+  },
+  "10": {
+   "field": "E",
+   "_reviewed": true
+  },
+  "11": {
+   "field": "E",
+   "_reviewed": true
+  },
+  "12": {
+   "field": "E",
+   "_reviewed": true
+  },
+  "13": {
+   "field": "B",
+   "_reviewed": true
+  },
+  "14": {
+   "field": "B",
+   "_reviewed": true,
+   "requiresCalculation": true,
+   "calcReason": "資料の数値を計算して選択肢を判定する"
+  },
+  "15": {
+   "field": "B",
+   "_reviewed": true
+  },
+  "16": {
+   "field": "B",
+   "_reviewed": true
+  },
+  "17": {
+   "field": "B",
+   "_reviewed": true
+  },
+  "18": {
+   "field": "D",
+   "_reviewed": true
+  },
+  "19": {
+   "field": "D",
+   "_reviewed": true
+  },
+  "20": {
+   "field": "D",
+   "_reviewed": true,
+   "requiresCalculation": true,
+   "calcReason": "資料の数値を計算して選択肢を判定する"
+  },
+  "21": {
+   "field": "D",
+   "_reviewed": true
+  },
+  "22": {
+   "field": "D",
+   "_reviewed": true
+  },
+  "23": {
+   "field": "F",
+   "_reviewed": true
+  },
+  "24": {
+   "field": "F",
+   "_reviewed": true
+  },
+  "25": {
+   "field": "F",
+   "_reviewed": true
+  },
+  "26": {
+   "field": "F",
+   "_reviewed": true,
+   "requiresCalculation": true,
+   "calcReason": "資料の数値を計算して選択肢を判定する"
+  },
+  "27": {
+   "field": "F",
+   "_reviewed": true,
+   "theme": "相続の基礎（民法）"
+  },
+  "28": {
+   "field": "A",
+   "_reviewed": true
+  },
+  "29": {
+   "field": "A",
+   "_reviewed": true
+  },
+  "30": {
+   "field": "A",
+   "_reviewed": true
+  },
+  "31": {
+   "field": "A",
+   "_reviewed": true
+  },
+  "32": {
+   "field": "A",
+   "_reviewed": true
+  },
+  "33": {
+   "field": "A",
+   "_reviewed": true,
+   "theme": "ライフプランと係数"
+  },
+  "34": {
+   "field": "A",
+   "_reviewed": true
+  },
+  "35": {
+   "field": "A",
+   "_reviewed": true,
+   "requiresCalculation": true,
+   "calcReason": "資料の数値を計算して選択肢を判定する"
+  },
+  "36": {
+   "field": "A",
+   "_reviewed": true
+  },
+  "37": {
+   "field": "A",
+   "_reviewed": true,
+   "requiresCalculation": true,
+   "calcReason": "資料の数値を計算して選択肢を判定する"
+  },
+  "38": {
+   "field": "A",
+   "_reviewed": true
+  },
+  "39": {
+   "field": "A",
+   "_reviewed": true
+  },
+  "40": {
+   "field": "A",
+   "_reviewed": true
+  }
+ }
+}

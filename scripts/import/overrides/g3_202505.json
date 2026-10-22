@@ -1,0 +1,67 @@
+{
+ "reviewedAt": "2026-10-21",
+ "reviewer": "Claude（目視確認）",
+ "questions": {
+  "43": {
+   "_release": true,
+   "_dropMaterials": true
+  },
+  "46": {
+   "_release": true,
+   "_dropMaterials": true,
+   "requiresCalculation": true,
+   "calcReason": "（総収入金額－支出金額－特別控除50万円）と、その2分の1を計算する"
+  },
+  "48": {
+   "_release": true,
+   "_dropMaterials": true
+  },
+  "53": {
+   "_release": true,
+   "_dropMaterials": true
+  },
+  "56": {
+   "_release": true,
+   "_dropMaterials": true
+  },
+  "60": {
+   "_release": true,
+   "_dropMaterials": true
+  },
+  "31": {
+   "requiresCalculation": true,
+   "calcReason": "給与収入から所得税・住民税と社会保険料を差し引いて計算する",
+   "_release": true,
+   "_stemCutAt": "〈資料〉Ａさん",
+   "_materialImage": "Ａさんの年間収入等：給与収入800万円（給与所得610万円）、所得税・住民税60万円、社会保険料100万円、生命保険料10万円"
+  },
+  "33": {
+   "requiresCalculation": true,
+   "calcReason": "増額率0.7％×繰下げ月数を計算する"
+  },
+  "41": {
+   "requiresCalculation": true,
+   "calcReason": "分配前後の基準価額と個別元本から普通分配金・元本払戻金を計算する"
+  },
+  "42": {
+   "requiresCalculation": true,
+   "calcReason": "1株当たり純利益÷1株当たり純資産でROEを計算する"
+  },
+  "52": {
+   "requiresCalculation": true,
+   "calcReason": "建築面積÷敷地面積で建蔽率を計算する",
+   "_release": true,
+   "_stemCutAt": "６ｍ公道",
+   "_materialImage": "幅員6mの公道に面した200㎡の土地の図"
+  },
+  "57": {
+   "_release": true,
+   "_stemCutAt": "〈親族関係図〉父",
+   "_materialImage": "親族関係図：父Ｃさん、母Ｄさん（既に死亡）、被相続人Ａさん、妻Ｂさん、妹Ｅさん"
+  },
+  "59": {
+   "requiresCalculation": true,
+   "calcReason": "固定資産税評価額×（1－借家権割合×賃貸割合）で計算する"
+  }
+ }
+}

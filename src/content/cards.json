@@ -1,0 +1,993 @@
+[
+ {
+  "id": "f-kurisage-rate",
+  "front": "老齢年金の繰下げ増額率は？",
+  "back": "1カ月あたり0.7％（最大120月で84％）",
+  "field": "A",
+  "category": "rate",
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "日本年金機構 年金の繰下げ受給",
+    "url": "https://www.nenkin.go.jp/service/jukyu/seido/roureinenkin/kuriage-kurisage/20140421-02.html"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.nenkin.go.jp/service/jukyu/seido/roureinenkin/kuriage-kurisage/20140421-02.html",
+    "quote": "増額率（最大84％※1）＝0.7%"
+   }
+  ],
+  "reviewStatus": "verified",
+  "lawBaseDate": "2026-04-01",
+  "termId": "kurisage-jukyu"
+ },
+ {
+  "id": "f-kuriage-rate",
+  "front": "老齢年金の繰上げ減額率は？（1962年4月2日以後生まれ）",
+  "back": "1カ月あたり0.4％（最大60月で24％）",
+  "field": "A",
+  "category": "rate",
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "日本年金機構 年金の繰上げ受給",
+    "url": "https://www.nenkin.go.jp/service/jukyu/seido/roureinenkin/kuriage-kurisage/20140421-01.html"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.nenkin.go.jp/service/jukyu/seido/roureinenkin/kuriage-kurisage/20140421-01.html",
+    "quote": "減額率（最大24％）＝0.4%"
+   }
+  ],
+  "reviewStatus": "verified",
+  "lawBaseDate": "2026-04-01",
+  "termId": "kuriage-jukyu"
+ },
+ {
+  "id": "f-kiso-shikaku",
+  "front": "老齢基礎年金の受給資格期間は？",
+  "back": "10年以上（保険料納付済期間＋免除期間＋合算対象期間）",
+  "field": "A",
+  "category": "number",
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "日本年金機構 老齢基礎年金の受給要件・支給開始時期・年金額",
+    "url": "https://www.nenkin.go.jp/service/jukyu/seido/roureinenkin/jukyu-yoken/20150401-02.html"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.nenkin.go.jp/service/jukyu/seido/roureinenkin/jukyu-yoken/20150401-02.html",
+    "quote": "受給資格期間が10年以上ある場合に、65歳から受け取ることができます"
+   }
+  ],
+  "reviewStatus": "verified",
+  "lawBaseDate": "2026-04-01",
+  "termId": "rorei-kiso-nenkin"
+ },
+ {
+  "id": "f-fuka-nenkin",
+  "front": "付加年金の年金額は？",
+  "back": "200円×付加保険料納付月数（付加保険料は月400円）",
+  "field": "A",
+  "category": "formula",
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "日本年金機構 老齢基礎年金の受給要件・支給開始時期・年金額",
+    "url": "https://www.nenkin.go.jp/service/jukyu/seido/roureinenkin/jukyu-yoken/20150401-02.html"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.nenkin.go.jp/service/jukyu/seido/roureinenkin/jukyu-yoken/20150401-02.html",
+    "quote": "200円に付加保険料納付月数を乗じた額"
+   }
+  ],
+  "reviewStatus": "verified",
+  "lawBaseDate": "2026-04-01",
+  "termId": "fuka-nenkin"
+ },
+ {
+  "id": "f-shobyo-kikan",
+  "front": "傷病手当金の支給期間は？",
+  "back": "支給開始日から通算して最長1年6カ月",
+  "field": "A",
+  "category": "deadline",
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "日本FP協会 試験範囲（試験要綱）",
+    "url": "https://www.jafp.or.jp/exam/outline/"
+   }
+  ],
+  "evidence": [],
+  "reviewStatus": "draft",
+  "lawBaseDate": "2026-04-01",
+  "termId": "shobyo-teatekin"
+ },
+ {
+  "id": "f-nini-keizoku",
+  "front": "任意継続被保険者の加入期間と申出期限は？",
+  "back": "最長2年間。資格喪失日から20日以内に申出",
+  "field": "A",
+  "category": "deadline",
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "日本FP協会 試験範囲（試験要綱）",
+    "url": "https://www.jafp.or.jp/exam/outline/"
+   }
+  ],
+  "evidence": [],
+  "reviewStatus": "draft",
+  "lawBaseDate": "2026-04-01",
+  "termId": "nini-keizoku"
+ },
+ {
+  "id": "f-shokibo-kakekin",
+  "front": "小規模企業共済の掛金月額は？",
+  "back": "1,000円〜7万円（500円単位）",
+  "field": "A",
+  "category": "number",
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "日本FP協会 試験範囲（試験要綱）",
+    "url": "https://www.jafp.or.jp/exam/outline/"
+   }
+  ],
+  "evidence": [],
+  "reviewStatus": "draft",
+  "lawBaseDate": "2026-04-01",
+  "termId": "shokibo-kigyo-kyosai"
+ },
+ {
+  "id": "f-jishin-hoken",
+  "front": "地震保険の保険金額の上限は？",
+  "back": "火災保険金額の30〜50％。建物5,000万円・家財1,000万円が上限",
+  "field": "B",
+  "category": "number",
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "日本FP協会 試験範囲（試験要綱）",
+    "url": "https://www.jafp.or.jp/exam/outline/"
+   }
+  ],
+  "evidence": [],
+  "reviewStatus": "draft",
+  "lawBaseDate": "2026-04-01",
+  "termId": "jishin-hoken"
+ },
+ {
+  "id": "f-jibaiseki",
+  "front": "自賠責保険の支払限度額（被害者1人）は？",
+  "back": "死亡3,000万円、傷害120万円、後遺障害75万〜4,000万円",
+  "field": "B",
+  "category": "number",
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "日本FP協会 試験範囲（試験要綱）",
+    "url": "https://www.jafp.or.jp/exam/outline/"
+   }
+  ],
+  "evidence": [],
+  "reviewStatus": "draft",
+  "lawBaseDate": "2026-04-01",
+  "termId": "jibaiseki"
+ },
+ {
+  "id": "f-cooling-off",
+  "front": "保険のクーリング・オフの期間と方法は？",
+  "back": "申込日または書面交付日の遅い日から8日以内に、書面または電磁的記録で",
+  "field": "B",
+  "category": "deadline",
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "日本FP協会 試験範囲（試験要綱）",
+    "url": "https://www.jafp.or.jp/exam/outline/"
+   }
+  ],
+  "evidence": [],
+  "reviewStatus": "draft",
+  "lawBaseDate": "2026-04-01",
+  "termId": "cooling-off"
+ },
+ {
+  "id": "f-living-needs",
+  "front": "リビング・ニーズ特約の支払要件は？",
+  "back": "余命6カ月以内と判断されたとき",
+  "field": "B",
+  "category": "rule",
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "日本FP協会 試験範囲（試験要綱）",
+    "url": "https://www.jafp.or.jp/exam/outline/"
+   }
+  ],
+  "evidence": [],
+  "reviewStatus": "draft",
+  "lawBaseDate": "2026-04-01",
+  "termId": "living-needs"
+ },
+ {
+  "id": "f-hogo-kiko",
+  "front": "生命保険契約者保護機構の補償割合は？",
+  "back": "破綻時の責任準備金等の90％（高予定利率契約を除く）",
+  "field": "B",
+  "category": "rate",
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "日本FP協会 試験範囲（試験要綱）",
+    "url": "https://www.jafp.or.jp/exam/outline/"
+   }
+  ],
+  "evidence": [],
+  "reviewStatus": "draft",
+  "lawBaseDate": "2026-04-01",
+  "termId": "keiyakusha-hogo-kiko"
+ },
+ {
+  "id": "f-yokin-hoken",
+  "front": "預金保険制度で保護される一般預金等の上限は？",
+  "back": "1金融機関ごとに預金者1人当たり元本1,000万円とその利息等",
+  "field": "C",
+  "category": "number",
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "日本FP協会 試験範囲（試験要綱）",
+    "url": "https://www.jafp.or.jp/exam/outline/"
+   }
+  ],
+  "evidence": [],
+  "reviewStatus": "draft",
+  "lawBaseDate": "2026-04-01",
+  "termId": "yokin-hoken"
+ },
+ {
+  "id": "f-nisa-waku",
+  "front": "NISAの年間投資枠は？",
+  "back": "つみたて投資枠 年120万円、成長投資枠 年240万円（合計360万円）",
+  "field": "C",
+  "category": "number",
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "金融庁 NISA特設ウェブサイト NISAを知る",
+    "url": "https://www.fsa.go.jp/policy/nisa2/about/index.html"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.fsa.go.jp/policy/nisa2/about/index.html",
+    "quote": "年間120万円、成長投資枠が一般NISAの2倍の年間240万円"
+   }
+  ],
+  "reviewStatus": "verified",
+  "lawBaseDate": "2026-04-01",
+  "termId": "nisa"
+ },
+ {
+  "id": "f-nisa-gendo",
+  "front": "NISAの非課税保有限度額は？",
+  "back": "1,800万円（うち成長投資枠は1,200万円）",
+  "field": "C",
+  "category": "number",
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "金融庁 NISA特設ウェブサイト NISAを知る",
+    "url": "https://www.fsa.go.jp/policy/nisa2/about/index.html"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.fsa.go.jp/policy/nisa2/about/index.html",
+    "quote": "上限は1,800万円ですが、成長投資枠はそのうち1,200万円が上限となります"
+   }
+  ],
+  "reviewStatus": "verified",
+  "lawBaseDate": "2026-04-01",
+  "termId": "nisa"
+ },
+ {
+  "id": "f-saishu-rimawari",
+  "front": "最終利回りの計算式は？",
+  "back": "（表面利率＋（100－購入価格）÷残存年数）÷購入価格×100",
+  "field": "C",
+  "category": "formula",
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "日本FP協会 試験範囲（試験要綱）",
+    "url": "https://www.jafp.or.jp/exam/outline/"
+   }
+  ],
+  "evidence": [],
+  "reviewStatus": "draft",
+  "lawBaseDate": "2026-04-01",
+  "termId": "saishu-rimawari"
+ },
+ {
+  "id": "f-sharpe",
+  "front": "シャープレシオの計算式は？",
+  "back": "（収益率－無リスク金利）÷標準偏差",
+  "field": "C",
+  "category": "formula",
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "日本FP協会 試験範囲（試験要綱）",
+    "url": "https://www.jafp.or.jp/exam/outline/"
+   }
+  ],
+  "evidence": [],
+  "reviewStatus": "draft",
+  "lawBaseDate": "2026-04-01",
+  "termId": "sharpe-ratio"
+ },
+ {
+  "id": "f-shotokuzei-rate",
+  "front": "所得税（総合課税）の税率構造は？",
+  "back": "5％〜45％の7段階の超過累進税率",
+  "field": "D",
+  "category": "rate",
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "国税庁 No.2260 所得税の税率",
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2260.htm"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2260.htm",
+    "quote": "5パーセントから45パーセントの7段階"
+   }
+  ],
+  "reviewStatus": "verified",
+  "lawBaseDate": "2026-04-01",
+  "termId": "chouka-ruishin-zeiritsu"
+ },
+ {
+  "id": "f-ichiji",
+  "front": "一時所得の計算式は？",
+  "back": "総収入金額－支出金額－特別控除（最高50万円）。総所得金額にはその1/2を算入",
+  "field": "D",
+  "category": "formula",
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "国税庁 No.1490 一時所得",
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1490.htm"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1490.htm",
+    "quote": "特別控除額(最高50万円)＝一時所得の金額"
+   }
+  ],
+  "reviewStatus": "verified",
+  "lawBaseDate": "2026-04-01",
+  "termId": "ichiji-shotoku"
+ },
+ {
+  "id": "f-taishoku-kojo",
+  "front": "退職所得控除額は？",
+  "back": "20年以下：40万円×年数（最低80万円）／20年超：800万円＋70万円×（年数－20）",
+  "field": "D",
+  "category": "formula",
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "国税庁 No.1420 退職所得",
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1420.htm"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1420.htm",
+    "quote": "20年超800万円＋70万円×(A-20年)"
+   }
+  ],
+  "reviewStatus": "verified",
+  "lawBaseDate": "2026-04-01",
+  "termId": "taishoku-shotoku-kojo"
+ },
+ {
+  "id": "f-iryohi",
+  "front": "医療費控除の上限と足切り額は？",
+  "back": "上限200万円。足切りは10万円（総所得金額等200万円未満は5％）",
+  "field": "D",
+  "category": "number",
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "国税庁 No.1120 医療費控除",
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1120.htm"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1120.htm",
+    "quote": "最高で200万円"
+   }
+  ],
+  "reviewStatus": "verified",
+  "lawBaseDate": "2026-04-01",
+  "termId": "iryohi-kojo"
+ },
+ {
+  "id": "f-tokutei-fuyo",
+  "front": "特定扶養親族の年齢と控除額は？",
+  "back": "19歳以上23歳未満（12月31日現在）、63万円",
+  "field": "D",
+  "category": "number",
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "国税庁 No.1180 扶養控除",
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1180.htm"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1180.htm",
+    "quote": "特定扶養親族63万円"
+   }
+  ],
+  "reviewStatus": "verified",
+  "lawBaseDate": "2026-04-01",
+  "termId": "fuyo-kojo"
+ },
+ {
+  "id": "f-seiho-kojo",
+  "front": "生命保険料控除（新制度）の上限は？",
+  "back": "各区分4万円、合計12万円",
+  "field": "D",
+  "category": "number",
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "国税庁 No.1140 生命保険料控除",
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1140.htm"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1140.htm",
+    "quote": "生命保険料控除額は120,000円となります"
+   }
+  ],
+  "reviewStatus": "verified",
+  "lawBaseDate": "2026-04-01",
+  "termId": "seimei-hokenryo-kojo"
+ },
+ {
+  "id": "f-jishin-kojo",
+  "front": "地震保険料控除（所得税）の上限は？",
+  "back": "5万円（支払保険料の全額、最高5万円）",
+  "field": "D",
+  "category": "number",
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "国税庁 No.1145 地震保険料控除",
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1145.htm"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1145.htm",
+    "quote": "50,000円超一律50,000円"
+   }
+  ],
+  "reviewStatus": "verified",
+  "lawBaseDate": "2026-04-01",
+  "termId": "jishin-hokenryo-kojo"
+ },
+ {
+  "id": "f-aoiro-shinsei",
+  "front": "青色申告承認申請書の提出期限は？",
+  "back": "原則その年の3月15日まで。1月16日以後の開業は開業日から2カ月以内",
+  "field": "D",
+  "category": "deadline",
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "国税庁 No.2090 新たに事業を始めたときの届出など",
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2090.htm"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2090.htm",
+    "quote": "その日から2か月以内"
+   }
+  ],
+  "reviewStatus": "verified",
+  "lawBaseDate": "2026-04-01",
+  "termId": "aoiro-shinkoku"
+ },
+ {
+  "id": "f-choki-joto",
+  "front": "土地・建物の長期譲渡所得となる所有期間は？",
+  "back": "譲渡した年の1月1日において5年超",
+  "field": "E",
+  "category": "deadline",
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "日本FP協会 試験範囲（試験要綱）",
+    "url": "https://www.jafp.or.jp/exam/outline/"
+   }
+  ],
+  "evidence": [],
+  "reviewStatus": "draft",
+  "lawBaseDate": "2026-04-01",
+  "termId": "choki-joto"
+ },
+ {
+  "id": "f-3000man-kigen",
+  "front": "3,000万円特別控除の譲渡期限（住まなくなった場合）は？",
+  "back": "住まなくなった日から3年を経過する日の属する年の12月31日まで",
+  "field": "E",
+  "category": "deadline",
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "日本FP協会 試験範囲（試験要綱）",
+    "url": "https://www.jafp.or.jp/exam/outline/"
+   }
+  ],
+  "evidence": [],
+  "reviewStatus": "draft",
+  "lawBaseDate": "2026-04-01",
+  "termId": "kyojuyo-3000man"
+ },
+ {
+  "id": "f-gaisan",
+  "front": "概算取得費は？",
+  "back": "譲渡価額の5％",
+  "field": "E",
+  "category": "rate",
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "国税庁 No.3258 取得費が分からないとき",
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3258.htm"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3258.htm",
+    "quote": "売った金額の5パーセント相当額を取得費とすることができます"
+   }
+  ],
+  "reviewStatus": "verified",
+  "lawBaseDate": "2026-04-01",
+  "termId": "gaisan-shutokuhi"
+ },
+ {
+  "id": "f-setsudo",
+  "front": "接道義務は？",
+  "back": "幅員4m以上の道路に2m以上接すること",
+  "field": "E",
+  "category": "rule",
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "日本FP協会 試験範囲（試験要綱）",
+    "url": "https://www.jafp.or.jp/exam/outline/"
+   }
+  ],
+  "evidence": [],
+  "reviewStatus": "draft",
+  "lawBaseDate": "2026-04-01",
+  "termId": "setsudo-gimu"
+ },
+ {
+  "id": "f-yoseki-joso",
+  "front": "前面道路幅員による容積率の法定乗数は？",
+  "back": "住居系の用途地域 4/10、その他 6/10（幅員12m未満の場合）",
+  "field": "E",
+  "category": "formula",
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "日本FP協会 試験範囲（試験要綱）",
+    "url": "https://www.jafp.or.jp/exam/outline/"
+   }
+  ],
+  "evidence": [],
+  "reviewStatus": "draft",
+  "lawBaseDate": "2026-04-01",
+  "termId": "yosekiritsu"
+ },
+ {
+  "id": "f-teiki-jigyo",
+  "front": "事業用定期借地権等の存続期間と契約方式は？",
+  "back": "10年以上50年未満。公正証書で契約",
+  "field": "E",
+  "category": "rule",
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "日本FP協会 試験範囲（試験要綱）",
+    "url": "https://www.jafp.or.jp/exam/outline/"
+   }
+  ],
+  "evidence": [],
+  "reviewStatus": "draft",
+  "lawBaseDate": "2026-04-01",
+  "termId": "teiki-shakuchiken"
+ },
+ {
+  "id": "f-tetsuke",
+  "front": "宅建業者が売主の場合の手付金の上限は？",
+  "back": "代金の20％",
+  "field": "E",
+  "category": "rate",
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "日本FP協会 試験範囲（試験要綱）",
+    "url": "https://www.jafp.or.jp/exam/outline/"
+   }
+  ],
+  "evidence": [],
+  "reviewStatus": "draft",
+  "lawBaseDate": "2026-04-01",
+  "termId": "tetsukekin"
+ },
+ {
+  "id": "f-kubun-kiyaku",
+  "front": "区分所有法：規約の変更・建替え決議に必要な賛成は？",
+  "back": "規約変更は区分所有者および議決権の各3/4以上、建替えは各4/5以上",
+  "field": "E",
+  "category": "rule",
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "日本FP協会 試験範囲（試験要綱）",
+    "url": "https://www.jafp.or.jp/exam/outline/"
+   }
+  ],
+  "evidence": [],
+  "reviewStatus": "draft",
+  "lawBaseDate": "2026-04-01"
+ },
+ {
+  "id": "f-sozoku-kiso",
+  "front": "相続税の基礎控除額は？",
+  "back": "3,000万円＋600万円×法定相続人の数",
+  "field": "F",
+  "category": "formula",
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "国税庁 No.4152 相続税の計算",
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4152.htm"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4152.htm",
+    "quote": "3,000万円＋600万円×法定相続人の数"
+   }
+  ],
+  "reviewStatus": "verified",
+  "lawBaseDate": "2026-04-01",
+  "termId": "sozokuzei-kiso-kojo"
+ },
+ {
+  "id": "f-shibo-hikazei",
+  "front": "死亡保険金の非課税限度額は？",
+  "back": "500万円×法定相続人の数",
+  "field": "F",
+  "category": "formula",
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "国税庁 No.4114 相続税の課税対象になる死亡保険金",
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4114.htm"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4114.htm",
+    "quote": "500万円×法定相続人の数＝非課税限度額"
+   }
+  ],
+  "reviewStatus": "verified",
+  "lawBaseDate": "2026-04-01",
+  "termId": "shibo-hokenkin-hikazei"
+ },
+ {
+  "id": "f-haigusha-keigen",
+  "front": "配偶者の税額軽減の上限は？",
+  "back": "1億6,000万円と法定相続分相当額のいずれか多い金額",
+  "field": "F",
+  "category": "number",
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "国税庁 No.4158 配偶者の税額の軽減",
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4158.htm"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4158.htm",
+    "quote": "1億6千万円"
+   }
+  ],
+  "reviewStatus": "verified",
+  "lawBaseDate": "2026-04-01",
+  "termId": "haigusha-keigen"
+ },
+ {
+  "id": "f-shokibo-takuchi",
+  "front": "小規模宅地等の特例の限度面積と減額割合は？",
+  "back": "特定居住用 330㎡・80％／特定事業用等 400㎡・80％／貸付事業用 200㎡・50％",
+  "field": "F",
+  "category": "number",
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "国税庁 No.4124 小規模宅地等の特例",
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4124.htm"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4124.htm",
+    "quote": "特定居住用宅地等に該当する宅地等33080％"
+   }
+  ],
+  "reviewStatus": "verified",
+  "lawBaseDate": "2026-04-01",
+  "termId": "shokibo-takuchi"
+ },
+ {
+  "id": "f-houki-kigen",
+  "front": "相続放棄・限定承認の期限は？",
+  "back": "相続の開始があったことを知った時から3カ月以内に家庭裁判所へ申述",
+  "field": "F",
+  "category": "deadline",
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "日本FP協会 試験範囲（試験要綱）",
+    "url": "https://www.jafp.or.jp/exam/outline/"
+   }
+  ],
+  "evidence": [],
+  "reviewStatus": "draft",
+  "lawBaseDate": "2026-04-01",
+  "termId": "sozoku-houki"
+ },
+ {
+  "id": "f-iryubun",
+  "front": "遺留分全体の割合は？",
+  "back": "直系尊属のみが相続人：1/3、それ以外：1/2（兄弟姉妹は遺留分なし）",
+  "field": "F",
+  "category": "rate",
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "日本FP協会 試験範囲（試験要綱）",
+    "url": "https://www.jafp.or.jp/exam/outline/"
+   }
+  ],
+  "evidence": [],
+  "reviewStatus": "draft",
+  "lawBaseDate": "2026-04-01",
+  "termId": "iryubun"
+ },
+ {
+  "id": "f-zoyo-kiso",
+  "front": "暦年課税の贈与税の基礎控除は？",
+  "back": "受贈者1人につき年110万円",
+  "field": "F",
+  "category": "number",
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "国税庁 No.4408 贈与税の計算と税率（暦年課税）",
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/zoyo/4408.htm"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/zoyo/4408.htm",
+    "quote": "基礎控除額110万円"
+   }
+  ],
+  "reviewStatus": "verified",
+  "lawBaseDate": "2026-04-01",
+  "termId": "zoyozei-kiso-kojo"
+ },
+ {
+  "id": "f-seisan-kazei",
+  "front": "相続時精算課税の特別控除と税率は？",
+  "back": "累計2,500万円（別に年110万円の基礎控除）、超えた部分に一律20％",
+  "field": "F",
+  "category": "number",
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "国税庁 No.4103 相続時精算課税の選択",
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4103.htm"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4103.htm",
+    "quote": "限度額2,500万円"
+   }
+  ],
+  "reviewStatus": "verified",
+  "lawBaseDate": "2026-04-01",
+  "termId": "sozokuji-seisan"
+ },
+ {
+  "id": "f-zoyo-haigusha",
+  "front": "贈与税の配偶者控除の要件と控除額は？",
+  "back": "婚姻期間20年以上、最高2,000万円（基礎控除110万円とは別）",
+  "field": "F",
+  "category": "number",
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "国税庁 No.4452 贈与税の配偶者控除",
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/zoyo/4452.htm"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/zoyo/4452.htm",
+    "quote": "婚姻期間が20年以上の夫婦の間で"
+   }
+  ],
+  "reviewStatus": "verified",
+  "lawBaseDate": "2026-04-01",
+  "termId": "zoyo-haigusha-kojo"
+ }
+]

@@ -1,0 +1,32 @@
+{
+ "reviewedAt": "2026-10-21",
+ "reviewer": "Claude（目視確認）",
+ "questions": {
+  "24": {
+   "requiresCalculation": true,
+   "calcReason": "所有期間利回りを計算する"
+  },
+  "26": {
+   "requiresCalculation": true,
+   "calcReason": "資料の数値からEPS・株式益利回り・PBR・配当性向を計算する",
+   "_release": true,
+   "_stemCutAt": "＜Ｘ社のデータ＞",
+   "_materialImage": "Ｘ社のデータ：株価9,000円、発行済株式数25億株、時価総額225,000億円、自己資本37,500億円、配当金総額3,375億円、PER20.0倍"
+  },
+  "29": {
+   "requiresCalculation": true,
+   "calcReason": "シャープレシオを計算して比較する",
+   "_release": true,
+   "_materialImage": "ファンドＡ・Ｂの実績収益率と標準偏差の表",
+   "_stemRemoveBetween": [
+    "＜資料＞ファンド",
+    "ファンドの運用パフォーマンスに係る"
+   ]
+  },
+  "53": {
+   "_release": true,
+   "_stemCutAt": "＜親族関係図＞",
+   "_materialImage": "親族関係図：前妻Ｂさん、被相続人Ａさん、妻Ｃさん、子Ｄさん（すでに死亡）とその夫Ｈさん・孫Ｉさん、子Ｅさん、子Ｆさん、子Ｇさん"
+  }
+ }
+}

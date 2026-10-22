@@ -1,0 +1,24 @@
+{
+ "reviewedAt": "2026-10-21",
+ "reviewer": "Claude（目視確認）",
+ "questions": {
+  "2": {
+   "_release": true,
+   "_materialImage": "短時間労働者の被保険者要件(1)〜(3)の箇条書き"
+  },
+  "10": {
+   "requiresCalculation": true,
+   "calcReason": "貸借対照表の数値から各種財務比率を計算する",
+   "_release": true,
+   "_stemCutAt": "〈Ｘ社の貸借対照表〉",
+   "_materialImage": "Ｘ社の貸借対照表（単位：百万円）"
+  },
+  "28": {
+   "requiresCalculation": true,
+   "calcReason": "期待収益率を構成比で加重平均して計算する",
+   "_release": true,
+   "_stemCutAt": "資産 ポートフォリオ",
+   "_materialImage": "ポートフォリオの資産別の構成比・期待収益率・標準偏差の表"
+  }
+ }
+}

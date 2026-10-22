@@ -1,0 +1,43 @@
+{
+ "reviewedAt": "2026-10-21",
+ "reviewer": "Claude（目視確認）",
+ "questions": {
+  "32": {
+   "_release": true,
+   "_dropMaterials": true
+  },
+  "45": {
+   "_release": true,
+   "_dropMaterials": true
+  },
+  "41": {
+   "requiresCalculation": true,
+   "calcReason": "最終利回りを式に当てはめて計算する"
+  },
+  "42": {
+   "requiresCalculation": true,
+   "calcReason": "配当性向・配当利回りを資料の数値から計算する",
+   "_release": true,
+   "_stemCutAt": "〈Ｘ社のデータ〉株",
+   "_materialImage": "Ｘ社のデータ：株価2,000円、1株当たり年間配当金40円、1株当たり純利益100円、1株当たり純資産1,000円"
+  },
+  "52": {
+   "requiresCalculation": true,
+   "calcReason": "延べ面積÷敷地面積で容積率を計算する",
+   "_release": true,
+   "_stemCutAt": "６ｍ公道",
+   "_materialImage": "幅員6mの公道に面した200㎡の土地の図"
+  },
+  "57": {
+   "requiresCalculation": true,
+   "calcReason": "兄弟姉妹全体の相続分を人数で割って計算する",
+   "_release": true,
+   "_stemCutAt": "〈親族関係図〉父",
+   "_materialImage": "親族関係図：父Ｃさん（既に死亡）、母Ｄさん（既に死亡）、兄Ｅさん、姉Ｆさん、被相続人Ａさん、妻Ｂさん"
+  },
+  "59": {
+   "requiresCalculation": true,
+   "calcReason": "自用地評価額×（1－借地権割合）で計算する"
+  }
+ }
+}

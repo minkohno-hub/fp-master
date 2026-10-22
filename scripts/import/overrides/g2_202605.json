@@ -1,0 +1,65 @@
+{
+ "reviewedAt": "2026-10-21",
+ "reviewer": "Claude（目視確認）",
+ "questions": {
+  "53": {
+   "_release": true,
+   "_dropMaterials": true
+  },
+  "14": {
+   "requiresCalculation": true,
+   "calcReason": "旧制度・新制度の控除額を計算して合計する",
+   "_release": true,
+   "_stemCutAt": "〈資料〉所得税",
+   "_materialImage": "生命保険料控除の対象となる保険料の表（旧制度・新制度別の一般の生命保険料、介護医療保険料、個人年金保険料）"
+  },
+  "26": {
+   "requiresCalculation": true,
+   "calcReason": "資料の数値からROE・PER・PBR・配当利回りを計算する",
+   "_release": true,
+   "_stemCutAt": "〈Ｘ社のデータ〉",
+   "_materialImage": "Ｘ社のデータ：株価1,800円、発行済株式数2億株、売上高2,500億円、営業利益180億円、当期純利益120億円、自己資本2,000億円、配当金総額36億円"
+  },
+  "27": {
+   "requiresCalculation": true,
+   "calcReason": "為替レートと金利から円ベースの利回りを計算する",
+   "_release": true,
+   "_stemCutAt": "〈条件〉",
+   "_materialImage": "条件：預入期間1年、預金金利3.00％、為替予約なし、預入時TTS140.00円・TTB139.00円、満期時TTS145.00円・TTB144.00円"
+  },
+  "28": {
+   "requiresCalculation": true,
+   "calcReason": "シャープレシオを計算して比較する",
+   "_release": true,
+   "_materialImage": "ファンドＡ・Ｂの過去5年間の実績収益率の平均値と標準偏差",
+   "_stemRemoveBetween": [
+    "〈資料〉ファンド",
+    "ファンドの運用パフォーマンスに係る"
+   ]
+  },
+  "33": {
+   "requiresCalculation": true,
+   "calcReason": "損益通算と一時所得の2分の1を考慮して総所得金額を計算する",
+   "_release": true,
+   "_stemCutAt": "〈Ａさんの各種所得の金額〉",
+   "_materialImage": "Ａさんの各種所得の金額：不動産所得60万円、事業所得▲100万円、一時所得100万円"
+  },
+  "55": {
+   "requiresCalculation": true,
+   "calcReason": "法定相続人の数から基礎控除額を計算する",
+   "_release": true,
+   "_stemCutAt": "〈親族関係図〉",
+   "_materialImage": "親族関係図：被相続人Ａさん、妻Ｂさん、実子Ｃさん（相続放棄）、養子Ｄさん、孫Ｅさん、孫Ｆさん"
+  },
+  "57": {
+   "_release": true,
+   "_stemCutAt": "〈資料〉上場株式",
+   "_materialImage": "上場株式Ｙの価格：1月〜4月の月平均額と4月4日・4月7日の最終価格"
+  },
+  "59": {
+   "_release": true,
+   "_stemCutAt": "宅地等の区分",
+   "_materialImage": "小規模宅地等の特例の区分・限度面積・減額割合の表（空欄ア〜ウ）"
+  }
+ }
+}
