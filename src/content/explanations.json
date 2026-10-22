@@ -2,15 +2,20 @@
  "g3-202605-01": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "投資顧問契約に基づき投資助言・代理業を行うには、金融商品取引業者として内閣総理大臣の登録が必要。適切（〇）。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 金融商品取引法",
+     "url": "https://laws.e-gov.go.jp/law/323AC0000000025"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/323AC0000000025",
+     "quote": "金融商品取引業は、内閣総理大臣の登録を受けた者でなければ、行うことができない"
+    }
+   ],
    "lawBaseDate": "2025-04-01",
    "checkedAt": "2026-10-21",
    "pitfalls": "登録のないFPでも、一般的な経済情勢や商品の仕組みの説明は可能。個別具体的な投資判断の助言を業として行うことが規制対象。"
@@ -246,15 +251,24 @@
  "g3-202605-15": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "消費者契約法では、重要事項の不実告知により誤認して申込みをした消費者は、申込みを取り消すことができる。適切（〇）。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 消費者契約法",
+     "url": "https://laws.e-gov.go.jp/law/412AC0000000061"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/412AC0000000061",
+     "quote": "重要事項について事実と異なることを告げること。当該告げられた内容が事実であるとの誤認"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/412AC0000000061",
+     "quote": "申込み又はその承諾の意思表示をしたときは、これを取り消すことができる"
+    }
+   ],
    "lawBaseDate": "2025-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -278,15 +292,20 @@
  "g3-202605-17": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "公的年金等に係る雑所得の金額は、公的年金等の収入金額から公的年金等控除額を差し引いて計算する。適切（〇）。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 所得税法",
+     "url": "https://laws.e-gov.go.jp/law/340AC0000000033"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/340AC0000000033",
+     "quote": "公的年金等の収入金額から公的年金等控除額を控除した残額"
+    }
+   ],
    "lawBaseDate": "2025-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -294,15 +313,24 @@
  "g3-202605-18": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "総合課税の長期譲渡所得は、その2分の1相当額を他の所得と合計する。適切（〇）。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 所得税法",
+     "url": "https://laws.e-gov.go.jp/law/340AC0000000033"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/340AC0000000033",
+     "quote": "譲渡所得の金額（第三十三条第三項第二号に掲げる所得に係る部分の金額に限る。）"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/340AC0000000033",
+     "quote": "合計額の二分の一に相当する金額"
+    }
+   ],
    "lawBaseDate": "2025-04-01",
    "checkedAt": "2026-10-21",
    "pitfalls": "土地・建物や株式等の譲渡は分離課税であり、この2分の1の扱いはない。"
@@ -366,15 +394,20 @@
    "teiki-shakuya"
   ],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "定期借家契約では1年未満の期間も有効に定めることができる。不適切（×）。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 借地借家法",
+     "url": "https://laws.e-gov.go.jp/law/403AC0000000090"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/403AC0000000090",
+     "quote": "公正証書による等書面によって契約をするときに限り、第三十条の規定にかかわらず、契約の更新がないこととする旨を定めることができる。この場合には、第二十九条第一項の規定を適用しない"
+    }
+   ],
    "lawBaseDate": "2025-04-01",
    "checkedAt": "2026-10-21",
    "pitfalls": "普通借家契約で1年未満の期間を定めると、期間の定めのない契約とみなされる。"
@@ -383,15 +416,24 @@
  "g3-202605-23": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "市街化区域内の農地転用は、あらかじめ農業委員会に届け出れば都道府県知事等の許可は不要。適切（〇）。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 農地法",
+     "url": "https://laws.e-gov.go.jp/law/327AC0000000229"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/327AC0000000229",
+     "quote": "市街化区域（都市計画法（昭和四十三年法律第百号）第七条第一項の市街化区域と定められた区域"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/327AC0000000229",
+     "quote": "内にある農地を、政令で定めるところによりあらかじめ農業委員会に届け出て、農地以外のものにする場合"
+    }
+   ],
    "lawBaseDate": "2025-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -399,15 +441,20 @@
  "g3-202605-24": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "固定資産税は毎年1月1日現在の固定資産課税台帳の所有者に課される。不適切（×）。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 地方税法",
+     "url": "https://laws.e-gov.go.jp/law/325AC0000000226"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/325AC0000000226",
+     "quote": "固定資産税の賦課期日は、当該年度の初日の属する年の一月一日とする"
+    }
+   ],
    "lawBaseDate": "2025-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -449,15 +496,28 @@
    "iryubun"
   ],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "兄弟姉妹には遺留分がないため、配偶者と兄弟姉妹が相続人の場合、配偶者の遺留分は算定基礎財産の2分の1。適切（〇）。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 民法",
+     "url": "https://laws.e-gov.go.jp/law/129AC0000000089"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/129AC0000000089",
+     "quote": "兄弟姉妹以外の相続人は、遺留分として"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/129AC0000000089",
+     "quote": "直系尊属のみが相続人である場合　三分の一"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/129AC0000000089",
+     "quote": "第九百条及び第九百一条の規定により算定したその各自の相続分を乗じた割合とする"
+    }
+   ],
    "lawBaseDate": "2025-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -506,15 +566,28 @@
    "sozoku-houki"
   ],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "限定承認・相続放棄は、原則として相続の開始を知った時から3カ月以内に家庭裁判所に申述する。適切（〇）。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 民法",
+     "url": "https://laws.e-gov.go.jp/law/129AC0000000089"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/129AC0000000089",
+     "quote": "自己のために相続の開始があったことを知った時から三箇月以内に"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/129AC0000000089",
+     "quote": "相続人は、限定承認をしようとするときは、第九百十五条第一項の期間内に、相続財産の目録を作成して家庭裁判所に提出し、限定承認をする旨を申述しなければならない"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/129AC0000000089",
+     "quote": "相続の放棄をしようとする者は、その旨を家庭裁判所に申述しなければならない"
+    }
+   ],
    "lawBaseDate": "2025-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -622,15 +695,20 @@
  "g3-202605-36": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "保険金・保険料返還の請求権は、行使できる時から3年間行使しないと時効で消滅する（保険法）。正解は3)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 保険法",
+     "url": "https://laws.e-gov.go.jp/law/420AC0000000056"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/420AC0000000056",
+     "quote": "これらを行使することができる時から三年間行使しないときは、時効によって消滅する"
+    }
+   ],
    "lawBaseDate": "2025-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -792,15 +870,24 @@
    "yokin-hoken"
   ],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "決済用預金の3要件は「無利息・要求払い・決済サービスを提供できる」。正解は1)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 預金保険法",
+     "url": "https://laws.e-gov.go.jp/law/346AC0000000034"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/346AC0000000034",
+     "quote": "その契約又は取引慣行に基づき第六十九条の二第一項に規定する政令で定める取引に用いることができるものであること"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/346AC0000000034",
+     "quote": "その預金者がその払戻しをいつでも請求することができるものであること。三利息が付されていないものであること"
+    }
+   ],
    "lawBaseDate": "2025-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -833,15 +920,24 @@
    "shokibo-kyosai-kojo"
   ],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "iDeCoの掛金は小規模企業共済等掛金控除の対象。正解は3)。",
    "sources": [
     {
-     "title": "国税庁 No.1135 小規模企業共済等掛金控除",
-     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1135.htm"
+     "title": "e-Gov法令検索 所得税法",
+     "url": "https://laws.e-gov.go.jp/law/340AC0000000033"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/340AC0000000033",
+     "quote": "同法第五十五条第二項第四号（規約の承認）に規定する個人型年金加入者掛金"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/340AC0000000033",
+     "quote": "居住者が、各年において、小規模企業共済等掛金を支払つた場合には、その支払つた金額を、その者のその年分の総所得金額、退職所得金額又は山林所得金額から控除する"
+    }
+   ],
    "lawBaseDate": "2025-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -908,15 +1004,20 @@
    "tetsukekin"
   ],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "売主は手付の倍額（200万円×2＝400万円）を現実に提供して契約を解除できる。正解は3)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 民法",
+     "url": "https://laws.e-gov.go.jp/law/129AC0000000089"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/129AC0000000089",
+     "quote": "買主はその手付を放棄し、売主はその倍額を現実に提供して、契約の解除をすることができる。ただし、その相手方が契約の履行に着手した後は、この限りでない"
+    }
+   ],
    "lawBaseDate": "2025-04-01",
    "checkedAt": "2026-10-21",
    "pitfalls": "買主は手付を放棄して解除する。いずれも相手方が履行に着手するまで。"
@@ -927,15 +1028,20 @@
    "yosekiritsu"
   ],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "容積率＝延べ面積÷敷地面積＝150㎡÷200㎡＝75％。正解は2)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 建築基準法",
+     "url": "https://laws.e-gov.go.jp/law/325AC0000000201"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/325AC0000000201",
+     "quote": "建築物の延べ面積の敷地面積に対する割合（以下「容積率」という。）"
+    }
+   ],
    "lawBaseDate": "2025-04-01",
    "checkedAt": "2026-10-21",
    "pitfalls": "建築面積（100㎡）を使うのは建ぺい率（50％）。"
@@ -944,15 +1050,20 @@
  "g3-202605-53": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "管理者は少なくとも毎年1回集会を招集しなければならない（区分所有法）。正解は3)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 建物の区分所有等に関する法律",
+     "url": "https://laws.e-gov.go.jp/law/337AC0000000069"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/337AC0000000069",
+     "quote": "管理者は、少なくとも毎年一回集会を招集しなければならない"
+    }
+   ],
    "lawBaseDate": "2025-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -960,15 +1071,20 @@
  "g3-202605-54": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "相続税の取得費加算の特例は、相続開始の翌日から相続税の申告期限の翌日以後3年を経過する日までの譲渡が対象。正解は3)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 租税特別措置法",
+     "url": "https://laws.e-gov.go.jp/law/332AC0000000026"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/332AC0000000026",
+     "quote": "の提出期限の翌日以後三年を経過する日までの間に当該相続税額に係る課税価格"
+    }
+   ],
    "lawBaseDate": "2025-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -1038,15 +1154,20 @@
  "g3-202605-58": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "保険事故が発生していない生命保険契約に関する権利は、原則として解約返戻金の額で評価する。正解は1)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "国税庁 財産評価基本通達（生命保険契約に関する権利の評価）",
+     "url": "https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/08/08.htm"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/08/08.htm",
+     "quote": "まだ保険事故（共済事故を含む。この項において同じ。）が発生していない生命保険契約に関する権利の価額は、相続開始の時において当該契約を解約するとした場合に支払われることとなる解約返戻金の額"
+    }
+   ],
    "lawBaseDate": "2025-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -1054,15 +1175,28 @@
  "g3-202605-59": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "貸宅地（底地）の評価額＝自用地評価額×（1－借地権割合）＝1億円×（1－0.6）＝4,000万円。正解は1)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "国税庁 財産評価基本通達（貸宅地・貸家建付地の評価）",
+     "url": "https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/02/05.htm"
+    },
+    {
+     "title": "国税庁 財産評価基本通達（借地権の評価）",
+     "url": "https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/02/06.htm"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/02/05.htm",
+     "quote": "から27((借地権の評価))の定めにより評価したその借地権の価額"
+    },
+    {
+     "url": "https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/02/06.htm",
+     "quote": "借地権の価額は、その借地権の目的となっている宅地の自用地としての価額に、当該価額に対する借地権の売買実例価額、精通者意見価格、地代の額等を基として評定した借地権の価額の割合（以下「借地権割合」という。）がおおむね同一と認められる地域ごとに国税局長の定める割合を乗じて計算した金額によって評価する"
+    }
+   ],
    "lawBaseDate": "2025-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -1094,15 +1228,24 @@
  "g3-202505-01": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "税理士資格のない者は、無償であっても反復継続して確定申告書を作成すれば税理士法に抵触する。不適切（×）。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 税理士法",
+     "url": "https://laws.e-gov.go.jp/law/326AC1000000237"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/326AC1000000237",
+     "quote": "税理士又は税理士法人でない者は、この法律に別段の定めがある場合を除くほか、税理士業務を行つてはならない"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/326AC1000000237",
+     "quote": "税務書類の作成"
+    }
+   ],
    "lawBaseDate": "2024-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -1110,15 +1253,20 @@
  "g3-202505-02": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "高年齢雇用継続基本給付金は、60歳到達時に比べ賃金が75％未満に低下した場合に支給される。不適切（×）。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 雇用保険法",
+     "url": "https://laws.e-gov.go.jp/law/349AC0000000116"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/349AC0000000116",
+     "quote": "百分の七十五に相当する額を下るに至つた場合に、当該支給対象月について支給する"
+    }
+   ],
    "lawBaseDate": "2024-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -1126,15 +1274,20 @@
  "g3-202505-03": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "第1号被保険者に扶養される配偶者は第3号ではなく第1号被保険者。第3号は第2号被保険者の被扶養配偶者。不適切（×）。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 国民年金法",
+     "url": "https://laws.e-gov.go.jp/law/334AC0000000141"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/334AC0000000141",
+     "quote": "主として第二号被保険者の収入により生計を維持するもの（第二号被保険者である者その他この法律の適用を除外すべき特別の理由がある者として厚生労働省令で定める者を除く。以下「被扶養配偶者」という。）のうち二十歳以上六十歳未満のもの（以下「第三号被保険者」という。）"
+    }
+   ],
    "lawBaseDate": "2024-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -1238,15 +1391,20 @@
  "g3-202505-10": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "人身傷害保険は、自己の過失割合にかかわらず保険金額の範囲で損害額が補償される。適切（〇）。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "日本損害保険協会 自動車保険",
+     "url": "https://www.sonpo.or.jp/insurance/car/index.html"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://www.sonpo.or.jp/insurance/car/index.html",
+     "quote": "自分の過失部分を含めて、自分の契約している損害保険会社から損害額の全額が支払われます"
+    }
+   ],
    "lawBaseDate": "2024-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -1318,15 +1476,20 @@
  "g3-202505-15": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "特定事業者は取引記録を作成し、取引の日から7年間保存しなければならない。適切（〇）。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 犯罪による収益の移転防止に関する法律",
+     "url": "https://laws.e-gov.go.jp/law/419AC0000000022"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/419AC0000000022",
+     "quote": "七年間保存しなければならない"
+    }
+   ],
    "lawBaseDate": "2024-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -1334,15 +1497,20 @@
  "g3-202505-16": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "病気・けがによる入院給付金は非課税。適切（〇）。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 所得税法施行令",
+     "url": "https://laws.e-gov.go.jp/law/340CO0000000096"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/340CO0000000096",
+     "quote": "共済金で、身体の傷害に基因して支払を受けるもの"
+    }
+   ],
    "lawBaseDate": "2024-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -1435,15 +1603,24 @@
  "g3-202505-22": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "公正証書が必要なのは事業用定期借地権等。一般定期借地権は書面（電磁的記録を含む）で足りる。不適切（×）。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 借地借家法",
+     "url": "https://laws.e-gov.go.jp/law/403AC0000000090"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/403AC0000000090",
+     "quote": "その特約は、公正証書による等書面によってしなければならない"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/403AC0000000090",
+     "quote": "前二項に規定する借地権の設定を目的とする契約は、公正証書によってしなければならない"
+    }
+   ],
    "lawBaseDate": "2024-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -1451,15 +1628,28 @@
  "g3-202505-23": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "市街化区域内の開発行為は原則1,000㎡以上の場合に許可が必要で、規模にかかわらず必要なわけではない。不適切（×）。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 都市計画法",
+     "url": "https://laws.e-gov.go.jp/law/343AC0000000100"
+    },
+    {
+     "title": "e-Gov法令検索 都市計画法施行令",
+     "url": "https://laws.e-gov.go.jp/law/344CO0000000158"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/343AC0000000100",
+     "quote": "都市計画区域又は準都市計画区域内において開発行為をしようとする者は、あらかじめ、"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/344CO0000000158",
+     "quote": "市街化区域千平方メートル"
+    }
+   ],
    "lawBaseDate": "2024-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -1515,15 +1705,24 @@
  "g3-202505-27": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "公正証書遺言には証人2人以上が必要で、推定相続人は証人になれない。適切（〇）。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 民法",
+     "url": "https://laws.e-gov.go.jp/law/129AC0000000089"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/129AC0000000089",
+     "quote": "証人二人以上の立会いがあること"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/129AC0000000089",
+     "quote": "推定相続人及び受遺者並びにこれらの配偶者及び直系血族"
+    }
+   ],
    "lawBaseDate": "2024-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -1552,15 +1751,24 @@
  "g3-202505-29": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "配偶者の税額軽減は、法定相続分相当額と1億6,000万円のいずれか多い金額まで。不適切（×）。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "国税庁 No.4158 配偶者の税額の軽減",
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4158.htm"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4158.htm",
+     "quote": "次の金額のどちらか多い金額までは配偶者に相続税はかからないという制度です"
+    },
+    {
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4158.htm",
+     "quote": "（1）1億6千万円（2）配偶者の法定相続分相当額"
+    }
+   ],
    "lawBaseDate": "2024-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -1642,15 +1850,20 @@
  "g3-202505-34": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "遺族厚生年金の遺族の範囲は配偶者・子・父母・孫・祖父母。兄弟姉妹は含まれない。正解は2)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 厚生年金保険法",
+     "url": "https://laws.e-gov.go.jp/law/329AC0000000115"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/329AC0000000115",
+     "quote": "配偶者、子、父母、孫又は祖父母（以下単に「配偶者」、「子」、「父母」"
+    }
+   ],
    "lawBaseDate": "2024-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -1706,15 +1919,32 @@
  "g3-202505-38": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "自賠責保険の支払限度額は死亡3,000万円、傷害120万円。正解は1)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 自動車損害賠償保障法施行令",
+     "url": "https://laws.e-gov.go.jp/law/330CO0000000286"
+    },
+    {
+     "title": "日本損害保険協会 自賠責保険",
+     "url": "https://www.sonpo.or.jp/insurance/jibai/index.html"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/330CO0000000286",
+     "quote": "死亡による損害（ロに掲げる損害を除く。）三千万円"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/330CO0000000286",
+     "quote": "傷害による損害百二十万円"
+    },
+    {
+     "url": "https://www.sonpo.or.jp/insurance/jibai/index.html",
+     "quote": "払われる保険金の限度額死亡3,000万円ケガ120万円"
+    }
+   ],
    "lawBaseDate": "2024-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -1827,15 +2057,28 @@
  "g3-202505-45": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "一般預金等は1金融機関ごとに元本1,000万円とその利息等まで保護される。正解は2)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 預金保険法施行令",
+     "url": "https://laws.e-gov.go.jp/law/346CO0000000111"
+    },
+    {
+     "title": "e-Gov法令検索 預金保険法",
+     "url": "https://laws.e-gov.go.jp/law/346AC0000000034"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/346CO0000000111",
+     "quote": "法第五十四条第二項に規定する政令で定める金額は、千万円とする"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/346AC0000000034",
+     "quote": "その他預金等」という。）当該その他預金等に係る債権のうち元本の額及び利息等の額の合算額"
+    }
+   ],
    "lawBaseDate": "2024-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -1868,15 +2111,20 @@
  "g3-202505-47": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "国民年金基金の掛金は社会保険料控除の対象。正解は2)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 所得税法",
+     "url": "https://laws.e-gov.go.jp/law/340AC0000000033"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/340AC0000000033",
+     "quote": "国民年金法の規定により被保険者として負担する国民年金の保険料及び国民年金基金の加入員として負担する掛金"
+    }
+   ],
    "lawBaseDate": "2024-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -1884,15 +2132,20 @@
  "g3-202505-48": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "地震保険料控除（所得税）は支払保険料の全額、最高5万円。正解は1)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 所得税法",
+     "url": "https://laws.e-gov.go.jp/law/340AC0000000033"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/340AC0000000033",
+     "quote": "その金額が五万円を超える場合には五万円とする。）を、その居住者のその年分の総所得金額、退職所得金額又は山林所得金額から控除する"
+    }
+   ],
    "lawBaseDate": "2024-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -1916,15 +2169,20 @@
  "g3-202505-50": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "1月16日以後に開業した場合、青色申告承認申請書は開業日から2カ月以内に提出する。正解は1)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 所得税法",
+     "url": "https://laws.e-gov.go.jp/law/340AC0000000033"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/340AC0000000033",
+     "quote": "その年三月十五日まで（その年一月十六日以後新たに同条に規定する業務を開始した場合には、その業務を開始した日から二月以内）"
+    }
+   ],
    "lawBaseDate": "2024-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -1932,15 +2190,20 @@
  "g3-202505-51": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "宅建業者が自ら売主の場合、代金の20％を超える手付金は受領できない。正解は3)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 宅地建物取引業法",
+     "url": "https://laws.e-gov.go.jp/law/327AC1000000176"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/327AC1000000176",
+     "quote": "代金の額の十分の二を超える額の手付を受領することができない"
+    }
+   ],
    "lawBaseDate": "2024-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -1948,15 +2211,20 @@
  "g3-202505-52": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "建蔽率＝建築面積100㎡÷敷地面積200㎡＝50％。正解は1)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 建築基準法",
+     "url": "https://laws.e-gov.go.jp/law/325AC0000000201"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/325AC0000000201",
+     "quote": "建築物の建築面積（同一敷地内に二以上の建築物がある場合においては、その建築面積の合計）の敷地面積に対する割合（以下「建蔽率」という。）"
+    }
+   ],
    "lawBaseDate": "2024-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -1964,15 +2232,24 @@
  "g3-202505-53": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "共用部分の持分は専有部分の床面積の割合によるが、規約で別段の定めができる。正解は3)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 建物の区分所有等に関する法律",
+     "url": "https://laws.e-gov.go.jp/law/337AC0000000069"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/337AC0000000069",
+     "quote": "各共有者の持分は、その有する専有部分の床面積の割合による"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/337AC0000000069",
+     "quote": "前三項の規定は、規約で別段の定めをすることを妨げない"
+    }
+   ],
    "lawBaseDate": "2024-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -2037,15 +2314,20 @@
  "g3-202505-57": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "配偶者と直系尊属が相続人のとき、直系尊属は3分の1。母は死亡しているので父Cさんが3分の1。正解は2)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 民法",
+     "url": "https://laws.e-gov.go.jp/law/129AC0000000089"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/129AC0000000089",
+     "quote": "配偶者及び直系尊属が相続人であるときは、配偶者の相続分は、三分の二とし、直系尊属の相続分は、三分の一とする"
+    }
+   ],
    "lawBaseDate": "2024-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -2085,15 +2367,20 @@
  "g3-202505-60": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "特定事業用宅地等は400㎡まで80％減額。正解は3)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "国税庁 No.4124 小規模宅地等の特例",
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4124.htm"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4124.htm",
+     "quote": "①特定事業用宅地等に該当する宅地等40080％"
+    }
+   ],
    "lawBaseDate": "2024-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -2133,15 +2420,20 @@
  "g3-202405-03": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "第1号被保険者は日本国内に住所を有する20歳以上60歳未満の者（65歳未満ではない）。不適切（×）。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 国民年金法",
+     "url": "https://laws.e-gov.go.jp/law/334AC0000000141"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/334AC0000000141",
+     "quote": "日本国内に住所を有する二十歳以上六十歳未満の者であつて次号及び第三号のいずれにも該当しないもの"
+    }
+   ],
    "lawBaseDate": "2023-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -2165,15 +2457,20 @@
  "g3-202405-05": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "国民年金基金の給付は老齢年金と遺族一時金。適切（〇）。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 国民年金法",
+     "url": "https://laws.e-gov.go.jp/law/334AC0000000141"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/334AC0000000141",
+     "quote": "基金は、加入員又は加入員であつた者に対し、年金の支給を行ない、あわせて加入員又は加入員であつた者の死亡に関し、一時金の支給を行なうものとする"
+    }
+   ],
    "lawBaseDate": "2023-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -2245,15 +2542,20 @@
  "g3-202405-10": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "対人賠償保険は自賠責保険の支払限度額を超える部分に支払われる。適切（〇）。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "日本損害保険協会 自動車保険",
+     "url": "https://www.sonpo.or.jp/insurance/car/index.html"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://www.sonpo.or.jp/insurance/car/index.html",
+     "quote": "自賠責保険の補償額を超える部分に対し保険金が支払われます"
+    }
+   ],
    "lawBaseDate": "2023-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -2309,15 +2611,20 @@
  "g3-202405-14": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "上場株式の普通取引は約定日から起算して3営業日目（2営業日後）に決済される。不適切（×）。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "日本取引所グループ 内国株の売買制度（売買の種類）",
+     "url": "https://www.jpx.co.jp/equities/trading/domestic/02.html"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://www.jpx.co.jp/equities/trading/domestic/02.html",
+     "quote": "普通取引は、基本的な売買の形態で、売買契約締結の日から起算して3日目(休業日を除きます。以下日数計算について同じです。)の日に決済を行う売買です"
+    }
+   ],
    "lawBaseDate": "2023-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -2325,15 +2632,20 @@
  "g3-202405-15": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "適合性の原則により、顧客の知識・経験・財産・目的に照らし不適当な勧誘は禁止される。適切（〇）。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 金融商品取引法",
+     "url": "https://laws.e-gov.go.jp/law/323AC0000000025"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/323AC0000000025",
+     "quote": "顧客の知識、経験、財産の状況及び金融商品取引契約を締結する目的に照らして不適当と認められる勧誘を行つて投資者の保護に欠けることとなつており"
+    }
+   ],
    "lawBaseDate": "2023-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -2426,15 +2738,20 @@
  "g3-202405-21": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "登記事項証明書は、利害関係の有無にかかわらず誰でも交付を請求できる。不適切（×）。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 不動産登記法",
+     "url": "https://laws.e-gov.go.jp/law/416AC0000000123"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/416AC0000000123",
+     "quote": "何人も、登記官に対し、手数料を納付して、登記記録に記録されている事項の全部又は一部を証明した書面"
+    }
+   ],
    "lawBaseDate": "2023-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -2442,15 +2759,20 @@
  "g3-202405-22": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "普通借家で1年未満の期間を定めると、期間の定めのない賃貸借とみなされる。適切（〇）。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 借地借家法",
+     "url": "https://laws.e-gov.go.jp/law/403AC0000000090"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/403AC0000000090",
+     "quote": "期間を一年未満とする建物の賃貸借は、期間の定めがない建物の賃貸借とみなす"
+    }
+   ],
    "lawBaseDate": "2023-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -2458,15 +2780,20 @@
  "g3-202405-23": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "市街化区域は既成市街地と、おおむね10年以内に優先的・計画的に市街化を図る区域。適切（〇）。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 都市計画法",
+     "url": "https://laws.e-gov.go.jp/law/343AC0000000100"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/343AC0000000100",
+     "quote": "市街化区域は、すでに市街地を形成している区域及びおおむね十年以内に優先的かつ計画的に市街化を図るべき区域とする"
+    }
+   ],
    "lawBaseDate": "2023-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -2522,15 +2849,24 @@
  "g3-202405-27": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "自筆証書遺言の財産目録はパソコンで作成してもよい（各ページに署名押印が必要）。適切（〇）。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 民法",
+     "url": "https://laws.e-gov.go.jp/law/129AC0000000089"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/129AC0000000089",
+     "quote": "自筆証書にこれと一体のものとして相続財産"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/129AC0000000089",
+     "quote": "その目録については、自書することを要しない。この場合において、遺言者は、その目録の毎葉（自書によらない記載がその両面にある場合にあっては、その両面）に署名し、印を押さなければならない"
+    }
+   ],
    "lawBaseDate": "2023-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -2538,15 +2874,20 @@
  "g3-202405-28": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "香典返戻費用は葬式費用に含まれず、債務控除の対象とならない。不適切（×）。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "国税庁 No.4129 相続財産から控除できる葬式費用",
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4129.htm"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4129.htm",
+     "quote": "香典返しのためにかかった費用"
+    }
+   ],
    "lawBaseDate": "2023-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -2575,15 +2916,20 @@
  "g3-202405-30": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "相続税の申告書は被相続人の死亡時の住所地の所轄税務署長に提出する。適切（〇）。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "国税庁 No.4205 相続税の申告と納税",
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4205.htm"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4205.htm",
+     "quote": "被相続人の死亡の時における住所が日本国内にある場合は、被相続人の住所地を所轄する税務署です"
+    }
+   ],
    "lawBaseDate": "2023-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -2718,15 +3064,28 @@
  "g3-202405-38": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "地震保険の上限は居住用建物5,000万円、家財1,000万円。正解は3)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 地震保険に関する法律施行令",
+     "url": "https://laws.e-gov.go.jp/law/341CO0000000164"
+    },
+    {
+     "title": "e-Gov法令検索 地震保険に関する法律",
+     "url": "https://laws.e-gov.go.jp/law/341AC0000000073"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/341CO0000000164",
+     "quote": "居住用建物については五千万円、生活用動産については千万円とする"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/341AC0000000073",
+     "quote": "附帯される損害保険契約の保険金額の百分の三十以上百分の五十以下の額に相当する金額（その金額が政令で定める金額を超えるときは、当該政令で定める金額）を保険金額とすること"
+    }
+   ],
    "lawBaseDate": "2023-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -2844,15 +3203,20 @@
  "g3-202405-45": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "決済用預金は預入金額にかかわらず全額保護される。正解は2)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 預金保険法",
+     "url": "https://laws.e-gov.go.jp/law/346AC0000000034"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/346AC0000000034",
+     "quote": "決済用預金（他人の名義をもつて有するものその他の政令で定める決済用預金を除く。以下「支払対象決済用預金」という。）に係る保険金の額は"
+    }
+   ],
    "lawBaseDate": "2023-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -2892,15 +3256,24 @@
  "g3-202405-48": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "新制度の各控除は最高4万円で、3つ合わせて最高12万円。正解は1)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 所得税法",
+     "url": "https://laws.e-gov.go.jp/law/340AC0000000033"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/340AC0000000033",
+     "quote": "ハその年中に支払つた新生命保険料の金額の合計額が四万円を超え八万円以下である場合三万円と当該合計額から四万円を控除した金額の四分の一に相当する金額との合計額"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/340AC0000000033",
+     "quote": "合計額が十二万円を超える場合"
+    }
+   ],
    "lawBaseDate": "2023-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -2908,15 +3281,20 @@
  "g3-202405-49": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "住宅借入金等特別控除の対象となる借入金は、償還期間10年以上のもの。正解は1)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 租税特別措置法",
+     "url": "https://laws.e-gov.go.jp/law/332AC0000000026"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/332AC0000000026",
+     "quote": "契約において償還期間が十年以上の割賦償還の方法により返済することとされているもの"
+    }
+   ],
    "lawBaseDate": "2023-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -2940,15 +3318,20 @@
  "g3-202405-51": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "一般媒介契約は重ねての依頼が可能、専任媒介契約は禁止。正解は1)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 宅地建物取引業法",
+     "url": "https://laws.e-gov.go.jp/law/327AC1000000176"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/327AC1000000176",
+     "quote": "禁ずる媒介契約（以下「専任媒介契約」という。）の有効期間は、三月を超えることができない。これより長い期間を定めたときは、その期間は、三月とする"
+    }
+   ],
    "lawBaseDate": "2023-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -2956,15 +3339,24 @@
  "g3-202405-52": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "建築物の敷地は原則として幅員4m以上の道路に2m以上接していなければならない（接道義務）。正解は2)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 建築基準法",
+     "url": "https://laws.e-gov.go.jp/law/325AC0000000201"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/325AC0000000201",
+     "quote": "建築物の敷地は、道路（次に掲げるものを除く。第四十四条第一項を除き、以下同じ。）に二メートル以上接しなければならない"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/325AC0000000201",
+     "quote": "「道路」とは、次の各号のいずれかに該当する幅員四メートル"
+    }
+   ],
    "lawBaseDate": "2023-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -2972,15 +3364,20 @@
  "g3-202405-53": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "規約の変更は区分所有者および議決権の各4分の3以上の決議による。正解は2)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 建物の区分所有等に関する法律",
+     "url": "https://laws.e-gov.go.jp/law/337AC0000000069"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/337AC0000000069",
+     "quote": "出席した区分所有者及びその議決権の各四分の三以上の多数による決議によつてする"
+    }
+   ],
    "lawBaseDate": "2023-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -2988,15 +3385,20 @@
  "g3-202405-54": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "譲渡した年の1月1日における所有期間が5年を超えると長期譲渡所得。正解は1)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 租税特別措置法",
+     "url": "https://laws.e-gov.go.jp/law/332AC0000000026"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/332AC0000000026",
+     "quote": "その年一月一日において所有期間が五年を超えるものの譲渡"
+    }
+   ],
    "lawBaseDate": "2023-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -3004,15 +3406,20 @@
  "g3-202405-55": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "居住しなくなった日から3年を経過する日の属する年の12月31日までに譲渡する必要がある。正解は3)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 租税特別措置法",
+     "url": "https://laws.e-gov.go.jp/law/332AC0000000026"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/332AC0000000026",
+     "quote": "当該個人の居住の用に供されなくなつた日から同日以後三年を経過する日の属する年の十二月三十一日までの間に譲渡されるものに限る"
+    }
+   ],
    "lawBaseDate": "2023-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -3041,15 +3448,24 @@
  "g3-202405-57": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "離婚した元夫Bさんは相続人ではなく、相続人は子2人のみ。子Cさんの法定相続分は2分の1。正解は1)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 民法",
+     "url": "https://laws.e-gov.go.jp/law/129AC0000000089"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/129AC0000000089",
+     "quote": "子、直系尊属又は兄弟姉妹が数人あるときは、各自の相続分は、相等しいものとする"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/129AC0000000089",
+     "quote": "被相続人の配偶者は、常に相続人となる"
+    }
+   ],
    "lawBaseDate": "2023-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -3057,15 +3473,20 @@
  "g3-202405-58": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "上場株式は、死亡日の終値と死亡月・前月・前々月の月平均額のうち最も低い価額（540円）で評価する。正解は1)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "国税庁 財産評価基本通達（上場株式の評価）",
+     "url": "https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/08/01.htm"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/08/01.htm",
+     "quote": "その最終価格が課税時期の属する月以前3か月間の毎日の最終価格の各月ごとの平均額（以下「最終価格の月平均額」という。）のうち最も低い価額を超える場合には、その最も低い価額によって評価する"
+    }
+   ],
    "lawBaseDate": "2023-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -3089,15 +3510,20 @@
  "g3-202405-60": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "特定居住用宅地等は330㎡まで80％減額。正解は2)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "国税庁 No.4124 小規模宅地等の特例",
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4124.htm"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4124.htm",
+     "quote": "⑥特定居住用宅地等に該当する宅地等33080％"
+    }
+   ],
    "lawBaseDate": "2023-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -3137,15 +3563,20 @@
  "g2-202605-03": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "賃金日額は離職前6カ月の賃金総額÷180で、賞与は含めない。正解は4)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 雇用保険法",
+     "url": "https://laws.e-gov.go.jp/law/349AC0000000116"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/349AC0000000116",
+     "quote": "最後の六箇月間に支払われた賃金（臨時に支払われる賃金及び三箇月を超える期間ごとに支払われる賃金を除く。次項、第六節及び次章において同じ。）の総額を百八十で除して得た額"
+    }
+   ],
    "lawBaseDate": "2025-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -3601,15 +4032,28 @@
  "g2-202605-32": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "金地金の売却は譲渡所得。1)退職所得、2)一時所得、3)土地の売却は譲渡所得。正解は4)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 所得税法",
+     "url": "https://laws.e-gov.go.jp/law/340AC0000000033"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/340AC0000000033",
+     "quote": "譲渡所得とは、資産の譲渡"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/340AC0000000033",
+     "quote": "一時所得とは、利子所得、配当所得、不動産所得、事業所得、給与所得、退職所得、山林所得及び譲渡所得以外の所得のうち、営利を目的とする継続的行為から生じた所得以外の一時の所得"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/340AC0000000033",
+     "quote": "退職所得とは、退職手当、一時恩給その他の退職により一時に受ける給与及びこれらの性質を有する給与"
+    }
+   ],
    "lawBaseDate": "2025-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -3665,15 +4109,24 @@
  "g2-202605-36": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "承認申請に対して12月31日までに処分がなければ、承認されたものとみなされる。1)3月15日、2)翌年3月15日、4)2カ月以内。正解は3)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 所得税法",
+     "url": "https://laws.e-gov.go.jp/law/340AC0000000033"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/340AC0000000033",
+     "quote": "その年三月十五日まで（その年一月十六日以後新たに同条に規定する業務を開始した場合には、その業務を開始した日から二月以内）"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/340AC0000000033",
+     "quote": "十二月三十一日（その年十一月一日以後新たに同条に規定する業務を開始した場合には、その年の翌年二月十五日）までにその申請につき承認又は却下の処分がなかつたときは、その日においてその承認があつたものとみなす"
+    }
+   ],
    "lawBaseDate": "2025-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -3681,15 +4134,20 @@
  "g2-202605-37": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "棚卸資産の評価換えによる増額部分は、原則として益金不算入。正解は4)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 法人税法",
+     "url": "https://laws.e-gov.go.jp/law/340AC0000000034"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/340AC0000000034",
+     "quote": "資産の評価換えをしてその帳簿価額を増額した場合には、その増額した部分の金額は、その内国法人の各事業年度の所得の金額の計算上、益金の額に算入しない"
+    }
+   ],
    "lawBaseDate": "2025-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -3761,15 +4219,32 @@
  "g2-202605-42": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "専任媒介契約では、一定期間内に指定流通機構（レインズ）への登録が必要。2)3カ月超は3カ月に短縮、3)自動更新特約は無効、4)報告は2週間に1回以上。正解は1)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 宅地建物取引業法",
+     "url": "https://laws.e-gov.go.jp/law/327AC1000000176"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/327AC1000000176",
+     "quote": "国土交通大臣が指定する者（以下「指定流通機構」という。）に登録しなければならない"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/327AC1000000176",
+     "quote": "禁ずる媒介契約（以下「専任媒介契約」という。）の有効期間は、三月を超えることができない。これより長い期間を定めたときは、その期間は、三月とする"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/327AC1000000176",
+     "quote": "前項の有効期間は、依頼者の申出により、更新することができる"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/327AC1000000176",
+     "quote": "業務の処理状況を二週間に一回以上"
+    }
+   ],
    "lawBaseDate": "2025-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -3777,15 +4252,28 @@
  "g2-202605-43": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "借地上の建物を取得した第三者は、借地権設定者が譲渡等を承諾しないとき建物買取請求ができる。1)一般定期借地権は50年以上、2)事業用でも設定可、3)事業用定期借地権等は公正証書が必要。正解は4)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 借地借家法",
+     "url": "https://laws.e-gov.go.jp/law/403AC0000000090"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/403AC0000000090",
+     "quote": "存続期間を五十年以上として借地権を設定する場合においては"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/403AC0000000090",
+     "quote": "前二項に規定する借地権の設定を目的とする契約は、公正証書によってしなければならない"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/403AC0000000090",
+     "quote": "借地権設定者が賃借権の譲渡又は転貸を承諾しないときは、その第三者は、借地権設定者に対し、建物その他借地権者が権原によって土地に附属させた物を時価で買い取るべきことを請求することができる"
+    }
+   ],
    "lawBaseDate": "2025-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -3793,15 +4281,20 @@
  "g2-202605-44": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "定期借家の事前説明は書面（電磁的方法を含む）でよく、公正証書である必要はない。正解は2)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 借地借家法",
+     "url": "https://laws.e-gov.go.jp/law/403AC0000000090"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/403AC0000000090",
+     "quote": "契約の更新がなく、期間の満了により当該建物の賃貸借は終了することについて、その旨を記載した書面を交付して説明しなければならない"
+    }
+   ],
    "lawBaseDate": "2025-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -3841,15 +4334,32 @@
  "g2-202605-47": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "管理者は少なくとも毎年1回集会を招集する。2)1週間前、3)原則として分離処分不可、4)譲受人にも効力が及ぶ。正解は1)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 建物の区分所有等に関する法律",
+     "url": "https://laws.e-gov.go.jp/law/337AC0000000069"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/337AC0000000069",
+     "quote": "管理者は、少なくとも毎年一回集会を招集しなければならない"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/337AC0000000069",
+     "quote": "集会の招集の通知は、会日より少なくとも一週間前に、会議の目的たる事項及び議案の要領を示して"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/337AC0000000069",
+     "quote": "その有する専有部分とその専有部分に係る敷地利用権とを分離して処分することができない。ただし、規約に別段の定めがあるときは、この限りでない"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/337AC0000000069",
+     "quote": "規約及び集会の決議は、区分所有者の特定承継人に対しても、その効力を生ずる"
+    }
+   ],
    "lawBaseDate": "2025-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -3905,15 +4415,20 @@
  "g2-202605-51": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "法人からの贈与で取得した財産は、贈与税ではなく所得税（一時所得等）の対象。正解は3)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "国税庁 No.4402 贈与税がかかる場合",
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/zoyo/4402.htm"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/zoyo/4402.htm",
+     "quote": "法人から贈与により財産を取得したときは、贈与税ではなく所得税がかかります"
+    }
+   ],
    "lawBaseDate": "2025-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -3921,15 +4436,20 @@
  "g2-202605-52": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "本控除の対象は居住用不動産または居住用不動産を取得するための金銭に限られる。正解は2)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "国税庁 No.4452 贈与税の配偶者控除",
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/zoyo/4452.htm"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/zoyo/4452.htm",
+     "quote": "配偶者から贈与された財産が、居住用不動産であることまたは居住用不動産を取得するための金銭であること"
+    }
+   ],
    "lawBaseDate": "2025-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -4014,15 +4534,20 @@
  "g2-202605-57": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "死亡日（4/7）の終値1,210円、4月平均1,240円、3月平均1,180円、2月平均1,150円のうち最も低い1,150円。正解は2)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "国税庁 財産評価基本通達（上場株式の評価）",
+     "url": "https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/08/01.htm"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/08/01.htm",
+     "quote": "その最終価格が課税時期の属する月以前3か月間の毎日の最終価格の各月ごとの平均額（以下「最終価格の月平均額」という。）のうち最も低い価額を超える場合には、その最も低い価額によって評価する"
+    }
+   ],
    "lawBaseDate": "2025-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -4046,15 +4571,28 @@
  "g2-202605-59": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "特定事業用400㎡・80％、特定居住用330㎡・80％、特定同族会社事業用400㎡・80％。正解は1)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "国税庁 No.4124 小規模宅地等の特例",
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4124.htm"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4124.htm",
+     "quote": "①特定事業用宅地等に該当する宅地等40080％"
+    },
+    {
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4124.htm",
+     "quote": "②特定同族会社事業用宅地等に該当する宅地等40080％"
+    },
+    {
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4124.htm",
+     "quote": "⑥特定居住用宅地等に該当する宅地等33080％"
+    }
+   ],
    "lawBaseDate": "2025-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -4078,15 +4616,20 @@
  "g2-202505-01": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "社会保険労務士でないFPが報酬を得て年金の裁定請求手続を代行することは社会保険労務士法に抵触する。正解は1)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 社会保険労務士法",
+     "url": "https://laws.e-gov.go.jp/law/343AC1000000089"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/343AC1000000089",
+     "quote": "社会保険労務士又は社会保険労務士法人でない者は、他人の求めに応じ報酬を得て、第二条第一項第一号から第二号までに掲げる事務を業として行つてはならない"
+    }
+   ],
    "lawBaseDate": "2024-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -4163,15 +4706,24 @@
  "g2-202505-06": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "子のない30歳未満の妻の遺族厚生年金の支給期間は最長5年間。正解は2)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 厚生年金保険法",
+     "url": "https://laws.e-gov.go.jp/law/329AC0000000115"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/329AC0000000115",
+     "quote": "遺族厚生年金の受給権を取得した当時三十歳未満である妻が当該遺族厚生年金と同一の支給事由に基づく国民年金法による遺族基礎年金の受給権を取得しないとき当該遺族厚生年金の受給権を取得した日"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/329AC0000000115",
+     "quote": "から起算して五年を経過したとき"
+    }
+   ],
    "lawBaseDate": "2024-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -4323,15 +4875,32 @@
  "g2-202505-16": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "原動機付自転車も自賠責保険の加入が義務付けられている。正解は1)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 自動車損害賠償保障法",
+     "url": "https://laws.e-gov.go.jp/law/330AC0000000097"
+    },
+    {
+     "title": "日本損害保険協会 自賠責保険",
+     "url": "https://www.sonpo.or.jp/insurance/jibai/index.html"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/330AC0000000097",
+     "quote": "自動車は、これについてこの法律で定める自動車損害賠償責任保険（以下「責任保険」という。）又は自動車損害賠償責任共済（以下「責任共済」という。）の契約が締結されているものでなければ、運行の用に供してはならない"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/330AC0000000097",
+     "quote": "同条第三項に規定する原動機付自転車をいう"
+    },
+    {
+     "url": "https://www.sonpo.or.jp/insurance/jibai/index.html",
+     "quote": "強制保険です。したがって、原動機付自転車なども対象になっています"
+    }
+   ],
    "lawBaseDate": "2024-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -4339,15 +4908,20 @@
  "g2-202505-17": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "地震保険料率は建物の構造と所在地（都道府県）によって異なる。正解は2)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "日本損害保険協会 地震保険",
+     "url": "https://www.sonpo.or.jp/insurance/jishin/"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://www.sonpo.or.jp/insurance/jishin/",
+     "quote": "保険料は、建物の構造と所在地により異なります"
+    }
+   ],
    "lawBaseDate": "2024-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -4564,15 +5138,20 @@
  "g2-202505-30": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "決済用預金は預入額にかかわらず全額保護される。正解は2)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 預金保険法",
+     "url": "https://laws.e-gov.go.jp/law/346AC0000000034"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/346AC0000000034",
+     "quote": "決済用預金（他人の名義をもつて有するものその他の政令で定める決済用預金を除く。以下「支払対象決済用預金」という。）に係る保険金の額は"
+    }
+   ],
    "lawBaseDate": "2024-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -4756,15 +5335,20 @@
  "g2-202505-42": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "引渡し前に地震（当事者双方に責任のない事由）で建物が滅失した場合、買主は代金の支払を拒むことができる。正解は3)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 民法",
+     "url": "https://laws.e-gov.go.jp/law/129AC0000000089"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/129AC0000000089",
+     "quote": "債権者は、反対給付の履行を拒むことができる"
+    }
+   ],
    "lawBaseDate": "2024-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -4788,15 +5372,20 @@
  "g2-202505-44": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "普通借家で1年未満の期間を定めると、期間の定めのない契約とみなされる（1年とみなされるのではない）。正解は2)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 借地借家法",
+     "url": "https://laws.e-gov.go.jp/law/403AC0000000090"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/403AC0000000090",
+     "quote": "期間を一年未満とする建物の賃貸借は、期間の定めがない建物の賃貸借とみなす"
+    }
+   ],
    "lawBaseDate": "2024-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -4836,15 +5425,24 @@
  "g2-202505-47": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "共用部分の費用は、規約に別段の定めがない限り持分（専有部分の床面積割合）に応じて負担する。等分ではない。正解は1)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 建物の区分所有等に関する法律",
+     "url": "https://laws.e-gov.go.jp/law/337AC0000000069"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/337AC0000000069",
+     "quote": "各共有者は、規約に別段の定めがない限りその持分に応じて、共用部分の負担に任じ、共用部分から生ずる利益を収取する"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/337AC0000000069",
+     "quote": "各共有者の持分は、その有する専有部分の床面積の割合による"
+    }
+   ],
    "lawBaseDate": "2024-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -4937,15 +5535,20 @@
  "g2-202505-53": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "嫡出でない子の相続分は嫡出子と同じ（2013年の民法改正で同等になった）。正解は2)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 民法",
+     "url": "https://laws.e-gov.go.jp/law/129AC0000000089"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/129AC0000000089",
+     "quote": "子、直系尊属又は兄弟姉妹が数人あるときは、各自の相続分は、相等しいものとする"
+    }
+   ],
    "lawBaseDate": "2024-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -4953,15 +5556,36 @@
  "g2-202505-54": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "相続の放棄は、相続開始を知った時から3カ月以内に家庭裁判所に申述する。1)債務も承継、3)放棄は代襲原因にならない、4)限定承認は全員共同。正解は2)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 民法",
+     "url": "https://laws.e-gov.go.jp/law/129AC0000000089"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/129AC0000000089",
+     "quote": "自己のために相続の開始があったことを知った時から三箇月以内に"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/129AC0000000089",
+     "quote": "相続の放棄をしようとする者は、その旨を家庭裁判所に申述しなければならない"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/129AC0000000089",
+     "quote": "相続人は、相続開始の時から、被相続人の財産に属した一切の権利義務を承継する"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/129AC0000000089",
+     "quote": "相続の放棄をした者は、その相続に関しては、初めから相続人とならなかったものとみなす"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/129AC0000000089",
+     "quote": "相続人が数人あるときは、限定承認は、共同相続人の全員が共同してのみこれをすることができる"
+    }
+   ],
    "lawBaseDate": "2024-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -4969,15 +5593,24 @@
  "g2-202505-55": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "算入できる普通養子は、実子がいれば1人、いなければ2人まで。正解は4)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "国税庁 No.4152 相続税の計算",
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4152.htm"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4152.htm",
+     "quote": "被相続人に実子がいる場合は、養子のうち1人までを法定相続人に含めます"
+    },
+    {
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4152.htm",
+     "quote": "被相続人に実子がいない場合は、養子のうち2人までを法定相続人に含めます"
+    }
+   ],
    "lawBaseDate": "2024-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -4985,15 +5618,20 @@
  "g2-202505-56": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "相続税の申告書の提出先は被相続人の死亡時の住所地の所轄税務署長。正解は1)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "国税庁 No.4205 相続税の申告と納税",
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4205.htm"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4205.htm",
+     "quote": "被相続人の死亡の時における住所が日本国内にある場合は、被相続人の住所地を所轄する税務署です"
+    }
+   ],
    "lawBaseDate": "2024-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -5738,15 +6376,20 @@
  "g2-202501-42": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "自己所有の建物の賃貸を自ら行う（自ら貸主）のは宅地建物取引業に該当せず、免許は不要。正解は3)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 宅地建物取引業法",
+     "url": "https://laws.e-gov.go.jp/law/327AC1000000176"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/327AC1000000176",
+     "quote": "宅地若しくは建物（建物の一部を含む。以下同じ。）の売買若しくは交換又は宅地若しくは建物の売買、交換若しくは貸借の代理若しくは媒介をする行為で業として行うもの"
+    }
+   ],
    "lawBaseDate": "2024-10-01",
    "checkedAt": "2026-10-21"
   }
@@ -5754,15 +6397,24 @@
  "g2-202501-43": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "未成年者が法定代理人の同意なく締結した契約は、原則として取り消すことができる。正解は1)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 民法",
+     "url": "https://laws.e-gov.go.jp/law/129AC0000000089"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/129AC0000000089",
+     "quote": "未成年者が法律行為をするには、その法定代理人の同意を得なければならない"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/129AC0000000089",
+     "quote": "前項の規定に反する法律行為は、取り消すことができる"
+    }
+   ],
    "lawBaseDate": "2024-10-01",
    "checkedAt": "2026-10-21"
   }
@@ -5770,15 +6422,20 @@
  "g2-202501-44": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "借地権の登記がなくても、借地上に借地権者名義で登記された建物があれば第三者に対抗できる。正解は3)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 借地借家法",
+     "url": "https://laws.e-gov.go.jp/law/403AC0000000090"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/403AC0000000090",
+     "quote": "借地権は、その登記がなくても、土地の上に借地権者が登記されている建物を所有するときは、これをもって第三者に対抗することができる"
+    }
+   ],
    "lawBaseDate": "2024-10-01",
    "checkedAt": "2026-10-21"
   }
@@ -5786,15 +6443,28 @@
  "g2-202501-45": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "普通借家で賃貸人から解約申入れをするには正当事由が必要。1)書面でよい、2)1年未満も可、4)更新後は期間の定めのない契約となる。正解は3)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 借地借家法",
+     "url": "https://laws.e-gov.go.jp/law/403AC0000000090"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/403AC0000000090",
+     "quote": "正当の事由があると認められる場合でなければ、することができない"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/403AC0000000090",
+     "quote": "公正証書による等書面によって契約をするときに限り、第三十条の規定にかかわらず、契約の更新がないこととする旨を定めることができる。この場合には、第二十九条第一項の規定を適用しない"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/403AC0000000090",
+     "quote": "従前の契約と同一の条件で契約を更新したものとみなす。ただし、その期間は、定めがないものとする"
+    }
+   ],
    "lawBaseDate": "2024-10-01",
    "checkedAt": "2026-10-21"
   }
@@ -5818,15 +6488,20 @@
  "g2-202501-47": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "管理組合は区分所有者全員で当然に構成され、規約で構成員から除くことはできない。正解は2)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 建物の区分所有等に関する法律",
+     "url": "https://laws.e-gov.go.jp/law/337AC0000000069"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/337AC0000000069",
+     "quote": "区分所有者は、全員で、建物並びにその敷地及び附属施設の管理を行うための団体を構成し"
+    }
+   ],
    "lawBaseDate": "2024-10-01",
    "checkedAt": "2026-10-21"
   }
@@ -5935,15 +6610,20 @@
  "g2-202501-54": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "共同相続人全員の協議があれば、法定相続分と異なる分割もできる。正解は1)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 民法",
+     "url": "https://laws.e-gov.go.jp/law/129AC0000000089"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/129AC0000000089",
+     "quote": "いつでも、その協議で、遺産の全部又は一部の分割をすることができる"
+    }
+   ],
    "lawBaseDate": "2024-10-01",
    "checkedAt": "2026-10-21"
   }
@@ -6063,15 +6743,20 @@
  "g2-202409-02": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "社会保険労務士でないFPが有償で年金の請求書作成・手続代行を行うことは社会保険労務士法に抵触する。正解は2)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 社会保険労務士法",
+     "url": "https://laws.e-gov.go.jp/law/343AC1000000089"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/343AC1000000089",
+     "quote": "社会保険労務士又は社会保険労務士法人でない者は、他人の求めに応じ報酬を得て、第二条第一項第一号から第二号までに掲げる事務を業として行つてはならない"
+    }
+   ],
    "lawBaseDate": "2024-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -6520,15 +7205,20 @@
  "g2-202409-30": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "顧客が損害賠償を請求する場合に推定されるのは元本欠損額で、払い込んだ元本の総額ではない。正解は4)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 金融サービスの提供及び利用環境の整備等に関する法律",
+     "url": "https://laws.e-gov.go.jp/law/412AC0000000101"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/412AC0000000101",
+     "quote": "元本欠損額は、金融商品販売業者等が重要事項について説明をしなかったこと又は断定的判断の提供等を行ったことによって当該顧客に生じた損害の額"
+    }
+   ],
    "lawBaseDate": "2024-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -6552,15 +7242,24 @@
  "g2-202409-32": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "事業資金で購入した株式の配当金も配当所得。正解は4)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 所得税法",
+     "url": "https://laws.e-gov.go.jp/law/340AC0000000033"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/340AC0000000033",
+     "quote": "配当所得とは、法人（法人税法第二条第六号（定義）に規定する公益法人等及び人格のない社団等を除く。）から受ける剰余金の配当"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/340AC0000000033",
+     "quote": "一時所得とは、利子所得、配当所得、不動産所得、事業所得、給与所得、退職所得、山林所得及び譲渡所得以外の所得のうち、営利を目的とする継続的行為から生じた所得以外の一時の所得"
+    }
+   ],
    "lawBaseDate": "2024-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -6648,15 +7347,20 @@
  "g2-202409-38": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "法人の消費税の確定申告期限は、原則として課税期間の末日の翌日から2カ月以内。正解は4)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 消費税法",
+     "url": "https://laws.e-gov.go.jp/law/363AC0000000108"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/363AC0000000108",
+     "quote": "課税期間の末日の翌日から二月以内"
+    }
+   ],
    "lawBaseDate": "2024-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -6712,15 +7416,32 @@
  "g2-202409-42": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "宅建業者が自ら売主の場合、手付はすべて解約手付とされ、買主の履行着手前なら倍額を提供して解除できる。2)損害賠償の予定等は代金の20％まで、3)20％、4)3カ月に短縮される。正解は1)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 宅地建物取引業法",
+     "url": "https://laws.e-gov.go.jp/law/327AC1000000176"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/327AC1000000176",
+     "quote": "その手付がいかなる性質のものであつても、買主はその手付を放棄して、当該宅地建物取引業者はその倍額を現実に提供して"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/327AC1000000176",
+     "quote": "これらを合算した額が代金の額の十分の二をこえることとなる定めをしてはならない"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/327AC1000000176",
+     "quote": "代金の額の十分の二を超える額の手付を受領することができない"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/327AC1000000176",
+     "quote": "二年以上となる特約をする場合を除き、同条に規定するものより買主に不利となる特約をしてはならない"
+    }
+   ],
    "lawBaseDate": "2024-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -6728,15 +7449,32 @@
  "g2-202409-43": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "普通借地権の存続期間は、定めがないとき30年。2)建物がある場合に限る、3)一般定期借地権は50年以上、4)一般定期借地権は書面でよい。正解は1)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 借地借家法",
+     "url": "https://laws.e-gov.go.jp/law/403AC0000000090"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/403AC0000000090",
+     "quote": "借地権の存続期間は、三十年とする。ただし、契約でこれより長い期間を定めたときは、その期間とする"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/403AC0000000090",
+     "quote": "借地権者が契約の更新を請求したときは、建物がある場合に限り"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/403AC0000000090",
+     "quote": "存続期間を五十年以上として借地権を設定する場合においては"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/403AC0000000090",
+     "quote": "その特約は、公正証書による等書面によってしなければならない"
+    }
+   ],
    "lawBaseDate": "2024-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -6760,15 +7498,36 @@
  "g2-202409-45": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "準防火地域内の準耐火建築物等は建蔽率が10％緩和される。1)セットバック部分は算入不可、3)加重平均、4)前面道路による制限は容積率。正解は2)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 建築基準法",
+     "url": "https://laws.e-gov.go.jp/law/325AC0000000201"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/325AC0000000201",
+     "quote": "第一項各号に定める数値に十分の一を加えたものをもつて当該各号に定める数値とし"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/325AC0000000201",
+     "quote": "防火地域（第一項第二号から第四号までの規定により建蔽率の限度が十分の八とされている地域を除く。）内にあるイに該当する建築物又は準防火地域内にあるイ若しくはロのいずれかに該当する建築物"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/325AC0000000201",
+     "quote": "建築物の敷地が前項の規定による建築物の建蔽率に関する制限を受ける地域又は区域の二以上にわたる場合においては、当該建築物の建蔽率は、同項の規定による当該各地域又は区域内の建築物の建蔽率の限度にその敷地の当該地域又は区域内にある各部分の面積の敷地面積に対する割合を乗じて得たものの合計以下でなければならない"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/325AC0000000201",
+     "quote": "前面道路（前面道路が二以上あるときは、その幅員の最大のもの。以下この項及び第十二項において同じ。）の幅員が十二メートル未満である建築物の容積率は、当該前面道路の幅員のメートルの数値に"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/325AC0000000201",
+     "quote": "幅員四メートル未満の道で、特定行政庁の指定したものは、前項の規定にかかわらず、同項の道路とみなし、その中心線からの水平距離二メートル"
+    }
+   ],
    "lawBaseDate": "2024-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -6776,15 +7535,20 @@
  "g2-202409-46": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "構造上・利用上独立した部分も、規約により共用部分（規約共用部分）とすることができる。正解は3)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 建物の区分所有等に関する法律",
+     "url": "https://laws.e-gov.go.jp/law/337AC0000000069"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/337AC0000000069",
+     "quote": "第一条に規定する建物の部分及び附属の建物は、規約により共用部分とすることができる"
+    }
+   ],
    "lawBaseDate": "2024-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -6808,15 +7572,20 @@
  "g2-202409-48": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "相続で取得した土地は被相続人の取得時期を引き継ぐ（相続登記の日ではない）。正解は1)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 所得税法",
+     "url": "https://laws.e-gov.go.jp/law/340AC0000000033"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/340AC0000000033",
+     "quote": "引き続きこれを所有していたものとみなす"
+    }
+   ],
    "lawBaseDate": "2024-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -6872,15 +7641,20 @@
  "g2-202409-52": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "婚姻期間20年以上は贈与の時点で判定する（贈与年の1月1日ではない）。正解は2)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "国税庁 No.4452 贈与税の配偶者控除",
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/zoyo/4452.htm"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/zoyo/4452.htm",
+     "quote": "夫婦の婚姻期間が20年を過ぎた後に贈与が行われたこと"
+    }
+   ],
    "lawBaseDate": "2024-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -6936,15 +7710,20 @@
  "g2-202409-56": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "配偶者居住権は、相続開始時に被相続人所有の建物に居住していた配偶者が取得できる。正解は1)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 民法",
+     "url": "https://laws.e-gov.go.jp/law/129AC0000000089"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/129AC0000000089",
+     "quote": "被相続人の財産に属した建物に相続開始の時に居住していた場合において、次の各号のいずれかに該当するときは"
+    }
+   ],
    "lawBaseDate": "2024-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -7496,15 +8275,20 @@
  "g2-202405-31": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "非永住者以外の居住者は、国外で生じた所得も含めすべての所得に納税義務がある。正解は3)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 所得税法",
+     "url": "https://laws.e-gov.go.jp/law/340AC0000000033"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/340AC0000000033",
+     "quote": "非永住者以外の居住者全ての所得"
+    }
+   ],
    "lawBaseDate": "2023-10-01",
    "checkedAt": "2026-10-21"
   }
@@ -7512,15 +8296,24 @@
  "g2-202405-32": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "事業資金で購入した株式の配当金は配当所得（一時所得ではない）。正解は4)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 所得税法",
+     "url": "https://laws.e-gov.go.jp/law/340AC0000000033"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/340AC0000000033",
+     "quote": "配当所得とは、法人（法人税法第二条第六号（定義）に規定する公益法人等及び人格のない社団等を除く。）から受ける剰余金の配当"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/340AC0000000033",
+     "quote": "一時所得とは、利子所得、配当所得、不動産所得、事業所得、給与所得、退職所得、山林所得及び譲渡所得以外の所得のうち、営利を目的とする継続的行為から生じた所得以外の一時の所得"
+    }
+   ],
    "lawBaseDate": "2023-10-01",
    "checkedAt": "2026-10-21"
   }
@@ -7672,15 +8465,24 @@
  "g2-202405-42": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "売主が引渡し時に不適合を知っていた（または重過失で知らなかった）場合は、1年以内の通知がなくても買主は解除等ができる。「知っていたとしても解除できない」とする記述は誤り。正解は2)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 民法",
+     "url": "https://laws.e-gov.go.jp/law/129AC0000000089"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/129AC0000000089",
+     "quote": "買主がその不適合を知った時から一年以内にその旨を売主に通知しないときは"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/129AC0000000089",
+     "quote": "売主が引渡しの時にその不適合を知り、又は重大な過失によって知らなかったときは、この限りでない"
+    }
+   ],
    "lawBaseDate": "2023-10-01",
    "checkedAt": "2026-10-21"
   }
@@ -7688,15 +8490,32 @@
  "g2-202405-43": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "一般定期借地権の特約は公正証書等の書面（電磁的記録を含む）でしなければならない。1)長い期間も可、2)建物がある場合に限る、3)事業用でも可。正解は4)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 借地借家法",
+     "url": "https://laws.e-gov.go.jp/law/403AC0000000090"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/403AC0000000090",
+     "quote": "借地権の存続期間は、三十年とする。ただし、契約でこれより長い期間を定めたときは、その期間とする"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/403AC0000000090",
+     "quote": "借地権者が契約の更新を請求したときは、建物がある場合に限り"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/403AC0000000090",
+     "quote": "存続期間を五十年以上として借地権を設定する場合においては"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/403AC0000000090",
+     "quote": "その特約は、公正証書による等書面によってしなければならない"
+    }
+   ],
    "lawBaseDate": "2023-10-01",
    "checkedAt": "2026-10-21"
   }
@@ -7736,15 +8555,20 @@
  "g2-202405-46": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "敷地利用権が共有の場合、規約に別段の定めがない限り専有部分と分離して処分できない。正解は2)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 建物の区分所有等に関する法律",
+     "url": "https://laws.e-gov.go.jp/law/337AC0000000069"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/337AC0000000069",
+     "quote": "その有する専有部分とその専有部分に係る敷地利用権とを分離して処分することができない。ただし、規約に別段の定めがあるときは、この限りでない"
+    }
+   ],
    "lawBaseDate": "2023-10-01",
    "checkedAt": "2026-10-21"
   }
@@ -7768,15 +8592,20 @@
  "g2-202405-48": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "居住しなくなってから3年を経過する日の属する年の12月31日までに譲渡すればよい（6カ月ではない）。正解は2)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 租税特別措置法",
+     "url": "https://laws.e-gov.go.jp/law/332AC0000000026"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/332AC0000000026",
+     "quote": "当該個人の居住の用に供されなくなつた日から同日以後三年を経過する日の属する年の十二月三十一日までの間に譲渡されるものに限る"
+    }
+   ],
    "lawBaseDate": "2023-10-01",
    "checkedAt": "2026-10-21"
   }
@@ -7832,15 +8661,24 @@
  "g2-202405-52": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "相続時精算課税の税率は一律20％。正解は1)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 相続税法",
+     "url": "https://laws.e-gov.go.jp/law/325AC0000000073"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/325AC0000000073",
+     "quote": "特定贈与者ごとに、第二十一条の十一の二第一項の規定による控除後の贈与税の課税価格"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/325AC0000000073",
+     "quote": "にそれぞれ百分の二十の税率を乗じて計算した金額とする"
+    }
+   ],
    "lawBaseDate": "2023-10-01",
    "checkedAt": "2026-10-21"
   }
@@ -7848,15 +8686,24 @@
  "g2-202405-53": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "前妻との子Dは先に死亡しているので孫Iが代襲相続人。相続人は妻C・子E・子F・子G・孫Iの5名（Dの夫Hは相続人ではない）。正解は3)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 民法",
+     "url": "https://laws.e-gov.go.jp/law/129AC0000000089"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/129AC0000000089",
+     "quote": "被相続人の子が、相続の開始以前に死亡したとき、又は第八百九十一条の規定に該当し、若しくは廃除によって、その相続権を失ったときは、その者の子がこれを代襲して相続人となる"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/129AC0000000089",
+     "quote": "被相続人の配偶者は、常に相続人となる"
+    }
+   ],
    "lawBaseDate": "2023-10-01",
    "checkedAt": "2026-10-21"
   }
@@ -7896,15 +8743,24 @@
  "g2-202405-56": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "パソコンで作成した財産目録には、各ページに署名・押印が必要。正解は2)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 民法",
+     "url": "https://laws.e-gov.go.jp/law/129AC0000000089"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/129AC0000000089",
+     "quote": "自筆証書にこれと一体のものとして相続財産"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/129AC0000000089",
+     "quote": "その目録については、自書することを要しない。この場合において、遺言者は、その目録の毎葉（自書によらない記載がその両面にある場合にあっては、その両面）に署名し、印を押さなければならない"
+    }
+   ],
    "lawBaseDate": "2023-10-01",
    "checkedAt": "2026-10-21"
   }
@@ -7928,15 +8784,20 @@
  "g2-202405-58": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "自分の宅地上にアパートを建てて貸している場合は貸家建付地として評価する（貸宅地ではない）。正解は4)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "国税庁 財産評価基本通達（貸宅地・貸家建付地の評価）",
+     "url": "https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/02/05.htm"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/02/05.htm",
+     "quote": "貸家（94≪借家権の評価≫に定める借家権の目的となっている家屋をいう。以下同じ。）の敷地の用に供されている宅地（以下「貸家建付地」という。）"
+    }
+   ],
    "lawBaseDate": "2023-10-01",
    "checkedAt": "2026-10-21"
   }
@@ -8117,15 +8978,24 @@
  "j3-202605-09": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "建築面積の上限＝敷地面積300㎡×建蔽率80％＝240㎡。容積率は延べ面積の上限を決める指標で、この問いには使わない。正解は1)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 建築基準法",
+     "url": "https://laws.e-gov.go.jp/law/325AC0000000201"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/325AC0000000201",
+     "quote": "建築物の建築面積（同一敷地内に二以上の建築物がある場合においては、その建築面積の合計）の敷地面積に対する割合（以下「建蔽率」という。）"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/325AC0000000201",
+     "quote": "建築物の延べ面積の敷地面積に対する割合（以下「容積率」という。）"
+    }
+   ],
    "lawBaseDate": "2025-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -8149,15 +9019,24 @@
  "j3-202605-11": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "普通借家は1年以上（1年未満は期間の定めなしとみなされる）。定期借家は更新がなく期間満了で終了し、契約は公正証書等の書面で行う。正解は1)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 借地借家法",
+     "url": "https://laws.e-gov.go.jp/law/403AC0000000090"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/403AC0000000090",
+     "quote": "期間を一年未満とする建物の賃貸借は、期間の定めがない建物の賃貸借とみなす"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/403AC0000000090",
+     "quote": "公正証書による等書面によって契約をするときに限り、第三十条の規定にかかわらず、契約の更新がないこととする旨を定めることができる。この場合には、第二十九条第一項の規定を適用しない"
+    }
+   ],
    "lawBaseDate": "2025-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -8213,15 +9092,20 @@
  "j3-202605-15": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "課税所得＝760万円－90万円＝670万円。670万円×20％－427,500円＝912,500円。正解は3)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "国税庁 No.2260 所得税の税率",
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2260.htm"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2260.htm",
+     "quote": "3,300,000円から6,949,000円まで20％427,500円"
+    }
+   ],
    "lawBaseDate": "2025-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -8261,15 +9145,32 @@
  "j3-202605-18": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "配偶者は2分の1。幹夫さんは相続放棄で、その子の寛太は代襲しない。夏帆さんと、すでに死亡した百合さんを代襲する真奈さんが子の分の2分の1を分け、それぞれ4分の1。正解は2)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 民法",
+     "url": "https://laws.e-gov.go.jp/law/129AC0000000089"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/129AC0000000089",
+     "quote": "子及び配偶者が相続人であるときは、子の相続分及び配偶者の相続分は、各二分の一とする"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/129AC0000000089",
+     "quote": "子、直系尊属又は兄弟姉妹が数人あるときは、各自の相続分は、相等しいものとする"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/129AC0000000089",
+     "quote": "相続の放棄をした者は、その相続に関しては、初めから相続人とならなかったものとみなす"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/129AC0000000089",
+     "quote": "被相続人の子が、相続の開始以前に死亡したとき、又は第八百九十一条の規定に該当し、若しくは廃除によって、その相続権を失ったときは、その者の子がこれを代襲して相続人となる"
+    }
+   ],
    "lawBaseDate": "2025-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -8302,15 +9203,20 @@
  "j3-202605-20": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "特定居住用宅地等は330㎡まで80％減額。5,000万円×（1－0.8）＝1,000万円。正解は1)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "国税庁 No.4124 小規模宅地等の特例",
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4124.htm"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4124.htm",
+     "quote": "⑥特定居住用宅地等に該当する宅地等33080％"
+    }
+   ],
    "lawBaseDate": "2025-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -8459,15 +9365,20 @@
  "j3-202505-09": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "幅員4m未満の2項道路では、道路の中心線から2m後退（セットバック）する。幅員3mなら片側0.5m後退するので、18m×0.5m＝9㎡を敷地面積から除く。180㎡－9㎡＝171㎡。正解は3)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 建築基準法",
+     "url": "https://laws.e-gov.go.jp/law/325AC0000000201"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/325AC0000000201",
+     "quote": "幅員四メートル未満の道で、特定行政庁の指定したものは、前項の規定にかかわらず、同項の道路とみなし、その中心線からの水平距離二メートル"
+    }
+   ],
    "lawBaseDate": "2024-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -8523,15 +9434,24 @@
  "j3-202505-13": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "新契約の一般の生命保険料62,880円は4万円超8万円以下なので×1/4＋20,000円＝35,720円。介護医療保険料28,800円は2万円超4万円以下なので×1/2＋10,000円＝24,400円。合計60,120円。正解は3)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 所得税法",
+     "url": "https://laws.e-gov.go.jp/law/340AC0000000033"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/340AC0000000033",
+     "quote": "ハその年中に支払つた新生命保険料の金額の合計額が四万円を超え八万円以下である場合三万円と当該合計額から四万円を控除した金額の四分の一に相当する金額との合計額"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/340AC0000000033",
+     "quote": "その年中に支払つた介護医療保険料の金額の合計額が二万円を超え四万円以下である場合二万円と当該合計額から二万円を控除した金額の二分の一に相当する金額との合計額"
+    }
+   ],
    "lawBaseDate": "2024-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -8624,15 +9544,32 @@
  "j3-202505-18": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "配偶者は2分の1。幹夫さんは相続放棄、夏帆さんと、すでに死亡した者を代襲する真奈さんで子の分の2分の1を分け、それぞれ4分の1。正解は2)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 民法",
+     "url": "https://laws.e-gov.go.jp/law/129AC0000000089"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/129AC0000000089",
+     "quote": "子及び配偶者が相続人であるときは、子の相続分及び配偶者の相続分は、各二分の一とする"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/129AC0000000089",
+     "quote": "子、直系尊属又は兄弟姉妹が数人あるときは、各自の相続分は、相等しいものとする"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/129AC0000000089",
+     "quote": "相続の放棄をした者は、その相続に関しては、初めから相続人とならなかったものとみなす"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/129AC0000000089",
+     "quote": "被相続人の子が、相続の開始以前に死亡したとき、又は第八百九十一条の規定に該当し、若しくは廃除によって、その相続権を失ったときは、その者の子がこれを代襲して相続人となる"
+    }
+   ],
    "lawBaseDate": "2024-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -8661,15 +9598,20 @@
  "j3-202505-20": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "借地権の相続税評価額＝路線価240千円×180㎡（奥行価格補正率1.0）×借地権割合70％（記号C）＝30,240千円。正解は2)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "国税庁 財産評価基本通達（借地権の評価）",
+     "url": "https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/02/06.htm"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/02/06.htm",
+     "quote": "借地権の価額は、その借地権の目的となっている宅地の自用地としての価額に、当該価額に対する借地権の売買実例価額、精通者意見価格、地代の額等を基として評定した借地権の価額の割合（以下「借地権割合」という。）がおおむね同一と認められる地域ごとに国税局長の定める割合を乗じて計算した金額によって評価する"
+    }
+   ],
    "lawBaseDate": "2024-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -8810,15 +9752,24 @@
  "j3-202405-09": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "延べ面積の上限＝敷地面積×容積率。前面道路が6mなので6×6/10＝360％と指定容積率400％の小さい方。450㎡×360％＝1,620㎡。正解は2)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 建築基準法",
+     "url": "https://laws.e-gov.go.jp/law/325AC0000000201"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/325AC0000000201",
+     "quote": "建築物の延べ面積の敷地面積に対する割合（以下「容積率」という。）"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/325AC0000000201",
+     "quote": "前面道路（前面道路が二以上あるときは、その幅員の最大のもの。以下この項及び第十二項において同じ。）の幅員が十二メートル未満である建築物の容積率は、当該前面道路の幅員のメートルの数値に"
+    }
+   ],
    "lawBaseDate": "2023-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -8842,15 +9793,28 @@
  "j3-202405-11": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "一般定期借地権は存続期間50年以上、契約は書面（公正証書等）。事業用定期借地権等は公正証書によって契約する。正解は3)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 借地借家法",
+     "url": "https://laws.e-gov.go.jp/law/403AC0000000090"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/403AC0000000090",
+     "quote": "存続期間を五十年以上として借地権を設定する場合においては"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/403AC0000000090",
+     "quote": "その特約は、公正証書による等書面によってしなければならない"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/403AC0000000090",
+     "quote": "前二項に規定する借地権の設定を目的とする契約は、公正証書によってしなければならない"
+    }
+   ],
    "lawBaseDate": "2023-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -8890,15 +9854,32 @@
  "j3-202405-14": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "地震保険の対象は居住用建物と家財で、自動車は対象外。1)火災保険に付帯して契約する、2)保険料は建物の構造と所在地で異なる、の記述は適切。正解は3)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 地震保険に関する法律",
+     "url": "https://laws.e-gov.go.jp/law/341AC0000000073"
+    },
+    {
+     "title": "日本損害保険協会 地震保険",
+     "url": "https://www.sonpo.or.jp/insurance/jishin/"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/341AC0000000073",
+     "quote": "居住の用に供する建物又は生活用動産のみを保険の目的とすること"
+    },
+    {
+     "url": "https://www.sonpo.or.jp/insurance/jishin/",
+     "quote": "地震保険は単独では契約できません。火災保険にセットして契約する必要があります"
+    },
+    {
+     "url": "https://www.sonpo.or.jp/insurance/jishin/",
+     "quote": "保険料は、建物の構造と所在地により異なります"
+    }
+   ],
    "lawBaseDate": "2023-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -8963,15 +9944,24 @@
  "j3-202405-18": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "配偶者と兄弟姉妹が相続人の場合、配偶者が4分の3、兄弟姉妹全体で4分の1。兄弟姉妹が2人なら各8分の1。正解は3)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 民法",
+     "url": "https://laws.e-gov.go.jp/law/129AC0000000089"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/129AC0000000089",
+     "quote": "配偶者及び兄弟姉妹が相続人であるときは、配偶者の相続分は、四分の三とし、兄弟姉妹の相続分は、四分の一とする"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/129AC0000000089",
+     "quote": "子、直系尊属又は兄弟姉妹が数人あるときは、各自の相続分は、相等しいものとする"
+    }
+   ],
    "lawBaseDate": "2023-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -9059,15 +10049,28 @@
  "j2-202605-08": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "建ぺい率の上限は指定60％に、防火地域内の耐火建築物による緩和10％を加えた70％。建築面積の上限＝240㎡×70％＝168㎡。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 建築基準法",
+     "url": "https://laws.e-gov.go.jp/law/325AC0000000201"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/325AC0000000201",
+     "quote": "建築物の建築面積（同一敷地内に二以上の建築物がある場合においては、その建築面積の合計）の敷地面積に対する割合（以下「建蔽率」という。）"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/325AC0000000201",
+     "quote": "第一項各号に定める数値に十分の一を加えたものをもつて当該各号に定める数値とし"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/325AC0000000201",
+     "quote": "防火地域（第一項第二号から第四号までの規定により建蔽率の限度が十分の八とされている地域を除く。）内にあるイに該当する建築物又は準防火地域内にあるイ若しくはロのいずれかに該当する建築物"
+    }
+   ],
    "lawBaseDate": "2025-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -9107,15 +10110,20 @@
  "j2-202605-17": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "地震保険料＝保険金額×料率。保険金額は火災保険金額（1,800万円）の30〜50％の範囲で、資料の設定により900万円。資料の料率（岡山県・イ構造：730円／100万円）より、900万円×730円／100万円＝6,570円。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 地震保険に関する法律",
+     "url": "https://laws.e-gov.go.jp/law/341AC0000000073"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/341AC0000000073",
+     "quote": "附帯される損害保険契約の保険金額の百分の三十以上百分の五十以下の額に相当する金額（その金額が政令で定める金額を超えるときは、当該政令で定める金額）を保険金額とすること"
+    }
+   ],
    "lawBaseDate": "2025-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -9360,15 +10368,24 @@
  "j2-202505-08": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "前面道路は幅員の広い10m道路。容積率の制限は、前面道路の幅員10m×法定乗数4／10＝400％と指定容積率300％の小さい方の300％。延べ面積の最高限度＝240㎡×300％＝720㎡。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 建築基準法",
+     "url": "https://laws.e-gov.go.jp/law/325AC0000000201"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/325AC0000000201",
+     "quote": "建築物の延べ面積の敷地面積に対する割合（以下「容積率」という。）"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/325AC0000000201",
+     "quote": "前面道路（前面道路が二以上あるときは、その幅員の最大のもの。以下この項及び第十二項において同じ。）の幅員が十二メートル未満である建築物の容積率は、当該前面道路の幅員のメートルの数値に"
+    }
+   ],
    "lawBaseDate": "2024-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -9376,15 +10393,20 @@
  "j2-202505-12": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "土地は非課税で、消費税がかかるのは建物部分のみ。建物の消費税320万円は税率10％なので建物本体価格3,200万円、税込3,520万円。土地の価格＝販売価格6,500万円－建物（税込）3,520万円＝2,980万円。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 消費税法",
+     "url": "https://laws.e-gov.go.jp/law/363AC0000000108"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/363AC0000000108",
+     "quote": "土地（土地の上に存する権利を含む。）の譲渡及び貸付け"
+    }
+   ],
    "lawBaseDate": "2024-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -9408,15 +10430,28 @@
  "j2-202505-17": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "地震保険の保険金額は火災保険金額の30〜50％（上限：建物5,000万円）。最大の50％＝2,000万円×50％＝1,000万円。埼玉県・ロ構造は100万円あたり年間4,110円なので、1,000万円×4,110円／100万円＝41,100円。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 地震保険に関する法律施行令",
+     "url": "https://laws.e-gov.go.jp/law/341CO0000000164"
+    },
+    {
+     "title": "e-Gov法令検索 地震保険に関する法律",
+     "url": "https://laws.e-gov.go.jp/law/341AC0000000073"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/341CO0000000164",
+     "quote": "居住用建物については五千万円、生活用動産については千万円とする"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/341AC0000000073",
+     "quote": "附帯される損害保険契約の保険金額の百分の三十以上百分の五十以下の額に相当する金額（その金額が政令で定める金額を超えるときは、当該政令で定める金額）を保険金額とすること"
+    }
+   ],
    "lawBaseDate": "2024-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -9664,15 +10699,40 @@
  "j2-202605-10": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "（ア）普通借地権の存続期間は初回30年以上、1回目の更新後20年以上、2回目以降10年以上。1回目の更新後を10年とする契約は借地権者に不利な特約で無効（20年となる）。不適切（×）。（イ）更新請求が認められるのは借地上に建物がある場合に限られる。不適切（×）。（ウ）一般定期借地権は50年以上で、契約は公正証書等の書面（電磁的記録を含む）による。適切（〇）。（エ）建物譲渡特約付借地権は存続期間30年以上。適切（〇）。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 借地借家法",
+     "url": "https://laws.e-gov.go.jp/law/403AC0000000090"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/403AC0000000090",
+     "quote": "当事者が借地契約を更新する場合においては、その期間は、更新の日から十年（借地権の設定後の最初の更新にあっては、二十年）とする"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/403AC0000000090",
+     "quote": "この節の規定に反する特約で借地権者に不利なものは、無効とする"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/403AC0000000090",
+     "quote": "借地権者が契約の更新を請求したときは、建物がある場合に限り"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/403AC0000000090",
+     "quote": "存続期間を五十年以上として借地権を設定する場合においては"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/403AC0000000090",
+     "quote": "その特約は、公正証書による等書面によってしなければならない"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/403AC0000000090",
+     "quote": "設定後三十年以上を経過した日に借地権の目的である土地の上の建物を借地権設定者に相当の対価で譲渡する旨を定めることができる"
+    }
+   ],
    "lawBaseDate": "2025-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -9760,15 +10820,36 @@
  "j2-202605-23": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "長男はすでに死亡しているため孫Aが代襲相続人となり、子の相続分1／2を取得する（法定相続分は配偶者1／2、子全体1／2）。二男は相続を放棄したため、その子の孫Bは代襲相続できず相続人にならない（遺留分もゼロ）。孫Aの遺留分は、直系卑属のみの相続人ではなく配偶者がいる場合の総体的遺留分1／2×法定相続分1／2＝1／4。（ア）2)1／2、（イ）5)1／4、（ウ）1)ゼロ。正解は2)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 民法",
+     "url": "https://laws.e-gov.go.jp/law/129AC0000000089"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/129AC0000000089",
+     "quote": "子及び配偶者が相続人であるときは、子の相続分及び配偶者の相続分は、各二分の一とする"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/129AC0000000089",
+     "quote": "被相続人の子が、相続の開始以前に死亡したとき、又は第八百九十一条の規定に該当し、若しくは廃除によって、その相続権を失ったときは、その者の子がこれを代襲して相続人となる"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/129AC0000000089",
+     "quote": "相続の放棄をした者は、その相続に関しては、初めから相続人とならなかったものとみなす"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/129AC0000000089",
+     "quote": "兄弟姉妹以外の相続人は、遺留分として"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/129AC0000000089",
+     "quote": "第九百条及び第九百一条の規定により算定したその各自の相続分を乗じた割合とする"
+    }
+   ],
    "lawBaseDate": "2025-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -9776,15 +10857,20 @@
  "j2-202605-26": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "借地権の評価額＝自用地としての評価額×借地権割合。自用地評価額＝路線価300千円×奥行価格補正率1.00×面積500㎡＝150,000千円。借地権割合70％（記号C）なので150,000千円×70％＝105,000千円。正解は2)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "国税庁 財産評価基本通達（借地権の評価）",
+     "url": "https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/02/06.htm"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/02/06.htm",
+     "quote": "借地権の価額は、その借地権の目的となっている宅地の自用地としての価額に、当該価額に対する借地権の売買実例価額、精通者意見価格、地代の額等を基として評定した借地権の価額の割合（以下「借地権割合」という。）がおおむね同一と認められる地域ごとに国税局長の定める割合を乗じて計算した金額によって評価する"
+    }
+   ],
    "lawBaseDate": "2025-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -10188,15 +11274,32 @@
  "j2-202505-23": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "（ア）子が相続放棄をすると子は初めから相続人でなかったものとみなされ、第2順位の直系尊属（父母）が相続人となる。配偶者の法定相続分は2／3で、3／4ではない。不適切（×）。（イ）兄弟姉妹（姉）に遺留分はなく、ゼロ。適切（〇）。（ウ）父母の法定相続分は合計1／3で、父は1／6。直系尊属と配偶者が相続人の場合の総体的遺留分は1／2なので、父の遺留分は1／6×1／2＝1／12。「1／8」は不適切（×）。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 民法",
+     "url": "https://laws.e-gov.go.jp/law/129AC0000000089"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/129AC0000000089",
+     "quote": "配偶者及び直系尊属が相続人であるときは、配偶者の相続分は、三分の二とし、直系尊属の相続分は、三分の一とする"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/129AC0000000089",
+     "quote": "相続の放棄をした者は、その相続に関しては、初めから相続人とならなかったものとみなす"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/129AC0000000089",
+     "quote": "兄弟姉妹以外の相続人は、遺留分として"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/129AC0000000089",
+     "quote": "第九百条及び第九百一条の規定により算定したその各自の相続分を乗じた割合とする"
+    }
+   ],
    "lawBaseDate": "2024-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -10457,15 +11560,28 @@
  "j2-202501-07": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "前面道路が2本ある場合は広い方（幅員5m）で容積率を計算する。5m×法定乗数4／10＝200％で、指定容積率300％より小さいため200％。延べ面積の最高限度＝150㎡×200％＝300㎡。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 建築基準法",
+     "url": "https://laws.e-gov.go.jp/law/325AC0000000201"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/325AC0000000201",
+     "quote": "建築物の延べ面積の敷地面積に対する割合（以下「容積率」という。）"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/325AC0000000201",
+     "quote": "前面道路（前面道路が二以上あるときは、その幅員の最大のもの。以下この項及び第十二項において同じ。）の幅員が十二メートル未満である建築物の容積率は、当該前面道路の幅員のメートルの数値に"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/325AC0000000201",
+     "quote": "十分の四（特定行政庁が都道府県都市計画審議会の議を経て指定する区域内の建築物にあつては、十分の六）"
+    }
+   ],
    "lawBaseDate": "2024-10-01",
    "checkedAt": "2026-10-21"
   }
@@ -10489,15 +11605,20 @@
  "j2-202501-09": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "土地は非課税で、消費税は建物部分のみにかかる。建物の消費税380万円は税率10％なので建物本体3,800万円・税込4,180万円。土地の価格＝販売価格6,980万円－4,180万円＝2,800万円。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 消費税法",
+     "url": "https://laws.e-gov.go.jp/law/363AC0000000108"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/363AC0000000108",
+     "quote": "土地（土地の上に存する権利を含む。）の譲渡及び貸付け"
+    }
+   ],
    "lawBaseDate": "2024-10-01",
    "checkedAt": "2026-10-21"
   }
@@ -10730,15 +11851,36 @@
  "j2-202501-19": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "子が相続放棄をすると初めからいなかったものとみなされ、第2順位の直系尊属が相続人になる（父は死亡、母が相続人。兄は相続人にならない）。配偶者の法定相続分は2／3（4)）。配偶者の遺留分は直系尊属と配偶者が相続人の場合の総体的遺留分1／2×2／3＝1／3（3)）。母の法定相続分は1／3で、遺留分は1／3×1／2＝1／6（7)）。（ア）正解は4)、（イ）3)、（ウ）7)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 民法",
+     "url": "https://laws.e-gov.go.jp/law/129AC0000000089"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/129AC0000000089",
+     "quote": "配偶者及び直系尊属が相続人であるときは、配偶者の相続分は、三分の二とし、直系尊属の相続分は、三分の一とする"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/129AC0000000089",
+     "quote": "相続の放棄をした者は、その相続に関しては、初めから相続人とならなかったものとみなす"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/129AC0000000089",
+     "quote": "兄弟姉妹以外の相続人は、遺留分として"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/129AC0000000089",
+     "quote": "直系尊属のみが相続人である場合　三分の一"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/129AC0000000089",
+     "quote": "第九百条及び第九百一条の規定により算定したその各自の相続分を乗じた割合とする"
+    }
+   ],
    "lawBaseDate": "2024-10-01",
    "checkedAt": "2026-10-21"
   }
@@ -10922,15 +12064,28 @@
  "j2-202501-31": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "自賠責保険は人身事故（他人を死傷させた場合）が対象で、物損や運転者自身のケガ・自動車の修理費用は補償されない。3)の「自宅の塀に衝突した場合の自動車の修理費用が補償の対象」は最も不適切。1)死亡は3,000万円、2)傷害は120万円、4)運転者自身のケガ（自損）は対象外で適切。正解は3)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "日本損害保険協会 自賠責保険",
+     "url": "https://www.sonpo.or.jp/insurance/jibai/index.html"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://www.sonpo.or.jp/insurance/jibai/index.html",
+     "quote": "自賠責保険で補償されるのは、交通事故などで他人を死亡させたり、ケガをさせたりした「人身事故」の場合です"
+    },
+    {
+     "url": "https://www.sonpo.or.jp/insurance/jibai/index.html",
+     "quote": "運転者自身のケガ・自動車の修理代"
+    },
+    {
+     "url": "https://www.sonpo.or.jp/insurance/jibai/index.html",
+     "quote": "払われる保険金の限度額死亡3,000万円ケガ120万円"
+    }
+   ],
    "lawBaseDate": "2024-10-01",
    "checkedAt": "2026-10-21"
   }
@@ -11216,15 +12371,24 @@
  "j2-202409-07": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "敷地が建ぺい率の異なる地域にまたがる場合は、面積で加重平均して建築面積の最高限度を求める。準住居地域150㎡×6／10＝90㎡、近隣商業地域50㎡×8／10＝40㎡。建築面積の最高限度＝90㎡＋40㎡＝130㎡。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 建築基準法",
+     "url": "https://laws.e-gov.go.jp/law/325AC0000000201"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/325AC0000000201",
+     "quote": "建築物の建築面積（同一敷地内に二以上の建築物がある場合においては、その建築面積の合計）の敷地面積に対する割合（以下「建蔽率」という。）"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/325AC0000000201",
+     "quote": "建築物の敷地が前項の規定による建築物の建蔽率に関する制限を受ける地域又は区域の二以上にわたる場合においては、当該建築物の建蔽率は、同項の規定による当該各地域又は区域内の建築物の建蔽率の限度にその敷地の当該地域又は区域内にある各部分の面積の敷地面積に対する割合を乗じて得たものの合計以下でなければならない"
+    }
+   ],
    "lawBaseDate": "2024-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -11264,15 +12428,28 @@
  "j2-202409-10": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "借家契約：（ア）定期借家契約は公正証書等の書面による（2)）。（イ）普通借家契約で更新拒絶の通知をしても、賃貸人に正当事由が認められるときは更新されない（4)）。（ウ）普通借家契約で期間が1年未満の場合は、期間の定めのない契約とみなされる（6)）。（エ）定期借家契約で1年以上の場合は期間の制限はない（1)）。（ア）正解は2)、（イ）4)、（ウ）6)、（エ）1)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 借地借家法",
+     "url": "https://laws.e-gov.go.jp/law/403AC0000000090"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/403AC0000000090",
+     "quote": "公正証書による等書面によって契約をするときに限り、第三十条の規定にかかわらず、契約の更新がないこととする旨を定めることができる。この場合には、第二十九条第一項の規定を適用しない"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/403AC0000000090",
+     "quote": "正当の事由があると認められる場合でなければ、することができない"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/403AC0000000090",
+     "quote": "期間を一年未満とする建物の賃貸借は、期間の定めがない建物の賃貸借とみなす"
+    }
+   ],
    "lawBaseDate": "2024-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -11469,15 +12646,36 @@
  "j2-202409-22": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "相続人は配偶者と兄弟姉妹（父母・直系卑属はいない）。配偶者の法定相続分は3／4、兄弟姉妹全体で1／4。姉は被相続人より先に死亡しており、その子（甥・姪）が代襲相続する。姉の相続分は1／8、弟の相続分も1／8（ア：5)）。甥の相続分は姉の1／8を甥・姪で2等分した1／16（イ：9)）。兄弟姉妹には遺留分がないので、遺留分を持つのは配偶者のみで、配偶者の遺留分は総体的遺留分の1／2（ウ：2)）。（ア）正解は5)、（イ）9)、（ウ）2)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 民法",
+     "url": "https://laws.e-gov.go.jp/law/129AC0000000089"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/129AC0000000089",
+     "quote": "配偶者及び兄弟姉妹が相続人であるときは、配偶者の相続分は、四分の三とし、兄弟姉妹の相続分は、四分の一とする"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/129AC0000000089",
+     "quote": "第八百八十七条第二項の規定は、前項第二号の場合について準用する"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/129AC0000000089",
+     "quote": "子、直系尊属又は兄弟姉妹が数人あるときは、各自の相続分は、相等しいものとする"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/129AC0000000089",
+     "quote": "兄弟姉妹以外の相続人は、遺留分として"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/129AC0000000089",
+     "quote": "第九百条及び第九百一条の規定により算定したその各自の相続分を乗じた割合とする"
+    }
+   ],
    "lawBaseDate": "2024-04-01",
    "checkedAt": "2026-10-21"
   }
@@ -11886,15 +13084,28 @@
  "j2-202405-07": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "前面道路が2本ある場合は幅員の広い方（5m）で容積率を計算する。5m×法定乗数4／10＝200％で、指定容積率300％より小さいため200％。延べ面積の最高限度＝130㎡×200％＝260㎡。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 建築基準法",
+     "url": "https://laws.e-gov.go.jp/law/325AC0000000201"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/325AC0000000201",
+     "quote": "建築物の延べ面積の敷地面積に対する割合（以下「容積率」という。）"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/325AC0000000201",
+     "quote": "前面道路（前面道路が二以上あるときは、その幅員の最大のもの。以下この項及び第十二項において同じ。）の幅員が十二メートル未満である建築物の容積率は、当該前面道路の幅員のメートルの数値に"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/325AC0000000201",
+     "quote": "十分の四（特定行政庁が都道府県都市計画審議会の議を経て指定する区域内の建築物にあつては、十分の六）"
+    }
+   ],
    "lawBaseDate": "2023-10-01",
    "checkedAt": "2026-10-21"
   }
@@ -11902,15 +13113,28 @@
  "j2-202405-08": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "普通借地権：（ア）存続期間を定めなかった場合は30年（3)）。（イ）契約でこれより長い期間を定めることはできる（5)）。（ウ）地主が更新を拒絶するには正当事由が必要（7)）。（エ）最初の更新後の存続期間は原則として更新の日から20年（2)）。（ア）正解は3)、（イ）5)、（ウ）7)、（エ）2)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 借地借家法",
+     "url": "https://laws.e-gov.go.jp/law/403AC0000000090"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/403AC0000000090",
+     "quote": "借地権の存続期間は、三十年とする。ただし、契約でこれより長い期間を定めたときは、その期間とする"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/403AC0000000090",
+     "quote": "当事者が借地契約を更新する場合においては、その期間は、更新の日から十年（借地権の設定後の最初の更新にあっては、二十年）とする"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/403AC0000000090",
+     "quote": "正当の事由があると認められる場合でなければ、述べることができない"
+    }
+   ],
    "lawBaseDate": "2023-10-01",
    "checkedAt": "2026-10-21"
   }
@@ -12078,15 +13302,36 @@
  "j2-202405-19": {
   "terms": [],
   "explanation": {
-   "status": "draft",
+   "status": "verified",
    "short": "相続人は配偶者と兄弟姉妹（兄は相続放棄、弟）。兄が相続放棄をすると、その子（甥A・甥B）は代襲相続できない。配偶者の法定相続分は3／4（ア：10)）。兄弟姉妹の相続分は全体で1／4で、弟のみが相続人なので1／4（イ：4)）。兄弟姉妹に遺留分はなくゼロ（ウ：1)）。（ア）正解は10)、（イ）4)、（ウ）1)。",
    "sources": [
     {
-     "title": "日本FP協会 試験範囲（試験要綱）",
-     "url": "https://www.jafp.or.jp/exam/outline/"
+     "title": "e-Gov法令検索 民法",
+     "url": "https://laws.e-gov.go.jp/law/129AC0000000089"
     }
    ],
-   "evidence": [],
+   "evidence": [
+    {
+     "url": "https://laws.e-gov.go.jp/law/129AC0000000089",
+     "quote": "配偶者及び兄弟姉妹が相続人であるときは、配偶者の相続分は、四分の三とし、兄弟姉妹の相続分は、四分の一とする"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/129AC0000000089",
+     "quote": "相続の放棄をした者は、その相続に関しては、初めから相続人とならなかったものとみなす"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/129AC0000000089",
+     "quote": "第八百八十七条第二項の規定は、前項第二号の場合について準用する"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/129AC0000000089",
+     "quote": "兄弟姉妹以外の相続人は、遺留分として"
+    },
+    {
+     "url": "https://laws.e-gov.go.jp/law/129AC0000000089",
+     "quote": "第九百条及び第九百一条の規定により算定したその各自の相続分を乗じた割合とする"
+    }
+   ],
    "lawBaseDate": "2023-10-01",
    "checkedAt": "2026-10-21"
   }
