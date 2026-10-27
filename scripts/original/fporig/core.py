@@ -20,8 +20,28 @@ BASE_DATE = '2026-04-01'
 CHECKED = '2026-10-27'
 
 
+EXTRA_SOURCES: dict[str, dict] = {}
+
+
+def register_sources(d: dict[str, dict]) -> None:
+    """バッチ専用の出典を登録する。キーは重複不可（他バッチと衝突しないよう接頭辞を付ける）。"""
+    for k, v in d.items():
+        if k in EXTRA_SOURCES and EXTRA_SOURCES[k] != v:
+            raise ValueError(f'出典キー重複: {k}')
+        if not v['url'].startswith('https://'):
+            raise ValueError(f'出典URLはhttpsのみ: {k}')
+        EXTRA_SOURCES[k] = {'title': v['title'], 'url': v['url']}
+
+
+def law_source(law_id: str, name: str) -> str:
+    """e-Gov法令検索の法令を出典として登録し、キーを返す。"""
+    key = f'egov_{law_id}'
+    register_sources({key: {'title': f'e-Gov法令検索 {name}', 'url': f'https://laws.e-gov.go.jp/law/{law_id}'}})
+    return key
+
+
 def source(key: str) -> dict:
-    s = S_MORE.get(key) or _S.get(key)
+    s = EXTRA_SOURCES.get(key) or S_MORE.get(key) or _S.get(key)
     if not s:
         raise KeyError(f'未登録の出典キー: {key}')
     return s

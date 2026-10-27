@@ -5,4 +5,4 @@
   一つでも見つからない問題は解説が「要確認」になり、データ検証テストが失敗する（＝検証済みとして公開されない）。
 - 正答位置はバッチごとに均等になるよう決定的に割り当てる（公開後は動かさない）。
 """
-from .core import C, Q, Batch, all_batches  # noqa: F401
+from .core import C, Q, Batch, all_batches, law_source, register_sources  # noqa: F401
