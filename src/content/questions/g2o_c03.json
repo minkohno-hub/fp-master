@@ -1,0 +1,1067 @@
+{
+ "id": "g2o_c03",
+ "exam": "g2",
+ "title": "FP2級 オリジナル演習 C03（株式・外貨建商品・金融派生商品）",
+ "officialSet": false,
+ "lawBaseDate": "2026-04-01",
+ "questions": [
+  {
+   "id": "g2o-c03-01",
+   "exam": "g2",
+   "field": "C",
+   "theme": "株式投資",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（日本FP協会の試験範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "日本取引所グループ 売買立会時（立会時間）",
+      "url": "https://www.jpx.co.jp/equities/trading/domestic/01.html"
+     },
+     {
+      "title": "日本取引所グループ 売買単位",
+      "url": "https://www.jpx.co.jp/equities/trading/domestic/03.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "東京証券取引所における内国株の売買制度に関する次の記述のうち、最も適切なものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "内国株の売買単位は上場会社ごとに異なり、現在も1株や1,000株を単位とする銘柄が広く残っている。"
+      },
+      {
+       "id": "2",
+       "text": "土曜日は、午前立会に限って売買が行われる。"
+      },
+      {
+       "id": "3",
+       "text": "売買立会は午前立会と午後立会に分かれ、午前立会は9時から11時30分まで、午後立会は12時30分から15時30分までである。"
+      },
+      {
+       "id": "4",
+       "text": "午後立会は13時に始まり、15時に終了する。"
+      }
+     ],
+     "answer": "3"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 2,
+   "topic": "C5.1-2"
+  },
+  {
+   "id": "g2o-c03-02",
+   "exam": "g2",
+   "field": "C",
+   "theme": "株式投資",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（日本FP協会の試験範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "日本取引所グループ 売買成立の方法",
+      "url": "https://www.jpx.co.jp/equities/trading/domestic/04.html"
+     },
+     {
+      "title": "日本取引所グループ 用語集 指値注文",
+      "url": "https://www.jpx.co.jp/glossary/sa/174.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "株式の注文方法と売買成立の原則に関する次の記述のうち、最も適切なものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "1,500円の買指値注文は、ちょうど1,500円でなければ約定せず、1,499円で買える状況でも1,500円で買うことになる。"
+      },
+      {
+       "id": "2",
+       "text": "同じ値段の呼値が複数あるときは、数量の多い呼値が時間の先後にかかわらず優先される。"
+      },
+      {
+       "id": "3",
+       "text": "価格優先の原則では、売呼値は値段の高いものが、買呼値は値段の低いものが優先される。"
+      },
+      {
+       "id": "4",
+       "text": "成行呼値は、値段を指定した呼値（指値）に優先して取り扱われる。"
+      }
+     ],
+     "answer": "4"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 3,
+   "topic": "C5.1-2"
+  },
+  {
+   "id": "g2o-c03-03",
+   "exam": "g2",
+   "field": "C",
+   "theme": "株式投資",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（日本FP協会の試験範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "日本取引所グループ 売買の種類",
+      "url": "https://www.jpx.co.jp/equities/trading/domestic/02.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "内国株の売買の種類に関する次の記述のうち、最も適切なものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "発行日決済取引は、上場会社が有償株主割当増資によって新株式を発行する場合に、その新株式を発行前の段階で売買することを可能にするために設けられた取引である。"
+      },
+      {
+       "id": "2",
+       "text": "発行日決済取引は、上場会社が株式分割を行う場合に、分割後の新株式を発行前に売買できるようにした取引である。"
+      },
+      {
+       "id": "3",
+       "text": "普通取引は売買高の半数程度を占めるにとどまり、残りは当日決済取引と発行日決済取引が占めている。"
+      },
+      {
+       "id": "4",
+       "text": "当日決済取引は、売買契約締結の日に決済を行う取引であり、個人投資家の注文であればどの取引でも利用できる。"
+      }
+     ],
+     "answer": "1"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 4,
+   "topic": "C5.1-2"
+  },
+  {
+   "id": "g2o-c03-04",
+   "exam": "g2",
+   "field": "C",
+   "theme": "株式投資",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（日本FP協会の試験範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "日本取引所グループ 用語集 板寄せ方式",
+      "url": "https://www.jpx.co.jp/glossary/a/17.html"
+     },
+     {
+      "title": "日本取引所グループ 売買成立の方法",
+      "url": "https://www.jpx.co.jp/equities/trading/domestic/04.html"
+     },
+     {
+      "title": "日本取引所グループ 用語集 ザラバ方式",
+      "url": "https://www.jpx.co.jp/glossary/sa/176.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "東京証券取引所における売買成立の方法に関する次の記述のうち、最も不適切なものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "特別気配を表示しても反対の注文が入らず売買が成立しない場合には、3分間隔で特別気配を更新し、徐々に売買が成立する値段に近づけていく。"
+      },
+      {
+       "id": "2",
+       "text": "ザラバ方式は、売買立会の始値を決定するために、約定値段決定前の注文を板に集めて単一の約定値段で売買を成立させる方式である。"
+      },
+      {
+       "id": "3",
+       "text": "後場の終値は、ザラバの終了時（午後3時25分）から5分間のプレ・クロージングを設けた後、午後3時30分に行う板寄せで決まる。"
+      },
+      {
+       "id": "4",
+       "text": "板寄せ方式は、立会開始時や立会終了時、売買中断後の再開時などに用いられ、売注文と買注文から合致する値段を求めて、その値段を単一の約定値段とする。"
+      }
+     ],
+     "answer": "2"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 4,
+   "topic": "C5.1-2"
+  },
+  {
+   "id": "g2o-c03-05",
+   "exam": "g2",
+   "field": "C",
+   "theme": "株式投資",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（日本FP協会の試験範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "e-Gov法令検索 会社法",
+      "url": "https://laws.e-gov.go.jp/law/417AC0000000086"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "株主の権利と議決権に関する次の記述のうち、最も不適切なものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "単元未満株式を有する株主は、その単元未満株式について、株主総会において議決権を行使することができない。"
+      },
+      {
+       "id": "2",
+       "text": "株主は、その有する株式につき、剰余金の配当を受ける権利、残余財産の分配を受ける権利、株主総会における議決権などの権利を有する。"
+      },
+      {
+       "id": "3",
+       "text": "株主に剰余金の配当を受ける権利と残余財産の分配を受ける権利の全部を与えない旨の定款の定めは、その効力を有しない。"
+      },
+      {
+       "id": "4",
+       "text": "単元株式数を定款で定めている会社では、株主は、その有する株式1株につき1個の議決権を有する。"
+      }
+     ],
+     "answer": "4"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 3,
+   "topic": "C5.1-1"
+  },
+  {
+   "id": "g2o-c03-06",
+   "exam": "g2",
+   "field": "C",
+   "theme": "株式投資",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（日本FP協会の試験範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "e-Gov法令検索 会社法",
+      "url": "https://laws.e-gov.go.jp/law/417AC0000000086"
+     },
+     {
+      "title": "日本取引所グループ 用語集 配当落",
+      "url": "https://www.jpx.co.jp/glossary/ha/351.html"
+     },
+     {
+      "title": "日本取引所グループ 用語集 権利落",
+      "url": "https://www.jpx.co.jp/glossary/ka/134.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "配当などを受ける権利を確定させる基準日と権利落ちに関する次の記述のうち、最も適切なものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "株式分割の権利が付与される場合、権利落日の株価が当該権利の相当額分下落することはない。"
+      },
+      {
+       "id": "2",
+       "text": "株式会社は基準日を定めて、基準日に株主名簿に記載・記録されている株主を権利を行使できる者と定めることができるが、その権利は基準日から3か月以内に行使するものに限られる。"
+      },
+      {
+       "id": "3",
+       "text": "株式会社は、基準日を定めたときは、基準日の前営業日までに基準日などを公告すればよい。"
+      },
+      {
+       "id": "4",
+       "text": "権利確定日の1営業日前の日（配当落日）に株式を買っても、その配当を受ける権利を得ることができ、株価も配当相当額分は下落しない。"
+      }
+     ],
+     "answer": "2"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 4,
+   "topic": "C5.1-2"
+  },
+  {
+   "id": "g2o-c03-07",
+   "exam": "g2",
+   "field": "C",
+   "theme": "株式投資",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（日本FP協会の試験範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "日本取引所グループ 信用取引の概要",
+      "url": "https://www.jpx.co.jp/equities/trading/margin/outline/index.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "信用取引における制度信用取引と一般信用取引の違いに関する次の記述のうち、最も不適切なものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "品貸料や権利処理は、一般信用取引でも制度信用取引と同様に、取引所が発表し、または取引所が定める方法で行われる。"
+      },
+      {
+       "id": "2",
+       "text": "制度信用取引の返済期限は最長6か月であるのに対し、一般信用取引の返済期限は顧客と証券会社との間で決定される。"
+      },
+      {
+       "id": "3",
+       "text": "証券金融会社との貸借取引は、制度信用取引では利用できるが、一般信用取引では利用できない。"
+      },
+      {
+       "id": "4",
+       "text": "制度信用取引の対象銘柄は取引所が選定したものであるのに対し、一般信用取引の対象銘柄は原則として全上場銘柄である。"
+      }
+     ],
+     "answer": "1"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 4,
+   "topic": "C5.3-1"
+  },
+  {
+   "id": "g2o-c03-08",
+   "exam": "g2",
+   "field": "C",
+   "theme": "株式投資",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（日本FP協会の試験範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "日本取引所グループ 信用取引の目的・仕組み",
+      "url": "https://www.jpx.co.jp/equities/trading/margin/outline/01.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "信用取引の委託保証金と決済に関する次の記述のうち、最も不適切なものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "現引きとは、買方が融資相当額の現金を自ら用意して融資を返済し、担保として預けられている買付株式を引き取る決済方法である。"
+      },
+      {
+       "id": "2",
+       "text": "当初の委託保証金から損失や費用を差し引いた金額が売買代金の20％を下回ったときは、追加の保証金（追い証）を証券会社に差し入れる必要がある。"
+      },
+      {
+       "id": "3",
+       "text": "制度信用取引で品貸料（逆日歩）が付いた場合、その銘柄の売り顧客は相当する金額を受け取り、買い顧客は相当する金額を支払わなければならない。"
+      },
+      {
+       "id": "4",
+       "text": "委託保証金は、一般の銘柄では買付代金・売付代金の30％以上と定められており、現金のほか有価証券でも代用できる。"
+      }
+     ],
+     "answer": "3"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 4,
+   "topic": "C5.3-1"
+  },
+  {
+   "id": "g2o-c03-09",
+   "exam": "g2",
+   "field": "C",
+   "theme": "株式投資",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（日本FP協会の試験範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "日本取引所グループ 信用取引の権利処理（制度信用取引）",
+      "url": "https://www.jpx.co.jp/equities/trading/margin/rights/02.html"
+     },
+     {
+      "title": "日本取引所グループ 信用取引の権利処理（一般信用取引）",
+      "url": "https://www.jpx.co.jp/equities/trading/margin/rights/01.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "制度信用取引で売買している銘柄に配当や株式分割などの権利が生じた場合の権利処理に関する次の記述のうち、最も適切なものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "一般信用取引の権利処理も、制度信用取引と同様に取引所の定める方法で行われる。"
+      },
+      {
+       "id": "2",
+       "text": "分割比率1：2の株式分割では、買付株数・売付株数は変わらず、約定値段だけが半額に調整される。"
+      },
+      {
+       "id": "3",
+       "text": "株主総会の議決権や株主優待券も、配当金と同様に金銭に評価されて権利処理の対象となる。"
+      },
+      {
+       "id": "4",
+       "text": "配当については、1株当たりの配当金額から源泉徴収税額相当分を控除した額を、買付けている顧客は証券会社から受け取り、売り付けている顧客は証券会社に支払う。"
+      }
+     ],
+     "answer": "4"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 5,
+   "topic": "C5.3-1"
+  },
+  {
+   "id": "g2o-c03-10",
+   "exam": "g2",
+   "field": "C",
+   "theme": "株式投資",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（日本FP協会の試験範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "日本取引所グループ 市場概要（内国株）",
+      "url": "https://www.jpx.co.jp/equities/products/stocks/outline/index.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "東京証券取引所の株式市場に関する次の記述のうち、最も適切なものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "TOKYO PRO Marketでは、特定投資家（プロ投資家）に限らず、一般の個人投資家も直接売買することができる。"
+      },
+      {
+       "id": "2",
+       "text": "東京証券取引所が開設している株式市場は、プライム、スタンダード、グロースの3つである。"
+      },
+      {
+       "id": "3",
+       "text": "グロース市場は、高い成長可能性を実現するための事業計画等の適時・適切な開示が行われ、一定の市場評価が得られる一方、事業実績の観点から相対的にリスクが高い企業向けの市場である。"
+      },
+      {
+       "id": "4",
+       "text": "プライム市場は、公開された市場における投資対象として一定の時価総額を持ち、上場企業としての基本的なガバナンス水準を備える企業向けの市場である。"
+      }
+     ],
+     "answer": "3"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 3,
+   "topic": "C5.2-1"
+  },
+  {
+   "id": "g2o-c03-11",
+   "exam": "g2",
+   "field": "C",
+   "theme": "株式投資",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（日本FP協会の試験範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "日本取引所グループ TOPIX",
+      "url": "https://www.jpx.co.jp/markets/indices/topix/index.html"
+     },
+     {
+      "title": "日本取引所グループ 用語集 日経平均株価",
+      "url": "https://www.jpx.co.jp/glossary/na/337.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "TOPIXと日経平均株価に関する次の記述のうち、最も適切なものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "日経平均株価は、東京証券取引所が算出する、全上場銘柄を対象とした時価総額加重型の指数である。"
+      },
+      {
+       "id": "2",
+       "text": "TOPIXは、1968年1月4日の時価総額を100として、その後の時価総額を指数化したものであり、算出方法は浮動株時価総額加重型である。"
+      },
+      {
+       "id": "3",
+       "text": "TOPIXは、東京証券取引所プライム市場に上場する225銘柄の平均株価を指数化したものである。"
+      },
+      {
+       "id": "4",
+       "text": "TOPIXは、1968年1月4日の時価総額を1,000として算出されている。"
+      }
+     ],
+     "answer": "2"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 3,
+   "topic": "C5.2-2"
+  },
+  {
+   "id": "g2o-c03-12",
+   "exam": "g2",
+   "field": "C",
+   "theme": "株式投資",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（日本FP協会の試験範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "日本取引所グループ 用語集 株価純資産倍率",
+      "url": "https://www.jpx.co.jp/glossary/ka/74.html"
+     },
+     {
+      "title": "日本取引所グループ 用語集 自己資本当期純利益率",
+      "url": "https://www.jpx.co.jp/glossary/sa/549.html"
+     },
+     {
+      "title": "日本取引所グループ 用語集 配当性向",
+      "url": "https://www.jpx.co.jp/glossary/ha/353.html"
+     },
+     {
+      "title": "日本取引所グループ 用語集 株価収益率",
+      "url": "https://www.jpx.co.jp/glossary/ka/73.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "株式の投資指標に関する次の記述のうち、最も不適切なものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "PER（株価収益率）が高いほど、利益に比べて株価が割安であることを示す。"
+      },
+      {
+       "id": "2",
+       "text": "配当性向は、1株当たり配当額を1株当たり当期純利益で除して求められる。"
+      },
+      {
+       "id": "3",
+       "text": "ROE（自己資本当期純利益率）は、当期純利益を前期及び当期の自己資本の平均値で除したもので、企業の経営効率を測定する指標の一つである。"
+      },
+      {
+       "id": "4",
+       "text": "PBR（株価純資産倍率）は、株価を1株当たり純資産で除したもので、株価が1株当たり純資産の何倍まで買われているかを示す。"
+      }
+     ],
+     "answer": "1"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 3,
+   "topic": "C5.4-1"
+  },
+  {
+   "id": "g2o-c03-13",
+   "exam": "g2",
+   "field": "C",
+   "theme": "株式投資",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（日本FP協会の試験範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "日本取引所グループ 用語集 株価収益率",
+      "url": "https://www.jpx.co.jp/glossary/ka/73.html"
+     },
+     {
+      "title": "日本取引所グループ 用語集 株価純資産倍率",
+      "url": "https://www.jpx.co.jp/glossary/ka/74.html"
+     },
+     {
+      "title": "日本取引所グループ 用語集 配当性向",
+      "url": "https://www.jpx.co.jp/glossary/ha/353.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "株価3,000円のX社について、当期純利益60億円、発行済株式数2,000万株（自己株式なし・期中の増減なし）、純資産600億円、年間配当金1株当たり45円とする。このときのPER、PBR、配当性向の組み合わせとして、次のうち最も適切なものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "PER 10倍、PBR 1.0倍、配当性向 15％"
+      },
+      {
+       "id": "2",
+       "text": "PER 10倍、PBR 1.0倍、配当性向 1.5％"
+      },
+      {
+       "id": "3",
+       "text": "PER 10倍、PBR 2.0倍、配当性向 15％"
+      },
+      {
+       "id": "4",
+       "text": "PER 20倍、PBR 1.0倍、配当性向 15％"
+      }
+     ],
+     "answer": "1"
+    }
+   ],
+   "requiresCalculation": true,
+   "status": "verified",
+   "level": 3,
+   "topic": "C5.4-1",
+   "calcReason": "1株当たり当期純利益・1株当たり純資産を求めてPER・PBR・配当性向を計算する必要がある"
+  },
+  {
+   "id": "g2o-c03-14",
+   "exam": "g2",
+   "field": "C",
+   "theme": "外貨建商品",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（日本FP協会の試験範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "国税庁 タックスアンサー No.4665 外貨（現金）の邦貨換算",
+      "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hyoka/4665.htm"
+     },
+     {
+      "title": "国税庁 質疑応答事例 外貨(現金)の評価",
+      "url": "https://www.nta.go.jp/law/shitsugi/hyoka/15/05.htm"
+     },
+     {
+      "title": "預金保険機構 保護の範囲",
+      "url": "https://www.dic.go.jp/yokinsha/page_000016.html"
+     },
+     {
+      "title": "預金保険機構 対象預金",
+      "url": "https://www.dic.go.jp/yokinsha/page_000015.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "外貨預金と為替相場に関する次の記述のうち、最も適切なものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "対顧客直物電信売相場（TTS）とは、金融機関が顧客から外貨を買って円を支払う場合の相場をいう。"
+      },
+      {
+       "id": "2",
+       "text": "外貨預金の支払いを受けて外貨を円に交換する場合に適用されるのは、金融機関が顧客から外貨を買って円を支払う場合の対顧客直物電信買相場（TTB）である。"
+      },
+      {
+       "id": "3",
+       "text": "相続した外貨預金を財産評価で円換算する場合は、原則として対顧客直物電信売相場と買相場の仲値（TTM）によって換算する。"
+      },
+      {
+       "id": "4",
+       "text": "外貨預金は預金保険制度の対象であり、金融機関が破綻した場合でも、1金融機関ごとに元本1,000万円までとその利息が保護される。"
+      }
+     ],
+     "answer": "2"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 3,
+   "topic": "C6.1-8"
+  },
+  {
+   "id": "g2o-c03-15",
+   "exam": "g2",
+   "field": "C",
+   "theme": "外貨建商品",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（日本FP協会の試験範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "国税庁 タックスアンサー No.1520 金融類似商品と税金",
+      "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1520.htm"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "外貨建預貯金の元本と利子をあらかじめ定められた利率により円に換算して支払うこととされている場合の換算差益（例：外貨投資口座の為替差益）の課税に関する次の記述のうち、最も適切なものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "源泉分離課税の税率は所得税15.315％のみで、地方税は課されない。"
+      },
+      {
+       "id": "2",
+       "text": "その換算差益は、扶養親族に該当するか否かを判定するときの合計所得金額に含まれる。"
+      },
+      {
+       "id": "3",
+       "text": "他の所得と合算して総合課税の対象となり、必ず確定申告をしなければならない。"
+      },
+      {
+       "id": "4",
+       "text": "金融類似商品の収益として源泉分離課税の対象となり、源泉徴収だけで課税関係が終了するため、他の所得と合算して確定申告をする必要はない。"
+      }
+     ],
+     "answer": "4"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 4,
+   "topic": "C6.1-1"
+  },
+  {
+   "id": "g2o-c03-16",
+   "exam": "g2",
+   "field": "C",
+   "theme": "金融派生商品",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（日本FP協会の試験範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "日本取引所グループ 用語集 コール・オプション",
+      "url": "https://www.jpx.co.jp/glossary/ka/142.html"
+     },
+     {
+      "title": "日本取引所グループ 用語集 オプション取引",
+      "url": "https://www.jpx.co.jp/glossary/a/47.html"
+     },
+     {
+      "title": "日本取引所グループ 用語集 差金決済",
+      "url": "https://www.jpx.co.jp/glossary/sa/170.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "日経225オプションは1枚当たりプレミアムの1,000倍で取引され、手数料等は考慮しないものとする。日経平均株価が14,000円（SQ日）のとき、権利行使価格13,000円のコール・オプション1枚を、プレミアム300円で買い建てた投資家がSQ日に権利行使したときの損益として、次のうち最も適切なものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "30万円の損失"
+      },
+      {
+       "id": "2",
+       "text": "130万円の利益"
+      },
+      {
+       "id": "3",
+       "text": "70万円の利益"
+      },
+      {
+       "id": "4",
+       "text": "100万円の利益"
+      }
+     ],
+     "answer": "3"
+    }
+   ],
+   "requiresCalculation": true,
+   "status": "verified",
+   "level": 3,
+   "topic": "C8.1-3",
+   "calcReason": "SQ値、権利行使価格、プレミアムから損益を計算する必要がある"
+  },
+  {
+   "id": "g2o-c03-17",
+   "exam": "g2",
+   "field": "C",
+   "theme": "金融派生商品",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（日本FP協会の試験範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "日本取引所グループ 用語集 プレミアム",
+      "url": "https://www.jpx.co.jp/glossary/ha/405.html"
+     },
+     {
+      "title": "日本取引所グループ 用語集 時間的価値",
+      "url": "https://www.jpx.co.jp/glossary/sa/181.html"
+     },
+     {
+      "title": "日本取引所グループ 用語集 本質的価値",
+      "url": "https://www.jpx.co.jp/glossary/ha/422.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "オプションの価格（プレミアム）に関する次の記述のうち、最も不適切なものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "ボラティリティ（予想される変動率）が高いほど、オプションの時間的価値は高くなる。"
+      },
+      {
+       "id": "2",
+       "text": "プレミアムは、オプションの本質的価値と時間的価値からなる。"
+      },
+      {
+       "id": "3",
+       "text": "オプションの時間的価値は、満期日に近づくにつれて減少していく。"
+      },
+      {
+       "id": "4",
+       "text": "プット・オプションの本質的価値は、原資産価格から権利行使価格を差し引いた額であり、これがマイナスの場合はゼロとなる。"
+      }
+     ],
+     "answer": "4"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 4,
+   "topic": "C8.1-3"
+  },
+  {
+   "id": "g2o-c03-18",
+   "exam": "g2",
+   "field": "C",
+   "theme": "金融派生商品",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（日本FP協会の試験範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "日本取引所グループ 用語集 イン・ザ・マネー",
+      "url": "https://www.jpx.co.jp/glossary/a/26.html"
+     },
+     {
+      "title": "日本取引所グループ 用語集 本質的価値",
+      "url": "https://www.jpx.co.jp/glossary/ha/422.html"
+     },
+     {
+      "title": "日本取引所グループ 用語集 アウト・オブ・ザ・マネー",
+      "url": "https://www.jpx.co.jp/glossary/a/3.html"
+     },
+     {
+      "title": "日本取引所グループ 用語集 アット・ザ・マネー",
+      "url": "https://www.jpx.co.jp/glossary/a/6.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "日経平均株価が38,000円のとき、日経225オプションの権利行使価格とポジションの状態に関する次の記述のうち、最も適切なものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "権利行使価格38,000円のコール・オプションはアウト・オブ・ザ・マネーである。"
+      },
+      {
+       "id": "2",
+       "text": "権利行使価格37,000円のコール・オプションはイン・ザ・マネーであり、本質的価値は1,000円である。"
+      },
+      {
+       "id": "3",
+       "text": "権利行使価格37,000円のプット・オプションはイン・ザ・マネーである。"
+      },
+      {
+       "id": "4",
+       "text": "権利行使価格39,000円のコール・オプションの本質的価値は1,000円である。"
+      }
+     ],
+     "answer": "2"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 4,
+   "topic": "C8.1-3"
+  },
+  {
+   "id": "g2o-c03-19",
+   "exam": "g2",
+   "field": "C",
+   "theme": "金融派生商品",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（日本FP協会の試験範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "日本取引所グループ 用語集 ヘッジ取引",
+      "url": "https://www.jpx.co.jp/glossary/ha/413.html"
+     },
+     {
+      "title": "日本取引所グループ 用語集 ベーシス取引",
+      "url": "https://www.jpx.co.jp/glossary/ha/411.html"
+     },
+     {
+      "title": "日本取引所グループ 用語集 プロテクティブ・プット",
+      "url": "https://www.jpx.co.jp/glossary/ha/407.html"
+     },
+     {
+      "title": "日本取引所グループ 用語集 カバード・コール",
+      "url": "https://www.jpx.co.jp/glossary/ka/70.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "ヘッジ取引・裁定取引などに関する次の記述のうち、最も不適切なものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "プロテクティブ・プットは、原資産の保有とプット・オプションの買いを組み合わせたもので、原資産の価格下落リスクを回避する場合などに用いられる。"
+      },
+      {
+       "id": "2",
+       "text": "先物価格が理論価格を上回っている状態では、割高な先物を売り建て、株価指数に連動する現物株のバスケットを買う裁定取引（買裁定）が行われる。"
+      },
+      {
+       "id": "3",
+       "text": "カバード・コールは、原資産の保有とコール・オプションの買いを組み合わせたもので、利回りの向上を狙う場合などに用いられる。"
+      },
+      {
+       "id": "4",
+       "text": "現在保有する現物株の値下がりが懸念される場合、先物を売り建てるか、プット・オプションを買い建てることで、現物株の損失をカバーすることができる。"
+      }
+     ],
+     "answer": "3"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 4,
+   "topic": "C8.1-4"
+  },
+  {
+   "id": "g2o-c03-20",
+   "exam": "g2",
+   "field": "C",
+   "theme": "金融派生商品",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（日本FP協会の試験範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "日本取引所グループ 用語集 スワップ",
+      "url": "https://www.jpx.co.jp/glossary/sa/522.html"
+     },
+     {
+      "title": "日本取引所グループ 用語集 差金決済",
+      "url": "https://www.jpx.co.jp/glossary/sa/170.html"
+     },
+     {
+      "title": "日本取引所グループ 用語集 先物取引",
+      "url": "https://www.jpx.co.jp/glossary/sa/168.html"
+     },
+     {
+      "title": "日本取引所グループ 用語集 証拠金",
+      "url": "https://www.jpx.co.jp/glossary/sa/209.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "先物取引・スワップ取引など金融派生商品に関する次の記述のうち、最も適切なものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "金利スワップは、固定金利と変動金利を交換する取引で、一方の当事者が想定元本に対する固定金利を支払い、他方の当事者が同額の想定元本に対する変動金利を支払う。"
+      },
+      {
+       "id": "2",
+       "text": "株価指数先物取引は、満期日に現物株の受渡しを行って決済しなければならない。"
+      },
+      {
+       "id": "3",
+       "text": "先物取引は、レバレッジ効果を利用した取引であるため、証拠金を預ける必要はない。"
+      },
+      {
+       "id": "4",
+       "text": "先物取引の証拠金は、現金のみ差し入れることができ、有価証券による代用は認められていない。"
+      }
+     ],
+     "answer": "1"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 3,
+   "topic": "C8.1-1"
+  }
+ ]
+}
