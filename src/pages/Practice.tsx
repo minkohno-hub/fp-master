@@ -153,6 +153,30 @@ export function PracticePage() {
               ))}
             </div>
           </div>
+          {pool.some((q) => q.level !== undefined) && (
+            <div>
+              <h3 className="label mb-2">難易度（オリジナル問題のみ。未選択はすべて）</h3>
+              <div className="flex flex-wrap gap-2">
+                {[1, 2, 3, 4, 5].map((lv) => (
+                  <button key={lv} className={`chip ${cfg.levels?.includes(lv) ? 'chip-on' : ''}`} onClick={() => setCfg({ ...cfg, levels: toggle(cfg.levels, lv) })} aria-pressed={!!cfg.levels?.includes(lv)}>
+                    Lv{lv} {['基礎', '標準', '応用', '高難度', '最難関'][lv - 1]}
+                  </button>
+                ))}
+              </div>
+            </div>
+          )}
+          {pool.some((q) => q.source.kind === 'original') && (
+            <div>
+              <h3 className="label mb-2">出典</h3>
+              <div className="flex flex-wrap gap-2">
+                {([undefined, 'official', 'original'] as const).map((k) => (
+                  <button key={k ?? 'all'} className={`chip ${cfg.sourceKind === k ? 'chip-on' : ''}`} onClick={() => setCfg({ ...cfg, sourceKind: k })} aria-pressed={cfg.sourceKind === k}>
+                    {k === 'official' ? '公式過去問のみ' : k === 'original' ? 'オリジナル問題のみ' : 'すべて'}
+                  </button>
+                ))}
+              </div>
+            </div>
+          )}
           <div>
             <h3 className="label mb-2">出題順</h3>
             <div className="flex gap-2">

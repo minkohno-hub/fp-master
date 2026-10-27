@@ -34,6 +34,12 @@ export interface PracticeConfig {
   includeCalc: boolean;
   /** 出題順：random=ランダム / ordered=問題番号順 */
   order: 'random' | 'ordered';
+  /** 難易度（1〜5）。指定時は該当レベルの問題のみ（公式問題は難易度未分類のため対象外） */
+  levels?: number[];
+  /** 出典の種類で絞る */
+  sourceKind?: 'official' | 'original';
+  /** 優先出題：hard=難易度の高い問題を優先 / unmastered=未習得の論点を優先 */
+  focus?: 'hard' | 'unmastered';
 }
 
 export interface UserState {
@@ -106,10 +112,19 @@ export function selectQuestions(pool: Question[], cfg: PracticeConfig, u: UserSt
   if (cfg.yearMonths?.length) {
     qs = qs.filter((q) => q.source.kind === 'official' && cfg.yearMonths!.includes(q.source.yearMonth));
   }
+  if (cfg.levels?.length) qs = qs.filter((q) => q.level !== undefined && cfg.levels!.includes(q.level));
+  if (cfg.sourceKind) qs = qs.filter((q) => q.source.kind === cfg.sourceKind);
   qs = applyFilter(qs, cfg.filter, u);
 
   const rng = createRng(seed);
-  if (cfg.order === 'ordered') {
+  if (cfg.focus === 'hard') {
+    qs = shuffle(qs, rng)
+      .map((q, i) => ({ q, i }))
+      .sort((a, b) => (b.q.level ?? 0) - (a.q.level ?? 0) || a.i - b.i)
+      .map((x) => x.q);
+  } else if (cfg.focus === 'unmastered') {
+    qs = prioritizeUnmastered(pool, qs, u, rng);
+  } else if (cfg.order === 'ordered') {
     qs = [...qs].sort(compareQuestionOrder);
   } else if (cfg.filter === 'weak' || cfg.filter === 'due') {
     qs = prioritize(qs, cfg.filter, u, rng);
@@ -117,6 +132,33 @@ export function selectQuestions(pool: Question[], cfg: PracticeConfig, u: UserSt
     qs = shuffle(qs, rng);
   }
   return qs.slice(0, Math.max(0, cfg.count));
+}
+
+/** 論点（なければテーマ）単位の習得度。最後の解答が正解の問題の割合（未解答は0） */
+export function topicMastery(pool: Question[], u: UserState): Map<string, number> {
+  const tot = new Map<string, { n: number; ok: number }>();
+  for (const q of pool) {
+    const k = q.topic ?? q.theme;
+    const v = tot.get(k) ?? { n: 0, ok: 0 };
+    v.n++;
+    if (u.stats.get(q.id)?.lastCorrect === true) v.ok++;
+    tot.set(k, v);
+  }
+  return new Map([...tot].map(([k, v]) => [k, v.ok / v.n]));
+}
+
+/** 未習得の論点を優先：習得度が低い論点、その中では未解答・直近誤答の問題を先に出す */
+function prioritizeUnmastered(pool: Question[], qs: Question[], u: UserState, rng: () => number): Question[] {
+  const mastery = topicMastery(pool, u);
+  const score = (q: Question): number => {
+    const st = u.stats.get(q.id);
+    const state = !st || st.attempts === 0 ? 2 : st.lastCorrect === false ? 3 : 0;
+    return (1 - (mastery.get(q.topic ?? q.theme) ?? 0)) * 10 + state;
+  };
+  return shuffle(qs, rng)
+    .map((q, i) => ({ q, i, s: score(q) }))
+    .sort((a, b) => b.s - a.s || a.i - b.i)
+    .map((x) => x.q);
 }
 
 /** 苦手分野優先・復習予定は優先度順（同順位はランダム） */

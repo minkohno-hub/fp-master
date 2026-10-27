@@ -10,6 +10,7 @@ export function MenuPage() {
       <nav className="card py-1" aria-label="学習">
         <LinkRow to="/practice" title="通常演習" sub="知識問題をテンポよく" />
         <LinkRow to="/calc" title="計算トレーニング" />
+        <LinkRow to="/challenge" title="95%チャレンジ（2級学科）" sub="高難度・初見の対応力を鍛える" />
         <LinkRow to="/review" title="苦手問題の復習" />
         <LinkRow to="/mock" title="模擬試験" />
         <LinkRow to="/cards" title="暗記カード" />
