@@ -11,7 +11,7 @@ import { LawNotice, SourceLine } from './QuestionView';
 /** 標準・詳細モードで簡潔解説のほかに表示できる内容があるか */
 function hasExtra(q: Question, e: Question['explanation'], mode: ExplanationMode): boolean {
   if (!e) return false;
-  if (e.standard || e.whyCorrect || e.wrongChoices) return true;
+  if (e.standard || e.whyCorrect || e.wrongChoices || e.choiceExplanations) return true;
   if (mode === 'detail' && (e.detail || e.example || e.formulas?.length || e.pitfalls || e.mnemonic || e.relatedQuestions?.length)) return true;
   return choicePart(q) !== null;
 }
@@ -25,7 +25,7 @@ function choicePart(q: Question) {
 }
 
 /** 択一問題：設問が「適切／不適切」のどちらを選ぶ形式かと、各選択肢の正誤の位置づけを示す（理由は簡潔解説・出典を参照） */
-function ChoiceReview({ q }: { q: Question }) {
+function ChoiceReview({ q, notes }: { q: Question; notes?: Record<string, string> }) {
   const p = choicePart(q);
   if (!p) return null;
   const asksWrong = /不適切|誤っているもの|適切でないもの|最も不適切/.test(q.stem);
@@ -40,6 +40,9 @@ function ChoiceReview({ q }: { q: Question }) {
           <li key={c.id} className="leading-relaxed">
             <b>{c.id})</b> {c.text}
             {c.id === p.answer && <span className="ml-1 font-semibold text-brand-700 dark:text-brand-200">← 正解</span>}
+            {notes?.[c.id] && (
+              <p className="mt-0.5 rounded-lg bg-slate-50 px-2 py-1 text-sm text-slate-800 dark:bg-slate-800/60 dark:text-slate-100">{notes[c.id]}</p>
+            )}
           </li>
         ))}
       </ul>
@@ -71,7 +74,7 @@ export function Explanation({ q, initialMode }: { q: Question; initialMode: Expl
             <p className="leading-relaxed">
               <TermText text={e.short} />
             </p>
-            {mode !== 'short' && <ChoiceReview q={q} />}
+            {mode !== 'short' && <ChoiceReview q={q} notes={e.choiceExplanations} />}
             {mode !== 'short' && e.standard && <p className="leading-relaxed">{e.standard}</p>}
             {mode !== 'short' && e.whyCorrect && (
               <div>

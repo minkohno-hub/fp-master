@@ -9,3 +9,4 @@ playwright-report
 scripts/import/.cache
 scripts/sources/.cache
 __pycache__/
+scripts/original/.cache/
