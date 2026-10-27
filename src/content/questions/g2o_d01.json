@@ -492,7 +492,7 @@
    ],
    "requiresCalculation": false,
    "status": "verified",
-   "level": 4,
+   "level": 3,
    "topic": "D2.1-5"
   },
   {
@@ -551,7 +551,7 @@
    ],
    "requiresCalculation": false,
    "status": "verified",
-   "level": 4,
+   "level": 3,
    "topic": "D2.3-3"
   },
   {
@@ -1063,7 +1063,7 @@
    ],
    "requiresCalculation": true,
    "status": "verified",
-   "level": 4,
+   "level": 3,
    "topic": "D3-7",
    "calcReason": "一時所得の金額を求めた上で、特別控除の適用と2分の1計算を段階的に行う必要があるため。"
   },
@@ -1119,7 +1119,7 @@
    ],
    "requiresCalculation": false,
    "status": "verified",
-   "level": 3,
+   "level": 2,
    "topic": "D3-8"
   },
   {
