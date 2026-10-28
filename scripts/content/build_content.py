@@ -25,6 +25,7 @@ from glossary_src import TERMS  # noqa: E402
 from cards_src import CARDS  # noqa: E402
 from law_src import LAW_CHANGES  # noqa: E402
 from explanations_src import EXPLANATIONS  # noqa: E402
+from fporig.core import write_question_sets  # noqa: E402
 
 ROOT = HERE.parents[1]
 OUT = ROOT / 'src' / 'content'
@@ -63,6 +64,7 @@ def fetch(url: str) -> str | None:
 
 def main() -> None:
     offline = '--offline' in sys.argv
+    write_question_sets(ROOT / 'src' / 'content' / 'questions')
     items = [('term', t) for t in TERMS] + [('card', c) for c in CARDS] + [('law', x) for x in LAW_CHANGES]
     # 解説は evidence を explanation 内に持つので、照合用に平らにした参照を作る
     expl_items = [{'id': 'expl:' + e['id'], 'evidence': e['explanation']['evidence'], '_src': e} for e in EXPLANATIONS]

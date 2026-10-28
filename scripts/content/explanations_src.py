@@ -1188,3 +1188,11 @@ for _cid, _keys in CARD_EVID.items():
     _c = _card_by_id[_cid]
     _c['evidence'] = list(_c['evidence']) + [ev(S[_Q[k][0]]['url'], _Q[k][1]) for k in _keys]
     _c['sources'] = list({s['url']: s for s in [*_c['sources'], *[S[_Q[k][0]] for k in _keys]] if s['url'] != S['jafp']['url']}.values()) or _c['sources']
+
+
+# FP2級オリジナル問題（scripts/original/fporig）の解説。根拠の引用は build_content.py が照合する。
+import sys as _sys
+_sys.path.insert(0, str(_Path(__file__).resolve().parents[1] / 'original'))
+from fporig import all_batches as _all_batches  # noqa: E402
+for _b in _all_batches():
+    EXPLANATIONS = EXPLANATIONS + _b.explanations()

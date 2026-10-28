@@ -24,6 +24,7 @@ const MockHomePage = lazy(() => import('./pages/Mock').then((m) => ({ default: m
 const MockResultPage = lazy(() => import('./pages/Mock').then((m) => ({ default: m.MockResultPage })));
 const MockRunPage = lazy(() => import('./pages/Mock').then((m) => ({ default: m.MockRunPage })));
 
+const ChallengePage = lazy(() => import('./pages/Challenge').then((m) => ({ default: m.ChallengePage })));
 const StatsPage = lazy(() => import('./pages/Stats').then((m) => ({ default: m.StatsPage })));
 
 const PlanPage = lazy(() => import('./pages/Plan').then((m) => ({ default: m.PlanPage })));
@@ -67,6 +68,7 @@ export function App() {
             <Route path="mock" element={<MockHomePage />} />
             <Route path="mock/run/:id" element={<MockRunPage />} />
             <Route path="mock/result/:id" element={<MockResultPage />} />
+            <Route path="challenge" element={<ChallengePage />} />
             <Route path="stats" element={<StatsPage />} />
             <Route path="plan" element={<PlanPage />} />
             <Route path="bookmarks" element={<BookmarksPage />} />

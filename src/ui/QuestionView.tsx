@@ -59,6 +59,11 @@ export function QuestionHeader({ q, index, total }: { q: Question; index?: numbe
       <span>{q.theme}</span>
       <span className="text-xs">{EXAM_SPECS[q.exam].shortLabel}</span>
       {q.source.kind === 'original' && <span className="badge bg-indigo-100 text-indigo-800 dark:bg-indigo-900/50 dark:text-indigo-200">オリジナル</span>}
+      {q.level && (
+        <span className="badge bg-amber-100 text-amber-900 dark:bg-amber-900/40 dark:text-amber-100" title="難易度：1基礎・2標準・3応用・4高難度・5最難関">
+          難易度 Lv{q.level}
+        </span>
+      )}
       {q.requiresCalculation && <span className="badge bg-slate-200 text-slate-800 dark:bg-slate-700 dark:text-slate-100">計算</span>}
     </div>
   );

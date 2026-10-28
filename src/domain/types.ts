@@ -97,6 +97,8 @@ export const ExplanationSchema = z.object({
   whyCorrect: z.string().optional(),
   /** 選択肢IDごとの誤りの理由 */
   wrongChoices: z.record(z.string(), z.string()).optional(),
+  /** 全選択肢（正解を含む）の個別解説。選択肢IDをキーにする */
+  choiceExplanations: z.record(z.string(), z.string()).optional(),
   example: z.string().optional(),
   formulas: z.array(z.object({ name: z.string(), tex: z.string() })).optional(),
   pitfalls: z.string().optional(),
@@ -142,6 +144,10 @@ export const QuestionSchema = z
     stem: z.string().min(1),
     materials: z.array(MaterialSchema).optional(),
     parts: z.array(PartSchema).min(1),
+    /** 難易度（1基礎・2標準・3応用・4高難度・5最難関）。オリジナル問題のみ付与（公式問題は未分類） */
+    level: z.union([z.literal(1), z.literal(2), z.literal(3), z.literal(4), z.literal(5)]).optional(),
+    /** 公式試験範囲（細目）の論点キー（例：A5-4）。scripts/original/syllabus_fp2.json 参照 */
+    topic: z.string().regex(/^[A-F]\d+(\.\d+)?-\d+$/).optional(),
     /** 解答に計算プロセスが必要か（数値が登場するだけの知識問題は false） */
     requiresCalculation: z.boolean(),
     /** 分類の根拠（requiresCalculation=true のとき必須） */

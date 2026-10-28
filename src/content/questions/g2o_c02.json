@@ -1,0 +1,960 @@
+{
+ "id": "g2o_c02",
+ "exam": "g2",
+ "title": "FP2級 オリジナル演習 C02（投資信託・債券）",
+ "officialSet": false,
+ "lawBaseDate": "2026-04-01",
+ "questions": [
+  {
+   "id": "g2o-c02-01",
+   "exam": "g2",
+   "field": "C",
+   "theme": "投資信託",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（日本FP協会の試験範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "e-Gov法令検索 投資信託及び投資法人に関する法律",
+      "url": "https://laws.e-gov.go.jp/law/326AC0100000198"
+     },
+     {
+      "title": "資産運用業協会 投資信託とは",
+      "url": "https://www.imaj.or.jp/study/investmenttrust/about/what.html"
+     },
+     {
+      "title": "資産運用業協会 制度上の種類",
+      "url": "https://www.imaj.or.jp/study/investmenttrust/type/group.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "投資信託の仕組みに関する次の記述のうち、最も適切なものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "委託者非指図型投資信託は、受託者が複数の委託者から受け入れた金銭を合同して、委託者の指図に基づいて特定資産に投資する信託である。"
+      },
+      {
+       "id": "2",
+       "text": "会社型投資信託は、運用会社と信託銀行が信託契約を結ぶことによって組成される投資信託である。"
+      },
+      {
+       "id": "3",
+       "text": "契約型投資信託では、法律上、信託銀行などが「委託者」、運用会社が「受託者」と呼ばれる。"
+      },
+      {
+       "id": "4",
+       "text": "委託者指図型投資信託は、信託財産を委託者の指図に基づいて主として有価証券などの特定資産に対する投資として運用することを目的とし、その受益権を分割して複数の者に取得させることを目的とする信託である。"
+      }
+     ],
+     "answer": "4"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 3,
+   "topic": "C3.1-6"
+  },
+  {
+   "id": "g2o-c02-04",
+   "exam": "g2",
+   "field": "C",
+   "theme": "投資信託",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（日本FP協会の試験範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "e-Gov法令検索 投資信託及び投資法人に関する法律",
+      "url": "https://laws.e-gov.go.jp/law/326AC0100000198"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "委託者指図型投資信託の運用状況に係る情報提供や帳簿書類等に関する次の記述のうち、最も適切なものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "投資信託の計算期間は、内閣府令で定める場合を除き、3年を超えることができない。"
+      },
+      {
+       "id": "2",
+       "text": "投資信託財産に関する帳簿書類を作成して保存する義務を負うのは受託者だけであり、投資信託委託会社にはその義務はない。"
+      },
+      {
+       "id": "3",
+       "text": "委託者指図型投資信託の受益者は、投資信託委託会社に対し、その営業時間内に、当該受益者に係る投資信託財産に関する帳簿書類の閲覧または謄写を請求することができる。"
+      },
+      {
+       "id": "4",
+       "text": "投資信託委託会社は、運用の状況等に係る情報を、受益者から請求があった場合に限り提供すればよい。"
+      }
+     ],
+     "answer": "3"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 4,
+   "topic": "C3.4-3"
+  },
+  {
+   "id": "g2o-c02-05",
+   "exam": "g2",
+   "field": "C",
+   "theme": "投資信託",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（日本FP協会の試験範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "e-Gov法令検索 投資信託及び投資法人に関する法律",
+      "url": "https://laws.e-gov.go.jp/law/326AC0100000198"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "投資法人（会社型投資信託）に関する次の記述のうち、最も不適切なものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "投資法人は、執行役員を1人置けば足り、監督役員、役員会、会計監査人を置く必要はない。"
+      },
+      {
+       "id": "2",
+       "text": "登録投資法人は、資産運用会社にその資産の運用に係る業務を委託しなければならず、資産運用会社は金融商品取引業者でなければならない。"
+      },
+      {
+       "id": "3",
+       "text": "登録投資法人は、資産保管会社にその資産の保管に係る業務を委託しなければならない。"
+      },
+      {
+       "id": "4",
+       "text": "投資法人は、資産の運用以外の行為を営業としてすることができず、本店以外の営業所を設けることも使用人を雇用することもできない。"
+      }
+     ],
+     "answer": "1"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 4,
+   "topic": "C3.1-6"
+  },
+  {
+   "id": "g2o-c02-07",
+   "exam": "g2",
+   "field": "C",
+   "theme": "投資信託",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（日本FP協会の試験範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "e-Gov法令検索 金融商品取引法",
+      "url": "https://laws.e-gov.go.jp/law/323AC0000000025"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "金融商品取引法における目論見書に関する次の記述のうち、最も不適切なものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "適格機関投資家に有価証券を取得させる場合は、取得させる時までに当該適格機関投資家から目論見書の交付の請求があった場合を除き、目論見書を交付しなくてよい。"
+      },
+      {
+       "id": "2",
+       "text": "その銘柄を保有しておらず、同居者も目論見書の交付を受ける見込みがない個人投資家が、目論見書の交付を受けないことに同意した場合には、金融商品取引業者等は交付を省略できる。"
+      },
+      {
+       "id": "3",
+       "text": "目論見書とは、有価証券の募集や売出しのために発行者の事業その他の事項に関する説明を記載する文書であって、相手方に交付し、または相手方からの交付の請求があった場合に交付するものをいう。"
+      },
+      {
+       "id": "4",
+       "text": "金融商品取引業者等は、有価証券を募集または売出しにより取得させる場合、法定の事項を記載した目論見書を、あらかじめまたは同時に交付しなければならない。"
+      }
+     ],
+     "answer": "2"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 4,
+   "topic": "C3.4-3"
+  },
+  {
+   "id": "g2o-c02-08",
+   "exam": "g2",
+   "field": "C",
+   "theme": "投資信託",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（日本FP協会の試験範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "資産運用業協会 運用対象での分類",
+      "url": "https://www.imaj.or.jp/study/investmenttrust/type/category.html"
+     },
+     {
+      "title": "日本取引所グループ ETFと他の投資信託との違い",
+      "url": "https://www.jpx.co.jp/equities/products/etfs/etf-outline/01.html"
+     },
+     {
+      "title": "資産運用業協会 基準価額と分配金",
+      "url": "https://www.imaj.or.jp/study/investmenttrust/about/navdividends.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "上場投資信託（ETF）と一般的な投資信託の違いに関する次の記述のうち、最も不適切なものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "ETFは信用取引ができるが、一般的な投資信託は信用取引ができない。"
+      },
+      {
+       "id": "2",
+       "text": "ETFは、証券取引所に上場されており、株式と同じようにリアルタイムの市場価格で売買でき、注文方法として成行注文や指値注文を利用できる。"
+      },
+      {
+       "id": "3",
+       "text": "一般的な投資信託では、基準価額が公表されるのは取引の申込みを締め切った後であり、投資家は当日の基準価額が分からない状況で購入や換金を申し込む。"
+      },
+      {
+       "id": "4",
+       "text": "ETFも一般的な投資信託と同様に、1日に1つ公表される基準価額によって購入や換金が行われる。"
+      }
+     ],
+     "answer": "4"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 3,
+   "topic": "C3.1-8"
+  },
+  {
+   "id": "g2o-c02-09",
+   "exam": "g2",
+   "field": "C",
+   "theme": "投資信託",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（日本FP協会の試験範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "資産運用業協会 ETFの仕組み",
+      "url": "https://www.imaj.or.jp/study/investmenttrust/type/etf-scheme.html"
+     },
+     {
+      "title": "日本取引所グループ ETFの仕組み",
+      "url": "https://www.jpx.co.jp/equities/products/etfs/etf-outline/02.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "ETFの仕組みに関する次の記述のうち、最も適切なものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "ETFの設定の募集に応じるのは、個人投資家が中心である。"
+      },
+      {
+       "id": "2",
+       "text": "リンク債型ETFは、株式バスケットの拠出が容易な日本の株価指数に連動するETFで主に用いられる方式である。"
+      },
+      {
+       "id": "3",
+       "text": "現物拠出型ETFでは、指定参加者が株式のバスケットを拠出してETFの設定を受けるほか、ETFを現物株式のバスケットと交換することもでき、一般の投資家は取引所のETF市場を通じてETFを小口で購入する。"
+      },
+      {
+       "id": "4",
+       "text": "外国ETFは、内国ETFと同様に、日本国内で必ず設定と交換ができる。"
+      }
+     ],
+     "answer": "3"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 4,
+   "topic": "C3.1-8"
+  },
+  {
+   "id": "g2o-c02-10",
+   "exam": "g2",
+   "field": "C",
+   "theme": "投資信託",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（日本FP協会の試験範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "資産運用業協会 J-REITの基礎知識",
+      "url": "https://www.imaj.or.jp/study/reit/about/basic.html"
+     },
+     {
+      "title": "資産運用業協会 J-REITの仕組み",
+      "url": "https://www.imaj.or.jp/study/reit/about/scheme.html"
+     },
+     {
+      "title": "e-Gov法令検索 投資信託及び投資法人に関する法律",
+      "url": "https://laws.e-gov.go.jp/law/326AC0100000198"
+     },
+     {
+      "title": "資産運用業協会 J-REITが持つリスク",
+      "url": "https://www.imaj.or.jp/study/reit/meritrisk/risk.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "J-REIT（不動産投資信託）に関する次の記述のうち、最も不適切なものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "J-REITは投資証券を証券取引所に上場しており、その価格は投資家の需要と供給によって決まり、価格の決まり方や取引の仕方は上場株式と同じである。"
+      },
+      {
+       "id": "2",
+       "text": "J-REITは取引価格が変動するものの、不動産の賃料収入を原資とするため、元本や分配金の利回りが保証されている。"
+      },
+      {
+       "id": "3",
+       "text": "J-REITでは、資産運用の業務は運用会社に、資産保管の業務は資産保管会社に、一般事務は事務受託会社に、それぞれ委託されている。"
+      },
+      {
+       "id": "4",
+       "text": "J-REITは解約に応じない「クローズドエンド型」の仕組みを用いているが、証券取引所に上場して市場で売買できることにより流動性を確保している。"
+      }
+     ],
+     "answer": "2"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 3,
+   "topic": "C3.1-7"
+  },
+  {
+   "id": "g2o-c02-11",
+   "exam": "g2",
+   "field": "C",
+   "theme": "投資信託",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（日本FP協会の試験範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "資産運用業協会 投資信託Q&A100選（分配金・元本払戻金）",
+      "url": "https://www.imaj.or.jp/special/toushin-qa100/dividend_redemption"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "追加型株式投資信託の個別元本は1万口当たり10,000円である。この投資信託の決算で1万口当たり1,200円の分配が行われ、分配金支払前の基準価額は11,000円、支払後の基準価額は9,800円となった（手数料や税金は考慮しない）。この分配金に関する次の記述のうち、最も適切なものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "分配金1,200円のうち、普通分配金は1,000円、元本払戻金（特別分配金）は200円であり、分配後の個別元本は9,800円となる。"
+      },
+      {
+       "id": "2",
+       "text": "分配前の基準価額（11,000円）が個別元本（10,000円）を上回っているため、分配金1,200円の全額が普通分配金となり、個別元本は10,000円のまま変わらない。"
+      },
+      {
+       "id": "3",
+       "text": "普通分配金は1,000円、元本払戻金は200円であるが、元本払戻金は非課税なので、分配後の個別元本は変わらず10,000円のままである。"
+      },
+      {
+       "id": "4",
+       "text": "普通分配金は200円、元本払戻金は1,000円であり、分配後の個別元本は9,000円となる。"
+      }
+     ],
+     "answer": "1"
+    }
+   ],
+   "requiresCalculation": true,
+   "status": "verified",
+   "level": 3,
+   "topic": "C3.4-1",
+   "calcReason": "分配後の基準価額と個別元本の差額から元本払戻金・普通分配金・分配後の個別元本を計算する必要がある"
+  },
+  {
+   "id": "g2o-c02-12",
+   "exam": "g2",
+   "field": "C",
+   "theme": "投資信託",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（日本FP協会の試験範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "資産運用業協会 投資信託のコスト",
+      "url": "https://www.imaj.or.jp/study/investmenttrust/costtax/cost.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "投資信託にかかる費用に関する次の記述のうち、最も適切なものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "信託財産留保額は、換金時に投資家が直接支払う費用であり、販売会社が受け取るのではなく信託財産に留保される。"
+      },
+      {
+       "id": "2",
+       "text": "購入時手数料は信託財産から間接的に差し引かれるため、投資家が販売会社に直接支払う必要はない。"
+      },
+      {
+       "id": "3",
+       "text": "ファンドオブファンズでは、投資先の投資信託が徴収する信託報酬は投資家の負担にならず、当該ファンド自身の信託報酬のみを負担する。"
+      },
+      {
+       "id": "4",
+       "text": "運用管理費用（信託報酬）は、購入時に販売会社へ直接支払う費用であり、保有期間中に負担することはない。"
+      }
+     ],
+     "answer": "1"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 3,
+   "topic": "C3.1-2"
+  },
+  {
+   "id": "g2o-c02-13",
+   "exam": "g2",
+   "field": "C",
+   "theme": "投資信託",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（日本FP協会の試験範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "資産運用業協会 制度上の種類",
+      "url": "https://www.imaj.or.jp/study/investmenttrust/type/group.html"
+     },
+     {
+      "title": "資産運用業協会 運用対象での分類",
+      "url": "https://www.imaj.or.jp/study/investmenttrust/type/category.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "投資信託の分類に関する次の記述のうち、最も不適切なものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "約款に株式に投資できる旨が記載されている投資信託は株式投資信託、約款に株式には投資しない旨が記載されている投資信託は公社債投資信託に区分される。"
+      },
+      {
+       "id": "2",
+       "text": "約款に株式に投資できる旨が記載されていても、実際に株式を組み入れていなければ、その投資信託は公社債投資信託に区分される。"
+      },
+      {
+       "id": "3",
+       "text": "MRFは、毎日決算を行い、安全性の高い国内外の公社債や短期の金融商品を中心に運用する公社債投資信託で、証券総合口座で資金をいったんプールする商品としても用いられている。"
+      },
+      {
+       "id": "4",
+       "text": "単位型は当初募集期間にのみ購入でき、追加型は原則として運用されている期間中いつでも購入できる。"
+      }
+     ],
+     "answer": "2"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 3,
+   "topic": "C3.1-4"
+  },
+  {
+   "id": "g2o-c02-14",
+   "exam": "g2",
+   "field": "C",
+   "theme": "債券投資",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（日本FP協会の試験範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "財務省 国債の利回りの決まり方",
+      "url": "https://www.mof.go.jp/faq/jgbs/04ec.htm"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "額面100円、表面利率1.0％、残存期間5年の固定利付債を98円で購入し、償還まで保有した場合の最終利回り（税引前、単利、小数第3位を四捨五入）として、次のうち最も適切なものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "この債券の最終利回りは約1.02％である。"
+      },
+      {
+       "id": "2",
+       "text": "この債券の最終利回りは約3.06％である。"
+      },
+      {
+       "id": "3",
+       "text": "この債券の最終利回りは約1.43％である。"
+      },
+      {
+       "id": "4",
+       "text": "この債券の最終利回りは約1.40％である。"
+      }
+     ],
+     "answer": "3"
+    }
+   ],
+   "requiresCalculation": true,
+   "status": "verified",
+   "level": 3,
+   "topic": "C4.4-1",
+   "calcReason": "最終利回りの算式に数値を代入して計算する必要がある"
+  },
+  {
+   "id": "g2o-c02-15",
+   "exam": "g2",
+   "field": "C",
+   "theme": "債券投資",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（日本FP協会の試験範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "財務省 国債の利回りの決まり方",
+      "url": "https://www.mof.go.jp/faq/jgbs/04ec.htm"
+     },
+     {
+      "title": "財務省 表面利率と利回りの違い",
+      "url": "https://www.mof.go.jp/faq/jgbs/04ea.htm"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "額面100円の固定利付債の表面利率と最終利回りに関する次の記述のうち、最も適切なものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "償還まで保有する場合の最終利回りは、購入価格にかかわらず表面利率と一致する。"
+      },
+      {
+       "id": "2",
+       "text": "償還まで保有する場合の最終利回りは、購入価格が高いほど高くなる。"
+      },
+      {
+       "id": "3",
+       "text": "表面利率は、購入価格が高いほど低くなり、購入価格が低いほど高くなる。"
+      },
+      {
+       "id": "4",
+       "text": "償還まで保有する場合、額面100円の固定利付債を100円未満の価格で購入すると、最終利回りは表面利率を上回る。"
+      }
+     ],
+     "answer": "4"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 3,
+   "topic": "C4.1-5"
+  },
+  {
+   "id": "g2o-c02-16",
+   "exam": "g2",
+   "field": "C",
+   "theme": "債券投資",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（日本FP協会の試験範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "資産運用業協会 投資信託が持つリスク",
+      "url": "https://www.imaj.or.jp/study/investmenttrust/meritrisk/risk.html"
+     },
+     {
+      "title": "財務省 新窓販国債",
+      "url": "https://www.mof.go.jp/jgbs/individual/kojinmuke/shinmadohan/index.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "債券の価格と金利の関係に関する次の記述のうち、最も適切なものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "市場の金利が上昇すると、固定金利で発行された既発の債券の価格は下落し、償還前に売却すると売却損が生じることがある。"
+      },
+      {
+       "id": "2",
+       "text": "固定金利の利付国債は、市場の金利が下落すると時価は変わらないが、受け取る利子が減少する。"
+      },
+      {
+       "id": "3",
+       "text": "満期までの期間が短い債券ほど、金利変動による価格変動の影響を大きく受ける。"
+      },
+      {
+       "id": "4",
+       "text": "市場の金利が上昇すると、既発の債券の価格は上昇し、償還前に売却すると売却益が生じることがある。"
+      }
+     ],
+     "answer": "1"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 3,
+   "topic": "C4.1-6"
+  },
+  {
+   "id": "g2o-c02-17",
+   "exam": "g2",
+   "field": "C",
+   "theme": "債券投資",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（日本FP協会の試験範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "財務省 個人向け国債",
+      "url": "https://www.mof.go.jp/jgbs/individual/kojinmuke/index.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "個人向け国債（変動10年、固定5年、固定3年）に関する次の記述のうち、最も適切なものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "利子の受け取りは、3つのタイプとも年1回である。"
+      },
+      {
+       "id": "2",
+       "text": "中途換金は、発行後6か月を経過すれば、いつでも可能である。"
+      },
+      {
+       "id": "3",
+       "text": "固定5年と固定3年は、実勢金利に応じて半年ごとに適用利率が見直される。"
+      },
+      {
+       "id": "4",
+       "text": "3つのタイプとも、購入単価は額面100円につき100円で、最低1万円から1万円単位で購入できる。"
+      }
+     ],
+     "answer": "4"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 3,
+   "topic": "C4.1-7"
+  },
+  {
+   "id": "g2o-c02-18",
+   "exam": "g2",
+   "field": "C",
+   "theme": "債券投資",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（日本FP協会の試験範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "財務省 新窓販国債Q&A",
+      "url": "https://www.mof.go.jp/jgbs/individual/kojinmuke/shinmadohan/qa/"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "新窓販国債と個人向け国債に関する次の記述のうち、最も不適切なものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "新窓販国債は、個人の方のみ購入できる個人向け国債と異なり、購入者に制限はなく、法人やマンションの管理組合でも購入できる。"
+      },
+      {
+       "id": "2",
+       "text": "新窓販国債は、額面金額で最低5万円から5万円の整数倍で購入でき、国債の種類ごとに一申込みあたり額面3億円が購入の上限である。"
+      },
+      {
+       "id": "3",
+       "text": "新窓販国債の募集価格や表面利率などの発行条件は、募集取扱機関ごとに異なることがある。"
+      },
+      {
+       "id": "4",
+       "text": "新窓販国債には、個人向け国債のように国が買い取る中途換金制度はなく、市場で売却するため、売却時の価格により売却益も売却損も生じうる。"
+      }
+     ],
+     "answer": "3"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 4,
+   "topic": "C4.1-7"
+  },
+  {
+   "id": "g2o-c02-19",
+   "exam": "g2",
+   "field": "C",
+   "theme": "債券投資",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（日本FP協会の試験範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "財務省 「経過利子」とは何ですか",
+      "url": "https://www.mof.go.jp/faq/jgbs/04bf.htm"
+     },
+     {
+      "title": "財務省 新窓販国債Q&A",
+      "url": "https://www.mof.go.jp/jgbs/individual/kojinmuke/shinmadohan/qa/"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "債券の経過利子に関する次の記述のうち、最も適切なものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "新窓販国債は、発行日から初回の利子支払日までの期間が6か月に満たないことはないため、購入時に初回の利子の調整額を払い込む必要はない。"
+      },
+      {
+       "id": "2",
+       "text": "経過利子は、購入後の第1回目の利払いで受け取る利子を実際の保有期間に見合った金額に調整するために購入時に支払うもので、第1回目の利子に含めて支払われるため、購入者にとって不利益とはならない。"
+      },
+      {
+       "id": "3",
+       "text": "国債の第1回目の利払いでは、購入者の実際の保有期間に応じた日割りの利子だけが支払われる。"
+      },
+      {
+       "id": "4",
+       "text": "経過利子は購入者が負担する売買手数料の一種であり、購入者が後で取り戻すことはできない。"
+      }
+     ],
+     "answer": "2"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 3,
+   "topic": "C4.4-2"
+  },
+  {
+   "id": "g2o-c02-20",
+   "exam": "g2",
+   "field": "C",
+   "theme": "債券投資",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（日本FP協会の試験範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "e-Gov法令検索 会社法",
+      "url": "https://laws.e-gov.go.jp/law/417AC0000000086"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "新株予約権付社債（転換社債型新株予約権付社債を含む）に関する次の記述のうち、最も不適切なものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "新株予約権付社債とは、新株予約権を付した社債をいう。"
+      },
+      {
+       "id": "2",
+       "text": "新株予約権付社債に付された新株予約権のみを譲渡することはできない。ただし、当該新株予約権付社債についての社債が消滅したときは、この限りでない。"
+      },
+      {
+       "id": "3",
+       "text": "新株予約権とは、株式会社に対して行使することにより、当該株式会社の株式の交付を受けることができる権利をいう。"
+      },
+      {
+       "id": "4",
+       "text": "新株予約権付社債についての社債のみを、新株予約権が消滅していない場合でも自由に譲渡することができる。"
+      }
+     ],
+     "answer": "4"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 4,
+   "topic": "C4.3-1"
+  },
+  {
+   "id": "g2o-c02-21",
+   "exam": "g2",
+   "field": "C",
+   "theme": "債券投資",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（日本FP協会の試験範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "e-Gov法令検索 金融商品取引法",
+      "url": "https://laws.e-gov.go.jp/law/323AC0000000025"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "信用格付に関する金融商品取引法の定めについて、次の記述のうち最も適切なものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "信用格付とは、金融商品または法人の信用状態に関する評価の結果について、記号または数字を用いて表示した等級をいう。"
+      },
+      {
+       "id": "2",
+       "text": "金融商品取引業者等は、登録を受けていない者が付与した信用格付を、その旨を告げることなく提供して勧誘しても、金融商品取引法上禁止されていない。"
+      },
+      {
+       "id": "3",
+       "text": "信用格付業者とは、金融庁長官の認可を受けて信用格付を付与する者をいう。"
+      },
+      {
+       "id": "4",
+       "text": "金融商品取引業者等は、高い信用格付が付されている債券については、元本が確実に償還されると告げて勧誘することができる。"
+      }
+     ],
+     "answer": "1"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 3,
+   "topic": "C4.2-1"
+  },
+  {
+   "id": "g2o-c02-22",
+   "exam": "g2",
+   "field": "C",
+   "theme": "債券投資",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（日本FP協会の試験範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "国税庁 タックスアンサー No.1310 利子所得",
+      "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1310.htm"
+     },
+     {
+      "title": "国税庁 タックスアンサー No.1330 配当所得",
+      "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1330.htm"
+     },
+     {
+      "title": "国税庁 タックスアンサー No.1510 公社債の償還金と税金",
+      "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1510.htm"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "債券や公社債投資信託の課税に関する次の記述のうち、最も適切なものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "公社債投資信託の収益の分配は、配当所得として課税される。"
+      },
+      {
+       "id": "2",
+       "text": "国債や公募公社債などの特定公社債等の利子は、源泉徴収されるとともに申告分離課税の対象となるが、確定申告をしないことも選択できる。"
+      },
+      {
+       "id": "3",
+       "text": "平成28年1月1日以後に発行された割引国債の償還差益は、発行時の源泉徴収だけで課税関係が終了する源泉分離課税の対象となる。"
+      },
+      {
+       "id": "4",
+       "text": "障害者等の少額公債の利子の非課税制度（特別マル優）は、元本の額が550万円までの利子が非課税となる。"
+      }
+     ],
+     "answer": "2"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 4,
+   "topic": "C10-4"
+  }
+ ]
+}
