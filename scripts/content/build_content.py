@@ -22,6 +22,9 @@ from pathlib import Path
 HERE = Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE))
 from glossary_src import TERMS  # noqa: E402
+from glossary_more_src import ALL_MORE  # noqa: E402
+
+TERMS.extend(ALL_MORE)  # 追加原稿を結合（explanations_src は TERMS を直接更新するため、その前に結合する）
 from cards_src import CARDS  # noqa: E402
 from law_src import LAW_CHANGES  # noqa: E402
 from explanations_src import EXPLANATIONS  # noqa: E402
