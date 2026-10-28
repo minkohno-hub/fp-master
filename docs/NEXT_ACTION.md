@@ -1,23 +1,20 @@
 # NEXT ACTION（再開手順）
-最終更新：作業中断時点。直近コミットまで tsc / Vitest 99件 / build 通過。
+最終更新：2026-10-28。直近コミット時点で tsc エラーなし / Vitest 123 passed / build 成功 / Playwright 106 passed。
 
 ## 現状
-- 問題740問（学科479・3級実技60・2級実技201…実際は2級実技5回×40＝200）を取込済み。隔離（quarantined）は0件。
-- 解説は全740問に作成済み。根拠引用の照合済み（verified）は201件（e-Gov法令・国税庁・財産評価基本通達の引用を `scripts/content/evidence_more.py` に追加して照合）。残りは「要確認（draft）」表示。次は取引所・協会等の一次資料（JPX・日証協・生保/損保協会）で株式・債券・保険商品の解説を照合する。
-- 2級実技は CBT 2回（2025・2026年公表）＋紙試験3回（2024-05 / 2024-09 / 2025-01）。紙試験は共通設例の画像（`shared`）を問題画像の上に表示する。
-- 実技の解説は、問題画像で資料を確認し、計算が公式の模範解答と一致することを確かめて作成。ただし根拠引用の照合はしていない。
-
-## 既知の制限
-- 国税庁（www.nta.go.jp）はこの実行環境のネットワークで遮断（HTTP 503）されており、税の根拠引用は自動照合できない。ユーザーが環境の Network access で nta.go.jp を許可すれば、`python3 -I scripts/content/build_content.py` で照合可能になる。
-- 日本年金機構（nenkin.go.jp）・日本FP協会・金融庁・厚労省は到達可能。年金の evidence 追加を途中まで調査（遺族年金・在職老齢年金・加給年金額のページは取得できる。ただし現行ページは令和8年度の金額で、試験時点の金額とは異なる点に注意）。
-- 紙試験120問の分野は問題内容から私が割当（公式分類ではない）。選択式の計算判定は問題文の語句による。画像の目視確認は、解説作成時に行った分（ほぼ全問）。
+- 全体：3級・2級の学科/実技を収録、公開サイトは GitHub Pages（PR #1〜#4 マージ済み）。**今回の拡充分（FP2 1,079問・95%チャレンジ・CSP等）は作業ブランチにあり、PR未作成**（ユーザーの指示があれば作成→CI→マージ→公開確認）。
+- FP2：総数1,079（学科861／実技218）。公式500＋オリジナル579（四択553＋実技ケース18＋学科非四択8）。数値は `python3 -I scripts/audit/fp2_audit.py` で再現可能。詳細は `docs/FP2_*.md`。
+- 95%チャレンジ（`#/challenge`）実装・e2e済み。品質監査は `docs/QUALITY_AUDIT.md`、課題は `docs/ISSUE_REGISTER.md`。
 
 ## 次にやること（優先順）
-1. ユーザーが希望した場合のみ PR を作成（未作成）。
-2. 年金・保険・金融庁・NISA 分野の解説に evidence を追加して verified を増やす（nenkin.go.jp / fsa.go.jp / jafp.or.jp は到達可能）。NTA は許可後。
-3. 標準・詳細モード用の長い解説の拡充。draft の用語・カードへ evidence 追加。
-4. a11y 監査、Playwright 全体再実行（直近：オフライン起動テストが並列実行で1回だけ不安定。単独では合格）。
-5. docs/PROGRESS.md・TEST_RESULTS.md の更新、PR マージ後の GitHub Pages 公開確認。
+1. 未カバー細目（`docs/FP2_COVERAGE_MATRIX.md`、特にC分野）と高難度の実技ケース（I-006）を、公的根拠が取れる論点でオリジナル追加→敵対的レビュー→`python3 -I scripts/content/build_content.py`（約5分）→tsc/vitest/playwright。
+2. ユーザー指示でPR作成→CI→マージ→ https://minkohno-hub.github.io/fp-master/ の確認。
+3. 実機iPhone確認・Lighthouse再計測・手動a11y（ユーザー協力）。
+4. 問題が2,000規模を超える前に遅延読込/プリキャッシュ分割を検討（I-004/I-005）。
 
 ## 再開時の確認コマンド
-`npx tsc -b --noEmit && npx vitest run && npm run build`
+`npx tsc -b --noEmit && npx vitest run && npm run build`、UI変更時は `PLAYWRIGHT_CHROMIUM_PATH=/opt/pw-browsers/chromium-1194/chrome-linux/chrome npx playwright test`
+
+## 制限・メモ
+- オリジナル問題の追加手順：`scripts/original/AUTHORING.md`（四択は fporig.core、実技ケース/非四択は fporig.cases）。
+- 国税庁・e-Gov・FP協会等の根拠は `build_content.py` が実ページ原文と照合。基準日 2026-04-01 以降の改正・年度別金額に依存する問題は作らない。

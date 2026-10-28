@@ -6,7 +6,7 @@
 | tsc -b --noEmit | エラーなし |
 | Vitest（10ファイル） | 123 passed |
 | vite build（PWAプリキャッシュ404件・約17.2MB） | 成功 |
-| Playwright iPhone+desktop 全件 | 下記「Playwright」参照 |
+| Playwright iPhone+desktop 全件（a11y含む） | 106 passed（2.5分） |
 | npm audit --omit=dev | 脆弱性 0 |
 
 ## Playwright（本日追加分）
