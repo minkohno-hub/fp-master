@@ -26,6 +26,8 @@ test('95%チャレンジ：解くと初見の正答率が記録・表示され�
   await expect(sets.first()).toBeVisible();
   const n = await sets.count();
   for (let i = 0; i < n; i++) await sets.nth(i).locator('button').first().click();
+  const submit = page.getByRole('button', { name: '解答する' });
+  if (n > 1 && (await submit.count()) > 0) await submit.click();
   await expect(page.getByRole('status').filter({ hasText: /正解|不正解/ }).first()).toBeVisible();
   // 解答は「次の問題へ」で確定・記録される
   await page.getByRole('button', { name: /次の問題へ|結果を見る/ }).click();
