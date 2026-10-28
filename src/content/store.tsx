@@ -1,7 +1,7 @@
 import { createContext, useContext, useEffect, useMemo, useState, type ReactNode } from 'react';
 import type { FactCard, LawChange, Question, QuestionSet, Term } from '../domain/types';
 import { loadAllQuestionSets } from './index';
-import { buildTermIndex, type TermIndex } from '../domain/termlink';
+import { buildTermIndex, linkTerms, type TermIndex } from '../domain/termlink';
 import glossaryJson from './glossary.json';
 import cardsJson from './cards.json';
 import lawJson from './law-changes.json';
@@ -86,10 +86,15 @@ export function buildCards(terms: Term[], facts: FactCard[]): StudyCard[] {
 }
 
 export function buildContent(sets: QuestionSet[]): Content {
+  const termIndex = buildTermIndex(TERMS);
   const questions = sets.flatMap((s) =>
     s.questions.map((q) => {
-      const t = QUESTION_TERMS[q.id];
-      return t ? { ...q, terms: [...new Set([...(q.terms ?? []), ...t])] } : q;
+      // 関連用語＝手で紐づけたもの＋問題文・選択肢の自動リンクで見つかった用語（用語を登録すると自動で増える）
+      const text = [q.stem, ...q.parts.flatMap((p) => (p.kind === 'choice' ? p.choices.map((c) => c.text) : []))].join('\n');
+      const auto = linkTerms(text, termIndex).flatMap((x) => (x.termId ? [x.termId] : []));
+      const manual = [...(q.terms ?? []), ...(QUESTION_TERMS[q.id] ?? [])];
+      const all = [...new Set([...manual, ...auto])].slice(0, Math.max(6, manual.length));
+      return all.length ? { ...q, terms: all } : q;
     }),
   );
   const lawByQuestion: Content['lawByQuestion'] = new Map();
@@ -110,7 +115,7 @@ export function buildContent(sets: QuestionSet[]): Content {
     questionById: new Map(adjusted.map((q) => [q.id, q])),
     terms: TERMS,
     termById: new Map(TERMS.map((t) => [t.id, t])),
-    termIndex: buildTermIndex(TERMS),
+    termIndex,
     cards: buildCards(TERMS, FACT_CARDS),
     lawChanges: LAW_CHANGES,
     lawByQuestion,

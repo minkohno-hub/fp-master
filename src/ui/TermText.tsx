@@ -29,7 +29,7 @@ type OpenFn = (t: Term, policy: TermPolicy) => void;
 const OpenCtx = createContext<OpenFn | null>(null);
 
 function useWide(): boolean {
-  const q = '(min-width: 768px)';
+  const q = '(min-width: 1100px)';
   const [wide, setWide] = useState(() => (typeof window !== 'undefined' && window.matchMedia ? window.matchMedia(q).matches : false));
   useEffect(() => {
     if (!window.matchMedia) return;
@@ -89,6 +89,15 @@ function TermPopup({ term, policy, canBack, onBack, onClose }: { term: Term; pol
   useEffect(() => {
     panel.current?.focus({ preventScroll: true });
   }, [term.id]);
+  // サイドパネル表示中は本文が隠れないよう、右側に余白を確保する
+  useEffect(() => {
+    if (!wide) return;
+    const prev = document.body.style.paddingRight;
+    document.body.style.paddingRight = '27rem';
+    return () => {
+      document.body.style.paddingRight = prev;
+    };
+  }, [wide]);
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
       if (e.key === 'Escape') {

@@ -91,5 +91,5 @@ test('スマホ幅ではボトムシート（モーダル）、PC幅ではサイ
   await page.goto(Q);
   await page.locator('[data-term="kiso-kojo"]').first().click();
   const modal = await popup(page).getAttribute('aria-modal');
-  expect(modal).toBe((viewport?.width ?? 0) >= 768 ? 'false' : 'true');
+  expect(modal).toBe((viewport?.width ?? 0) >= 1100 ? 'false' : 'true');
 });
