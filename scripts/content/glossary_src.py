@@ -50,6 +50,55 @@ S = {
     'jafp': src('日本FP協会 試験範囲（試験要綱）', JAFP_OUTLINE),
 }
 
+# 国税庁タックスアンサー（2026-10-28追加分）
+NTA_TA = 'https://www.nta.go.jp/taxes/shiraberu/taxanswer/'
+S.update({
+    'nta1110': src('国税庁 No.1110 災害や盗難などにあったとき（雑損控除）', NTA_TA + 'shotoku/1110.htm'),
+    'nta1130': src('国税庁 No.1130 社会保険料控除', NTA_TA + 'shotoku/1130.htm'),
+    'nta1150': src('国税庁 No.1150 一定の寄附金を支払ったとき（寄附金控除）', NTA_TA + 'shotoku/1150.htm'),
+    'nta1155': src('国税庁 No.1155 ふるさと納税（寄附金控除）', NTA_TA + 'shotoku/1155.htm'),
+    'nta1600': src('国税庁 No.1600 公的年金等の課税関係', NTA_TA + 'shotoku/1600.htm'),
+    'nta1900': src('国税庁 No.1900 給与所得者で確定申告が必要な人', NTA_TA + 'shotoku/1900.htm'),
+    'nta2020': src('国税庁 No.2020 確定申告', NTA_TA + 'shotoku/2020.htm'),
+    'nta6303': src('国税庁 No.6303 消費税および地方消費税の税率', NTA_TA + 'shohi/6303.htm'),
+    'nta6505': src('国税庁 No.6505 簡易課税制度', NTA_TA + 'shohi/6505.htm'),
+    'nta4117': src('国税庁 No.4117 相続税の課税対象になる死亡退職金', NTA_TA + 'sozoku/4117.htm'),
+    'nta4161': src('国税庁 No.4161 贈与財産の加算と税額控除（暦年課税）', NTA_TA + 'sozoku/4161.htm'),
+    'nta4205': src('国税庁 No.4205 相続税の申告と納税', NTA_TA + 'sozoku/4205.htm'),
+    'nta4211': src('国税庁 No.4211 相続税の延納', NTA_TA + 'sozoku/4211.htm'),
+    'nta4214': src('国税庁 No.4214 相続税の物納', NTA_TA + 'sozoku/4214.htm'),
+    'nta4402': src('国税庁 No.4402 贈与税がかかる場合', NTA_TA + 'zoyo/4402.htm'),
+    'nta2260': src('国税庁 No.2260 所得税の税率', NTA_TA + 'shotoku/2260.htm'),
+})
+
+# 日本年金機構（2026-10-28追加分）
+NK = 'https://www.nenkin.go.jp/service/'
+S.update({
+    'nk_rorei_kosei': src('日本年金機構 老齢厚生年金の受給要件・支給開始時期・年金額', NK + 'jukyu/seido/roureinenkin/jukyu-yoken/20140421-01.html'),
+    'nk_kakyu': src('日本年金機構 加給年金額と振替加算', NK + 'jukyu/seido/roureinenkin/kakyu-hurikae/20150401.html'),
+    'nk_shogai_overview': src('日本年金機構 障害年金', NK + 'jukyu/seido/shougainenkin/jukyu-yoken/20150401-01.html'),
+    'nk_shogai_kiso': src('日本年金機構 障害基礎年金の受給要件・請求時期・年金額', NK + 'jukyu/seido/shougainenkin/jukyu-yoken/20150514.html'),
+    'nk_shogai_kosei': src('日本年金機構 障害厚生年金の受給要件・請求時期・年金額', NK + 'jukyu/seido/shougainenkin/jukyu-yoken/20150401-02.html'),
+    'nk_izoku_kiso': src('日本年金機構 遺族基礎年金（受給要件・対象者・年金額）', NK + 'jukyu/seido/izokunenkin/jukyu-yoken/20150401-04.html'),
+    'nk_izoku_kosei': src('日本年金機構 遺族厚生年金（受給要件・対象者・年金額）', NK + 'jukyu/seido/izokunenkin/jukyu-yoken/20150424.html'),
+    'nk_chukorei': src('日本年金機構 年金用語集 中高齢寡婦加算', NK + 'yougo/tagyo/chukoreikafu.html'),
+    'nk_kafu': src('日本年金機構 寡婦年金', NK + 'jukyu/seido/sonota-kyufu/1go-dokuji/20140422-02.html'),
+    'nk_shibo_ichijikin': src('日本年金機構 死亡一時金', NK + 'jukyu/seido/sonota-kyufu/1go-dokuji/20140422-01.html'),
+})
+
+# e-Gov法令検索（2026-10-28追加分。法令は現行条文で照合）
+EGOV = 'https://laws.e-gov.go.jp/law/'
+S.update({
+    'egov_kubun': src('e-Gov法令検索 建物の区分所有等に関する法律', EGOV + '337AC0000000069'),
+    'egov_shakuchi': src('e-Gov法令検索 借地借家法', EGOV + '403AC0000000090'),
+    'egov_kenchiku': src('e-Gov法令検索 建築基準法', EGOV + '325AC0000000201'),
+    'egov_toshi': src('e-Gov法令検索 都市計画法', EGOV + '343AC0000000100'),
+    'egov_toshi_rei': src('e-Gov法令検索 都市計画法施行令', EGOV + '344CO0000000158'),
+    'egov_takken': src('e-Gov法令検索 宅地建物取引業法', EGOV + '327AC1000000176'),
+    'egov_takken_kisoku': src('e-Gov法令検索 宅地建物取引業法施行規則', EGOV + '332M50004000012'),
+    'egov_minpo': src('e-Gov法令検索 民法', EGOV + '129AC0000000089'),
+})
+
 
 def T(id, name, reading, field, importance, short, detail, related=(), grades=(2, 3), example=None, system=None,
       formula=None, aliases=None, sources=(), evidence=()):

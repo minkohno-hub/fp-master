@@ -25,3 +25,9 @@ FP2オリジナル579問：スキーマ適合・ID一意・全四択に4肢の�
 
 ## 未実施・限界
 実機iPhone確認、Lighthouse再計測（前回: Performance 84〜85 / A11y 100 / BP 100 / SEO 100）、スクリーンリーダー等の手動a11y確認、公開URL上の動作確認（PRマージ後に実施）。
+
+## 2026-10-28（引き継ぎ再開後に再実行）
+tsc エラーなし／Vitest 133 passed（11ファイル）／Playwright 110 passed（iPhone+desktop、a11y・横スクロール含む）。用語リンクの追加分（termlink 単体10・e2e 2×2）を含む。Playwright の Chromium は `/opt/pw-browsers/chromium-1243/chrome-linux64/chrome`。
+
+## 2026-10-28（用語集拡充・法改正追加後）
+tsc OK／Vitest 133 passed／build OK／Playwright 110 passed。未実施：実機iPhone、Lighthouse再計測、手動a11y、公開URL確認。

@@ -216,6 +216,156 @@
    "checkedAt": "2026-10-28",
    "missing": []
   },
+  "https://www.nenkin.go.jp/service/jukyu/seido/roureinenkin/jukyu-yoken/20140421-01.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-28",
+   "missing": []
+  },
+  "https://www.nenkin.go.jp/service/jukyu/seido/roureinenkin/kakyu-hurikae/20150401.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-28",
+   "missing": []
+  },
+  "https://www.nenkin.go.jp/service/jukyu/seido/shougainenkin/jukyu-yoken/20150401-01.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-28",
+   "missing": []
+  },
+  "https://www.nenkin.go.jp/service/jukyu/seido/shougainenkin/jukyu-yoken/20150514.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-28",
+   "missing": []
+  },
+  "https://www.nenkin.go.jp/service/jukyu/seido/shougainenkin/jukyu-yoken/20150401-02.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-28",
+   "missing": []
+  },
+  "https://www.nenkin.go.jp/service/jukyu/seido/izokunenkin/jukyu-yoken/20150401-04.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-28",
+   "missing": []
+  },
+  "https://www.nenkin.go.jp/service/jukyu/seido/sonota-kyufu/1go-dokuji/20140422-01.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-28",
+   "missing": []
+  },
+  "https://www.nenkin.go.jp/service/jukyu/seido/izokunenkin/jukyu-yoken/20150424.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-28",
+   "missing": []
+  },
+  "https://www.nenkin.go.jp/service/yougo/tagyo/chukoreikafu.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-28",
+   "missing": []
+  },
+  "https://www.nenkin.go.jp/service/jukyu/seido/sonota-kyufu/1go-dokuji/20140422-02.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-28",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1600.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-28",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1130.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-28",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1150.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-28",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1155.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-28",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1110.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-28",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1900.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-28",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2020.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-28",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6303.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-28",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6505.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-28",
+   "missing": []
+  },
+  "https://laws.e-gov.go.jp/law/343AC0000000100": {
+   "fetched": true,
+   "checkedAt": "2026-10-28",
+   "missing": []
+  },
+  "https://laws.e-gov.go.jp/law/344CO0000000158": {
+   "fetched": true,
+   "checkedAt": "2026-10-28",
+   "missing": []
+  },
+  "https://laws.e-gov.go.jp/law/337AC0000000069": {
+   "fetched": true,
+   "checkedAt": "2026-10-28",
+   "missing": []
+  },
+  "https://laws.e-gov.go.jp/law/327AC1000000176": {
+   "fetched": true,
+   "checkedAt": "2026-10-28",
+   "missing": []
+  },
+  "https://laws.e-gov.go.jp/law/332M50004000012": {
+   "fetched": true,
+   "checkedAt": "2026-10-28",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4205.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-28",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/zoyo/4402.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-28",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4211.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-28",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4214.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-28",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4117.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-28",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4161.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-28",
+   "missing": []
+  },
   "https://laws.e-gov.go.jp/law/341CO0000000164": {
    "fetched": true,
    "checkedAt": "2026-10-28",
@@ -232,16 +382,6 @@
    "missing": []
   },
   "https://laws.e-gov.go.jp/law/346CO0000000111": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://laws.e-gov.go.jp/law/327AC1000000176": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://laws.e-gov.go.jp/law/337AC0000000069": {
    "fetched": true,
    "checkedAt": "2026-10-28",
    "missing": []
@@ -272,11 +412,6 @@
    "missing": []
   },
   "https://laws.e-gov.go.jp/law/325AC0000000226": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nenkin.go.jp/service/jukyu/seido/izokunenkin/jukyu-yoken/20150424.html": {
    "fetched": true,
    "checkedAt": "2026-10-28",
    "missing": []
@@ -321,16 +456,6 @@
    "checkedAt": "2026-10-28",
    "missing": []
   },
-  "https://laws.e-gov.go.jp/law/343AC0000000100": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://laws.e-gov.go.jp/law/344CO0000000158": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
   "https://www.kyoukaikenpo.or.jp/benefit/voluntary_continuation/": {
    "fetched": true,
    "checkedAt": "2026-10-28",
@@ -351,27 +476,12 @@
    "checkedAt": "2026-10-28",
    "missing": []
   },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4205.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
   "https://www.kyoukaikenpo.or.jp/benefit/injury_and_sickness_allowance/": {
    "fetched": true,
    "checkedAt": "2026-10-28",
    "missing": []
   },
-  "https://www.nenkin.go.jp/service/jukyu/seido/izokunenkin/jukyu-yoken/20150401-04.html": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
   "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1750.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/zoyo/4402.htm": {
    "fetched": true,
    "checkedAt": "2026-10-28",
    "missing": []
@@ -517,11 +627,6 @@
    "missing": []
   },
   "https://laws.e-gov.go.jp/law/346AC0000000092": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1600.htm": {
    "fetched": true,
    "checkedAt": "2026-10-28",
    "missing": []
@@ -1366,16 +1471,6 @@
    "checkedAt": "2026-10-28",
    "missing": []
   },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1130.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1150.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
   "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1160.htm": {
    "fetched": true,
    "checkedAt": "2026-10-28",
@@ -1397,11 +1492,6 @@
    "missing": []
   },
   "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1260.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1900.htm": {
    "fetched": true,
    "checkedAt": "2026-10-28",
    "missing": []
@@ -1526,11 +1616,6 @@
    "checkedAt": "2026-10-28",
    "missing": []
   },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6505.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
   "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6401.htm": {
    "fetched": true,
    "checkedAt": "2026-10-28",
@@ -1567,11 +1652,6 @@
    "missing": []
   },
   "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/index.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://laws.e-gov.go.jp/law/332M50004000012": {
    "fetched": true,
    "checkedAt": "2026-10-28",
    "missing": []
@@ -1861,21 +1941,6 @@
    "checkedAt": "2026-10-28",
    "missing": []
   },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4214.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4161.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4211.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
   "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hyoka/4632.htm": {
    "fetched": true,
    "checkedAt": "2026-10-28",
@@ -1975,11 +2040,6 @@
    "fetched": true,
    "checkedAt": "2026-10-28",
    "missing": []
-  },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4117.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
   }
  },
  "items": {
@@ -2074,6 +2134,102 @@
   "zoyo-haigusha-kojo": "verified",
   "kashiya-tatetsukechi": "verified",
   "jojo-kabushiki-hyoka": "verified",
+  "life-event-hyo": "draft",
+  "kojin-balance-sheet": "draft",
+  "rorei-kosei-nenkin": "verified",
+  "kakyu-nenkin": "verified",
+  "shogai-kiso-nenkin": "verified",
+  "shogai-kosei-nenkin": "verified",
+  "izoku-kiso-nenkin": "verified",
+  "izoku-kosei-nenkin": "verified",
+  "chukorei-kafu-kasan": "verified",
+  "kafu-nenkin": "verified",
+  "shibo-ichijikin": "verified",
+  "hokenryo-menjo": "draft",
+  "kokumin-nenkin-kikin": "draft",
+  "kigyogata-dc": "draft",
+  "kaigo-hoken": "draft",
+  "koyo-hoken": "draft",
+  "rosai-hoken": "draft",
+  "teiki-hoken": "draft",
+  "shushin-hoken": "draft",
+  "yoro-hoken": "draft",
+  "hendo-hoken": "draft",
+  "kojin-nenkin-hoken": "draft",
+  "hokenkin-kazei": "draft",
+  "hitsuyo-hosho-gaku": "draft",
+  "risk-control-finance": "draft",
+  "hoken-kagaku": "draft",
+  "hirei-tenpo": "draft",
+  "kojin-baisho-sekinin": "draft",
+  "jibaiseki-taijin": "draft",
+  "kinri-risk": "draft",
+  "duration": "draft",
+  "credit-risk": "draft",
+  "shinyo-torihiki": "draft",
+  "nariyuki-sashine": "draft",
+  "topix-nikkei": "draft",
+  "toshi-shintaku": "draft",
+  "shintaku-hoshu": "draft",
+  "etf": "draft",
+  "j-reit": "draft",
+  "index-fund": "draft",
+  "dollar-cost": "draft",
+  "asset-allocation": "draft",
+  "portfolio": "draft",
+  "beta": "draft",
+  "gaika-yokin": "draft",
+  "ttm": "draft",
+  "kinsho-ho": "draft",
+  "kinyu-hanbai-ho": "draft",
+  "shohisha-keiyaku-ho": "draft",
+  "toshisha-hogo-kikin": "draft",
+  "tokutei-koza": "draft",
+  "joto-sonshitsu-kurikoshi": "draft",
+  "shotoku-10shu": "draft",
+  "sogo-bunri-kazei": "draft",
+  "fukko-tokubetsu-shotokuzei": "verified",
+  "zatsu-shotoku": "verified",
+  "shakai-hoken-ryo-kojo": "verified",
+  "kifukin-kojo": "verified",
+  "zasson-kojo": "verified",
+  "kakutei-shinkoku": "verified",
+  "jutaku-loan-kojo": "draft",
+  "shohizei": "verified",
+  "kani-kazei": "verified",
+  "invoice": "draft",
+  "houjinzei": "draft",
+  "yoto-chiiki": "verified",
+  "toshi-keikaku-kuiki": "verified",
+  "kaihatsu-kyoka": "verified",
+  "bouka-chiiki": "draft",
+  "zenmen-doro-yosekiritsu": "verified",
+  "kenchiku-kakunin": "draft",
+  "kubun-shoyuho": "verified",
+  "futsu-shakuchiken": "verified",
+  "futsu-shakuya": "verified",
+  "baikai-keiyaku": "verified",
+  "baikai-hoshu": "draft",
+  "juyo-jiko-setsumei": "verified",
+  "keiyaku-futekigo": "verified",
+  "kotei-shisanzei": "draft",
+  "fudosan-shutoku-toroku-inshi": "draft",
+  "fudosan-hyoka-3shuho": "draft",
+  "fudosan-rimawari": "draft",
+  "fudosan-shotoku": "draft",
+  "sozokuzei-shinkoku": "verified",
+  "shomi-isan-gaku": "verified",
+  "minashi-sozoku-zaisan": "verified",
+  "shibo-taishokukin": "verified",
+  "seizen-zoyo-kasan": "verified",
+  "kenin": "draft",
+  "jihitsu-igon-hokan": "draft",
+  "haigusha-kyojuken": "draft",
+  "kiyobun-tokubetsu-jueki": "draft",
+  "rosenka-hyoka": "draft",
+  "hijojo-kabushiki": "draft",
+  "jigyo-shokei-zeisei": "draft",
+  "kazoku-shintaku": "draft",
   "f-kurisage-rate": "verified",
   "f-kuriage-rate": "verified",
   "f-kiso-shikaku": "verified",
@@ -2120,6 +2276,10 @@
   "r7-kyuyo-kojo": "verified",
   "r7-haigusha-shotoku": "verified",
   "r5-seisan-kazei": "verified",
+  "r8-fukko-bouei": "verified",
+  "r8-shohizei-inryo": "verified",
+  "r5-seizen-zoyo-kasan": "verified",
+  "r8-kubun-shoyuho": "verified",
   "expl:g3-202605-01": "verified",
   "expl:g3-202605-02": "draft",
   "expl:g3-202605-03": "verified",
@@ -3532,6 +3692,102 @@
   "zoyo-haigusha-kojo": "基礎控除額110万円のほかに最高2,000万円まで控除（配偶者控除）できる",
   "kashiya-tatetsukechi": "貸家（94≪借家権の評価≫に定める借家権の目的となっている家屋をいう。以下同じ。）の敷地の用に供されている宅地（以下「貸家建付地」という。）",
   "jojo-kabushiki-hyoka": "その最終価格が課税時期の属する月以前3か月間の毎日の最終価格の各月ごとの平均額（以下「最終価格の月平均額」という。）のうち最も低い価額を超える場合には、その最も低い価額によって評価する",
+  "life-event-hyo": "",
+  "kojin-balance-sheet": "",
+  "rorei-kosei-nenkin": "60歳から65歳までの間に繰上げて減額された年金を受け取る「繰上げ受給」や、66歳から75歳まで※の間に繰下げて増額された年金を受け取る「繰下げ受給」を選択することができます|一定の要件を満たす方は、65歳になるまでの間、特別支給の老齢厚生年金を受け取ることができます|勤務先で厚生年金保険に加入しながら老齢厚生（退職共済）年金を受給している方については、給料と年金の合計額に応じて年金の支給が停止される場合があります|厚生年金に加入していた時の報酬額や加入期間等に応じて年金額が計算されます|老齢厚生年金として、報酬比例部分と経過的加算と加給年金額を合計した金額が受給できます|老齢厚生年金は、老齢基礎年金を受け取れる方に厚生年金の加入期間がある場合に、老齢基礎年金に上乗せして65歳から受け取ることができます",
+  "kakyu-nenkin": "1級・2級の障害の状態にある20歳未満の子|65歳未満であること（大正15年4月1日以前に生まれた配偶者には年齢制限はありません）|厚生年金保険の被保険者期間が20年（※）以上ある方が、65歳到達時点（または定額部分支給開始年齢に到達した時点）で、その方に生計を維持されている配偶者または子がいるときに加算されます|妻（夫）が65歳になると、それまで夫（妻）に支給されていた加給年金額が打ち切られます。このとき妻（夫）が老齢基礎年金を受けられる場合には、一定の基準により妻（夫）自身の老齢基礎年金の額に加算がされます。これを振替加算といいます",
+  "shogai-kiso-nenkin": "20歳前の年金制度に加入していない期間に初診日がある場合は、納付要件は不要です|ただし、初診日が令和18年3月末日までのときは、初診日において65歳未満であれば、初診日の前日において、初診日がある月の前々月までの直近1年間に保険料の未納がなければよいことになっています|初診日の前日に、初診日がある月の前々月までの被保険者期間で、国民年金の保険料納付済期間（厚生年金保険の被保険者期間、共済組合の組合員期間を含む）と保険料免除期間をあわせた期間が3分の2以上あること|初診日（障害の原因となった病気やけがについて、初めて医師または歯科医師の診療を受けた日）|国民年金加入期間20歳前または日本国内に住んでいる60歳以上65歳未満で年金制度に加入していない期間|子とは18歳になった後の最初の3月31日までの子、または20歳未満で障害等級1級または2級の状態にある子です|障害の状態が、障害認定日（障害認定日以後に20歳に達したときは、20歳に達した日）に、障害等級表に定める1級または2級に該当していること",
+  "shogai-kosei-nenkin": "1級（報酬比例の年金額）×1.25|3級の最低保障額|初診日から5年以内に病気やけがが治り、障害厚生年金を受けるよりも軽い障害が残ったときには障害手当金（一時金）が支給されます|厚生年金に加入している間に初診日のある病気やけがで障害基礎年金の1級または2級に該当する障害の状態になったときは、障害基礎年金に上乗せして障害厚生年金が支給されます|厚生年金保険の被保険者である間に、障害の原因となった病気やけがの初診日があること|障害の状態が2級に該当しない軽い程度の障害のときは3級の障害厚生年金が支給されます|障害の状態が、障害認定日に、障害等級表に定める1級から3級のいずれかに該当していること",
+  "izoku-kiso-nenkin": "ただし、死亡日が令和18年3月末日までのときは、死亡した方が65歳未満であれば、死亡日の前日において、死亡日が含まれる月の前々月までの直近1年間に保険料の未納がなければよいことになっています|令和10年4月1日以後は生計を同じくする父または母がいる場合であっても、子は遺族基礎年金の支給を受けることができるようになります|保険料納付済期間、保険料免除期間および合算対象期間並びに65歳以降の厚生年金保険の被保険者期間を合算した期間が25年以上ある方に限ります|国民年金の被保険者である間に死亡したとき国民年金の被保険者であった60歳以上65歳未満の方で、日本国内に住所を有していた方が死亡したとき老齢基礎年金の受給資格を満たした方が死亡したとき|子とは18歳になった年度の3月31日までにある方、または20歳未満で障害年金の障害等級1級または2級の状態にある方をさします|子のある配偶者が遺族基礎年金を受け取っている間や、子に生計を同じくする父または母がいる間は、子には遺族基礎年金は支給されません|死亡日の前日において、保険料納付済期間（保険料免除期間を含む）が国民年金加入期間の3分の2以上あることが必要です",
+  "izoku-kosei-nenkin": "厚生年金保険の被保険者である間に死亡したとき厚生年金の被保険者期間に初診日がある病気やけがが原因で初診日から5年以内に死亡したとき1級・2級の障害厚生（共済）年金を受けとっている方が死亡したとき老齢厚生年金の受給資格を満たした方が死亡したとき|子のない30歳未満の妻は、5年間のみ受給できます|死亡した方に生計を維持されていた以下の遺族のうち、最も優先順位の高い方が受け取ることができます|父母または祖父母は、55歳以上である方に限り受給できますが、受給開始は60歳からとなります|遺族厚生年金の年金額は、死亡した方の老齢厚生年金の報酬比例部分の4分の3の額となります",
+  "chukorei-kafu-kasan": "夫が死亡したときに40歳以上で子のない妻（夫の死亡後40歳に達した当時、子がいた妻も含む）が受ける遺族厚生年金には、40歳から65歳になるまでの間、中高齢の寡婦加算（定額）が加算されます|妻が65歳になると自分の老齢基礎年金が受けられるため、中高齢の寡婦加算はなくなります|死亡した夫の被保険者期間が20年以上の場合",
+  "kafu-nenkin": "亡くなった夫が、老齢基礎年金・障害基礎年金を受けたことがあるときは支給されません|妻が繰り上げ支給の老齢基礎年金を受けているときは支給されません|寡婦年金を受けられる場合は、どちらか一方を選択します|年金額は、夫の第1号被保険者期間だけで計算した老齢基礎年金額の4分の3の額です|死亡日の前日において国民年金の第1号被保険者として保険料を納めた期間および国民年金の保険料免除期間（※1）が10年以上（※2）ある夫が亡くなったときに、その夫と10年以上継続して婚姻関係（事実上の婚姻関係を含む）にあり、死亡当時にその夫に生計を維持されていた妻に対して、その妻が60歳から65歳になるまでの間支給されます",
+  "shibo-ichijikin": "付加保険料を納めた月数が36月以上ある場合は、8,500円が加算されます|死亡一時金の額は、保険料を納めた月数に応じて120,000円～320,000円です|第1号被保険者として保険料を納めた月数（4分の3納付月数は4分の3月，半額納付月数は2分の1月，4分の1納付月数は4分の1月として計算）が36月以上ある方が、老齢基礎年金・障害基礎年金を受けないまま亡くなった時|遺族が、遺族基礎年金の支給を受けられるときは支給されません。寡婦年金を受けられる場合は、どちらか一方を選択します",
+  "hokenryo-menjo": "",
+  "kokumin-nenkin-kikin": "",
+  "kigyogata-dc": "",
+  "kaigo-hoken": "",
+  "koyo-hoken": "",
+  "rosai-hoken": "",
+  "teiki-hoken": "",
+  "shushin-hoken": "",
+  "yoro-hoken": "",
+  "hendo-hoken": "",
+  "kojin-nenkin-hoken": "",
+  "hokenkin-kazei": "",
+  "hitsuyo-hosho-gaku": "",
+  "risk-control-finance": "",
+  "hoken-kagaku": "",
+  "hirei-tenpo": "",
+  "kojin-baisho-sekinin": "",
+  "jibaiseki-taijin": "",
+  "kinri-risk": "",
+  "duration": "",
+  "credit-risk": "",
+  "shinyo-torihiki": "",
+  "nariyuki-sashine": "",
+  "topix-nikkei": "",
+  "toshi-shintaku": "",
+  "shintaku-hoshu": "",
+  "etf": "",
+  "j-reit": "",
+  "index-fund": "",
+  "dollar-cost": "",
+  "asset-allocation": "",
+  "portfolio": "",
+  "beta": "",
+  "gaika-yokin": "",
+  "ttm": "",
+  "kinsho-ho": "",
+  "kinyu-hanbai-ho": "",
+  "shohisha-keiyaku-ho": "",
+  "toshisha-hogo-kikin": "",
+  "tokutei-koza": "",
+  "joto-sonshitsu-kurikoshi": "",
+  "shotoku-10shu": "",
+  "sogo-bunri-kazei": "",
+  "fukko-tokubetsu-shotokuzei": "令和8年度税制改正により、防衛特別所得税の創設ならびに復興特別所得税の税率の引下げおよび課税期間の延長が行われ、令和9年以後に適用されます（改正前と改正後とで、防衛特別所得税及び復興特別所得税の合計税率に変更はありません。）|平成25年から令和29年までの各年分の確定申告においては、所得税と復興特別所得税（原則としてその年分の基準所得税額の2.1パーセント）を併せて申告・納付することとなります",
+  "zatsu-shotoku": "公的年金等は、年金の収入金額から公的年金等控除額を差し引いて所得金額を計算します|国民年金法、厚生年金保険法、公務員等の共済組合法などの規定による年金|生命保険契約や生命共済契約に基づく年金、互助年金などは公的年金等には該当しません",
+  "shakai-hoken-ryo-kojo": "国民年金の保険料および国民年金基金の掛金に係る社会保険料控除|控除できる金額は、その年に実際に支払った金額または給与や公的年金から差し引かれた金額の全額です|生計を一にする配偶者やその他の親族の負担すべき社会保険料を支払った場合には、その支払った金額について所得控除を受けることができます",
+  "kifukin-kojo": "ふるさと納税は、ご自身の選んだ自治体に対して寄附を行った場合に、寄附額のうち2,000円を超える部分について、所得税および個人住民税からそれぞれ控除が受けられる制度|ふるさと納税先が5団体以内の場合に限り、ふるさと納税先団体に申請することにより、この寄附金控除を受けることができます|所得控除の対象となる寄附金の額は、総所得金額等の40％が上限です|確定申告を行う方は、ふるさと納税ワンストップ特例の申請が無効となるため|納税者が国や地方公共団体、特定公益増進法人などに対し、「特定寄附金」を支出した場合には、所得控除を受けることができます",
+  "zasson-kojo": "「生活に通常必要でない資産」とは、例えば、別荘など|控除しきれない場合には、翌年以後3年間(東日本大震災又は令和5年4月1日以後に発生する特定非常災害により生じた損失額については、5年間)に繰り越して|災害または盗難もしくは横領によって、下記の「雑損控除の対象になる資産の要件」にあてはまる資産について損害を受けた場合には、一定の金額の所得控除を受けることができます|（1)（損害金額+災害等関連支出の金額-保険金等の額）-（総所得金額等）×10％（2)（災害関連支出の金額-保険金等の額）-5万円",
+  "kakutei-shinkoku": "原則として、その年の翌年2月16日から3月15日までです|各種の所得金額（給与所得、退職所得を除く。）の合計額が20万円を超える人|大部分の給与所得者の方は、給与の支払者が行う年末調整によって所得税額が確定し、納税も完了しますから、確定申告の必要はありません|給与の年間収入金額が2,000万円を超える人",
+  "jutaku-loan-kojo": "",
+  "shohizei": "令和9年4月1日から令和11年3月31日までの2年間、飲食料品の譲渡について、消費税率が引き下げられます|消費税率7.8パーセント6.24パーセント地方消費税率2.2パーセント（消費税額の22/78）1.76パーセント（消費税額の22/78）合計10パーセント8パーセント|消費者が負担する消費税は、消費税および地方消費税の合計額であり、標準税率10パーセントと軽減税率8パーセントの複数税率になっています|飲食料品の譲渡（食品表示法に規定する食品（酒税法に規定する酒類を除きます。）の譲渡をいい、外食を含みません。）2定期購読契約が締結された週2回以上発行される新聞の譲渡",
+  "kani-kazei": "「消費税簡易課税制度選択届出書」を提出した課税事業者は|基準期間（個人事業者は前々年、法人は原則として前々事業年度）における課税売上高が5,000万円以下の課税期間について|第1種事業（卸売業）90％|第2種事業（小売業、農業・林業・漁業（飲食料品の譲渡に係る事業に限る））80％|第3種事業（農業・林業・漁業（飲食料品の譲渡に係る事業を除く）、鉱業、建設業、製造業、電気業、ガス業、熱供給業および水道業）70％|第4種事業（第1種事業、第2種事業、第3種事業、第5種事業および第6種事業以外の事業）60％|第5種事業（運輸通信業、金融業および保険業、サービス業（飲食店業に該当するものを除く））50％|第6種事業（不動産業）40％|簡易課税制度は、中小事業者の納税事務負担に配慮する観点から、事業者の選択により、売上げに係る消費税額を基礎として仕入れに係る消費税額を算出することができる制度です|飲食料品の譲渡について、消費税率が引き下げられます。この引下げに当たり、飲食料品の譲渡を行う事業者を対象に、簡易課税制度の計算方法の特例が設けられます",
+  "invoice": "",
+  "houjinzei": "",
+  "yoto-chiiki": "第一種低層住居専用地域、第二種低層住居専用地域、第一種中高層住居専用地域、第二種中高層住居専用地域、第一種住居地域、第二種住居地域、準住居地域、田園住居地域、近隣商業地域、商業地域、準工業地域、工業地域又は工業専用地域（以下「用途地域」と総称する。）",
+  "toshi-keikaku-kuiki": "市街化区域、区域区分が定められていない都市計画区域又は準都市計画区域内において行う開発行為|市街化区域は、すでに市街地を形成している区域及びおおむね十年以内に優先的かつ計画的に市街化を図るべき区域とする|市街化調整区域は、市街化を抑制すべき区域とする|都市計画区域について無秩序な市街化を防止し、計画的な市街化を図るため必要があるときは、都市計画に、市街化区域と市街化調整区域との区分",
+  "kaihatsu-kyoka": "同項中「千平方メートル」とあるのは、「五百平方メートル」とする|市街化区域、区域区分が定められていない都市計画区域又は準都市計画区域内において行う開発行為で、その規模が、それぞれの区域の区分に応じて政令で定める規模未満であるもの|市街化区域千平方メートル市街化の状況により、無秩序な市街化を防止するため特に必要があると認められる場合三百平方メートル以上千平方メートル未満|市街化調整区域、区域区分が定められていない都市計画区域又は準都市計画区域内において行う開発行為で、農業、林業若しくは漁業の用に供する政令で定める建築物|都市計画区域又は準都市計画区域内において開発行為をしようとする者は、あらかじめ、国土交通省令で定めるところにより、都道府県知事",
+  "bouka-chiiki": "",
+  "zenmen-doro-yosekiritsu": "その他の建築物十分の六|前面道路（前面道路が二以上あるときは、その幅員の最大のもの。以下この項及び第十二項において同じ。）の幅員が十二メートル未満である建築物の容積率は、当該前面道路の幅員のメートルの数値に、次の各号に掲げる区分に従い、当該各号に定める数値を乗じたもの以下でなければならない|十分の四（特定行政庁が都道府県都市計画審議会の議を経て指定する区域内の建築物にあつては、十分の六）|第一種低層住居専用地域、第二種低層住居専用地域又は田園住居地域内の建築物十分の四",
+  "kenchiku-kakunin": "",
+  "kubun-shoyuho": "この法律は、令和八年四月一日から施行する|を有するものが出席し、出席した区分所有者及びその議決権の各四分の三以上の多数による決議によつてする|共用部分の変更（その形状又は効用の著しい変更を伴わないものを除く。第五項において同じ。）は、集会において|出席した区分所有者及びその議決権の各四分の三（これを下回る割合（二分の一を超える割合に限る。）を規約で定めた場合にあつては、その割合）以上の多数による決議で決する|前に旧区分所有法の規定により招集の手続が開始された集会については、なお従前の例による|同項中「五分の四」とあるのは、「四分の三」とする。一地震に対する安全性に係る建築基準法|集会においては、区分所有者（議決権を有しないものを除く。）及び議決権の各五分の四以上の多数で、建物を取り壊し|集会の議事は、この法律又は規約に別段の定めがない限り、出席した区分所有者（議決権を有しないものを除く。）及びその議決権の各過半数で決する",
+  "futsu-shakuchiken": "借地権の存続期間は、三十年とする。ただし、契約でこれより長い期間を定めたときは、その期間とする|当事者が借地契約を更新する場合においては、その期間は、更新の日から十年（借地権の設定後の最初の更新にあっては、二十年）とする。ただし、当事者がこれより長い期間を定めたときは、その期間とする|正当の事由があると認められる場合でなければ、述べることができない",
+  "futsu-shakuya": "当事者が期間の満了の一年前から六月前までの間に相手方に対して更新をしない旨の通知又は条件を変更しなければ更新をしない旨の通知をしなかったときは、従前の契約と同一の条件で契約を更新したものとみなす。ただし、その期間は、定めがないものとする|期間を一年未満とする建物の賃貸借は、期間の定めがない建物の賃貸借とみなす|正当の事由があると認められる場合でなければ、することができない",
+  "baikai-keiyaku": "依頼者が他の宅地建物取引業者に重ねて売買又は交換の媒介又は代理を依頼することを禁ずる媒介契約（以下「専任媒介契約」という。）の有効期間は、三月を超えることができない。これより長い期間を定めたときは、その期間は、三月とする|前項の有効期間は、依頼者の申出により、更新することができる。ただし、更新の時から三月を超えることができない|専任媒介契約に係る業務の処理状況を二週間に一回以上（依頼者が当該宅地建物取引業者が探索した相手方以外の者と売買又は交換の契約を締結することができない旨の特約を含む専任媒介契約にあつては、一週間に一回以上）報告しなければならない|法第三十四条の二第五項の国土交通省令で定める期間は、専任媒介契約の締結の日から七日（専属専任媒介契約にあつては、五日）とする。２前項の期間の計算については、休業日数は算入しないものとする",
+  "baikai-hoshu": "",
+  "juyo-jiko-setsumei": "その売買、交換又は貸借の契約が成立するまでの間に、宅地建物取引士をして、少なくとも次に掲げる事項について、これらの事項を記載した書面|その媒介により契約が成立したときは当該契約の各当事者に、遅滞なく、次に掲げる事項を記載した書面を交付しなければならない",
+  "keiyaku-futekigo": "引き渡された目的物が種類、品質又は数量に関して契約の内容に適合しないものであるときは、買主は、売主に対し、目的物の修補、代替物の引渡し又は不足分の引渡しによる履行の追完を請求することができる|民法（明治二十九年法律第八十九号）第五百六十六条に規定する期間についてその目的物の引渡しの日から二年以上となる特約をする場合を除き、同条に規定するものより買主に不利となる特約をしてはならない。２前項の規定に反する特約は、無効とする|買主がその不適合を知った時から一年以内にその旨を売主に通知しないときは、買主は、その不適合を理由として、履行の追完の請求、代金の減額の請求、損害賠償の請求及び契約の解除をすることができない。ただし、売主が引渡しの時にその不適合を知り、又は重大な過失によって知らなかったときは、この限りでない|買主が相当の期間を定めて履行の追完の催告をし、その期間内に履行の追完がないときは、買主は、その不適合の程度に応じて代金の減額を請求することができる",
+  "kotei-shisanzei": "",
+  "fudosan-shutoku-toroku-inshi": "",
+  "fudosan-hyoka-3shuho": "",
+  "fudosan-rimawari": "",
+  "fudosan-shotoku": "",
+  "sozokuzei-shinkoku": "国税は、金銭で期限までに一括納付することが原則です|延納によっても金銭で納付することを困難とする事由がある場合には、納税者の申請により、その納付を困難とする金額を限度として一定の相続財産による納付（物納）ができます|相続税の申告は、被相続人が死亡したことを知った日（通常の場合は、被相続人の死亡の日）の翌日から10か月以内に行うことになっています|相続税額が10万円を超え、金銭で納付することを困難とする事由がある場合には、納税者の申請により、その納付を困難とする金額を限度として、担保を提供することにより、年賦の方法（年払い）で納付することができます|贈与を受けた人が贈与により財産を取得した年の翌年2月1日から3月15日までの間に申告と納税をする必要があります",
+  "shomi-isan-gaku": "ホ上記ニで計算した各法定相続人ごとの算出税額を合計して相続税の総額を計算します|各人の課税価格の合計＝課税価格の合計額（正味の遺産額）|課税価格の合計額－基礎控除額（3,000万円＋600万円×法定相続人の数）＝課税遺産総額|課税遺産総額を、各法定相続人が民法に定める法定相続分に従って取得したものと仮定して",
+  "minashi-sozoku-zaisan": "500万円×法定相続人の数＝非課税限度額なお、相続人以外の人が取得した死亡保険金には、非課税の適用はありません|被相続人の死亡後3年以内に支給が確定したものは、相続または遺贈により取得したものとみなされて、相続税の課税対象となります",
+  "shibo-taishokukin": "500万円×法定相続人の数＝非課税限度額なお、相続人以外の人が取得した退職手当金等には、非課税の適用はありません|被相続人の死亡後3年以内に支給が確定したものは、相続または遺贈により取得したものとみなされて、相続税の課税対象となります",
+  "seizen-zoyo-kasan": "加算対象となる贈与財産について課せられた贈与税がある場合には、その相続税額からその贈与税額に相当する金額を控除します|加算対象期間内に贈与されたものであれば贈与税がかかったかどうかに関係なく加算します|相続開始前3年以内に取得した財産以外の財産については、その財産の贈与時の価額の合計額から総額100万円までは相続税の課税価格に加算されません|被相続人から加算対象期間（注2）に暦年課税に係る贈与によって取得した財産があるときは、その人の相続税の課税価格にその財産の贈与時の価額を加算します|～令和8年12月31日相続開始前3年以内（死亡の日から遡って3年前の日から死亡の日までの間）令和9年1月1日～令和12年12月31日令和6年1月1日から死亡の日までの間令和13年1月1日～相続開始前7年以内",
+  "kenin": "",
+  "jihitsu-igon-hokan": "",
+  "haigusha-kyojuken": "",
+  "kiyobun-tokubetsu-jueki": "",
+  "rosenka-hyoka": "",
+  "hijojo-kabushiki": "",
+  "jigyo-shokei-zeisei": "",
+  "kazoku-shintaku": "",
   "f-kurisage-rate": "増額率（最大84％※1）＝0.7%",
   "f-kuriage-rate": "減額率（最大24％）＝0.4%",
   "f-kiso-shikaku": "受給資格期間が10年以上ある場合に、65歳から受け取ることができます",
@@ -3578,6 +3834,10 @@
   "r7-kyuyo-kojo": "2,200,000円まで740,000円|令和7年分給与等の収入金額(給与所得の源泉徴収票の支払金額)給与所得控除額1,900,000円まで650,000円",
   "r7-haigusha-shotoku": "令和7年分は58万円を超え133万円以下、令和2年分から令和6年分までは48万円を超え133万円以下",
   "r5-seisan-kazei": "令和6年1月1日以後の贈与により取得した相続時精算課税適用財産については",
+  "r8-fukko-bouei": "令和8年度税制改正により、防衛特別所得税の創設ならびに復興特別所得税の税率の引下げおよび課税期間の延長が行われ、令和9年以後に適用されます（改正前と改正後とで、防衛特別所得税及び復興特別所得税の合計税率に変更はありません。）|令和9年1月1日以後に生ずる所得については、復興特別所得税の税率が1.1パーセントに引き下げられ、防衛特別所得税（源泉徴収すべき所得税の額の1パーセント相当額）が併せて源泉徴収されます",
+  "r8-shohizei-inryo": "令和9年4月1日から令和11年3月31日までの2年間、飲食料品の譲渡について、消費税率が引き下げられます|飲食料品の譲渡について、消費税率が引き下げられます。この引下げに当たり、飲食料品の譲渡を行う事業者を対象に、簡易課税制度の計算方法の特例が設けられます",
+  "r5-seizen-zoyo-kasan": "～令和8年12月31日相続開始前3年以内（死亡の日から遡って3年前の日から死亡の日までの間）令和9年1月1日～令和12年12月31日令和6年1月1日から死亡の日までの間令和13年1月1日～相続開始前7年以内",
+  "r8-kubun-shoyuho": "この法律は、令和八年四月一日から施行する|を有するものが出席し、出席した区分所有者及びその議決権の各四分の三以上の多数による決議によつてする|同項中「五分の四」とあるのは、「四分の三」とする。一地震に対する安全性に係る建築基準法|集会の議事は、この法律又は規約に別段の定めがない限り、出席した区分所有者（議決権を有しないものを除く。）及びその議決権の各過半数で決する",
   "expl:g3-202605-01": "金融商品取引業は、内閣総理大臣の登録を受けた者でなければ、行うことができない",
   "expl:g3-202605-02": "",
   "expl:g3-202605-03": "家族の方の所得の多寡は問いません|所得基準（申請者本人のみ）",

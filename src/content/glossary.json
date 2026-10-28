@@ -2742,5 +2742,3297 @@
   ],
   "reviewStatus": "verified",
   "checkedAt": "2026-10-21"
+ },
+ {
+  "id": "life-event-hyo",
+  "name": "ライフイベント表",
+  "reading": "らいふいべんとひょう",
+  "field": "A",
+  "importance": 2,
+  "short": "家族の将来の出来事（進学・就職・結婚・住宅購入・退職など）を、年ごとに時系列で並べた表。",
+  "detail": "キャッシュフロー表を作る前段階として、いつ・どのくらいの支出や収入の変化が起きるかを整理する。家族の年齢を並べ、各イベントの予定時期と必要資金の見込みを書き込む。",
+  "related": [
+   "cashflow-hyo"
+  ],
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "日本FP協会 試験範囲（試験要綱）",
+    "url": "https://www.jafp.or.jp/exam/outline/"
+   }
+  ],
+  "evidence": [],
+  "reviewStatus": "draft",
+  "checkedAt": "2026-10-21"
+ },
+ {
+  "id": "kojin-balance-sheet",
+  "name": "個人バランスシート",
+  "reading": "こじんばらんすしーと",
+  "field": "A",
+  "importance": 2,
+  "short": "家計の資産と負債を一覧にし、純資産（資産－負債）を見る表。",
+  "detail": "資産（預貯金・有価証券・不動産など）を時価で、負債（ローン・借入金）を残高で記載する。純資産＝資産－負債。一時点の財産状況を表すもので、収入と支出の流れを表すキャッシュフロー表とは役割が異なる。",
+  "related": [
+   "cashflow-hyo"
+  ],
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "日本FP協会 試験範囲（試験要綱）",
+    "url": "https://www.jafp.or.jp/exam/outline/"
+   }
+  ],
+  "evidence": [],
+  "reviewStatus": "draft",
+  "checkedAt": "2026-10-21",
+  "aliases": [
+   "家計のバランスシート"
+  ]
+ },
+ {
+  "id": "rorei-kosei-nenkin",
+  "name": "老齢厚生年金",
+  "reading": "ろうれいこうせいねんきん",
+  "field": "A",
+  "importance": 3,
+  "short": "老齢基礎年金を受け取れる方に厚生年金の加入期間がある場合に、老齢基礎年金に上乗せして原則65歳から受け取る年金。",
+  "detail": "年金額は、厚生年金に加入していた時の報酬額や加入期間等に応じて計算される（報酬比例部分と経過的加算と加給年金額の合計）。60歳から65歳までの間に繰上げて減額された年金を受け取る「繰上げ受給」や、66歳から75歳までの間に繰下げて増額された年金を受け取る「繰下げ受給」を選べる。一定の要件を満たす方は、65歳になるまでの間、特別支給の老齢厚生年金を受け取れる。勤務先で厚生年金保険に加入しながら受給する場合は、給料と年金の合計額に応じて年金の支給が停止されることがある（在職老齢年金）。",
+  "related": [
+   "rorei-kiso-nenkin",
+   "kakyu-nenkin",
+   "kuriage-jukyu"
+  ],
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "日本年金機構 老齢厚生年金の受給要件・支給開始時期・年金額",
+    "url": "https://www.nenkin.go.jp/service/jukyu/seido/roureinenkin/jukyu-yoken/20140421-01.html"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.nenkin.go.jp/service/jukyu/seido/roureinenkin/jukyu-yoken/20140421-01.html",
+    "quote": "老齢厚生年金は、老齢基礎年金を受け取れる方に厚生年金の加入期間がある場合に、老齢基礎年金に上乗せして65歳から受け取ることができます"
+   },
+   {
+    "url": "https://www.nenkin.go.jp/service/jukyu/seido/roureinenkin/jukyu-yoken/20140421-01.html",
+    "quote": "厚生年金に加入していた時の報酬額や加入期間等に応じて年金額が計算されます"
+   },
+   {
+    "url": "https://www.nenkin.go.jp/service/jukyu/seido/roureinenkin/jukyu-yoken/20140421-01.html",
+    "quote": "老齢厚生年金として、報酬比例部分と経過的加算と加給年金額を合計した金額が受給できます"
+   },
+   {
+    "url": "https://www.nenkin.go.jp/service/jukyu/seido/roureinenkin/jukyu-yoken/20140421-01.html",
+    "quote": "60歳から65歳までの間に繰上げて減額された年金を受け取る「繰上げ受給」や、66歳から75歳まで※の間に繰下げて増額された年金を受け取る「繰下げ受給」を選択することができます"
+   },
+   {
+    "url": "https://www.nenkin.go.jp/service/jukyu/seido/roureinenkin/jukyu-yoken/20140421-01.html",
+    "quote": "一定の要件を満たす方は、65歳になるまでの間、特別支給の老齢厚生年金を受け取ることができます"
+   },
+   {
+    "url": "https://www.nenkin.go.jp/service/jukyu/seido/roureinenkin/jukyu-yoken/20140421-01.html",
+    "quote": "勤務先で厚生年金保険に加入しながら老齢厚生（退職共済）年金を受給している方については、給料と年金の合計額に応じて年金の支給が停止される場合があります"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-10-21"
+ },
+ {
+  "id": "kakyu-nenkin",
+  "name": "加給年金",
+  "reading": "かきゅうねんきん",
+  "field": "A",
+  "importance": 3,
+  "short": "厚生年金の被保険者期間が20年以上ある人が65歳に達したとき、生計を維持している配偶者や子がいる場合に老齢厚生年金に加算される年金。",
+  "detail": "加算の対象は、65歳未満の配偶者（大正15年4月1日以前生まれの配偶者には年齢制限なし）と、18歳到達年度の末日までの子または1級・2級の障害の状態にある20歳未満の子。配偶者が65歳になると加給年金額は打ち切られ、その配偶者が老齢基礎年金を受けられる場合は、一定の基準により配偶者自身の老齢基礎年金の額に振替加算が加算される。",
+  "related": [
+   "rorei-kosei-nenkin"
+  ],
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "日本年金機構 加給年金額と振替加算",
+    "url": "https://www.nenkin.go.jp/service/jukyu/seido/roureinenkin/kakyu-hurikae/20150401.html"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.nenkin.go.jp/service/jukyu/seido/roureinenkin/kakyu-hurikae/20150401.html",
+    "quote": "厚生年金保険の被保険者期間が20年（※）以上ある方が、65歳到達時点（または定額部分支給開始年齢に到達した時点）で、その方に生計を維持されている配偶者または子がいるときに加算されます"
+   },
+   {
+    "url": "https://www.nenkin.go.jp/service/jukyu/seido/roureinenkin/kakyu-hurikae/20150401.html",
+    "quote": "65歳未満であること（大正15年4月1日以前に生まれた配偶者には年齢制限はありません）"
+   },
+   {
+    "url": "https://www.nenkin.go.jp/service/jukyu/seido/roureinenkin/kakyu-hurikae/20150401.html",
+    "quote": "1級・2級の障害の状態にある20歳未満の子"
+   },
+   {
+    "url": "https://www.nenkin.go.jp/service/jukyu/seido/roureinenkin/kakyu-hurikae/20150401.html",
+    "quote": "妻（夫）が65歳になると、それまで夫（妻）に支給されていた加給年金額が打ち切られます。このとき妻（夫）が老齢基礎年金を受けられる場合には、一定の基準により妻（夫）自身の老齢基礎年金の額に加算がされます。これを振替加算といいます"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-10-21"
+ },
+ {
+  "id": "shogai-kiso-nenkin",
+  "name": "障害基礎年金",
+  "reading": "しょうがいきそねんきん",
+  "field": "A",
+  "importance": 3,
+  "short": "病気やけがで障害等級1級・2級の状態になったときに、国民年金から支給される年金。",
+  "detail": "初診日（障害の原因となった病気やけがについて初めて医師または歯科医師の診療を受けた日）が、国民年金加入期間中、20歳前、または日本国内に住んでいる60歳以上65歳未満で年金制度に加入していない期間にあり、障害認定日（障害認定日以後に20歳に達したときは20歳に達した日）に障害等級1級または2級に該当していることが必要。保険料納付要件は、初診日の前日に、初診日がある月の前々月までの被保険者期間で、保険料納付済期間と保険料免除期間をあわせた期間が3分の2以上あること（初診日が令和18年3月末日までで初診日に65歳未満なら、直近1年間に未納がなければよい）。20歳前の年金制度に加入していない期間に初診日がある場合は納付要件は不要。生計を維持されている子（18歳になった後の最初の3月31日までの子、または20歳未満で障害等級1級・2級の子）がいるときは子の加算がある。",
+  "related": [
+   "rorei-kiso-nenkin",
+   "shogai-kosei-nenkin"
+  ],
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "日本年金機構 障害年金",
+    "url": "https://www.nenkin.go.jp/service/jukyu/seido/shougainenkin/jukyu-yoken/20150401-01.html"
+   },
+   {
+    "title": "日本年金機構 障害基礎年金の受給要件・請求時期・年金額",
+    "url": "https://www.nenkin.go.jp/service/jukyu/seido/shougainenkin/jukyu-yoken/20150514.html"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.nenkin.go.jp/service/jukyu/seido/shougainenkin/jukyu-yoken/20150401-01.html",
+    "quote": "初診日（障害の原因となった病気やけがについて、初めて医師または歯科医師の診療を受けた日）"
+   },
+   {
+    "url": "https://www.nenkin.go.jp/service/jukyu/seido/shougainenkin/jukyu-yoken/20150514.html",
+    "quote": "国民年金加入期間20歳前または日本国内に住んでいる60歳以上65歳未満で年金制度に加入していない期間"
+   },
+   {
+    "url": "https://www.nenkin.go.jp/service/jukyu/seido/shougainenkin/jukyu-yoken/20150514.html",
+    "quote": "障害の状態が、障害認定日（障害認定日以後に20歳に達したときは、20歳に達した日）に、障害等級表に定める1級または2級に該当していること"
+   },
+   {
+    "url": "https://www.nenkin.go.jp/service/jukyu/seido/shougainenkin/jukyu-yoken/20150514.html",
+    "quote": "初診日の前日に、初診日がある月の前々月までの被保険者期間で、国民年金の保険料納付済期間（厚生年金保険の被保険者期間、共済組合の組合員期間を含む）と保険料免除期間をあわせた期間が3分の2以上あること"
+   },
+   {
+    "url": "https://www.nenkin.go.jp/service/jukyu/seido/shougainenkin/jukyu-yoken/20150514.html",
+    "quote": "ただし、初診日が令和18年3月末日までのときは、初診日において65歳未満であれば、初診日の前日において、初診日がある月の前々月までの直近1年間に保険料の未納がなければよいことになっています"
+   },
+   {
+    "url": "https://www.nenkin.go.jp/service/jukyu/seido/shougainenkin/jukyu-yoken/20150514.html",
+    "quote": "20歳前の年金制度に加入していない期間に初診日がある場合は、納付要件は不要です"
+   },
+   {
+    "url": "https://www.nenkin.go.jp/service/jukyu/seido/shougainenkin/jukyu-yoken/20150514.html",
+    "quote": "子とは18歳になった後の最初の3月31日までの子、または20歳未満で障害等級1級または2級の状態にある子です"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-10-21"
+ },
+ {
+  "id": "shogai-kosei-nenkin",
+  "name": "障害厚生年金",
+  "reading": "しょうがいこうせいねんきん",
+  "field": "A",
+  "importance": 2,
+  "short": "厚生年金の被保険者期間中に初診日がある病気やけがで障害の状態になったときに支給される年金。1級・2級は障害基礎年金に上乗せして、3級でも支給される。",
+  "detail": "厚生年金保険の被保険者である間に初診日があり、障害認定日に障害等級表の1級から3級のいずれかに該当していることが必要（保険料納付要件は障害基礎年金と同じ）。障害基礎年金の1級・2級に該当する障害の状態になったときは、障害基礎年金に上乗せして障害厚生年金が支給され、2級に該当しない軽い障害のときは3級の障害厚生年金が支給される。年金額は、1級が（報酬比例の年金額）×1.25、2級が報酬比例の年金額で、3級には最低保障額がある。初診日から5年以内に病気やけがが治り、障害厚生年金を受けるよりも軽い障害が残ったときは、障害手当金（一時金）が支給される。",
+  "related": [
+   "shogai-kiso-nenkin"
+  ],
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "日本年金機構 障害年金",
+    "url": "https://www.nenkin.go.jp/service/jukyu/seido/shougainenkin/jukyu-yoken/20150401-01.html"
+   },
+   {
+    "title": "日本年金機構 障害厚生年金の受給要件・請求時期・年金額",
+    "url": "https://www.nenkin.go.jp/service/jukyu/seido/shougainenkin/jukyu-yoken/20150401-02.html"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.nenkin.go.jp/service/jukyu/seido/shougainenkin/jukyu-yoken/20150401-01.html",
+    "quote": "厚生年金に加入している間に初診日のある病気やけがで障害基礎年金の1級または2級に該当する障害の状態になったときは、障害基礎年金に上乗せして障害厚生年金が支給されます"
+   },
+   {
+    "url": "https://www.nenkin.go.jp/service/jukyu/seido/shougainenkin/jukyu-yoken/20150401-01.html",
+    "quote": "障害の状態が2級に該当しない軽い程度の障害のときは3級の障害厚生年金が支給されます"
+   },
+   {
+    "url": "https://www.nenkin.go.jp/service/jukyu/seido/shougainenkin/jukyu-yoken/20150401-01.html",
+    "quote": "初診日から5年以内に病気やけがが治り、障害厚生年金を受けるよりも軽い障害が残ったときには障害手当金（一時金）が支給されます"
+   },
+   {
+    "url": "https://www.nenkin.go.jp/service/jukyu/seido/shougainenkin/jukyu-yoken/20150401-02.html",
+    "quote": "厚生年金保険の被保険者である間に、障害の原因となった病気やけがの初診日があること"
+   },
+   {
+    "url": "https://www.nenkin.go.jp/service/jukyu/seido/shougainenkin/jukyu-yoken/20150401-02.html",
+    "quote": "障害の状態が、障害認定日に、障害等級表に定める1級から3級のいずれかに該当していること"
+   },
+   {
+    "url": "https://www.nenkin.go.jp/service/jukyu/seido/shougainenkin/jukyu-yoken/20150401-02.html",
+    "quote": "1級（報酬比例の年金額）×1.25"
+   },
+   {
+    "url": "https://www.nenkin.go.jp/service/jukyu/seido/shougainenkin/jukyu-yoken/20150401-02.html",
+    "quote": "3級の最低保障額"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-10-21"
+ },
+ {
+  "id": "izoku-kiso-nenkin",
+  "name": "遺族基礎年金",
+  "reading": "いぞくきそねんきん",
+  "field": "A",
+  "importance": 3,
+  "short": "国民年金の被保険者などが死亡したとき、その人に生計を維持されていた「子のある配偶者」または「子」に支給される年金。",
+  "detail": "受給要件は、①国民年金の被保険者である間に死亡、②国民年金の被保険者であった60歳以上65歳未満で日本国内に住所を有していた方が死亡、③老齢基礎年金の受給資格を満たした方が死亡、のいずれか。①②は死亡日の前日に保険料納付済期間（免除期間を含む）が国民年金加入期間の3分の2以上あることが必要（死亡日が令和18年3月末日までで死亡した方が65歳未満なら、直近1年間に未納がなければよい）。③は保険料納付済期間・免除期間・合算対象期間などを合算して25年以上ある方に限る。子とは18歳になった年度の3月31日までにある方、または20歳未満で障害等級1級・2級の状態にある方。子のある配偶者が受け取っている間や、子に生計を同じくする父または母がいる間は、子には支給されない（令和7年の法律改正により、令和10年4月1日以後は生計を同じくする父または母がいる場合でも子は支給を受けられるようになる）。",
+  "related": [
+   "izoku-kosei-nenkin",
+   "kafu-nenkin",
+   "shibo-ichijikin"
+  ],
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "日本年金機構 遺族基礎年金（受給要件・対象者・年金額）",
+    "url": "https://www.nenkin.go.jp/service/jukyu/seido/izokunenkin/jukyu-yoken/20150401-04.html"
+   },
+   {
+    "title": "日本年金機構 死亡一時金",
+    "url": "https://www.nenkin.go.jp/service/jukyu/seido/sonota-kyufu/1go-dokuji/20140422-01.html"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.nenkin.go.jp/service/jukyu/seido/izokunenkin/jukyu-yoken/20150401-04.html",
+    "quote": "国民年金の被保険者である間に死亡したとき国民年金の被保険者であった60歳以上65歳未満の方で、日本国内に住所を有していた方が死亡したとき老齢基礎年金の受給資格を満たした方が死亡したとき"
+   },
+   {
+    "url": "https://www.nenkin.go.jp/service/jukyu/seido/izokunenkin/jukyu-yoken/20150401-04.html",
+    "quote": "死亡日の前日において、保険料納付済期間（保険料免除期間を含む）が国民年金加入期間の3分の2以上あることが必要です"
+   },
+   {
+    "url": "https://www.nenkin.go.jp/service/jukyu/seido/izokunenkin/jukyu-yoken/20150401-04.html",
+    "quote": "ただし、死亡日が令和18年3月末日までのときは、死亡した方が65歳未満であれば、死亡日の前日において、死亡日が含まれる月の前々月までの直近1年間に保険料の未納がなければよいことになっています"
+   },
+   {
+    "url": "https://www.nenkin.go.jp/service/jukyu/seido/izokunenkin/jukyu-yoken/20150401-04.html",
+    "quote": "保険料納付済期間、保険料免除期間および合算対象期間並びに65歳以降の厚生年金保険の被保険者期間を合算した期間が25年以上ある方に限ります"
+   },
+   {
+    "url": "https://www.nenkin.go.jp/service/jukyu/seido/izokunenkin/jukyu-yoken/20150401-04.html",
+    "quote": "子とは18歳になった年度の3月31日までにある方、または20歳未満で障害年金の障害等級1級または2級の状態にある方をさします"
+   },
+   {
+    "url": "https://www.nenkin.go.jp/service/jukyu/seido/izokunenkin/jukyu-yoken/20150401-04.html",
+    "quote": "子のある配偶者が遺族基礎年金を受け取っている間や、子に生計を同じくする父または母がいる間は、子には遺族基礎年金は支給されません"
+   },
+   {
+    "url": "https://www.nenkin.go.jp/service/jukyu/seido/sonota-kyufu/1go-dokuji/20140422-01.html",
+    "quote": "令和10年4月1日以後は生計を同じくする父または母がいる場合であっても、子は遺族基礎年金の支給を受けることができるようになります"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-10-21"
+ },
+ {
+  "id": "izoku-kosei-nenkin",
+  "name": "遺族厚生年金",
+  "reading": "いぞくこうせいねんきん",
+  "field": "A",
+  "importance": 3,
+  "short": "厚生年金の被保険者などが死亡したとき、その人に生計を維持されていた遺族のうち、最も優先順位の高い人に支給される年金。",
+  "detail": "受給要件は、①厚生年金保険の被保険者である間に死亡、②被保険者期間中に初診日がある病気やけがが原因で初診日から5年以内に死亡、③1級・2級の障害厚生（共済）年金を受けている方が死亡、④老齢厚生年金の受給資格を満たした方が死亡、のいずれか。遺族は、子のある配偶者、子、子のない配偶者、父母、孫、祖父母で、最も優先順位の高い方が受け取る。父母・祖父母は55歳以上に限り、受給開始は60歳から。子のない30歳未満の妻は5年間のみ受給できる。年金額は、死亡した方の老齢厚生年金の報酬比例部分の4分の3。",
+  "related": [
+   "izoku-kiso-nenkin",
+   "chukorei-kafu-kasan"
+  ],
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "日本年金機構 遺族厚生年金（受給要件・対象者・年金額）",
+    "url": "https://www.nenkin.go.jp/service/jukyu/seido/izokunenkin/jukyu-yoken/20150424.html"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.nenkin.go.jp/service/jukyu/seido/izokunenkin/jukyu-yoken/20150424.html",
+    "quote": "厚生年金保険の被保険者である間に死亡したとき厚生年金の被保険者期間に初診日がある病気やけがが原因で初診日から5年以内に死亡したとき1級・2級の障害厚生（共済）年金を受けとっている方が死亡したとき老齢厚生年金の受給資格を満たした方が死亡したとき"
+   },
+   {
+    "url": "https://www.nenkin.go.jp/service/jukyu/seido/izokunenkin/jukyu-yoken/20150424.html",
+    "quote": "死亡した方に生計を維持されていた以下の遺族のうち、最も優先順位の高い方が受け取ることができます"
+   },
+   {
+    "url": "https://www.nenkin.go.jp/service/jukyu/seido/izokunenkin/jukyu-yoken/20150424.html",
+    "quote": "子のない30歳未満の妻は、5年間のみ受給できます"
+   },
+   {
+    "url": "https://www.nenkin.go.jp/service/jukyu/seido/izokunenkin/jukyu-yoken/20150424.html",
+    "quote": "父母または祖父母は、55歳以上である方に限り受給できますが、受給開始は60歳からとなります"
+   },
+   {
+    "url": "https://www.nenkin.go.jp/service/jukyu/seido/izokunenkin/jukyu-yoken/20150424.html",
+    "quote": "遺族厚生年金の年金額は、死亡した方の老齢厚生年金の報酬比例部分の4分の3の額となります"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-10-21"
+ },
+ {
+  "id": "chukorei-kafu-kasan",
+  "name": "中高齢寡婦加算",
+  "reading": "ちゅうこうれいかふかさん",
+  "field": "A",
+  "importance": 2,
+  "short": "夫が死亡したときに40歳以上で子のない妻などが受ける遺族厚生年金に、40歳から65歳になるまでの間加算される給付。",
+  "detail": "遺族厚生年金（長期の遺族年金では、死亡した夫の被保険者期間が20年以上の場合）の加算給付の1つ。夫の死亡後40歳に達した当時に子がいた妻も含む。妻が65歳になると自分の老齢基礎年金が受けられるため、加算はなくなる。",
+  "related": [
+   "izoku-kosei-nenkin"
+  ],
+  "grades": [
+   2
+  ],
+  "sources": [
+   {
+    "title": "日本年金機構 年金用語集 中高齢寡婦加算",
+    "url": "https://www.nenkin.go.jp/service/yougo/tagyo/chukoreikafu.html"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.nenkin.go.jp/service/yougo/tagyo/chukoreikafu.html",
+    "quote": "死亡した夫の被保険者期間が20年以上の場合"
+   },
+   {
+    "url": "https://www.nenkin.go.jp/service/yougo/tagyo/chukoreikafu.html",
+    "quote": "夫が死亡したときに40歳以上で子のない妻（夫の死亡後40歳に達した当時、子がいた妻も含む）が受ける遺族厚生年金には、40歳から65歳になるまでの間、中高齢の寡婦加算（定額）が加算されます"
+   },
+   {
+    "url": "https://www.nenkin.go.jp/service/yougo/tagyo/chukoreikafu.html",
+    "quote": "妻が65歳になると自分の老齢基礎年金が受けられるため、中高齢の寡婦加算はなくなります"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-10-21"
+ },
+ {
+  "id": "kafu-nenkin",
+  "name": "寡婦年金",
+  "reading": "かふねんきん",
+  "field": "A",
+  "importance": 2,
+  "short": "国民年金の第1号被保険者としての保険料納付期間などが10年以上ある夫が亡くなったとき、婚姻期間10年以上の妻に60歳から65歳になるまで支給される年金。",
+  "detail": "死亡日の前日において第1号被保険者として保険料を納めた期間と保険料免除期間が10年以上ある夫が亡くなったとき、その夫と10年以上継続して婚姻関係（事実上の婚姻関係を含む）にあり、死亡当時に夫に生計を維持されていた妻に支給される。年金額は夫の第1号被保険者期間だけで計算した老齢基礎年金額の4分の3。亡くなった夫が老齢基礎年金・障害基礎年金を受けたことがあるとき、または妻が繰上げ支給の老齢基礎年金を受けているときは支給されない。死亡一時金とはどちらか一方の選択。",
+  "related": [
+   "shibo-ichijikin",
+   "izoku-kiso-nenkin"
+  ],
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "日本年金機構 寡婦年金",
+    "url": "https://www.nenkin.go.jp/service/jukyu/seido/sonota-kyufu/1go-dokuji/20140422-02.html"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.nenkin.go.jp/service/jukyu/seido/sonota-kyufu/1go-dokuji/20140422-02.html",
+    "quote": "死亡日の前日において国民年金の第1号被保険者として保険料を納めた期間および国民年金の保険料免除期間（※1）が10年以上（※2）ある夫が亡くなったときに、その夫と10年以上継続して婚姻関係（事実上の婚姻関係を含む）にあり、死亡当時にその夫に生計を維持されていた妻に対して、その妻が60歳から65歳になるまでの間支給されます"
+   },
+   {
+    "url": "https://www.nenkin.go.jp/service/jukyu/seido/sonota-kyufu/1go-dokuji/20140422-02.html",
+    "quote": "年金額は、夫の第1号被保険者期間だけで計算した老齢基礎年金額の4分の3の額です"
+   },
+   {
+    "url": "https://www.nenkin.go.jp/service/jukyu/seido/sonota-kyufu/1go-dokuji/20140422-02.html",
+    "quote": "亡くなった夫が、老齢基礎年金・障害基礎年金を受けたことがあるときは支給されません"
+   },
+   {
+    "url": "https://www.nenkin.go.jp/service/jukyu/seido/sonota-kyufu/1go-dokuji/20140422-02.html",
+    "quote": "妻が繰り上げ支給の老齢基礎年金を受けているときは支給されません"
+   },
+   {
+    "url": "https://www.nenkin.go.jp/service/jukyu/seido/sonota-kyufu/1go-dokuji/20140422-01.html",
+    "quote": "寡婦年金を受けられる場合は、どちらか一方を選択します"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-10-21"
+ },
+ {
+  "id": "shibo-ichijikin",
+  "name": "死亡一時金",
+  "reading": "しぼういちじきん",
+  "field": "A",
+  "importance": 2,
+  "short": "国民年金の第1号被保険者として保険料を納めた月数が36月以上ある人が、老齢基礎年金・障害基礎年金を受けないまま亡くなったとき、生計を同じくしていた遺族に支給される一時金。",
+  "detail": "保険料を納めた月数は、4分の3納付月数は4分の3月、半額納付月数は2分の1月、4分の1納付月数は4分の1月として計算する。遺族は配偶者、子、父母、孫、祖父母、兄弟姉妹の中で優先順位の高い方。額は保険料を納めた月数に応じて120,000円〜320,000円で、付加保険料を納めた月数が36月以上あるときは8,500円が加算される。遺族基礎年金の支給を受けられるときは支給されず、寡婦年金を受けられる場合はどちらか一方を選択する。",
+  "related": [
+   "kafu-nenkin",
+   "izoku-kiso-nenkin"
+  ],
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "日本年金機構 死亡一時金",
+    "url": "https://www.nenkin.go.jp/service/jukyu/seido/sonota-kyufu/1go-dokuji/20140422-01.html"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.nenkin.go.jp/service/jukyu/seido/sonota-kyufu/1go-dokuji/20140422-01.html",
+    "quote": "第1号被保険者として保険料を納めた月数（4分の3納付月数は4分の3月，半額納付月数は2分の1月，4分の1納付月数は4分の1月として計算）が36月以上ある方が、老齢基礎年金・障害基礎年金を受けないまま亡くなった時"
+   },
+   {
+    "url": "https://www.nenkin.go.jp/service/jukyu/seido/sonota-kyufu/1go-dokuji/20140422-01.html",
+    "quote": "死亡一時金の額は、保険料を納めた月数に応じて120,000円～320,000円です"
+   },
+   {
+    "url": "https://www.nenkin.go.jp/service/jukyu/seido/sonota-kyufu/1go-dokuji/20140422-01.html",
+    "quote": "付加保険料を納めた月数が36月以上ある場合は、8,500円が加算されます"
+   },
+   {
+    "url": "https://www.nenkin.go.jp/service/jukyu/seido/sonota-kyufu/1go-dokuji/20140422-01.html",
+    "quote": "遺族が、遺族基礎年金の支給を受けられるときは支給されません。寡婦年金を受けられる場合は、どちらか一方を選択します"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-10-21"
+ },
+ {
+  "id": "hokenryo-menjo",
+  "name": "国民年金保険料の免除・猶予",
+  "reading": "こくみんねんきんほけんりょうのめんじょ・ゆうよ",
+  "field": "A",
+  "importance": 3,
+  "short": "所得が少ないなどで保険料を納めるのが難しいときに、保険料の納付が免除・猶予される制度。",
+  "detail": "法定免除（障害基礎年金の受給者、生活保護の受給者など）と申請免除（全額・4分の3・半額・4分の1）、学生納付特例、50歳未満の納付猶予がある。免除・猶予を受けた期間は受給資格期間に算入されるが、免除期間は年金額に一部のみ反映される。猶予や学生納付特例の期間は年金額に反映されず、追納（過去10年以内の分）すると反映される。",
+  "related": [
+   "hihokensha-shubetsu",
+   "rorei-kiso-nenkin"
+  ],
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "日本FP協会 試験範囲（試験要綱）",
+    "url": "https://www.jafp.or.jp/exam/outline/"
+   }
+  ],
+  "evidence": [],
+  "reviewStatus": "draft",
+  "checkedAt": "2026-10-21",
+  "aliases": [
+   "保険料免除",
+   "追納"
+  ]
+ },
+ {
+  "id": "kokumin-nenkin-kikin",
+  "name": "国民年金基金",
+  "reading": "こくみんねんきんききん",
+  "field": "A",
+  "importance": 2,
+  "short": "国民年金の第1号被保険者などが、老齢基礎年金に上乗せして受け取る年金を準備するための公的な任意加入の制度。",
+  "detail": "加入できるのは第1号被保険者（農業者年金の被保険者などを除く）と任意加入被保険者。掛金の上限は月額68,000円で、個人型確定拠出年金（iDeCo）の掛金と合算して管理する。掛金は全額が社会保険料控除の対象。一度加入すると任意に脱退できない。",
+  "related": [
+   "ideco",
+   "fuka-nenkin"
+  ],
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "日本FP協会 試験範囲（試験要綱）",
+    "url": "https://www.jafp.or.jp/exam/outline/"
+   }
+  ],
+  "evidence": [],
+  "reviewStatus": "draft",
+  "checkedAt": "2026-10-21"
+ },
+ {
+  "id": "kigyogata-dc",
+  "name": "企業型確定拠出年金",
+  "reading": "きぎょうがたかくていきょしゅつねんきん",
+  "field": "A",
+  "importance": 2,
+  "short": "事業主が掛金を拠出し、従業員が運用商品を選んで運用する私的年金。",
+  "detail": "運用の成果によって将来の給付額が変わる（確定拠出）。掛金は事業主が拠出し、規約で定めれば加入者本人が上乗せして拠出（マッチング拠出）できる。原則60歳から受け取れるが、通算加入者等期間が短いと受給開始が遅くなる。転職時は年金資産を移換できる（ポータビリティ）。",
+  "related": [
+   "ideco"
+  ],
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "日本FP協会 試験範囲（試験要綱）",
+    "url": "https://www.jafp.or.jp/exam/outline/"
+   }
+  ],
+  "evidence": [],
+  "reviewStatus": "draft",
+  "checkedAt": "2026-10-21",
+  "aliases": [
+   "企業型DC"
+  ]
+ },
+ {
+  "id": "kaigo-hoken",
+  "name": "介護保険",
+  "reading": "かいごほけん",
+  "field": "A",
+  "importance": 3,
+  "short": "介護が必要になったときにサービスを受けられる、市町村（特別区）が保険者の社会保険。",
+  "detail": "被保険者は40歳以上の人。第1号被保険者は65歳以上、第2号被保険者は40歳以上65歳未満の医療保険加入者。第2号は、末期がんなど加齢に起因する特定疾病により要介護・要支援状態になった場合に限りサービスを受けられる。要介護1〜5が介護給付、要支援1・2が予防給付。自己負担は原則1割（所得に応じて2割・3割）。",
+  "related": [],
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "日本FP協会 試験範囲（試験要綱）",
+    "url": "https://www.jafp.or.jp/exam/outline/"
+   }
+  ],
+  "evidence": [],
+  "reviewStatus": "draft",
+  "checkedAt": "2026-10-21"
+ },
+ {
+  "id": "koyo-hoken",
+  "name": "雇用保険（基本手当）",
+  "reading": "こようほけん",
+  "field": "A",
+  "importance": 3,
+  "short": "失業したときに、再就職までの生活を支えるために支給される給付（基本手当）などを行う社会保険。",
+  "detail": "基本手当は、離職の日以前2年間に被保険者期間が通算12か月以上あること（倒産・解雇などの特定受給資格者等は離職の日以前1年間に通算6か月以上）が要件。給付日数は離職理由や被保険者期間、年齢で決まる。保険料は事業主と労働者が負担する。",
+  "related": [],
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "日本FP協会 試験範囲（試験要綱）",
+    "url": "https://www.jafp.or.jp/exam/outline/"
+   }
+  ],
+  "evidence": [],
+  "reviewStatus": "draft",
+  "checkedAt": "2026-10-21",
+  "aliases": [
+   "基本手当",
+   "失業給付"
+  ]
+ },
+ {
+  "id": "rosai-hoken",
+  "name": "労災保険",
+  "reading": "ろうさいほけん",
+  "field": "A",
+  "importance": 3,
+  "short": "業務上または通勤による労働者の負傷・疾病・障害・死亡に対して給付を行う社会保険。",
+  "detail": "正式名称は労働者災害補償保険。保険料は全額事業主が負担する。パート・アルバイトを含むすべての労働者が対象。業務災害と通勤災害の双方が対象。",
+  "related": [],
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "日本FP協会 試験範囲（試験要綱）",
+    "url": "https://www.jafp.or.jp/exam/outline/"
+   }
+  ],
+  "evidence": [],
+  "reviewStatus": "draft",
+  "checkedAt": "2026-10-21",
+  "aliases": [
+   "労働者災害補償保険"
+  ]
+ },
+ {
+  "id": "teiki-hoken",
+  "name": "定期保険",
+  "reading": "ていきほけん",
+  "field": "B",
+  "importance": 3,
+  "short": "保険期間を定め、その間に死亡・高度障害になったときだけ保険金が支払われる生命保険。",
+  "detail": "満期保険金がなく、解約返戻金も少ないか無い（いわゆる掛け捨て）ため、保険料が割安。保険金額が一定の平準定期、年々減る逓減定期、更新ごとに保険料が上がる更新型などがある。",
+  "related": [
+   "shushin-hoken",
+   "yoro-hoken"
+  ],
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "日本FP協会 試験範囲（試験要綱）",
+    "url": "https://www.jafp.or.jp/exam/outline/"
+   }
+  ],
+  "evidence": [],
+  "reviewStatus": "draft",
+  "checkedAt": "2026-10-21"
+ },
+ {
+  "id": "shushin-hoken",
+  "name": "終身保険",
+  "reading": "しゅうしんほけん",
+  "field": "B",
+  "importance": 3,
+  "short": "保障が一生涯続き、死亡・高度障害のときに保険金が支払われる生命保険。",
+  "detail": "解約返戻金があり、貯蓄性がある。保険料が一定の払込期間で払い込み終わる有期払込と、一生払う終身払いがある。払込期間が短いほど毎回の保険料は高いが、総支払額は小さくなる傾向。",
+  "related": [
+   "teiki-hoken",
+   "yoro-hoken"
+  ],
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "日本FP協会 試験範囲（試験要綱）",
+    "url": "https://www.jafp.or.jp/exam/outline/"
+   }
+  ],
+  "evidence": [],
+  "reviewStatus": "draft",
+  "checkedAt": "2026-10-21"
+ },
+ {
+  "id": "yoro-hoken",
+  "name": "養老保険",
+  "reading": "ようろうほけん",
+  "field": "B",
+  "importance": 3,
+  "short": "死亡・高度障害のときに支払われる保険金と、満期まで生存したときの満期保険金が同額の生命保険。",
+  "detail": "保険金額と満期保険金額が同額であるため、貯蓄性が高い。保険料は定期保険より高い。契約者が法人で、被保険者を役員・従業員全員、満期保険金受取人を法人、死亡保険金受取人を遺族とする「福利厚生プラン」では、保険料の2分の1を損金算入、残りを資産計上できる。",
+  "related": [
+   "teiki-hoken",
+   "shushin-hoken"
+  ],
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "日本FP協会 試験範囲（試験要綱）",
+    "url": "https://www.jafp.or.jp/exam/outline/"
+   }
+  ],
+  "evidence": [],
+  "reviewStatus": "draft",
+  "checkedAt": "2026-10-21"
+ },
+ {
+  "id": "hendo-hoken",
+  "name": "変額保険",
+  "reading": "へんどうほけん",
+  "field": "B",
+  "importance": 2,
+  "short": "保険料の運用実績に応じて、保険金額や解約返戻金が変動する生命保険。",
+  "detail": "運用リスクは契約者が負う。死亡保険金には基本保険金額の最低保証があるが、解約返戻金には最低保証がない。特別勘定（一般勘定とは別に運用される資産）で運用される。",
+  "related": [],
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "日本FP協会 試験範囲（試験要綱）",
+    "url": "https://www.jafp.or.jp/exam/outline/"
+   }
+  ],
+  "evidence": [],
+  "reviewStatus": "draft",
+  "checkedAt": "2026-10-21"
+ },
+ {
+  "id": "kojin-nenkin-hoken",
+  "name": "個人年金保険",
+  "reading": "こじんねんきんほけん",
+  "field": "B",
+  "importance": 3,
+  "short": "老後などに年金形式で受け取るための生命保険。",
+  "detail": "年金の受取方法により、確定年金（一定期間は生死にかかわらず支払う）、有期年金（生存している間、一定期間を限度に支払う）、終身年金（生存している限り一生涯支払う）に分かれる。税制適格特約を付けると、年金額の一定の要件を満たせば個人年金保険料控除の対象になる。",
+  "related": [
+   "seimei-hokenryo-kojo"
+  ],
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "日本FP協会 試験範囲（試験要綱）",
+    "url": "https://www.jafp.or.jp/exam/outline/"
+   }
+  ],
+  "evidence": [],
+  "reviewStatus": "draft",
+  "checkedAt": "2026-10-21"
+ },
+ {
+  "id": "hokenkin-kazei",
+  "name": "生命保険金等の課税関係",
+  "reading": "せいめいほけんきんとうのかぜいかんけい",
+  "field": "B",
+  "importance": 3,
+  "short": "死亡保険金や満期保険金にかかる税金は、保険料の負担者・被保険者・受取人の関係で決まる。",
+  "detail": "死亡保険金：契約者（保険料負担者）と被保険者が同じで受取人が別の人なら相続税、契約者と受取人が同じなら所得税（一時所得）、契約者・被保険者・受取人がすべて別人なら贈与税。満期保険金は、契約者と受取人が同じなら所得税（一時所得）、別人なら贈与税。",
+  "related": [
+   "shibo-hokenkin-hikazei",
+   "ichiji-shotoku",
+   "zoyozei-kiso-kojo"
+  ],
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "日本FP協会 試験範囲（試験要綱）",
+    "url": "https://www.jafp.or.jp/exam/outline/"
+   }
+  ],
+  "evidence": [],
+  "reviewStatus": "draft",
+  "checkedAt": "2026-10-21",
+  "aliases": [
+   "保険金の課税関係"
+  ]
+ },
+ {
+  "id": "hitsuyo-hosho-gaku",
+  "name": "必要保障額",
+  "reading": "ひつようほしょうがく",
+  "field": "B",
+  "importance": 3,
+  "short": "世帯主が死亡したとき、遺族の生活のために必要な保障の額。",
+  "detail": "必要保障額＝遺族に必要な生活費・教育費・葬儀費用などの支出の総額－遺族の収入見込み総額（遺族年金・配偶者の収入・既存の金融資産など）。この額が保険で備えるべき目安となる。",
+  "related": [
+   "teiki-hoken"
+  ],
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "日本FP協会 試験範囲（試験要綱）",
+    "url": "https://www.jafp.or.jp/exam/outline/"
+   }
+  ],
+  "evidence": [],
+  "reviewStatus": "draft",
+  "checkedAt": "2026-10-21",
+  "formula": {
+   "name": "必要保障額",
+   "tex": "\\text{必要保障額} = \\text{遺族に必要な支出の総額} - \\text{遺族の収入見込みの総額}"
+  }
+ },
+ {
+  "id": "risk-control-finance",
+  "name": "リスクコントロールとリスクファイナンス",
+  "reading": "りすくこんとろーるとりすくふぁいなんす",
+  "field": "B",
+  "importance": 2,
+  "short": "リスクへの対応を、発生や損失そのものを小さくする手段（コントロール）と、損失に備えて資金を用意する手段（ファイナンス）に分けて考える整理。",
+  "detail": "リスクコントロールには、回避（原因となる行動をやめる）、損失予防・軽減（事故を防ぐ・被害を小さくする）、分離・分散がある。リスクファイナンスには、保有（自己資金で負担）と移転（保険の加入など）がある。",
+  "related": [],
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "日本FP協会 試験範囲（試験要綱）",
+    "url": "https://www.jafp.or.jp/exam/outline/"
+   }
+  ],
+  "evidence": [],
+  "reviewStatus": "draft",
+  "checkedAt": "2026-10-21"
+ },
+ {
+  "id": "hoken-kagaku",
+  "name": "保険価額と保険金額",
+  "reading": "ほけんかがくとほけんきんがく",
+  "field": "B",
+  "importance": 2,
+  "short": "保険価額は保険の対象の価値（時価など）、保険金額は契約で定めた保険金の最高額。",
+  "detail": "保険金額が保険価額と等しい契約が全部保険、下回る契約が一部保険、上回る契約が超過保険。損害保険では実際の損害額を超えて保険金を受け取れない（利得禁止の原則）。一部保険では比例てん補によって保険金額と保険価額の比率に応じた保険金になる。",
+  "related": [
+   "hirei-tenpo"
+  ],
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "日本FP協会 試験範囲（試験要綱）",
+    "url": "https://www.jafp.or.jp/exam/outline/"
+   }
+  ],
+  "evidence": [],
+  "reviewStatus": "draft",
+  "checkedAt": "2026-10-21",
+  "aliases": [
+   "一部保険",
+   "全部保険",
+   "超過保険"
+  ]
+ },
+ {
+  "id": "hirei-tenpo",
+  "name": "比例てん補",
+  "reading": "ひれいてんぽ",
+  "field": "B",
+  "importance": 2,
+  "short": "保険金額が保険価額に満たないとき、損害額に保険金額と保険価額の比率をかけて保険金を支払う方式。",
+  "detail": "支払保険金＝損害額×（保険金額÷保険価額）。たとえば保険価額2,000万円の建物に保険金額1,000万円をかけ、損害額が400万円なら、400万円×（1,000万円÷2,000万円）＝200万円。火災保険などで約定付保割合（例：80％）を定めた契約では、保険価額×付保割合を基準に比例して計算する。",
+  "related": [
+   "hoken-kagaku"
+  ],
+  "grades": [
+   2
+  ],
+  "sources": [
+   {
+    "title": "日本FP協会 試験範囲（試験要綱）",
+    "url": "https://www.jafp.or.jp/exam/outline/"
+   }
+  ],
+  "evidence": [],
+  "reviewStatus": "draft",
+  "checkedAt": "2026-10-21",
+  "aliases": [
+   "比例払い"
+  ]
+ },
+ {
+  "id": "kojin-baisho-sekinin",
+  "name": "個人賠償責任保険",
+  "reading": "こじんばいしょうせきにんほけん",
+  "field": "B",
+  "importance": 2,
+  "short": "日常生活で他人にけがをさせたり、他人の物を壊したりして法律上の損害賠償責任を負ったときの損害を補償する保険。",
+  "detail": "火災保険や自動車保険の特約として付けられることが多い。同居の親族や、別居の未婚の子も被保険者に含まれる契約がある。他人から借りた物の損害は対象外の場合がある。",
+  "related": [],
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "日本FP協会 試験範囲（試験要綱）",
+    "url": "https://www.jafp.or.jp/exam/outline/"
+   }
+  ],
+  "evidence": [],
+  "reviewStatus": "draft",
+  "checkedAt": "2026-10-21"
+ },
+ {
+  "id": "jibaiseki-taijin",
+  "name": "自動車保険（対人賠償・対物賠償）",
+  "reading": "じどうしゃほけん",
+  "field": "B",
+  "importance": 2,
+  "short": "自動車事故の賠償責任や自分の車・搭乗者の損害を補償する任意保険。",
+  "detail": "対人賠償保険：他人を死傷させたときの賠償。対物賠償保険：他人の物を壊したときの賠償。人身傷害保険：契約車に乗っている人の死傷を過失割合にかかわらず補償。車両保険：自分の車の損害。自賠責保険（強制）で足りない分を任意保険で補う。",
+  "related": [
+   "jibaiseki"
+  ],
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "日本FP協会 試験範囲（試験要綱）",
+    "url": "https://www.jafp.or.jp/exam/outline/"
+   }
+  ],
+  "evidence": [],
+  "reviewStatus": "draft",
+  "checkedAt": "2026-10-21",
+  "aliases": [
+   "対人賠償保険",
+   "対物賠償保険",
+   "人身傷害保険"
+  ]
+ },
+ {
+  "id": "kinri-risk",
+  "name": "金利リスク（債券価格と金利）",
+  "reading": "きんりりすく",
+  "field": "C",
+  "importance": 3,
+  "short": "市場金利が変動すると債券の価格が逆方向に動くリスク。",
+  "detail": "市場金利が上昇すると既発債の価格は下落し、低下すると上昇する。残存期間が長い債券、表面利率が低い債券ほど価格の変動が大きい。満期まで保有すれば額面で償還されるため、償還までは価格変動の影響を受けない（発行体の信用リスクを除く）。",
+  "related": [
+   "saishu-rimawari",
+   "duration"
+  ],
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "日本FP協会 試験範囲（試験要綱）",
+    "url": "https://www.jafp.or.jp/exam/outline/"
+   }
+  ],
+  "evidence": [],
+  "reviewStatus": "draft",
+  "checkedAt": "2026-10-21",
+  "aliases": [
+   "債券価格と金利の関係"
+  ]
+ },
+ {
+  "id": "duration",
+  "name": "デュレーション",
+  "reading": "でゅれーしょん",
+  "field": "C",
+  "importance": 2,
+  "short": "債券投資の元本回収に要する平均的な期間を表し、金利変動に対する債券価格の感応度の目安となる指標。",
+  "detail": "他の条件が同じなら、満期までの期間が長いほど、表面利率が低いほどデュレーションは長くなり、金利変動に対する価格変動も大きくなる。割引債のデュレーションは残存期間と等しい。",
+  "related": [
+   "kinri-risk"
+  ],
+  "grades": [
+   2
+  ],
+  "sources": [
+   {
+    "title": "日本FP協会 試験範囲（試験要綱）",
+    "url": "https://www.jafp.or.jp/exam/outline/"
+   }
+  ],
+  "evidence": [],
+  "reviewStatus": "draft",
+  "checkedAt": "2026-10-21"
+ },
+ {
+  "id": "credit-risk",
+  "name": "信用リスク（債券）",
+  "reading": "しんようりすく",
+  "field": "C",
+  "importance": 2,
+  "short": "債券の発行体の財務状況悪化などにより、利息や元本が約束どおりに支払われないリスク。",
+  "detail": "格付機関が付与する格付が目安となる。一般に格付が低い債券ほど、リスクが高い分、利回りが高い。BBB（トリプルB）格相当以上が投資適格債とされる。",
+  "related": [],
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "日本FP協会 試験範囲（試験要綱）",
+    "url": "https://www.jafp.or.jp/exam/outline/"
+   }
+  ],
+  "evidence": [],
+  "reviewStatus": "draft",
+  "checkedAt": "2026-10-21",
+  "aliases": [
+   "デフォルトリスク",
+   "格付"
+  ]
+ },
+ {
+  "id": "shinyo-torihiki",
+  "name": "信用取引",
+  "reading": "しんようとりひき",
+  "field": "C",
+  "importance": 2,
+  "short": "証券会社に担保（委託保証金）を預けて、資金や株式を借りて行う株式取引。",
+  "detail": "買い建て（資金を借りて買う）と売り建て（株式を借りて売る）ができる。委託保証金は売買代金の30％以上かつ最低30万円が必要で、約3.3倍までの取引が可能。損失が保証金を上回る可能性がある。返済期限は最長6か月の制度信用と、期限を定める必要のない一般信用がある。",
+  "related": [],
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "日本FP協会 試験範囲（試験要綱）",
+    "url": "https://www.jafp.or.jp/exam/outline/"
+   }
+  ],
+  "evidence": [],
+  "reviewStatus": "draft",
+  "checkedAt": "2026-10-21",
+  "aliases": [
+   "委託保証金"
+  ]
+ },
+ {
+  "id": "nariyuki-sashine",
+  "name": "成行注文と指値注文",
+  "reading": "なりゆきちゅうもんとさしねちゅうもん",
+  "field": "C",
+  "importance": 3,
+  "short": "株式の売買注文の方法で、成行は価格を指定せず、指値は価格を指定する。",
+  "detail": "成行注文は約定しやすいが、価格は市場に左右される。指値注文は希望価格で売買できるが、約定しないことがある。注文の優先順位は、価格優先の原則（成行が最優先）→時間優先の原則。",
+  "related": [],
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "日本FP協会 試験範囲（試験要綱）",
+    "url": "https://www.jafp.or.jp/exam/outline/"
+   }
+  ],
+  "evidence": [],
+  "reviewStatus": "draft",
+  "checkedAt": "2026-10-21",
+  "aliases": [
+   "成行注文",
+   "指値注文"
+  ]
+ },
+ {
+  "id": "topix-nikkei",
+  "name": "日経平均株価とTOPIX",
+  "reading": "にっけいへいきんかぶかとといぴっくす",
+  "field": "C",
+  "importance": 3,
+  "short": "日本の株式市場全体の動きを表す代表的な株価指数。",
+  "detail": "日経平均株価は東京証券取引所プライム市場上場の代表的な225銘柄の株価を基にした株価平均型の指数で、株価の高い銘柄の影響を受けやすい。TOPIX（東証株価指数）は東京証券取引所に上場する銘柄の時価総額を基に算出する時価総額加重型の指数。",
+  "related": [],
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "日本FP協会 試験範囲（試験要綱）",
+    "url": "https://www.jafp.or.jp/exam/outline/"
+   }
+  ],
+  "evidence": [],
+  "reviewStatus": "draft",
+  "checkedAt": "2026-10-21",
+  "aliases": [
+   "日経平均",
+   "TOPIX",
+   "東証株価指数"
+  ]
+ },
+ {
+  "id": "toshi-shintaku",
+  "name": "投資信託",
+  "reading": "とうししんたく",
+  "field": "C",
+  "importance": 3,
+  "short": "多くの投資家から集めた資金を、運用の専門家が株式や債券などに分散投資し、成果を投資家に分配する金融商品。",
+  "detail": "運用方針により、株式投資信託（株式を組み入れることができる）と公社債投資信託（株式を組み入れない）に分かれる。基準価額は日々算出され、1口当たりの純資産価額。購入時手数料、運用管理費用（信託報酬）、信託財産留保額などのコストがかかる。",
+  "related": [
+   "shintaku-hoshu",
+   "etf",
+   "index-fund"
+  ],
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "日本FP協会 試験範囲（試験要綱）",
+    "url": "https://www.jafp.or.jp/exam/outline/"
+   }
+  ],
+  "evidence": [],
+  "reviewStatus": "draft",
+  "checkedAt": "2026-10-21",
+  "aliases": [
+   "投信",
+   "基準価額"
+  ]
+ },
+ {
+  "id": "shintaku-hoshu",
+  "name": "信託報酬",
+  "reading": "しんたくほうしゅう",
+  "field": "C",
+  "importance": 3,
+  "short": "投資信託を保有している間、信託財産から日々差し引かれる運用管理費用。",
+  "detail": "運用会社・販売会社・受託会社に配分される。純資産総額に対する年率で表示され、保有期間に応じて長期的に利回りを押し下げるため、投資信託を選ぶ際の重要な比較項目。購入時手数料や信託財産留保額とは別。",
+  "related": [
+   "toshi-shintaku"
+  ],
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "日本FP協会 試験範囲（試験要綱）",
+    "url": "https://www.jafp.or.jp/exam/outline/"
+   }
+  ],
+  "evidence": [],
+  "reviewStatus": "draft",
+  "checkedAt": "2026-10-21",
+  "aliases": [
+   "運用管理費用"
+  ]
+ },
+ {
+  "id": "etf",
+  "name": "ETF（上場投資信託）",
+  "reading": "いーてぃーえふ",
+  "field": "C",
+  "importance": 3,
+  "short": "株価指数などに連動することを目指して、金融商品取引所に上場している投資信託。",
+  "detail": "上場株式と同様に、指値・成行注文や信用取引ができ、取引時間中に市場価格で売買できる。日経平均株価やTOPIXなどに連動するもののほか、海外の指数や商品指数に連動するものもある。信託報酬が通常の投資信託より低い傾向。",
+  "related": [
+   "toshi-shintaku",
+   "j-reit"
+  ],
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "日本FP協会 試験範囲（試験要綱）",
+    "url": "https://www.jafp.or.jp/exam/outline/"
+   }
+  ],
+  "evidence": [],
+  "reviewStatus": "draft",
+  "checkedAt": "2026-10-21",
+  "aliases": [
+   "上場投資信託"
+  ]
+ },
+ {
+  "id": "j-reit",
+  "name": "J-REIT（不動産投資信託）",
+  "reading": "じぇいりーと",
+  "field": "C",
+  "importance": 3,
+  "short": "投資家から集めた資金で不動産に投資し、賃料収入や売却益を分配する、証券取引所に上場している投資信託。",
+  "detail": "上場株式と同様に市場で売買できる。分配金は配当所得として扱われる。不動産の価格や賃料、金利、不動産市況の影響を受ける。分配金を投資家に分配すると、一定の要件のもとで法人税が課されない仕組みがある。",
+  "related": [
+   "etf"
+  ],
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "日本FP協会 試験範囲（試験要綱）",
+    "url": "https://www.jafp.or.jp/exam/outline/"
+   }
+  ],
+  "evidence": [],
+  "reviewStatus": "draft",
+  "checkedAt": "2026-10-21",
+  "aliases": [
+   "REIT",
+   "リート",
+   "不動産投資信託"
+  ]
+ },
+ {
+  "id": "index-fund",
+  "name": "インデックスファンドとアクティブファンド",
+  "reading": "いんでっくすふぁんど",
+  "field": "C",
+  "importance": 3,
+  "short": "株価指数などのベンチマークに連動する運用を目指すのがインデックスファンド、ベンチマークを上回る運用成果を目指すのがアクティブファンド。",
+  "detail": "インデックスファンドは運用コストが低い傾向。アクティブファンドは運用者の調査・判断で銘柄選択を行うため、成果にばらつきがあり、信託報酬が高い傾向。",
+  "related": [
+   "toshi-shintaku"
+  ],
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "日本FP協会 試験範囲（試験要綱）",
+    "url": "https://www.jafp.or.jp/exam/outline/"
+   }
+  ],
+  "evidence": [],
+  "reviewStatus": "draft",
+  "checkedAt": "2026-10-21",
+  "aliases": [
+   "インデックスファンド",
+   "アクティブファンド",
+   "パッシブ運用",
+   "アクティブ運用"
+  ]
+ },
+ {
+  "id": "dollar-cost",
+  "name": "ドルコスト平均法",
+  "reading": "どるこすとへいきんほう",
+  "field": "C",
+  "importance": 3,
+  "short": "価格が変動する金融商品を、一定の金額で定期的に購入する方法。",
+  "detail": "価格が高いときは少なく、安いときは多く買うことになるため、平均購入単価を平準化する効果が期待できる。ただし、損失を防ぐ手法ではなく、価格が一方向に下がり続けると含み損が生じる。",
+  "related": [],
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "日本FP協会 試験範囲（試験要綱）",
+    "url": "https://www.jafp.or.jp/exam/outline/"
+   }
+  ],
+  "evidence": [],
+  "reviewStatus": "draft",
+  "checkedAt": "2026-10-21",
+  "aliases": [
+   "ドル・コスト平均法",
+   "ドルコスト",
+   "定時定額購入"
+  ]
+ },
+ {
+  "id": "asset-allocation",
+  "name": "アセットアロケーション",
+  "reading": "あせっとあろけーしょん",
+  "field": "C",
+  "importance": 3,
+  "short": "投資資金を、株式・債券・不動産・現預金などの資産クラスにどのような比率で配分するかを決めること。",
+  "detail": "長期の運用成果の大部分は、個別銘柄の選択よりも資産配分で決まるとされる。相関が低い資産を組み合わせると、ポートフォリオ全体のリスクを抑えられる（分散効果）。",
+  "related": [
+   "sokan-keisu",
+   "portfolio"
+  ],
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "日本FP協会 試験範囲（試験要綱）",
+    "url": "https://www.jafp.or.jp/exam/outline/"
+   }
+  ],
+  "evidence": [],
+  "reviewStatus": "draft",
+  "checkedAt": "2026-10-21",
+  "aliases": [
+   "資産配分"
+  ]
+ },
+ {
+  "id": "portfolio",
+  "name": "ポートフォリオ（期待収益率とリスク）",
+  "reading": "ぽーとふぉりお",
+  "field": "C",
+  "importance": 2,
+  "short": "複数の資産を組み合わせた投資の組合せ。期待収益率は構成資産の期待収益率の加重平均、リスクは標準偏差で表す。",
+  "detail": "ポートフォリオの期待収益率＝Σ（各資産の組入比率×期待収益率）。標準偏差は、資産間の相関係数が1より小さいほど、構成資産の標準偏差の加重平均より小さくなる。標準偏差が大きいほど収益のばらつきが大きく、リスクが高い。",
+  "related": [
+   "sokan-keisu",
+   "sharpe-ratio",
+   "asset-allocation"
+  ],
+  "grades": [
+   2
+  ],
+  "sources": [
+   {
+    "title": "日本FP協会 試験範囲（試験要綱）",
+    "url": "https://www.jafp.or.jp/exam/outline/"
+   }
+  ],
+  "evidence": [],
+  "reviewStatus": "draft",
+  "checkedAt": "2026-10-21",
+  "aliases": [
+   "標準偏差",
+   "期待収益率"
+  ]
+ },
+ {
+  "id": "beta",
+  "name": "ベータ値",
+  "reading": "べーたち",
+  "field": "C",
+  "importance": 2,
+  "short": "市場全体の収益率の変動に対して、個別銘柄やポートフォリオの収益率がどれだけ変動するかを示す指標。",
+  "detail": "ベータが1なら市場と同じ動き、1より大きければ市場より大きく、1より小さければ市場より小さく変動する。CAPM（資本資産評価モデル）では、期待収益率＝無リスク資産利子率＋ベータ×（市場の期待収益率－無リスク資産利子率）。",
+  "related": [
+   "sharpe-ratio"
+  ],
+  "grades": [
+   2
+  ],
+  "sources": [
+   {
+    "title": "日本FP協会 試験範囲（試験要綱）",
+    "url": "https://www.jafp.or.jp/exam/outline/"
+   }
+  ],
+  "evidence": [],
+  "reviewStatus": "draft",
+  "checkedAt": "2026-10-21",
+  "aliases": [
+   "β",
+   "CAPM"
+  ]
+ },
+ {
+  "id": "gaika-yokin",
+  "name": "外貨預金",
+  "reading": "がいかよきん",
+  "field": "C",
+  "importance": 3,
+  "short": "米ドルなどの外貨で預け入れる預金。",
+  "detail": "為替レートの変動により、円換算の元本割れ（為替差損）が生じるリスクがある。預金保険制度の対象外。為替差益は雑所得として総合課税、利息は源泉分離課税の対象。預入時は円を外貨に換えるTTS、払戻時は外貨を円に換えるTTBが適用される。",
+  "related": [
+   "tts-ttb",
+   "yokin-hoken"
+  ],
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "日本FP協会 試験範囲（試験要綱）",
+    "url": "https://www.jafp.or.jp/exam/outline/"
+   }
+  ],
+  "evidence": [],
+  "reviewStatus": "draft",
+  "checkedAt": "2026-10-21",
+  "aliases": [
+   "外貨建て預金"
+  ]
+ },
+ {
+  "id": "ttm",
+  "name": "TTM（仲値）",
+  "reading": "てぃーてぃーえむ",
+  "field": "C",
+  "importance": 2,
+  "short": "金融機関が、為替の売買に適用する基準となる為替レート（仲値）。",
+  "detail": "TTS（顧客が外貨を買う＝円を外貨に換えるときのレート）は仲値に手数料を上乗せした価格、TTB（顧客が外貨を売る＝外貨を円に換えるときのレート）は仲値から手数料を差し引いた価格。TTS＞TTM＞TTB。",
+  "related": [
+   "tts-ttb",
+   "gaika-yokin"
+  ],
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "日本FP協会 試験範囲（試験要綱）",
+    "url": "https://www.jafp.or.jp/exam/outline/"
+   }
+  ],
+  "evidence": [],
+  "reviewStatus": "draft",
+  "checkedAt": "2026-10-21",
+  "aliases": [
+   "仲値"
+  ]
+ },
+ {
+  "id": "kinsho-ho",
+  "name": "金融商品取引法",
+  "reading": "きんゆうしょうひんとりひきほう",
+  "field": "C",
+  "importance": 2,
+  "short": "株式、債券、投資信託、デリバティブなど幅広い金融商品の取引について、投資者保護のための販売・勧誘ルールなどを定めた法律。",
+  "detail": "金融商品取引業者は、契約前の書面交付、適合性の原則（顧客の知識・経験・財産状況・目的に適合した勧誘）、断定的判断の提供の禁止、損失補填の禁止などを守る必要がある。",
+  "related": [
+   "kinyu-hanbai-ho"
+  ],
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "日本FP協会 試験範囲（試験要綱）",
+    "url": "https://www.jafp.or.jp/exam/outline/"
+   }
+  ],
+  "evidence": [],
+  "reviewStatus": "draft",
+  "checkedAt": "2026-10-21",
+  "aliases": [
+   "金商法"
+  ]
+ },
+ {
+  "id": "kinyu-hanbai-ho",
+  "name": "金融サービス提供法",
+  "reading": "きんゆうさーびすていきょうほう",
+  "field": "C",
+  "importance": 2,
+  "short": "金融商品の販売時に、販売業者に重要事項の説明義務を課し、説明義務違反があったときの損害賠償責任を定めた法律。",
+  "detail": "正式名称は「金融サービスの提供に関する法律」。元本欠損が生じるおそれがあることなどの重要事項を説明しなかった場合、損害額が推定される。顧客が理解できる方法・程度の説明が必要で、顧客が説明を要しない意思を表明したときなどは除外される。",
+  "related": [
+   "kinsho-ho",
+   "shohisha-keiyaku-ho"
+  ],
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "日本FP協会 試験範囲（試験要綱）",
+    "url": "https://www.jafp.or.jp/exam/outline/"
+   }
+  ],
+  "evidence": [],
+  "reviewStatus": "draft",
+  "checkedAt": "2026-10-21",
+  "aliases": [
+   "金融サービスの提供に関する法律",
+   "金販法"
+  ]
+ },
+ {
+  "id": "shohisha-keiyaku-ho",
+  "name": "消費者契約法",
+  "reading": "しょうひしゃけいやくほう",
+  "field": "C",
+  "importance": 2,
+  "short": "事業者と消費者の契約について、事業者の不適切な勧誘による契約を消費者が取り消せるなど、消費者を保護する法律。",
+  "detail": "不実告知、断定的判断の提供、不利益事実の不告知などによって誤認した場合、また、不退去・退去妨害などで困惑した場合に、契約を取り消すことができる。取消権は、追認できるときから1年（契約締結から5年）で時効消滅する。消費者に一方的に不利な条項は無効となる。",
+  "related": [
+   "kinyu-hanbai-ho"
+  ],
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "日本FP協会 試験範囲（試験要綱）",
+    "url": "https://www.jafp.or.jp/exam/outline/"
+   }
+  ],
+  "evidence": [],
+  "reviewStatus": "draft",
+  "checkedAt": "2026-10-21"
+ },
+ {
+  "id": "toshisha-hogo-kikin",
+  "name": "日本投資者保護基金",
+  "reading": "にほんとうししゃほごききん",
+  "field": "C",
+  "importance": 2,
+  "short": "証券会社が破綻して、顧客の資産が返還されない場合に、一定額まで補償する制度。",
+  "detail": "補償の対象は証券会社が分別管理している顧客の資産。補償限度額は1顧客あたり1,000万円。銀行で購入した投資信託や、保険会社の変額保険などは対象外（それぞれの制度で保護の範囲が異なる）。",
+  "related": [
+   "yokin-hoken"
+  ],
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "日本FP協会 試験範囲（試験要綱）",
+    "url": "https://www.jafp.or.jp/exam/outline/"
+   }
+  ],
+  "evidence": [],
+  "reviewStatus": "draft",
+  "checkedAt": "2026-10-21"
+ },
+ {
+  "id": "tokutei-koza",
+  "name": "特定口座と一般口座",
+  "reading": "とくていこうざといっぱんこうざ",
+  "field": "C",
+  "importance": 3,
+  "short": "上場株式や投資信託の譲渡益・配当の税金計算の方法による口座の種類。",
+  "detail": "特定口座（源泉徴収あり）は証券会社が年間の損益を計算して源泉徴収まで行うため、原則として確定申告が不要。特定口座（源泉徴収なし）と一般口座は自分で確定申告する。譲渡益・配当にかかる税率は合計20.315％（所得税15.315％、住民税5％）。",
+  "related": [
+   "nisa",
+   "joto-sonshitsu-kurikoshi"
+  ],
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "日本FP協会 試験範囲（試験要綱）",
+    "url": "https://www.jafp.or.jp/exam/outline/"
+   }
+  ],
+  "evidence": [],
+  "reviewStatus": "draft",
+  "checkedAt": "2026-10-21",
+  "aliases": [
+   "特定口座",
+   "一般口座",
+   "源泉徴収あり"
+  ]
+ },
+ {
+  "id": "joto-sonshitsu-kurikoshi",
+  "name": "上場株式等の譲渡損失の繰越控除",
+  "reading": "じょうじょうかぶしきとうのじょうとそんしつのくりこしこうじょ",
+  "field": "C",
+  "importance": 2,
+  "short": "上場株式等を売って損失が出たとき、確定申告をすることで翌年以後3年間にわたり繰り越して控除できる制度。",
+  "detail": "損失を出した年に確定申告をし、その後も連続して確定申告をする必要がある。同じ年の上場株式等の譲渡益や配当所得（申告分離課税を選択したもの）と通算できる。NISA口座での損失は対象外。",
+  "related": [
+   "tokutei-koza",
+   "sonneki-tsusan"
+  ],
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "日本FP協会 試験範囲（試験要綱）",
+    "url": "https://www.jafp.or.jp/exam/outline/"
+   }
+  ],
+  "evidence": [],
+  "reviewStatus": "draft",
+  "checkedAt": "2026-10-21",
+  "aliases": [
+   "譲渡損失の繰越控除"
+  ]
+ },
+ {
+  "id": "shotoku-10shu",
+  "name": "所得の10種類",
+  "reading": "しょとくの10しゅるい",
+  "field": "D",
+  "importance": 3,
+  "short": "所得税の所得は、性質により10種類に区分され、それぞれ計算方法が異なる。",
+  "detail": "利子所得・配当所得・不動産所得・事業所得・給与所得・退職所得・山林所得・譲渡所得・一時所得・雑所得の10種類。総合課税の対象は、このうち分離課税とされるものを除く所得。",
+  "related": [
+   "ichiji-shotoku",
+   "taishoku-shotoku"
+  ],
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "日本FP協会 試験範囲（試験要綱）",
+    "url": "https://www.jafp.or.jp/exam/outline/"
+   }
+  ],
+  "evidence": [],
+  "reviewStatus": "draft",
+  "checkedAt": "2026-10-21",
+  "aliases": [
+   "所得の種類",
+   "10種類の所得"
+  ]
+ },
+ {
+  "id": "sogo-bunri-kazei",
+  "name": "総合課税と分離課税",
+  "reading": "そうごうかぜいとぶんりかぜい",
+  "field": "D",
+  "importance": 3,
+  "short": "総合課税は所得を合計して累進税率で課税する方式、分離課税は他の所得と分けて別の税率で課税する方式。",
+  "detail": "分離課税には申告分離課税（上場株式等の譲渡所得、土地建物等の譲渡所得、退職所得など）と源泉分離課税（預貯金の利子など）がある。源泉分離課税は源泉徴収だけで納税が完結する。",
+  "related": [
+   "shotokuzei-sokusan"
+  ],
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "日本FP協会 試験範囲（試験要綱）",
+    "url": "https://www.jafp.or.jp/exam/outline/"
+   }
+  ],
+  "evidence": [],
+  "reviewStatus": "draft",
+  "checkedAt": "2026-10-21",
+  "aliases": [
+   "総合課税",
+   "分離課税",
+   "申告分離課税",
+   "源泉分離課税"
+  ]
+ },
+ {
+  "id": "fukko-tokubetsu-shotokuzei",
+  "name": "復興特別所得税",
+  "reading": "ふっこうとくべつしょとくぜい",
+  "field": "D",
+  "importance": 2,
+  "short": "東日本大震災からの復興財源のため、所得税と併せて申告・納付する税。原則としてその年分の基準所得税額の2.1％。",
+  "detail": "平成25年から令和29年までの各年分の確定申告では、所得税と復興特別所得税（原則としてその年分の基準所得税額の2.1％）を併せて申告・納付する。令和8年度税制改正により、令和9年以後は防衛特別所得税が創設され、復興特別所得税の税率の引下げと課税期間の延長が行われる（改正前と改正後で、防衛特別所得税と復興特別所得税の合計税率に変更はない）。",
+  "related": [
+   "tokutei-koza"
+  ],
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "国税庁 No.2260 所得税の税率",
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2260.htm"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2260.htm",
+    "quote": "平成25年から令和29年までの各年分の確定申告においては、所得税と復興特別所得税（原則としてその年分の基準所得税額の2.1パーセント）を併せて申告・納付することとなります"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2260.htm",
+    "quote": "令和8年度税制改正により、防衛特別所得税の創設ならびに復興特別所得税の税率の引下げおよび課税期間の延長が行われ、令和9年以後に適用されます（改正前と改正後とで、防衛特別所得税及び復興特別所得税の合計税率に変更はありません。）"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-10-21"
+ },
+ {
+  "id": "zatsu-shotoku",
+  "name": "公的年金等の雑所得",
+  "reading": "こうてきねんきんとうのざっしょとく",
+  "field": "D",
+  "importance": 3,
+  "short": "公的年金等は雑所得となり、年金の収入金額から公的年金等控除額を差し引いて所得金額を計算する。",
+  "detail": "雑所得となる主な公的年金等は、国民年金法・厚生年金保険法・公務員等の共済組合法などの規定による年金、過去の勤務により会社などから支払われる年金、確定給付企業年金法に基づく年金など。生命保険契約や生命共済契約に基づく年金、互助年金などは公的年金等に該当しない。",
+  "related": [
+   "kyuyo-shotoku-kojo"
+  ],
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "国税庁 No.1600 公的年金等の課税関係",
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1600.htm"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1600.htm",
+    "quote": "公的年金等は、年金の収入金額から公的年金等控除額を差し引いて所得金額を計算します"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1600.htm",
+    "quote": "国民年金法、厚生年金保険法、公務員等の共済組合法などの規定による年金"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1600.htm",
+    "quote": "生命保険契約や生命共済契約に基づく年金、互助年金などは公的年金等には該当しません"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-10-21",
+  "aliases": [
+   "公的年金等控除",
+   "雑所得"
+  ]
+ },
+ {
+  "id": "shakai-hoken-ryo-kojo",
+  "name": "社会保険料控除",
+  "reading": "しゃかいほけんりょうこうじょ",
+  "field": "D",
+  "importance": 3,
+  "short": "本人や生計を一にする配偶者・親族の負担すべき社会保険料を支払ったときの所得控除。",
+  "detail": "控除できる金額は、その年に実際に支払った金額（給与や公的年金から差し引かれた金額を含む）の全額。国民年金の保険料や国民年金基金の掛金も対象で、生計を一にする配偶者その他の親族の負担すべき保険料を支払った場合は、支払った人が控除を受ける。",
+  "related": [
+   "kokumin-nenkin-kikin"
+  ],
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "国税庁 No.1130 社会保険料控除",
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1130.htm"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1130.htm",
+    "quote": "生計を一にする配偶者やその他の親族の負担すべき社会保険料を支払った場合には、その支払った金額について所得控除を受けることができます"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1130.htm",
+    "quote": "控除できる金額は、その年に実際に支払った金額または給与や公的年金から差し引かれた金額の全額です"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1130.htm",
+    "quote": "国民年金の保険料および国民年金基金の掛金に係る社会保険料控除"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-10-21"
+ },
+ {
+  "id": "kifukin-kojo",
+  "name": "寄附金控除（ふるさと納税）",
+  "reading": "きふきんこうじょ",
+  "field": "D",
+  "importance": 2,
+  "short": "国や地方公共団体、特定公益増進法人などへの「特定寄附金」を支出したときの所得控除。ふるさと納税もこの仕組みを使う。",
+  "detail": "所得控除の対象となる寄附金の額は、総所得金額等の40％が上限。ふるさと納税は、寄附額のうち2,000円を超える部分が所得税および個人住民税から控除される。確定申告が不要な給与所得者は、ふるさと納税先が5団体以内ならワンストップ特例制度で申告を省略できる。確定申告をする場合は、ワンストップ特例の申請が無効となるため、その分も含めて寄附金控除額を計算する。",
+  "related": [],
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "国税庁 No.1150 一定の寄附金を支払ったとき（寄附金控除）",
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1150.htm"
+   },
+   {
+    "title": "国税庁 No.1155 ふるさと納税（寄附金控除）",
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1155.htm"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1150.htm",
+    "quote": "納税者が国や地方公共団体、特定公益増進法人などに対し、「特定寄附金」を支出した場合には、所得控除を受けることができます"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1155.htm",
+    "quote": "ふるさと納税は、ご自身の選んだ自治体に対して寄附を行った場合に、寄附額のうち2,000円を超える部分について、所得税および個人住民税からそれぞれ控除が受けられる制度"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1155.htm",
+    "quote": "所得控除の対象となる寄附金の額は、総所得金額等の40％が上限です"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1155.htm",
+    "quote": "ふるさと納税先が5団体以内の場合に限り、ふるさと納税先団体に申請することにより、この寄附金控除を受けることができます"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1155.htm",
+    "quote": "確定申告を行う方は、ふるさと納税ワンストップ特例の申請が無効となるため"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-10-21",
+  "aliases": [
+   "ふるさと納税"
+  ]
+ },
+ {
+  "id": "zasson-kojo",
+  "name": "雑損控除",
+  "reading": "ざっそんこうじょ",
+  "field": "D",
+  "importance": 2,
+  "short": "災害・盗難・横領によって、生活に通常必要な資産に損害を受けたときの所得控除。",
+  "detail": "控除額は次の(1)と(2)のうち多い方。(1)（損害金額＋災害等関連支出の金額－保険金等の額）－総所得金額等×10％、(2)（災害関連支出の金額－保険金等の額）－5万円。控除しきれない金額は翌年以後3年間にわたり繰り越せる（東日本大震災や令和5年4月1日以後に発生する特定非常災害による損失額は5年間）。別荘など生活に通常必要でない資産は対象にならない。",
+  "related": [
+   "iryohi-kojo"
+  ],
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "国税庁 No.1110 災害や盗難などにあったとき（雑損控除）",
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1110.htm"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1110.htm",
+    "quote": "災害または盗難もしくは横領によって、下記の「雑損控除の対象になる資産の要件」にあてはまる資産について損害を受けた場合には、一定の金額の所得控除を受けることができます"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1110.htm",
+    "quote": "（1)（損害金額+災害等関連支出の金額-保険金等の額）-（総所得金額等）×10％（2)（災害関連支出の金額-保険金等の額）-5万円"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1110.htm",
+    "quote": "控除しきれない場合には、翌年以後3年間(東日本大震災又は令和5年4月1日以後に発生する特定非常災害により生じた損失額については、5年間)に繰り越して"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1110.htm",
+    "quote": "「生活に通常必要でない資産」とは、例えば、別荘など"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-10-21"
+ },
+ {
+  "id": "kakutei-shinkoku",
+  "name": "確定申告と年末調整",
+  "reading": "かくていしんこくとねんまつちょうせい",
+  "field": "D",
+  "importance": 3,
+  "short": "確定申告は自分で所得と税額を計算して申告・納付する手続き、年末調整は給与の支払者が行う所得税額の精算。",
+  "detail": "大部分の給与所得者は、給与の支払者が行う年末調整によって所得税額が確定し納税も完了するため、確定申告は不要。ただし、給与の年間収入金額が2,000万円を超える人や、給与を1か所から受けていて給与所得・退職所得以外の各種の所得金額の合計額が20万円を超える人などは確定申告が必要。申告の期間は原則として翌年2月16日から3月15日まで。",
+  "related": [],
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "国税庁 No.1900 給与所得者で確定申告が必要な人",
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1900.htm"
+   },
+   {
+    "title": "国税庁 No.2020 確定申告",
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2020.htm"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1900.htm",
+    "quote": "大部分の給与所得者の方は、給与の支払者が行う年末調整によって所得税額が確定し、納税も完了しますから、確定申告の必要はありません"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1900.htm",
+    "quote": "給与の年間収入金額が2,000万円を超える人"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1900.htm",
+    "quote": "各種の所得金額（給与所得、退職所得を除く。）の合計額が20万円を超える人"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2020.htm",
+    "quote": "原則として、その年の翌年2月16日から3月15日までです"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-10-21",
+  "aliases": [
+   "確定申告",
+   "年末調整"
+  ]
+ },
+ {
+  "id": "jutaku-loan-kojo",
+  "name": "住宅借入金等特別控除",
+  "reading": "じゅうたくかりいれきんとうとくべつこうじょ",
+  "field": "D",
+  "importance": 3,
+  "short": "住宅ローンを利用して住宅を取得・増改築したときに、年末のローン残高に応じて所得税額から控除できる制度（住宅ローン控除）。",
+  "detail": "控除額は年末残高に控除率（0.7％）を乗じた額で、所得税から控除しきれない分は住民税から控除できる（上限あり）。控除期間・借入限度額は住宅の種類（省エネ性能など）や入居時期で異なる。合計所得金額が2,000万円以下などの要件があり、初年度は確定申告、2年目以降は年末調整で手続きできる。",
+  "related": [
+   "kakutei-shinkoku"
+  ],
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "日本FP協会 試験範囲（試験要綱）",
+    "url": "https://www.jafp.or.jp/exam/outline/"
+   }
+  ],
+  "evidence": [],
+  "reviewStatus": "draft",
+  "checkedAt": "2026-10-21",
+  "aliases": [
+   "住宅ローン控除",
+   "住宅ローン減税"
+  ]
+ },
+ {
+  "id": "shohizei",
+  "name": "消費税の税率",
+  "reading": "しょうひぜいのぜいりつ",
+  "field": "D",
+  "importance": 2,
+  "short": "消費税は消費税と地方消費税の合計で、標準税率10％と軽減税率8％の複数税率になっている。",
+  "detail": "標準税率10％は消費税率7.8％と地方消費税率2.2％の合計、軽減税率8％は消費税率6.24％と地方消費税率1.76％の合計。軽減税率の対象は、飲食料品の譲渡（酒類と外食を除く）と、定期購読契約が締結された週2回以上発行される新聞の譲渡。令和9年4月1日から令和11年3月31日までの2年間は、飲食料品の譲渡について消費税率が引き下げられる。",
+  "related": [
+   "kani-kazei",
+   "invoice"
+  ],
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "国税庁 No.6303 消費税および地方消費税の税率",
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6303.htm"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6303.htm",
+    "quote": "消費者が負担する消費税は、消費税および地方消費税の合計額であり、標準税率10パーセントと軽減税率8パーセントの複数税率になっています"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6303.htm",
+    "quote": "消費税率7.8パーセント6.24パーセント地方消費税率2.2パーセント（消費税額の22/78）1.76パーセント（消費税額の22/78）合計10パーセント8パーセント"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6303.htm",
+    "quote": "飲食料品の譲渡（食品表示法に規定する食品（酒税法に規定する酒類を除きます。）の譲渡をいい、外食を含みません。）2定期購読契約が締結された週2回以上発行される新聞の譲渡"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6303.htm",
+    "quote": "令和9年4月1日から令和11年3月31日までの2年間、飲食料品の譲渡について、消費税率が引き下げられます"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-10-21",
+  "aliases": [
+   "消費税",
+   "軽減税率"
+  ]
+ },
+ {
+  "id": "kani-kazei",
+  "name": "簡易課税制度",
+  "reading": "かんいかぜいせいど",
+  "field": "D",
+  "importance": 2,
+  "short": "中小事業者の納税事務負担に配慮し、売上げに係る消費税額を基礎として仕入れに係る消費税額を算出できる制度。",
+  "detail": "「消費税簡易課税制度選択届出書」を提出した課税事業者が、基準期間（個人事業者は前々年、法人は原則として前々事業年度）の課税売上高が5,000万円以下の課税期間に、売上げに係る消費税額に事業区分ごとのみなし仕入率を乗じた額を仕入れに係る消費税額とする。みなし仕入率は、第1種（卸売業）90％、第2種（小売業など）80％、第3種（農林漁業・鉱業・建設業・製造業など）70％、第4種（その他）60％、第5種（運輸通信業・金融保険業・サービス業など）50％、第6種（不動産業）40％。令和9年4月1日からの飲食料品の消費税率引下げに当たり、飲食料品の譲渡を行う事業者を対象に、計算方法の特例が設けられる。",
+  "related": [
+   "shohizei"
+  ],
+  "grades": [
+   2
+  ],
+  "sources": [
+   {
+    "title": "国税庁 No.6505 簡易課税制度",
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6505.htm"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6505.htm",
+    "quote": "簡易課税制度は、中小事業者の納税事務負担に配慮する観点から、事業者の選択により、売上げに係る消費税額を基礎として仕入れに係る消費税額を算出することができる制度です"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6505.htm",
+    "quote": "基準期間（個人事業者は前々年、法人は原則として前々事業年度）における課税売上高が5,000万円以下の課税期間について"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6505.htm",
+    "quote": "「消費税簡易課税制度選択届出書」を提出した課税事業者は"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6505.htm",
+    "quote": "第1種事業（卸売業）90％"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6505.htm",
+    "quote": "第2種事業（小売業、農業・林業・漁業（飲食料品の譲渡に係る事業に限る））80％"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6505.htm",
+    "quote": "第3種事業（農業・林業・漁業（飲食料品の譲渡に係る事業を除く）、鉱業、建設業、製造業、電気業、ガス業、熱供給業および水道業）70％"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6505.htm",
+    "quote": "第4種事業（第1種事業、第2種事業、第3種事業、第5種事業および第6種事業以外の事業）60％"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6505.htm",
+    "quote": "第5種事業（運輸通信業、金融業および保険業、サービス業（飲食店業に該当するものを除く））50％"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6505.htm",
+    "quote": "第6種事業（不動産業）40％"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6505.htm",
+    "quote": "飲食料品の譲渡について、消費税率が引き下げられます。この引下げに当たり、飲食料品の譲渡を行う事業者を対象に、簡易課税制度の計算方法の特例が設けられます"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-10-21"
+ },
+ {
+  "id": "invoice",
+  "name": "インボイス制度（適格請求書等保存方式）",
+  "reading": "いんぼいすせいど",
+  "field": "D",
+  "importance": 2,
+  "short": "消費税の仕入税額控除を受けるために、一定の事項を記載した適格請求書（インボイス）の保存を要件とする制度。",
+  "detail": "2023年10月に開始。適格請求書を発行できるのは、税務署に登録した適格請求書発行事業者のみ。免税事業者は登録できないが、登録すれば課税事業者となる。",
+  "related": [
+   "shohizei"
+  ],
+  "grades": [
+   2
+  ],
+  "sources": [
+   {
+    "title": "日本FP協会 試験範囲（試験要綱）",
+    "url": "https://www.jafp.or.jp/exam/outline/"
+   }
+  ],
+  "evidence": [],
+  "reviewStatus": "draft",
+  "checkedAt": "2026-10-21",
+  "aliases": [
+   "適格請求書",
+   "適格請求書等保存方式"
+  ]
+ },
+ {
+  "id": "houjinzei",
+  "name": "法人税の基礎",
+  "reading": "ほうじんぜいのきそ",
+  "field": "D",
+  "importance": 2,
+  "short": "法人の各事業年度の所得に課される税。所得金額＝益金の額－損金の額。",
+  "detail": "会計上の利益に、益金算入・損金不算入などの税務上の調整（別表四）を加えて所得金額を求める。交際費は中小法人（資本金1億円以下）で年800万円までは損金算入できる特例がある。役員給与は定期同額給与などの要件を満たす場合にのみ損金算入が認められる。",
+  "related": [],
+  "grades": [
+   2
+  ],
+  "sources": [
+   {
+    "title": "日本FP協会 試験範囲（試験要綱）",
+    "url": "https://www.jafp.or.jp/exam/outline/"
+   }
+  ],
+  "evidence": [],
+  "reviewStatus": "draft",
+  "checkedAt": "2026-10-21",
+  "aliases": [
+   "法人税",
+   "益金",
+   "損金"
+  ]
+ },
+ {
+  "id": "yoto-chiiki",
+  "name": "用途地域",
+  "reading": "ようとちいき",
+  "field": "E",
+  "importance": 3,
+  "short": "都市計画法で定める、土地の利用目的に応じた13種類の地域。",
+  "detail": "住居系8種（第一種低層住居専用地域、第二種低層住居専用地域、第一種中高層住居専用地域、第二種中高層住居専用地域、第一種住居地域、第二種住居地域、準住居地域、田園住居地域）、商業系2種（近隣商業地域、商業地域）、工業系3種（準工業地域、工業地域、工業専用地域）。",
+  "related": [
+   "kenpeiritsu",
+   "yosekiritsu"
+  ],
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "e-Gov法令検索 都市計画法",
+    "url": "https://laws.e-gov.go.jp/law/343AC0000000100"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://laws.e-gov.go.jp/law/343AC0000000100",
+    "quote": "第一種低層住居専用地域、第二種低層住居専用地域、第一種中高層住居専用地域、第二種中高層住居専用地域、第一種住居地域、第二種住居地域、準住居地域、田園住居地域、近隣商業地域、商業地域、準工業地域、工業地域又は工業専用地域（以下「用途地域」と総称する。）"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-10-21"
+ },
+ {
+  "id": "toshi-keikaku-kuiki",
+  "name": "市街化区域と市街化調整区域",
+  "reading": "しがいかくいきとしがいかちょうせいくいき",
+  "field": "E",
+  "importance": 3,
+  "short": "都市計画区域のうち、無秩序な市街化を防止し計画的な市街化を図るため、市街化区域と市街化調整区域に区分（区域区分）されることがある。",
+  "detail": "市街化区域は、すでに市街地を形成している区域およびおおむね10年以内に優先的かつ計画的に市街化を図るべき区域。市街化調整区域は、市街化を抑制すべき区域。区域区分が定められていない都市計画区域（非線引き区域）もある。",
+  "related": [
+   "yoto-chiiki",
+   "kaihatsu-kyoka"
+  ],
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "e-Gov法令検索 都市計画法",
+    "url": "https://laws.e-gov.go.jp/law/343AC0000000100"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://laws.e-gov.go.jp/law/343AC0000000100",
+    "quote": "都市計画区域について無秩序な市街化を防止し、計画的な市街化を図るため必要があるときは、都市計画に、市街化区域と市街化調整区域との区分"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/343AC0000000100",
+    "quote": "市街化区域は、すでに市街地を形成している区域及びおおむね十年以内に優先的かつ計画的に市街化を図るべき区域とする"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/343AC0000000100",
+    "quote": "市街化調整区域は、市街化を抑制すべき区域とする"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/343AC0000000100",
+    "quote": "市街化区域、区域区分が定められていない都市計画区域又は準都市計画区域内において行う開発行為"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-10-21",
+  "aliases": [
+   "市街化区域",
+   "市街化調整区域",
+   "都市計画区域"
+  ]
+ },
+ {
+  "id": "kaihatsu-kyoka",
+  "name": "開発許可制度",
+  "reading": "かいはつきょかせいど",
+  "field": "E",
+  "importance": 2,
+  "short": "都市計画区域または準都市計画区域内で開発行為をしようとする者が、あらかじめ都道府県知事（指定都市等では当該指定都市等の長）の許可を受ける制度。",
+  "detail": "市街化区域では、開発行為の規模が政令で定める規模（原則1,000㎡）未満であれば許可は不要。首都圏の既成市街地・近郊整備地帯、近畿圏の既成都市区域・近郊整備区域、中部圏の都市整備区域に区域の全部または一部がある都または市町村の区域では500㎡未満。都道府県は条例で、市街化の状況により特に必要があると認められる場合に、300㎡以上の範囲で規模を引き下げられる。市街化調整区域では、農林漁業用の建築物などの場合を除き、規模にかかわらず許可が必要。",
+  "related": [
+   "toshi-keikaku-kuiki"
+  ],
+  "grades": [
+   2
+  ],
+  "sources": [
+   {
+    "title": "e-Gov法令検索 都市計画法",
+    "url": "https://laws.e-gov.go.jp/law/343AC0000000100"
+   },
+   {
+    "title": "e-Gov法令検索 都市計画法施行令",
+    "url": "https://laws.e-gov.go.jp/law/344CO0000000158"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://laws.e-gov.go.jp/law/343AC0000000100",
+    "quote": "都市計画区域又は準都市計画区域内において開発行為をしようとする者は、あらかじめ、国土交通省令で定めるところにより、都道府県知事"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/343AC0000000100",
+    "quote": "市街化区域、区域区分が定められていない都市計画区域又は準都市計画区域内において行う開発行為で、その規模が、それぞれの区域の区分に応じて政令で定める規模未満であるもの"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/343AC0000000100",
+    "quote": "市街化調整区域、区域区分が定められていない都市計画区域又は準都市計画区域内において行う開発行為で、農業、林業若しくは漁業の用に供する政令で定める建築物"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/344CO0000000158",
+    "quote": "市街化区域千平方メートル市街化の状況により、無秩序な市街化を防止するため特に必要があると認められる場合三百平方メートル以上千平方メートル未満"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/344CO0000000158",
+    "quote": "同項中「千平方メートル」とあるのは、「五百平方メートル」とする"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-10-21",
+  "aliases": [
+   "開発行為"
+  ]
+ },
+ {
+  "id": "bouka-chiiki",
+  "name": "防火地域・準防火地域",
+  "reading": "ぼうかちいき・じゅんぼうかちいき",
+  "field": "E",
+  "importance": 2,
+  "short": "市街地の火災の危険を防ぐために指定される地域で、建築物の構造に制限がある。",
+  "detail": "防火地域内では、階数が3以上または延べ面積が100㎡を超える建築物は耐火建築物とする必要がある。建ぺい率の上限が80％とされる地域の防火地域内の耐火建築物は、建ぺい率の制限がなくなる（100％）。建築物が防火地域と準防火地域にまたがる場合は、厳しい方の規制が適用される。",
+  "related": [
+   "kenpeiritsu"
+  ],
+  "grades": [
+   2
+  ],
+  "sources": [
+   {
+    "title": "日本FP協会 試験範囲（試験要綱）",
+    "url": "https://www.jafp.or.jp/exam/outline/"
+   }
+  ],
+  "evidence": [],
+  "reviewStatus": "draft",
+  "checkedAt": "2026-10-21",
+  "aliases": [
+   "防火地域",
+   "準防火地域"
+  ]
+ },
+ {
+  "id": "zenmen-doro-yosekiritsu",
+  "name": "前面道路の幅員による容積率の制限",
+  "reading": "ぜんめんどうろのふくいんによるようせきりつのせいげん",
+  "field": "E",
+  "importance": 3,
+  "short": "前面道路の幅員が12m未満の場合、都市計画で定めた容積率のほか、前面道路の幅員（m）に用途地域に応じた数値を乗じた値以下に制限される。",
+  "detail": "前面道路（2以上あるときは幅員の最大のもの）の幅員が12m未満の建築物の容積率は、前面道路の幅員のメートルの数値に、次の数値を乗じたもの以下でなければならない。第一種低層住居専用地域・第二種低層住居専用地域・田園住居地域は4/10。第一種・第二種中高層住居専用地域、第一種・第二種住居地域、準住居地域は4/10（特定行政庁が都道府県都市計画審議会の議を経て指定する区域内は6/10）。その他の地域は6/10。例：第一種住居地域、前面道路の幅員6mなら 6×4/10＝24/10＝240％。指定容積率が300％なら、小さい240％が上限。",
+  "related": [
+   "yosekiritsu"
+  ],
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "e-Gov法令検索 建築基準法",
+    "url": "https://laws.e-gov.go.jp/law/325AC0000000201"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://laws.e-gov.go.jp/law/325AC0000000201",
+    "quote": "前面道路（前面道路が二以上あるときは、その幅員の最大のもの。以下この項及び第十二項において同じ。）の幅員が十二メートル未満である建築物の容積率は、当該前面道路の幅員のメートルの数値に、次の各号に掲げる区分に従い、当該各号に定める数値を乗じたもの以下でなければならない"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/325AC0000000201",
+    "quote": "第一種低層住居専用地域、第二種低層住居専用地域又は田園住居地域内の建築物十分の四"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/325AC0000000201",
+    "quote": "十分の四（特定行政庁が都道府県都市計画審議会の議を経て指定する区域内の建築物にあつては、十分の六）"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/325AC0000000201",
+    "quote": "その他の建築物十分の六"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-10-21",
+  "formula": {
+   "name": "前面道路の容積率制限",
+   "tex": "\\text{幅員(m)} \\times \\frac{4}{10}\\ (\\text{住居系}),\\ \\ \\times \\frac{6}{10}\\ (\\text{その他})"
+  }
+ },
+ {
+  "id": "kenchiku-kakunin",
+  "name": "建築確認",
+  "reading": "けんちくかくにん",
+  "field": "E",
+  "importance": 2,
+  "short": "建築物を建てる前に、その計画が建築基準法等の規定に適合しているかを確認する手続き。",
+  "detail": "建築主は、工事の着手前に建築主事や指定確認検査機関の確認を受ける必要がある。工事完了後は完了検査を受けて検査済証の交付を受ける。",
+  "related": [
+   "kenpeiritsu"
+  ],
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "日本FP協会 試験範囲（試験要綱）",
+    "url": "https://www.jafp.or.jp/exam/outline/"
+   }
+  ],
+  "evidence": [],
+  "reviewStatus": "draft",
+  "checkedAt": "2026-10-21"
+ },
+ {
+  "id": "kubun-shoyuho",
+  "name": "区分所有法（集会の決議）",
+  "reading": "くぶんしょゆうほう",
+  "field": "E",
+  "importance": 3,
+  "short": "分譲マンションなどの区分所有建物の権利関係や管理を定めた法律。令和8年4月1日施行の改正後は、集会の決議の多数決が「出席した区分所有者・議決権」を基準とする。",
+  "detail": "集会の議事は、法律または規約に別段の定めがない限り、出席した区分所有者（議決権を有しないものを除く）およびその議決権の各過半数で決する（普通決議）。規約の設定・変更・廃止は、区分所有者の過半数かつ議決権の過半数を有する者が出席し、出席した区分所有者およびその議決権の各4分の3以上の多数による決議で行う。共用部分の変更（形状または効用の著しい変更を伴わないものを除く）も、出席した区分所有者およびその議決権の各4分の3以上の多数による決議で決する（規約で2分の1を超える範囲で引き下げられる）。建替え決議は、区分所有者および議決権の各5分の4以上の多数で行い、地震に対する安全性が基準に適合しないなど一定の場合は4分の3以上となる。施行前に旧法の規定で招集の手続が開始された集会は、従前の例による。",
+  "related": [],
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "e-Gov法令検索 建物の区分所有等に関する法律",
+    "url": "https://laws.e-gov.go.jp/law/337AC0000000069"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://laws.e-gov.go.jp/law/337AC0000000069",
+    "quote": "集会の議事は、この法律又は規約に別段の定めがない限り、出席した区分所有者（議決権を有しないものを除く。）及びその議決権の各過半数で決する"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/337AC0000000069",
+    "quote": "を有するものが出席し、出席した区分所有者及びその議決権の各四分の三以上の多数による決議によつてする"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/337AC0000000069",
+    "quote": "共用部分の変更（その形状又は効用の著しい変更を伴わないものを除く。第五項において同じ。）は、集会において"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/337AC0000000069",
+    "quote": "出席した区分所有者及びその議決権の各四分の三（これを下回る割合（二分の一を超える割合に限る。）を規約で定めた場合にあつては、その割合）以上の多数による決議で決する"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/337AC0000000069",
+    "quote": "集会においては、区分所有者（議決権を有しないものを除く。）及び議決権の各五分の四以上の多数で、建物を取り壊し"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/337AC0000000069",
+    "quote": "同項中「五分の四」とあるのは、「四分の三」とする。一地震に対する安全性に係る建築基準法"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/337AC0000000069",
+    "quote": "この法律は、令和八年四月一日から施行する"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/337AC0000000069",
+    "quote": "前に旧区分所有法の規定により招集の手続が開始された集会については、なお従前の例による"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-10-21",
+  "aliases": [
+   "区分所有",
+   "建替え決議",
+   "管理組合"
+  ]
+ },
+ {
+  "id": "futsu-shakuchiken",
+  "name": "普通借地権",
+  "reading": "ふつうしゃくちけん",
+  "field": "E",
+  "importance": 3,
+  "short": "借地借家法に基づく、存続期間が30年以上で更新が予定されている借地権。",
+  "detail": "借地権の存続期間は30年（契約でこれより長い期間を定めたときは、その期間）。借地契約を更新する場合の期間は、更新の日から10年（借地権の設定後の最初の更新にあっては20年）で、当事者がこれより長い期間を定めたときはその期間。借地権設定者が更新に異議を述べるには、土地の使用を必要とする事情のほか、借地に関する従前の経過、土地の利用状況、明渡しの条件として行う財産上の給付の申出を考慮して、正当の事由があると認められることが必要。",
+  "related": [
+   "teiki-shakuchiken"
+  ],
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "e-Gov法令検索 借地借家法",
+    "url": "https://laws.e-gov.go.jp/law/403AC0000000090"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://laws.e-gov.go.jp/law/403AC0000000090",
+    "quote": "借地権の存続期間は、三十年とする。ただし、契約でこれより長い期間を定めたときは、その期間とする"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/403AC0000000090",
+    "quote": "当事者が借地契約を更新する場合においては、その期間は、更新の日から十年（借地権の設定後の最初の更新にあっては、二十年）とする。ただし、当事者がこれより長い期間を定めたときは、その期間とする"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/403AC0000000090",
+    "quote": "正当の事由があると認められる場合でなければ、述べることができない"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-10-21"
+ },
+ {
+  "id": "futsu-shakuya",
+  "name": "普通借家権",
+  "reading": "ふつうしゃくやけん",
+  "field": "E",
+  "importance": 3,
+  "short": "借地借家法に基づく建物賃貸借のうち、期間満了後も更新が予定されている賃貸借（定期建物賃貸借でないもの）。",
+  "detail": "期間を1年未満とする建物の賃貸借は、期間の定めがない建物の賃貸借とみなされる。期間の定めがある場合に、当事者が期間の満了の1年前から6か月前までの間に更新をしない旨の通知をしなかったときは、従前の契約と同一の条件で更新したものとみなされる（更新後の期間は定めがないものとなる）。賃貸人が更新しない旨の通知や解約の申入れをするには、建物の使用を必要とする事情などを考慮して、正当の事由があると認められることが必要。",
+  "related": [
+   "teiki-shakuya"
+  ],
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "e-Gov法令検索 借地借家法",
+    "url": "https://laws.e-gov.go.jp/law/403AC0000000090"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://laws.e-gov.go.jp/law/403AC0000000090",
+    "quote": "期間を一年未満とする建物の賃貸借は、期間の定めがない建物の賃貸借とみなす"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/403AC0000000090",
+    "quote": "当事者が期間の満了の一年前から六月前までの間に相手方に対して更新をしない旨の通知又は条件を変更しなければ更新をしない旨の通知をしなかったときは、従前の契約と同一の条件で契約を更新したものとみなす。ただし、その期間は、定めがないものとする"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/403AC0000000090",
+    "quote": "正当の事由があると認められる場合でなければ、することができない"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-10-21"
+ },
+ {
+  "id": "baikai-keiyaku",
+  "name": "媒介契約（専任媒介契約）",
+  "reading": "ばいかいけいやく",
+  "field": "E",
+  "importance": 3,
+  "short": "不動産の売買や交換の仲介を不動産会社に依頼する契約。他の業者に重ねて依頼することを禁じる契約が専任媒介契約。",
+  "detail": "専任媒介契約（依頼者が他の宅地建物取引業者に重ねて媒介・代理を依頼することを禁ずる契約）の有効期間は3か月を超えられず、これより長く定めたときは3か月になる。依頼者の申出により更新でき、更新の時から3か月まで。専任媒介契約を締結した業者は、契約の締結日から7日（専属専任媒介契約は5日）以内に、休業日を算入せずに、指定流通機構（レインズ）に登録する。業務の処理状況は2週間に1回以上（依頼者が業者の探索した相手方以外と契約できない旨の特約を含む専属専任媒介契約は1週間に1回以上）報告する。専任媒介契約を締結した場合の規制であり、他の業者への重ねての依頼を禁じない契約（一般媒介契約）には当てはまらない。",
+  "related": [],
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "e-Gov法令検索 宅地建物取引業法",
+    "url": "https://laws.e-gov.go.jp/law/327AC1000000176"
+   },
+   {
+    "title": "e-Gov法令検索 宅地建物取引業法施行規則",
+    "url": "https://laws.e-gov.go.jp/law/332M50004000012"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://laws.e-gov.go.jp/law/327AC1000000176",
+    "quote": "依頼者が他の宅地建物取引業者に重ねて売買又は交換の媒介又は代理を依頼することを禁ずる媒介契約（以下「専任媒介契約」という。）の有効期間は、三月を超えることができない。これより長い期間を定めたときは、その期間は、三月とする"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/327AC1000000176",
+    "quote": "前項の有効期間は、依頼者の申出により、更新することができる。ただし、更新の時から三月を超えることができない"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/327AC1000000176",
+    "quote": "専任媒介契約に係る業務の処理状況を二週間に一回以上（依頼者が当該宅地建物取引業者が探索した相手方以外の者と売買又は交換の契約を締結することができない旨の特約を含む専任媒介契約にあつては、一週間に一回以上）報告しなければならない"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/332M50004000012",
+    "quote": "法第三十四条の二第五項の国土交通省令で定める期間は、専任媒介契約の締結の日から七日（専属専任媒介契約にあつては、五日）とする。２前項の期間の計算については、休業日数は算入しないものとする"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-10-21",
+  "aliases": [
+   "専属専任媒介契約",
+   "専任媒介契約",
+   "一般媒介契約"
+  ]
+ },
+ {
+  "id": "baikai-hoshu",
+  "name": "媒介報酬（仲介手数料）の上限",
+  "reading": "ばいかいほうしゅう",
+  "field": "E",
+  "importance": 3,
+  "short": "不動産会社が売買の媒介で受け取れる報酬の上限額は、宅地建物取引業法で定められている。",
+  "detail": "売買価格（税抜）が400万円を超える場合は、売買価格×3％＋6万円（税抜）が上限（速算式）。200万円以下の部分は5％、200万円超400万円以下の部分は4％、400万円超の部分は3％で計算した合計額と同じ。これに消費税が加わる。",
+  "related": [
+   "baikai-keiyaku"
+  ],
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "日本FP協会 試験範囲（試験要綱）",
+    "url": "https://www.jafp.or.jp/exam/outline/"
+   }
+  ],
+  "evidence": [],
+  "reviewStatus": "draft",
+  "checkedAt": "2026-10-21",
+  "formula": {
+   "name": "媒介報酬の上限（400万円超）",
+   "tex": "\\text{売買価格(税抜)} \\times 3\\% + 6\\text{万円}"
+  },
+  "aliases": [
+   "仲介手数料"
+  ]
+ },
+ {
+  "id": "juyo-jiko-setsumei",
+  "name": "重要事項説明",
+  "reading": "じゅうようじこうせつめい",
+  "field": "E",
+  "importance": 3,
+  "short": "不動産の売買・交換・貸借の契約が成立するまでの間に、宅地建物取引士が、書面を交付して行う、物件や取引条件の説明。",
+  "detail": "宅地建物取引業者は、取引の相手方等に対し、契約が成立するまでの間に、宅地建物取引士をして、重要事項を記載した書面（35条書面）を交付して説明させなければならない。これとは別に、契約が成立したときは、遅滞なく、契約内容を記載した書面（37条書面）を各当事者に交付しなければならない。",
+  "related": [],
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "e-Gov法令検索 宅地建物取引業法",
+    "url": "https://laws.e-gov.go.jp/law/327AC1000000176"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://laws.e-gov.go.jp/law/327AC1000000176",
+    "quote": "その売買、交換又は貸借の契約が成立するまでの間に、宅地建物取引士をして、少なくとも次に掲げる事項について、これらの事項を記載した書面"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/327AC1000000176",
+    "quote": "その媒介により契約が成立したときは当該契約の各当事者に、遅滞なく、次に掲げる事項を記載した書面を交付しなければならない"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-10-21",
+  "aliases": [
+   "35条書面",
+   "37条書面",
+   "宅地建物取引士"
+  ]
+ },
+ {
+  "id": "keiyaku-futekigo",
+  "name": "契約不適合責任",
+  "reading": "けいやくふてきごうせきにん",
+  "field": "E",
+  "importance": 2,
+  "short": "引き渡された目的物が、種類・品質・数量の点で契約の内容に適合しない場合に、売主が負う責任。",
+  "detail": "買主は、売主に対し、目的物の修補・代替物の引渡し・不足分の引渡しによる履行の追完を請求でき、相当の期間を定めた追完の催告に応じないときは、不適合の程度に応じて代金の減額を請求できる。損害賠償の請求や契約の解除もできる。種類・品質の不適合は、買主がその不適合を知った時から1年以内に売主に通知しないと、これらの請求ができなくなる（売主が引渡しの時に不適合を知り、または重大な過失で知らなかったときを除く）。宅地建物取引業者が自ら売主となる売買では、民法の規定より買主に不利な特約は無効。ただし、目的物の引渡しの日から2年以上となる特約は有効。",
+  "related": [
+   "tetsukekin"
+  ],
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "e-Gov法令検索 民法",
+    "url": "https://laws.e-gov.go.jp/law/129AC0000000089"
+   },
+   {
+    "title": "e-Gov法令検索 宅地建物取引業法",
+    "url": "https://laws.e-gov.go.jp/law/327AC1000000176"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://laws.e-gov.go.jp/law/129AC0000000089",
+    "quote": "引き渡された目的物が種類、品質又は数量に関して契約の内容に適合しないものであるときは、買主は、売主に対し、目的物の修補、代替物の引渡し又は不足分の引渡しによる履行の追完を請求することができる"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/129AC0000000089",
+    "quote": "買主が相当の期間を定めて履行の追完の催告をし、その期間内に履行の追完がないときは、買主は、その不適合の程度に応じて代金の減額を請求することができる"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/129AC0000000089",
+    "quote": "買主がその不適合を知った時から一年以内にその旨を売主に通知しないときは、買主は、その不適合を理由として、履行の追完の請求、代金の減額の請求、損害賠償の請求及び契約の解除をすることができない。ただし、売主が引渡しの時にその不適合を知り、又は重大な過失によって知らなかったときは、この限りでない"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/327AC1000000176",
+    "quote": "民法（明治二十九年法律第八十九号）第五百六十六条に規定する期間についてその目的物の引渡しの日から二年以上となる特約をする場合を除き、同条に規定するものより買主に不利となる特約をしてはならない。２前項の規定に反する特約は、無効とする"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-10-21",
+  "aliases": [
+   "瑕疵担保責任"
+  ]
+ },
+ {
+  "id": "kotei-shisanzei",
+  "name": "固定資産税・都市計画税",
+  "reading": "こていしさんぜい・としけいかくぜい",
+  "field": "E",
+  "importance": 3,
+  "short": "土地・家屋・償却資産を所有している人にかかる市町村税。",
+  "detail": "1月1日時点の所有者に課税され、課税標準は固定資産課税台帳に登録された価格（固定資産税評価額）。標準税率は固定資産税が1.4％、都市計画税は上限0.3％（市街化区域内の土地・家屋が対象）。住宅用地の特例として、小規模住宅用地（200㎡以下の部分）は課税標準が固定資産税で1/6、都市計画税で1/3、一般住宅用地はそれぞれ1/3、2/3に軽減される。",
+  "related": [
+   "fudosan-shutoku-toroku-inshi"
+  ],
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "日本FP協会 試験範囲（試験要綱）",
+    "url": "https://www.jafp.or.jp/exam/outline/"
+   }
+  ],
+  "evidence": [],
+  "reviewStatus": "draft",
+  "checkedAt": "2026-10-21",
+  "aliases": [
+   "固定資産税",
+   "都市計画税"
+  ]
+ },
+ {
+  "id": "fudosan-shutoku-toroku-inshi",
+  "name": "不動産取得税・登録免許税・印紙税",
+  "reading": "ふどうさんしゅとくぜいとうろくめんきょぜいといんしぜい",
+  "field": "E",
+  "importance": 3,
+  "short": "不動産の取得・登記・契約書の作成に係る税。",
+  "detail": "不動産取得税は、売買・贈与・新築などで取得したときに一度だけ課される都道府県税（相続による取得は非課税）。課税標準は固定資産税評価額。登録免許税は、登記を受けるときに課される国税。印紙税は、契約書などの文書に課される国税。",
+  "related": [
+   "kotei-shisanzei"
+  ],
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "日本FP協会 試験範囲（試験要綱）",
+    "url": "https://www.jafp.or.jp/exam/outline/"
+   }
+  ],
+  "evidence": [],
+  "reviewStatus": "draft",
+  "checkedAt": "2026-10-21",
+  "aliases": [
+   "不動産取得税",
+   "登録免許税",
+   "印紙税"
+  ]
+ },
+ {
+  "id": "fudosan-hyoka-3shuho",
+  "name": "不動産の鑑定評価の三手法",
+  "reading": "ふどうさんのかんていひょうかのさんしゅほう",
+  "field": "E",
+  "importance": 2,
+  "short": "不動産の価格を求める代表的な3つの方法。",
+  "detail": "原価法：再調達原価から減価修正（経年劣化など）を行って求める。取引事例比較法：類似の取引事例から比較して求める。収益還元法：その不動産が将来生み出す収益から求める（直接還元法とDCF法）。",
+  "related": [
+   "fudosan-rimawari"
+  ],
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "日本FP協会 試験範囲（試験要綱）",
+    "url": "https://www.jafp.or.jp/exam/outline/"
+   }
+  ],
+  "evidence": [],
+  "reviewStatus": "draft",
+  "checkedAt": "2026-10-21",
+  "aliases": [
+   "原価法",
+   "取引事例比較法",
+   "収益還元法"
+  ]
+ },
+ {
+  "id": "fudosan-rimawari",
+  "name": "不動産の利回り（表面・純）",
+  "reading": "ふどうさんのりまわり",
+  "field": "E",
+  "importance": 3,
+  "short": "投資用不動産の収益性を測る指標。",
+  "detail": "表面利回り（グロス）＝年間賃料収入÷物件価格。純利回り（NOI利回り）＝（年間賃料収入－諸経費）÷（物件価格＋購入時の諸費用）。直接還元法による収益価格＝1年間の純収益（NOI）÷還元利回り。",
+  "related": [
+   "fudosan-hyoka-3shuho"
+  ],
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "日本FP協会 試験範囲（試験要綱）",
+    "url": "https://www.jafp.or.jp/exam/outline/"
+   }
+  ],
+  "evidence": [],
+  "reviewStatus": "draft",
+  "checkedAt": "2026-10-21",
+  "formula": {
+   "name": "純利回り",
+   "tex": "\\frac{\\text{年間賃料収入} - \\text{諸経費}}{\\text{物件価格} + \\text{購入時諸費用}}"
+  },
+  "aliases": [
+   "表面利回り",
+   "純利回り",
+   "NOI",
+   "NOI利回り",
+   "還元利回り"
+  ]
+ },
+ {
+  "id": "fudosan-shotoku",
+  "name": "不動産所得",
+  "reading": "ふどうさんしょとく",
+  "field": "E",
+  "importance": 3,
+  "short": "土地・建物などを貸し付けて得た所得。",
+  "detail": "不動産所得＝総収入金額－必要経費（青色申告特別控除前）。建物の減価償却費、固定資産税、借入金の利子などが必要経費になる。赤字が生じた場合は他の所得と損益通算できるが、土地等の取得に要した借入金の利子の部分は通算の対象外。",
+  "related": [
+   "aoiro-shinkoku",
+   "sonneki-tsusan"
+  ],
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "日本FP協会 試験範囲（試験要綱）",
+    "url": "https://www.jafp.or.jp/exam/outline/"
+   }
+  ],
+  "evidence": [],
+  "reviewStatus": "draft",
+  "checkedAt": "2026-10-21"
+ },
+ {
+  "id": "sozokuzei-shinkoku",
+  "name": "相続税・贈与税の申告期限と納付",
+  "reading": "そうぞくぜい・ぞうよぜいのしんこくきげん",
+  "field": "F",
+  "importance": 3,
+  "short": "相続税の申告は、被相続人が死亡したことを知った日（通常は死亡の日）の翌日から10か月以内。贈与税は贈与を受けた年の翌年2月1日から3月15日まで。",
+  "detail": "国税は金銭で期限までに一括納付するのが原則。相続税額が10万円を超え、金銭で納付することが困難な場合は、申請により担保を提供して年賦で納付できる（延納、利子税がかかる）。延納でも困難な場合は、一定の相続財産による納付（物納）ができる。",
+  "related": [
+   "sozokuzei-kiso-kojo"
+  ],
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "国税庁 No.4205 相続税の申告と納税",
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4205.htm"
+   },
+   {
+    "title": "国税庁 No.4402 贈与税がかかる場合",
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/zoyo/4402.htm"
+   },
+   {
+    "title": "国税庁 No.4211 相続税の延納",
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4211.htm"
+   },
+   {
+    "title": "国税庁 No.4214 相続税の物納",
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4214.htm"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4205.htm",
+    "quote": "相続税の申告は、被相続人が死亡したことを知った日（通常の場合は、被相続人の死亡の日）の翌日から10か月以内に行うことになっています"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/zoyo/4402.htm",
+    "quote": "贈与を受けた人が贈与により財産を取得した年の翌年2月1日から3月15日までの間に申告と納税をする必要があります"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4211.htm",
+    "quote": "国税は、金銭で期限までに一括納付することが原則です"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4211.htm",
+    "quote": "相続税額が10万円を超え、金銭で納付することを困難とする事由がある場合には、納税者の申請により、その納付を困難とする金額を限度として、担保を提供することにより、年賦の方法（年払い）で納付することができます"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4214.htm",
+    "quote": "延納によっても金銭で納付することを困難とする事由がある場合には、納税者の申請により、その納付を困難とする金額を限度として一定の相続財産による納付（物納）ができます"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-10-21",
+  "aliases": [
+   "延納",
+   "物納",
+   "相続税の申告期限"
+  ]
+ },
+ {
+  "id": "shomi-isan-gaku",
+  "name": "正味の遺産額と課税遺産総額",
+  "reading": "しょうみのいさんがくとかぜいいさんそうがく",
+  "field": "F",
+  "importance": 3,
+  "short": "各人の課税価格の合計額が正味の遺産額、そこから基礎控除額を差し引いた額が課税遺産総額。",
+  "detail": "課税遺産総額＝課税価格の合計額（正味の遺産額）－基礎控除額（3,000万円＋600万円×法定相続人の数）。課税遺産総額を、各法定相続人が民法の法定相続分に従って取得したものと仮定して按分し、それぞれに税率を乗じた算出税額を合計して相続税の総額を計算する。",
+  "related": [
+   "sozokuzei-kiso-kojo",
+   "hotei-sozokubun"
+  ],
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "国税庁 No.4152 相続税の計算",
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4152.htm"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4152.htm",
+    "quote": "各人の課税価格の合計＝課税価格の合計額（正味の遺産額）"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4152.htm",
+    "quote": "課税価格の合計額－基礎控除額（3,000万円＋600万円×法定相続人の数）＝課税遺産総額"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4152.htm",
+    "quote": "課税遺産総額を、各法定相続人が民法に定める法定相続分に従って取得したものと仮定して"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4152.htm",
+    "quote": "ホ上記ニで計算した各法定相続人ごとの算出税額を合計して相続税の総額を計算します"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-10-21",
+  "formula": {
+   "name": "課税遺産総額",
+   "tex": "\\text{課税価格の合計額} - (3000\\text{万円} + 600\\text{万円} \\times \\text{法定相続人の数})"
+  },
+  "aliases": [
+   "課税遺産総額",
+   "相続税の総額"
+  ]
+ },
+ {
+  "id": "minashi-sozoku-zaisan",
+  "name": "みなし相続財産",
+  "reading": "みなしそうぞくざいさん",
+  "field": "F",
+  "importance": 3,
+  "short": "相続や遺贈で取得したものとみなして、相続税の課税対象になる財産。死亡保険金や死亡退職金（退職手当金等）が代表例。",
+  "detail": "被相続人の死亡後3年以内に支給が確定した退職手当金等は、相続または遺贈により取得したものとみなされて相続税の課税対象となる。死亡保険金・退職手当金等には、それぞれ 500万円×法定相続人の数 の非課税限度額があり、相続人以外の人が取得した分には非課税の適用がない。",
+  "related": [
+   "shibo-hokenkin-hikazei",
+   "shibo-taishokukin"
+  ],
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "国税庁 No.4117 相続税の課税対象になる死亡退職金",
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4117.htm"
+   },
+   {
+    "title": "国税庁 No.4114 相続税の課税対象になる死亡保険金",
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4114.htm"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4117.htm",
+    "quote": "被相続人の死亡後3年以内に支給が確定したものは、相続または遺贈により取得したものとみなされて、相続税の課税対象となります"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4114.htm",
+    "quote": "500万円×法定相続人の数＝非課税限度額なお、相続人以外の人が取得した死亡保険金には、非課税の適用はありません"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-10-21"
+ },
+ {
+  "id": "shibo-taishokukin",
+  "name": "死亡退職金の非課税",
+  "reading": "しぼうたいしょくきんのひかぜい",
+  "field": "F",
+  "importance": 3,
+  "short": "被相続人の死亡で支給される退職手当金等は相続税の課税対象になるが、非課税限度額までは課税されない。",
+  "detail": "被相続人の死亡後3年以内に支給が確定した退職手当金等は、相続または遺贈により取得したものとみなされて課税対象となる。非課税限度額は 500万円×法定相続人の数。相続人以外の人が取得した退職手当金等には、非課税の適用はない。",
+  "related": [
+   "shibo-hokenkin-hikazei",
+   "minashi-sozoku-zaisan"
+  ],
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "国税庁 No.4117 相続税の課税対象になる死亡退職金",
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4117.htm"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4117.htm",
+    "quote": "被相続人の死亡後3年以内に支給が確定したものは、相続または遺贈により取得したものとみなされて、相続税の課税対象となります"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4117.htm",
+    "quote": "500万円×法定相続人の数＝非課税限度額なお、相続人以外の人が取得した退職手当金等には、非課税の適用はありません"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-10-21",
+  "formula": {
+   "name": "死亡退職金の非課税限度額",
+   "tex": "500\\text{万円} \\times \\text{法定相続人の数}"
+  }
+ },
+ {
+  "id": "seizen-zoyo-kasan",
+  "name": "相続開始前の贈与の加算",
+  "reading": "そうぞくかいしまえのぞうよのかさん",
+  "field": "F",
+  "importance": 2,
+  "short": "相続や遺贈などで財産を取得した人が、被相続人から加算対象期間内に暦年課税の贈与で取得した財産を、相続税の課税価格に加算する制度。",
+  "detail": "加算対象期間は、相続開始日が令和8年12月31日までなら相続開始前3年以内。令和9年1月1日から令和12年12月31日までの相続は令和6年1月1日から死亡の日まで、令和13年1月1日以後の相続は相続開始前7年以内になる。加算対象期間内の贈与は、贈与税がかかったかどうかに関係なく加算する。相続開始前3年以内に取得した財産以外の財産は、合計100万円までは加算されない。加算された財産に課せられた贈与税額は、相続税額から控除する。",
+  "related": [
+   "sozokuji-seisan",
+   "shomi-isan-gaku"
+  ],
+  "grades": [
+   2
+  ],
+  "sources": [
+   {
+    "title": "国税庁 No.4161 贈与財産の加算と税額控除（暦年課税）",
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4161.htm"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4161.htm",
+    "quote": "被相続人から加算対象期間（注2）に暦年課税に係る贈与によって取得した財産があるときは、その人の相続税の課税価格にその財産の贈与時の価額を加算します"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4161.htm",
+    "quote": "～令和8年12月31日相続開始前3年以内（死亡の日から遡って3年前の日から死亡の日までの間）令和9年1月1日～令和12年12月31日令和6年1月1日から死亡の日までの間令和13年1月1日～相続開始前7年以内"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4161.htm",
+    "quote": "加算対象期間内に贈与されたものであれば贈与税がかかったかどうかに関係なく加算します"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4161.htm",
+    "quote": "相続開始前3年以内に取得した財産以外の財産については、その財産の贈与時の価額の合計額から総額100万円までは相続税の課税価格に加算されません"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4161.htm",
+    "quote": "加算対象となる贈与財産について課せられた贈与税がある場合には、その相続税額からその贈与税額に相当する金額を控除します"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-10-21",
+  "aliases": [
+   "生前贈与加算"
+  ]
+ },
+ {
+  "id": "kenin",
+  "name": "検認",
+  "reading": "けんにん",
+  "field": "F",
+  "importance": 2,
+  "short": "家庭裁判所が、遺言書の存在と内容を確認し、その後の偽造・変造を防ぐための手続き。",
+  "detail": "自筆証書遺言を、封印がある場合は開封前に家庭裁判所で検認する必要がある（法務局で保管された自筆証書遺言と公正証書遺言は検認不要）。検認は遺言の有効性を判断する手続きではない。",
+  "related": [
+   "igon",
+   "jihitsu-igon-hokan"
+  ],
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "日本FP協会 試験範囲（試験要綱）",
+    "url": "https://www.jafp.or.jp/exam/outline/"
+   }
+  ],
+  "evidence": [],
+  "reviewStatus": "draft",
+  "checkedAt": "2026-10-21"
+ },
+ {
+  "id": "jihitsu-igon-hokan",
+  "name": "自筆証書遺言書保管制度",
+  "reading": "じひつしょうしょいごんしょほかんせいど",
+  "field": "F",
+  "importance": 2,
+  "short": "自筆証書遺言を法務局（遺言書保管所）で保管してもらえる制度。",
+  "detail": "2020年7月に開始。遺言者本人が法務局に出向いて申請する（代理不可）。保管された遺言書は検認が不要で、相続人は死亡後に遺言書の写しの交付や閲覧を請求できる。形式の外形的な確認は行われるが、内容の有効性は保証されない。",
+  "related": [
+   "igon",
+   "kenin"
+  ],
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "日本FP協会 試験範囲（試験要綱）",
+    "url": "https://www.jafp.or.jp/exam/outline/"
+   }
+  ],
+  "evidence": [],
+  "reviewStatus": "draft",
+  "checkedAt": "2026-10-21",
+  "aliases": [
+   "遺言書保管制度"
+  ]
+ },
+ {
+  "id": "haigusha-kyojuken",
+  "name": "配偶者居住権",
+  "reading": "はいぐうしゃきょじゅうけん",
+  "field": "F",
+  "importance": 2,
+  "short": "被相続人の死亡時に、被相続人所有の建物に住んでいた配偶者が、その建物に無償で住み続けられる権利。",
+  "detail": "2020年4月に創設。存続期間は原則として配偶者の終身。遺産分割や遺言で取得し、登記をすることで第三者に対抗できる。譲渡はできない。建物の所有権（負担付き）を取得する他の相続人と、評価額を分けられるので、配偶者が自宅に住み続けながら預貯金などの他の財産も取得しやすくなる。",
+  "related": [
+   "hotei-sozokubun"
+  ],
+  "grades": [
+   2
+  ],
+  "sources": [
+   {
+    "title": "日本FP協会 試験範囲（試験要綱）",
+    "url": "https://www.jafp.or.jp/exam/outline/"
+   }
+  ],
+  "evidence": [],
+  "reviewStatus": "draft",
+  "checkedAt": "2026-10-21"
+ },
+ {
+  "id": "kiyobun-tokubetsu-jueki",
+  "name": "寄与分と特別受益",
+  "reading": "きよぶんととくべつじゅえき",
+  "field": "F",
+  "importance": 2,
+  "short": "相続人間の公平を図るため、遺産分割で相続分を調整する仕組み。",
+  "detail": "寄与分は、被相続人の事業を手伝うなど、特別の貢献をした共同相続人の相続分を増やす。特別受益は、遺贈や生前の婚姻・養子縁組・生計の資本としての贈与を受けた相続人の相続分から、その分を差し引く（持戻し）。相続人以外の親族が無償で療養看護などを行った場合は、特別寄与料を請求できる。",
+  "related": [
+   "hotei-sozokubun",
+   "iryubun"
+  ],
+  "grades": [
+   2
+  ],
+  "sources": [
+   {
+    "title": "日本FP協会 試験範囲（試験要綱）",
+    "url": "https://www.jafp.or.jp/exam/outline/"
+   }
+  ],
+  "evidence": [],
+  "reviewStatus": "draft",
+  "checkedAt": "2026-10-21",
+  "aliases": [
+   "寄与分",
+   "特別受益",
+   "特別寄与料"
+  ]
+ },
+ {
+  "id": "rosenka-hyoka",
+  "name": "土地の相続税評価（路線価方式・倍率方式）",
+  "reading": "ろせんかほうしき",
+  "field": "F",
+  "importance": 3,
+  "short": "市街地にある宅地は路線価方式、それ以外は倍率方式で評価する、相続税や贈与税での土地の評価方法。",
+  "detail": "路線価方式：路線価（1㎡当たりの価額）に奥行価格補正率などを乗じた1㎡当たりの価額に、地積を乗じて求める。倍率方式：固定資産税評価額に、国税局長が定める倍率を乗じて求める。自用地（自分で使う宅地）の評価を基準に、借地権は自用地評価額×借地権割合、貸宅地（底地）は自用地評価額×（1－借地権割合）で評価する。",
+  "related": [
+   "kashiya-tatetsukechi"
+  ],
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "日本FP協会 試験範囲（試験要綱）",
+    "url": "https://www.jafp.or.jp/exam/outline/"
+   }
+  ],
+  "evidence": [],
+  "reviewStatus": "draft",
+  "checkedAt": "2026-10-21",
+  "aliases": [
+   "路線価方式",
+   "倍率方式",
+   "貸宅地",
+   "自用地"
+  ]
+ },
+ {
+  "id": "hijojo-kabushiki",
+  "name": "非上場株式（取引相場のない株式）の評価",
+  "reading": "ひじょうじょうかぶしきのひょうか",
+  "field": "F",
+  "importance": 2,
+  "short": "取引相場のない株式は、会社の規模や株主の態様に応じた評価方式で評価する。",
+  "detail": "同族株主など会社を支配できる株主が取得する場合は、原則的評価方式（類似業種比準方式、純資産価額方式、またはその併用）で評価。会社の規模（大会社・中会社・小会社）によって、使う方式が異なる。少数株主など支配権のない株主が取得する場合は、特例的評価方式の配当還元方式で評価する。",
+  "related": [
+   "jojo-kabushiki-hyoka"
+  ],
+  "grades": [
+   2
+  ],
+  "sources": [
+   {
+    "title": "日本FP協会 試験範囲（試験要綱）",
+    "url": "https://www.jafp.or.jp/exam/outline/"
+   }
+  ],
+  "evidence": [],
+  "reviewStatus": "draft",
+  "checkedAt": "2026-10-21",
+  "aliases": [
+   "類似業種比準方式",
+   "純資産価額方式",
+   "配当還元方式"
+  ]
+ },
+ {
+  "id": "jigyo-shokei-zeisei",
+  "name": "事業承継税制（非上場株式等の納税猶予）",
+  "reading": "じぎょうしょうけいぜいせい",
+  "field": "F",
+  "importance": 2,
+  "short": "後継者が先代経営者から非上場株式等を相続・贈与で取得したとき、一定の要件のもとで相続税・贈与税の納税が猶予され、さらに免除される制度。",
+  "detail": "中小企業経営承継円滑化法に基づき、都道府県知事の認定を受ける。贈与税の納税猶予（贈与税の特例措置）と相続税の納税猶予がある。後継者が事業を継続しなかった場合などは、猶予が打ち切られ、猶予されていた税額と利子税を納付する必要がある。特例措置の適用期限や要件は改正されることがあるため、最新の内容は国税庁・中小企業庁で確認する。",
+  "related": [
+   "hijojo-kabushiki"
+  ],
+  "grades": [
+   2
+  ],
+  "sources": [
+   {
+    "title": "日本FP協会 試験範囲（試験要綱）",
+    "url": "https://www.jafp.or.jp/exam/outline/"
+   }
+  ],
+  "evidence": [],
+  "reviewStatus": "draft",
+  "checkedAt": "2026-10-21",
+  "aliases": [
+   "納税猶予",
+   "事業承継"
+  ]
+ },
+ {
+  "id": "kazoku-shintaku",
+  "name": "家族信託（民事信託）",
+  "reading": "かぞくしんたく",
+  "field": "F",
+  "importance": 2,
+  "short": "財産を持つ人（委託者）が、信頼できる家族（受託者）に財産の管理・処分を託し、その利益を受益者が受ける仕組み。",
+  "detail": "認知症などで判断能力が低下した後も、財産管理を継続できる。委託者の死亡後の承継先も指定できる（遺言に代わる機能）。委託者と受益者が同じ自益信託では課税関係が生じないが、受益者が委託者以外の他益信託では、受益権を取得した受益者に贈与税が課される。",
+  "related": [
+   "igon"
+  ],
+  "grades": [
+   2
+  ],
+  "sources": [
+   {
+    "title": "日本FP協会 試験範囲（試験要綱）",
+    "url": "https://www.jafp.or.jp/exam/outline/"
+   }
+  ],
+  "evidence": [],
+  "reviewStatus": "draft",
+  "checkedAt": "2026-10-21",
+  "aliases": [
+   "民事信託",
+   "受託者",
+   "受益者",
+   "委託者"
+  ]
  }
 ]

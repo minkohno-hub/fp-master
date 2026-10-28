@@ -38,10 +38,10 @@ function ChoiceReview({ q, notes }: { q: Question; notes?: Record<string, string
       <ul className="mt-1 space-y-1">
         {p.choices.map((c) => (
           <li key={c.id} className="leading-relaxed">
-            <b>{c.id})</b> {c.text}
+            <b>{c.id})</b> <TermText text={c.text} />
             {c.id === p.answer && <span className="ml-1 font-semibold text-brand-700 dark:text-brand-200">← 正解</span>}
             {notes?.[c.id] && (
-              <p className="mt-0.5 rounded-lg bg-slate-50 px-2 py-1 text-sm text-slate-800 dark:bg-slate-800/60 dark:text-slate-100">{notes[c.id]}</p>
+              <p className="mt-0.5 rounded-lg bg-slate-50 px-2 py-1 text-sm text-slate-800 dark:bg-slate-800/60 dark:text-slate-100"><TermText text={notes[c.id]!} /></p>
             )}
           </li>
         ))}
@@ -75,11 +75,11 @@ export function Explanation({ q, initialMode }: { q: Question; initialMode: Expl
               <TermText text={e.short} />
             </p>
             {mode !== 'short' && <ChoiceReview q={q} notes={e.choiceExplanations} />}
-            {mode !== 'short' && e.standard && <p className="whitespace-pre-line leading-relaxed">{e.standard}</p>}
+            {mode !== 'short' && e.standard && <p className="whitespace-pre-line leading-relaxed"><TermText text={e.standard} /></p>}
             {mode !== 'short' && e.whyCorrect && (
               <div>
                 <h3 className="label">正解の理由</h3>
-                <p className="leading-relaxed">{e.whyCorrect}</p>
+                <p className="leading-relaxed"><TermText text={e.whyCorrect} /></p>
               </div>
             )}
             {mode !== 'short' && e.wrongChoices && (
@@ -88,7 +88,7 @@ export function Explanation({ q, initialMode }: { q: Question; initialMode: Expl
                 <ul className="space-y-1">
                   {Object.entries(e.wrongChoices).map(([k, v]) => (
                     <li key={k} className="leading-relaxed">
-                      <b>{k})</b> {v}
+                      <b>{k})</b> <TermText text={v} />
                     </li>
                   ))}
                 </ul>
@@ -104,13 +104,13 @@ export function Explanation({ q, initialMode }: { q: Question; initialMode: Expl
                 {e.detail && (
                   <div>
                     <h3 className="label">制度の仕組み</h3>
-                    <p className="leading-relaxed">{e.detail}</p>
+                    <p className="leading-relaxed"><TermText text={e.detail} /></p>
                   </div>
                 )}
                 {e.example && (
                   <div>
                     <h3 className="label">具体例</h3>
-                    <p className="leading-relaxed">{e.example}</p>
+                    <p className="leading-relaxed"><TermText text={e.example} /></p>
                   </div>
                 )}
                 {e.formulas?.map((f) => (
@@ -122,13 +122,13 @@ export function Explanation({ q, initialMode }: { q: Question; initialMode: Expl
                 {e.pitfalls && (
                   <div>
                     <h3 className="label">間違えやすいポイント</h3>
-                    <p className="leading-relaxed">{e.pitfalls}</p>
+                    <p className="leading-relaxed"><TermText text={e.pitfalls} /></p>
                   </div>
                 )}
                 {e.mnemonic && (
                   <div>
                     <h3 className="label">暗記のコツ</h3>
-                    <p className="leading-relaxed">{e.mnemonic}</p>
+                    <p className="leading-relaxed"><TermText text={e.mnemonic} /></p>
                   </div>
                 )}
                 {e.relatedQuestions?.length ? (

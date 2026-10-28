@@ -5,7 +5,7 @@ import { formatAnswer, scoreQuestion, type PartResponse, type QuestionResult, ty
 import { EXAM_SPECS } from '../domain/exam';
 import { useContent } from '../content/store';
 import { FieldBadge } from './common';
-import { TermText } from './TermText';
+import { TermChips, TermText } from './TermText';
 import { useCurrentLawBaseDate } from './hooks';
 
 /** 出典表示（日本FP協会の利用条件に基づく出典明記） */
@@ -224,8 +224,8 @@ function PartInput({
           {part.choices.map((c) => {
             const selected = value?.kind === 'choice' && value.value === c.id;
             return (
+              <div key={c.id}>
               <button
-                key={c.id}
                 type="button"
                 disabled={locked}
                 aria-pressed={selected}
@@ -235,6 +235,8 @@ function PartInput({
                 <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-slate-100 text-sm font-bold dark:bg-slate-800">{c.id}</span>
                 <span className="qtext">{c.text}</span>
               </button>
+              <TermChips text={c.text} />
+              </div>
             );
           })}
         </div>

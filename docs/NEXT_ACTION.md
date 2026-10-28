@@ -1,14 +1,15 @@
 # NEXT ACTION（再開手順）
-最終更新：2026-10-28。直近コミット時点で tsc エラーなし / Vitest 123 passed / build 成功 / Playwright 106 passed。
+最終更新：2026-10-28（引き継ぎ再開後）。tsc エラーなし / Vitest 133 passed / Playwright 110 passed（再実行して確認）。
 
 ## 現状
-- 全体：3級・2級の学科/実技を収録、公開サイトは GitHub Pages（PR #1〜#4 マージ済み）。**今回の拡充分（FP2 1,079問・95%チャレンジ・CSP等）は作業ブランチにあり、PR未作成**（ユーザーの指示があれば作成→CI→マージ→公開確認）。
+- 全体：3級・2級の学科/実技を収録、公開サイトは GitHub Pages（PR #1〜#4・#6 マージ済み。#6＝FP2 1,079問・95%チャレンジ・CSP等。mainに反映済み、2026-10-28 GitHubで確認）。現在の作業ブランチ：`claude/fp-master-continue-glossary-links`。
 - FP2：総数1,079（学科861／実技218）。公式500＋オリジナル579（四択553＋実技ケース18＋学科非四択8）。数値は `python3 -I scripts/audit/fp2_audit.py` で再現可能。詳細は `docs/FP2_*.md`。
 - 95%チャレンジ（`#/challenge`）実装・e2e済み。品質監査は `docs/QUALITY_AUDIT.md`、課題は `docs/ISSUE_REGISTER.md`。
 
 ## 次にやること（優先順）
+0. **第2段階：用語集の大幅拡充**（現状187語・うち100語がdraft（87語は照合済み）。続きは `docs/GLOSSARY_EXPANSION.md` の「未了」。原稿は `scripts/content/glossary_more_src.py`）。続いて第4段階（アプリ内「詳しい説明書」・シミュレーション説明）。
 1. 未カバー細目（`docs/FP2_COVERAGE_MATRIX.md`、特にC分野）と高難度の実技ケース（I-006）を、公的根拠が取れる論点でオリジナル追加→敵対的レビュー→`python3 -I scripts/content/build_content.py`（約5分）→tsc/vitest/playwright。
-2. ユーザー指示でPR作成→CI→マージ→ https://minkohno-hub.github.io/fp-master/ の確認。
+2. 公開URL https://minkohno-hub.github.io/fp-master/ の動作確認（未実施）。
 3. 実機iPhone確認・Lighthouse再計測・手動a11y（ユーザー協力）。
 4. 問題が2,000規模を超える前に遅延読込/プリキャッシュ分割を検討（I-004/I-005）。
 

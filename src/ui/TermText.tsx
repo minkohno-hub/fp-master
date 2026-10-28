@@ -1,6 +1,7 @@
 import { createContext, useContext, useMemo, useState, type ReactNode } from 'react';
 import { Link } from 'react-router';
 import type { Term } from '../domain/types';
+import { buildMatcher, linkTerms, termsIn } from '../domain/termlink';
 import { useContent } from '../content/store';
 import { ReviewBadge, Sheet } from './common';
 
@@ -9,31 +10,13 @@ export function toFullWidth(s: string): string {
   return s.replace(/[A-Za-z0-9]/g, (c) => String.fromCharCode(c.charCodeAt(0) + 0xfee0));
 }
 
-interface Matcher {
-  re: RegExp | null;
-  byName: Map<string, Term>;
-}
-
-export function buildMatcher(terms: Term[]): Matcher {
-  const byName = new Map<string, Term>();
-  for (const t of terms) {
-    const names = [t.name.replace(/（.*?）/g, ''), t.name, ...(t.aliases ?? [])];
-    for (const n of names) {
-      if (n.length < 2) continue;
-      byName.set(n, t);
-      const fw = toFullWidth(n);
-      if (fw !== n) byName.set(fw, t);
-    }
-  }
-  const keys = [...byName.keys()].sort((a, b) => b.length - a.length).map((k) => k.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'));
-  return { re: keys.length ? new RegExp(keys.join('|'), 'g') : null, byName };
-}
-
 const OpenTermCtx = createContext<(t: Term) => void>(() => {});
 
 /** 用語のポップアップを提供する（画面ごとに1つ） */
 export function TermPopupProvider({ children }: { children: ReactNode }) {
   const [term, setTerm] = useState<Term | null>(null);
+  const { terms } = useContent();
+  const related = useMemo(() => (term ? terms.filter((t) => term.related.includes(t.id)) : []), [term, terms]);
   return (
     <OpenTermCtx.Provider value={setTerm}>
       {children}
@@ -45,6 +28,18 @@ export function TermPopupProvider({ children }: { children: ReactNode }) {
               <ReviewBadge status={term.reviewStatus} />
             </div>
             <p className="leading-relaxed">{term.short}</p>
+            {related.length > 0 && (
+              <div>
+                <h3 className="label">関連用語</h3>
+                <div className="flex flex-wrap gap-2">
+                  {related.map((r) => (
+                    <button key={r.id} type="button" className="chip" onClick={() => setTerm(r)}>
+                      {r.name}
+                    </button>
+                  ))}
+                </div>
+              </div>
+            )}
             <Link to={`/glossary/${term.id}`} className="btn-secondary w-full" onClick={() => setTerm(null)}>
               詳しく見る
             </Link>
@@ -60,21 +55,7 @@ export function TermText({ text, className }: { text: string; className?: string
   const { terms } = useContent();
   const matcher = useMemo(() => buildMatcher(terms), [terms]);
   const open = useContext(OpenTermCtx);
-  const parts = useMemo(() => {
-    const out: (string | { s: string; t: Term })[] = [];
-    if (!matcher.re) return [text];
-    const seen = new Set<string>();
-    let last = 0;
-    for (const m of text.matchAll(matcher.re)) {
-      const t = matcher.byName.get(m[0]);
-      if (!t || seen.has(t.id)) continue;
-      seen.add(t.id);
-      out.push(text.slice(last, m.index), { s: m[0], t });
-      last = m.index! + m[0].length;
-    }
-    out.push(text.slice(last));
-    return out;
-  }, [text, matcher]);
+  const parts = useMemo(() => linkTerms(text, matcher), [text, matcher]);
   return (
     <span className={className}>
       {parts.map((p, i) =>
@@ -84,16 +65,39 @@ export function TermText({ text, className }: { text: string; className?: string
           <button
             key={i}
             type="button"
+            aria-haspopup="dialog"
             onClick={(e) => {
               e.stopPropagation();
-              open(p.t);
+              open(p.term);
             }}
             className="inline text-left underline decoration-brand-500 decoration-dotted underline-offset-4"
           >
-            {p.s}
+            {p.text}
           </button>
         ),
       )}
     </span>
+  );
+}
+
+/**
+ * 選択肢に含まれる用語のチップ。選択肢自体がボタンのため、リンクを入れ子にせず直下に並べる。
+ * 解答前でも定義（用語集と同じ内容）だけを開く。
+ */
+export function TermChips({ text }: { text: string }) {
+  const { terms } = useContent();
+  const matcher = useMemo(() => buildMatcher(terms), [terms]);
+  const open = useContext(OpenTermCtx);
+  const found = useMemo(() => termsIn(text, matcher), [text, matcher]);
+  if (!found.length) return null;
+  return (
+    <div className="mt-1 flex flex-wrap items-center gap-1.5 pl-10" role="group" aria-label="この選択肢の用語">
+      <span className="text-xs text-slate-600 dark:text-slate-400">用語</span>
+      {found.map((t) => (
+        <button key={t.id} type="button" onClick={() => open(t)} className="min-h-8 rounded-full border border-slate-300 px-2.5 text-xs dark:border-slate-600">
+          {t.name.replace(/（.*?）/g, '')}
+        </button>
+      ))}
+    </div>
   );
 }
