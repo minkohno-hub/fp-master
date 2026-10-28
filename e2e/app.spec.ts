@@ -2,7 +2,10 @@ import { expect, test, type Page } from '@playwright/test';
 
 async function answerCurrent(page: Page) {
   // 正誤式なら〇、択一式なら1番（解答欄の最初のボタン）を選ぶ。正誤は問わない
-  await page.locator('fieldset button').first().click();
+  // 複数小問（語群補充など）はすべての解答欄に答える
+  const sets = page.locator('fieldset');
+  const n = await sets.count();
+  for (let i = 0; i < n; i++) await sets.nth(i).locator('button').first().click();
 }
 
 test('初回起動：架空の成績を表示せず、すぐに5問解ける', async ({ page }) => {
