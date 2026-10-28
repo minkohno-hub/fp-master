@@ -47,3 +47,10 @@
 - 95%チャレンジのe2e、CSP(meta)、横スクロール検査(320/375/768px)、a11y(チャレンジ画面)を追加。Playwright 106 passed、Vitest 123 passed。
 - docs：FP2_*（拡充・カバレッジ・難易度・QA・次アクション）、QUALITY_AUDIT/ISSUE_REGISTER/REMEDIATION_PLAN/UI_UX_REVIEW/CONTENT_AUDIT/QUALITY_PROGRESS を作成。
 - 「実装済み」：上記すべて。「検証済み」：自動テストで確認できた範囲（実機・手動a11y・公開URLは未検証）。
+
+## 2026-10-28 引き継ぎ再開：用語リンクの適用範囲拡大（第3段階の一部）
+- 引き継ぎ監査：mainは PR #6 マージ済み（7d528e9）。再実行で tsc OK / Vitest 123 passed を確認。
+- 実測したギャップ：`TermText` の適用は問題文と解説の簡潔文のみ。選択肢・標準/詳細解説・選択肢別解説は未適用だった。
+- 実装：照合ロジックを `src/domain/termlink.ts` に分離（NFKC正規化で全角半角を吸収、長語優先、曖昧表記は非リンク、原文を保つ分割）。解説の各本文に `TermText`、選択肢には直下の `TermChips`（`<button>`入れ子のa11y違反を避けるため）。ポップアップに関連用語を追加。
+- 検証済み：tsc / Vitest 133 passed（新規10：実用語集91語の曖昧表記なし・全名称がリンクされる）/ Playwright 110 passed（新規4：選択肢チップ→定義→閉じても解答未確定、解説本文の用語→定義）。
+- 未検証：実機スクリーンリーダー。ポップアップのフォーカス復帰・フォーカストラップは未実装（次に対応）。
