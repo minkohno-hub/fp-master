@@ -6,6 +6,9 @@
 - FP2：総数1,079（学科861／実技218）。公式500＋オリジナル579（四択553＋実技ケース18＋学科非四択8）。数値は `python3 -I scripts/audit/fp2_audit.py` で再現可能。詳細は `docs/FP2_*.md`。
 - 95%チャレンジ（`#/challenge`）実装・e2e済み。品質監査は `docs/QUALITY_AUDIT.md`、課題は `docs/ISSUE_REGISTER.md`。
 
+## 保留中の追加仕様
+- `docs/TERM_LINK_SPEC.md`（専門用語集の大幅拡充と問題文リンクの自動連携）：**受領のみ・実装は「続けて」待ち**。
+
 ## 次にやること（優先順）
 1. 未カバー細目（`docs/FP2_COVERAGE_MATRIX.md`、特にC分野）と高難度の実技ケース（I-006）を、公的根拠が取れる論点でオリジナル追加→敵対的レビュー→`python3 -I scripts/content/build_content.py`（約5分）→tsc/vitest/playwright。
 2. ユーザー指示でPR作成→CI→マージ→ https://minkohno-hub.github.io/fp-master/ の確認。
