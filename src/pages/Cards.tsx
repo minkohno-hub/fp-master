@@ -12,12 +12,13 @@ import { useSettings } from '../state/settings';
 import { PageTitle } from '../ui/Layout';
 import { Empty, ReviewBadge } from '../ui/common';
 
-type Mode = 'due' | 'weak' | 'new' | 'all';
+type Mode = 'due' | 'weak' | 'new' | 'all' | 'fav';
 
 export function CardsHomePage() {
   const { cards } = useContent();
   const settings = useSettings();
   const srs = useLiveQuery(() => db.srs.where('key').startsWith('c:').toArray(), []);
+  const favTerms = useLiveQuery(() => db.termState.filter((s) => s.favorite).toArray(), []);
   const [fields, setFields] = useState<FieldId[]>([]);
   const [kind, setKind] = useState<'' | 'term' | 'fact'>('');
   const nav = useNavigate();
@@ -38,6 +39,9 @@ export function CardsHomePage() {
       <div className="grid gap-2">
         <button className="btn-primary" onClick={() => start('due')} disabled={!due}>
           今日の復習カード（{due}枚）
+        </button>
+        <button className="btn-secondary" onClick={() => start('fav')} disabled={!favTerms?.length}>
+          ★ お気に入り用語のカード（{mine.filter((c) => c.termId && favTerms?.some((f) => f.termId === c.termId)).length}枚）
         </button>
         <div className="grid grid-cols-3 gap-2">
           <button className="btn-secondary" onClick={() => start('weak')}>
@@ -96,6 +100,11 @@ export function CardsRunPage() {
       const termIds = params.get('term')?.split(',');
       let pool = cards.filter((c) => c.grades.includes(grade) && (!fields.length || fields.includes(c.field)) && (!kind || c.kind === kind));
       if (termIds) pool = cards.filter((c) => c.termId && termIds.includes(c.termId));
+      if (mode === 'fav') {
+        // 用語集でお気に入りにした用語を、そのまま暗記カードにする（データは用語集と共通で、重複管理しない）
+        const fav = new Set((await db.termState.filter((s) => s.favorite).toArray()).map((s) => s.termId));
+        pool = pool.filter((c) => c.termId && fav.has(c.termId));
+      }
       const srs = new Map((await db.srs.where('key').startsWith('c:').toArray()).map((s) => [s.key.slice(2), s]));
       const today = localDate();
       const rng = createRng(newSeed());
