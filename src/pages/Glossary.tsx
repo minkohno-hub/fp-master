@@ -6,9 +6,10 @@ import { db } from '../db/db';
 import { FIELD_IDS, FIELDS } from '../domain/exam';
 import type { FieldId, Term } from '../domain/types';
 import { useSettings } from '../state/settings';
+import { setTermState } from '../state/terms';
 import { PageTitle } from '../ui/Layout';
 import { Empty, FieldBadge, ReviewBadge, Tex } from '../ui/common';
-import { TermPopupProvider, TermText, toFullWidth } from '../ui/TermText';
+import { TermText, toFullWidth } from '../ui/TermText';
 
 const KANA_ROWS = ['あ', 'か', 'さ', 'た', 'な', 'は', 'ま', 'や', 'ら', 'わ'];
 const ROW_RANGES: [string, string][] = [
@@ -31,10 +32,7 @@ function kanaRow(reading: string): string {
 
 type Sort = 'kana' | 'field' | 'importance';
 
-export async function setTermState(termId: string, patch: { favorite?: boolean; learned?: boolean }) {
-  const cur = await db.termState.get(termId);
-  await db.termState.put({ termId, favorite: false, learned: false, ...cur, ...patch, updatedAt: new Date().toISOString() });
-}
+export { setTermState };
 
 export function GlossaryPage() {
   const { terms } = useContent();
@@ -138,7 +136,7 @@ export function TermPage() {
   }, [t, questions]);
   if (!t) return <Empty>用語が見つかりません。</Empty>;
   return (
-    <TermPopupProvider>
+    <>
       <article className="space-y-4">
         <div>
           <div className="mb-1 flex flex-wrap items-center gap-2 text-sm text-slate-600 dark:text-slate-400">
@@ -221,6 +219,6 @@ export function TermPage() {
           {t.reviewStatus === 'draft' && <p className="mt-1">この用語の説明は、根拠資料の引用照合が完了していません。学習の参考にとどめ、出典で確認してください。</p>}
         </section>
       </article>
-    </TermPopupProvider>
+    </>
   );
 }

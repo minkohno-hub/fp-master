@@ -3,6 +3,7 @@ import { useEffect, type ReactNode } from 'react';
 import { setSetting, useSettings } from '../state/settings';
 import { EXAM_SPECS, examKeyOf } from '../domain/exam';
 import { UpdatePrompt } from './UpdatePrompt';
+import { TermPopupProvider } from './TermText';
 
 const NAV = [
   { to: '/', label: 'ホーム', icon: '⌂' },
@@ -70,9 +71,11 @@ export function Layout() {
           </p>
         </header>
       )}
-      <main className={`flex-1 px-4 ${focus ? 'pt-[env(safe-area-inset-top)]' : 'pb-24 pt-4'}`}>
-        <Outlet />
-      </main>
+      <TermPopupProvider>
+        <main className={`flex-1 px-4 ${focus ? 'pt-[env(safe-area-inset-top)]' : 'pb-24 pt-4'}`}>
+          <Outlet />
+        </main>
+      </TermPopupProvider>
       {!focus && (
         <nav
           aria-label="メインメニュー"

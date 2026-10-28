@@ -13,7 +13,7 @@ import { useExamKey, useUserState } from '../ui/hooks';
 import { PageTitle } from '../ui/Layout';
 import { AnswerArea, QuestionHeader, Stem } from '../ui/QuestionView';
 import { Explanation } from '../ui/Explanation';
-import { TermPopupProvider } from '../ui/TermText';
+import { TermPolicyProvider } from '../ui/TermText';
 import { NoteAndReport } from '../ui/NoteAndReport';
 import { Empty, FieldBadge } from '../ui/common';
 
@@ -97,7 +97,7 @@ export function QuestionDetailPage() {
   if (!q || !settings) return <Empty>問題が見つかりません。</Empty>;
   const result = done ? scoreQuestion(q, responses) : undefined;
   return (
-    <TermPopupProvider>
+    <TermPolicyProvider value={result ? 'full' : 'brief'}>
       <div className="space-y-2 pb-8">
         <QuestionHeader q={q} />
         {q.status !== 'verified' && (
@@ -124,6 +124,6 @@ export function QuestionDetailPage() {
           </>
         )}
       </div>
-    </TermPopupProvider>
+    </TermPolicyProvider>
   );
 }

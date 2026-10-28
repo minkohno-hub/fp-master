@@ -22,6 +22,7 @@ from pathlib import Path
 HERE = Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE))
 from glossary_src import TERMS  # noqa: E402
+import termlib  # noqa: E402
 from cards_src import CARDS  # noqa: E402
 from law_src import LAW_CHANGES  # noqa: E402
 from explanations_src import EXPLANATIONS  # noqa: E402
@@ -74,6 +75,10 @@ def main() -> None:
     if dup:
         raise SystemExit(f'ID重複: {dup}')
     term_ids = {t['id'] for t in TERMS}
+    syl = json.loads((ROOT / 'scripts/original/syllabus_fp2.json').read_text(encoding='utf-8'))
+    terr = termlib.validate(TERMS, {i['key'] for i in syl['items']})
+    if terr:
+        raise SystemExit('拡充用語の検証エラー:\n  ' + '\n  '.join(terr))
     for t in TERMS:
         for r in t['related']:
             if r not in term_ids:
@@ -137,7 +142,7 @@ def main() -> None:
         x['reviewStatus'] = 'verified' if ok else 'draft'
         item_status[x['id']] = x['reviewStatus']
 
-    (OUT / 'glossary.json').write_text(json.dumps(TERMS, ensure_ascii=False, indent=1) + '\n', encoding='utf-8')
+    (OUT / 'glossary.json').write_text(json.dumps([{k: v for k, v in t.items() if not k.startswith('_')} for t in TERMS], ensure_ascii=False, indent=1) + '\n', encoding='utf-8')
     qids = {q['id'] for f in (OUT / 'questions').glob('*.json') for q in json.loads(f.read_text(encoding='utf-8'))['questions']}
     for e in EXPLANATIONS:
         if e['id'] not in qids:

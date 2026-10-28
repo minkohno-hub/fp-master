@@ -203,6 +203,27 @@ export const TermSchema = z.object({
   importance: z.union([z.literal(1), z.literal(2), z.literal(3)]),
   grades: z.array(GradeSchema).min(1),
   field: FieldIdSchema,
+  /** 重要な数字・適用条件（箇条書き）。具体的な数値はここに置き、short には書かない */
+  numbers: z.array(z.string()).optional(),
+  /** 例外規定・注意点 */
+  exceptions: z.array(z.string()).optional(),
+  /** 類似用語との違い（termId があれば用語集の相互参照に使う） */
+  compare: z.array(z.object({ label: z.string(), diff: z.string(), termId: z.string().optional() })).optional(),
+  /** 試験範囲の細目キー（scripts/original/syllabus_fp2.json の key） */
+  topics: z.array(z.string()).optional(),
+  /** 説明の法令基準日 */
+  lawBaseDate: IsoDate.optional(),
+  /** 自動リンクの制御（曖昧語・一般語の誤リンク防止） */
+  linkRule: z
+    .object({
+      /** false なら本文の自動リンク対象にしない（用語集には載る） */
+      auto: z.boolean().optional(),
+      /** 本文にこれらの語のいずれかが含まれるときだけリンクする（文脈による曖昧性解消） */
+      requireAny: z.array(z.string()).optional(),
+      /** true なら複合語の途中でもリンクする（境界判定を緩める） */
+      partial: z.boolean().optional(),
+    })
+    .optional(),
   /** verified: 根拠の引用が公式ページで照合済み / draft: 未照合（「要確認」と表示） */
   reviewStatus: z.enum(['verified', 'draft']),
   sources: z.array(SourceRefSchema),

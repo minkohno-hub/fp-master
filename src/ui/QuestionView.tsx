@@ -223,18 +223,26 @@ function PartInput({
         <div className="space-y-2.5">
           {part.choices.map((c) => {
             const selected = value?.kind === 'choice' && value.value === c.id;
+            // 選択肢の文中の用語をタップできるよう、行全体を覆う選択ボタンと、その上に重ねた本文（用語リンクのみ操作可）で構成する
+            const tid = `ch-${part.id}-${c.id}`;
             return (
-              <button
-                key={c.id}
-                type="button"
-                disabled={locked}
-                aria-pressed={selected}
-                onClick={() => onSelect({ kind: 'choice', value: c.id })}
-                className={`flex min-h-14 w-full items-start gap-3 rounded-2xl border-2 p-3 text-left ${style(selected, part.answer === c.id)}`}
-              >
-                <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-slate-100 text-sm font-bold dark:bg-slate-800">{c.id}</span>
-                <span className="qtext">{c.text}</span>
-              </button>
+              <div key={c.id} className={`relative flex min-h-14 w-full items-start gap-3 rounded-2xl border-2 p-3 text-left ${style(selected, part.answer === c.id)}`}>
+                <button
+                  type="button"
+                  disabled={locked}
+                  aria-pressed={selected}
+                  aria-label={`選択肢${c.id}`}
+                  aria-describedby={tid}
+                  onClick={() => onSelect({ kind: 'choice', value: c.id })}
+                  className="absolute inset-0 rounded-2xl"
+                />
+                <span aria-hidden className="pointer-events-none flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-slate-100 text-sm font-bold dark:bg-slate-800">
+                  {c.id}
+                </span>
+                <span id={tid} className="qtext pointer-events-none relative">
+                  <TermText text={c.text} />
+                </span>
+              </div>
             );
           })}
         </div>

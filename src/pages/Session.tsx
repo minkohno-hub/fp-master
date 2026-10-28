@@ -9,7 +9,7 @@ import { useSettings } from '../state/settings';
 import { commitAnswer, commitPending, finishSession } from '../state/sessions';
 import { AnswerArea, QuestionHeader, Stem } from '../ui/QuestionView';
 import { Explanation } from '../ui/Explanation';
-import { TermPopupProvider } from '../ui/TermText';
+import { TermPolicyProvider } from '../ui/TermText';
 import { NoteAndReport } from '../ui/NoteAndReport';
 import { Empty, ProgressBar, pct } from '../ui/common';
 
@@ -82,7 +82,7 @@ export function SessionPage() {
   };
 
   return (
-    <TermPopupProvider>
+    <TermPolicyProvider value={result ? 'full' : 'brief'}>
       <div className="pb-28">
         <div className="sticky top-0 z-10 -mx-4 bg-slate-50/95 px-4 pb-2 pt-3 backdrop-blur dark:bg-slate-950/95">
           <div className="mb-2 flex items-center justify-between">
@@ -133,7 +133,7 @@ export function SessionPage() {
           </div>
         )}
       </div>
-    </TermPopupProvider>
+    </TermPolicyProvider>
   );
 }
 

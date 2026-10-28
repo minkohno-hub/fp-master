@@ -13,6 +13,7 @@ import { useSettings } from '../state/settings';
 import { startPractice } from '../state/sessions';
 import { useExamKey } from '../ui/hooks';
 import { PageTitle } from '../ui/Layout';
+import { TermText } from '../ui/TermText';
 import { Calculator } from '../ui/Calculator';
 import { Tex, pct } from '../ui/common';
 
@@ -219,7 +220,7 @@ export function CalcRunPage() {
       <div className="text-sm text-slate-600 dark:text-slate-400">
         {generator.title}／{problem.pattern}／{{ 1: '基本', 2: '標準', 3: '応用' }[difficulty]}
       </div>
-      <p className="qtext">{problem.prompt}</p>
+      <p className="qtext"><TermText text={problem.prompt} /></p>
       <dl className="card grid grid-cols-[auto_1fr] gap-x-3 gap-y-1 text-sm">
         {problem.given.map((g) => (
           <div key={g.label} className="contents">
@@ -264,7 +265,9 @@ export function CalcRunPage() {
             <ol className="list-decimal space-y-2 pl-5">
               {problem.steps.map((s, i) => (
                 <li key={i}>
-                  <p>{s.text}</p>
+                  <p>
+                    <TermText text={s.text} />
+                  </p>
                   {s.tex && <Tex tex={s.tex} block />}
                 </li>
               ))}
@@ -276,7 +279,11 @@ export function CalcRunPage() {
               <div key={f.name}>
                 <div className="label">{f.name}</div>
                 <Tex tex={f.tex} block />
-                {f.explain && <p className="text-sm text-slate-600 dark:text-slate-400">{f.explain}</p>}
+                {f.explain && (
+                  <p className="text-sm text-slate-600 dark:text-slate-400">
+                    <TermText text={f.explain} />
+                  </p>
+                )}
               </div>
             ))}
             <p className="text-xs text-slate-600 dark:text-slate-400">

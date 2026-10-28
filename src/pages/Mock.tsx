@@ -15,7 +15,7 @@ import { useExamKey } from '../ui/hooks';
 import { PageTitle } from '../ui/Layout';
 import { AnswerArea, QuestionHeader, Stem } from '../ui/QuestionView';
 import { Empty, ProgressBar, pct } from '../ui/common';
-import { TermPopupProvider } from '../ui/TermText';
+import { TermPolicyProvider } from '../ui/TermText';
 
 export function MockHomePage() {
   const exam = useExamKey();
@@ -217,7 +217,7 @@ export function MockRunPage() {
   const mm = remaining !== null ? `${Math.floor(remaining / 60)}:${String(remaining % 60).padStart(2, '0')}` : '';
 
   return (
-    <TermPopupProvider>
+    <TermPolicyProvider value={'brief'}>
       <div className="pb-28">
         <div className="sticky top-0 z-10 -mx-4 bg-slate-50/95 px-4 pb-2 pt-3 backdrop-blur dark:bg-slate-950/95">
           <div className="mb-2 flex items-center justify-between text-sm">
@@ -296,7 +296,7 @@ export function MockRunPage() {
           </div>
         </div>
       </div>
-    </TermPopupProvider>
+    </TermPolicyProvider>
   );
 }
 

@@ -66,7 +66,7 @@ def T(id, name, reading, field, importance, short, detail, related=(), grades=(2
     return d
 
 
-TERMS = [
+BASE_TERMS = [
     # ── A ライフプランニングと資金計画 ──
     T('shuka-keisu', '終価係数', 'しゅうかけいすう', 'A', 3,
       '今ある元本を一定利率で複利運用したときの、将来の元利合計額を求める係数。',
@@ -461,3 +461,16 @@ TERMS = [
       '上場株式は、課税時期の終値と、その月・前月・前々月の終値の月平均額のうち最も低い価額で評価する。',
       '負担付贈与等で取得した場合は課税時期の終値で評価する。', []),
 ]
+
+
+# 拡充用語（terms_ext/*.py の TERMS を連結。用語を追加するだけで本文の自動リンクが有効になる）
+TERMS = list(BASE_TERMS)
+try:
+    import importlib
+    import pkgutil
+    import terms_ext  # noqa: E402
+
+    for _m in sorted(pkgutil.iter_modules(terms_ext.__path__), key=lambda m: m.name):
+        TERMS += importlib.import_module(f'terms_ext.{_m.name}').TERMS
+except ImportError:  # terms_ext がない環境でも既存用語だけで動く
+    pass

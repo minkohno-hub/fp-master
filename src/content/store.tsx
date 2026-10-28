@@ -1,6 +1,7 @@
 import { createContext, useContext, useEffect, useMemo, useState, type ReactNode } from 'react';
 import type { FactCard, LawChange, Question, QuestionSet, Term } from '../domain/types';
 import { loadAllQuestionSets } from './index';
+import { buildTermIndex, type TermIndex } from '../domain/termlink';
 import glossaryJson from './glossary.json';
 import cardsJson from './cards.json';
 import lawJson from './law-changes.json';
@@ -23,6 +24,8 @@ export interface Content {
   questionById: Map<string, Question>;
   terms: Term[];
   termById: Map<string, Term>;
+  /** 用語の自動リンク用インデックス（用語を登録するだけで本文リンクが有効になる） */
+  termIndex: TermIndex;
   cards: StudyCard[];
   lawChanges: LawChange[];
   /** 問題ID → 関連する改正情報（確認済みのみ） */
@@ -107,6 +110,7 @@ export function buildContent(sets: QuestionSet[]): Content {
     questionById: new Map(adjusted.map((q) => [q.id, q])),
     terms: TERMS,
     termById: new Map(TERMS.map((t) => [t.id, t])),
+    termIndex: buildTermIndex(TERMS),
     cards: buildCards(TERMS, FACT_CARDS),
     lawChanges: LAW_CHANGES,
     lawByQuestion,

@@ -40,6 +40,7 @@ const DataPage = lazy(() => import('./pages/Data').then((m) => ({ default: m.Dat
 const LawPage = lazy(() => import('./pages/Law').then((m) => ({ default: m.LawPage })));
 
 const MenuPage = lazy(() => import('./pages/Menu').then((m) => ({ default: m.MenuPage })));
+const HelpPage = lazy(() => import('./pages/Menu').then((m) => ({ default: m.HelpPage })));
 const AboutPage = lazy(() => import('./pages/Menu').then((m) => ({ default: m.AboutPage })));
 const NotFoundPage = lazy(() => import('./pages/Menu').then((m) => ({ default: m.NotFoundPage })));
 
@@ -78,6 +79,7 @@ export function App() {
             <Route path="data" element={<DataPage />} />
             <Route path="law" element={<LawPage />} />
             <Route path="menu" element={<MenuPage />} />
+            <Route path="help" element={<HelpPage />} />
             <Route path="about" element={<AboutPage />} />
             <Route path="*" element={<NotFoundPage />} />
           </Route>
