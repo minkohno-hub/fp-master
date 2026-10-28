@@ -1,20 +1,38 @@
 # NEXT ACTION（再開手順）
-最終更新：2026-10-28（引き継ぎ再開後）。tsc エラーなし / Vitest 133 passed / Playwright 110 passed（再実行して確認）。
+最終更新：2026-10-28（中断時）。main = `a7eb920`（PR #7 マージ済み）。tsc OK / Vitest 133 passed / Playwright 110 passed / 公開サイトのデプロイ成功（新語・法改正データの配信を確認）。
 
 ## 現状
-- 全体：3級・2級の学科/実技を収録、公開サイトは GitHub Pages（PR #1〜#4・#6 マージ済み。#6＝FP2 1,079問・95%チャレンジ・CSP等。mainに反映済み、2026-10-28 GitHubで確認）。現在の作業ブランチ：`claude/fp-master-continue-glossary-links`。
-- FP2：総数1,079（学科861／実技218）。公式500＋オリジナル579（四択553＋実技ケース18＋学科非四択8）。数値は `python3 -I scripts/audit/fp2_audit.py` で再現可能。詳細は `docs/FP2_*.md`。
-- 95%チャレンジ（`#/challenge`）実装・e2e済み。品質監査は `docs/QUALITY_AUDIT.md`、課題は `docs/ISSUE_REGISTER.md`。
+- 3級・2級の学科/実技を収録。PR #1〜#4・#6・#7 マージ済み。公開サイト：https://minkohno-hub.github.io/fp-master/ （GitHub Pages、mainへのpushで自動デプロイ）。
+- 作業ブランチ：`claude/fp-master-glossary-batch2`（main `a7eb920` から作成、未変更）。次の作業はここで行い、PRで統合する（自動マージはしない）。
+- FP2：1,079問（学科861／実技218。公式500＋オリジナル579）。試験範囲595細目のうちオリジナルがある細目311（前任の記録。再集計は未実施）。
+- 用語集：**187語（照合済み87／要確認100）**。分野別 A38/B22/C40/D28/E29/F30。法改正管理：8件。
+- 進捗の見積もり（指示書の7段階を等重みで平均して約3割。測定値ではなく見積もり）：1 引き継ぎ監査100%／2 用語集約30%／3 用語リンク約80%／4 説明書・シミュレーション約5%／5 FP2不足論点0%（今回分）／6 UI/UX 0%／7 品質監査0%。
 
 ## 次にやること（優先順）
-0. **第2段階：用語集の大幅拡充**（現状187語・うち100語がdraft（87語は照合済み）。続きは `docs/GLOSSARY_EXPANSION.md` の「未了」。原稿は `scripts/content/glossary_more_src.py`）。続いて第4段階（アプリ内「詳しい説明書」・シミュレーション説明）。
-1. 未カバー細目（`docs/FP2_COVERAGE_MATRIX.md`、特にC分野）と高難度の実技ケース（I-006）を、公的根拠が取れる論点でオリジナル追加→敵対的レビュー→`python3 -I scripts/content/build_content.py`（約5分）→tsc/vitest/playwright。
-2. 公開URL https://minkohno-hub.github.io/fp-master/ の動作確認（未実施）。
-3. 実機iPhone確認・Lighthouse再計測・手動a11y（ユーザー協力）。
-4. 問題が2,000規模を超える前に遅延読込/プリキャッシュ分割を検討（I-004/I-005）。
+1. **残り100語の根拠照合**（未照合の内訳：C38・A21・B19・E9・F8・D5。語の一覧は `docs/GLOSSARY_EXPANSION.md`）。原稿は `scripts/content/glossary_more_src.py` の `T(...)`。手順は下の「根拠照合の手順」。
+2. **アプリ内「詳しい説明書」モード**（未着手）と、既存シミュレーションの調査・説明強化（指示書 §18・§19）。
+3. 試験要綱の細目と突き合わせて不足語を抽出し、用語を追加（現状は分野別の主要語を手動で選んだだけ）。
+4. 用語ポップアップのフォーカス復帰・フォーカストラップ（未実装、a11y）。
+5. 未カバー細目（`docs/FP2_COVERAGE_MATRIX.md`、特にC分野）と高難度の実技ケース（I-006）。
+6. 実機iPhone確認・Lighthouse再計測・手動a11y（VoiceOver等）・公開URL上でのブラウザ操作確認（ユーザー協力。配信ファイルの中身の確認までは実施済み）。
+7. 問題が2,000規模を超える前に遅延読込/プリキャッシュ分割（I-004/I-005）。
+
+## 根拠照合の手順（今回確立）
+1. 公式ページ本文を取得して引用候補を探す。`build_content.fetch` + `page_text`（空白除去後の本文）を使う。e-Gov は `https://laws.e-gov.go.jp/law/<法令ID>` で法令APIの現行条文を取得できる。
+2. **引用は取得した本文からコピーする**（記憶で書かない）。毎年変わる金額は引用に含めない（次年度に照合が壊れる）。
+3. 本文の主張は、引用で裏づけられるものだけ残す。裏づけのない主張は削る（照合済み＝全主張を引用で裏づけたもの、という前任の方針）。
+4. 出典は `scripts/content/glossary_src.py` の `S`（`S.update` の追加ブロック）に登録し、`T(..., sources=[...], evidence=[ev(S[k]['url'], 引用)])`。
+5. `python3 -I scripts/content/build_content.py`（ネットワーク照合、約5〜10分。「引用が見つからない」が出たら引用を直す）→ `npx vitest run`。
+6. 法令の改正が見つかったら `scripts/content/law_src.py` に `L(...)` を追加し、既存問題への影響を1問ずつ判定（`unchanged`/`changed`/`unknown`。AIの推測だけで正答を書き換えない）。
+
+## 今回の調査で分かったこと（再調査不要）
+- 国税庁タックスアンサーのページは「令和8年4月1日現在法令等」＝試験の法令基準日と一致。URL例：`/taxes/shiraberu/taxanswer/<shotoku|shohi|sozoku|zoyo>/<番号>.htm`。有効な番号は 1110・1130・1150・1155・1600・1900・2020・2260・4114・4117・4152・4161・4205・4211・4214・4402・6303・6505 などを確認済み（存在しない番号は「指定されたページを表示できませんでした」）。
+- 日本年金機構は `https://www.nenkin.go.jp/service/...`（障害年金・遺族年金・老齢厚生年金・加給年金・寡婦年金・死亡一時金の各ページを `glossary_src.py` の `nk_*` に登録済み）。
+- 令和8年4月1日施行の区分所有法改正（決議の多数決が出席者基準）、生前贈与加算（相続開始が令和8年12月31日までは3年）、復興特別所得税/防衛特別所得税（令和9年〜）、飲食料品の消費税率引下げ（令和9年4月〜2年間）は登録済み。
+- CIの `push` 実行は遅いランナーで e2e「100問ノック」が 240秒でタイムアウトすることがある（同一コミットの `pull_request` 実行は成功。再実行で通る）。再発するなら、ノックのテストを軽くする/タイムアウトを延ばすことを検討。
 
 ## 再開時の確認コマンド
-`npx tsc -b --noEmit && npx vitest run && npm run build`、UI変更時は `PLAYWRIGHT_CHROMIUM_PATH=/opt/pw-browsers/chromium-1194/chrome-linux/chrome npx playwright test`
+`npx tsc -b --noEmit && npx vitest run && npm run build`、UI変更時は `PLAYWRIGHT_CHROMIUM_PATH=/opt/pw-browsers/chromium-1243/chrome-linux64/chrome npx playwright test`
 
 ## 制限・メモ
 - オリジナル問題の追加手順：`scripts/original/AUTHORING.md`（四択は fporig.core、実技ケース/非四択は fporig.cases）。
