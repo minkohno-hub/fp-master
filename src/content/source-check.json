@@ -216,6 +216,56 @@
    "checkedAt": "2026-10-28",
    "missing": []
   },
+  "https://www.nenkin.go.jp/service/jukyu/seido/roureinenkin/jukyu-yoken/20140421-01.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-28",
+   "missing": []
+  },
+  "https://www.nenkin.go.jp/service/jukyu/seido/roureinenkin/kakyu-hurikae/20150401.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-28",
+   "missing": []
+  },
+  "https://www.nenkin.go.jp/service/jukyu/seido/shougainenkin/jukyu-yoken/20150401-01.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-28",
+   "missing": []
+  },
+  "https://www.nenkin.go.jp/service/jukyu/seido/shougainenkin/jukyu-yoken/20150514.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-28",
+   "missing": []
+  },
+  "https://www.nenkin.go.jp/service/jukyu/seido/shougainenkin/jukyu-yoken/20150401-02.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-28",
+   "missing": []
+  },
+  "https://www.nenkin.go.jp/service/jukyu/seido/izokunenkin/jukyu-yoken/20150401-04.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-28",
+   "missing": []
+  },
+  "https://www.nenkin.go.jp/service/jukyu/seido/sonota-kyufu/1go-dokuji/20140422-01.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-28",
+   "missing": []
+  },
+  "https://www.nenkin.go.jp/service/jukyu/seido/izokunenkin/jukyu-yoken/20150424.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-28",
+   "missing": []
+  },
+  "https://www.nenkin.go.jp/service/yougo/tagyo/chukoreikafu.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-28",
+   "missing": []
+  },
+  "https://www.nenkin.go.jp/service/jukyu/seido/sonota-kyufu/1go-dokuji/20140422-02.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-28",
+   "missing": []
+  },
   "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1600.htm": {
    "fetched": true,
    "checkedAt": "2026-10-28",
@@ -351,11 +401,6 @@
    "checkedAt": "2026-10-28",
    "missing": []
   },
-  "https://www.nenkin.go.jp/service/jukyu/seido/izokunenkin/jukyu-yoken/20150424.html": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
   "https://laws.e-gov.go.jp/law/420AC0000000056": {
    "fetched": true,
    "checkedAt": "2026-10-28",
@@ -427,11 +472,6 @@
    "missing": []
   },
   "https://www.kyoukaikenpo.or.jp/benefit/injury_and_sickness_allowance/": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nenkin.go.jp/service/jukyu/seido/izokunenkin/jukyu-yoken/20150401-04.html": {
    "fetched": true,
    "checkedAt": "2026-10-28",
    "missing": []
@@ -2096,15 +2136,15 @@
   "jojo-kabushiki-hyoka": "verified",
   "life-event-hyo": "draft",
   "kojin-balance-sheet": "draft",
-  "rorei-kosei-nenkin": "draft",
-  "kakyu-nenkin": "draft",
-  "shogai-kiso-nenkin": "draft",
-  "shogai-kosei-nenkin": "draft",
-  "izoku-kiso-nenkin": "draft",
-  "izoku-kosei-nenkin": "draft",
-  "chukorei-kafu-kasan": "draft",
-  "kafu-nenkin": "draft",
-  "shibo-ichijikin": "draft",
+  "rorei-kosei-nenkin": "verified",
+  "kakyu-nenkin": "verified",
+  "shogai-kiso-nenkin": "verified",
+  "shogai-kosei-nenkin": "verified",
+  "izoku-kiso-nenkin": "verified",
+  "izoku-kosei-nenkin": "verified",
+  "chukorei-kafu-kasan": "verified",
+  "kafu-nenkin": "verified",
+  "shibo-ichijikin": "verified",
   "hokenryo-menjo": "draft",
   "kokumin-nenkin-kikin": "draft",
   "kigyogata-dc": "draft",
@@ -3653,15 +3693,15 @@
   "jojo-kabushiki-hyoka": "その最終価格が課税時期の属する月以前3か月間の毎日の最終価格の各月ごとの平均額（以下「最終価格の月平均額」という。）のうち最も低い価額を超える場合には、その最も低い価額によって評価する",
   "life-event-hyo": "",
   "kojin-balance-sheet": "",
-  "rorei-kosei-nenkin": "",
-  "kakyu-nenkin": "",
-  "shogai-kiso-nenkin": "",
-  "shogai-kosei-nenkin": "",
-  "izoku-kiso-nenkin": "",
-  "izoku-kosei-nenkin": "",
-  "chukorei-kafu-kasan": "",
-  "kafu-nenkin": "",
-  "shibo-ichijikin": "",
+  "rorei-kosei-nenkin": "60歳から65歳までの間に繰上げて減額された年金を受け取る「繰上げ受給」や、66歳から75歳まで※の間に繰下げて増額された年金を受け取る「繰下げ受給」を選択することができます|一定の要件を満たす方は、65歳になるまでの間、特別支給の老齢厚生年金を受け取ることができます|勤務先で厚生年金保険に加入しながら老齢厚生（退職共済）年金を受給している方については、給料と年金の合計額に応じて年金の支給が停止される場合があります|厚生年金に加入していた時の報酬額や加入期間等に応じて年金額が計算されます|老齢厚生年金として、報酬比例部分と経過的加算と加給年金額を合計した金額が受給できます|老齢厚生年金は、老齢基礎年金を受け取れる方に厚生年金の加入期間がある場合に、老齢基礎年金に上乗せして65歳から受け取ることができます",
+  "kakyu-nenkin": "1級・2級の障害の状態にある20歳未満の子|65歳未満であること（大正15年4月1日以前に生まれた配偶者には年齢制限はありません）|厚生年金保険の被保険者期間が20年（※）以上ある方が、65歳到達時点（または定額部分支給開始年齢に到達した時点）で、その方に生計を維持されている配偶者または子がいるときに加算されます|妻（夫）が65歳になると、それまで夫（妻）に支給されていた加給年金額が打ち切られます。このとき妻（夫）が老齢基礎年金を受けられる場合には、一定の基準により妻（夫）自身の老齢基礎年金の額に加算がされます。これを振替加算といいます",
+  "shogai-kiso-nenkin": "20歳前の年金制度に加入していない期間に初診日がある場合は、納付要件は不要です|ただし、初診日が令和18年3月末日までのときは、初診日において65歳未満であれば、初診日の前日において、初診日がある月の前々月までの直近1年間に保険料の未納がなければよいことになっています|初診日の前日に、初診日がある月の前々月までの被保険者期間で、国民年金の保険料納付済期間（厚生年金保険の被保険者期間、共済組合の組合員期間を含む）と保険料免除期間をあわせた期間が3分の2以上あること|初診日（障害の原因となった病気やけがについて、初めて医師または歯科医師の診療を受けた日）|国民年金加入期間20歳前または日本国内に住んでいる60歳以上65歳未満で年金制度に加入していない期間|子とは18歳になった後の最初の3月31日までの子、または20歳未満で障害等級1級または2級の状態にある子です|障害の状態が、障害認定日（障害認定日以後に20歳に達したときは、20歳に達した日）に、障害等級表に定める1級または2級に該当していること",
+  "shogai-kosei-nenkin": "1級（報酬比例の年金額）×1.25|3級の最低保障額|初診日から5年以内に病気やけがが治り、障害厚生年金を受けるよりも軽い障害が残ったときには障害手当金（一時金）が支給されます|厚生年金に加入している間に初診日のある病気やけがで障害基礎年金の1級または2級に該当する障害の状態になったときは、障害基礎年金に上乗せして障害厚生年金が支給されます|厚生年金保険の被保険者である間に、障害の原因となった病気やけがの初診日があること|障害の状態が2級に該当しない軽い程度の障害のときは3級の障害厚生年金が支給されます|障害の状態が、障害認定日に、障害等級表に定める1級から3級のいずれかに該当していること",
+  "izoku-kiso-nenkin": "ただし、死亡日が令和18年3月末日までのときは、死亡した方が65歳未満であれば、死亡日の前日において、死亡日が含まれる月の前々月までの直近1年間に保険料の未納がなければよいことになっています|令和10年4月1日以後は生計を同じくする父または母がいる場合であっても、子は遺族基礎年金の支給を受けることができるようになります|保険料納付済期間、保険料免除期間および合算対象期間並びに65歳以降の厚生年金保険の被保険者期間を合算した期間が25年以上ある方に限ります|国民年金の被保険者である間に死亡したとき国民年金の被保険者であった60歳以上65歳未満の方で、日本国内に住所を有していた方が死亡したとき老齢基礎年金の受給資格を満たした方が死亡したとき|子とは18歳になった年度の3月31日までにある方、または20歳未満で障害年金の障害等級1級または2級の状態にある方をさします|子のある配偶者が遺族基礎年金を受け取っている間や、子に生計を同じくする父または母がいる間は、子には遺族基礎年金は支給されません|死亡日の前日において、保険料納付済期間（保険料免除期間を含む）が国民年金加入期間の3分の2以上あることが必要です",
+  "izoku-kosei-nenkin": "厚生年金保険の被保険者である間に死亡したとき厚生年金の被保険者期間に初診日がある病気やけがが原因で初診日から5年以内に死亡したとき1級・2級の障害厚生（共済）年金を受けとっている方が死亡したとき老齢厚生年金の受給資格を満たした方が死亡したとき|子のない30歳未満の妻は、5年間のみ受給できます|死亡した方に生計を維持されていた以下の遺族のうち、最も優先順位の高い方が受け取ることができます|父母または祖父母は、55歳以上である方に限り受給できますが、受給開始は60歳からとなります|遺族厚生年金の年金額は、死亡した方の老齢厚生年金の報酬比例部分の4分の3の額となります",
+  "chukorei-kafu-kasan": "夫が死亡したときに40歳以上で子のない妻（夫の死亡後40歳に達した当時、子がいた妻も含む）が受ける遺族厚生年金には、40歳から65歳になるまでの間、中高齢の寡婦加算（定額）が加算されます|妻が65歳になると自分の老齢基礎年金が受けられるため、中高齢の寡婦加算はなくなります|死亡した夫の被保険者期間が20年以上の場合",
+  "kafu-nenkin": "亡くなった夫が、老齢基礎年金・障害基礎年金を受けたことがあるときは支給されません|妻が繰り上げ支給の老齢基礎年金を受けているときは支給されません|寡婦年金を受けられる場合は、どちらか一方を選択します|年金額は、夫の第1号被保険者期間だけで計算した老齢基礎年金額の4分の3の額です|死亡日の前日において国民年金の第1号被保険者として保険料を納めた期間および国民年金の保険料免除期間（※1）が10年以上（※2）ある夫が亡くなったときに、その夫と10年以上継続して婚姻関係（事実上の婚姻関係を含む）にあり、死亡当時にその夫に生計を維持されていた妻に対して、その妻が60歳から65歳になるまでの間支給されます",
+  "shibo-ichijikin": "付加保険料を納めた月数が36月以上ある場合は、8,500円が加算されます|死亡一時金の額は、保険料を納めた月数に応じて120,000円～320,000円です|第1号被保険者として保険料を納めた月数（4分の3納付月数は4分の3月，半額納付月数は2分の1月，4分の1納付月数は4分の1月として計算）が36月以上ある方が、老齢基礎年金・障害基礎年金を受けないまま亡くなった時|遺族が、遺族基礎年金の支給を受けられるときは支給されません。寡婦年金を受けられる場合は、どちらか一方を選択します",
   "hokenryo-menjo": "",
   "kokumin-nenkin-kikin": "",
   "kigyogata-dc": "",

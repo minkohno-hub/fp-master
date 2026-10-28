@@ -71,6 +71,21 @@ S.update({
     'nta2260': src('国税庁 No.2260 所得税の税率', NTA_TA + 'shotoku/2260.htm'),
 })
 
+# 日本年金機構（2026-10-28追加分）
+NK = 'https://www.nenkin.go.jp/service/'
+S.update({
+    'nk_rorei_kosei': src('日本年金機構 老齢厚生年金の受給要件・支給開始時期・年金額', NK + 'jukyu/seido/roureinenkin/jukyu-yoken/20140421-01.html'),
+    'nk_kakyu': src('日本年金機構 加給年金額と振替加算', NK + 'jukyu/seido/roureinenkin/kakyu-hurikae/20150401.html'),
+    'nk_shogai_overview': src('日本年金機構 障害年金', NK + 'jukyu/seido/shougainenkin/jukyu-yoken/20150401-01.html'),
+    'nk_shogai_kiso': src('日本年金機構 障害基礎年金の受給要件・請求時期・年金額', NK + 'jukyu/seido/shougainenkin/jukyu-yoken/20150514.html'),
+    'nk_shogai_kosei': src('日本年金機構 障害厚生年金の受給要件・請求時期・年金額', NK + 'jukyu/seido/shougainenkin/jukyu-yoken/20150401-02.html'),
+    'nk_izoku_kiso': src('日本年金機構 遺族基礎年金（受給要件・対象者・年金額）', NK + 'jukyu/seido/izokunenkin/jukyu-yoken/20150401-04.html'),
+    'nk_izoku_kosei': src('日本年金機構 遺族厚生年金（受給要件・対象者・年金額）', NK + 'jukyu/seido/izokunenkin/jukyu-yoken/20150424.html'),
+    'nk_chukorei': src('日本年金機構 年金用語集 中高齢寡婦加算', NK + 'yougo/tagyo/chukoreikafu.html'),
+    'nk_kafu': src('日本年金機構 寡婦年金', NK + 'jukyu/seido/sonota-kyufu/1go-dokuji/20140422-02.html'),
+    'nk_shibo_ichijikin': src('日本年金機構 死亡一時金', NK + 'jukyu/seido/sonota-kyufu/1go-dokuji/20140422-01.html'),
+})
+
 
 def T(id, name, reading, field, importance, short, detail, related=(), grades=(2, 3), example=None, system=None,
       formula=None, aliases=None, sources=(), evidence=()):
