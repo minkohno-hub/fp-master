@@ -75,7 +75,7 @@ export function Explanation({ q, initialMode }: { q: Question; initialMode: Expl
               <TermText text={e.short} />
             </p>
             {mode !== 'short' && <ChoiceReview q={q} notes={e.choiceExplanations} />}
-            {mode !== 'short' && e.standard && <p className="leading-relaxed">{e.standard}</p>}
+            {mode !== 'short' && e.standard && <p className="whitespace-pre-line leading-relaxed">{e.standard}</p>}
             {mode !== 'short' && e.whyCorrect && (
               <div>
                 <h3 className="label">正解の理由</h3>

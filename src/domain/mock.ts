@@ -52,6 +52,11 @@ function partKind(q: Question): 'truefalse' | 'choice' | 'other' {
   return k === 'truefalse' ? 'truefalse' : k === 'choice' ? 'choice' : 'other';
 }
 
+function isFourChoice(q: Question): boolean {
+  const p = q.parts[0];
+  return !!p && p.kind === 'choice' && p.choices.length === 4 && !q.tags?.includes('四択以外');
+}
+
 /** ランダム構成の模擬試験（独自仕様）。検証済み問題のみを使う */
 export function buildRandomMock(pool: Question[], exam: ExamKey, seed: number): MockBuildResult {
   const rng = createRng(seed);
@@ -61,7 +66,12 @@ export function buildRandomMock(pool: Question[], exam: ExamKey, seed: number): 
   const shortages: MockBuildResult['shortages'] = [];
   for (const slot of bp.slots) {
     const cands = verified.filter(
-      (q) => q.field === slot.field && (slot.kind === 'any' || partKind(q) === slot.kind) && !chosen.includes(q),
+      (q) =>
+        q.field === slot.field &&
+        (slot.kind === 'any' || partKind(q) === slot.kind) &&
+        // 2級学科は四答択一のみ（四択以外の形式のオリジナル問題は本試験の構成に含めない）
+        !(exam === 'g2' && slot.kind === 'choice' && !isFourChoice(q)) &&
+        !chosen.includes(q),
     );
     const picked = shuffle(cands, rng).slice(0, slot.count);
     if (picked.length < slot.count) {

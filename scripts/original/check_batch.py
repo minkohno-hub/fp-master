@@ -37,17 +37,15 @@ def main() -> int:
     for b in all_batches():
         if want and b.id not in want:
             continue
-        for q in b.questions:
-            for c in q.choices:
-                for k, qt in c.ev:
-                    n += 1
-                    t = text_of(source(k)['url'])
-                    if t is None:
-                        print(f'取得失敗 {q.id} {source(k)["url"]}')
-                        bad += 1
-                    elif re.sub(r'\s+', '', qt) not in t:
-                        print(f'引用なし {q.id} [{k}] {qt[:50]}…')
-                        bad += 1
+        for qid, k, qt in b.evidence_items():
+            n += 1
+            t = text_of(source(k)['url'])
+            if t is None:
+                print(f'取得失敗 {qid} {source(k)["url"]}')
+                bad += 1
+            elif re.sub(r'\s+', '', qt) not in t:
+                print(f'引用なし {qid} [{k}] {qt[:50]}…')
+                bad += 1
     print(f'引用 {n} 件中 不一致 {bad} 件')
     return 1 if bad else 0
 

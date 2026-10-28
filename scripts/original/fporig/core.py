@@ -152,6 +152,16 @@ class Batch:
             if not q.id.startswith(f'g2o-{self.id}-'):
                 raise ValueError(f'{q.id}: バッチID {self.id} と不一致')
 
+    @property
+    def set_id(self) -> str:
+        return f'g2o_{self.id}'
+
+    def evidence_items(self):
+        for q in self.questions:
+            for c in q.choices:
+                for k, qt in c.ev:
+                    yield q.id, k, qt
+
     def placed(self) -> list[tuple[Question, list[Choice], int]]:
         """(問題, 並べ替え後の選択肢, 正答番号)"""
         sched = _pos_schedule(self.id, len(self.questions))
@@ -230,7 +240,7 @@ def all_batches() -> list[Batch]:
 def write_question_sets(out_dir: Path) -> list[str]:
     written = []
     for b in all_batches():
-        p = out_dir / f'g2o_{b.id}.json'
+        p = out_dir / f'{b.set_id}.json'
         p.write_text(json.dumps(b.question_set(), ensure_ascii=False, indent=1) + '\n', encoding='utf-8')
         written.append(p.name)
     return written

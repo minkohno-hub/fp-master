@@ -26,6 +26,11 @@ def load():
     return [q for q in qs if q['exam'] in ('g2', 'j2')]
 
 
+def is_four(q) -> bool:
+    """四答択一（1小問・選択肢4つ・「四択以外」タグなし）か"""
+    return len(q['parts']) == 1 and q['parts'][0]['kind'] == 'choice' and len(q['parts'][0]['choices']) == 4 and '四択以外' not in q.get('tags', [])
+
+
 def norm(s: str) -> str:
     return re.sub(r'[\s、。，．・（）()「」]', '', s)
 
@@ -43,16 +48,29 @@ def main():
     out['quarantined'] = len(qs) - len(ver)
     out['original'] = sum(q['source']['kind'] == 'original' for q in qs)
     out['official'] = sum(q['source']['kind'] == 'official' for q in qs)
-    out['four_choice'] = sum(any(p['kind'] == 'choice' and len(p['choices']) == 4 for p in q['parts']) for q in qs)
+    out['four_choice'] = sum(any(p['kind'] == 'choice' and len(p['choices']) == 4 for p in q['parts']) for q in qs if not (q['source']['kind'] == 'original' and not is_four(q)))
     out['calc'] = sum(q['requiresCalculation'] for q in qs)
     out['by_field'] = dict(sorted(collections.Counter(q['field'] for q in qs).items()))
     out['by_level'] = dict(sorted(collections.Counter(str(q.get('level', '未分類')) for q in qs).items()))
     orig = [q for q in qs if q['source']['kind'] == 'original']
     out['original_by_level'] = dict(sorted(collections.Counter(q.get('level') for q in orig).items()))
     out['original_by_field'] = dict(sorted(collections.Counter(q['field'] for q in orig).items()))
-    out['original_answer_positions'] = dict(sorted(collections.Counter(q['parts'][0]['answer'] for q in orig).items()))
+    orig4 = [q for q in orig if is_four(q)]
+    cases = [q for q in orig if not is_four(q)]
+    out['original_answer_positions'] = dict(sorted(collections.Counter(q['parts'][0]['answer'] for q in orig4).items()))
     out['original_expl_verified'] = sum(EXPL.get(q['id'], {}).get('explanation', {}).get('status') == 'verified' for q in orig)
-    out['original_all_choice_expl'] = sum(len(EXPL.get(q['id'], {}).get('explanation', {}).get('choiceExplanations', {})) == 4 for q in orig)
+    out['original_all_choice_expl'] = sum(len(EXPL.get(q['id'], {}).get('explanation', {}).get('choiceExplanations', {})) == 4 for q in orig4)
+    # 四択以外のオリジナル（実技ケース・学科の○×/語群補充/組合せ/三択）
+    out['original_four'] = len(orig4)
+    out['original_cases'] = len(cases)
+    out['original_cases_jitsugi'] = sum(q['exam'] == 'j2' for q in cases)
+    out['original_cases_gakka'] = sum(q['exam'] == 'g2' for q in cases)
+    out['original_cases_by_level'] = dict(sorted(collections.Counter(q.get('level') for q in cases).items()))
+    out['original_cases_by_field'] = dict(sorted(collections.Counter(q['field'] for q in cases).items()))
+    out['original_cases_part_kinds'] = dict(sorted(collections.Counter(p['kind'] for q in cases for p in q['parts']).items()))
+    out['original_cases_by_format'] = dict(sorted(collections.Counter(next((t for t in q.get('tags', []) if t not in ('四択以外', '実技形式')), '実技ケース') for q in cases).items()))
+    out['original_cases_calc'] = sum(q['requiresCalculation'] for q in cases)
+    out['original_cases_expl_verified'] = sum(EXPL.get(q['id'], {}).get('explanation', {}).get('status') == 'verified' for q in cases)
     # 重複（問題文＋選択肢の正規化一致）
     seen = collections.defaultdict(list)
     for q in qs:
@@ -76,7 +94,10 @@ def main():
     print('分野別', out['by_field'])
     print('難易度別（オリジナルのみ付与）', out['by_level'])
     print('オリジナルの正答位置', out['original_answer_positions'])
-    print(f"オリジナル：解説verified {out['original_expl_verified']}／全選択肢解説 {out['original_all_choice_expl']}／{out['original']}")
+    print(f"オリジナル：解説verified {out['original_expl_verified']}／全選択肢解説 {out['original_all_choice_expl']}／四択 {out['original_four']}／オリジナル計 {out['original']}")
+    print(f"オリジナル（四択以外）{out['original_cases']}問：実技 {out['original_cases_jitsugi']}・学科 {out['original_cases_gakka']}／計算 {out['original_cases_calc']}／解説verified {out['original_cases_expl_verified']}")
+    print('  難易度', out['original_cases_by_level'], '分野', out['original_cases_by_field'])
+    print('  形式', out['original_cases_by_format'], '小問の種類', out['original_cases_part_kinds'])
     print(f"重複グループ {len(out['duplicate_groups'])}")
     print(f"細目論点 {out['syllabus_items']} 件中、オリジナル問題がある論点 {out['topics_with_original']} 件")
 
