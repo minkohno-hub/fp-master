@@ -7,7 +7,7 @@
 - 95%チャレンジ（`#/challenge`）実装・e2e済み。品質監査は `docs/QUALITY_AUDIT.md`、課題は `docs/ISSUE_REGISTER.md`。
 
 ## 次にやること（優先順）
-0. **第2段階：用語集の大幅拡充**（現状187語・うち96語がdraft。続きは `docs/GLOSSARY_EXPANSION.md` の「未了」。原稿は `scripts/content/glossary_more_src.py`）。続いて第4段階（アプリ内「詳しい説明書」・シミュレーション説明）。
+0. **第2段階：用語集の大幅拡充**（現状187語・うち100語がdraft（87語は照合済み）。続きは `docs/GLOSSARY_EXPANSION.md` の「未了」。原稿は `scripts/content/glossary_more_src.py`）。続いて第4段階（アプリ内「詳しい説明書」・シミュレーション説明）。
 1. 未カバー細目（`docs/FP2_COVERAGE_MATRIX.md`、特にC分野）と高難度の実技ケース（I-006）を、公的根拠が取れる論点でオリジナル追加→敵対的レビュー→`python3 -I scripts/content/build_content.py`（約5分）→tsc/vitest/playwright。
 2. 公開URL https://minkohno-hub.github.io/fp-master/ の動作確認（未実施）。
 3. 実機iPhone確認・Lighthouse再計測・手動a11y（ユーザー協力）。

@@ -86,6 +86,19 @@ S.update({
     'nk_shibo_ichijikin': src('日本年金機構 死亡一時金', NK + 'jukyu/seido/sonota-kyufu/1go-dokuji/20140422-01.html'),
 })
 
+# e-Gov法令検索（2026-10-28追加分。法令は現行条文で照合）
+EGOV = 'https://laws.e-gov.go.jp/law/'
+S.update({
+    'egov_kubun': src('e-Gov法令検索 建物の区分所有等に関する法律', EGOV + '337AC0000000069'),
+    'egov_shakuchi': src('e-Gov法令検索 借地借家法', EGOV + '403AC0000000090'),
+    'egov_kenchiku': src('e-Gov法令検索 建築基準法', EGOV + '325AC0000000201'),
+    'egov_toshi': src('e-Gov法令検索 都市計画法', EGOV + '343AC0000000100'),
+    'egov_toshi_rei': src('e-Gov法令検索 都市計画法施行令', EGOV + '344CO0000000158'),
+    'egov_takken': src('e-Gov法令検索 宅地建物取引業法', EGOV + '327AC1000000176'),
+    'egov_takken_kisoku': src('e-Gov法令検索 宅地建物取引業法施行規則', EGOV + '332M50004000012'),
+    'egov_minpo': src('e-Gov法令検索 民法', EGOV + '129AC0000000089'),
+})
+
 
 def T(id, name, reading, field, importance, short, detail, related=(), grades=(2, 3), example=None, system=None,
       formula=None, aliases=None, sources=(), evidence=()):
