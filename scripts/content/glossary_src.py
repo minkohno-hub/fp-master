@@ -50,6 +50,27 @@ S = {
     'jafp': src('日本FP協会 試験範囲（試験要綱）', JAFP_OUTLINE),
 }
 
+# 国税庁タックスアンサー（2026-10-28追加分）
+NTA_TA = 'https://www.nta.go.jp/taxes/shiraberu/taxanswer/'
+S.update({
+    'nta1110': src('国税庁 No.1110 災害や盗難などにあったとき（雑損控除）', NTA_TA + 'shotoku/1110.htm'),
+    'nta1130': src('国税庁 No.1130 社会保険料控除', NTA_TA + 'shotoku/1130.htm'),
+    'nta1150': src('国税庁 No.1150 一定の寄附金を支払ったとき（寄附金控除）', NTA_TA + 'shotoku/1150.htm'),
+    'nta1155': src('国税庁 No.1155 ふるさと納税（寄附金控除）', NTA_TA + 'shotoku/1155.htm'),
+    'nta1600': src('国税庁 No.1600 公的年金等の課税関係', NTA_TA + 'shotoku/1600.htm'),
+    'nta1900': src('国税庁 No.1900 給与所得者で確定申告が必要な人', NTA_TA + 'shotoku/1900.htm'),
+    'nta2020': src('国税庁 No.2020 確定申告', NTA_TA + 'shotoku/2020.htm'),
+    'nta6303': src('国税庁 No.6303 消費税および地方消費税の税率', NTA_TA + 'shohi/6303.htm'),
+    'nta6505': src('国税庁 No.6505 簡易課税制度', NTA_TA + 'shohi/6505.htm'),
+    'nta4117': src('国税庁 No.4117 相続税の課税対象になる死亡退職金', NTA_TA + 'sozoku/4117.htm'),
+    'nta4161': src('国税庁 No.4161 贈与財産の加算と税額控除（暦年課税）', NTA_TA + 'sozoku/4161.htm'),
+    'nta4205': src('国税庁 No.4205 相続税の申告と納税', NTA_TA + 'sozoku/4205.htm'),
+    'nta4211': src('国税庁 No.4211 相続税の延納', NTA_TA + 'sozoku/4211.htm'),
+    'nta4214': src('国税庁 No.4214 相続税の物納', NTA_TA + 'sozoku/4214.htm'),
+    'nta4402': src('国税庁 No.4402 贈与税がかかる場合', NTA_TA + 'zoyo/4402.htm'),
+    'nta2260': src('国税庁 No.2260 所得税の税率', NTA_TA + 'shotoku/2260.htm'),
+})
+
 
 def T(id, name, reading, field, importance, short, detail, related=(), grades=(2, 3), example=None, system=None,
       formula=None, aliases=None, sources=(), evidence=()):

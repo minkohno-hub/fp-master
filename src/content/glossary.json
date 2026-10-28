@@ -4224,8 +4224,8 @@
   "reading": "ふっこうとくべつしょとくぜい",
   "field": "D",
   "importance": 2,
-  "short": "東日本大震災からの復興財源として、所得税額（基準所得税額）に2.1％を乗じた額が課される税。",
-  "detail": "2013年から2037年まで課される。源泉徴収される利子・配当・譲渡益などの税率には、所得税15％に2.1％を乗じた0.315％が加わり、所得税・復興特別所得税として15.315％となる。",
+  "short": "東日本大震災からの復興財源のため、所得税と併せて申告・納付する税。原則としてその年分の基準所得税額の2.1％。",
+  "detail": "平成25年から令和29年までの各年分の確定申告では、所得税と復興特別所得税（原則としてその年分の基準所得税額の2.1％）を併せて申告・納付する。令和8年度税制改正により、令和9年以後は防衛特別所得税が創設され、復興特別所得税の税率の引下げと課税期間の延長が行われる（改正前と改正後で、防衛特別所得税と復興特別所得税の合計税率に変更はない）。",
   "related": [
    "tokutei-koza"
   ],
@@ -4235,25 +4235,33 @@
   ],
   "sources": [
    {
-    "title": "日本FP協会 試験範囲（試験要綱）",
-    "url": "https://www.jafp.or.jp/exam/outline/"
+    "title": "国税庁 No.2260 所得税の税率",
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2260.htm"
    }
   ],
-  "evidence": [],
-  "reviewStatus": "draft",
+  "evidence": [
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2260.htm",
+    "quote": "平成25年から令和29年までの各年分の確定申告においては、所得税と復興特別所得税（原則としてその年分の基準所得税額の2.1パーセント）を併せて申告・納付することとなります"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2260.htm",
+    "quote": "令和8年度税制改正により、防衛特別所得税の創設ならびに復興特別所得税の税率の引下げおよび課税期間の延長が行われ、令和9年以後に適用されます（改正前と改正後とで、防衛特別所得税及び復興特別所得税の合計税率に変更はありません。）"
+   }
+  ],
+  "reviewStatus": "verified",
   "checkedAt": "2026-10-21"
  },
  {
   "id": "zatsu-shotoku",
-  "name": "雑所得",
-  "reading": "ざつしょとく",
+  "name": "公的年金等の雑所得",
+  "reading": "こうてきねんきんとうのざっしょとく",
   "field": "D",
   "importance": 3,
-  "short": "他の9種類の所得のどれにも当てはまらない所得。公的年金等や副業の収入が該当しうる。",
-  "detail": "公的年金等の雑所得＝公的年金等の収入金額－公的年金等控除額。控除額は年齢（65歳未満・65歳以上）と、公的年金等以外の合計所得金額によって決まる。他の所得との損益通算はできない。",
+  "short": "公的年金等は雑所得となり、年金の収入金額から公的年金等控除額を差し引いて所得金額を計算する。",
+  "detail": "雑所得となる主な公的年金等は、国民年金法・厚生年金保険法・公務員等の共済組合法などの規定による年金、過去の勤務により会社などから支払われる年金、確定給付企業年金法に基づく年金など。生命保険契約や生命共済契約に基づく年金、互助年金などは公的年金等に該当しない。",
   "related": [
-   "kyuyo-shotoku-kojo",
-   "sonneki-tsusan"
+   "kyuyo-shotoku-kojo"
   ],
   "grades": [
    2,
@@ -4261,15 +4269,29 @@
   ],
   "sources": [
    {
-    "title": "日本FP協会 試験範囲（試験要綱）",
-    "url": "https://www.jafp.or.jp/exam/outline/"
+    "title": "国税庁 No.1600 公的年金等の課税関係",
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1600.htm"
    }
   ],
-  "evidence": [],
-  "reviewStatus": "draft",
+  "evidence": [
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1600.htm",
+    "quote": "公的年金等は、年金の収入金額から公的年金等控除額を差し引いて所得金額を計算します"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1600.htm",
+    "quote": "国民年金法、厚生年金保険法、公務員等の共済組合法などの規定による年金"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1600.htm",
+    "quote": "生命保険契約や生命共済契約に基づく年金、互助年金などは公的年金等には該当しません"
+   }
+  ],
+  "reviewStatus": "verified",
   "checkedAt": "2026-10-21",
   "aliases": [
-   "公的年金等控除"
+   "公的年金等控除",
+   "雑所得"
   ]
  },
  {
@@ -4278,8 +4300,8 @@
   "reading": "しゃかいほけんりょうこうじょ",
   "field": "D",
   "importance": 3,
-  "short": "本人や生計を一にする配偶者・親族の社会保険料を支払ったときの所得控除。",
-  "detail": "支払った全額が控除の対象。国民年金保険料、国民健康保険料、介護保険料、健康保険・厚生年金保険の保険料（給与天引き分）、国民年金基金の掛金などが含まれる。生計を一にする親族の分を支払った場合は、支払った人の控除になる。",
+  "short": "本人や生計を一にする配偶者・親族の負担すべき社会保険料を支払ったときの所得控除。",
+  "detail": "控除できる金額は、その年に実際に支払った金額（給与や公的年金から差し引かれた金額を含む）の全額。国民年金の保険料や国民年金基金の掛金も対象で、生計を一にする配偶者その他の親族の負担すべき保険料を支払った場合は、支払った人が控除を受ける。",
   "related": [
    "kokumin-nenkin-kikin"
   ],
@@ -4289,12 +4311,25 @@
   ],
   "sources": [
    {
-    "title": "日本FP協会 試験範囲（試験要綱）",
-    "url": "https://www.jafp.or.jp/exam/outline/"
+    "title": "国税庁 No.1130 社会保険料控除",
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1130.htm"
    }
   ],
-  "evidence": [],
-  "reviewStatus": "draft",
+  "evidence": [
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1130.htm",
+    "quote": "生計を一にする配偶者やその他の親族の負担すべき社会保険料を支払った場合には、その支払った金額について所得控除を受けることができます"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1130.htm",
+    "quote": "控除できる金額は、その年に実際に支払った金額または給与や公的年金から差し引かれた金額の全額です"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1130.htm",
+    "quote": "国民年金の保険料および国民年金基金の掛金に係る社会保険料控除"
+   }
+  ],
+  "reviewStatus": "verified",
   "checkedAt": "2026-10-21"
  },
  {
@@ -4303,8 +4338,8 @@
   "reading": "きふきんこうじょ",
   "field": "D",
   "importance": 2,
-  "short": "国や地方公共団体、特定の公益法人などへの寄附金を支出したときの所得控除。",
-  "detail": "寄附金控除の額は、寄附金（総所得金額等の40％が上限）－2,000円。ふるさと納税は地方公共団体への寄附で、2,000円を超える部分が所得税・住民税から控除される。確定申告が不要な給与所得者などは、寄附先が5自治体以内ならワンストップ特例で申告を省略できる。",
+  "short": "国や地方公共団体、特定公益増進法人などへの「特定寄附金」を支出したときの所得控除。ふるさと納税もこの仕組みを使う。",
+  "detail": "所得控除の対象となる寄附金の額は、総所得金額等の40％が上限。ふるさと納税は、寄附額のうち2,000円を超える部分が所得税および個人住民税から控除される。確定申告が不要な給与所得者は、ふるさと納税先が5団体以内ならワンストップ特例制度で申告を省略できる。確定申告をする場合は、ワンストップ特例の申請が無効となるため、その分も含めて寄附金控除額を計算する。",
   "related": [],
   "grades": [
    2,
@@ -4312,12 +4347,37 @@
   ],
   "sources": [
    {
-    "title": "日本FP協会 試験範囲（試験要綱）",
-    "url": "https://www.jafp.or.jp/exam/outline/"
+    "title": "国税庁 No.1150 一定の寄附金を支払ったとき（寄附金控除）",
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1150.htm"
+   },
+   {
+    "title": "国税庁 No.1155 ふるさと納税（寄附金控除）",
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1155.htm"
    }
   ],
-  "evidence": [],
-  "reviewStatus": "draft",
+  "evidence": [
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1150.htm",
+    "quote": "納税者が国や地方公共団体、特定公益増進法人などに対し、「特定寄附金」を支出した場合には、所得控除を受けることができます"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1155.htm",
+    "quote": "ふるさと納税は、ご自身の選んだ自治体に対して寄附を行った場合に、寄附額のうち2,000円を超える部分について、所得税および個人住民税からそれぞれ控除が受けられる制度"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1155.htm",
+    "quote": "所得控除の対象となる寄附金の額は、総所得金額等の40％が上限です"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1155.htm",
+    "quote": "ふるさと納税先が5団体以内の場合に限り、ふるさと納税先団体に申請することにより、この寄附金控除を受けることができます"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1155.htm",
+    "quote": "確定申告を行う方は、ふるさと納税ワンストップ特例の申請が無効となるため"
+   }
+  ],
+  "reviewStatus": "verified",
   "checkedAt": "2026-10-21",
   "aliases": [
    "ふるさと納税"
@@ -4329,8 +4389,8 @@
   "reading": "ざっそんこうじょ",
   "field": "D",
   "importance": 2,
-  "short": "災害・盗難・横領により、生活に通常必要な資産に損害を受けたときの所得控除。",
-  "detail": "控除額は、（損害金額＋災害関連支出－保険金等の補てん額）－総所得金額等の10％と、災害関連支出－5万円のいずれか多い方。控除しきれない金額は、翌年以後3年間にわたり繰り越せる。別荘や貴金属・書画骨とうなどは対象外。",
+  "short": "災害・盗難・横領によって、生活に通常必要な資産に損害を受けたときの所得控除。",
+  "detail": "控除額は次の(1)と(2)のうち多い方。(1)（損害金額＋災害等関連支出の金額－保険金等の額）－総所得金額等×10％、(2)（災害関連支出の金額－保険金等の額）－5万円。控除しきれない金額は翌年以後3年間にわたり繰り越せる（東日本大震災や令和5年4月1日以後に発生する特定非常災害による損失額は5年間）。別荘など生活に通常必要でない資産は対象にならない。",
   "related": [
    "iryohi-kojo"
   ],
@@ -4340,12 +4400,29 @@
   ],
   "sources": [
    {
-    "title": "日本FP協会 試験範囲（試験要綱）",
-    "url": "https://www.jafp.or.jp/exam/outline/"
+    "title": "国税庁 No.1110 災害や盗難などにあったとき（雑損控除）",
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1110.htm"
    }
   ],
-  "evidence": [],
-  "reviewStatus": "draft",
+  "evidence": [
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1110.htm",
+    "quote": "災害または盗難もしくは横領によって、下記の「雑損控除の対象になる資産の要件」にあてはまる資産について損害を受けた場合には、一定の金額の所得控除を受けることができます"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1110.htm",
+    "quote": "（1)（損害金額+災害等関連支出の金額-保険金等の額）-（総所得金額等）×10％（2)（災害関連支出の金額-保険金等の額）-5万円"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1110.htm",
+    "quote": "控除しきれない場合には、翌年以後3年間(東日本大震災又は令和5年4月1日以後に発生する特定非常災害により生じた損失額については、5年間)に繰り越して"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1110.htm",
+    "quote": "「生活に通常必要でない資産」とは、例えば、別荘など"
+   }
+  ],
+  "reviewStatus": "verified",
   "checkedAt": "2026-10-21"
  },
  {
@@ -4354,23 +4431,42 @@
   "reading": "かくていしんこくとねんまつちょうせい",
   "field": "D",
   "importance": 3,
-  "short": "確定申告は自分で1年間の所得と税額を計算して納付する手続き、年末調整は給与から源泉徴収された税額を勤務先が精算する手続き。",
-  "detail": "確定申告の期間は原則として翌年2月16日から3月15日（還付申告は1月から可能）。給与所得者でも、給与が2,000万円を超える場合や、給与・退職所得以外の所得が20万円を超える場合などは確定申告が必要。医療費控除や住宅ローン控除（初年度）を受けるには確定申告が必要。",
-  "related": [
-   "iryohi-kojo"
-  ],
+  "short": "確定申告は自分で所得と税額を計算して申告・納付する手続き、年末調整は給与の支払者が行う所得税額の精算。",
+  "detail": "大部分の給与所得者は、給与の支払者が行う年末調整によって所得税額が確定し納税も完了するため、確定申告は不要。ただし、給与の年間収入金額が2,000万円を超える人や、給与を1か所から受けていて給与所得・退職所得以外の各種の所得金額の合計額が20万円を超える人などは確定申告が必要。申告の期間は原則として翌年2月16日から3月15日まで。",
+  "related": [],
   "grades": [
    2,
    3
   ],
   "sources": [
    {
-    "title": "日本FP協会 試験範囲（試験要綱）",
-    "url": "https://www.jafp.or.jp/exam/outline/"
+    "title": "国税庁 No.1900 給与所得者で確定申告が必要な人",
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1900.htm"
+   },
+   {
+    "title": "国税庁 No.2020 確定申告",
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2020.htm"
    }
   ],
-  "evidence": [],
-  "reviewStatus": "draft",
+  "evidence": [
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1900.htm",
+    "quote": "大部分の給与所得者の方は、給与の支払者が行う年末調整によって所得税額が確定し、納税も完了しますから、確定申告の必要はありません"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1900.htm",
+    "quote": "給与の年間収入金額が2,000万円を超える人"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1900.htm",
+    "quote": "各種の所得金額（給与所得、退職所得を除く。）の合計額が20万円を超える人"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2020.htm",
+    "quote": "原則として、その年の翌年2月16日から3月15日までです"
+   }
+  ],
+  "reviewStatus": "verified",
   "checkedAt": "2026-10-21",
   "aliases": [
    "確定申告",
@@ -4408,12 +4504,12 @@
  },
  {
   "id": "shohizei",
-  "name": "消費税の仕組み",
-  "reading": "しょうひぜいのしくみ",
+  "name": "消費税の税率",
+  "reading": "しょうひぜいのぜいりつ",
   "field": "D",
   "importance": 2,
-  "short": "商品やサービスの取引にかかる税。標準税率は10％（国税7.8％＋地方消費税2.2％）、軽減税率は8％。",
-  "detail": "飲食料品（酒類・外食を除く）と定期購読の新聞は軽減税率8％。納税義務者は事業者で、納付税額＝課税売上げに係る消費税額－課税仕入れに係る消費税額。基準期間（前々事業年度）の課税売上高が1,000万円以下の事業者は、原則として納税義務が免除される。",
+  "short": "消費税は消費税と地方消費税の合計で、標準税率10％と軽減税率8％の複数税率になっている。",
+  "detail": "標準税率10％は消費税率7.8％と地方消費税率2.2％の合計、軽減税率8％は消費税率6.24％と地方消費税率1.76％の合計。軽減税率の対象は、飲食料品の譲渡（酒類と外食を除く）と、定期購読契約が締結された週2回以上発行される新聞の譲渡。令和9年4月1日から令和11年3月31日までの2年間は、飲食料品の譲渡について消費税率が引き下げられる。",
   "related": [
    "kani-kazei",
    "invoice"
@@ -4424,12 +4520,29 @@
   ],
   "sources": [
    {
-    "title": "日本FP協会 試験範囲（試験要綱）",
-    "url": "https://www.jafp.or.jp/exam/outline/"
+    "title": "国税庁 No.6303 消費税および地方消費税の税率",
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6303.htm"
    }
   ],
-  "evidence": [],
-  "reviewStatus": "draft",
+  "evidence": [
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6303.htm",
+    "quote": "消費者が負担する消費税は、消費税および地方消費税の合計額であり、標準税率10パーセントと軽減税率8パーセントの複数税率になっています"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6303.htm",
+    "quote": "消費税率7.8パーセント6.24パーセント地方消費税率2.2パーセント（消費税額の22/78）1.76パーセント（消費税額の22/78）合計10パーセント8パーセント"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6303.htm",
+    "quote": "飲食料品の譲渡（食品表示法に規定する食品（酒税法に規定する酒類を除きます。）の譲渡をいい、外食を含みません。）2定期購読契約が締結された週2回以上発行される新聞の譲渡"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6303.htm",
+    "quote": "令和9年4月1日から令和11年3月31日までの2年間、飲食料品の譲渡について、消費税率が引き下げられます"
+   }
+  ],
+  "reviewStatus": "verified",
   "checkedAt": "2026-10-21",
   "aliases": [
    "消費税",
@@ -4442,8 +4555,8 @@
   "reading": "かんいかぜいせいど",
   "field": "D",
   "importance": 2,
-  "short": "中小事業者の事務負担を軽くするため、売上げに係る消費税額に事業の種類ごとのみなし仕入れ率を乗じて仕入れ税額を計算する制度。",
-  "detail": "基準期間の課税売上高が5,000万円以下の事業者が、事前に届出をして選択できる。原則課税と比べて、実際の仕入れが少ない事業者に有利になることが多い。一度選択すると、一定期間は継続して適用される。",
+  "short": "中小事業者の納税事務負担に配慮し、売上げに係る消費税額を基礎として仕入れに係る消費税額を算出できる制度。",
+  "detail": "「消費税簡易課税制度選択届出書」を提出した課税事業者が、基準期間（個人事業者は前々年、法人は原則として前々事業年度）の課税売上高が5,000万円以下の課税期間に、売上げに係る消費税額に事業区分ごとのみなし仕入率を乗じた額を仕入れに係る消費税額とする。みなし仕入率は、第1種（卸売業）90％、第2種（小売業など）80％、第3種（農林漁業・鉱業・建設業・製造業など）70％、第4種（その他）60％、第5種（運輸通信業・金融保険業・サービス業など）50％、第6種（不動産業）40％。令和9年4月1日からの飲食料品の消費税率引下げに当たり、飲食料品の譲渡を行う事業者を対象に、計算方法の特例が設けられる。",
   "related": [
    "shohizei"
   ],
@@ -4452,12 +4565,53 @@
   ],
   "sources": [
    {
-    "title": "日本FP協会 試験範囲（試験要綱）",
-    "url": "https://www.jafp.or.jp/exam/outline/"
+    "title": "国税庁 No.6505 簡易課税制度",
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6505.htm"
    }
   ],
-  "evidence": [],
-  "reviewStatus": "draft",
+  "evidence": [
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6505.htm",
+    "quote": "簡易課税制度は、中小事業者の納税事務負担に配慮する観点から、事業者の選択により、売上げに係る消費税額を基礎として仕入れに係る消費税額を算出することができる制度です"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6505.htm",
+    "quote": "基準期間（個人事業者は前々年、法人は原則として前々事業年度）における課税売上高が5,000万円以下の課税期間について"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6505.htm",
+    "quote": "「消費税簡易課税制度選択届出書」を提出した課税事業者は"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6505.htm",
+    "quote": "第1種事業（卸売業）90％"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6505.htm",
+    "quote": "第2種事業（小売業、農業・林業・漁業（飲食料品の譲渡に係る事業に限る））80％"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6505.htm",
+    "quote": "第3種事業（農業・林業・漁業（飲食料品の譲渡に係る事業を除く）、鉱業、建設業、製造業、電気業、ガス業、熱供給業および水道業）70％"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6505.htm",
+    "quote": "第4種事業（第1種事業、第2種事業、第3種事業、第5種事業および第6種事業以外の事業）60％"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6505.htm",
+    "quote": "第5種事業（運輸通信業、金融業および保険業、サービス業（飲食店業に該当するものを除く））50％"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6505.htm",
+    "quote": "第6種事業（不動産業）40％"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6505.htm",
+    "quote": "飲食料品の譲渡について、消費税率が引き下げられます。この引下げに当たり、飲食料品の譲渡を行う事業者を対象に、簡易課税制度の計算方法の特例が設けられます"
+   }
+  ],
+  "reviewStatus": "verified",
   "checkedAt": "2026-10-21"
  },
  {
@@ -5032,8 +5186,8 @@
   "reading": "そうぞくぜい・ぞうよぜいのしんこくきげん",
   "field": "F",
   "importance": 3,
-  "short": "相続税の申告・納付期限は、相続の開始があったことを知った日の翌日から10か月以内。",
-  "detail": "贈与税の申告期間は、贈与を受けた年の翌年2月1日から3月15日まで。相続税は金銭での一括納付が原則だが、困難な場合は延納（分割納付）、それも困難な場合は物納（不動産などの現物納付）が認められる。",
+  "short": "相続税の申告は、被相続人が死亡したことを知った日（通常は死亡の日）の翌日から10か月以内。贈与税は贈与を受けた年の翌年2月1日から3月15日まで。",
+  "detail": "国税は金銭で期限までに一括納付するのが原則。相続税額が10万円を超え、金銭で納付することが困難な場合は、申請により担保を提供して年賦で納付できる（延納、利子税がかかる）。延納でも困難な場合は、一定の相続財産による納付（物納）ができる。",
   "related": [
    "sozokuzei-kiso-kojo"
   ],
@@ -5043,12 +5197,45 @@
   ],
   "sources": [
    {
-    "title": "日本FP協会 試験範囲（試験要綱）",
-    "url": "https://www.jafp.or.jp/exam/outline/"
+    "title": "国税庁 No.4205 相続税の申告と納税",
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4205.htm"
+   },
+   {
+    "title": "国税庁 No.4402 贈与税がかかる場合",
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/zoyo/4402.htm"
+   },
+   {
+    "title": "国税庁 No.4211 相続税の延納",
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4211.htm"
+   },
+   {
+    "title": "国税庁 No.4214 相続税の物納",
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4214.htm"
    }
   ],
-  "evidence": [],
-  "reviewStatus": "draft",
+  "evidence": [
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4205.htm",
+    "quote": "相続税の申告は、被相続人が死亡したことを知った日（通常の場合は、被相続人の死亡の日）の翌日から10か月以内に行うことになっています"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/zoyo/4402.htm",
+    "quote": "贈与を受けた人が贈与により財産を取得した年の翌年2月1日から3月15日までの間に申告と納税をする必要があります"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4211.htm",
+    "quote": "国税は、金銭で期限までに一括納付することが原則です"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4211.htm",
+    "quote": "相続税額が10万円を超え、金銭で納付することを困難とする事由がある場合には、納税者の申請により、その納付を困難とする金額を限度として、担保を提供することにより、年賦の方法（年払い）で納付することができます"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4214.htm",
+    "quote": "延納によっても金銭で納付することを困難とする事由がある場合には、納税者の申請により、その納付を困難とする金額を限度として一定の相続財産による納付（物納）ができます"
+   }
+  ],
+  "reviewStatus": "verified",
   "checkedAt": "2026-10-21",
   "aliases": [
    "延納",
@@ -5062,8 +5249,8 @@
   "reading": "しょうみのいさんがくとかぜいいさんそうがく",
   "field": "F",
   "importance": 3,
-  "short": "相続税の計算で、課税対象となる財産から債務・葬式費用などを差し引いた額が正味の遺産額、それから基礎控除額を引いた額が課税遺産総額。",
-  "detail": "正味の遺産額＝本来の相続財産＋みなし相続財産－非課税財産－債務・葬式費用＋相続開始前一定期間内の贈与財産＋相続時精算課税の贈与財産。課税遺産総額＝正味の遺産額－基礎控除額。課税遺産総額を法定相続分で按分した額に税率を乗じて、相続税の総額を計算する。",
+  "short": "各人の課税価格の合計額が正味の遺産額、そこから基礎控除額を差し引いた額が課税遺産総額。",
+  "detail": "課税遺産総額＝課税価格の合計額（正味の遺産額）－基礎控除額（3,000万円＋600万円×法定相続人の数）。課税遺産総額を、各法定相続人が民法の法定相続分に従って取得したものと仮定して按分し、それぞれに税率を乗じた算出税額を合計して相続税の総額を計算する。",
   "related": [
    "sozokuzei-kiso-kojo",
    "hotei-sozokubun"
@@ -5074,16 +5261,33 @@
   ],
   "sources": [
    {
-    "title": "日本FP協会 試験範囲（試験要綱）",
-    "url": "https://www.jafp.or.jp/exam/outline/"
+    "title": "国税庁 No.4152 相続税の計算",
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4152.htm"
    }
   ],
-  "evidence": [],
-  "reviewStatus": "draft",
+  "evidence": [
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4152.htm",
+    "quote": "各人の課税価格の合計＝課税価格の合計額（正味の遺産額）"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4152.htm",
+    "quote": "課税価格の合計額－基礎控除額（3,000万円＋600万円×法定相続人の数）＝課税遺産総額"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4152.htm",
+    "quote": "課税遺産総額を、各法定相続人が民法に定める法定相続分に従って取得したものと仮定して"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4152.htm",
+    "quote": "ホ上記ニで計算した各法定相続人ごとの算出税額を合計して相続税の総額を計算します"
+   }
+  ],
+  "reviewStatus": "verified",
   "checkedAt": "2026-10-21",
   "formula": {
    "name": "課税遺産総額",
-   "tex": "\\text{正味の遺産額} - \\text{基礎控除額}"
+   "tex": "\\text{課税価格の合計額} - (3000\\text{万円} + 600\\text{万円} \\times \\text{法定相続人の数})"
   },
   "aliases": [
    "課税遺産総額",
@@ -5096,8 +5300,8 @@
   "reading": "みなしそうぞくざいさん",
   "field": "F",
   "importance": 3,
-  "short": "民法上は相続財産ではないが、実質的に相続により取得したと同じ経済的効果があるため、相続税の課税対象とされる財産。",
-  "detail": "被相続人の死亡によって支払われる死亡保険金（被相続人が保険料を負担していたもの）や死亡退職金などが該当する。死亡保険金・死亡退職金には、それぞれ「500万円×法定相続人の数」の非課税限度額がある。",
+  "short": "相続や遺贈で取得したものとみなして、相続税の課税対象になる財産。死亡保険金や死亡退職金（退職手当金等）が代表例。",
+  "detail": "被相続人の死亡後3年以内に支給が確定した退職手当金等は、相続または遺贈により取得したものとみなされて相続税の課税対象となる。死亡保険金・退職手当金等には、それぞれ 500万円×法定相続人の数 の非課税限度額があり、相続人以外の人が取得した分には非課税の適用がない。",
   "related": [
    "shibo-hokenkin-hikazei",
    "shibo-taishokukin"
@@ -5108,12 +5312,25 @@
   ],
   "sources": [
    {
-    "title": "日本FP協会 試験範囲（試験要綱）",
-    "url": "https://www.jafp.or.jp/exam/outline/"
+    "title": "国税庁 No.4117 相続税の課税対象になる死亡退職金",
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4117.htm"
+   },
+   {
+    "title": "国税庁 No.4114 相続税の課税対象になる死亡保険金",
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4114.htm"
    }
   ],
-  "evidence": [],
-  "reviewStatus": "draft",
+  "evidence": [
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4117.htm",
+    "quote": "被相続人の死亡後3年以内に支給が確定したものは、相続または遺贈により取得したものとみなされて、相続税の課税対象となります"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4114.htm",
+    "quote": "500万円×法定相続人の数＝非課税限度額なお、相続人以外の人が取得した死亡保険金には、非課税の適用はありません"
+   }
+  ],
+  "reviewStatus": "verified",
   "checkedAt": "2026-10-21"
  },
  {
@@ -5122,8 +5339,8 @@
   "reading": "しぼうたいしょくきんのひかぜい",
   "field": "F",
   "importance": 3,
-  "short": "被相続人の死亡により支払われる退職手当金等のうち、一定額までは相続税が課されない制度。",
-  "detail": "非課税限度額＝500万円×法定相続人の数。死亡保険金の非課税限度額とは別枠で、それぞれ適用できる。相続人以外が受け取った分には適用されない。",
+  "short": "被相続人の死亡で支給される退職手当金等は相続税の課税対象になるが、非課税限度額までは課税されない。",
+  "detail": "被相続人の死亡後3年以内に支給が確定した退職手当金等は、相続または遺贈により取得したものとみなされて課税対象となる。非課税限度額は 500万円×法定相続人の数。相続人以外の人が取得した退職手当金等には、非課税の適用はない。",
   "related": [
    "shibo-hokenkin-hikazei",
    "minashi-sozoku-zaisan"
@@ -5134,13 +5351,26 @@
   ],
   "sources": [
    {
-    "title": "日本FP協会 試験範囲（試験要綱）",
-    "url": "https://www.jafp.or.jp/exam/outline/"
+    "title": "国税庁 No.4117 相続税の課税対象になる死亡退職金",
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4117.htm"
    }
   ],
-  "evidence": [],
-  "reviewStatus": "draft",
-  "checkedAt": "2026-10-21"
+  "evidence": [
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4117.htm",
+    "quote": "被相続人の死亡後3年以内に支給が確定したものは、相続または遺贈により取得したものとみなされて、相続税の課税対象となります"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4117.htm",
+    "quote": "500万円×法定相続人の数＝非課税限度額なお、相続人以外の人が取得した退職手当金等には、非課税の適用はありません"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-10-21",
+  "formula": {
+   "name": "死亡退職金の非課税限度額",
+   "tex": "500\\text{万円} \\times \\text{法定相続人の数}"
+  }
  },
  {
   "id": "seizen-zoyo-kasan",
@@ -5148,8 +5378,8 @@
   "reading": "そうぞくかいしまえのぞうよのかさん",
   "field": "F",
   "importance": 2,
-  "short": "相続や遺贈により財産を取得した人が、相続開始前の一定期間内に被相続人から贈与を受けた財産を、相続税の課税価格に加算する制度。",
-  "detail": "暦年課税の贈与が対象。加算期間は従来3年だったが、2024年1月1日以後の贈与から段階的に7年に延長される。延長された期間（相続開始前3年超7年以内）の贈与については、合計100万円までは加算されない。贈与時に払った贈与税額は、相続税額から控除する。",
+  "short": "相続や遺贈などで財産を取得した人が、被相続人から加算対象期間内に暦年課税の贈与で取得した財産を、相続税の課税価格に加算する制度。",
+  "detail": "加算対象期間は、相続開始日が令和8年12月31日までなら相続開始前3年以内。令和9年1月1日から令和12年12月31日までの相続は令和6年1月1日から死亡の日まで、令和13年1月1日以後の相続は相続開始前7年以内になる。加算対象期間内の贈与は、贈与税がかかったかどうかに関係なく加算する。相続開始前3年以内に取得した財産以外の財産は、合計100万円までは加算されない。加算された財産に課せられた贈与税額は、相続税額から控除する。",
   "related": [
    "sozokuji-seisan",
    "shomi-isan-gaku"
@@ -5159,16 +5389,36 @@
   ],
   "sources": [
    {
-    "title": "日本FP協会 試験範囲（試験要綱）",
-    "url": "https://www.jafp.or.jp/exam/outline/"
+    "title": "国税庁 No.4161 贈与財産の加算と税額控除（暦年課税）",
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4161.htm"
    }
   ],
-  "evidence": [],
-  "reviewStatus": "draft",
+  "evidence": [
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4161.htm",
+    "quote": "被相続人から加算対象期間（注2）に暦年課税に係る贈与によって取得した財産があるときは、その人の相続税の課税価格にその財産の贈与時の価額を加算します"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4161.htm",
+    "quote": "～令和8年12月31日相続開始前3年以内（死亡の日から遡って3年前の日から死亡の日までの間）令和9年1月1日～令和12年12月31日令和6年1月1日から死亡の日までの間令和13年1月1日～相続開始前7年以内"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4161.htm",
+    "quote": "加算対象期間内に贈与されたものであれば贈与税がかかったかどうかに関係なく加算します"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4161.htm",
+    "quote": "相続開始前3年以内に取得した財産以外の財産については、その財産の贈与時の価額の合計額から総額100万円までは相続税の課税価格に加算されません"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4161.htm",
+    "quote": "加算対象となる贈与財産について課せられた贈与税がある場合には、その相続税額からその贈与税額に相当する金額を控除します"
+   }
+  ],
+  "reviewStatus": "verified",
   "checkedAt": "2026-10-21",
   "aliases": [
-   "生前贈与加算",
-   "持戻し"
+   "生前贈与加算"
   ]
  },
  {
