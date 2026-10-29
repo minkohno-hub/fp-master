@@ -28,6 +28,7 @@ export function MenuPage() {
         <LinkRow to="/settings" title="設定" />
         <LinkRow to="/data" title="データ管理（バックアップ・復元）" />
         <LinkRow to="/law" title="制度改正情報・法令基準日" />
+        <LinkRow to="/guide" title="詳しい説明書" sub="使い方・計算の考え方・正確性ポリシー" />
         <LinkRow to="/about" title="出典と利用条件" />
       </nav>
     </div>
