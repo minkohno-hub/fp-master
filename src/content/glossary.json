@@ -485,12 +485,41 @@
   ],
   "sources": [
    {
-    "title": "日本FP協会 試験範囲（試験要綱）",
-    "url": "https://www.jafp.or.jp/exam/outline/"
+    "title": "e-Gov法令検索 健康保険法",
+    "url": "https://laws.e-gov.go.jp/law/211AC0000000070"
+   },
+   {
+    "title": "全国健康保険協会 退職後の健康保険（任意継続）",
+    "url": "https://www.kyoukaikenpo.or.jp/benefit/voluntary_continuation/"
    }
   ],
-  "evidence": [],
-  "reviewStatus": "draft",
+  "evidence": [
+   {
+    "url": "https://laws.e-gov.go.jp/law/211AC0000000070",
+    "quote": "喪失の日の前日まで継続して二月以上被保険者（日雇特例被保険者、任意継続被保険者又は共済組合の組合員である被保険者を除く。）であったもの"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/211AC0000000070",
+    "quote": "第三条第四項の申出は、被保険者の資格を喪失した日から二十日以内にしなければならない"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/211AC0000000070",
+    "quote": "任意継続被保険者となった日から起算して二年を経過したとき"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/211AC0000000070",
+    "quote": "被保険者及び被保険者を使用する事業主は、それぞれ保険料額の二分の一を負担する。ただし、任意継続被保険者は、その全額を負担する"
+   },
+   {
+    "url": "https://www.kyoukaikenpo.or.jp/benefit/voluntary_continuation/",
+    "quote": "退職日までに被保険者期間が継続して2か月以上あること"
+   },
+   {
+    "url": "https://www.kyoukaikenpo.or.jp/benefit/voluntary_continuation/",
+    "quote": "保険料は、退職前に控除されていた保険料を2倍した額になります"
+   }
+  ],
+  "reviewStatus": "verified",
   "checkedAt": "2026-10-21"
  },
  {
@@ -3259,12 +3288,65 @@
   ],
   "sources": [
    {
-    "title": "日本FP協会 試験範囲（試験要綱）",
-    "url": "https://www.jafp.or.jp/exam/outline/"
+    "title": "日本年金機構 国民年金保険料の免除制度・納付猶予制度",
+    "url": "https://www.nenkin.go.jp/service/kokunen/menjo/20150428.html"
+   },
+   {
+    "title": "日本年金機構 国民年金保険料の法定免除制度",
+    "url": "https://www.nenkin.go.jp/service/kokunen/menjo/20140710.html"
+   },
+   {
+    "title": "日本年金機構 国民年金保険料の学生納付特例制度",
+    "url": "https://www.nenkin.go.jp/service/kokunen/menjo/20150514.html"
+   },
+   {
+    "title": "日本年金機構 国民年金保険料の追納制度",
+    "url": "https://www.nenkin.go.jp/service/kokunen/menjo/20150331.html"
    }
   ],
-  "evidence": [],
-  "reviewStatus": "draft",
+  "evidence": [
+   {
+    "url": "https://www.nenkin.go.jp/service/kokunen/menjo/20150428.html",
+    "quote": "本人・配偶者・世帯主の前年所得（※）が一定額以下の場合や失業した場合など、保険料を納付することが経済的に困難な場合は、ご本人が申請書を提出し、承認されると保険料の納付が免除されます"
+   },
+   {
+    "url": "https://www.nenkin.go.jp/service/kokunen/menjo/20150428.html",
+    "quote": "免除される額は、全額、4分の3、半額、4分の1の4種類があります"
+   },
+   {
+    "url": "https://www.nenkin.go.jp/service/kokunen/menjo/20150428.html",
+    "quote": "保険料納付猶予制度とは20歳以上50歳未満の方で、本人・配偶者の前年所得（※）が一定額以下の場合には、ご本人が申請書を提出し、承認されると保険料の納付が猶予されます"
+   },
+   {
+    "url": "https://www.nenkin.go.jp/service/kokunen/menjo/20140710.html",
+    "quote": "（1）生活保護の生活扶助を受けている方"
+   },
+   {
+    "url": "https://www.nenkin.go.jp/service/kokunen/menjo/20140710.html",
+    "quote": "（2）障害基礎年金ならびに被用者年金の障害年金（2級以上）を受けている方"
+   },
+   {
+    "url": "https://www.nenkin.go.jp/service/kokunen/menjo/20150514.html",
+    "quote": "学生には、申請により在学中の保険料の納付が猶予される「学生納付特例制度」が設けられています"
+   },
+   {
+    "url": "https://www.nenkin.go.jp/service/kokunen/menjo/20150428.html",
+    "quote": "老齢基礎年金を受け取るためには、保険料納付済期間（厚生年金保険や共済組合等の加入期間を含む）と保険料免除期間などを合算した期間が、10年以上必要です"
+   },
+   {
+    "url": "https://www.nenkin.go.jp/service/kokunen/menjo/20150428.html",
+    "quote": "保険料の全額を免除された期間は、老齢基礎年金を受け取る際に、保険料を全額納付した場合の年金額の2分の1（税金分）を受け取れます"
+   },
+   {
+    "url": "https://www.nenkin.go.jp/service/kokunen/menjo/20150331.html",
+    "quote": "納付猶予や学生納付特例の期間は年金の受給資格期間として計算されますが、追納しないと年金額には反映されません"
+   },
+   {
+    "url": "https://www.nenkin.go.jp/service/kokunen/menjo/20150428.html",
+    "quote": "免除・納付猶予の承認を受けた期間の保険料は、10年以内であれば申し出により後から納付（追納）して老齢基礎年金の受給額を満額に近づけることができます"
+   }
+  ],
+  "reviewStatus": "verified",
   "checkedAt": "2026-10-21",
   "aliases": [
    "保険料免除",
@@ -3278,7 +3360,7 @@
   "field": "A",
   "importance": 2,
   "short": "国民年金の第1号被保険者などが、老齢基礎年金に上乗せして受け取る年金を準備するための公的な任意加入の制度。",
-  "detail": "加入できるのは第1号被保険者（農業者年金の被保険者などを除く）と任意加入被保険者。掛金の上限は月額68,000円で、個人型確定拠出年金（iDeCo）の掛金と合算して管理する。掛金は全額が社会保険料控除の対象。一度加入すると任意に脱退できない。",
+  "detail": "加入できるのは第1号被保険者（農業者年金の被保険者などを除く）と任意加入被保険者。掛金は、個人型確定拠出年金（iDeCo）の掛金と合算して月額68,000円が上限。掛金は全額が社会保険料控除の対象。一度加入すると任意に脱退できない。",
   "related": [
    "ideco",
    "fuka-nenkin"
@@ -3289,12 +3371,53 @@
   ],
   "sources": [
    {
-    "title": "日本FP協会 試験範囲（試験要綱）",
-    "url": "https://www.jafp.or.jp/exam/outline/"
+    "title": "厚生労働省 国民年金基金制度",
+    "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000059350.html"
+   },
+   {
+    "title": "日本年金機構 年金用語集 国民年金基金",
+    "url": "https://www.nenkin.go.jp/service/yougo/kagyo/kokunen-kikin.html"
+   },
+   {
+    "title": "国税庁 No.1130 社会保険料控除",
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1130.htm"
    }
   ],
-  "evidence": [],
-  "reviewStatus": "draft",
+  "evidence": [
+   {
+    "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000059350.html",
+    "quote": "20歳以上60歳未満の自営業者やフリーランスなどの国民年金の第1号被保険者、日本国内に住所を有する60歳以上65歳未満の国民年金の任意加入被保険者及び海外居住者であって国民年金の任意加入被保険者"
+   },
+   {
+    "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000059350.html",
+    "quote": "・国民年金の保険料を免除されている方（一部免除・学生納付特例・若年者納付猶予を含みます。）・農業者年金の被保険者の方"
+   },
+   {
+    "url": "https://www.nenkin.go.jp/service/yougo/kagyo/kokunen-kikin.html",
+    "quote": "20歳以上60歳未満の国民年金の第1号被保険者や、60歳以上65歳未満の方や海外居住者で国民年金に任意加入している方を対象に、老齢基礎年金の上乗せ給付として、平成3（1991）年、国民年金法に基づき創設された公的な個人年金です"
+   },
+   {
+    "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000059350.html",
+    "quote": "掛金の上限は、月額6万8,000円です"
+   },
+   {
+    "url": "https://www.nenkin.go.jp/service/yougo/kagyo/kokunen-kikin.html",
+    "quote": "国民年金基金は、iDeCoと合算して月額68,000円まで加入できます"
+   },
+   {
+    "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000059350.html",
+    "quote": "掛金は全額社会保険料控除の対象となります"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1130.htm",
+    "quote": "国民年金基金の加入員として負担する掛金"
+   },
+   {
+    "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000059350.html",
+    "quote": "国民年金基金への加入は任意ですが、いったんご加入いただいた場合、ご自分の都合で任意に脱退及び中途解約することはできません"
+   }
+  ],
+  "reviewStatus": "verified",
   "checkedAt": "2026-10-21"
  },
  {
@@ -3304,7 +3427,7 @@
   "field": "A",
   "importance": 2,
   "short": "事業主が掛金を拠出し、従業員が運用商品を選んで運用する私的年金。",
-  "detail": "運用の成果によって将来の給付額が変わる（確定拠出）。掛金は事業主が拠出し、規約で定めれば加入者本人が上乗せして拠出（マッチング拠出）できる。原則60歳から受け取れるが、通算加入者等期間が短いと受給開始が遅くなる。転職時は年金資産を移換できる（ポータビリティ）。",
+  "detail": "運用の成果によって将来の給付額が変わる（確定拠出）。掛金は事業主が拠出し、規約で定めれば加入者本人が上乗せして拠出（マッチング拠出）できる。原則60歳から受け取れるが、通算加入者等期間が短いと受給開始が遅くなる。転職時は年金資産を他の制度へ移換できる場合がある（ポータビリティ）。",
   "related": [
    "ideco"
   ],
@@ -3314,12 +3437,41 @@
   ],
   "sources": [
    {
-    "title": "日本FP協会 試験範囲（試験要綱）",
-    "url": "https://www.jafp.or.jp/exam/outline/"
+    "title": "厚生労働省 確定拠出年金制度の概要",
+    "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/nenkin/nenkin/kyoshutsu/gaiyou.html"
+   },
+   {
+    "title": "e-Gov法令検索 確定拠出年金法",
+    "url": "https://laws.e-gov.go.jp/law/413AC0000000088"
    }
   ],
-  "evidence": [],
-  "reviewStatus": "draft",
+  "evidence": [
+   {
+    "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/nenkin/nenkin/kyoshutsu/gaiyou.html",
+    "quote": "確定拠出年金は、拠出された掛金とその運用益との合計額をもとに、将来の給付額が決定する年金制度です"
+   },
+   {
+    "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/nenkin/nenkin/kyoshutsu/gaiyou.html",
+    "quote": "掛金を事業主が拠出する企業型DC（企業型確定拠出年金）と、加入者自身が拠出するiDeCo（イデコ・個人型確定拠出年金）があります"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/413AC0000000088",
+    "quote": "個人又は事業主が拠出した資金を個人が自己の責任において運用の指図を行い、高齢期においてその結果に基づいた給付を受けることができるようにするため"
+   },
+   {
+    "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/nenkin/nenkin/kyoshutsu/gaiyou.html",
+    "quote": "事業主拠出（企業型年金規約に定めた場合は加入者も拠出可能（マッチング拠出）。）"
+   },
+   {
+    "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/nenkin/nenkin/kyoshutsu/gaiyou.html",
+    "quote": "原則60歳に到達した場合に受給することができる（60歳時点で確定拠出年金の通算加入者等期間が10年に満たない場合は、支給開始年齢が段階的に先延ばしになる）"
+   },
+   {
+    "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/nenkin/nenkin/kyoshutsu/gaiyou.html",
+    "quote": "加入者等が離転職した場合には、確定拠出年金で積み立てた資産を他の制度へ持ち運べる場合があります"
+   }
+  ],
+  "reviewStatus": "verified",
   "checkedAt": "2026-10-21",
   "aliases": [
    "企業型DC"
@@ -3340,12 +3492,61 @@
   ],
   "sources": [
    {
-    "title": "日本FP協会 試験範囲（試験要綱）",
-    "url": "https://www.jafp.or.jp/exam/outline/"
+    "title": "介護サービス情報公表システム 介護保険とは",
+    "url": "https://www.kaigokensaku.mhlw.go.jp/commentary/about.html"
+   },
+   {
+    "title": "介護サービス情報公表システム サービス利用までの流れ",
+    "url": "https://www.kaigokensaku.mhlw.go.jp/commentary/flow.html"
+   },
+   {
+    "title": "介護サービス情報公表システム サービスにかかる利用料",
+    "url": "https://www.kaigokensaku.mhlw.go.jp/commentary/fee.html"
+   },
+   {
+    "title": "e-Gov法令検索 介護保険法",
+    "url": "https://laws.e-gov.go.jp/law/409AC0000000123"
    }
   ],
-  "evidence": [],
-  "reviewStatus": "draft",
+  "evidence": [
+   {
+    "url": "https://laws.e-gov.go.jp/law/409AC0000000123",
+    "quote": "市町村及び特別区は、この法律の定めるところにより、介護保険を行うものとする"
+   },
+   {
+    "url": "https://www.kaigokensaku.mhlw.go.jp/commentary/about.html",
+    "quote": "皆様がお住まいの市区町村（保険者といいます。）が制度を運営しています"
+   },
+   {
+    "url": "https://www.kaigokensaku.mhlw.go.jp/commentary/about.html",
+    "quote": "40歳以上の人は、介護保険の被保険者となります。①65歳以上の人（第１号被保険者）②40～64歳までの医療保険に加入している人（第２号被保険者）"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/409AC0000000123",
+    "quote": "一市町村の区域内に住所を有する六十五歳以上の者（以下「第一号被保険者」という。）二市町村の区域内に住所を有する四十歳以上六十五歳未満の医療保険加入者（以下「第二号被保険者」という。）"
+   },
+   {
+    "url": "https://www.kaigokensaku.mhlw.go.jp/commentary/about.html",
+    "quote": "40歳から64歳までの人は、介護保険の対象となる特定疾病により介護が必要と認定された場合は、介護サービスを受けることができます"
+   },
+   {
+    "url": "https://www.kaigokensaku.mhlw.go.jp/commentary/flow.html",
+    "quote": "認定は要支援1･2から要介護1～5までの７段階および非該当に分かれています"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/409AC0000000123",
+    "quote": "介護給付を受けようとする被保険者は、要介護者に該当すること及びその該当する要介護状態区分について、市町村の認定（以下「要介護認定」という。）を受けなければならない"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/409AC0000000123",
+    "quote": "予防給付を受けようとする被保険者は、要支援者に該当すること及びその該当する要支援状態区分について、市町村の認定（以下「要支援認定」という。）を受けなければならない"
+   },
+   {
+    "url": "https://www.kaigokensaku.mhlw.go.jp/commentary/fee.html",
+    "quote": "介護保険サービスを利用した場合の利用者負担は、介護サービスにかかった費用の１割（一定以上所得者の場合は２割又は３割）です"
+   }
+  ],
+  "reviewStatus": "verified",
   "checkedAt": "2026-10-21"
  },
  {
@@ -3363,12 +3564,33 @@
   ],
   "sources": [
    {
-    "title": "日本FP協会 試験範囲（試験要綱）",
-    "url": "https://www.jafp.or.jp/exam/outline/"
+    "title": "ハローワーク 基本手当について",
+    "url": "https://www.hellowork.mhlw.go.jp/insurance/insurance_basicbenefit.html"
+   },
+   {
+    "title": "大阪労働局 労働保険料の計算方法",
+    "url": "https://jsite.mhlw.go.jp/osaka-roudoukyoku/hourei_seido_tetsuzuki/roudou_hoken/hourei_seido/keisan.html"
    }
   ],
-  "evidence": [],
-  "reviewStatus": "draft",
+  "evidence": [
+   {
+    "url": "https://www.hellowork.mhlw.go.jp/insurance/insurance_basicbenefit.html",
+    "quote": "雇用保険の被保険者の方が、定年、倒産、契約期間の満了等により離職し、失業中の生活を心配しないで、新しい仕事を探し、1日も早く再就職していただくために支給されるものです"
+   },
+   {
+    "url": "https://www.hellowork.mhlw.go.jp/insurance/insurance_basicbenefit.html",
+    "quote": "離職の日以前2年間に、被保険者期間（※補足2）が通算して12か月以上あること。ただし、特定受給資格者又は特定理由離職者については、離職の日以前1年間に、被保険者期間が通算して6か月以上ある場合でも可"
+   },
+   {
+    "url": "https://www.hellowork.mhlw.go.jp/insurance/insurance_basicbenefit.html",
+    "quote": "雇用保険の一般被保険者に対する求職者給付の基本手当の所定給付日数（基本手当の支給を受けることができる日数）は、受給資格に係る離職の日における年齢、雇用保険の被保険者であった期間及び離職の理由などによって決定され"
+   },
+   {
+    "url": "https://jsite.mhlw.go.jp/osaka-roudoukyoku/hourei_seido_tetsuzuki/roudou_hoken/hourei_seido/keisan.html",
+    "quote": "そのうち、労災保険料分は全額事業主負担、雇用保険料分は事業主と労働者双方で負担することになっています"
+   }
+  ],
+  "reviewStatus": "verified",
   "checkedAt": "2026-10-21",
   "aliases": [
    "基本手当",
@@ -3390,12 +3612,41 @@
   ],
   "sources": [
    {
-    "title": "日本FP協会 試験範囲（試験要綱）",
-    "url": "https://www.jafp.or.jp/exam/outline/"
+    "title": "厚生労働省 労災保険制度とは",
+    "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/roudoukijun/rousai/index.html"
+   },
+   {
+    "title": "e-Gov法令検索 労働者災害補償保険法",
+    "url": "https://laws.e-gov.go.jp/law/322AC0000000050"
+   },
+   {
+    "title": "大阪労働局 労働保険料の計算方法",
+    "url": "https://jsite.mhlw.go.jp/osaka-roudoukyoku/hourei_seido_tetsuzuki/roudou_hoken/hourei_seido/keisan.html"
    }
   ],
-  "evidence": [],
-  "reviewStatus": "draft",
+  "evidence": [
+   {
+    "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/roudoukijun/rousai/index.html",
+    "quote": "労災保険制度は、労働者の業務上の事由または通勤による労働者の傷病等に対して必要な保険給付を行い、あわせて被災労働者の社会復帰の促進等の事業を行う制度です"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/322AC0000000050",
+    "quote": "又は通勤による労働者の負傷、疾病、障害、死亡等に対して迅速かつ公正な保護をするため、必要な保険給付を行い"
+   },
+   {
+    "url": "https://jsite.mhlw.go.jp/osaka-roudoukyoku/hourei_seido_tetsuzuki/roudou_hoken/hourei_seido/keisan.html",
+    "quote": "そのうち、労災保険料分は全額事業主負担、雇用保険料分は事業主と労働者双方で負担することになっています"
+   },
+   {
+    "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/roudoukijun/rousai/index.html",
+    "quote": "労災保険は、原則として一人でも労働者を使用する事業は、業種の規模の如何を問わず、すべてに適用されます"
+   },
+   {
+    "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/roudoukijun/rousai/index.html",
+    "quote": "労働者であればアルバイトやパートタイマー等の雇用形態は関係ありません"
+   }
+  ],
+  "reviewStatus": "verified",
   "checkedAt": "2026-10-21",
   "aliases": [
    "労働者災害補償保険"
@@ -4388,12 +4639,37 @@
   ],
   "sources": [
    {
-    "title": "日本FP協会 試験範囲（試験要綱）",
-    "url": "https://www.jafp.or.jp/exam/outline/"
+    "title": "国税庁 No.1000 所得税のしくみ",
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1000.htm"
+   },
+   {
+    "title": "国税庁 No.1300 所得の区分のあらまし",
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1300.htm"
+   },
+   {
+    "title": "国税庁 No.2220 総合課税制度",
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2220.htm"
    }
   ],
-  "evidence": [],
-  "reviewStatus": "draft",
+  "evidence": [
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1000.htm",
+    "quote": "所得は、その性質によって次の10種類に分かれ、それぞれの所得について、収入や必要経費の範囲あるいは所得の計算方法などが定められています"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1000.htm",
+    "quote": "1利子所得2配当所得3不動産所得4事業所得5給与所得6退職所得7山林所得8譲渡所得9一時所得10雑所得"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1300.htm",
+    "quote": "所得税法では、その性質によって所得を次の10種類に区分しています"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2220.htm",
+    "quote": "総合課税の対象となるのは、次の所得です"
+   }
+  ],
+  "reviewStatus": "verified",
   "checkedAt": "2026-10-21",
   "aliases": [
    "所得の種類",
@@ -4407,7 +4683,7 @@
   "field": "D",
   "importance": 3,
   "short": "総合課税は所得を合計して累進税率で課税する方式、分離課税は他の所得と分けて別の税率で課税する方式。",
-  "detail": "分離課税には申告分離課税（上場株式等の譲渡所得、土地建物等の譲渡所得、退職所得など）と源泉分離課税（預貯金の利子など）がある。源泉分離課税は源泉徴収だけで納税が完結する。",
+  "detail": "分離課税には申告分離課税（株式等の譲渡所得、土地建物等の譲渡所得、退職所得など）と源泉分離課税（預貯金の利子など）がある。源泉分離課税は源泉徴収だけで納税が完結する。",
   "related": [
    "shotokuzei-sokusan"
   ],
@@ -4417,12 +4693,49 @@
   ],
   "sources": [
    {
-    "title": "日本FP協会 試験範囲（試験要綱）",
-    "url": "https://www.jafp.or.jp/exam/outline/"
+    "title": "国税庁 No.2220 総合課税制度",
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2220.htm"
+   },
+   {
+    "title": "国税庁 No.2240 申告分離課税制度",
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2240.htm"
+   },
+   {
+    "title": "国税庁 No.2230 源泉分離課税制度",
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2230.htm"
+   },
+   {
+    "title": "国税庁 No.2260 所得税の税率",
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2260.htm"
    }
   ],
-  "evidence": [],
-  "reviewStatus": "draft",
+  "evidence": [
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2220.htm",
+    "quote": "総合課税制度とは、各種の所得金額を合計して所得税額を計算するというものです"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2260.htm",
+    "quote": "5パーセントから45パーセントの7段階に区分されています"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2240.htm",
+    "quote": "しかし、一定の所得については、他の所得金額と合計せず、分離して税額を計算し（この点が総合課税制度と異なります。）、確定申告によりその税額を納めることとなります（この点が源泉分離課税制度と異なります。）。これが申告分離課税制度です"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2240.htm",
+    "quote": "申告分離課税制度となっている例としては、退職所得、山林所得、土地建物等の譲渡による譲渡所得、株式等の譲渡所得等、平成28年1月1日以後に支払を受けるべき特定公社債等の利子等に係る利子所得および一定の先物取引による雑所得等があります"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2230.htm",
+    "quote": "源泉分離課税制度とは、他の所得と全く分離して、所得を支払う者がその所得の支払の際に一定の税率で所得税を源泉徴収し、それだけで所得税の納税が完結するというものです"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2230.htm",
+    "quote": "（1）利子所得に該当する利子等（総合課税または申告分離課税の対象となるものを除く。）"
+   }
+  ],
+  "reviewStatus": "verified",
   "checkedAt": "2026-10-21",
   "aliases": [
    "総合課税",
@@ -4693,7 +5006,7 @@
   "field": "D",
   "importance": 3,
   "short": "住宅ローンを利用して住宅を取得・増改築したときに、年末のローン残高に応じて所得税額から控除できる制度（住宅ローン控除）。",
-  "detail": "控除額は年末残高に控除率（0.7％）を乗じた額で、所得税から控除しきれない分は住民税から控除できる（上限あり）。控除期間・借入限度額は住宅の種類（省エネ性能など）や入居時期で異なる。合計所得金額が2,000万円以下などの要件があり、初年度は確定申告、2年目以降は年末調整で手続きできる。",
+  "detail": "控除額は年末残高に控除率（0.7％）を乗じた額で、所得税から控除しきれない分は翌年度分の個人住民税から控除できる（上限あり）。控除期間・借入限度額は住宅の種類（省エネ性能など）や入居時期で異なる。合計所得金額が2,000万円以下などの要件があり、給与所得者は初年度は確定申告、2年目以降は年末調整で手続きできる。",
   "related": [
    "kakutei-shinkoku"
   ],
@@ -4703,12 +5016,57 @@
   ],
   "sources": [
    {
-    "title": "日本FP協会 試験範囲（試験要綱）",
-    "url": "https://www.jafp.or.jp/exam/outline/"
+    "title": "国税庁 No.1210 マイホームの取得等と所得税の税額控除",
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1210.htm"
+   },
+   {
+    "title": "国税庁 No.1211-1 住宅借入金等特別控除（令和4年以降に居住）",
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1211-1.htm"
+   },
+   {
+    "title": "総務省 住宅ローン控除（個人住民税）",
+    "url": "https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/090929.html"
+   },
+   {
+    "title": "国税庁 暮らしの税情報 マイホームを持ったとき",
+    "url": "https://www.nta.go.jp/publication/pamph/koho/kurashi/html/05_1.htm"
    }
   ],
-  "evidence": [],
-  "reviewStatus": "draft",
+  "evidence": [
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1210.htm",
+    "quote": "個人が住宅ローン等を利用してマイホームの新築、取得または増改築等（以下「取得等」といいます。）をした場合で、一定の要件を満たすときは、その取得等に係る住宅ローン等の年末残高の合計額等を基として計算した金額を、居住の用に供した年分以後の各年分の所得税額から控除する「住宅借入金等特別控除」"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1211-1.htm",
+    "quote": "年末残高等×0.7％"
+   },
+   {
+    "url": "https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/090929.html",
+    "quote": "所得税から控除しきれなかった額を個人住民税で税額控除することとされました"
+   },
+   {
+    "url": "https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/090929.html",
+    "quote": "所得税において控除しきれなかった金額がある場合は、翌年度の個人住民税において住宅ローン控除が適用されます"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1211-1.htm",
+    "quote": "この特例は、以下のとおり、住宅等の区分および居住年に応じて、借入限度額や控除期間が異なります"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1211-1.htm",
+    "quote": "この特別控除を受ける年分の合計所得金額が、2,000万円以下であること"
+   },
+   {
+    "url": "https://www.nta.go.jp/publication/pamph/koho/kurashi/html/05_1.htm",
+    "quote": "控除を受ける最初の年分は、必要な書類を確定申告書に添付して提出する必要があります"
+   },
+   {
+    "url": "https://www.nta.go.jp/publication/pamph/koho/kurashi/html/05_1.htm",
+    "quote": "給与所得者の方は、２年目以後の年分については、年末調整で住宅ローン控除の適用を受けることができます"
+   }
+  ],
+  "reviewStatus": "verified",
   "checkedAt": "2026-10-21",
   "aliases": [
    "住宅ローン控除",
@@ -4833,8 +5191,8 @@
   "reading": "いんぼいすせいど",
   "field": "D",
   "importance": 2,
-  "short": "消費税の仕入税額控除を受けるために、一定の事項を記載した適格請求書（インボイス）の保存を要件とする制度。",
-  "detail": "2023年10月に開始。適格請求書を発行できるのは、税務署に登録した適格請求書発行事業者のみ。免税事業者は登録できないが、登録すれば課税事業者となる。",
+  "short": "消費税の仕入税額控除を受けるために、一定の事項を記載した帳簿及び適格請求書（インボイス）等の保存を要件とする制度。",
+  "detail": "2023年10月に開始。適格請求書を発行できるのは、税務署に登録した適格請求書発行事業者のみ。免税事業者は原則として登録できないが、登録すれば課税事業者となる。",
   "related": [
    "shohizei"
   ],
@@ -4843,12 +5201,41 @@
   ],
   "sources": [
    {
-    "title": "日本FP協会 試験範囲（試験要綱）",
-    "url": "https://www.jafp.or.jp/exam/outline/"
+    "title": "国税庁 No.6498 適格請求書等保存方式（インボイス制度）",
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6498.htm"
+   },
+   {
+    "title": "国税庁 インボイス制度について",
+    "url": "https://www.nta.go.jp/taxes/shiraberu/zeimokubetsu/shohi/keigenzeiritsu/invoice_about.htm"
    }
   ],
-  "evidence": [],
-  "reviewStatus": "draft",
+  "evidence": [
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6498.htm",
+    "quote": "令和5年10月1日から、複数税率に対応した消費税額の仕入税額控除の方式として、「適格請求書等保存方式（インボイス制度）」が開始しています"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6498.htm",
+    "quote": "適格請求書等保存方式の下では、一定の事項が記載された帳簿及び「適格請求書（インボイス）」等の保存が仕入税額控除の要件となります"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6498.htm",
+    "quote": "なお、適格請求書は、税務署長の登録を受けた適格請求書発行事業者でなければ、交付することはできません"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6498.htm",
+    "quote": "（注1）課税事業者が適格請求書発行事業者の登録を受けることができます。なお、令和5年10月１日から令和11年9月30日までの日を含む課税期間中に免税事業者が登録を受けた場合は、登録を受けた日から適格請求書発行事業者となることができる経過措置が設けられています"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6498.htm",
+    "quote": "免税事業者が適格請求書発行事業者の登録を受けて課税事業者となった場合に"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/zeimokubetsu/shohi/keigenzeiritsu/invoice_about.htm",
+    "quote": "インボイス発行事業者として登録を受けると、課税事業者として消費税の申告が必要になります"
+   }
+  ],
+  "reviewStatus": "verified",
   "checkedAt": "2026-10-21",
   "aliases": [
    "適格請求書",
@@ -4862,19 +5249,52 @@
   "field": "D",
   "importance": 2,
   "short": "法人の各事業年度の所得に課される税。所得金額＝益金の額－損金の額。",
-  "detail": "会計上の利益に、益金算入・損金不算入などの税務上の調整（別表四）を加えて所得金額を求める。交際費は中小法人（資本金1億円以下）で年800万円までは損金算入できる特例がある。役員給与は定期同額給与などの要件を満たす場合にのみ損金算入が認められる。",
+  "detail": "所得金額は、益金の額から損金の額を控除して計算する。交際費等は原則として全額が損金不算入だが、期末の資本金の額等が1億円以下である等の法人には、定額控除限度額（年800万円）を超える部分が損金不算入となる特例がある。役員給与は定期同額給与・事前確定届出給与・業績連動給与のいずれにも該当しないものは損金算入が認められない。",
   "related": [],
   "grades": [
    2
   ],
   "sources": [
    {
-    "title": "日本FP協会 試験範囲（試験要綱）",
-    "url": "https://www.jafp.or.jp/exam/outline/"
+    "title": "e-Gov法令検索 法人税法",
+    "url": "https://laws.e-gov.go.jp/law/340AC0000000034"
+   },
+   {
+    "title": "国税庁 No.5265 交際費等の範囲と損金不算入額の計算",
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5265.htm"
+   },
+   {
+    "title": "国税庁 No.5211 役員に対する給与",
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5211.htm"
    }
   ],
-  "evidence": [],
-  "reviewStatus": "draft",
+  "evidence": [
+   {
+    "url": "https://laws.e-gov.go.jp/law/340AC0000000034",
+    "quote": "内国法人に対して課する各事業年度の所得に対する法人税の課税標準は、各事業年度の所得の金額とする"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/340AC0000000034",
+    "quote": "内国法人の各事業年度の所得の金額は、当該事業年度の益金の額から当該事業年度の損金の額を控除した金額とする"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5265.htm",
+    "quote": "交際費等の額は、原則として、その全額が損金不算入とされていますが、損金不算入額の計算に当たっては、下記の法人の区分に応じ、一定の措置が設けられています"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5265.htm",
+    "quote": "期末の資本金の額または出資金の額が1億円以下である等の法人"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5265.htm",
+    "quote": "800万円にその事業年度の月数を乗じ、これを12で除して計算した金額（定額控除限度額）を超える部分の金額"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5211.htm",
+    "quote": "法人が役員に対して支給する給与（注）の額のうち次に掲げる定期同額給与、事前確定届出給与または一定の業績連動給与のいずれにも該当しないものの額は損金の額に算入されません"
+   }
+  ],
+  "reviewStatus": "verified",
   "checkedAt": "2026-10-21",
   "aliases": [
    "法人税",
@@ -5826,12 +6246,49 @@
   ],
   "sources": [
    {
-    "title": "日本FP協会 試験範囲（試験要綱）",
-    "url": "https://www.jafp.or.jp/exam/outline/"
+    "title": "裁判所 遺言書の検認",
+    "url": "https://www.courts.go.jp/saiban/syurui/syurui_kazi/kazi_06_17/index.html"
+   },
+   {
+    "title": "e-Gov法令検索 民法",
+    "url": "https://laws.e-gov.go.jp/law/129AC0000000089"
+   },
+   {
+    "title": "e-Gov法令検索 法務局における遺言書の保管等に関する法律",
+    "url": "https://laws.e-gov.go.jp/law/430AC0000000073"
    }
   ],
-  "evidence": [],
-  "reviewStatus": "draft",
+  "evidence": [
+   {
+    "url": "https://www.courts.go.jp/saiban/syurui/syurui_kazi/kazi_06_17/index.html",
+    "quote": "「検認」とは，相続人に対し遺言の存在及びその内容を知らせるとともに，遺言書の形状，加除訂正の状態，日付，署名など検認の日現在における遺言書の内容を明確にして，遺言書の偽造・変造を防止するための手続です。遺言の有効・無効を判断する手続ではありません。"
+   },
+   {
+    "url": "https://www.courts.go.jp/saiban/syurui/syurui_kazi/kazi_06_17/index.html",
+    "quote": "遺言書の保管者又はこれを発見した相続人は，遺言者の死亡を知った後，遅滞なく遺言書を家庭裁判所に提出して，その「検認」を請求しなければなりません。"
+   },
+   {
+    "url": "https://www.courts.go.jp/saiban/syurui/syurui_kazi/kazi_06_17/index.html",
+    "quote": "封印のある遺言書は，家庭裁判所で相続人等の立会いの上開封しなければならないことになっています。"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/129AC0000000089",
+    "quote": "遺言書の保管者は、相続の開始を知った後、遅滞なく、これを家庭裁判所に提出して、その検認を請求しなければならない。"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/129AC0000000089",
+    "quote": "前項の規定は、公正証書による遺言については、適用しない。"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/129AC0000000089",
+    "quote": "封印のある遺言書は、家庭裁判所において相続人又はその代理人の立会いがなければ、開封することができない。"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/430AC0000000073",
+    "quote": "民法第千四条第一項の規定は、遺言書保管所に保管されている遺言書については、適用しない。"
+   }
+  ],
+  "reviewStatus": "verified",
   "checkedAt": "2026-10-21"
  },
  {
@@ -5841,7 +6298,7 @@
   "field": "F",
   "importance": 2,
   "short": "自筆証書遺言を法務局（遺言書保管所）で保管してもらえる制度。",
-  "detail": "2020年7月に開始。遺言者本人が法務局に出向いて申請する（代理不可）。保管された遺言書は検認が不要で、相続人は死亡後に遺言書の写しの交付や閲覧を請求できる。形式の外形的な確認は行われるが、内容の有効性は保証されない。",
+  "detail": "2020年7月に開始。遺言者本人が法務局に出向いて申請する（代理不可）。保管された遺言書は検認が不要で、相続人は死亡後に遺言書情報証明書の交付や閲覧を請求できる。形式の外形的な確認は行われるが、内容の有効性は保証されない。",
   "related": [
    "igon",
    "kenin"
@@ -5852,12 +6309,57 @@
   ],
   "sources": [
    {
-    "title": "日本FP協会 試験範囲（試験要綱）",
-    "url": "https://www.jafp.or.jp/exam/outline/"
+    "title": "法務省 自筆証書遺言書保管制度とは？",
+    "url": "https://www.moj.go.jp/MINJI/01.html"
+   },
+   {
+    "title": "法務省 自筆証書遺言書保管制度 遺言者の手続",
+    "url": "https://www.moj.go.jp/MINJI/02.html"
+   },
+   {
+    "title": "法務省 自筆証書遺言書保管制度 よくあるご質問",
+    "url": "https://www.moj.go.jp/MINJI/11.html"
+   },
+   {
+    "title": "e-Gov法令検索 法務局における遺言書の保管等に関する法律",
+    "url": "https://laws.e-gov.go.jp/law/430AC0000000073"
    }
   ],
-  "evidence": [],
-  "reviewStatus": "draft",
+  "evidence": [
+   {
+    "url": "https://www.moj.go.jp/MINJI/11.html",
+    "quote": "この制度は、令和２年７月１０日から開始しましたが、それ以前に作成された遺言書も、所定の様式を満たしていれば、保管することができます。"
+   },
+   {
+    "url": "https://www.moj.go.jp/MINJI/02.html",
+    "quote": "遺言書の保管の申請ができるのは、遺言者本人のみです。"
+   },
+   {
+    "url": "https://www.moj.go.jp/MINJI/02.html",
+    "quote": "代理人による申請や郵送による申請はできません。"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/430AC0000000073",
+    "quote": "遺言者が第一項の申請をするときは、遺言書保管所に自ら出頭して行わなければならない。"
+   },
+   {
+    "url": "https://www.moj.go.jp/MINJI/01.html",
+    "quote": "相続開始後、家庭裁判所における検認が不要です!"
+   },
+   {
+    "url": "https://www.moj.go.jp/MINJI/01.html",
+    "quote": "相続人等の方々は、法務局において遺言書を閲覧したり、遺言書情報証明書の交付が受けられます！"
+   },
+   {
+    "url": "https://www.moj.go.jp/MINJI/01.html",
+    "quote": "遺言書の保管申請時には、民法の定める自筆証書遺言の形式に適合するかについて、遺言書保管官の外形的なチェックが受けられます。"
+   },
+   {
+    "url": "https://www.moj.go.jp/MINJI/01.html",
+    "quote": "本制度は、保管された遺言書の有効性を保証するものではありません。"
+   }
+  ],
+  "reviewStatus": "verified",
   "checkedAt": "2026-10-21",
   "aliases": [
    "遺言書保管制度"
@@ -5879,12 +6381,53 @@
   ],
   "sources": [
    {
-    "title": "日本FP協会 試験範囲（試験要綱）",
-    "url": "https://www.jafp.or.jp/exam/outline/"
+    "title": "e-Gov法令検索 民法",
+    "url": "https://laws.e-gov.go.jp/law/129AC0000000089"
+   },
+   {
+    "title": "法務省 配偶者居住権の新設",
+    "url": "https://www.moj.go.jp/MINJI/minji07_00028.html"
+   },
+   {
+    "title": "国税庁 No.4666 配偶者居住権等の評価",
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hyoka/4666.htm"
    }
   ],
-  "evidence": [],
-  "reviewStatus": "draft",
+  "evidence": [
+   {
+    "url": "https://laws.e-gov.go.jp/law/129AC0000000089",
+    "quote": "被相続人の配偶者（以下この章において単に「配偶者」という。）は、被相続人の財産に属した建物に相続開始の時に居住していた場合において、次の各号のいずれかに該当するときは、その居住していた建物（以下この節において「居住建物」という。）の全部について無償で使用及び収益をする権利（以下この章において「配偶者居住権」という。）を取得する。"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/129AC0000000089",
+    "quote": "一遺産の分割によって配偶者居住権を取得するものとされたとき。二配偶者居住権が遺贈の目的とされたとき。"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/129AC0000000089",
+    "quote": "配偶者居住権の存続期間は、配偶者の終身の間とする。ただし、遺産の分割の協議若しくは遺言に別段の定めがあるとき、又は家庭裁判所が遺産の分割の審判において別段の定めをしたときは、その定めるところによる。"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/129AC0000000089",
+    "quote": "配偶者居住権は、譲渡することができない。"
+   },
+   {
+    "url": "https://www.moj.go.jp/MINJI/minji07_00028.html",
+    "quote": "残された配偶者の居住権を保護するための方策に関する部分が，令和２年４月１日に施行されます。"
+   },
+   {
+    "url": "https://www.moj.go.jp/MINJI/minji07_00028.html",
+    "quote": "配偶者居住権の設定の登記とは，配偶者居住権を取得した場合に，これを公の帳簿（登記簿）に記載し，一般に公開することによって，取得した配偶者居住権を第三者（例えば，居住建物を譲り受けた方）に主張することができるようにするものです。"
+   },
+   {
+    "url": "https://www.moj.go.jp/MINJI/minji07_00028.html",
+    "quote": "配偶者居住権を取得することによって，預貯金等のその他の遺産をより多く取得することができるというメリットがあります。"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hyoka/4666.htm",
+    "quote": "居住建物の価額居住建物の相続税評価額－配偶者居住権の価額"
+   }
+  ],
+  "reviewStatus": "verified",
   "checkedAt": "2026-10-21"
  },
  {
@@ -5904,12 +6447,25 @@
   ],
   "sources": [
    {
-    "title": "日本FP協会 試験範囲（試験要綱）",
-    "url": "https://www.jafp.or.jp/exam/outline/"
+    "title": "e-Gov法令検索 民法",
+    "url": "https://laws.e-gov.go.jp/law/129AC0000000089"
    }
   ],
-  "evidence": [],
-  "reviewStatus": "draft",
+  "evidence": [
+   {
+    "url": "https://laws.e-gov.go.jp/law/129AC0000000089",
+    "quote": "共同相続人中に、被相続人から、遺贈を受け、又は婚姻若しくは養子縁組のため若しくは生計の資本として贈与を受けた者があるときは、被相続人が相続開始の時において有した財産の価額にその贈与の価額を加えたものを相続財産とみなし、第九百条から第九百二条までの規定により算定した相続分の中からその遺贈又は贈与の価額を控除した残額をもってその者の相続分とする。"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/129AC0000000089",
+    "quote": "共同相続人中に、被相続人の事業に関する労務の提供又は財産上の給付、被相続人の療養看護その他の方法により被相続人の財産の維持又は増加について特別の寄与をした者があるときは、被相続人が相続開始の時において有した財産の価額から共同相続人の協議で定めたその者の寄与分を控除したものを相続財産とみなし、第九百条から第九百二条までの規定により算定した相続分に寄与分を加えた額をもってその者の相続分とする。"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/129AC0000000089",
+    "quote": "被相続人に対して無償で療養看護その他の労務の提供をしたことにより被相続人の財産の維持又は増加について特別の寄与をした被相続人の親族（相続人、相続の放棄をした者及び第八百九十一条の規定に該当し又は廃除によってその相続権を失った者を除く。以下この条において「特別寄与者」という。）は、相続の開始後、相続人に対し、特別寄与者の寄与に応じた額の金銭（以下この条において「特別寄与料」という。）の支払を請求することができる。"
+   }
+  ],
+  "reviewStatus": "verified",
   "checkedAt": "2026-10-21",
   "aliases": [
    "寄与分",
@@ -5923,7 +6479,7 @@
   "reading": "ろせんかほうしき",
   "field": "F",
   "importance": 3,
-  "short": "市街地にある宅地は路線価方式、それ以外は倍率方式で評価する、相続税や贈与税での土地の評価方法。",
+  "short": "路線価が定められている地域の宅地は路線価方式、それ以外の地域は倍率方式で評価する、相続税や贈与税での土地の評価方法。",
   "detail": "路線価方式：路線価（1㎡当たりの価額）に奥行価格補正率などを乗じた1㎡当たりの価額に、地積を乗じて求める。倍率方式：固定資産税評価額に、国税局長が定める倍率を乗じて求める。自用地（自分で使う宅地）の評価を基準に、借地権は自用地評価額×借地権割合、貸宅地（底地）は自用地評価額×（1－借地権割合）で評価する。",
   "related": [
    "kashiya-tatetsukechi"
@@ -5934,12 +6490,53 @@
   ],
   "sources": [
    {
-    "title": "日本FP協会 試験範囲（試験要綱）",
-    "url": "https://www.jafp.or.jp/exam/outline/"
+    "title": "国税庁 No.4602 土地家屋の評価",
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4602.htm"
+   },
+   {
+    "title": "国税庁 財産評価基本通達 13（路線価方式）",
+    "url": "https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/02/02.htm"
+   },
+   {
+    "title": "国税庁 財産評価基本通達 21（倍率方式）",
+    "url": "https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/02/04.htm"
+   },
+   {
+    "title": "国税庁 財産評価基本通達 25（貸宅地の評価）",
+    "url": "https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/02/05.htm"
+   },
+   {
+    "title": "国税庁 財産評価基本通達 27（借地権の評価）",
+    "url": "https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/02/06.htm"
    }
   ],
-  "evidence": [],
-  "reviewStatus": "draft",
+  "evidence": [
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4602.htm",
+    "quote": "路線価方式は、路線価が定められている地域の土地を評価する方法です。路線価とは、路線（道路）に面する標準的な宅地の1平方メートル当たりの価額のことで、路線価図には千円単位で表示しています。"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4602.htm",
+    "quote": "路線価方式における土地の価額は、路線価をその土地の形状等に応じた奥行価格補正率などの各種補正率で補正した後に、その土地の面積を乗じて計算します。"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4602.htm",
+    "quote": "倍率方式は、路線価が定められていない地域の土地を評価する方法です。倍率方式における土地の価額は、その土地の固定資産税評価額（都税事務所や、市（区）役所または町村役場で確認してください。）に一定の倍率を乗じて計算します。"
+   },
+   {
+    "url": "https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/02/04.htm",
+    "quote": "倍率方式とは、固定資産税評価額(地方税法第381条((固定資産課税台帳の登録事項))の規定により土地課税台帳若しくは土地補充課税台帳（同条第8項の規定により土地補充課税台帳とみなされるものを含む。）に登録された基準年度の価格又は比準価格をいう。以下この章において同じ。）に国税局長が一定の地域ごとにその地域の実情に即するように定める倍率を乗じて計算した金額によって評価する方式をいう。"
+   },
+   {
+    "url": "https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/02/06.htm",
+    "quote": "借地権の価額は、その借地権の目的となっている宅地の自用地としての価額に、当該価額に対する借地権の売買実例価額、精通者意見価格、地代の額等を基として評定した借地権の価額の割合（以下「借地権割合」という。）がおおむね同一と認められる地域ごとに国税局長の定める割合を乗じて計算した金額によって評価する。"
+   },
+   {
+    "url": "https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/02/05.htm",
+    "quote": "その宅地の価額（以下この節において「自用地としての価額」という。）から27((借地権の評価))の定めにより評価したその借地権の価額"
+   }
+  ],
+  "reviewStatus": "verified",
   "checkedAt": "2026-10-21",
   "aliases": [
    "路線価方式",
@@ -5964,12 +6561,41 @@
   ],
   "sources": [
    {
-    "title": "日本FP協会 試験範囲（試験要綱）",
-    "url": "https://www.jafp.or.jp/exam/outline/"
+    "title": "国税庁 No.4638 取引相場のない株式の評価",
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hyoka/4638.htm"
    }
   ],
-  "evidence": [],
-  "reviewStatus": "draft",
+  "evidence": [
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hyoka/4638.htm",
+    "quote": "取引相場のない株式（「上場株式」および「気配相場等のある株式」以外の株式をいいます。）は、相続や贈与などで株式を取得した株主が、その株式を発行した会社の経営支配力を持っている同族株主等か、それ以外の株主かの区分により、それぞれ原則的評価方式または特例的な評価方式である配当還元方式により評価します。"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hyoka/4638.htm",
+    "quote": "原則的評価方式は、評価する株式を発行した会社を総資産価額、従業員数および取引金額により大会社、中会社または小会社のいずれかに区分して、原則として次のような方法で評価をすることになっています。"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hyoka/4638.htm",
+    "quote": "大会社は、原則として、類似業種比準方式により評価します。"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hyoka/4638.htm",
+    "quote": "小会社は、原則として、純資産価額方式によって評価します。"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hyoka/4638.htm",
+    "quote": "中会社は、大会社と小会社の評価方法を併用して評価します。"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hyoka/4638.htm",
+    "quote": "同族株主以外の株主が取得した株式については、その株式の発行会社の規模にかかわらず原則的評価方式に代えて特例的な評価方式である配当還元方式で評価します。"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hyoka/4638.htm",
+    "quote": "配当還元方式とは、その株式を所有することによって受け取る一年間の配当金額を、一定の利率（10パーセント）で還元して元本である株式の価額を評価する方法です。"
+   }
+  ],
+  "reviewStatus": "verified",
   "checkedAt": "2026-10-21",
   "aliases": [
    "類似業種比準方式",
@@ -5993,12 +6619,49 @@
   ],
   "sources": [
    {
-    "title": "日本FP協会 試験範囲（試験要綱）",
-    "url": "https://www.jafp.or.jp/exam/outline/"
+    "title": "国税庁 事業承継税制特集",
+    "url": "https://www.nta.go.jp/publication/pamph/jigyo-shokei/index.htm"
+   },
+   {
+    "title": "国税庁 No.4148 非上場株式等についての相続税の納税猶予の特例等",
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4148.htm"
+   },
+   {
+    "title": "国税庁 No.4439 非上場株式等についての贈与税の納税猶予の特例等",
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/zoyo/4439.htm"
+   },
+   {
+    "title": "国税庁 確定申告書等作成コーナー 納税猶予制度のあらまし",
+    "url": "https://www.keisan.nta.go.jp/r5yokuaru/zoyozei/tokureigaiyo/hijojozoyoyuyo/tokureigaiyo.html"
    }
   ],
-  "evidence": [],
-  "reviewStatus": "draft",
+  "evidence": [
+   {
+    "url": "https://www.nta.go.jp/publication/pamph/jigyo-shokei/index.htm",
+    "quote": "事業承継税制は、中小企業における経営の承継の円滑化に関する法律（円滑化法）に基づく認定のもと、会社や個人事業の後継者が取得した一定の資産について、贈与税や相続税の納税を猶予する制度です。"
+   },
+   {
+    "url": "https://www.nta.go.jp/publication/pamph/jigyo-shokei/index.htm",
+    "quote": "法人版事業承継税制は、中小企業の後継者が、円滑化法の認定を受けたその非上場会社の株式等を贈与・相続等により取得した場合において、その非上場株式等に係る贈与税・相続税について、一定の要件のもと、その納税を猶予し、後継者の死亡等により、納税が猶予されている税額の納付が免除される制度です。"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4148.htm",
+    "quote": "法人版事業承継税制は、後継者である相続人等が、中小企業における経営の承継の円滑化に関する法律の認定を受けている非上場会社の株式等を相続または遺贈により取得した場合において、その非上場株式等に係る相続税について、一定の要件のもと、その納税を猶予し、後継者の死亡等により、納税が猶予されている相続税の納付が免除される制度です。"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/zoyo/4439.htm",
+    "quote": "法人版事業承継税制は、後継者である受贈者が、中小企業における経営の承継の円滑化に関する法律の認定を受けている非上場会社の株式等を贈与により取得した場合において、その非上場株式等に係る贈与税について、一定の要件のもと、その納税を猶予し、後継者の死亡等により、納税が猶予されている贈与税の納付が免除される制度です。"
+   },
+   {
+    "url": "https://www.keisan.nta.go.jp/r5yokuaru/zoyozei/tokureigaiyo/hijojozoyoyuyo/tokureigaiyo.html",
+    "quote": "円滑化法の認定（注１）を都道府県知事から受ける非上場会社の後継者である受贈者"
+   },
+   {
+    "url": "https://www.keisan.nta.go.jp/r5yokuaru/zoyozei/tokureigaiyo/hijojozoyoyuyo/tokureigaiyo.html",
+    "quote": "免除されるまでに、対象受贈非上場株式等を譲渡するなど一定の場合には、株式等納税猶予税額の全部又は一部について納税の猶予が打ち切られ、その税額と利子税を納付しなければなりません。"
+   }
+  ],
+  "reviewStatus": "verified",
   "checkedAt": "2026-10-21",
   "aliases": [
    "納税猶予",
@@ -6011,8 +6674,8 @@
   "reading": "かぞくしんたく",
   "field": "F",
   "importance": 2,
-  "short": "財産を持つ人（委託者）が、信頼できる家族（受託者）に財産の管理・処分を託し、その利益を受益者が受ける仕組み。",
-  "detail": "認知症などで判断能力が低下した後も、財産管理を継続できる。委託者の死亡後の承継先も指定できる（遺言に代わる機能）。委託者と受益者が同じ自益信託では課税関係が生じないが、受益者が委託者以外の他益信託では、受益権を取得した受益者に贈与税が課される。",
+  "short": "財産を持つ人（委託者）が、信頼できる家族など（受託者）に財産の管理・処分を託し、その利益を受益者が受ける仕組み。",
+  "detail": "委託者の死亡後の承継先も指定できる（遺言に代わる機能）。受益者が委託者以外の他益信託では、受益権を取得した受益者に贈与税が課される。",
   "related": [
    "igon"
   ],
@@ -6021,12 +6684,49 @@
   ],
   "sources": [
    {
-    "title": "日本FP協会 試験範囲（試験要綱）",
-    "url": "https://www.jafp.or.jp/exam/outline/"
+    "title": "e-Gov法令検索 信託法",
+    "url": "https://laws.e-gov.go.jp/law/418AC0000000108"
+   },
+   {
+    "title": "e-Gov法令検索 相続税法",
+    "url": "https://laws.e-gov.go.jp/law/325AC0000000073"
+   },
+   {
+    "title": "国税庁 No.4427 新たに信託の設定等を行った場合",
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/zoyo/4427.htm"
    }
   ],
-  "evidence": [],
-  "reviewStatus": "draft",
+  "evidence": [
+   {
+    "url": "https://laws.e-gov.go.jp/law/418AC0000000108",
+    "quote": "特定の者との間で、当該特定の者に対し財産の譲渡、担保権の設定その他の財産の処分をする旨並びに当該特定の者が一定の目的に従い財産の管理又は処分及びその他の当該目的の達成のために必要な行為をすべき旨の契約（以下「信託契約」という。）を締結する方法"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/418AC0000000108",
+    "quote": "この法律において「委託者」とは、次条各号に掲げる方法により信託をする者をいう。"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/418AC0000000108",
+    "quote": "この法律において「受託者」とは、信託行為の定めに従い、信託財産に属する財産の管理又は処分及びその他の信託の目的の達成のために必要な行為をすべき義務を負う者をいう。"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/418AC0000000108",
+    "quote": "この法律において「受益者」とは、受益権を有する者をいう。"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/418AC0000000108",
+    "quote": "受益者の死亡により、当該受益者の有する受益権が消滅し、他の者が新たな受益権を取得する旨の定め（受益者の死亡により順次他の者が受益権を取得する旨の定めを含む。）のある信託は、当該信託がされた時から三十年を経過した時以後に現に存する受益者が当該定めにより受益権を取得した場合であって当該受益者が死亡するまで又は当該受益権が消滅するまでの間、その効力を有する。"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/325AC0000000073",
+    "quote": "適正な対価を負担せずに当該信託の受益者等（受益者としての権利を現に有する者及び特定委託者をいう。以下この節において同じ。）となる者があるときは、当該信託の効力が生じた時において、当該信託の受益者等となる者は、当該信託に関する権利を当該信託の委託者から贈与（当該委託者の死亡に基因して当該信託の効力が生じた場合には、遺贈）により取得したものとみなす。"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/zoyo/4427.htm",
+    "quote": "新たに信託の設定を行った場合などで、適正な対価を負担することなく受益権等を取得したときは、贈与税が課税されます。"
+   }
+  ],
+  "reviewStatus": "verified",
   "checkedAt": "2026-10-21",
   "aliases": [
    "民事信託",
