@@ -44,6 +44,7 @@ const AboutPage = lazy(() => import('./pages/Menu').then((m) => ({ default: m.Ab
 const NotFoundPage = lazy(() => import('./pages/Menu').then((m) => ({ default: m.NotFoundPage })));
 
 const MistakesPage = lazy(() => import('./pages/Mistakes').then((m) => ({ default: m.MistakesPage })));
+const GuidePage = lazy(() => import('./pages/Guide').then((m) => ({ default: m.GuidePage })));
 
 export function App() {
   return (
@@ -79,6 +80,7 @@ export function App() {
             <Route path="law" element={<LawPage />} />
             <Route path="menu" element={<MenuPage />} />
             <Route path="about" element={<AboutPage />} />
+            <Route path="guide" element={<GuidePage />} />
             <Route path="*" element={<NotFoundPage />} />
           </Route>
         </Routes>
