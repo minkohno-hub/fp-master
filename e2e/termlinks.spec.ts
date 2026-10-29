@@ -17,6 +17,32 @@ test('選択肢の用語チップから定義を開き、解答状態を保っ�
   await expect(page.getByRole('button', { name: /^1\s/ })).toHaveAttribute('aria-pressed', 'false');
 });
 
+test('用語ポップアップはフォーカスを内部に閉じ、閉じると元のチップへ戻る', async ({ page }) => {
+  await page.goto(`./#/q/${QID}`);
+  const group = page.getByRole('group', { name: 'この選択肢の用語' }).first();
+  const chip = group.getByRole('button', { name: '可処分所得' });
+  await chip.focus();
+  await page.keyboard.press('Enter');
+  const dialog = page.getByRole('dialog', { name: '可処分所得' });
+  await expect(dialog).toBeVisible();
+  // 開いた直後のフォーカスはダイアログ内（閉じるボタン）にある
+  await expect(dialog.getByRole('button', { name: '閉じる' })).toBeFocused();
+  // Tabを繰り返してもフォーカスはダイアログの外へ出ない
+  for (let i = 0; i < 6; i++) {
+    await page.keyboard.press('Tab');
+    const inside = await dialog.evaluate((el) => el.contains(document.activeElement));
+    expect(inside).toBe(true);
+  }
+  // Shift+Tabでも外へ出ない
+  await page.keyboard.press('Shift+Tab');
+  const insideAfterBack = await dialog.evaluate((el) => el.contains(document.activeElement));
+  expect(insideAfterBack).toBe(true);
+  // Escで閉じると、開いたチップへフォーカスが戻る
+  await page.keyboard.press('Escape');
+  await expect(dialog).toHaveCount(0);
+  await expect(chip).toBeFocused();
+});
+
 test('解説の本文（標準・詳細）の用語からも定義を開ける', async ({ page }) => {
   await page.goto(`./#/q/${QID}`);
   await page.locator('fieldset button[aria-pressed]').first().click();
