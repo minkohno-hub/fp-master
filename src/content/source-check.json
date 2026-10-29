@@ -1,2044 +1,2204 @@
 {
- "checkedAt": "2026-10-28",
+ "checkedAt": "2026-10-29",
  "pages": {
   "https://www.nenkin.go.jp/service/jukyu/seido/roureinenkin/kuriage-kurisage/20140421-01.html": {
    "fetched": true,
-   "checkedAt": "2026-10-28",
+   "checkedAt": "2026-10-29",
    "missing": []
   },
   "https://www.nenkin.go.jp/service/jukyu/seido/roureinenkin/kuriage-kurisage/20140421-02.html": {
    "fetched": true,
-   "checkedAt": "2026-10-28",
+   "checkedAt": "2026-10-29",
    "missing": []
   },
   "https://www.nenkin.go.jp/service/jukyu/seido/roureinenkin/jukyu-yoken/20150401-02.html": {
    "fetched": true,
-   "checkedAt": "2026-10-28",
+   "checkedAt": "2026-10-29",
    "missing": []
   },
   "https://laws.e-gov.go.jp/law/334AC0000000141": {
    "fetched": true,
-   "checkedAt": "2026-10-28",
+   "checkedAt": "2026-10-29",
    "missing": []
   },
   "https://laws.e-gov.go.jp/law/211AC0000000070": {
    "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://laws.e-gov.go.jp/law/413AC0000000088": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://laws.e-gov.go.jp/law/341AC0000000073": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.sonpo.or.jp/insurance/jishin/": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://laws.e-gov.go.jp/law/330AC0000000097": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://laws.e-gov.go.jp/law/407AC0000000105": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://laws.e-gov.go.jp/law/346AC0000000034": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.fsa.go.jp/policy/nisa2/about/index.html": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2260.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1490.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2250.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1420.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1120.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1199.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1410.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1191.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1180.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1140.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1145.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1135.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2090.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://laws.e-gov.go.jp/law/325AC0000000201": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://laws.e-gov.go.jp/law/403AC0000000090": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://laws.e-gov.go.jp/law/416AC0000000123": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3258.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3302.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://laws.e-gov.go.jp/law/332AC0000000026": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://laws.e-gov.go.jp/law/129AC0000000089": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4132.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4152.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4114.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4158.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4157.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4124.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/zoyo/4408.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4103.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/zoyo/4452.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/02/05.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/08/01.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nenkin.go.jp/service/jukyu/seido/roureinenkin/jukyu-yoken/20140421-01.html": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nenkin.go.jp/service/jukyu/seido/roureinenkin/kakyu-hurikae/20150401.html": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nenkin.go.jp/service/jukyu/seido/shougainenkin/jukyu-yoken/20150401-01.html": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nenkin.go.jp/service/jukyu/seido/shougainenkin/jukyu-yoken/20150514.html": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nenkin.go.jp/service/jukyu/seido/shougainenkin/jukyu-yoken/20150401-02.html": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nenkin.go.jp/service/jukyu/seido/izokunenkin/jukyu-yoken/20150401-04.html": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nenkin.go.jp/service/jukyu/seido/sonota-kyufu/1go-dokuji/20140422-01.html": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nenkin.go.jp/service/jukyu/seido/izokunenkin/jukyu-yoken/20150424.html": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nenkin.go.jp/service/yougo/tagyo/chukoreikafu.html": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nenkin.go.jp/service/jukyu/seido/sonota-kyufu/1go-dokuji/20140422-02.html": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1600.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1130.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1150.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1155.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1110.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1900.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2020.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6303.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6505.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://laws.e-gov.go.jp/law/343AC0000000100": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://laws.e-gov.go.jp/law/344CO0000000158": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://laws.e-gov.go.jp/law/337AC0000000069": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://laws.e-gov.go.jp/law/327AC1000000176": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://laws.e-gov.go.jp/law/332M50004000012": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4205.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/zoyo/4402.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4211.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4214.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4117.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4161.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://laws.e-gov.go.jp/law/341CO0000000164": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://laws.e-gov.go.jp/law/330CO0000000286": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.sonpo.or.jp/insurance/jibai/index.html": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://laws.e-gov.go.jp/law/346CO0000000111": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://laws.e-gov.go.jp/law/323AC0000000025": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nenkin.go.jp/service/kokunen/menjo/20150514.html": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://laws.e-gov.go.jp/law/412AC0000000061": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://laws.e-gov.go.jp/law/340AC0000000033": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://laws.e-gov.go.jp/law/327AC0000000229": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://laws.e-gov.go.jp/law/325AC0000000226": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://laws.e-gov.go.jp/law/420AC0000000056": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/08/08.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/02/06.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://laws.e-gov.go.jp/law/326AC1000000237": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://laws.e-gov.go.jp/law/349AC0000000116": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.sonpo.or.jp/insurance/car/index.html": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://laws.e-gov.go.jp/law/419AC0000000022": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://laws.e-gov.go.jp/law/340CO0000000096": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
+   "checkedAt": "2026-10-29",
    "missing": []
   },
   "https://www.kyoukaikenpo.or.jp/benefit/voluntary_continuation/": {
    "fetched": true,
-   "checkedAt": "2026-10-28",
+   "checkedAt": "2026-10-29",
    "missing": []
   },
-  "https://laws.e-gov.go.jp/law/329AC0000000115": {
+  "https://laws.e-gov.go.jp/law/413AC0000000088": {
    "fetched": true,
-   "checkedAt": "2026-10-28",
+   "checkedAt": "2026-10-29",
    "missing": []
   },
-  "https://www.jpx.co.jp/equities/trading/domestic/02.html": {
+  "https://laws.e-gov.go.jp/law/341AC0000000073": {
    "fetched": true,
-   "checkedAt": "2026-10-28",
+   "checkedAt": "2026-10-29",
    "missing": []
   },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4129.htm": {
+  "https://www.sonpo.or.jp/insurance/jishin/": {
    "fetched": true,
-   "checkedAt": "2026-10-28",
+   "checkedAt": "2026-10-29",
    "missing": []
   },
-  "https://www.kyoukaikenpo.or.jp/benefit/injury_and_sickness_allowance/": {
+  "https://laws.e-gov.go.jp/law/330AC0000000097": {
    "fetched": true,
-   "checkedAt": "2026-10-28",
+   "checkedAt": "2026-10-29",
    "missing": []
   },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1750.htm": {
+  "https://laws.e-gov.go.jp/law/407AC0000000105": {
    "fetched": true,
-   "checkedAt": "2026-10-28",
+   "checkedAt": "2026-10-29",
    "missing": []
   },
-  "https://laws.e-gov.go.jp/law/340AC0000000034": {
+  "https://laws.e-gov.go.jp/law/346AC0000000034": {
    "fetched": true,
-   "checkedAt": "2026-10-28",
+   "checkedAt": "2026-10-29",
    "missing": []
   },
-  "https://laws.e-gov.go.jp/law/343AC1000000089": {
+  "https://www.fsa.go.jp/policy/nisa2/about/index.html": {
    "fetched": true,
-   "checkedAt": "2026-10-28",
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2260.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1490.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2250.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1420.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1120.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1199.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1410.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1191.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1180.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1140.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1145.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1135.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2090.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://laws.e-gov.go.jp/law/325AC0000000201": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://laws.e-gov.go.jp/law/403AC0000000090": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://laws.e-gov.go.jp/law/416AC0000000123": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3258.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3302.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://laws.e-gov.go.jp/law/332AC0000000026": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://laws.e-gov.go.jp/law/129AC0000000089": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4132.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4152.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4114.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4158.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4157.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4124.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/zoyo/4408.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4103.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/zoyo/4452.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/02/05.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/08/01.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nenkin.go.jp/service/jukyu/seido/roureinenkin/jukyu-yoken/20140421-01.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nenkin.go.jp/service/jukyu/seido/roureinenkin/kakyu-hurikae/20150401.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nenkin.go.jp/service/jukyu/seido/shougainenkin/jukyu-yoken/20150401-01.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nenkin.go.jp/service/jukyu/seido/shougainenkin/jukyu-yoken/20150514.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nenkin.go.jp/service/jukyu/seido/shougainenkin/jukyu-yoken/20150401-02.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nenkin.go.jp/service/jukyu/seido/izokunenkin/jukyu-yoken/20150401-04.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nenkin.go.jp/service/jukyu/seido/sonota-kyufu/1go-dokuji/20140422-01.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nenkin.go.jp/service/jukyu/seido/izokunenkin/jukyu-yoken/20150424.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nenkin.go.jp/service/yougo/tagyo/chukoreikafu.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nenkin.go.jp/service/jukyu/seido/sonota-kyufu/1go-dokuji/20140422-02.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nenkin.go.jp/service/kokunen/menjo/20150428.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nenkin.go.jp/service/kokunen/menjo/20140710.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nenkin.go.jp/service/kokunen/menjo/20150514.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
    "missing": []
   },
   "https://www.nenkin.go.jp/service/kokunen/menjo/20150331.html": {
    "fetched": true,
-   "checkedAt": "2026-10-28",
+   "checkedAt": "2026-10-29",
    "missing": []
   },
-  "https://laws.e-gov.go.jp/law/412AC0000000101": {
+  "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000059350.html": {
    "fetched": true,
-   "checkedAt": "2026-10-28",
+   "checkedAt": "2026-10-29",
    "missing": []
   },
-  "https://laws.e-gov.go.jp/law/363AC0000000108": {
+  "https://www.nenkin.go.jp/service/yougo/kagyo/kokunen-kikin.html": {
    "fetched": true,
-   "checkedAt": "2026-10-28",
+   "checkedAt": "2026-10-29",
    "missing": []
   },
-  "https://laws.e-gov.go.jp/law/325AC0000000073": {
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1130.htm": {
    "fetched": true,
-   "checkedAt": "2026-10-28",
+   "checkedAt": "2026-10-29",
    "missing": []
   },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1755.htm": {
+  "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/nenkin/nenkin/kyoshutsu/gaiyou.html": {
    "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.jasso.go.jp/shogakukin/about/taiyo/index.html": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.kyoukaikenpo.or.jp/benefit/high_cost_medical_expenses/002/": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.hellowork.mhlw.go.jp/insurance/insurance_basicbenefit.html": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.kyoukaikenpo.or.jp/benefit/childbirth/001/": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://laws.e-gov.go.jp/law/324AC1000000205": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://laws.e-gov.go.jp/law/325AC1000000197": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://laws.e-gov.go.jp/law/326AC1000000004": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://laws.e-gov.go.jp/law/415AC0000000057": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://laws.e-gov.go.jp/law/345AC0000000048": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://laws.e-gov.go.jp/law/333AC0000000192": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://laws.e-gov.go.jp/law/357AC0000000080": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
+   "checkedAt": "2026-10-29",
    "missing": []
   },
   "https://laws.e-gov.go.jp/law/409AC0000000123": {
    "fetched": true,
-   "checkedAt": "2026-10-28",
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.kaigokensaku.mhlw.go.jp/commentary/about.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.kaigokensaku.mhlw.go.jp/commentary/flow.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.kaigokensaku.mhlw.go.jp/commentary/fee.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.hellowork.mhlw.go.jp/insurance/insurance_basicbenefit.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://jsite.mhlw.go.jp/osaka-roudoukyoku/hourei_seido_tetsuzuki/roudou_hoken/hourei_seido/keisan.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/roudoukijun/rousai/index.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
    "missing": []
   },
   "https://laws.e-gov.go.jp/law/322AC0000000050": {
    "fetched": true,
-   "checkedAt": "2026-10-28",
+   "checkedAt": "2026-10-29",
    "missing": []
   },
-  "https://laws.e-gov.go.jp/law/403AC0000000076": {
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1000.htm": {
    "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://laws.e-gov.go.jp/law/334CO0000000184": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nenkin.go.jp/service/jukyu/seido/roureinenkin/zaishoku/20150401-01.html": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nenkin.go.jp/service/jukyu/seido/kyotsu/shikyu/20140421-02.html": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://laws.e-gov.go.jp/law/424AC0000000102": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://laws.e-gov.go.jp/law/413AC0000000050": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://laws.e-gov.go.jp/law/334AC0000000160": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://laws.e-gov.go.jp/law/340AC0000000102": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://laws.e-gov.go.jp/law/346AC0000000092": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1610.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1141.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.flat35.com/": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.flat35.com/loan/flat35/index.html": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://laws.e-gov.go.jp/law/417AC0000000082": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.flat35.com/loan/lineup/kinto/index.html": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.zenginkyo.or.jp/article/life/myhome/4376/": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.shiruporuto.jp/public/document/container/hyakka/part2/jutaku_loan/jutaku_loan007.html": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.flat35.com/user/kuriage_hensai.html": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://laws.e-gov.go.jp/law/415AC0000000094": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://laws.e-gov.go.jp/law/346AC0000000068": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://laws.e-gov.go.jp/law/329AC0000000100": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://laws.e-gov.go.jp/law/336AC0000000159": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://laws.e-gov.go.jp/law/328AC0000000196": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.jfc.go.jp/n/zaimushindan/shihyo.html": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://laws.e-gov.go.jp/law/419AC0000000102": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://kyoujinnka.smrj.go.jp/knowhow/riskfinance2/": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.seiho.or.jp/data/billboard/introduction/content03/": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.seiho.or.jp/data/billboard/introduction/content07/": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.seiho.or.jp/data/billboard/introduction/content06/": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.seiho.or.jp/data/billboard/market/": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.seiho.or.jp/data/billboard/groupinsurance/": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.seiho.or.jp/data/billboard/market/content01/": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.sonpo.or.jp/insurance/jishin/index.html": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.sonpo.or.jp/insurance/kasai/index.html": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.sonpo.or.jp/insurance/shogai/index.html": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.sonpo.or.jp/insurance/compensation/index.html": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.mhlw.go.jp/topics/bukyoku/isei/sensiniryo/": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.jili.or.jp/lifeplan/lifesecurity/1204.html": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.jili.or.jp/lifeplan/lifesecurity/8455.html": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.jili.or.jp/knows_learns/q_a/life_insurance/155.html": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.jili.or.jp/knows_learns/q_a/life_insurance/154.html": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.jili.or.jp/knows_learns/kind/main/34.html": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.jili.or.jp/knows_learns/kind/main/8798.html": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.jili.or.jp/knows_learns/kind/main/14.html": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.jili.or.jp/lifeplan/lifesecurity/1107.html": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.sonpo.or.jp/insurance/medical/index.html": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/law/shitsugi/shotoku/05/28.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1120_qa.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/law/shitsugi/shotoku/05/61.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.jili.or.jp/lifeplan/lifesecurity/8445.html": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1122.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.jili.or.jp/knows_learns/q_a/life_insurance/146.html": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.jili.or.jp/knows_learns/q_a/life_insurance/145.html": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.jili.or.jp/knows_learns/q_a/life_insurance/147.html": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.jili.or.jp/lifeplan/lifesecurity/8755.html": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.jili.or.jp/knows_learns/q_a/life_insurance/127.html": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.jili.or.jp/lifeplan/lifesecurity/1218.html": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.jili.or.jp/knows_learns/q_a/life_insurance/156.html": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.jili.or.jp/knows_learns/q_a/life_insurance/160.html": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.jili.or.jp/knows_learns/kind/others/9193.html": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1620.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/zoyo/4417.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1700.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/law/tsutatsu/kihon/hojin/09/09_03.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/02/04.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.esri.cao.go.jp/jp/stat/di/di3.html": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.boj.or.jp/statistics/outline/exp/pi/cgpi_2020/outline.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.boj.or.jp/about/education/oshiete/statistics/h14.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.stat.go.jp/data/cpi/index.html": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.boj.or.jp/statistics/outline/exp/tk/faqtk.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.boj.or.jp/statistics/outline/exp/faqms.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.boj.or.jp/about/education/oshiete/seisaku/b34.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.boj.or.jp/about/education/oshiete/seisaku/b33.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://laws.e-gov.go.jp/law/332AC0000000135": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.boj.or.jp/about/education/oshiete/seisaku/b38.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.boj.or.jp/about/education/oshiete/seisaku/b32.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.boj.or.jp/about/education/oshiete/intl/g19.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.boj.or.jp/about/education/oshiete/intl/g18.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://laws.e-gov.go.jp/law/322AC0000000034": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1310.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1313.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1520.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1316.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1319.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.mof.go.jp/jgbs/individual/kojinmuke/index.html": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://laws.e-gov.go.jp/law/326AC0100000198": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.imaj.or.jp/study/investmenttrust/about/what.html": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.imaj.or.jp/study/investmenttrust/type/group.html": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.imaj.or.jp/study/investmenttrust/type/category.html": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.jpx.co.jp/equities/products/etfs/etf-outline/01.html": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.imaj.or.jp/study/investmenttrust/about/navdividends.html": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.imaj.or.jp/study/investmenttrust/type/etf-scheme.html": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.jpx.co.jp/equities/products/etfs/etf-outline/02.html": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.imaj.or.jp/study/reit/about/basic.html": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.imaj.or.jp/study/reit/about/scheme.html": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.imaj.or.jp/study/reit/meritrisk/risk.html": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.imaj.or.jp/special/toushin-qa100/dividend_redemption": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.imaj.or.jp/study/investmenttrust/costtax/cost.html": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.mof.go.jp/faq/jgbs/04ec.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.mof.go.jp/faq/jgbs/04ea.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.imaj.or.jp/study/investmenttrust/meritrisk/risk.html": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.mof.go.jp/jgbs/individual/kojinmuke/shinmadohan/index.html": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.mof.go.jp/jgbs/individual/kojinmuke/shinmadohan/qa/": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.mof.go.jp/faq/jgbs/04bf.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://laws.e-gov.go.jp/law/417AC0000000086": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1330.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1510.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.jpx.co.jp/equities/trading/domestic/01.html": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.jpx.co.jp/equities/trading/domestic/03.html": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.jpx.co.jp/equities/trading/domestic/04.html": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.jpx.co.jp/glossary/sa/174.html": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.jpx.co.jp/glossary/a/17.html": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.jpx.co.jp/glossary/sa/176.html": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.jpx.co.jp/glossary/ha/351.html": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.jpx.co.jp/glossary/ka/134.html": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.jpx.co.jp/equities/trading/margin/outline/index.html": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.jpx.co.jp/equities/trading/margin/outline/01.html": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.jpx.co.jp/equities/trading/margin/rights/02.html": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.jpx.co.jp/equities/trading/margin/rights/01.html": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.jpx.co.jp/equities/products/stocks/outline/index.html": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.jpx.co.jp/markets/indices/topix/index.html": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.jpx.co.jp/glossary/na/337.html": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.jpx.co.jp/glossary/ka/74.html": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.jpx.co.jp/glossary/sa/549.html": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.jpx.co.jp/glossary/ha/353.html": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.jpx.co.jp/glossary/ka/73.html": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hyoka/4665.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/law/shitsugi/hyoka/15/05.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.dic.go.jp/yokinsha/page_000016.html": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.dic.go.jp/yokinsha/page_000015.html": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.jpx.co.jp/glossary/ka/142.html": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.jpx.co.jp/glossary/a/47.html": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.jpx.co.jp/glossary/sa/170.html": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.jpx.co.jp/glossary/ha/405.html": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.jpx.co.jp/glossary/sa/181.html": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.jpx.co.jp/glossary/ha/422.html": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.jpx.co.jp/glossary/a/26.html": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.jpx.co.jp/glossary/a/3.html": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.jpx.co.jp/glossary/a/6.html": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.jpx.co.jp/glossary/ha/413.html": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.jpx.co.jp/glossary/ha/411.html": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.jpx.co.jp/glossary/ha/407.html": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.jpx.co.jp/glossary/ka/70.html": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.jpx.co.jp/glossary/sa/522.html": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.jpx.co.jp/glossary/sa/168.html": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.jpx.co.jp/glossary/sa/209.html": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1331.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1463.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1465.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1474.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1476.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.imaj.or.jp/glossary/detail/197.html": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.fsa.go.jp/policy/nisa2/about/nisa/index.html": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.imaj.or.jp/study/investmenttrust/costtax/tax.html": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.imaj.or.jp/glossary/detail/119.html": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.imaj.or.jp/study/investmenttrust/meritrisk/reduction.html": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.imaj.or.jp/study/investmenttrust/meritrisk/riskreturn.html": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.imaj.or.jp/glossary/detail/225.html": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.imaj.or.jp/glossary/detail/2.html": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://laws.e-gov.go.jp/law/348AC0000000053": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://laws.e-gov.go.jp/law/348CO0000000201": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://laws.e-gov.go.jp/law/358AC1000000032": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://laws.e-gov.go.jp/law/351AC0000000057": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://laws.e-gov.go.jp/law/337AC0000000066": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/01/01.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/03/01.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/05/01.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2200.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1350.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/04/01.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/04/02.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1376.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1460.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
+   "checkedAt": "2026-10-29",
    "missing": []
   },
   "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1300.htm": {
    "fetched": true,
-   "checkedAt": "2026-10-28",
+   "checkedAt": "2026-10-29",
    "missing": []
   },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1500.htm": {
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2220.htm": {
    "fetched": true,
-   "checkedAt": "2026-10-28",
+   "checkedAt": "2026-10-29",
    "missing": []
   },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3390.htm": {
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2240.htm": {
    "fetched": true,
-   "checkedAt": "2026-10-28",
+   "checkedAt": "2026-10-29",
    "missing": []
   },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1200.htm": {
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2230.htm": {
    "fetched": true,
-   "checkedAt": "2026-10-28",
+   "checkedAt": "2026-10-29",
    "missing": []
   },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1160.htm": {
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1600.htm": {
    "fetched": true,
-   "checkedAt": "2026-10-28",
+   "checkedAt": "2026-10-29",
    "missing": []
   },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1170.htm": {
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1150.htm": {
    "fetched": true,
-   "checkedAt": "2026-10-28",
+   "checkedAt": "2026-10-29",
    "missing": []
   },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1250.htm": {
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1155.htm": {
    "fetched": true,
-   "checkedAt": "2026-10-28",
+   "checkedAt": "2026-10-29",
    "missing": []
   },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1240.htm": {
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1110.htm": {
    "fetched": true,
-   "checkedAt": "2026-10-28",
+   "checkedAt": "2026-10-29",
    "missing": []
   },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1260.htm": {
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1900.htm": {
    "fetched": true,
-   "checkedAt": "2026-10-28",
+   "checkedAt": "2026-10-29",
    "missing": []
   },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2022.htm": {
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2020.htm": {
    "fetched": true,
-   "checkedAt": "2026-10-28",
+   "checkedAt": "2026-10-29",
    "missing": []
   },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2030.htm": {
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1210.htm": {
    "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2070.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2072.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2075.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2040.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2024.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2026.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2665.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5759.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5300.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5211.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5208.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5281.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5283.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5265.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5762.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://laws.e-gov.go.jp/law/340CO0000000097": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5202.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6105.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6157.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6201.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6209.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6501.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6401.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6625.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6498.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6601.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6609.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2878.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.mof.go.jp/tax_policy/summary/international/h02.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/index.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://laws.e-gov.go.jp/law/417M60000010018": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/information/release/kokuzeicho/2025/rosenka/index.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://laws.e-gov.go.jp/law/344AC0000000049": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.mlit.go.jp/tochimizushigen/tocchi/kekka.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://laws.e-gov.go.jp/law/349AC1000000092": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://laws.e-gov.go.jp/law/329AC0000000119": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://laws.e-gov.go.jp/law/349AC0000000068": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4147.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://laws.e-gov.go.jp/law/342AC0000000035": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://laws.e-gov.go.jp/law/342AC0000000023": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/inshi/7140.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://laws.e-gov.go.jp/law/363CO0000000360": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://laws.e-gov.go.jp/law/325CO0000000245": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
+   "checkedAt": "2026-10-29",
    "missing": []
   },
   "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1211-1.htm": {
    "fetched": true,
-   "checkedAt": "2026-10-28",
+   "checkedAt": "2026-10-29",
    "missing": []
   },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3305.htm": {
+  "https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/090929.html": {
    "fetched": true,
-   "checkedAt": "2026-10-28",
+   "checkedAt": "2026-10-29",
    "missing": []
   },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3252.htm": {
+  "https://www.nta.go.jp/publication/pamph/koho/kurashi/html/05_1.htm": {
    "fetched": true,
-   "checkedAt": "2026-10-28",
+   "checkedAt": "2026-10-29",
    "missing": []
   },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3255.htm": {
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6303.htm": {
    "fetched": true,
-   "checkedAt": "2026-10-28",
+   "checkedAt": "2026-10-29",
    "missing": []
   },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3211.htm": {
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6505.htm": {
    "fetched": true,
-   "checkedAt": "2026-10-28",
+   "checkedAt": "2026-10-29",
    "missing": []
   },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3208.htm": {
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6498.htm": {
    "fetched": true,
-   "checkedAt": "2026-10-28",
+   "checkedAt": "2026-10-29",
    "missing": []
   },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3306.htm": {
+  "https://www.nta.go.jp/taxes/shiraberu/zeimokubetsu/shohi/keigenzeiritsu/invoice_about.htm": {
    "fetched": true,
-   "checkedAt": "2026-10-28",
+   "checkedAt": "2026-10-29",
    "missing": []
   },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3267.htm": {
+  "https://laws.e-gov.go.jp/law/340AC0000000034": {
    "fetched": true,
-   "checkedAt": "2026-10-28",
+   "checkedAt": "2026-10-29",
    "missing": []
   },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3355.htm": {
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5265.htm": {
    "fetched": true,
-   "checkedAt": "2026-10-28",
+   "checkedAt": "2026-10-29",
    "missing": []
   },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3552.htm": {
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5211.htm": {
    "fetched": true,
-   "checkedAt": "2026-10-28",
+   "checkedAt": "2026-10-29",
    "missing": []
   },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1370.htm": {
+  "https://laws.e-gov.go.jp/law/343AC0000000100": {
    "fetched": true,
-   "checkedAt": "2026-10-28",
+   "checkedAt": "2026-10-29",
    "missing": []
   },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1391.htm": {
+  "https://laws.e-gov.go.jp/law/344CO0000000158": {
    "fetched": true,
-   "checkedAt": "2026-10-28",
+   "checkedAt": "2026-10-29",
    "missing": []
   },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1373.htm": {
+  "https://laws.e-gov.go.jp/law/337AC0000000069": {
    "fetched": true,
-   "checkedAt": "2026-10-28",
+   "checkedAt": "2026-10-29",
    "missing": []
   },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1379.htm": {
+  "https://laws.e-gov.go.jp/law/327AC1000000176": {
    "fetched": true,
-   "checkedAt": "2026-10-28",
+   "checkedAt": "2026-10-29",
    "missing": []
   },
-  "https://www.ares.or.jp/learn/glossary/noi.html": {
+  "https://laws.e-gov.go.jp/law/332M50004000012": {
    "fetched": true,
-   "checkedAt": "2026-10-28",
+   "checkedAt": "2026-10-29",
    "missing": []
   },
-  "https://www.ares.or.jp/learn/glossary/dscr.html": {
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4205.htm": {
    "fetched": true,
-   "checkedAt": "2026-10-28",
+   "checkedAt": "2026-10-29",
    "missing": []
   },
-  "https://www.ares.or.jp/learn/glossary/ltv.html": {
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/zoyo/4402.htm": {
    "fetched": true,
-   "checkedAt": "2026-10-28",
+   "checkedAt": "2026-10-29",
    "missing": []
   },
-  "https://www.ares.or.jp/learn/glossary/npv.html": {
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4211.htm": {
    "fetched": true,
-   "checkedAt": "2026-10-28",
+   "checkedAt": "2026-10-29",
    "missing": []
   },
-  "https://www.ares.or.jp/learn/glossary/irr.html": {
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4214.htm": {
    "fetched": true,
-   "checkedAt": "2026-10-28",
+   "checkedAt": "2026-10-29",
    "missing": []
   },
-  "https://laws.e-gov.go.jp/law/410AC0000000105": {
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4117.htm": {
    "fetched": true,
-   "checkedAt": "2026-10-28",
+   "checkedAt": "2026-10-29",
    "missing": []
   },
-  "https://www.jpx.co.jp/reit-if/column/interview/051.html": {
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4161.htm": {
    "fetched": true,
-   "checkedAt": "2026-10-28",
+   "checkedAt": "2026-10-29",
    "missing": []
   },
-  "https://www.ares.or.jp/learn/glossary/jreit.html": {
+  "https://www.courts.go.jp/saiban/syurui/syurui_kazi/kazi_06_17/index.html": {
    "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/law/shitsugi/inshi/10/11.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://laws.e-gov.go.jp/law/502AC0000000060": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://laws.e-gov.go.jp/law/332CO0000000043": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/zoyo/4410.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/zoyo/4426.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/zoyo/4423.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/zoyo/4424.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/zoyo/4429.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/zoyo/4405.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/zoyo/4414.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/zoyo/4411.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/zoyo/4420.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://laws.e-gov.go.jp/law/423AC0000000052": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
+   "checkedAt": "2026-10-29",
    "missing": []
   },
   "https://laws.e-gov.go.jp/law/430AC0000000073": {
    "fetched": true,
-   "checkedAt": "2026-10-28",
+   "checkedAt": "2026-10-29",
    "missing": []
   },
-  "https://laws.e-gov.go.jp/law/411AC0000000150": {
+  "https://www.moj.go.jp/MINJI/11.html": {
    "fetched": true,
-   "checkedAt": "2026-10-28",
+   "checkedAt": "2026-10-29",
    "missing": []
   },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4126.htm": {
+  "https://www.moj.go.jp/MINJI/02.html": {
    "fetched": true,
-   "checkedAt": "2026-10-28",
+   "checkedAt": "2026-10-29",
    "missing": []
   },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4108.htm": {
+  "https://www.moj.go.jp/MINJI/01.html": {
    "fetched": true,
-   "checkedAt": "2026-10-28",
+   "checkedAt": "2026-10-29",
    "missing": []
   },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4120.htm": {
+  "https://www.moj.go.jp/MINJI/minji07_00028.html": {
    "fetched": true,
-   "checkedAt": "2026-10-28",
+   "checkedAt": "2026-10-29",
    "missing": []
   },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4170.htm": {
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hyoka/4666.htm": {
    "fetched": true,
-   "checkedAt": "2026-10-28",
+   "checkedAt": "2026-10-29",
    "missing": []
   },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4155.htm": {
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4602.htm": {
    "fetched": true,
-   "checkedAt": "2026-10-28",
+   "checkedAt": "2026-10-29",
    "missing": []
   },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4164.htm": {
+  "https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/02/04.htm": {
    "fetched": true,
-   "checkedAt": "2026-10-28",
+   "checkedAt": "2026-10-29",
    "missing": []
   },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4168.htm": {
+  "https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/02/06.htm": {
    "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hyoka/4632.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hyoka/4641.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hyoka/4644.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hyoka/4660.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hyoka/4603.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hyoka/4622.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hyoka/4620.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hyoka/4611.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hyoka/4613.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hyoka/4612.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hyoka/4614.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hyoka/4627.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hyoka/4629.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hyoka/4617.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4602_qa.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/08/02.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/08/03.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
-   "missing": []
-  },
-  "https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/08/04.htm": {
-   "fetched": true,
-   "checkedAt": "2026-10-28",
+   "checkedAt": "2026-10-29",
    "missing": []
   },
   "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hyoka/4638.htm": {
    "fetched": true,
-   "checkedAt": "2026-10-28",
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/publication/pamph/jigyo-shokei/index.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4148.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/zoyo/4439.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.keisan.nta.go.jp/r5yokuaru/zoyozei/tokureigaiyo/hijojozoyoyuyo/tokureigaiyo.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://laws.e-gov.go.jp/law/418AC0000000108": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://laws.e-gov.go.jp/law/325AC0000000073": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/zoyo/4427.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://laws.e-gov.go.jp/law/341CO0000000164": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://laws.e-gov.go.jp/law/330CO0000000286": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.sonpo.or.jp/insurance/jibai/index.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://laws.e-gov.go.jp/law/346CO0000000111": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://laws.e-gov.go.jp/law/323AC0000000025": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://laws.e-gov.go.jp/law/412AC0000000061": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://laws.e-gov.go.jp/law/340AC0000000033": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://laws.e-gov.go.jp/law/327AC0000000229": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://laws.e-gov.go.jp/law/325AC0000000226": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://laws.e-gov.go.jp/law/420AC0000000056": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/08/08.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://laws.e-gov.go.jp/law/326AC1000000237": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://laws.e-gov.go.jp/law/349AC0000000116": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.sonpo.or.jp/insurance/car/index.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://laws.e-gov.go.jp/law/419AC0000000022": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://laws.e-gov.go.jp/law/340CO0000000096": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://laws.e-gov.go.jp/law/329AC0000000115": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.jpx.co.jp/equities/trading/domestic/02.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4129.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.kyoukaikenpo.or.jp/benefit/injury_and_sickness_allowance/": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1750.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://laws.e-gov.go.jp/law/343AC1000000089": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://laws.e-gov.go.jp/law/412AC0000000101": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://laws.e-gov.go.jp/law/363AC0000000108": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1755.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.jasso.go.jp/shogakukin/about/taiyo/index.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.kyoukaikenpo.or.jp/benefit/high_cost_medical_expenses/002/": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.kyoukaikenpo.or.jp/benefit/childbirth/001/": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://laws.e-gov.go.jp/law/324AC1000000205": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://laws.e-gov.go.jp/law/325AC1000000197": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://laws.e-gov.go.jp/law/326AC1000000004": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://laws.e-gov.go.jp/law/415AC0000000057": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://laws.e-gov.go.jp/law/345AC0000000048": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://laws.e-gov.go.jp/law/333AC0000000192": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://laws.e-gov.go.jp/law/357AC0000000080": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://laws.e-gov.go.jp/law/403AC0000000076": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://laws.e-gov.go.jp/law/334CO0000000184": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nenkin.go.jp/service/jukyu/seido/roureinenkin/zaishoku/20150401-01.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nenkin.go.jp/service/jukyu/seido/kyotsu/shikyu/20140421-02.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://laws.e-gov.go.jp/law/424AC0000000102": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://laws.e-gov.go.jp/law/413AC0000000050": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://laws.e-gov.go.jp/law/334AC0000000160": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://laws.e-gov.go.jp/law/340AC0000000102": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://laws.e-gov.go.jp/law/346AC0000000092": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1610.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1141.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.flat35.com/": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.flat35.com/loan/flat35/index.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://laws.e-gov.go.jp/law/417AC0000000082": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.flat35.com/loan/lineup/kinto/index.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.zenginkyo.or.jp/article/life/myhome/4376/": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.shiruporuto.jp/public/document/container/hyakka/part2/jutaku_loan/jutaku_loan007.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.flat35.com/user/kuriage_hensai.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://laws.e-gov.go.jp/law/415AC0000000094": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://laws.e-gov.go.jp/law/346AC0000000068": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://laws.e-gov.go.jp/law/329AC0000000100": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://laws.e-gov.go.jp/law/336AC0000000159": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://laws.e-gov.go.jp/law/328AC0000000196": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.jfc.go.jp/n/zaimushindan/shihyo.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://laws.e-gov.go.jp/law/419AC0000000102": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://kyoujinnka.smrj.go.jp/knowhow/riskfinance2/": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.seiho.or.jp/data/billboard/introduction/content03/": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.seiho.or.jp/data/billboard/introduction/content07/": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.seiho.or.jp/data/billboard/introduction/content06/": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.seiho.or.jp/data/billboard/market/": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.seiho.or.jp/data/billboard/groupinsurance/": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.seiho.or.jp/data/billboard/market/content01/": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.sonpo.or.jp/insurance/jishin/index.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.sonpo.or.jp/insurance/kasai/index.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.sonpo.or.jp/insurance/shogai/index.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.sonpo.or.jp/insurance/compensation/index.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.mhlw.go.jp/topics/bukyoku/isei/sensiniryo/": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.jili.or.jp/lifeplan/lifesecurity/1204.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.jili.or.jp/lifeplan/lifesecurity/8455.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.jili.or.jp/knows_learns/q_a/life_insurance/155.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.jili.or.jp/knows_learns/q_a/life_insurance/154.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.jili.or.jp/knows_learns/kind/main/34.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.jili.or.jp/knows_learns/kind/main/8798.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.jili.or.jp/knows_learns/kind/main/14.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.jili.or.jp/lifeplan/lifesecurity/1107.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.sonpo.or.jp/insurance/medical/index.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/law/shitsugi/shotoku/05/28.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1120_qa.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/law/shitsugi/shotoku/05/61.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.jili.or.jp/lifeplan/lifesecurity/8445.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1122.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.jili.or.jp/knows_learns/q_a/life_insurance/146.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.jili.or.jp/knows_learns/q_a/life_insurance/145.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.jili.or.jp/knows_learns/q_a/life_insurance/147.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.jili.or.jp/lifeplan/lifesecurity/8755.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.jili.or.jp/knows_learns/q_a/life_insurance/127.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.jili.or.jp/lifeplan/lifesecurity/1218.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.jili.or.jp/knows_learns/q_a/life_insurance/156.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.jili.or.jp/knows_learns/q_a/life_insurance/160.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.jili.or.jp/knows_learns/kind/others/9193.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1620.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/zoyo/4417.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1700.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/law/tsutatsu/kihon/hojin/09/09_03.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/02/04.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.esri.cao.go.jp/jp/stat/di/di3.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.boj.or.jp/statistics/outline/exp/pi/cgpi_2020/outline.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.boj.or.jp/about/education/oshiete/statistics/h14.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.stat.go.jp/data/cpi/index.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.boj.or.jp/statistics/outline/exp/tk/faqtk.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.boj.or.jp/statistics/outline/exp/faqms.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.boj.or.jp/about/education/oshiete/seisaku/b34.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.boj.or.jp/about/education/oshiete/seisaku/b33.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://laws.e-gov.go.jp/law/332AC0000000135": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.boj.or.jp/about/education/oshiete/seisaku/b38.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.boj.or.jp/about/education/oshiete/seisaku/b32.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.boj.or.jp/about/education/oshiete/intl/g19.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.boj.or.jp/about/education/oshiete/intl/g18.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://laws.e-gov.go.jp/law/322AC0000000034": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1310.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1313.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1520.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1316.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1319.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.mof.go.jp/jgbs/individual/kojinmuke/index.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://laws.e-gov.go.jp/law/326AC0100000198": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.imaj.or.jp/study/investmenttrust/about/what.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.imaj.or.jp/study/investmenttrust/type/group.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.imaj.or.jp/study/investmenttrust/type/category.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.jpx.co.jp/equities/products/etfs/etf-outline/01.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.imaj.or.jp/study/investmenttrust/about/navdividends.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.imaj.or.jp/study/investmenttrust/type/etf-scheme.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.jpx.co.jp/equities/products/etfs/etf-outline/02.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.imaj.or.jp/study/reit/about/basic.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.imaj.or.jp/study/reit/about/scheme.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.imaj.or.jp/study/reit/meritrisk/risk.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.imaj.or.jp/special/toushin-qa100/dividend_redemption": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.imaj.or.jp/study/investmenttrust/costtax/cost.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.mof.go.jp/faq/jgbs/04ec.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.mof.go.jp/faq/jgbs/04ea.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.imaj.or.jp/study/investmenttrust/meritrisk/risk.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.mof.go.jp/jgbs/individual/kojinmuke/shinmadohan/index.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.mof.go.jp/jgbs/individual/kojinmuke/shinmadohan/qa/": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.mof.go.jp/faq/jgbs/04bf.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://laws.e-gov.go.jp/law/417AC0000000086": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1330.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1510.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.jpx.co.jp/equities/trading/domestic/01.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.jpx.co.jp/equities/trading/domestic/03.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.jpx.co.jp/equities/trading/domestic/04.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.jpx.co.jp/glossary/sa/174.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.jpx.co.jp/glossary/a/17.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.jpx.co.jp/glossary/sa/176.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.jpx.co.jp/glossary/ha/351.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.jpx.co.jp/glossary/ka/134.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.jpx.co.jp/equities/trading/margin/outline/index.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.jpx.co.jp/equities/trading/margin/outline/01.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.jpx.co.jp/equities/trading/margin/rights/02.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.jpx.co.jp/equities/trading/margin/rights/01.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.jpx.co.jp/equities/products/stocks/outline/index.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.jpx.co.jp/markets/indices/topix/index.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.jpx.co.jp/glossary/na/337.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.jpx.co.jp/glossary/ka/74.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.jpx.co.jp/glossary/sa/549.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.jpx.co.jp/glossary/ha/353.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.jpx.co.jp/glossary/ka/73.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hyoka/4665.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/law/shitsugi/hyoka/15/05.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.dic.go.jp/yokinsha/page_000016.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.dic.go.jp/yokinsha/page_000015.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.jpx.co.jp/glossary/ka/142.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.jpx.co.jp/glossary/a/47.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.jpx.co.jp/glossary/sa/170.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.jpx.co.jp/glossary/ha/405.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.jpx.co.jp/glossary/sa/181.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.jpx.co.jp/glossary/ha/422.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.jpx.co.jp/glossary/a/26.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.jpx.co.jp/glossary/a/3.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.jpx.co.jp/glossary/a/6.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.jpx.co.jp/glossary/ha/413.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.jpx.co.jp/glossary/ha/411.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.jpx.co.jp/glossary/ha/407.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.jpx.co.jp/glossary/ka/70.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.jpx.co.jp/glossary/sa/522.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.jpx.co.jp/glossary/sa/168.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.jpx.co.jp/glossary/sa/209.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1331.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1463.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1465.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1474.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1476.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.imaj.or.jp/glossary/detail/197.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.fsa.go.jp/policy/nisa2/about/nisa/index.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.imaj.or.jp/study/investmenttrust/costtax/tax.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.imaj.or.jp/glossary/detail/119.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.imaj.or.jp/study/investmenttrust/meritrisk/reduction.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.imaj.or.jp/study/investmenttrust/meritrisk/riskreturn.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.imaj.or.jp/glossary/detail/225.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.imaj.or.jp/glossary/detail/2.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://laws.e-gov.go.jp/law/348AC0000000053": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://laws.e-gov.go.jp/law/348CO0000000201": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://laws.e-gov.go.jp/law/358AC1000000032": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://laws.e-gov.go.jp/law/351AC0000000057": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://laws.e-gov.go.jp/law/337AC0000000066": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/01/01.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/03/01.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/05/01.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2200.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1350.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/04/01.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/04/02.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1376.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1460.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1500.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3390.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1200.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1160.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1170.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1250.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1240.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1260.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2022.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2030.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2070.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2072.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2075.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2040.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2024.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2026.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2665.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5759.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5300.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5208.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5281.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5283.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5762.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://laws.e-gov.go.jp/law/340CO0000000097": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5202.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6105.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6157.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6201.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6209.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6501.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6401.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6625.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6601.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6609.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2878.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.mof.go.jp/tax_policy/summary/international/h02.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/index.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://laws.e-gov.go.jp/law/417M60000010018": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/information/release/kokuzeicho/2025/rosenka/index.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://laws.e-gov.go.jp/law/344AC0000000049": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.mlit.go.jp/tochimizushigen/tocchi/kekka.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://laws.e-gov.go.jp/law/349AC1000000092": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://laws.e-gov.go.jp/law/329AC0000000119": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://laws.e-gov.go.jp/law/349AC0000000068": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4147.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://laws.e-gov.go.jp/law/342AC0000000035": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://laws.e-gov.go.jp/law/342AC0000000023": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/inshi/7140.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://laws.e-gov.go.jp/law/363CO0000000360": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://laws.e-gov.go.jp/law/325CO0000000245": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3305.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3252.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3255.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3211.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3208.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3306.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3267.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3355.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3552.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1370.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1391.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1373.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1379.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.ares.or.jp/learn/glossary/noi.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.ares.or.jp/learn/glossary/dscr.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.ares.or.jp/learn/glossary/ltv.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.ares.or.jp/learn/glossary/npv.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.ares.or.jp/learn/glossary/irr.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://laws.e-gov.go.jp/law/410AC0000000105": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.jpx.co.jp/reit-if/column/interview/051.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.ares.or.jp/learn/glossary/jreit.html": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/law/shitsugi/inshi/10/11.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://laws.e-gov.go.jp/law/502AC0000000060": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://laws.e-gov.go.jp/law/332CO0000000043": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/zoyo/4410.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/zoyo/4426.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/zoyo/4423.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/zoyo/4424.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/zoyo/4429.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/zoyo/4405.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/zoyo/4414.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/zoyo/4411.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/zoyo/4420.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://laws.e-gov.go.jp/law/423AC0000000052": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://laws.e-gov.go.jp/law/411AC0000000150": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4126.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4108.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4120.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4170.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4155.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4164.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4168.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hyoka/4632.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hyoka/4641.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hyoka/4644.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hyoka/4660.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hyoka/4603.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hyoka/4622.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hyoka/4620.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hyoka/4611.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hyoka/4613.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hyoka/4612.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hyoka/4614.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hyoka/4627.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hyoka/4629.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hyoka/4617.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4602_qa.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/08/02.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/08/03.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
+   "missing": []
+  },
+  "https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/08/04.htm": {
+   "fetched": true,
+   "checkedAt": "2026-10-29",
    "missing": []
   },
   "https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/08/05.htm": {
    "fetched": true,
-   "checkedAt": "2026-10-28",
+   "checkedAt": "2026-10-29",
    "missing": []
   }
  },
@@ -2058,7 +2218,7 @@
   "hihokensha-shubetsu": "verified",
   "kogaku-ryoyohi": "verified",
   "shobyo-teatekin": "verified",
-  "nini-keizoku": "draft",
+  "nini-keizoku": "verified",
   "ideco": "verified",
   "shokibo-kigyo-kyosai": "draft",
   "ganri-kinto": "draft",
@@ -2145,12 +2305,12 @@
   "chukorei-kafu-kasan": "verified",
   "kafu-nenkin": "verified",
   "shibo-ichijikin": "verified",
-  "hokenryo-menjo": "draft",
-  "kokumin-nenkin-kikin": "draft",
-  "kigyogata-dc": "draft",
-  "kaigo-hoken": "draft",
-  "koyo-hoken": "draft",
-  "rosai-hoken": "draft",
+  "hokenryo-menjo": "verified",
+  "kokumin-nenkin-kikin": "verified",
+  "kigyogata-dc": "verified",
+  "kaigo-hoken": "verified",
+  "koyo-hoken": "verified",
+  "rosai-hoken": "verified",
   "teiki-hoken": "draft",
   "shushin-hoken": "draft",
   "yoro-hoken": "draft",
@@ -2186,19 +2346,19 @@
   "toshisha-hogo-kikin": "draft",
   "tokutei-koza": "draft",
   "joto-sonshitsu-kurikoshi": "draft",
-  "shotoku-10shu": "draft",
-  "sogo-bunri-kazei": "draft",
+  "shotoku-10shu": "verified",
+  "sogo-bunri-kazei": "verified",
   "fukko-tokubetsu-shotokuzei": "verified",
   "zatsu-shotoku": "verified",
   "shakai-hoken-ryo-kojo": "verified",
   "kifukin-kojo": "verified",
   "zasson-kojo": "verified",
   "kakutei-shinkoku": "verified",
-  "jutaku-loan-kojo": "draft",
+  "jutaku-loan-kojo": "verified",
   "shohizei": "verified",
   "kani-kazei": "verified",
-  "invoice": "draft",
-  "houjinzei": "draft",
+  "invoice": "verified",
+  "houjinzei": "verified",
   "yoto-chiiki": "verified",
   "toshi-keikaku-kuiki": "verified",
   "kaihatsu-kyoka": "verified",
@@ -2222,14 +2382,14 @@
   "minashi-sozoku-zaisan": "verified",
   "shibo-taishokukin": "verified",
   "seizen-zoyo-kasan": "verified",
-  "kenin": "draft",
-  "jihitsu-igon-hokan": "draft",
-  "haigusha-kyojuken": "draft",
-  "kiyobun-tokubetsu-jueki": "draft",
-  "rosenka-hyoka": "draft",
-  "hijojo-kabushiki": "draft",
-  "jigyo-shokei-zeisei": "draft",
-  "kazoku-shintaku": "draft",
+  "kenin": "verified",
+  "jihitsu-igon-hokan": "verified",
+  "haigusha-kyojuken": "verified",
+  "kiyobun-tokubetsu-jueki": "verified",
+  "rosenka-hyoka": "verified",
+  "hijojo-kabushiki": "verified",
+  "jigyo-shokei-zeisei": "verified",
+  "kazoku-shintaku": "verified",
   "f-kurisage-rate": "verified",
   "f-kuriage-rate": "verified",
   "f-kiso-shikaku": "verified",
@@ -3616,7 +3776,7 @@
   "hihokensha-shubetsu": "主として第二号被保険者の収入により生計を維持するもの（第二号被保険者である者その他この法律の適用を除外すべき特別の理由がある者として厚生労働省令で定める者を除く。以下「被扶養配偶者」という。）のうち二十歳以上六十歳未満のもの（以下「第三号被保険者」という。）|厚生年金保険の被保険者（以下「第二号被保険者」という。）|日本国内に住所を有する二十歳以上六十歳未満の者であつて次号及び第三号のいずれにも該当しないもの",
   "kogaku-ryoyohi": "が著しく高額であるときは、その療養の給付又はその保険外併用療養費、療養費、訪問看護療養費、家族療養費若しくは家族訪問看護療養費の支給を受けた者に対し、高額療養費を支給する",
   "shobyo-teatekin": "その労務に服することができなくなった日から起算して三日を経過した日から労務に服することができない期間、傷病手当金を支給する",
-  "nini-keizoku": "",
+  "nini-keizoku": "任意継続被保険者となった日から起算して二年を経過したとき|保険料は、退職前に控除されていた保険料を2倍した額になります|喪失の日の前日まで継続して二月以上被保険者（日雇特例被保険者、任意継続被保険者又は共済組合の組合員である被保険者を除く。）であったもの|第三条第四項の申出は、被保険者の資格を喪失した日から二十日以内にしなければならない|被保険者及び被保険者を使用する事業主は、それぞれ保険料額の二分の一を負担する。ただし、任意継続被保険者は、その全額を負担する|退職日までに被保険者期間が継続して2か月以上あること",
   "ideco": "個人又は事業主が拠出した資金を個人が自己の責任において運用の指図を行い、高齢期においてその結果に基づいた給付を受けることができるようにするため",
   "shokibo-kigyo-kyosai": "",
   "ganri-kinto": "",
@@ -3703,12 +3863,12 @@
   "chukorei-kafu-kasan": "夫が死亡したときに40歳以上で子のない妻（夫の死亡後40歳に達した当時、子がいた妻も含む）が受ける遺族厚生年金には、40歳から65歳になるまでの間、中高齢の寡婦加算（定額）が加算されます|妻が65歳になると自分の老齢基礎年金が受けられるため、中高齢の寡婦加算はなくなります|死亡した夫の被保険者期間が20年以上の場合",
   "kafu-nenkin": "亡くなった夫が、老齢基礎年金・障害基礎年金を受けたことがあるときは支給されません|妻が繰り上げ支給の老齢基礎年金を受けているときは支給されません|寡婦年金を受けられる場合は、どちらか一方を選択します|年金額は、夫の第1号被保険者期間だけで計算した老齢基礎年金額の4分の3の額です|死亡日の前日において国民年金の第1号被保険者として保険料を納めた期間および国民年金の保険料免除期間（※1）が10年以上（※2）ある夫が亡くなったときに、その夫と10年以上継続して婚姻関係（事実上の婚姻関係を含む）にあり、死亡当時にその夫に生計を維持されていた妻に対して、その妻が60歳から65歳になるまでの間支給されます",
   "shibo-ichijikin": "付加保険料を納めた月数が36月以上ある場合は、8,500円が加算されます|死亡一時金の額は、保険料を納めた月数に応じて120,000円～320,000円です|第1号被保険者として保険料を納めた月数（4分の3納付月数は4分の3月，半額納付月数は2分の1月，4分の1納付月数は4分の1月として計算）が36月以上ある方が、老齢基礎年金・障害基礎年金を受けないまま亡くなった時|遺族が、遺族基礎年金の支給を受けられるときは支給されません。寡婦年金を受けられる場合は、どちらか一方を選択します",
-  "hokenryo-menjo": "",
-  "kokumin-nenkin-kikin": "",
-  "kigyogata-dc": "",
-  "kaigo-hoken": "",
-  "koyo-hoken": "",
-  "rosai-hoken": "",
+  "hokenryo-menjo": "保険料の全額を免除された期間は、老齢基礎年金を受け取る際に、保険料を全額納付した場合の年金額の2分の1（税金分）を受け取れます|保険料納付猶予制度とは20歳以上50歳未満の方で、本人・配偶者の前年所得（※）が一定額以下の場合には、ご本人が申請書を提出し、承認されると保険料の納付が猶予されます|免除される額は、全額、4分の3、半額、4分の1の4種類があります|免除・納付猶予の承認を受けた期間の保険料は、10年以内であれば申し出により後から納付（追納）して老齢基礎年金の受給額を満額に近づけることができます|学生には、申請により在学中の保険料の納付が猶予される「学生納付特例制度」が設けられています|本人・配偶者・世帯主の前年所得（※）が一定額以下の場合や失業した場合など、保険料を納付することが経済的に困難な場合は、ご本人が申請書を提出し、承認されると保険料の納付が免除されます|納付猶予や学生納付特例の期間は年金の受給資格期間として計算されますが、追納しないと年金額には反映されません|老齢基礎年金を受け取るためには、保険料納付済期間（厚生年金保険や共済組合等の加入期間を含む）と保険料免除期間などを合算した期間が、10年以上必要です|（1）生活保護の生活扶助を受けている方|（2）障害基礎年金ならびに被用者年金の障害年金（2級以上）を受けている方",
+  "kokumin-nenkin-kikin": "20歳以上60歳未満の国民年金の第1号被保険者や、60歳以上65歳未満の方や海外居住者で国民年金に任意加入している方を対象に、老齢基礎年金の上乗せ給付として、平成3（1991）年、国民年金法に基づき創設された公的な個人年金です|20歳以上60歳未満の自営業者やフリーランスなどの国民年金の第1号被保険者、日本国内に住所を有する60歳以上65歳未満の国民年金の任意加入被保険者及び海外居住者であって国民年金の任意加入被保険者|・国民年金の保険料を免除されている方（一部免除・学生納付特例・若年者納付猶予を含みます。）・農業者年金の被保険者の方|国民年金基金の加入員として負担する掛金|国民年金基金は、iDeCoと合算して月額68,000円まで加入できます|国民年金基金への加入は任意ですが、いったんご加入いただいた場合、ご自分の都合で任意に脱退及び中途解約することはできません|掛金の上限は、月額6万8,000円です|掛金は全額社会保険料控除の対象となります",
+  "kigyogata-dc": "事業主拠出（企業型年金規約に定めた場合は加入者も拠出可能（マッチング拠出）。）|個人又は事業主が拠出した資金を個人が自己の責任において運用の指図を行い、高齢期においてその結果に基づいた給付を受けることができるようにするため|加入者等が離転職した場合には、確定拠出年金で積み立てた資産を他の制度へ持ち運べる場合があります|原則60歳に到達した場合に受給することができる（60歳時点で確定拠出年金の通算加入者等期間が10年に満たない場合は、支給開始年齢が段階的に先延ばしになる）|掛金を事業主が拠出する企業型DC（企業型確定拠出年金）と、加入者自身が拠出するiDeCo（イデコ・個人型確定拠出年金）があります|確定拠出年金は、拠出された掛金とその運用益との合計額をもとに、将来の給付額が決定する年金制度です",
+  "kaigo-hoken": "40歳から64歳までの人は、介護保険の対象となる特定疾病により介護が必要と認定された場合は、介護サービスを受けることができます|40歳以上の人は、介護保険の被保険者となります。①65歳以上の人（第１号被保険者）②40～64歳までの医療保険に加入している人（第２号被保険者）|一市町村の区域内に住所を有する六十五歳以上の者（以下「第一号被保険者」という。）二市町村の区域内に住所を有する四十歳以上六十五歳未満の医療保険加入者（以下「第二号被保険者」という。）|予防給付を受けようとする被保険者は、要支援者に該当すること及びその該当する要支援状態区分について、市町村の認定（以下「要支援認定」という。）を受けなければならない|介護保険サービスを利用した場合の利用者負担は、介護サービスにかかった費用の１割（一定以上所得者の場合は２割又は３割）です|介護給付を受けようとする被保険者は、要介護者に該当すること及びその該当する要介護状態区分について、市町村の認定（以下「要介護認定」という。）を受けなければならない|市町村及び特別区は、この法律の定めるところにより、介護保険を行うものとする|皆様がお住まいの市区町村（保険者といいます。）が制度を運営しています|認定は要支援1･2から要介護1～5までの７段階および非該当に分かれています",
+  "koyo-hoken": "そのうち、労災保険料分は全額事業主負担、雇用保険料分は事業主と労働者双方で負担することになっています|雇用保険の一般被保険者に対する求職者給付の基本手当の所定給付日数（基本手当の支給を受けることができる日数）は、受給資格に係る離職の日における年齢、雇用保険の被保険者であった期間及び離職の理由などによって決定され|雇用保険の被保険者の方が、定年、倒産、契約期間の満了等により離職し、失業中の生活を心配しないで、新しい仕事を探し、1日も早く再就職していただくために支給されるものです|離職の日以前2年間に、被保険者期間（※補足2）が通算して12か月以上あること。ただし、特定受給資格者又は特定理由離職者については、離職の日以前1年間に、被保険者期間が通算して6か月以上ある場合でも可",
+  "rosai-hoken": "そのうち、労災保険料分は全額事業主負担、雇用保険料分は事業主と労働者双方で負担することになっています|労働者であればアルバイトやパートタイマー等の雇用形態は関係ありません|労災保険は、原則として一人でも労働者を使用する事業は、業種の規模の如何を問わず、すべてに適用されます|労災保険制度は、労働者の業務上の事由または通勤による労働者の傷病等に対して必要な保険給付を行い、あわせて被災労働者の社会復帰の促進等の事業を行う制度です|又は通勤による労働者の負傷、疾病、障害、死亡等に対して迅速かつ公正な保護をするため、必要な保険給付を行い",
   "teiki-hoken": "",
   "shushin-hoken": "",
   "yoro-hoken": "",
@@ -3744,19 +3904,19 @@
   "toshisha-hogo-kikin": "",
   "tokutei-koza": "",
   "joto-sonshitsu-kurikoshi": "",
-  "shotoku-10shu": "",
-  "sogo-bunri-kazei": "",
+  "shotoku-10shu": "1利子所得2配当所得3不動産所得4事業所得5給与所得6退職所得7山林所得8譲渡所得9一時所得10雑所得|所得は、その性質によって次の10種類に分かれ、それぞれの所得について、収入や必要経費の範囲あるいは所得の計算方法などが定められています|所得税法では、その性質によって所得を次の10種類に区分しています|総合課税の対象となるのは、次の所得です",
+  "sogo-bunri-kazei": "5パーセントから45パーセントの7段階に区分されています|しかし、一定の所得については、他の所得金額と合計せず、分離して税額を計算し（この点が総合課税制度と異なります。）、確定申告によりその税額を納めることとなります（この点が源泉分離課税制度と異なります。）。これが申告分離課税制度です|源泉分離課税制度とは、他の所得と全く分離して、所得を支払う者がその所得の支払の際に一定の税率で所得税を源泉徴収し、それだけで所得税の納税が完結するというものです|申告分離課税制度となっている例としては、退職所得、山林所得、土地建物等の譲渡による譲渡所得、株式等の譲渡所得等、平成28年1月1日以後に支払を受けるべき特定公社債等の利子等に係る利子所得および一定の先物取引による雑所得等があります|総合課税制度とは、各種の所得金額を合計して所得税額を計算するというものです|（1）利子所得に該当する利子等（総合課税または申告分離課税の対象となるものを除く。）",
   "fukko-tokubetsu-shotokuzei": "令和8年度税制改正により、防衛特別所得税の創設ならびに復興特別所得税の税率の引下げおよび課税期間の延長が行われ、令和9年以後に適用されます（改正前と改正後とで、防衛特別所得税及び復興特別所得税の合計税率に変更はありません。）|平成25年から令和29年までの各年分の確定申告においては、所得税と復興特別所得税（原則としてその年分の基準所得税額の2.1パーセント）を併せて申告・納付することとなります",
   "zatsu-shotoku": "公的年金等は、年金の収入金額から公的年金等控除額を差し引いて所得金額を計算します|国民年金法、厚生年金保険法、公務員等の共済組合法などの規定による年金|生命保険契約や生命共済契約に基づく年金、互助年金などは公的年金等には該当しません",
   "shakai-hoken-ryo-kojo": "国民年金の保険料および国民年金基金の掛金に係る社会保険料控除|控除できる金額は、その年に実際に支払った金額または給与や公的年金から差し引かれた金額の全額です|生計を一にする配偶者やその他の親族の負担すべき社会保険料を支払った場合には、その支払った金額について所得控除を受けることができます",
   "kifukin-kojo": "ふるさと納税は、ご自身の選んだ自治体に対して寄附を行った場合に、寄附額のうち2,000円を超える部分について、所得税および個人住民税からそれぞれ控除が受けられる制度|ふるさと納税先が5団体以内の場合に限り、ふるさと納税先団体に申請することにより、この寄附金控除を受けることができます|所得控除の対象となる寄附金の額は、総所得金額等の40％が上限です|確定申告を行う方は、ふるさと納税ワンストップ特例の申請が無効となるため|納税者が国や地方公共団体、特定公益増進法人などに対し、「特定寄附金」を支出した場合には、所得控除を受けることができます",
   "zasson-kojo": "「生活に通常必要でない資産」とは、例えば、別荘など|控除しきれない場合には、翌年以後3年間(東日本大震災又は令和5年4月1日以後に発生する特定非常災害により生じた損失額については、5年間)に繰り越して|災害または盗難もしくは横領によって、下記の「雑損控除の対象になる資産の要件」にあてはまる資産について損害を受けた場合には、一定の金額の所得控除を受けることができます|（1)（損害金額+災害等関連支出の金額-保険金等の額）-（総所得金額等）×10％（2)（災害関連支出の金額-保険金等の額）-5万円",
   "kakutei-shinkoku": "原則として、その年の翌年2月16日から3月15日までです|各種の所得金額（給与所得、退職所得を除く。）の合計額が20万円を超える人|大部分の給与所得者の方は、給与の支払者が行う年末調整によって所得税額が確定し、納税も完了しますから、確定申告の必要はありません|給与の年間収入金額が2,000万円を超える人",
-  "jutaku-loan-kojo": "",
+  "jutaku-loan-kojo": "この特例は、以下のとおり、住宅等の区分および居住年に応じて、借入限度額や控除期間が異なります|この特別控除を受ける年分の合計所得金額が、2,000万円以下であること|個人が住宅ローン等を利用してマイホームの新築、取得または増改築等（以下「取得等」といいます。）をした場合で、一定の要件を満たすときは、その取得等に係る住宅ローン等の年末残高の合計額等を基として計算した金額を、居住の用に供した年分以後の各年分の所得税額から控除する「住宅借入金等特別控除」|年末残高等×0.7％|所得税から控除しきれなかった額を個人住民税で税額控除することとされました|所得税において控除しきれなかった金額がある場合は、翌年度の個人住民税において住宅ローン控除が適用されます|控除を受ける最初の年分は、必要な書類を確定申告書に添付して提出する必要があります|給与所得者の方は、２年目以後の年分については、年末調整で住宅ローン控除の適用を受けることができます",
   "shohizei": "令和9年4月1日から令和11年3月31日までの2年間、飲食料品の譲渡について、消費税率が引き下げられます|消費税率7.8パーセント6.24パーセント地方消費税率2.2パーセント（消費税額の22/78）1.76パーセント（消費税額の22/78）合計10パーセント8パーセント|消費者が負担する消費税は、消費税および地方消費税の合計額であり、標準税率10パーセントと軽減税率8パーセントの複数税率になっています|飲食料品の譲渡（食品表示法に規定する食品（酒税法に規定する酒類を除きます。）の譲渡をいい、外食を含みません。）2定期購読契約が締結された週2回以上発行される新聞の譲渡",
   "kani-kazei": "「消費税簡易課税制度選択届出書」を提出した課税事業者は|基準期間（個人事業者は前々年、法人は原則として前々事業年度）における課税売上高が5,000万円以下の課税期間について|第1種事業（卸売業）90％|第2種事業（小売業、農業・林業・漁業（飲食料品の譲渡に係る事業に限る））80％|第3種事業（農業・林業・漁業（飲食料品の譲渡に係る事業を除く）、鉱業、建設業、製造業、電気業、ガス業、熱供給業および水道業）70％|第4種事業（第1種事業、第2種事業、第3種事業、第5種事業および第6種事業以外の事業）60％|第5種事業（運輸通信業、金融業および保険業、サービス業（飲食店業に該当するものを除く））50％|第6種事業（不動産業）40％|簡易課税制度は、中小事業者の納税事務負担に配慮する観点から、事業者の選択により、売上げに係る消費税額を基礎として仕入れに係る消費税額を算出することができる制度です|飲食料品の譲渡について、消費税率が引き下げられます。この引下げに当たり、飲食料品の譲渡を行う事業者を対象に、簡易課税制度の計算方法の特例が設けられます",
-  "invoice": "",
-  "houjinzei": "",
+  "invoice": "なお、適格請求書は、税務署長の登録を受けた適格請求書発行事業者でなければ、交付することはできません|インボイス発行事業者として登録を受けると、課税事業者として消費税の申告が必要になります|令和5年10月1日から、複数税率に対応した消費税額の仕入税額控除の方式として、「適格請求書等保存方式（インボイス制度）」が開始しています|免税事業者が適格請求書発行事業者の登録を受けて課税事業者となった場合に|適格請求書等保存方式の下では、一定の事項が記載された帳簿及び「適格請求書（インボイス）」等の保存が仕入税額控除の要件となります|（注1）課税事業者が適格請求書発行事業者の登録を受けることができます。なお、令和5年10月１日から令和11年9月30日までの日を含む課税期間中に免税事業者が登録を受けた場合は、登録を受けた日から適格請求書発行事業者となることができる経過措置が設けられています",
+  "houjinzei": "800万円にその事業年度の月数を乗じ、これを12で除して計算した金額（定額控除限度額）を超える部分の金額|交際費等の額は、原則として、その全額が損金不算入とされていますが、損金不算入額の計算に当たっては、下記の法人の区分に応じ、一定の措置が設けられています|内国法人に対して課する各事業年度の所得に対する法人税の課税標準は、各事業年度の所得の金額とする|内国法人の各事業年度の所得の金額は、当該事業年度の益金の額から当該事業年度の損金の額を控除した金額とする|期末の資本金の額または出資金の額が1億円以下である等の法人|法人が役員に対して支給する給与（注）の額のうち次に掲げる定期同額給与、事前確定届出給与または一定の業績連動給与のいずれにも該当しないものの額は損金の額に算入されません",
   "yoto-chiiki": "第一種低層住居専用地域、第二種低層住居専用地域、第一種中高層住居専用地域、第二種中高層住居専用地域、第一種住居地域、第二種住居地域、準住居地域、田園住居地域、近隣商業地域、商業地域、準工業地域、工業地域又は工業専用地域（以下「用途地域」と総称する。）",
   "toshi-keikaku-kuiki": "市街化区域、区域区分が定められていない都市計画区域又は準都市計画区域内において行う開発行為|市街化区域は、すでに市街地を形成している区域及びおおむね十年以内に優先的かつ計画的に市街化を図るべき区域とする|市街化調整区域は、市街化を抑制すべき区域とする|都市計画区域について無秩序な市街化を防止し、計画的な市街化を図るため必要があるときは、都市計画に、市街化区域と市街化調整区域との区分",
   "kaihatsu-kyoka": "同項中「千平方メートル」とあるのは、「五百平方メートル」とする|市街化区域、区域区分が定められていない都市計画区域又は準都市計画区域内において行う開発行為で、その規模が、それぞれの区域の区分に応じて政令で定める規模未満であるもの|市街化区域千平方メートル市街化の状況により、無秩序な市街化を防止するため特に必要があると認められる場合三百平方メートル以上千平方メートル未満|市街化調整区域、区域区分が定められていない都市計画区域又は準都市計画区域内において行う開発行為で、農業、林業若しくは漁業の用に供する政令で定める建築物|都市計画区域又は準都市計画区域内において開発行為をしようとする者は、あらかじめ、国土交通省令で定めるところにより、都道府県知事",
@@ -3780,14 +3940,14 @@
   "minashi-sozoku-zaisan": "500万円×法定相続人の数＝非課税限度額なお、相続人以外の人が取得した死亡保険金には、非課税の適用はありません|被相続人の死亡後3年以内に支給が確定したものは、相続または遺贈により取得したものとみなされて、相続税の課税対象となります",
   "shibo-taishokukin": "500万円×法定相続人の数＝非課税限度額なお、相続人以外の人が取得した退職手当金等には、非課税の適用はありません|被相続人の死亡後3年以内に支給が確定したものは、相続または遺贈により取得したものとみなされて、相続税の課税対象となります",
   "seizen-zoyo-kasan": "加算対象となる贈与財産について課せられた贈与税がある場合には、その相続税額からその贈与税額に相当する金額を控除します|加算対象期間内に贈与されたものであれば贈与税がかかったかどうかに関係なく加算します|相続開始前3年以内に取得した財産以外の財産については、その財産の贈与時の価額の合計額から総額100万円までは相続税の課税価格に加算されません|被相続人から加算対象期間（注2）に暦年課税に係る贈与によって取得した財産があるときは、その人の相続税の課税価格にその財産の贈与時の価額を加算します|～令和8年12月31日相続開始前3年以内（死亡の日から遡って3年前の日から死亡の日までの間）令和9年1月1日～令和12年12月31日令和6年1月1日から死亡の日までの間令和13年1月1日～相続開始前7年以内",
-  "kenin": "",
-  "jihitsu-igon-hokan": "",
-  "haigusha-kyojuken": "",
-  "kiyobun-tokubetsu-jueki": "",
-  "rosenka-hyoka": "",
-  "hijojo-kabushiki": "",
-  "jigyo-shokei-zeisei": "",
-  "kazoku-shintaku": "",
+  "kenin": "「検認」とは，相続人に対し遺言の存在及びその内容を知らせるとともに，遺言書の形状，加除訂正の状態，日付，署名など検認の日現在における遺言書の内容を明確にして，遺言書の偽造・変造を防止するための手続です。遺言の有効・無効を判断する手続ではありません。|前項の規定は、公正証書による遺言については、適用しない。|封印のある遺言書は、家庭裁判所において相続人又はその代理人の立会いがなければ、開封することができない。|封印のある遺言書は，家庭裁判所で相続人等の立会いの上開封しなければならないことになっています。|民法第千四条第一項の規定は、遺言書保管所に保管されている遺言書については、適用しない。|遺言書の保管者は、相続の開始を知った後、遅滞なく、これを家庭裁判所に提出して、その検認を請求しなければならない。|遺言書の保管者又はこれを発見した相続人は，遺言者の死亡を知った後，遅滞なく遺言書を家庭裁判所に提出して，その「検認」を請求しなければなりません。",
+  "jihitsu-igon-hokan": "この制度は、令和２年７月１０日から開始しましたが、それ以前に作成された遺言書も、所定の様式を満たしていれば、保管することができます。|代理人による申請や郵送による申請はできません。|本制度は、保管された遺言書の有効性を保証するものではありません。|相続人等の方々は、法務局において遺言書を閲覧したり、遺言書情報証明書の交付が受けられます！|相続開始後、家庭裁判所における検認が不要です!|遺言書の保管の申請ができるのは、遺言者本人のみです。|遺言書の保管申請時には、民法の定める自筆証書遺言の形式に適合するかについて、遺言書保管官の外形的なチェックが受けられます。|遺言者が第一項の申請をするときは、遺言書保管所に自ら出頭して行わなければならない。",
+  "haigusha-kyojuken": "一遺産の分割によって配偶者居住権を取得するものとされたとき。二配偶者居住権が遺贈の目的とされたとき。|居住建物の価額居住建物の相続税評価額－配偶者居住権の価額|残された配偶者の居住権を保護するための方策に関する部分が，令和２年４月１日に施行されます。|被相続人の配偶者（以下この章において単に「配偶者」という。）は、被相続人の財産に属した建物に相続開始の時に居住していた場合において、次の各号のいずれかに該当するときは、その居住していた建物（以下この節において「居住建物」という。）の全部について無償で使用及び収益をする権利（以下この章において「配偶者居住権」という。）を取得する。|配偶者居住権の存続期間は、配偶者の終身の間とする。ただし、遺産の分割の協議若しくは遺言に別段の定めがあるとき、又は家庭裁判所が遺産の分割の審判において別段の定めをしたときは、その定めるところによる。|配偶者居住権の設定の登記とは，配偶者居住権を取得した場合に，これを公の帳簿（登記簿）に記載し，一般に公開することによって，取得した配偶者居住権を第三者（例えば，居住建物を譲り受けた方）に主張することができるようにするものです。|配偶者居住権は、譲渡することができない。|配偶者居住権を取得することによって，預貯金等のその他の遺産をより多く取得することができるというメリットがあります。",
+  "kiyobun-tokubetsu-jueki": "共同相続人中に、被相続人から、遺贈を受け、又は婚姻若しくは養子縁組のため若しくは生計の資本として贈与を受けた者があるときは、被相続人が相続開始の時において有した財産の価額にその贈与の価額を加えたものを相続財産とみなし、第九百条から第九百二条までの規定により算定した相続分の中からその遺贈又は贈与の価額を控除した残額をもってその者の相続分とする。|共同相続人中に、被相続人の事業に関する労務の提供又は財産上の給付、被相続人の療養看護その他の方法により被相続人の財産の維持又は増加について特別の寄与をした者があるときは、被相続人が相続開始の時において有した財産の価額から共同相続人の協議で定めたその者の寄与分を控除したものを相続財産とみなし、第九百条から第九百二条までの規定により算定した相続分に寄与分を加えた額をもってその者の相続分とする。|被相続人に対して無償で療養看護その他の労務の提供をしたことにより被相続人の財産の維持又は増加について特別の寄与をした被相続人の親族（相続人、相続の放棄をした者及び第八百九十一条の規定に該当し又は廃除によってその相続権を失った者を除く。以下この条において「特別寄与者」という。）は、相続の開始後、相続人に対し、特別寄与者の寄与に応じた額の金銭（以下この条において「特別寄与料」という。）の支払を請求することができる。",
+  "rosenka-hyoka": "その宅地の価額（以下この節において「自用地としての価額」という。）から27((借地権の評価))の定めにより評価したその借地権の価額|倍率方式とは、固定資産税評価額(地方税法第381条((固定資産課税台帳の登録事項))の規定により土地課税台帳若しくは土地補充課税台帳（同条第8項の規定により土地補充課税台帳とみなされるものを含む。）に登録された基準年度の価格又は比準価格をいう。以下この章において同じ。）に国税局長が一定の地域ごとにその地域の実情に即するように定める倍率を乗じて計算した金額によって評価する方式をいう。|倍率方式は、路線価が定められていない地域の土地を評価する方法です。倍率方式における土地の価額は、その土地の固定資産税評価額（都税事務所や、市（区）役所または町村役場で確認してください。）に一定の倍率を乗じて計算します。|借地権の価額は、その借地権の目的となっている宅地の自用地としての価額に、当該価額に対する借地権の売買実例価額、精通者意見価格、地代の額等を基として評定した借地権の価額の割合（以下「借地権割合」という。）がおおむね同一と認められる地域ごとに国税局長の定める割合を乗じて計算した金額によって評価する。|路線価方式における土地の価額は、路線価をその土地の形状等に応じた奥行価格補正率などの各種補正率で補正した後に、その土地の面積を乗じて計算します。|路線価方式は、路線価が定められている地域の土地を評価する方法です。路線価とは、路線（道路）に面する標準的な宅地の1平方メートル当たりの価額のことで、路線価図には千円単位で表示しています。",
+  "hijojo-kabushiki": "中会社は、大会社と小会社の評価方法を併用して評価します。|原則的評価方式は、評価する株式を発行した会社を総資産価額、従業員数および取引金額により大会社、中会社または小会社のいずれかに区分して、原則として次のような方法で評価をすることになっています。|取引相場のない株式（「上場株式」および「気配相場等のある株式」以外の株式をいいます。）は、相続や贈与などで株式を取得した株主が、その株式を発行した会社の経営支配力を持っている同族株主等か、それ以外の株主かの区分により、それぞれ原則的評価方式または特例的な評価方式である配当還元方式により評価します。|同族株主以外の株主が取得した株式については、その株式の発行会社の規模にかかわらず原則的評価方式に代えて特例的な評価方式である配当還元方式で評価します。|大会社は、原則として、類似業種比準方式により評価します。|小会社は、原則として、純資産価額方式によって評価します。|配当還元方式とは、その株式を所有することによって受け取る一年間の配当金額を、一定の利率（10パーセント）で還元して元本である株式の価額を評価する方法です。",
+  "jigyo-shokei-zeisei": "事業承継税制は、中小企業における経営の承継の円滑化に関する法律（円滑化法）に基づく認定のもと、会社や個人事業の後継者が取得した一定の資産について、贈与税や相続税の納税を猶予する制度です。|免除されるまでに、対象受贈非上場株式等を譲渡するなど一定の場合には、株式等納税猶予税額の全部又は一部について納税の猶予が打ち切られ、その税額と利子税を納付しなければなりません。|円滑化法の認定（注１）を都道府県知事から受ける非上場会社の後継者である受贈者|法人版事業承継税制は、中小企業の後継者が、円滑化法の認定を受けたその非上場会社の株式等を贈与・相続等により取得した場合において、その非上場株式等に係る贈与税・相続税について、一定の要件のもと、その納税を猶予し、後継者の死亡等により、納税が猶予されている税額の納付が免除される制度です。|法人版事業承継税制は、後継者である受贈者が、中小企業における経営の承継の円滑化に関する法律の認定を受けている非上場会社の株式等を贈与により取得した場合において、その非上場株式等に係る贈与税について、一定の要件のもと、その納税を猶予し、後継者の死亡等により、納税が猶予されている贈与税の納付が免除される制度です。|法人版事業承継税制は、後継者である相続人等が、中小企業における経営の承継の円滑化に関する法律の認定を受けている非上場会社の株式等を相続または遺贈により取得した場合において、その非上場株式等に係る相続税について、一定の要件のもと、その納税を猶予し、後継者の死亡等により、納税が猶予されている相続税の納付が免除される制度です。",
+  "kazoku-shintaku": "この法律において「受益者」とは、受益権を有する者をいう。|この法律において「受託者」とは、信託行為の定めに従い、信託財産に属する財産の管理又は処分及びその他の信託の目的の達成のために必要な行為をすべき義務を負う者をいう。|この法律において「委託者」とは、次条各号に掲げる方法により信託をする者をいう。|受益者の死亡により、当該受益者の有する受益権が消滅し、他の者が新たな受益権を取得する旨の定め（受益者の死亡により順次他の者が受益権を取得する旨の定めを含む。）のある信託は、当該信託がされた時から三十年を経過した時以後に現に存する受益者が当該定めにより受益権を取得した場合であって当該受益者が死亡するまで又は当該受益権が消滅するまでの間、その効力を有する。|新たに信託の設定を行った場合などで、適正な対価を負担することなく受益権等を取得したときは、贈与税が課税されます。|特定の者との間で、当該特定の者に対し財産の譲渡、担保権の設定その他の財産の処分をする旨並びに当該特定の者が一定の目的に従い財産の管理又は処分及びその他の当該目的の達成のために必要な行為をすべき旨の契約（以下「信託契約」という。）を締結する方法|適正な対価を負担せずに当該信託の受益者等（受益者としての権利を現に有する者及び特定委託者をいう。以下この節において同じ。）となる者があるときは、当該信託の効力が生じた時において、当該信託の受益者等となる者は、当該信託に関する権利を当該信託の委託者から贈与（当該委託者の死亡に基因して当該信託の効力が生じた場合には、遺贈）により取得したものとみなす。",
   "f-kurisage-rate": "増額率（最大84％※1）＝0.7%",
   "f-kuriage-rate": "減額率（最大24％）＝0.4%",
   "f-kiso-shikaku": "受給資格期間が10年以上ある場合に、65歳から受け取ることができます",

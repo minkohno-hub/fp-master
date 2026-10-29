@@ -75,3 +75,14 @@
   - 用語ポップアップ（共通 `Sheet`）のフォーカス制御：開くと最初の操作要素へフォーカス、Tab移動はダイアログ内にトラップ、Esc／閉じるで開いた要素へフォーカス復帰。NEXT_ACTION 項目4に対応。
 - 検証：tsc OK／Vitest 133 passed／build OK／Playwright：termlinks 6件（新規フォーカステスト2件＝iphone/desktop を含む）・a11y「詳しい説明書」4件（light/dark × iphone/desktop）すべて合格。この環境では全Playwright（110+件）の再実行は未実施（対象specで検証）。
 - 未完（継続中）：残り100語の根拠照合（D・A年金/社会保険・F相続の3バッチを並行調査中）、不足語の抽出、未カバー細目（特にC分野）と高難度実技ケース（I-006）、公開URLのブラウザ操作確認、実機iPhone・Lighthouse・手動a11y（ユーザー協力）。
+
+## 2026-10-29 用語集根拠照合バッチ2（D5・A社会保険7・F8＝20語）＋ PR #8 マージ
+- PR #8（説明書＋フォーカス制御）を CI 成功後にマージ（main `9f2ab04`）。2026-10-29 23:02 のユーザー指示により、以降は PR 作成・マージとも自律実行可（品質ゲート通過が前提）。
+- バッチ2の20語を verified に（用語 verified 87→**107**／187、draft 残り80：C38・B19・A14・E9）。
+  - D5：shotoku-10shu・sogo-bunri-kazei・jutaku-loan-kojo・invoice・houjinzei（国税庁タックスアンサー等）。
+  - A7：hokenryo-menjo・kokumin-nenkin-kikin・kigyogata-dc・kaigo-hoken・koyo-hoken・rosai-hoken・nini-keizoku（日本年金機構・厚労省・e-Gov 等）。
+  - F8：kenin・jihitsu-igon-hokan・haigusha-kyojuken・kiyobun-tokubetsu-jueki・rosenka-hyoka・hijojo-kabushiki・jigyo-shokei-zeisei・kazoku-shintaku（法務省・国税庁・e-Gov 等）。
+- 照合に合わせた本文の修正：住宅ローン控除は旧 No.1213 でなく現行 No.1210/1211-1 を出典化し「翌年度分の個人住民税」と精密化／法人税の別表四・申告調整の文は逐語裏づけが取れず法人税法22条ベースに置換／家族信託は認知症・自益信託の非課税の文（公式の逐語裏づけなし）を削除、など。引用は全件、取得した公式ページ本文に部分文字列として含まれることを機械検証済み。
+- 検証：build_content 照合通過（用語187／カード42：照合済み932件）／tsc OK／Vitest 133 passed／build OK。
+- 要フォロー：国民年金基金の掛金上限「月額68,000円」は令和8年12月分から75,000円へ引上げ（厚労省ページで確認）。現行引用は壊れないが、law_src.py への登録と問題影響判定を次バッチで検討（NEXT_ACTION 参照）。
+- 残り80語のうち A係数等・B19・E9・C前半/後半の調査レポートは完了済み（`~/workspace/fp-research/research-*.md`、リポジトリ外に保全）。係数6語と risk-control-finance は公式の逐語裏づけが得られず draft 維持が結論。C後半の一部は調査継続中。

@@ -99,6 +99,71 @@ S.update({
     'egov_minpo': src('e-Gov法令検索 民法', EGOV + '129AC0000000089'),
 })
 
+# 国税庁タックスアンサー等（2026-10-29追加分。用語集D分野ほかの照合用）
+S.update({
+    'nta1000': src('国税庁 No.1000 所得税のしくみ', NTA + 'shotoku/1000.htm'),
+    'nta1300': src('国税庁 No.1300 所得の区分のあらまし', NTA + 'shotoku/1300.htm'),
+    'nta2220': src('国税庁 No.2220 総合課税制度', NTA + 'shotoku/2220.htm'),
+    'nta2230': src('国税庁 No.2230 源泉分離課税制度', NTA + 'shotoku/2230.htm'),
+    'nta2240': src('国税庁 No.2240 申告分離課税制度', NTA + 'shotoku/2240.htm'),
+    'nta1210': src('国税庁 No.1210 マイホームの取得等と所得税の税額控除', NTA + 'shotoku/1210.htm'),
+    'nta1211_1': src('国税庁 No.1211-1 住宅借入金等特別控除（令和4年以降に居住）', NTA + 'shotoku/1211-1.htm'),
+    'nta6498': src('国税庁 No.6498 適格請求書等保存方式（インボイス制度）', NTA + 'shohi/6498.htm'),
+    'nta_invoice_about': src('国税庁 インボイス制度について', 'https://www.nta.go.jp/taxes/shiraberu/zeimokubetsu/shohi/keigenzeiritsu/invoice_about.htm'),
+    'nta5265': src('国税庁 No.5265 交際費等の範囲と損金不算入額の計算', NTA + 'hojin/5265.htm'),
+    'nta5211': src('国税庁 No.5211 役員に対する給与', NTA + 'hojin/5211.htm'),
+    'nta_kurashi_jutaku': src('国税庁 暮らしの税情報 マイホームを持ったとき', 'https://www.nta.go.jp/publication/pamph/koho/kurashi/html/05_1.htm'),
+    'soumu_jutaku_loan': src('総務省 住宅ローン控除（個人住民税）', 'https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/090929.html'),
+    'egov_hojinzei': src('e-Gov法令検索 法人税法', EGOV + '340AC0000000034'),
+})
+
+# 年金・社会保険系（2026-10-29追加分。用語集A分野の照合用）
+NK2 = 'https://www.nenkin.go.jp/service/'
+S.update({
+    'nk_menjo': src('日本年金機構 国民年金保険料の免除制度・納付猶予制度', NK2 + 'kokunen/menjo/20150428.html'),
+    'nk_menjo_hotei': src('日本年金機構 国民年金保険料の法定免除制度', NK2 + 'kokunen/menjo/20140710.html'),
+    'nk_menjo_gakusei': src('日本年金機構 国民年金保険料の学生納付特例制度', NK2 + 'kokunen/menjo/20150514.html'),
+    'nk_tsuino': src('日本年金機構 国民年金保険料の追納制度', NK2 + 'kokunen/menjo/20150331.html'),
+    'nk_kokunen_kikin': src('日本年金機構 年金用語集 国民年金基金', NK2 + 'yougo/kagyo/kokunen-kikin.html'),
+    'mhlw_kikin': src('厚生労働省 国民年金基金制度', 'https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000059350.html'),
+    'mhlw_dc_gaiyou': src('厚生労働省 確定拠出年金制度の概要', 'https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/nenkin/nenkin/kyoshutsu/gaiyou.html'),
+    'egov_dc': src('e-Gov法令検索 確定拠出年金法', EGOV + '413AC0000000088'),
+    'kaigo_about': src('介護サービス情報公表システム 介護保険とは', 'https://www.kaigokensaku.mhlw.go.jp/commentary/about.html'),
+    'kaigo_flow': src('介護サービス情報公表システム サービス利用までの流れ', 'https://www.kaigokensaku.mhlw.go.jp/commentary/flow.html'),
+    'kaigo_fee': src('介護サービス情報公表システム サービスにかかる利用料', 'https://www.kaigokensaku.mhlw.go.jp/commentary/fee.html'),
+    'egov_kaigo': src('e-Gov法令検索 介護保険法', EGOV + '409AC0000000123'),
+    'hw_kihonteate': src('ハローワーク 基本手当について', 'https://www.hellowork.mhlw.go.jp/insurance/insurance_basicbenefit.html'),
+    'mhlw_roudouhoken_keisan': src('大阪労働局 労働保険料の計算方法', 'https://jsite.mhlw.go.jp/osaka-roudoukyoku/hourei_seido_tetsuzuki/roudou_hoken/hourei_seido/keisan.html'),
+    'mhlw_rosai': src('厚生労働省 労災保険制度とは', 'https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/roudoukijun/rousai/index.html'),
+    'egov_rosai': src('e-Gov法令検索 労働者災害補償保険法', EGOV + '322AC0000000050'),
+    'egov_kenpo': src('e-Gov法令検索 健康保険法', EGOV + '211AC0000000070'),
+    'kyokai_nini': src('全国健康保険協会 退職後の健康保険（任意継続）', 'https://www.kyoukaikenpo.or.jp/benefit/voluntary_continuation/'),
+})
+
+# 相続・遺言系（2026-10-29追加分。用語集F分野の照合用）
+S.update({
+    'courts_kenin': src('裁判所 遺言書の検認', 'https://www.courts.go.jp/saiban/syurui/syurui_kazi/kazi_06_17/index.html'),
+    'egov_hokan': src('e-Gov法令検索 法務局における遺言書の保管等に関する法律', EGOV + '430AC0000000073'),
+    'moj_hokan01': src('法務省 自筆証書遺言書保管制度とは？', 'https://www.moj.go.jp/MINJI/01.html'),
+    'moj_hokan02': src('法務省 自筆証書遺言書保管制度 遺言者の手続', 'https://www.moj.go.jp/MINJI/02.html'),
+    'moj_hokan11': src('法務省 自筆証書遺言書保管制度 よくあるご質問', 'https://www.moj.go.jp/MINJI/11.html'),
+    'moj_sozoku_kyojuken': src('法務省 配偶者居住権の新設', 'https://www.moj.go.jp/MINJI/minji07_00028.html'),
+    'nta4666': src('国税庁 No.4666 配偶者居住権等の評価', NTA + 'hyoka/4666.htm'),
+    'nta4602': src('国税庁 No.4602 土地家屋の評価', NTA + 'sozoku/4602.htm'),
+    'nta_hyoka_rosenka': src('国税庁 財産評価基本通達 13（路線価方式）', 'https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/02/02.htm'),
+    'nta_hyoka_bairitsu': src('国税庁 財産評価基本通達 21（倍率方式）', 'https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/02/04.htm'),
+    'nta_hyoka_kashitakuchi': src('国税庁 財産評価基本通達 25（貸宅地の評価）', 'https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/02/05.htm'),
+    'nta_hyoka_shakuchi': src('国税庁 財産評価基本通達 27（借地権の評価）', 'https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/02/06.htm'),
+    'nta4638': src('国税庁 No.4638 取引相場のない株式の評価', NTA + 'hyoka/4638.htm'),
+    'nta_shokei': src('国税庁 事業承継税制特集', 'https://www.nta.go.jp/publication/pamph/jigyo-shokei/index.htm'),
+    'nta4148': src('国税庁 No.4148 非上場株式等についての相続税の納税猶予の特例等', NTA + 'sozoku/4148.htm'),
+    'nta4439': src('国税庁 No.4439 非上場株式等についての贈与税の納税猶予の特例等', NTA + 'zoyo/4439.htm'),
+    'keisan_shokei_zoyo': src('国税庁 確定申告書等作成コーナー 納税猶予制度のあらまし', 'https://www.keisan.nta.go.jp/r5yokuaru/zoyozei/tokureigaiyo/hijojozoyoyuyo/tokureigaiyo.html'),
+    'egov_shintakuhou': src('e-Gov法令検索 信託法', EGOV + '418AC0000000108'),
+    'egov_sozozei': src('e-Gov法令検索 相続税法', EGOV + '325AC0000000073'),
+    'nta4427': src('国税庁 No.4427 新たに信託の設定等を行った場合', NTA + 'zoyo/4427.htm'),
+})
+
 
 def T(id, name, reading, field, importance, short, detail, related=(), grades=(2, 3), example=None, system=None,
       formula=None, aliases=None, sources=(), evidence=()):
@@ -185,7 +250,13 @@ TERMS = [
     T('nini-keizoku', '任意継続被保険者', 'にんいけいぞくひほけんしゃ', 'A', 2,
       '退職後も、それまでの健康保険に最長2年間加入し続けられる制度。',
       '資格喪失日の前日まで継続して2カ月以上の被保険者期間が必要。資格喪失日から20日以内に申し出る。保険料は全額自己負担。',
-      ['shobyo-teatekin']),
+      ['shobyo-teatekin'], sources=['egov_kenpo', 'kyokai_nini'],
+      evidence=[ev(S['egov_kenpo']['url'], '喪失の日の前日まで継続して二月以上被保険者（日雇特例被保険者、任意継続被保険者又は共済組合の組合員である被保険者を除く。）であったもの'),
+                ev(S['egov_kenpo']['url'], '第三条第四項の申出は、被保険者の資格を喪失した日から二十日以内にしなければならない'),
+                ev(S['egov_kenpo']['url'], '任意継続被保険者となった日から起算して二年を経過したとき'),
+                ev(S['egov_kenpo']['url'], '被保険者及び被保険者を使用する事業主は、それぞれ保険料額の二分の一を負担する。ただし、任意継続被保険者は、その全額を負担する'),
+                ev(S['kyokai_nini']['url'], '退職日までに被保険者期間が継続して2か月以上あること'),
+                ev(S['kyokai_nini']['url'], '保険料は、退職前に控除されていた保険料を2倍した額になります')]),
     T('ideco', '個人型確定拠出年金（iDeCo）', 'こじんがたかくていきょしゅつねんきん', 'A', 3,
       '自分で掛金を拠出・運用し、その結果で将来の給付額が決まる私的年金。',
       '掛金は全額が小規模企業共済等掛金控除の対象。運用益は非課税。老齢給付金は年金または一時金で受け取れる。拠出限度額は加入者区分ごとに定められ、改正されることがある。',
