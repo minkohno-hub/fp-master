@@ -4116,6 +4116,98 @@
   ]
  },
  {
+  "id": "rikon-nenkin-bunkatsu",
+  "name": "離婚時年金分割",
+  "reading": "りこんじねんきんぶんかつ",
+  "field": "A",
+  "importance": 3,
+  "short": "離婚等をしたときに、婚姻期間中の厚生年金記録（標準報酬月額・標準賞与額）を当事者間で分割できる制度。合意分割と3号分割の2種類がある。",
+  "detail": "合意分割は、当事者の一方または双方からの請求により、合意または裁判手続きで定めた按分割合で分割する。3号分割は、国民年金の第3号被保険者であった方からの請求により、平成20年4月1日以後の第3号被保険者期間における相手方の厚生年金記録を2分の1ずつ分割するもので、当事者の合意は必要ない。請求期限は原則として離婚等をした日の翌日から5年以内（令和8年4月1日前に離婚等をした場合は2年以内）。",
+  "related": [
+   "rorei-kosei-nenkin"
+  ],
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "日本年金機構 離婚時の年金分割",
+    "url": "https://www.nenkin.go.jp/service/jukyu/seido/kyotsu/rikon/20140421-04.html"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.nenkin.go.jp/service/jukyu/seido/kyotsu/rikon/20140421-04.html",
+    "quote": "当事者の一方または双方からの請求により、婚姻期間中の厚生年金記録（標準報酬月額・標準賞与額）を当事者間で分割することができる制度です"
+   },
+   {
+    "url": "https://www.nenkin.go.jp/service/jukyu/seido/kyotsu/rikon/20140421-04.html",
+    "quote": "当事者の合意または裁判手続きにより按分割合を定めたこと"
+   },
+   {
+    "url": "https://www.nenkin.go.jp/service/jukyu/seido/kyotsu/rikon/20140421-04.html",
+    "quote": "国民年金の第3号被保険者であった方からの請求により、平成20年4月1日以後の婚姻期間中の第3号被保険者期間における相手方の厚生年金記録（標準報酬月額・標準賞与額）を2分の1ずつ、当事者間で分割することができる制度です"
+   },
+   {
+    "url": "https://www.nenkin.go.jp/service/jukyu/seido/kyotsu/rikon/20140421-04.html",
+    "quote": "「3号分割制度」については、当事者の合意は必要ありません"
+   },
+   {
+    "url": "https://www.nenkin.go.jp/service/jukyu/seido/kyotsu/rikon/20140421-04.html",
+    "quote": "請求期限（原則、離婚等をした日の翌日から起算して5年以内（※））を経過していないこと"
+   },
+   {
+    "url": "https://www.nenkin.go.jp/service/jukyu/seido/kyotsu/rikon/20140421-04.html",
+    "quote": "（※）令和8年4月1日前に離婚等をした場合は離婚等をした日の翌日から起算して2年以内"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-10-21"
+ },
+ {
+  "id": "nenkin-seikatsusha-shien",
+  "name": "年金生活者支援給付金",
+  "reading": "ねんきんせいかつしゃしえんきゅうふきん",
+  "field": "A",
+  "importance": 2,
+  "short": "公的年金等の収入やその他の所得額が所得基準額以下の年金受給者の生活を支援するために、年金に上乗せして支給される給付金。",
+  "detail": "受け取るには年金生活者支援給付金請求書の提出が必要。給付額は毎年度、物価の変動による改定（物価スライド改定）がある。日本国内に住所がないとき、年金が全額支給停止のとき、刑事施設等に拘禁されているときは支給されない。",
+  "related": [
+   "rorei-kiso-nenkin"
+  ],
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "日本年金機構 年金生活者支援給付金",
+    "url": "https://www.nenkin.go.jp/service/jukyu/seido/sonota-kyufu/shienkyufukin/20190805.html"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.nenkin.go.jp/service/jukyu/seido/sonota-kyufu/shienkyufukin/20190805.html",
+    "quote": "年金生活者支援給付金は、公的年金等の収入やその他の所得額が所得基準額以下の年金受給者の生活を支援するために、年金に上乗せして支給されるものです"
+   },
+   {
+    "url": "https://www.nenkin.go.jp/service/jukyu/seido/sonota-kyufu/shienkyufukin/20190805.html",
+    "quote": "年金生活者支援給付金を受け取るには、年金生活者支援給付金請求書の提出が必要です"
+   },
+   {
+    "url": "https://www.nenkin.go.jp/service/jukyu/seido/sonota-kyufu/shienkyufukin/20190805.html",
+    "quote": "給付額は、毎年度、物価の変動による改定（物価スライド改定）があります"
+   },
+   {
+    "url": "https://www.nenkin.go.jp/service/jukyu/seido/sonota-kyufu/shienkyufukin/20190805.html",
+    "quote": "年金生活者支援給付金は支給されません。日本国内に住所がないとき年金が全額支給停止のとき刑事施設等に拘禁されているとき"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-10-21"
+ },
+ {
   "id": "teiki-hoken",
   "name": "定期保険",
   "reading": "ていきほけん",
@@ -6090,6 +6182,414 @@
    "CB",
    "転換社債",
    "新株予約権付社債"
+  ]
+ },
+ {
+  "id": "shikumisai",
+  "name": "仕組債",
+  "reading": "しくみさい",
+  "field": "C",
+  "importance": 3,
+  "short": "スワップやオプションなどのデリバティブ（金融派生商品）を利用して、投資家や発行者のニーズに合うキャッシュフローを生み出す仕組みを持つ債券。",
+  "detail": "一般的な債券にはみられない特別な「仕組み」を持つ債券。その仕組みにより、満期やクーポン（利子）、償還金などを、投資家や発行者のニーズに合わせて比較的自由に設定することができる。",
+  "related": [
+   "derivatives",
+   "swap",
+   "options"
+  ],
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "日本証券業協会 「仕組債」とは？",
+    "url": "https://www.jsda.or.jp/about/hatten/risk/shikumisai/index.html"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.jsda.or.jp/about/hatten/risk/shikumisai/index.html",
+    "quote": "「仕組債」とは、文字通り、一般的な債券にはみられないような特別な「仕組み」をもつ債券です"
+   },
+   {
+    "url": "https://www.jsda.or.jp/about/hatten/risk/shikumisai/index.html",
+    "quote": "この場合の「仕組み」とは、スワップ(※1)やオプション(※2)などのデリバティブ（金融派生商品）を利用することにより、投資家や発行者のニーズに合うキャッシュフローを生み出す構造を指します"
+   },
+   {
+    "url": "https://www.jsda.or.jp/about/hatten/risk/shikumisai/index.html",
+    "quote": "こうした「仕組み」により、満期やクーポン（利子）、償還金などを、投資家や発行者のニーズに合わせて比較的自由に設定することができます"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-10-21"
+ },
+ {
+  "id": "shokenka-shohin",
+  "name": "証券化商品",
+  "reading": "しょうけんかしょうひん",
+  "field": "C",
+  "importance": 3,
+  "short": "金融資産や不動産などの保有資産を有価証券を利用して流動化（証券化）することにより発行され、市場で流通する証券。",
+  "detail": "証券化は英語表記「Securitization」の日本語読みで、セキュリタイゼーションともいう。",
+  "related": [],
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "大和証券 金融・証券用語解説 証券化",
+    "url": "https://www.daiwa.jp/glossary/YST0805.html"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.daiwa.jp/glossary/YST0805.html",
+    "quote": "セキュリタイゼーションは、金融資産や不動産などの保有資産を有価証券を利用して流動化することです"
+   },
+   {
+    "url": "https://www.daiwa.jp/glossary/YST0805.html",
+    "quote": "流動化された証券は、高利回りの証券化商品として市場で流通されます"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-10-21"
+ },
+ {
+  "id": "gensaki",
+  "name": "現先取引",
+  "reading": "げんさきとりひき",
+  "field": "C",
+  "importance": 2,
+  "short": "債券を、一定期間後に一定の価格で買い戻す（売り戻す）ことを条件に売買する取引。",
+  "detail": "債券の売り手にとっては短期の資金調達の手段として、債券の買い手にとっては短期の資金運用の手段として、銀行や証券会社などに利用されている。",
+  "related": [
+   "repo"
+  ],
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "日本取引所グループ 用語集 （債券の）現先取引",
+    "url": "https://www.jpx.co.jp/glossary/ka/128.html"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.jpx.co.jp/glossary/ka/128.html",
+    "quote": "債券を一定期間後に一定の価格で買戻す、あるいは売り戻すことを条件に、売買する取引のことです"
+   },
+   {
+    "url": "https://www.jpx.co.jp/glossary/ka/128.html",
+    "quote": "債券の売り手にとっては短期の資金調達の手段として、債券の買い手にとっては短期の資金運用の手段として、銀行や証券会社などに利用されています"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-10-21",
+  "aliases": [
+   "債券現先取引",
+   "債券の現先取引"
+  ]
+ },
+ {
+  "id": "repo",
+  "name": "レポ取引",
+  "reading": "れぽとりひき",
+  "field": "C",
+  "importance": 2,
+  "short": "現金を担保とした債券の消費貸借契約。現金担保付債券貸借取引の略。",
+  "detail": "海外のレポ取引と区別して「日本版レポ取引」と呼ばれる。貸借銘柄を特定したスペシャル取引（SC取引）と、特定しないジェネラル取引（GC取引）がある。",
+  "related": [
+   "gensaki"
+  ],
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "日本取引所グループ 用語集 レポ取引",
+    "url": "https://www.jpx.co.jp/glossary/ra/470.html"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.jpx.co.jp/glossary/ra/470.html",
+    "quote": "レポ取引（正確には、「日本版レポ取引」として海外のレポ取引とは区別しています。）とは、現金担保付債券貸借取引の略で、名前のとおり、現金を担保とした債券の消費貸借契約のことをいいます"
+   },
+   {
+    "url": "https://www.jpx.co.jp/glossary/ra/470.html",
+    "quote": "レポ取引には、貸借銘柄を特定したスペシャル取引（SC取引）と、特定しないジェネラル取引（GC取引）があります"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-10-21"
+ },
+ {
+  "id": "mokuromi",
+  "name": "目論見書",
+  "reading": "もくろみしょ",
+  "field": "C",
+  "importance": 3,
+  "short": "有価証券の公募や売出しの際に、発行者が投資家に対して投資判断の基となる情報を提供するために、金融商品取引法第13条に基づいて記載・交付する書類。",
+  "detail": "主な記載内容は、発行会社の事業の内容や経理の状況のほか、調達資金の使途や、募集または売出しの対象となる有価証券に関する情報。",
+  "related": [],
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "日本取引所グループ 用語集 目論見書",
+    "url": "https://www.jpx.co.jp/glossary/ma/431.html"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.jpx.co.jp/glossary/ma/431.html",
+    "quote": "有価証券の発行者がその公募や売出しの際に、投資家に対してその投資判断の基となる情報を提供するために、金融商品取引法第13条に基づいて記載・交付する書類です"
+   },
+   {
+    "url": "https://www.jpx.co.jp/glossary/ma/431.html",
+    "quote": "主な記載内容は発行会社の事業の内容や経理の状況の他、調達資金の使途や募集又は売出しの対象となる有価証券に関する情報があります"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-10-21"
+ },
+ {
+  "id": "country-risk",
+  "name": "カントリーリスク",
+  "reading": "かんとりーりすく",
+  "field": "C",
+  "importance": 2,
+  "short": "投資対象となる国・地域の政治情勢や社会経済の安定度によって左右される、その国への投資に伴うリスク。",
+  "detail": "ある国の政治情勢が安定しており、経済が堅調なら、その国（の証券）に投資するリスクは低いといえ、逆に政治や社会経済が不安定であった場合、カントリーリスクは高いと考えられる。",
+  "related": [],
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "野村證券 証券用語解説集 リスクの種類",
+    "url": "https://www.nomura.co.jp/terms/japan/ri/risuku.html"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.nomura.co.jp/terms/japan/ri/risuku.html",
+    "quote": "ある国の政治情勢が安定しており、経済が堅調なら、その国（の証券）に投資するリスクは低いといえ、逆に政治や社会経済が不安定であった場合、カントリーリスクは高いと考えられる"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-10-21"
+ },
+ {
+  "id": "gaika-mmf",
+  "name": "外貨建MMF",
+  "reading": "がいかだてえむえむえふ",
+  "field": "C",
+  "importance": 3,
+  "short": "外国で作られた投資信託のひとつで、格付けの高い外貨建ての短期証券や国債などの短期債券などを中心に運用される商品。マネー・マーケット・ファンドの略。",
+  "detail": "運用実績に応じて毎日分配が行われ、分配金は毎月最終取引日にまとめて元本に再投資される。元本は保証されていないが、少額からいつでも申込み・換金ができる。基準通貨が外貨のため、円ベースでは為替の変動によるリスクがある。国内のMMF（マネー・マネジメント・ファンド）とは別の商品。",
+  "related": [],
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "大和証券 金融・証券用語解説 外貨建てMMF",
+    "url": "https://www.daiwa.jp/glossary/YST0207.html"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.daiwa.jp/glossary/YST0207.html",
+    "quote": "外国で作られた投資信託のひとつで、格付けの高い外貨建ての短期証券（ＣＰ、銀行引受手形、政府またはその機関の発行した証券など短期証券）や国債などの短期債券などを中心に運用される商品"
+   },
+   {
+    "url": "https://www.daiwa.jp/glossary/YST0207.html",
+    "quote": "外貨建てＭＭＦ（マネー・マーケット・ファンド）といい、略称は同じＭＭＦでもＭＭＦ（マネー・マネジメント・ファンド）とは名称が異なります"
+   },
+   {
+    "url": "https://www.daiwa.jp/glossary/YST0207.html",
+    "quote": "運用実績に応じて毎日分配が行われ、当該分配金は毎月最終取引日にまとめて元本に再投資されます"
+   },
+   {
+    "url": "https://www.daiwa.jp/glossary/YST0207.html",
+    "quote": "元本は保証されていませんが、運用通貨ベースの元本割れリスクは比較的小さく、少額からいつでも申し込み・換金できることから利便性も高いといえます"
+   },
+   {
+    "url": "https://www.daiwa.jp/glossary/YST0207.html",
+    "quote": "元本は保証されていません"
+   },
+   {
+    "url": "https://www.daiwa.jp/glossary/YST0207.html",
+    "quote": "基準通貨が外貨であるため、円ベースで考える投資家にとっては為替の変動によるリスクがあります"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-10-21",
+  "aliases": [
+   "外貨建てMMF"
+  ]
+ },
+ {
+  "id": "alternative",
+  "name": "オルタナティブ投資",
+  "reading": "おるたなてぃぶとうし",
+  "field": "C",
+  "importance": 2,
+  "short": "株式や債券といった伝統的な投資対象とは異なる対象への投資。",
+  "detail": "代表的なものに、デリバティブ、ベンチャー・キャピタル、ヘッジファンド、商品ファンド、不動産などがある。一般的には株式や債券との相関性が低いとされており、ポートフォリオに組み込むことでリスクを分散する効果が期待できる。年金などでも利用されている。",
+  "related": [],
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "大和証券 金融・証券用語解説 オルタナティブ投資",
+    "url": "https://www.daiwa.jp/glossary/YST0195.html"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.daiwa.jp/glossary/YST0195.html",
+    "quote": "株式や債券といった伝統的な投資対象とは異なる対象への投資のこと"
+   },
+   {
+    "url": "https://www.daiwa.jp/glossary/YST0195.html",
+    "quote": "代表的なものに、デリバティブ、ベンチャー・キャピタル、ヘッジファンド、商品ファンド、不動産などがあります"
+   },
+   {
+    "url": "https://www.daiwa.jp/glossary/YST0195.html",
+    "quote": "一般的には、オルタナティブの投資対象は、株式や債券との相関性が低いとされており、ポートフォリオにオルタナティブ投資を組み込むことで、リスクを分散する効果が期待できます"
+   },
+   {
+    "url": "https://www.daiwa.jp/glossary/YST0195.html",
+    "quote": "年金などでも利用されています"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-10-21"
+ },
+ {
+  "id": "efficient-frontier",
+  "name": "効率的フロンティア",
+  "reading": "こうりつてきふろんてぃあ",
+  "field": "C",
+  "importance": 2,
+  "short": "分散投資を実施したときに実現するポートフォリオの中で、あるリスクの水準で最大のリターンを獲得できるポートフォリオの集合。",
+  "detail": "安全資産が存在しないときには、投資可能な領域（投資機会集合）の上方が効率的フロンティアとなる。",
+  "related": [],
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "一橋大学 ファイナンス用語集 効率的フロンティア",
+    "url": "https://glossary.hub.hit-u.ac.jp/faq/show/148/"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://glossary.hub.hit-u.ac.jp/faq/show/148/",
+    "quote": "分散投資を実施したときに実現するポートフォリオの中で、あるリスクの水準で最大のリターンを獲得できるポートフォリオの集合のことを指す"
+   },
+   {
+    "url": "https://glossary.hub.hit-u.ac.jp/faq/show/148/",
+    "quote": "安全資産が存在しないときには、投資可能な領域（投資機会集合）の上方が効率的フロンティアとなる"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-10-21"
+ },
+ {
+  "id": "emh",
+  "name": "効率的市場仮説",
+  "reading": "こうりつてきしじょうかせつ",
+  "field": "C",
+  "importance": 2,
+  "short": "すべての利用可能な情報が完全に市場価格に反映されているとする仮説。",
+  "detail": "Famaは1970年の論文で、価格に反映されている情報に応じて、市場の効率性の概念を弱度・準強度・強度の3つに分類している。市場が効率的であるならば、現在利用可能な情報を用いて将来の株価を予測することはできないとされる。",
+  "related": [
+   "efficient-frontier"
+  ],
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "一橋大学 ファイナンス用語集 効率的市場仮説",
+    "url": "https://glossary.hub.hit-u.ac.jp/faq/show/164/"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://glossary.hub.hit-u.ac.jp/faq/show/164/",
+    "quote": "効率的市場仮説（Efficient Market Hypothesis、EMH）とは、すべての利用可能な情報が完全に市場価格に反映されているとする仮説である"
+   },
+   {
+    "url": "https://glossary.hub.hit-u.ac.jp/faq/show/164/",
+    "quote": "Famaは、1970年の論文で価格に反映されている情報に応じて、市場の効率性の概念を弱度・準強度・強度の3つに分類している"
+   },
+   {
+    "url": "https://glossary.hub.hit-u.ac.jp/faq/show/164/",
+    "quote": "市場が効率的であるならば、現在利用可能な情報を用いて、将来の株価を予測することはできない"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-10-21",
+  "aliases": [
+   "EMH"
+  ]
+ },
+ {
+  "id": "maruyu",
+  "name": "マル優",
+  "reading": "まるゆう",
+  "field": "C",
+  "importance": 3,
+  "short": "障害者等に該当する人が利用できる少額貯蓄非課税制度。預貯金など4種類の貯蓄の元本の合計額350万円までの利子が非課税になる。",
+  "detail": "利用できるのは、国内に住所のある個人で障害者等に該当する人に限られる。非課税の対象は、預貯金、合同運用信託、特定公募公社債等運用投資信託および一定の有価証券。国債および地方債を対象とする特別マル優（額面の合計額350万円まで）は、マル優とは別枠の制度。",
+  "related": [],
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "国税庁 No.1313 障害者等のマル優(非課税貯蓄)",
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1313.htm"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1313.htm",
+    "quote": "この制度を利用できる人は、国内に住所のある個人で、障害者等に該当する人に限られています"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1313.htm",
+    "quote": "非課税の対象となる貯蓄は、預貯金、合同運用信託、特定公募公社債等運用投資信託および一定の有価証券です。非課税となるのは、上記4種類の貯蓄の元本の合計額が350万円までの利子です"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1313.htm",
+    "quote": "非課税の対象となる利子は、国債および地方債の額面の合計額が350万円までの利子です。これは、上記（1）の障害者等のマル優とは別枠になっています"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-10-21",
+  "aliases": [
+   "少額貯蓄非課税制度",
+   "障害者等のマル優"
   ]
  },
  {
