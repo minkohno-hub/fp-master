@@ -291,6 +291,23 @@ S.update({
     'jpx_reit_trading': src('日本取引所グループ 売買制度（REIT）', 'https://www.jpx.co.jp/equities/products/reits/trading/index.html'),
 })
 
+# ── バッチ5（未収録語の追加 2026-10-30）の出典 ──
+S.update({
+    'jpx_gensaki': src('日本取引所グループ 用語集 （債券の）現先取引', 'https://www.jpx.co.jp/glossary/ka/128.html'),
+    'jpx_repo': src('日本取引所グループ 用語集 レポ取引', 'https://www.jpx.co.jp/glossary/ra/470.html'),
+    'jpx_mokuromi': src('日本取引所グループ 用語集 目論見書', 'https://www.jpx.co.jp/glossary/ma/431.html'),
+    'jsda_shikumisai': src('日本証券業協会 「仕組債」とは？', 'https://www.jsda.or.jp/about/hatten/risk/shikumisai/index.html'),
+    'daiwa_shokenka': src('大和証券 金融・証券用語解説 証券化', 'https://www.daiwa.jp/glossary/YST0805.html'),
+    'nomura_risk': src('野村證券 証券用語解説集 リスクの種類', 'https://www.nomura.co.jp/terms/japan/ri/risuku.html'),
+    'daiwa_gaika_mmf': src('大和証券 金融・証券用語解説 外貨建てMMF', 'https://www.daiwa.jp/glossary/YST0207.html'),
+    'daiwa_alternative': src('大和証券 金融・証券用語解説 オルタナティブ投資', 'https://www.daiwa.jp/glossary/YST0195.html'),
+    'hit_frontier': src('一橋大学 ファイナンス用語集 効率的フロンティア', 'https://glossary.hub.hit-u.ac.jp/faq/show/148/'),
+    'hit_emh': src('一橋大学 ファイナンス用語集 効率的市場仮説', 'https://glossary.hub.hit-u.ac.jp/faq/show/164/'),
+    'nta1313': src('国税庁 No.1313 障害者等のマル優(非課税貯蓄)', NTA + 'shotoku/1313.htm'),
+    'nk_bunkatsu': src('日本年金機構 離婚時の年金分割', 'https://www.nenkin.go.jp/service/jukyu/seido/kyotsu/rikon/20140421-04.html'),
+    'nk_shien': src('日本年金機構 年金生活者支援給付金', 'https://www.nenkin.go.jp/service/jukyu/seido/sonota-kyufu/shienkyufukin/20190805.html'),
+})
+
 
 def T(id, name, reading, field, importance, short, detail, related=(), grades=(2, 3), example=None, system=None,
       formula=None, aliases=None, sources=(), evidence=()):
