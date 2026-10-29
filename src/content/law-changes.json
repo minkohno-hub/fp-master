@@ -341,5 +341,32 @@
    "kubun-shoyuho"
   ],
   "checkedAt": "2026-10-28"
+ },
+ {
+  "id": "r8-kokunen-kikin",
+  "title": "国民年金基金の掛金上限の引上げ（令和8年12月分から月額75,000円）",
+  "field": "A",
+  "effective": "2026-12-01",
+  "summary": "国民年金基金の掛金の上限が、令和8年12月分の掛金から月額68,000円から75,000円に引き上げられる予定（厚生労働省ページで公表）。iDeCo掛金との合算上限も連動する。試験の法令基準日（2026年4月1日）時点では68,000円が正しいため、既存問題への影響はない。",
+  "before": "令和8年11月分まで：月額68,000円（iDeCoと合算）",
+  "after": "令和8年12月分から：月額75,000円（iDeCoと合算）",
+  "sources": [
+   {
+    "title": "厚生労働省 国民年金基金制度",
+    "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000059350.html"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000059350.html",
+    "quote": "掛金の上限は、月額6万8,000円です。（令和８年12月分の掛金から上限が月額7万5,000円に引き上げられる予定です。）"
+   }
+  ],
+  "status": "confirmed",
+  "affectedQuestions": [],
+  "affectedTerms": [
+   "kokumin-nenkin-kikin"
+  ],
+  "checkedAt": "2026-10-30"
  }
 ]

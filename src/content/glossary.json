@@ -181,8 +181,8 @@
   "reading": "かしょぶんしょとく",
   "field": "A",
   "importance": 3,
-  "short": "年収から所得税・住民税と社会保険料を差し引いた、自由に使える金額。",
-  "detail": "キャッシュフロー表などで使う。可処分所得＝年収－（所得税・住民税＋社会保険料）。生命保険料などは差し引かない点に注意。",
+  "short": "収入から税金や社会保険料などを差し引いた、自由に使える金額（手取り収入）。",
+  "detail": "家計調査では「実収入」から税金、社会保険料などの「非消費支出」を差し引いた額で、いわゆる手取り収入のこととされる。キャッシュフロー表などで使う。",
   "related": [
    "cashflow-hyo"
   ],
@@ -192,16 +192,37 @@
   ],
   "sources": [
    {
-    "title": "日本FP協会 試験範囲（試験要綱）",
-    "url": "https://www.jafp.or.jp/exam/outline/"
+    "title": "総務省統計局 家計調査 用語の解説",
+    "url": "https://www.stat.go.jp/data/kakei/kaisetsu.html"
+   },
+   {
+    "title": "日本FP協会 便利ツールで家計をチェック",
+    "url": "https://www.jafp.or.jp/know/fp/sheet/"
    }
   ],
-  "evidence": [],
-  "reviewStatus": "draft",
+  "evidence": [
+   {
+    "url": "https://www.stat.go.jp/data/kakei/kaisetsu.html",
+    "quote": "「実収入」から税金、社会保険料などの「非消費支出」を差し引いた額で、いわゆる手取り収入のことである"
+   },
+   {
+    "url": "https://www.stat.go.jp/data/kakei/kaisetsu.html",
+    "quote": "非消費支出……税金や社会保険料など原則として世帯の自由にならない支出である"
+   },
+   {
+    "url": "https://www.stat.go.jp/data/kakei/kaisetsu.html",
+    "quote": "可処分所得=実収入-非消費支出"
+   },
+   {
+    "url": "https://www.jafp.or.jp/know/fp/sheet/",
+    "quote": "みなさんが実際に使えるお金は、手取り収入と言われる部分です。この手取り収入が「可処分所得」です"
+   }
+  ],
+  "reviewStatus": "verified",
   "checkedAt": "2026-10-21",
   "formula": {
    "name": "可処分所得",
-   "tex": "\\text{年収} - (\\text{所得税・住民税} + \\text{社会保険料})"
+   "tex": "\\text{実収入} - \\text{非消費支出}"
   }
  },
  {
@@ -210,8 +231,8 @@
   "reading": "きゃっしゅふろーひょう",
   "field": "A",
   "importance": 2,
-  "short": "将来の収入・支出・貯蓄残高の推移を年ごとに一覧にした表。",
-  "detail": "各年の金融資産残高は「前年末残高×（1＋運用利率）±その年の年間収支」で計算する。収入・支出は変動率を用いて将来値を見積もる。",
+  "short": "現在から将来までの家計の変化をチェックするための表。",
+  "detail": "家計の収支表とライフイベント表から数字を転記して作成する。20年～30年分を目安に作成する。",
   "related": [
    "kashobun-shotoku"
   ],
@@ -221,12 +242,25 @@
   ],
   "sources": [
    {
-    "title": "日本FP協会 試験範囲（試験要綱）",
-    "url": "https://www.jafp.or.jp/exam/outline/"
+    "title": "日本FP協会 便利ツールで家計をチェック",
+    "url": "https://www.jafp.or.jp/know/fp/sheet/"
    }
   ],
-  "evidence": [],
-  "reviewStatus": "draft",
+  "evidence": [
+   {
+    "url": "https://www.jafp.or.jp/know/fp/sheet/",
+    "quote": "「家計のキャッシュフロー表」を作成し、現在から将来までの家計の変化をチェックしてみましょう"
+   },
+   {
+    "url": "https://www.jafp.or.jp/know/fp/sheet/",
+    "quote": "家計の収支表とライフイベント表から数字を転記し"
+   },
+   {
+    "url": "https://www.jafp.or.jp/know/fp/sheet/",
+    "quote": "20年～30年分を目安に作成します"
+   }
+  ],
+  "reviewStatus": "verified",
   "checkedAt": "2026-10-21"
  },
  {
@@ -574,12 +608,41 @@
   ],
   "sources": [
    {
-    "title": "日本FP協会 試験範囲（試験要綱）",
-    "url": "https://www.jafp.or.jp/exam/outline/"
+    "title": "中小企業基盤整備機構 小規模企業共済 制度の概要",
+    "url": "https://www.smrj.go.jp/kyosai/skyosai/features/index.html"
+   },
+   {
+    "title": "共済サポートnavi 小規模企業共済の掛金",
+    "url": "https://kyosai-web.smrj.go.jp/customer/skyosai/installment/"
+   },
+   {
+    "title": "国税庁 No.1135 小規模企業共済等掛金控除",
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1135.htm"
    }
   ],
-  "evidence": [],
-  "reviewStatus": "draft",
+  "evidence": [
+   {
+    "url": "https://www.smrj.go.jp/kyosai/skyosai/features/index.html",
+    "quote": "国の機関である中小機構が運営する小規模企業共済制度は、小規模企業の経営者や役員、個人事業主などのための、積み立てによる退職金制度です"
+   },
+   {
+    "url": "https://www.smrj.go.jp/kyosai/skyosai/features/index.html",
+    "quote": "月々の掛金は1,000～70,000円まで500円単位で自由に設定が可能で、加入後も増額・減額できます"
+   },
+   {
+    "url": "https://kyosai-web.smrj.go.jp/customer/skyosai/installment/",
+    "quote": "小規模企業共済の掛金は、月額1,000円～最高70,000円の範囲内（500円単位）で自由に設定できます"
+   },
+   {
+    "url": "https://kyosai-web.smrj.go.jp/customer/skyosai/installment/",
+    "quote": "掛金は税法上、全額を小規模企業共済等掛金控除として、課税対象となる所得から控除できます"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1135.htm",
+    "quote": "控除できる金額は、その年に支払った掛金の全額です"
+   }
+  ],
+  "reviewStatus": "verified",
   "checkedAt": "2026-10-21"
  },
  {
@@ -588,8 +651,8 @@
   "reading": "がんりきんとうへんさい",
   "field": "A",
   "importance": 3,
-  "short": "毎回の返済額（元金＋利息）が一定になる住宅ローンの返済方法。",
-  "detail": "返済当初は利息の割合が大きい。他の条件が同じなら、元金均等返済より総返済額が多くなる。",
+  "short": "毎月の返済額（元金＋利息）が一定になる住宅ローンの返済方法。",
+  "detail": "返済額が一定のため、返済計画が立てやすい。元金均等返済に比べて借入金残高の減り方が遅く、同じ借入期間の場合、元金均等返済よりも総返済額が多くなる。",
   "related": [
    "ganking-kinto"
   ],
@@ -599,12 +662,29 @@
   ],
   "sources": [
    {
-    "title": "日本FP協会 試験範囲（試験要綱）",
-    "url": "https://www.jafp.or.jp/exam/outline/"
+    "title": "住宅金融支援機構 【フラット３５】元利均等返済・元金均等返済",
+    "url": "https://www.flat35.com/loan/lineup/kinto/index.html"
    }
   ],
-  "evidence": [],
-  "reviewStatus": "draft",
+  "evidence": [
+   {
+    "url": "https://www.flat35.com/loan/lineup/kinto/index.html",
+    "quote": "毎月お支払いいただく返済額が一定となる返済方法です"
+   },
+   {
+    "url": "https://www.flat35.com/loan/lineup/kinto/index.html",
+    "quote": "返済額（元金＋利息）が一定のため、返済計画が立てやすくなります"
+   },
+   {
+    "url": "https://www.flat35.com/loan/lineup/kinto/index.html",
+    "quote": "借入金残高の減り方が遅くなります"
+   },
+   {
+    "url": "https://www.flat35.com/loan/lineup/kinto/index.html",
+    "quote": "同じ借入期間の場合、元金均等返済よりも総返済額が多くなります"
+   }
+  ],
+  "reviewStatus": "verified",
   "checkedAt": "2026-10-21"
  },
  {
@@ -624,12 +704,29 @@
   ],
   "sources": [
    {
-    "title": "日本FP協会 試験範囲（試験要綱）",
-    "url": "https://www.jafp.or.jp/exam/outline/"
+    "title": "住宅金融支援機構 【フラット３５】元利均等返済・元金均等返済",
+    "url": "https://www.flat35.com/loan/lineup/kinto/index.html"
    }
   ],
-  "evidence": [],
-  "reviewStatus": "draft",
+  "evidence": [
+   {
+    "url": "https://www.flat35.com/loan/lineup/kinto/index.html",
+    "quote": "毎月お支払いいただく返済額のうち、元金の額が一定となる返済方法です"
+   },
+   {
+    "url": "https://www.flat35.com/loan/lineup/kinto/index.html",
+    "quote": "返済額（元金＋利息）は返済が進むにつれ少なくなっていきます"
+   },
+   {
+    "url": "https://www.flat35.com/loan/lineup/kinto/index.html",
+    "quote": "返済開始当初の返済額が最も高いため、当初の返済負担が重く"
+   },
+   {
+    "url": "https://www.flat35.com/loan/lineup/kinto/index.html",
+    "quote": "元利均等返済に比べて、元金の減少が早いため、同じ借入期間の場合、元利均等返済よりも総返済額は少なくなります"
+   }
+  ],
+  "reviewStatus": "verified",
   "checkedAt": "2026-10-21"
  },
  {
@@ -649,12 +746,45 @@
   ],
   "sources": [
    {
-    "title": "日本FP協会 試験範囲（試験要綱）",
-    "url": "https://www.jafp.or.jp/exam/outline/"
+    "title": "住宅金融支援機構 【フラット３５】商品ラインナップ",
+    "url": "https://www.flat35.com/loan/lineup/index.html"
+   },
+   {
+    "title": "住宅金融支援機構 【フラット３５】4つのメリット",
+    "url": "https://www.flat35.com/loan/merit/index.html"
+   },
+   {
+    "title": "住宅金融支援機構 【フラット３５】ご利用条件",
+    "url": "https://www.flat35.com/loan/lineup/flat35/conditions/index.html"
    }
   ],
-  "evidence": [],
-  "reviewStatus": "draft",
+  "evidence": [
+   {
+    "url": "https://www.flat35.com/loan/lineup/index.html",
+    "quote": "民間金融機関と住宅金融支援機構が提携して提供する最長35年の全期間固定金利住宅ローンです"
+   },
+   {
+    "url": "https://www.flat35.com/loan/merit/index.html",
+    "quote": "世の中の金利が変わっても、借入金利と返済額がずっと変わらない。全期間固定金利の住宅ローン【フラット３５】なら将来まで見通すことができるから安心です"
+   },
+   {
+    "url": "https://www.flat35.com/loan/lineup/flat35/conditions/index.html",
+    "quote": "借入金利は取扱金融機関により異なります"
+   },
+   {
+    "url": "https://www.flat35.com/loan/lineup/flat35/conditions/index.html",
+    "quote": "保証人必要ありません"
+   },
+   {
+    "url": "https://www.flat35.com/loan/lineup/flat35/conditions/index.html",
+    "quote": "保証料・繰上返済手数料必要ありません"
+   },
+   {
+    "url": "https://www.flat35.com/loan/lineup/flat35/conditions/index.html",
+    "quote": "一部繰上返済の返済額は、お客さま向けインターネットサービス「住・MyNote」でお申込みの場合は10万円以上、取扱金融機関の窓口でお申込みの場合は100万円以上となります"
+   }
+  ],
+  "reviewStatus": "verified",
   "checkedAt": "2026-10-21",
   "aliases": [
    "フラット３５"
@@ -667,7 +797,7 @@
   "field": "B",
   "importance": 3,
   "short": "保険会社が運用で見込む利回り。保険料計算の基礎率の1つ。",
-  "detail": "予定利率を引き下げると、保険料は高くなる。保険料は予定死亡率・予定利率・予定事業費率の3つの予定基礎率で計算される。",
+  "detail": "保険料は予定死亡率・予定利率・予定事業費率などの予定率をもとに算出される。",
   "related": [
    "taisu-no-hosoku"
   ],
@@ -677,12 +807,21 @@
   ],
   "sources": [
    {
-    "title": "日本FP協会 試験範囲（試験要綱）",
-    "url": "https://www.jafp.or.jp/exam/outline/"
+    "title": "生命保険文化センター 用語辞典",
+    "url": "https://www.jili.or.jp/knows_learns/basic/explanation/index.html"
    }
   ],
-  "evidence": [],
-  "reviewStatus": "draft",
+  "evidence": [
+   {
+    "url": "https://www.jili.or.jp/knows_learns/basic/explanation/index.html",
+    "quote": "生命保険会社は資産運用による一定の収益をあらかじめ見込んで、一定の利率により保険料を割り引いています。その一定の利率を予定利率といいます。"
+   },
+   {
+    "url": "https://www.jili.or.jp/knows_learns/basic/explanation/index.html",
+    "quote": "保険料は予定死亡率・予定利率・予定事業費率などの予定率をもとに算出されます"
+   }
+  ],
+  "reviewStatus": "verified",
   "checkedAt": "2026-10-21"
  },
  {
@@ -702,12 +841,41 @@
   ],
   "sources": [
    {
-    "title": "日本FP協会 試験範囲（試験要綱）",
-    "url": "https://www.jafp.or.jp/exam/outline/"
+    "title": "総務省統計局 保険料の算定",
+    "url": "https://www.stat.go.jp/naruhodo/15_episode/toukeigaku/hoken.html"
+   },
+   {
+    "title": "生命保険協会 生命保険の仕組み（STEP.3）",
+    "url": "https://www.seiho.or.jp/data/billboard/introduction/content03/"
+   },
+   {
+    "title": "生命保険文化センター 用語辞典",
+    "url": "https://www.jili.or.jp/knows_learns/basic/explanation/index.html"
+   },
+   {
+    "title": "日本損害保険協会 保険の用語集",
+    "url": "https://www.sonpo.or.jp/wakaru/word/"
    }
   ],
-  "evidence": [],
-  "reviewStatus": "draft",
+  "evidence": [
+   {
+    "url": "https://www.stat.go.jp/naruhodo/15_episode/toukeigaku/hoken.html",
+    "quote": "大数の法則とは、個々では偶然と思われる事象でも、その事象を独立に繰り返していくと、ある一定の確率に近づくことをいいます"
+   },
+   {
+    "url": "https://www.stat.go.jp/naruhodo/15_episode/toukeigaku/hoken.html",
+    "quote": "保険会社では、この法則を前提として過去の統計データから得られた死亡率や事故の発生率などを基に生命保険や損害保険などの保険料を算定しています"
+   },
+   {
+    "url": "https://www.seiho.or.jp/data/billboard/introduction/content03/",
+    "quote": "集めた保険料（収入）と支払った保険金（支出）が等しくなることが基本です。これを「収支相等の原則」といい"
+   },
+   {
+    "url": "https://www.sonpo.or.jp/wakaru/word/",
+    "quote": "数少ない経験では何の法則もないようなことでも、数多くの経験を集めると、一定の法則を見いだすことができるという考え方をいいます"
+   }
+  ],
+  "reviewStatus": "verified",
   "checkedAt": "2026-10-21"
  },
  {
@@ -727,12 +895,21 @@
   ],
   "sources": [
    {
-    "title": "日本FP協会 試験範囲（試験要綱）",
-    "url": "https://www.jafp.or.jp/exam/outline/"
+    "title": "生命保険文化センター 用語辞典",
+    "url": "https://www.jili.or.jp/knows_learns/basic/explanation/index.html"
    }
   ],
-  "evidence": [],
-  "reviewStatus": "draft",
+  "evidence": [
+   {
+    "url": "https://www.jili.or.jp/knows_learns/basic/explanation/index.html",
+    "quote": "保険料の払い込みを中止して、その時点での解約返戻金をもとに、保険期間をそのままにした保障額の少ない保険（同じ種類の保険または養老保険）に変更する方法です"
+   },
+   {
+    "url": "https://www.jili.or.jp/knows_learns/basic/explanation/index.html",
+    "quote": "付加している各種特約は消滅します"
+   }
+  ],
+  "reviewStatus": "verified",
   "checkedAt": "2026-10-21"
  },
  {
@@ -752,12 +929,25 @@
   ],
   "sources": [
    {
-    "title": "日本FP協会 試験範囲（試験要綱）",
-    "url": "https://www.jafp.or.jp/exam/outline/"
+    "title": "生命保険文化センター 用語辞典",
+    "url": "https://www.jili.or.jp/knows_learns/basic/explanation/index.html"
+   },
+   {
+    "title": "生命保険文化センター 延長（定期）保険・払済保険への変更",
+    "url": "https://www.jili.or.jp/knows_learns/basic/continuance/97.html"
    }
   ],
-  "evidence": [],
-  "reviewStatus": "draft",
+  "evidence": [
+   {
+    "url": "https://www.jili.or.jp/knows_learns/basic/explanation/index.html",
+    "quote": "保険料の払い込みを中止して、その時点での解約返戻金をもとに、死亡・高度障害保障のみの定期保険に変更する方法です"
+   },
+   {
+    "url": "https://www.jili.or.jp/knows_learns/basic/continuance/97.html",
+    "quote": "死亡保険金はもとの保険と同額ですが、保険期間が短くなることがあります"
+   }
+  ],
+  "reviewStatus": "verified",
   "checkedAt": "2026-10-21"
  },
  {
@@ -777,12 +967,25 @@
   ],
   "sources": [
    {
-    "title": "日本FP協会 試験範囲（試験要綱）",
-    "url": "https://www.jafp.or.jp/exam/outline/"
+    "title": "金融庁 保険契約者保護機構制度",
+    "url": "https://www.fsa.go.jp/ordinary/hoken_hogo/index.html"
+   },
+   {
+    "title": "生命保険文化センター 生命保険会社が破綻した場合、契約はどうなるの？",
+    "url": "https://www.jili.or.jp/knows_learns/q_a/life_insurance/162.html"
    }
   ],
-  "evidence": [],
-  "reviewStatus": "draft",
+  "evidence": [
+   {
+    "url": "https://www.fsa.go.jp/ordinary/hoken_hogo/index.html",
+    "quote": "生命保険会社・損害保険会社別に設立された保険契約者保護機構が、破綻保険会社に係る保険契約の移転等における資金援助等を行うことにより、保険契約を継続させ、保険契約者の保護を図っています"
+   },
+   {
+    "url": "https://www.jili.or.jp/knows_learns/q_a/life_insurance/162.html",
+    "quote": "破綻時点の責任準備金の90％までは原則補償され、残りの10％については更生計画などにより決定されることとなります"
+   }
+  ],
+  "reviewStatus": "verified",
   "checkedAt": "2026-10-21"
  },
  {
@@ -870,12 +1073,33 @@
   ],
   "sources": [
    {
-    "title": "日本FP協会 試験範囲（試験要綱）",
-    "url": "https://www.jafp.or.jp/exam/outline/"
+    "title": "生命保険文化センター リビング・ニーズ特約",
+    "url": "https://www.jili.or.jp/knows_learns/kind/special/9259.html"
+   },
+   {
+    "title": "国税庁 質疑応答事例 リビング・ニーズ特約に基づく生前給付金",
+    "url": "https://www.nta.go.jp/law/shitsugi/shotoku/01/03.htm"
    }
   ],
-  "evidence": [],
-  "reviewStatus": "draft",
+  "evidence": [
+   {
+    "url": "https://www.jili.or.jp/knows_learns/kind/special/9259.html",
+    "quote": "原因にかかわらず医師から余命6カ月以内であると判断された場合、将来受け取る死亡保険金に代えて所定額の範囲内で保険金の一部または全部を生前に受け取れます"
+   },
+   {
+    "url": "https://www.jili.or.jp/knows_learns/kind/special/9259.html",
+    "quote": "特約の保険料は不要ですが"
+   },
+   {
+    "url": "https://www.jili.or.jp/knows_learns/kind/special/9259.html",
+    "quote": "税金は非課税となります"
+   },
+   {
+    "url": "https://www.nta.go.jp/law/shitsugi/shotoku/01/03.htm",
+    "quote": "非課税所得として取り扱って差し支えありません"
+   }
+  ],
+  "reviewStatus": "verified",
   "checkedAt": "2026-10-21"
  },
  {
@@ -893,12 +1117,25 @@
   ],
   "sources": [
    {
-    "title": "日本FP協会 試験範囲（試験要綱）",
-    "url": "https://www.jafp.or.jp/exam/outline/"
+    "title": "生命保険文化センター 用語辞典",
+    "url": "https://www.jili.or.jp/knows_learns/basic/explanation/index.html"
+   },
+   {
+    "title": "厚生労働省 先進医療の概要について",
+    "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iryouhoken/sensiniryo/index.html"
    }
   ],
-  "evidence": [],
-  "reviewStatus": "draft",
+  "evidence": [
+   {
+    "url": "https://www.jili.or.jp/knows_learns/basic/explanation/index.html",
+    "quote": "厚生労働大臣が認める先進医療に該当する療養を受けたとき、その技術料相当額の給付金を受け取れます。療養時点で先進医療に該当していないと給付されません"
+   },
+   {
+    "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iryouhoken/sensiniryo/index.html",
+    "quote": "「厚生労働大臣が定める高度の医療技術を用いた療養その他の療養であって、保険給付の対象とすべきものであるか否かについて、適正な医療の効率的な提供を図る観点から評価を行うことが必要な療養」として、厚生労働大臣が定める「評価療養」の1つとされています"
+   }
+  ],
+  "reviewStatus": "verified",
   "checkedAt": "2026-10-21"
  },
  {
@@ -936,7 +1173,7 @@
   "field": "C",
   "importance": 3,
   "short": "当初の元本に対してだけ利息が付く計算方法。",
-  "detail": "元利合計＝元本×（1＋年利率×年数）。",
+  "detail": "金利（利息）の計算方法の一つで、預け入れた元本に対してのみ、利息を計算する方法。利子を元金に組み入れない点で複利と異なる。",
   "related": [
    "fukuri"
   ],
@@ -946,12 +1183,25 @@
   ],
   "sources": [
    {
-    "title": "日本FP協会 試験範囲（試験要綱）",
-    "url": "https://www.jafp.or.jp/exam/outline/"
+    "title": "金融経済教育推進機構（J-FLEC）用語・金融商品解説 単利",
+    "url": "https://www.j-flec.go.jp/public/learn/glossary/t_tanri/"
+   },
+   {
+    "title": "金融広報中央委員会 知るぽると 金融用語解説 複利",
+    "url": "https://www.shiruporuto.jp/public/document/container/yogo/h/fukuri.html"
    }
   ],
-  "evidence": [],
-  "reviewStatus": "draft",
+  "evidence": [
+   {
+    "url": "https://www.j-flec.go.jp/public/learn/glossary/t_tanri/",
+    "quote": "金利（利息）の計算方法の一つで、預け入れた元本に対してのみ、利息を計算する方法"
+   },
+   {
+    "url": "https://www.shiruporuto.jp/public/document/container/yogo/h/fukuri.html",
+    "quote": "これに対して、利子を元金に組み入れない場合、「単利」となる"
+   }
+  ],
+  "reviewStatus": "verified",
   "checkedAt": "2026-10-21",
   "formula": {
    "name": "単利の元利合計",
@@ -965,7 +1215,7 @@
   "field": "C",
   "importance": 3,
   "short": "利息を元本に組み入れ、その合計に次の利息が付く計算方法。",
-  "detail": "1年複利の元利合計＝元本×（1＋年利率）^年数。半年複利は年利率÷2で年数×2回複利計算する。",
+  "detail": "金利（利息）の計算方法の一つで、利子にもまた利子がつく。元本に利息を足し合わせたものを新たな元本として利息を計算する。",
   "related": [
    "tanri",
    "shuka-keisu"
@@ -976,12 +1226,33 @@
   ],
   "sources": [
    {
-    "title": "日本FP協会 試験範囲（試験要綱）",
-    "url": "https://www.jafp.or.jp/exam/outline/"
+    "title": "金融経済教育推進機構（J-FLEC）用語・金融商品解説 複利",
+    "url": "https://www.j-flec.go.jp/public/learn/glossary/h_fukuri/"
+   },
+   {
+    "title": "資産運用業協会 用語集 複利",
+    "url": "https://www.imaj.or.jp/glossary/detail/231.html"
+   },
+   {
+    "title": "金融広報中央委員会 知るぽると 金融用語解説 複利",
+    "url": "https://www.shiruporuto.jp/public/document/container/yogo/h/fukuri.html"
    }
   ],
-  "evidence": [],
-  "reviewStatus": "draft",
+  "evidence": [
+   {
+    "url": "https://www.j-flec.go.jp/public/learn/glossary/h_fukuri/",
+    "quote": "金利（利息）の計算方法の一つで、利子にもまた利子がつくこと"
+   },
+   {
+    "url": "https://www.imaj.or.jp/glossary/detail/231.html",
+    "quote": "元本に利息を足し合わせたものを新たな元本として利息を計算すること"
+   },
+   {
+    "url": "https://www.shiruporuto.jp/public/document/container/yogo/h/fukuri.html",
+    "quote": "複利にするためには、利子を元金に組み入れて運用すればよい"
+   }
+  ],
+  "reviewStatus": "verified",
   "checkedAt": "2026-10-21",
   "formula": {
    "name": "1年複利の元利合計",
@@ -1007,12 +1278,33 @@
   ],
   "sources": [
    {
-    "title": "日本FP協会 試験範囲（試験要綱）",
-    "url": "https://www.jafp.or.jp/exam/outline/"
+    "title": "日本取引所グループ 用語集 最終利回り",
+    "url": "https://www.jpx.co.jp/glossary/sa/519.html"
+   },
+   {
+    "title": "日本取引所グループ 用語集 利回り",
+    "url": "https://www.jpx.co.jp/glossary/ra/462.html"
    }
   ],
-  "evidence": [],
-  "reviewStatus": "draft",
+  "evidence": [
+   {
+    "url": "https://www.jpx.co.jp/glossary/sa/519.html",
+    "quote": "投資者が債券を購入し、償還期日まで保有した場合の利回りのことをいいます"
+   },
+   {
+    "url": "https://www.jpx.co.jp/glossary/sa/519.html",
+    "quote": "最終利回り=｛年利息+（償還価格-買付価格）÷残存期間｝÷買付価格"
+   },
+   {
+    "url": "https://www.jpx.co.jp/glossary/sa/519.html",
+    "quote": "償還時に発生する額面と買付価格との差に利息収入を加え、１年あたりで投資金額に対してどれだけの割合になるかを表す指標です"
+   },
+   {
+    "url": "https://www.jpx.co.jp/glossary/ra/462.html",
+    "quote": "流通市場における利回りとしては、「直接利回り」、「最終利回り」があります"
+   }
+  ],
+  "reviewStatus": "verified",
   "checkedAt": "2026-10-21",
   "formula": {
    "name": "最終利回り",
@@ -1086,12 +1378,17 @@
   ],
   "sources": [
    {
-    "title": "日本FP協会 試験範囲（試験要綱）",
-    "url": "https://www.jafp.or.jp/exam/outline/"
+    "title": "日本取引所グループ 用語集 直接利回り",
+    "url": "https://www.jpx.co.jp/glossary/ta/296.html"
    }
   ],
-  "evidence": [],
-  "reviewStatus": "draft",
+  "evidence": [
+   {
+    "url": "https://www.jpx.co.jp/glossary/ta/296.html",
+    "quote": "償還時に発生する額面と買付価格との差を考慮せず、投資額に対して1年間に支払われる利息収入の割合を表したもので、表面利率（年利息）を買付価格で除して算出されます"
+   }
+  ],
+  "reviewStatus": "verified",
   "checkedAt": "2026-10-21"
  },
  {
@@ -1112,12 +1409,21 @@
   ],
   "sources": [
    {
-    "title": "日本FP協会 試験範囲（試験要綱）",
-    "url": "https://www.jafp.or.jp/exam/outline/"
+    "title": "日本取引所グループ 用語集 株価収益率",
+    "url": "https://www.jpx.co.jp/glossary/ka/73.html"
    }
   ],
-  "evidence": [],
-  "reviewStatus": "draft",
+  "evidence": [
+   {
+    "url": "https://www.jpx.co.jp/glossary/ka/73.html",
+    "quote": "株価を1株当たり当期純利益で除したもので、株価が1株当たり当期純利益の何倍まで買われているのかを示すものです"
+   },
+   {
+    "url": "https://www.jpx.co.jp/glossary/ka/73.html",
+    "quote": "株価収益率が高いほど、利益に比べ株価が割高であることを示し、逆に、株価収益率が低いほど、株価が相対的に低いことを示しています"
+   }
+  ],
+  "reviewStatus": "verified",
   "checkedAt": "2026-10-21",
   "formula": {
    "name": "PER",
@@ -1136,7 +1442,7 @@
   "field": "C",
   "importance": 3,
   "short": "株価が1株当たり純資産の何倍かを示す指標。",
-  "detail": "PBR＝株価÷1株当たり純資産（BPS）。1倍を下回ると解散価値を下回るとされる。",
+  "detail": "PBR＝株価÷1株当たり純資産（BPS）。",
   "related": [
    "per"
   ],
@@ -1146,12 +1452,17 @@
   ],
   "sources": [
    {
-    "title": "日本FP協会 試験範囲（試験要綱）",
-    "url": "https://www.jafp.or.jp/exam/outline/"
+    "title": "日本取引所グループ 用語集 株価純資産倍率",
+    "url": "https://www.jpx.co.jp/glossary/ka/74.html"
    }
   ],
-  "evidence": [],
-  "reviewStatus": "draft",
+  "evidence": [
+   {
+    "url": "https://www.jpx.co.jp/glossary/ka/74.html",
+    "quote": "株価を1株当たり純資産で除したもので、株価が1株当たり純資産の何倍まで買われているのかを示すものです"
+   }
+  ],
+  "reviewStatus": "verified",
   "checkedAt": "2026-10-21",
   "formula": {
    "name": "PBR",
@@ -1170,7 +1481,7 @@
   "field": "C",
   "importance": 3,
   "short": "自己資本に対してどれだけ利益を上げたかを示す指標。",
-  "detail": "ROE＝当期純利益÷自己資本×100。",
+  "detail": "ROE＝当期純利益÷自己資本（前期及び当期の平均値）×100。企業の経営効率を測定する指標の一つ。",
   "related": [
    "per"
   ],
@@ -1180,16 +1491,25 @@
   ],
   "sources": [
    {
-    "title": "日本FP協会 試験範囲（試験要綱）",
-    "url": "https://www.jafp.or.jp/exam/outline/"
+    "title": "日本取引所グループ 用語集 自己資本当期純利益率",
+    "url": "https://www.jpx.co.jp/glossary/sa/549.html"
    }
   ],
-  "evidence": [],
-  "reviewStatus": "draft",
+  "evidence": [
+   {
+    "url": "https://www.jpx.co.jp/glossary/sa/549.html",
+    "quote": "当期純利益を、前期及び当期の自己資本の平均値で除したものです"
+   },
+   {
+    "url": "https://www.jpx.co.jp/glossary/sa/549.html",
+    "quote": "１年間でどれだけの利益をあげたかを見る企業の経営効率を測定する指標の一つです"
+   }
+  ],
+  "reviewStatus": "verified",
   "checkedAt": "2026-10-21",
   "formula": {
    "name": "ROE",
-   "tex": "\\frac{\\text{当期純利益}}{\\text{自己資本}} \\times 100"
+   "tex": "\\frac{\\text{当期純利益}}{\\text{自己資本（平均）}} \\times 100"
   },
   "aliases": [
    "ROE",
@@ -1204,7 +1524,7 @@
   "field": "C",
   "importance": 3,
   "short": "株価に対する1株当たり年間配当金の割合。",
-  "detail": "配当利回り＝1株当たり年間配当金÷株価×100。",
+  "detail": "株式利回りともいう。ある時点で株式へ投資した場合の投資資金と、それが1年間に生むと期待される配当金との比率を示す。",
   "related": [
    "haito-seiko"
   ],
@@ -1214,13 +1534,34 @@
   ],
   "sources": [
    {
-    "title": "日本FP協会 試験範囲（試験要綱）",
-    "url": "https://www.jafp.or.jp/exam/outline/"
+    "title": "日本取引所グループ 用語集 株式利回り",
+    "url": "https://www.jpx.co.jp/glossary/ka/85.html"
+   },
+   {
+    "title": "日本取引所グループ 用語集 単純平均利回り",
+    "url": "https://www.jpx.co.jp/glossary/ta/290.html"
    }
   ],
-  "evidence": [],
-  "reviewStatus": "draft",
-  "checkedAt": "2026-10-21"
+  "evidence": [
+   {
+    "url": "https://www.jpx.co.jp/glossary/ka/85.html",
+    "quote": "投資判断指標の1つであり、配当利回りともいいます"
+   },
+   {
+    "url": "https://www.jpx.co.jp/glossary/ka/85.html",
+    "quote": "ある時点で株式へ投資した場合の投資資金と、それが1年間に生むと期待される配当金との比率を示すものであり"
+   },
+   {
+    "url": "https://www.jpx.co.jp/glossary/ta/290.html",
+    "quote": "単純平均利回り＝対象銘柄の1株当たり平均配当金÷対象銘柄の単純株価平均×100"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-10-21",
+  "formula": {
+   "name": "配当利回り",
+   "tex": "\\frac{\\text{1株当たり年間配当金}}{\\text{株価}} \\times 100"
+  }
  },
  {
   "id": "haito-seiko",
@@ -1239,12 +1580,25 @@
   ],
   "sources": [
    {
-    "title": "日本FP協会 試験範囲（試験要綱）",
-    "url": "https://www.jafp.or.jp/exam/outline/"
+    "title": "日本取引所グループ 用語集 配当性向",
+    "url": "https://www.jpx.co.jp/glossary/ha/353.html"
    }
   ],
-  "evidence": [],
-  "reviewStatus": "draft",
+  "evidence": [
+   {
+    "url": "https://www.jpx.co.jp/glossary/ha/353.html",
+    "quote": "配当性向とは、会社が税引後の利益である当期純利益のうち、どれだけを配当金の支払いに向けたかを示す指標です"
+   },
+   {
+    "url": "https://www.jpx.co.jp/glossary/ha/353.html",
+    "quote": "配当性向は、１株当たり配当額を１株当たり当期純利益で除して求められます"
+   },
+   {
+    "url": "https://www.jpx.co.jp/glossary/ha/353.html",
+    "quote": "（計算式）１株当たり配当額÷１株当たり当期純利益×100（%）"
+   }
+  ],
+  "reviewStatus": "verified",
   "checkedAt": "2026-10-21"
  },
  {
@@ -1334,12 +1688,25 @@
   ],
   "sources": [
    {
-    "title": "日本FP協会 試験範囲（試験要綱）",
-    "url": "https://www.jafp.or.jp/exam/outline/"
+    "title": "資産運用業協会 用語集 シャープレシオ",
+    "url": "https://www.imaj.or.jp/glossary/detail/119.html"
    }
   ],
-  "evidence": [],
-  "reviewStatus": "draft",
+  "evidence": [
+   {
+    "url": "https://www.imaj.or.jp/glossary/detail/119.html",
+    "quote": "１リスク単位に対するリターンを算出し、リスクに対しどれだけのリターンを得たのかを示す、リスク調整後リターンの代表的な指標のこと"
+   },
+   {
+    "url": "https://www.imaj.or.jp/glossary/detail/119.html",
+    "quote": "シャープレシオ=(リターンの平均値-無リスク資産のリターン)/リターンの標準偏差"
+   },
+   {
+    "url": "https://www.imaj.or.jp/glossary/detail/119.html",
+    "quote": "シャープレシオの値が高ければ、リスクを抑えながらも高いリターンを得た、効率的なファンドと言える"
+   }
+  ],
+  "reviewStatus": "verified",
   "checkedAt": "2026-10-21",
   "formula": {
    "name": "シャープレシオ",
@@ -1353,7 +1720,7 @@
   "field": "C",
   "importance": 2,
   "short": "2つの資産の値動きの連動性を－1から＋1で表したもの。",
-  "detail": "－1に近いほど分散投資によるリスク低減効果が大きく、＋1ではリスク低減効果はない。",
+  "detail": "正の相関が強いと1に近づき、負の相関が強いと－1に近づく。性質がなるべく異なる複数の資産に分散すると、各資産の価格の動きが打ち消しあい、リスクを減らすことができる。",
   "related": [
    "sharpe-ratio"
   ],
@@ -1363,12 +1730,33 @@
   ],
   "sources": [
    {
-    "title": "日本FP協会 試験範囲（試験要綱）",
-    "url": "https://www.jafp.or.jp/exam/outline/"
+    "title": "総務省統計局 なるほど統計学園 複数の変数の関係性を見る",
+    "url": "https://www.stat.go.jp/naruhodo/10_tokucho/hukusu.html"
+   },
+   {
+    "title": "金融広報中央委員会 知るぽると 金融用語解説 分散投資",
+    "url": "https://www.shiruporuto.jp/public/document/container/yogo/h/bunsan_toshi.html"
    }
   ],
-  "evidence": [],
-  "reviewStatus": "draft",
+  "evidence": [
+   {
+    "url": "https://www.stat.go.jp/naruhodo/10_tokucho/hukusu.html",
+    "quote": "相関係数は-1から1までの値を取り、以下のような特徴を持ちます"
+   },
+   {
+    "url": "https://www.stat.go.jp/naruhodo/10_tokucho/hukusu.html",
+    "quote": "(1)正の相関が強いと相関係数が1に近づく(2)負の相関が強いと相関係数が-1に近づく"
+   },
+   {
+    "url": "https://www.stat.go.jp/naruhodo/10_tokucho/hukusu.html",
+    "quote": "相関係数は2つの変量の関係性を分かりやすい数値で表すことができる"
+   },
+   {
+    "url": "https://www.shiruporuto.jp/public/document/container/yogo/h/bunsan_toshi.html",
+    "quote": "性質がなるべく異なる複数の（多数の）資産に分散することにより、各資産の価格の動きが打ち消しあい、リスクを減らすことができることが多い"
+   }
+  ],
+  "reviewStatus": "verified",
   "checkedAt": "2026-10-21"
  },
  {
@@ -2099,12 +2487,61 @@
   ],
   "sources": [
    {
-    "title": "日本FP協会 試験範囲（試験要綱）",
-    "url": "https://www.jafp.or.jp/exam/outline/"
+    "title": "国土交通省 主な公的土地評価一覧",
+    "url": "https://www.mlit.go.jp/totikensangyo/totikensangyo_fr4_000042.html"
+   },
+   {
+    "title": "国税庁 令和8年分の路線価等について",
+    "url": "https://www.nta.go.jp/information/release/kokuzeicho/2026/rosenka/index.htm"
+   },
+   {
+    "title": "国税庁 No.4602 土地家屋の評価",
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4602.htm"
+   },
+   {
+    "title": "総務省 地方税制度｜固定資産税",
+    "url": "https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/150790_15.html"
    }
   ],
-  "evidence": [],
-  "reviewStatus": "draft",
+  "evidence": [
+   {
+    "url": "https://www.mlit.go.jp/totikensangyo/totikensangyo_fr4_000042.html",
+    "quote": "実施機関：国土交通省土地鑑定委員会価格時点：毎年1月1日時点"
+   },
+   {
+    "url": "https://www.mlit.go.jp/totikensangyo/totikensangyo_fr4_000042.html",
+    "quote": "実施機関：都道府県知事価格時点：毎年7月1日時点"
+   },
+   {
+    "url": "https://www.mlit.go.jp/totikensangyo/totikensangyo_fr4_000042.html",
+    "quote": "相続税評価（相続税路線価）実施機関：国税庁・国税局長価格時点：毎年1月1日時点"
+   },
+   {
+    "url": "https://www.mlit.go.jp/totikensangyo/totikensangyo_fr4_000042.html",
+    "quote": "評価水準：平成4年以降は地価公示の水準の8割程度"
+   },
+   {
+    "url": "https://www.mlit.go.jp/totikensangyo/totikensangyo_fr4_000042.html",
+    "quote": "固定資産税評価（固定資産税評価額）実施機関：総務省・市町村長価格時点：1月1日時点（3年に1度評価替）評価水準：平成6年以降は地価公示の水準の7割程度"
+   },
+   {
+    "url": "https://www.nta.go.jp/information/release/kokuzeicho/2026/rosenka/index.htm",
+    "quote": "路線価等は、１月１日を評価時点として、１年間の地価変動などを考慮し、地価公示価格等を基にした価格の８０％程度を目途に定めています"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4602.htm",
+    "quote": "路線価とは、路線（道路）に面する標準的な宅地の1平方メートル当たりの価額のことで"
+   },
+   {
+    "url": "https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/150790_15.html",
+    "quote": "宅地については地価公示価格などの7割を目途に評価額を計算"
+   },
+   {
+    "url": "https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/150790_15.html",
+    "quote": "土地や家屋の固定資産は、3年に一度評価が見直されます"
+   }
+  ],
+  "reviewStatus": "verified",
   "checkedAt": "2026-10-21"
  },
  {
@@ -2778,8 +3215,8 @@
   "reading": "らいふいべんとひょう",
   "field": "A",
   "importance": 2,
-  "short": "家族の将来の出来事（進学・就職・結婚・住宅購入・退職など）を、年ごとに時系列で並べた表。",
-  "detail": "キャッシュフロー表を作る前段階として、いつ・どのくらいの支出や収入の変化が起きるかを整理する。家族の年齢を並べ、各イベントの予定時期と必要資金の見込みを書き込む。",
+  "short": "自分や家族の今後10年、20年の予定を書き込み、将来のイメージを具体化するための表。",
+  "detail": "キャッシュフロー表を作る前段階として作成する。いま分かっている範囲で予定や目標を記入し、いつごろ、どのくらいの費用がかかりそうか、おおまかな目安を書き込む。",
   "related": [
    "cashflow-hyo"
   ],
@@ -2789,12 +3226,25 @@
   ],
   "sources": [
    {
-    "title": "日本FP協会 試験範囲（試験要綱）",
-    "url": "https://www.jafp.or.jp/exam/outline/"
+    "title": "日本FP協会 便利ツールで家計をチェック",
+    "url": "https://www.jafp.or.jp/know/fp/sheet/"
    }
   ],
-  "evidence": [],
-  "reviewStatus": "draft",
+  "evidence": [
+   {
+    "url": "https://www.jafp.or.jp/know/fp/sheet/",
+    "quote": "「ライフイベント表」に自分や家族の今後10年、20年の予定を書き込んで、将来のイメージを具体化していきましょう"
+   },
+   {
+    "url": "https://www.jafp.or.jp/know/fp/sheet/",
+    "quote": "いま分かっている範囲での、予定や目標を記入しましょう。いつごろ、どのくらいの費用がかかりそうか、おおまかな目安でかまいません"
+   },
+   {
+    "url": "https://www.jafp.or.jp/know/fp/sheet/",
+    "quote": "現在の家計と将来の予定がわかったら、「家計のキャッシュフロー表」を作成し"
+   }
+  ],
+  "reviewStatus": "verified",
   "checkedAt": "2026-10-21"
  },
  {
@@ -2804,7 +3254,7 @@
   "field": "A",
   "importance": 2,
   "short": "家計の資産と負債を一覧にし、純資産（資産－負債）を見る表。",
-  "detail": "資産（預貯金・有価証券・不動産など）を時価で、負債（ローン・借入金）を残高で記載する。純資産＝資産－負債。一時点の財産状況を表すもので、収入と支出の流れを表すキャッシュフロー表とは役割が異なる。",
+  "detail": "現在の資産や負債の状況を書き出して、家計の健全度を見る。資産から負債を差し引いたものが純資産になる。",
   "related": [
    "cashflow-hyo"
   ],
@@ -2814,12 +3264,25 @@
   ],
   "sources": [
    {
-    "title": "日本FP協会 試験範囲（試験要綱）",
-    "url": "https://www.jafp.or.jp/exam/outline/"
+    "title": "日本FP協会 便利ツールで家計をチェック",
+    "url": "https://www.jafp.or.jp/know/fp/sheet/"
    }
   ],
-  "evidence": [],
-  "reviewStatus": "draft",
+  "evidence": [
+   {
+    "url": "https://www.jafp.or.jp/know/fp/sheet/",
+    "quote": "「家計のバランスシート」に現在の資産や負債の状況を書き出してみると、家計の健全度がわかります"
+   },
+   {
+    "url": "https://www.jafp.or.jp/know/fp/sheet/",
+    "quote": "資産から負債を差し引いてみると、本当の意味での資産（純資産）がわかります"
+   },
+   {
+    "url": "https://www.jafp.or.jp/know/fp/sheet/",
+    "quote": "資産と負債の差が本当の意味での資産といえる「純資産」となります"
+   }
+  ],
+  "reviewStatus": "verified",
   "checkedAt": "2026-10-21",
   "aliases": [
    "家計のバランスシート"
@@ -3658,8 +4121,8 @@
   "reading": "ていきほけん",
   "field": "B",
   "importance": 3,
-  "short": "保険期間を定め、その間に死亡・高度障害になったときだけ保険金が支払われる生命保険。",
-  "detail": "満期保険金がなく、解約返戻金も少ないか無い（いわゆる掛け捨て）ため、保険料が割安。保険金額が一定の平準定期、年々減る逓減定期、更新ごとに保険料が上がる更新型などがある。",
+  "short": "保険期間は一定で、その間に死亡した場合、死亡保険金を受け取れる生命保険。満期保険金はない。",
+  "detail": "多くの場合、解約返戻金はあまりない。契約後一定期間ごとに保険金額が減っていく逓減定期保険もある。更新型では、更新時にその時の年齢や保険料率で保険料が再計算され、通常は更新前よりも保険料が高くなる。",
   "related": [
    "shushin-hoken",
    "yoro-hoken"
@@ -3670,12 +4133,33 @@
   ],
   "sources": [
    {
-    "title": "日本FP協会 試験範囲（試験要綱）",
-    "url": "https://www.jafp.or.jp/exam/outline/"
+    "title": "生命保険文化センター 定期保険",
+    "url": "https://www.jili.or.jp/knows_learns/basic/kind_main/term.html"
+   },
+   {
+    "title": "生命保険文化センター 用語辞典",
+    "url": "https://www.jili.or.jp/knows_learns/basic/explanation/index.html"
    }
   ],
-  "evidence": [],
-  "reviewStatus": "draft",
+  "evidence": [
+   {
+    "url": "https://www.jili.or.jp/knows_learns/basic/kind_main/term.html",
+    "quote": "保険期間は一定で、その間に死亡した場合、死亡保険金を受け取れます。満期保険金はありません"
+   },
+   {
+    "url": "https://www.jili.or.jp/knows_learns/basic/kind_main/term.html",
+    "quote": "多くの場合解約返戻金はあまりありません"
+   },
+   {
+    "url": "https://www.jili.or.jp/knows_learns/basic/explanation/index.html",
+    "quote": "契約後一定期間ごとに保険金額が減っていく逓減定期保険"
+   },
+   {
+    "url": "https://www.jili.or.jp/knows_learns/basic/kind_main/term.html",
+    "quote": "更新時には、その時の年齢や保険料率で保険料が再計算されますので、通常は更新前よりも保険料が高くなります"
+   }
+  ],
+  "reviewStatus": "verified",
   "checkedAt": "2026-10-21"
  },
  {
@@ -3684,8 +4168,8 @@
   "reading": "しゅうしんほけん",
   "field": "B",
   "importance": 3,
-  "short": "保障が一生涯続き、死亡・高度障害のときに保険金が支払われる生命保険。",
-  "detail": "解約返戻金があり、貯蓄性がある。保険料が一定の払込期間で払い込み終わる有期払込と、一生払う終身払いがある。払込期間が短いほど毎回の保険料は高いが、総支払額は小さくなる傾向。",
+  "short": "死亡保障が一生涯続く生命保険。満期保険金はない。",
+  "detail": "期間の経過とともに解約返戻金が増えていく。保険料払込期間は、一定期間または一定年齢まで払い込む「有期払」と、一生涯払い続ける「終身払」がある。一般的に終身払は有期払に比べて毎回払い込む保険料が安い。",
   "related": [
    "teiki-hoken",
    "yoro-hoken"
@@ -3696,12 +4180,25 @@
   ],
   "sources": [
    {
-    "title": "日本FP協会 試験範囲（試験要綱）",
-    "url": "https://www.jafp.or.jp/exam/outline/"
+    "title": "生命保険文化センター 終身保険",
+    "url": "https://www.jili.or.jp/knows_learns/basic/kind_main/whole_life.html"
    }
   ],
-  "evidence": [],
-  "reviewStatus": "draft",
+  "evidence": [
+   {
+    "url": "https://www.jili.or.jp/knows_learns/basic/kind_main/whole_life.html",
+    "quote": "死亡保障が一生涯続きます。満期保険金はありませんが、期間の経過とともに解約返戻金が増えていきます"
+   },
+   {
+    "url": "https://www.jili.or.jp/knows_learns/basic/kind_main/whole_life.html",
+    "quote": "保険料払込期間は、一定期間または一定年齢まで払い込む「有期払」と、一生涯払い続ける「終身払」があります"
+   },
+   {
+    "url": "https://www.jili.or.jp/knows_learns/basic/kind_main/whole_life.html",
+    "quote": "一般的に「終身払」は「有期払」に比べて毎回払い込む保険料が安くなります"
+   }
+  ],
+  "reviewStatus": "verified",
   "checkedAt": "2026-10-21"
  },
  {
@@ -3710,8 +4207,8 @@
   "reading": "ようろうほけん",
   "field": "B",
   "importance": 3,
-  "short": "死亡・高度障害のときに支払われる保険金と、満期まで生存したときの満期保険金が同額の生命保険。",
-  "detail": "保険金額と満期保険金額が同額であるため、貯蓄性が高い。保険料は定期保険より高い。契約者が法人で、被保険者を役員・従業員全員、満期保険金受取人を法人、死亡保険金受取人を遺族とする「福利厚生プラン」では、保険料の2分の1を損金算入、残りを資産計上できる。",
+  "short": "保険期間中に死亡すると死亡保険金、生存して満期を迎えると満期保険金を受け取れる生命保険。死亡保険金と満期保険金は同額。",
+  "detail": "貯蓄機能を備えている。死亡保険金の受取人が被保険者の遺族で、生存保険金の受取人が法人の場合、支払った保険料の2分の1に相当する金額を資産に計上し、残額を期間の経過に応じて損金の額に算入する取扱いがある。",
   "related": [
    "teiki-hoken",
    "shushin-hoken"
@@ -3722,12 +4219,33 @@
   ],
   "sources": [
    {
-    "title": "日本FP協会 試験範囲（試験要綱）",
-    "url": "https://www.jafp.or.jp/exam/outline/"
+    "title": "生命保険文化センター 養老保険",
+    "url": "https://www.jili.or.jp/knows_learns/basic/kind_main/endowment.html"
+   },
+   {
+    "title": "国税庁 No.5363 養老保険の保険料の取扱い",
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5363.htm"
    }
   ],
-  "evidence": [],
-  "reviewStatus": "draft",
+  "evidence": [
+   {
+    "url": "https://www.jili.or.jp/knows_learns/basic/kind_main/endowment.html",
+    "quote": "保険期間は一定で、その間に死亡した場合、死亡保険金を受け取れます。生存して満期を迎えると満期保険金を受け取れます。死亡保険金と満期保険金は同額です"
+   },
+   {
+    "url": "https://www.jili.or.jp/knows_learns/basic/kind_main/endowment.html",
+    "quote": "養老保険は貯蓄機能を備えています"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5363.htm",
+    "quote": "死亡保険金の受取人が被保険者の遺族で、生存保険金の受取人が法人の場合"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5363.htm",
+    "quote": "その支払った保険料の額のうち、その2分の1に相当する金額は上記1により資産に計上し、残額は期間の経過に応じて損金の額に算入します"
+   }
+  ],
+  "reviewStatus": "verified",
   "checkedAt": "2026-10-21"
  },
  {
@@ -3745,12 +4263,33 @@
   ],
   "sources": [
    {
-    "title": "日本FP協会 試験範囲（試験要綱）",
-    "url": "https://www.jafp.or.jp/exam/outline/"
+    "title": "生命保険文化センター 変額保険",
+    "url": "https://www.jili.or.jp/knows_learns/kind/main/29.html"
+   },
+   {
+    "title": "生命保険文化センター 用語辞典",
+    "url": "https://www.jili.or.jp/knows_learns/basic/explanation/index.html"
    }
   ],
-  "evidence": [],
-  "reviewStatus": "draft",
+  "evidence": [
+   {
+    "url": "https://www.jili.or.jp/knows_learns/kind/main/29.html",
+    "quote": "株式や債券を中心に資産運用をし、運用実績によって保険金や解約返戻金が変動する保険です"
+   },
+   {
+    "url": "https://www.jili.or.jp/knows_learns/kind/main/29.html",
+    "quote": "運用実績により変動保険金がマイナスになっても、基本保険金額は最低保証されます"
+   },
+   {
+    "url": "https://www.jili.or.jp/knows_learns/kind/main/29.html",
+    "quote": "「有期型」「終身型」とも、解約返戻金に最低保証はありません"
+   },
+   {
+    "url": "https://www.jili.or.jp/knows_learns/basic/explanation/index.html",
+    "quote": "「一般勘定」で運用される定額保険の資産とは区別した「特別勘定」で行われ、その損益はすべて契約者に帰属します"
+   }
+  ],
+  "reviewStatus": "verified",
   "checkedAt": "2026-10-21"
  },
  {
@@ -3770,12 +4309,41 @@
   ],
   "sources": [
    {
-    "title": "日本FP協会 試験範囲（試験要綱）",
-    "url": "https://www.jafp.or.jp/exam/outline/"
+    "title": "生命保険文化センター 用語辞典",
+    "url": "https://www.jili.or.jp/knows_learns/basic/explanation/index.html"
+   },
+   {
+    "title": "生命保険文化センター 個人年金保険",
+    "url": "https://www.jili.or.jp/knows_learns/basic/kind_main/individual.html"
    }
   ],
-  "evidence": [],
-  "reviewStatus": "draft",
+  "evidence": [
+   {
+    "url": "https://www.jili.or.jp/knows_learns/basic/explanation/index.html",
+    "quote": "契約時に定めた一定の年齢から年金が受け取れます"
+   },
+   {
+    "url": "https://www.jili.or.jp/knows_learns/basic/explanation/index.html",
+    "quote": "契約時に定めた年齢から一定期間、被保険者の生死にかかわらず年金を受け取れます"
+   },
+   {
+    "url": "https://www.jili.or.jp/knows_learns/basic/explanation/index.html",
+    "quote": "契約時に定めた年齢から被保険者が生存している限り一生涯年金を受け取れます"
+   },
+   {
+    "url": "https://www.jili.or.jp/knows_learns/basic/explanation/index.html",
+    "quote": "保証期間中は生死に関係なく年金が受け取れ、その後は契約時に定めた年金受取期間中、被保険者が生存している限り年金が受け取れます"
+   },
+   {
+    "url": "https://www.jili.or.jp/knows_learns/basic/kind_main/individual.html",
+    "quote": "個人年金保険料税制適格特約が付加された個人年金保険の保険料は、「個人年金保険料控除」の対象になります"
+   },
+   {
+    "url": "https://www.jili.or.jp/knows_learns/basic/kind_main/individual.html",
+    "quote": "特約付加するためには、「保険料払込期間が10年以上」・「年金受取人は被保険者と同一人」などの条件を満たす必要があります"
+   }
+  ],
+  "reviewStatus": "verified",
   "checkedAt": "2026-10-21"
  },
  {
@@ -3797,12 +4365,53 @@
   ],
   "sources": [
    {
-    "title": "日本FP協会 試験範囲（試験要綱）",
-    "url": "https://www.jafp.or.jp/exam/outline/"
+    "title": "国税庁 No.1750 死亡保険金を受け取ったとき",
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1750.htm"
+   },
+   {
+    "title": "国税庁 No.1755 生命保険契約に係る満期保険金等を受け取ったとき",
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1755.htm"
+   },
+   {
+    "title": "国税庁 No.4417 贈与税の対象になる生命保険金",
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/zoyo/4417.htm"
+   },
+   {
+    "title": "国税庁 No.4114 相続税の課税対象になる死亡保険金",
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4114.htm"
    }
   ],
-  "evidence": [],
-  "reviewStatus": "draft",
+  "evidence": [
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1750.htm",
+    "quote": "保険料の負担者と保険金受取人とが同一人の場合です。この場合の死亡保険金は、受取の方法により、一時所得または雑所得として課税されます"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1750.htm",
+    "quote": "死亡保険金を一時金で受領した場合には、一時所得になります"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1750.htm",
+    "quote": "相続税が課税されるのは、上記「死亡保険金の課税関係の表」のように、被保険者と保険料の負担者が同一人の場合です"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/zoyo/4417.htm",
+    "quote": "保険料を負担していない人が、満期や解約または被保険者の死亡により、生命保険金を受け取った場合には、保険料を負担した人からその生命保険金の贈与があったものとされます"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4114.htm",
+    "quote": "その保険料の全部または一部を被相続人が負担していたものは、相続等により取得したとみなされて、相続税の課税対象となります"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1755.htm",
+    "quote": "保険料の負担者と保険金受取人とが同一人の場合です。この場合の満期保険金等は、受取の方法により、一時所得または雑所得として課税されます"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1755.htm",
+    "quote": "贈与税が課税されるのは、上記「満期保険金等の課税関係の表」のように、保険料の負担者と保険金の受取人が異なる場合です"
+   }
+  ],
+  "reviewStatus": "verified",
   "checkedAt": "2026-10-21",
   "aliases": [
    "保険金の課税関係"
@@ -3825,12 +4434,25 @@
   ],
   "sources": [
    {
-    "title": "日本FP協会 試験範囲（試験要綱）",
-    "url": "https://www.jafp.or.jp/exam/outline/"
+    "title": "生命保険文化センター 生命保険の加入金額の目安は？",
+    "url": "https://www.jili.or.jp/knows_learns/q_a/life_insurance/127.html"
+   },
+   {
+    "title": "生命保険文化センター 万一の際に必要な保障額の算出方法と具体例",
+    "url": "https://www.jili.or.jp/lifeplan/lifesecurity/1218.html"
    }
   ],
-  "evidence": [],
-  "reviewStatus": "draft",
+  "evidence": [
+   {
+    "url": "https://www.jili.or.jp/knows_learns/q_a/life_insurance/127.html",
+    "quote": "一般的に、「支出見込額（必要となる金額）」から「収入見込額（将来期待できる収入金額）」を差し引き、その不足額を算出します。死亡保障の不足額＝必要保障額（目安）とする考え方があり"
+   },
+   {
+    "url": "https://www.jili.or.jp/lifeplan/lifesecurity/1218.html",
+    "quote": "その不足分を「必要保障額（目安）」とする考え方があります。これを「必要保障額積み上げ方式」と言います"
+   }
+  ],
+  "reviewStatus": "verified",
   "checkedAt": "2026-10-21",
   "formula": {
    "name": "必要保障額",
@@ -3867,7 +4489,7 @@
   "field": "B",
   "importance": 2,
   "short": "保険価額は保険の対象の価値（時価など）、保険金額は契約で定めた保険金の最高額。",
-  "detail": "保険金額が保険価額と等しい契約が全部保険、下回る契約が一部保険、上回る契約が超過保険。損害保険では実際の損害額を超えて保険金を受け取れない（利得禁止の原則）。一部保険では比例てん補によって保険金額と保険価額の比率に応じた保険金になる。",
+  "detail": "保険価額よりも保険金額を少なく設定した場合を一部保険、保険価額を超える保険金額を設定した場合を超過保険という。損害保険では保険により利得してはならないという原則（利得禁止の原則）があることから、保険価額は保険会社が支払う保険金の最高限度となる。一部保険では比例てん補によって保険金額と保険価額の比率に応じた保険金になる。",
   "related": [
    "hirei-tenpo"
   ],
@@ -3877,12 +4499,41 @@
   ],
   "sources": [
    {
-    "title": "日本FP協会 試験範囲（試験要綱）",
-    "url": "https://www.jafp.or.jp/exam/outline/"
+    "title": "日本損害保険協会 保険の用語集",
+    "url": "https://www.sonpo.or.jp/wakaru/word/"
+   },
+   {
+    "title": "日本損害保険協会 損害保険Q&A 問56 火災保険",
+    "url": "https://soudanguide.sonpo.or.jp/home/q056.html"
+   },
+   {
+    "title": "e-Gov法令検索 保険法",
+    "url": "https://laws.e-gov.go.jp/law/420AC0000000056"
    }
   ],
-  "evidence": [],
-  "reviewStatus": "draft",
+  "evidence": [
+   {
+    "url": "https://www.sonpo.or.jp/wakaru/word/",
+    "quote": "被保険利益の評価額（保険の対象の価額）のことをいい、損害保険では、一般的に保険により利得してはならないという原則（利得禁止の原則）があることから、保険価額は、保険会社が支払う保険金の最高限度となります"
+   },
+   {
+    "url": "https://www.sonpo.or.jp/wakaru/word/",
+    "quote": "保険契約において設定する契約金額のことをいいます。保険事故が発生した場合に、保険会社が支払う保険金の限度額のことであり、保険契約者と保険会社との契約によって定められます"
+   },
+   {
+    "url": "https://soudanguide.sonpo.or.jp/home/q056.html",
+    "quote": "保険価額よりも保険金額を少なく設定した場合を「一部保険」といい、逆に保険価額を超える保険金額を設定した場合を「超過保険」といいます"
+   },
+   {
+    "url": "https://soudanguide.sonpo.or.jp/home/q056.html",
+    "quote": "損害が生じた地および時における保険の対象の価額をいいます"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/420AC0000000056",
+    "quote": "保険金額が保険価額（約定保険価額があるときは、当該約定保険価額）に満たないときは、保険者が行うべき保険給付の額は、当該保険金額の当該保険価額に対する割合をてん補損害額に乗じて得た額とする"
+   }
+  ],
+  "reviewStatus": "verified",
   "checkedAt": "2026-10-21",
   "aliases": [
    "一部保険",
@@ -3906,12 +4557,33 @@
   ],
   "sources": [
    {
-    "title": "日本FP協会 試験範囲（試験要綱）",
-    "url": "https://www.jafp.or.jp/exam/outline/"
+    "title": "e-Gov法令検索 保険法",
+    "url": "https://laws.e-gov.go.jp/law/420AC0000000056"
+   },
+   {
+    "title": "日本損害保険協会 損害保険Q&A 問56 火災保険",
+    "url": "https://soudanguide.sonpo.or.jp/home/q056.html"
    }
   ],
-  "evidence": [],
-  "reviewStatus": "draft",
+  "evidence": [
+   {
+    "url": "https://laws.e-gov.go.jp/law/420AC0000000056",
+    "quote": "保険金額が保険価額（約定保険価額があるときは、当該約定保険価額）に満たないときは、保険者が行うべき保険給付の額は、当該保険金額の当該保険価額に対する割合をてん補損害額に乗じて得た額とする"
+   },
+   {
+    "url": "https://soudanguide.sonpo.or.jp/home/q056.html",
+    "quote": "火災保険の保険金は、保険価額に対する保険金額の割合によって支払う下記の「比例払方式」と、実際の損害額を支払う「実損払方式」があります"
+   },
+   {
+    "url": "https://soudanguide.sonpo.or.jp/home/q056.html",
+    "quote": "時価2,000万円の建物に保険金額1,000万円の火災保険契約で、建物が半焼して損害額が1,000万円となった場合"
+   },
+   {
+    "url": "https://soudanguide.sonpo.or.jp/home/q056.html",
+    "quote": "計算式の分母部分の保険価額（時価の場合）に乗じる「一定割合」の具体的な数値（80％など）は、保険会社や保険の種類によって異なります"
+   }
+  ],
+  "reviewStatus": "verified",
   "checkedAt": "2026-10-21",
   "aliases": [
    "比例払い"
@@ -3932,12 +4604,37 @@
   ],
   "sources": [
    {
-    "title": "日本FP協会 試験範囲（試験要綱）",
-    "url": "https://www.jafp.or.jp/exam/outline/"
+    "title": "日本損害保険協会 個人賠償責任保険",
+    "url": "https://www.sonpo.or.jp/insurance/compensation/index.html"
+   },
+   {
+    "title": "日本損害保険協会 損害保険Q&A 個人賠償責任保険",
+    "url": "https://soudanguide.sonpo.or.jp/body/q092.html"
    }
   ],
-  "evidence": [],
-  "reviewStatus": "draft",
+  "evidence": [
+   {
+    "url": "https://www.sonpo.or.jp/insurance/compensation/index.html",
+    "quote": "他人のモノを壊したり、他人にケガをさせてしまったときなどにおいて、法律上の損害賠償責任を負担する場合に保険金が支払われます"
+   },
+   {
+    "url": "https://www.sonpo.or.jp/insurance/compensation/index.html",
+    "quote": "個人賠償責任保険は、自動車保険や火災保険、傷害保険などの特約としてセットで契約することができます"
+   },
+   {
+    "url": "https://soudanguide.sonpo.or.jp/body/q092.html",
+    "quote": "個人賠償責任保険の被保険者は「生計を共にする同居の親族」となっています"
+   },
+   {
+    "url": "https://soudanguide.sonpo.or.jp/body/q092.html",
+    "quote": "子供には「生計を共にする別居の未婚（これまでに婚姻歴がないこと）の子」が含まれます"
+   },
+   {
+    "url": "https://soudanguide.sonpo.or.jp/body/q092.html",
+    "quote": "被保険者が所有、使用、管理する財物の正当な権利を有する者に対する損害賠償責任"
+   }
+  ],
+  "reviewStatus": "verified",
   "checkedAt": "2026-10-21"
  },
  {
@@ -3957,12 +4654,41 @@
   ],
   "sources": [
    {
-    "title": "日本FP協会 試験範囲（試験要綱）",
-    "url": "https://www.jafp.or.jp/exam/outline/"
+    "title": "日本損害保険協会 自動車保険",
+    "url": "https://www.sonpo.or.jp/insurance/car/index.html"
+   },
+   {
+    "title": "日本損害保険協会 損害保険Q&A くるまの保険について",
+    "url": "https://soudanguide.sonpo.or.jp/car/about.html"
    }
   ],
-  "evidence": [],
-  "reviewStatus": "draft",
+  "evidence": [
+   {
+    "url": "https://www.sonpo.or.jp/insurance/car/index.html",
+    "quote": "自動車事故により、他人を死亡させたり、ケガを負わせて法律上の損害賠償責任が生じた場合に、自賠責保険の補償額を超える部分に対し保険金が支払われます"
+   },
+   {
+    "url": "https://soudanguide.sonpo.or.jp/car/about.html",
+    "quote": "自動車事故により、他人の自動車や建物など他人の財物に損害を与え、法律上の損害賠償責任を負った場合の損害が補償されます"
+   },
+   {
+    "url": "https://www.sonpo.or.jp/insurance/car/index.html",
+    "quote": "自動車事故により、死亡したり、ケガをしたときに、自分の過失部分を含めて、自分の契約している損害保険会社から損害額の全額が支払われます"
+   },
+   {
+    "url": "https://soudanguide.sonpo.or.jp/car/about.html",
+    "quote": "自動車事故により、契約の車に乗車中の方が死傷した場合に、保険金額の範囲内で、保険約款に定める基準・計算方法に基づいて、過失割合に関わらず損害額が補償されます"
+   },
+   {
+    "url": "https://www.sonpo.or.jp/insurance/car/index.html",
+    "quote": "偶然な事故により、自動車が損害を受けた場合に保険金が支払われます"
+   },
+   {
+    "url": "https://soudanguide.sonpo.or.jp/car/about.html",
+    "quote": "自賠責保険は法律で契約が義務付けられている保険で"
+   }
+  ],
+  "reviewStatus": "verified",
   "checkedAt": "2026-10-21",
   "aliases": [
    "対人賠償保険",
@@ -4029,8 +4755,8 @@
   "reading": "しんようりすく",
   "field": "C",
   "importance": 2,
-  "short": "債券の発行体の財務状況悪化などにより、利息や元本が約束どおりに支払われないリスク。",
-  "detail": "格付機関が付与する格付が目安となる。一般に格付が低い債券ほど、リスクが高い分、利回りが高い。BBB（トリプルB）格相当以上が投資適格債とされる。",
+  "short": "債券の発行者が倒産するなどして、利子や額面金額の支払いが受けられなくなるリスク。",
+  "detail": "償還期限前に債券の発行者が倒産して支払いができなくなると、利子の支払いや額面金額の返済を受けることができなくなる。この可能性のことを信用リスクという。信用リスクの高さは、格付機関が決定する格付けをみることである程度判断できる。",
   "related": [],
   "grades": [
    2,
@@ -4038,12 +4764,21 @@
   ],
   "sources": [
    {
-    "title": "日本FP協会 試験範囲（試験要綱）",
-    "url": "https://www.jafp.or.jp/exam/outline/"
+    "title": "日本取引所グループ 概要（CB）",
+    "url": "https://www.jpx.co.jp/equities/products/cb/outline/02.html"
    }
   ],
-  "evidence": [],
-  "reviewStatus": "draft",
+  "evidence": [
+   {
+    "url": "https://www.jpx.co.jp/equities/products/cb/outline/02.html",
+    "quote": "万が一、償還期限前に債券の発行者が倒産して、お金の支払いができなくなってしまうと、利子の支払いや額面金額の返済を受けることができなくなってしまいます。この可能性のことを、「信用リスク」と呼んでいます"
+   },
+   {
+    "url": "https://www.jpx.co.jp/equities/products/cb/outline/02.html",
+    "quote": "信用リスクの高さ（すなわち、利子の支払いや額面金額の返済ができなくなってしまう可能性の高さ）は、格付機関が決定する格付けをみることである程度判断することができます"
+   }
+  ],
+  "reviewStatus": "verified",
   "checkedAt": "2026-10-21",
   "aliases": [
    "デフォルトリスク",
@@ -4057,7 +4792,7 @@
   "field": "C",
   "importance": 2,
   "short": "証券会社に担保（委託保証金）を預けて、資金や株式を借りて行う株式取引。",
-  "detail": "買い建て（資金を借りて買う）と売り建て（株式を借りて売る）ができる。委託保証金は売買代金の30％以上かつ最低30万円が必要で、約3.3倍までの取引が可能。損失が保証金を上回る可能性がある。返済期限は最長6か月の制度信用と、期限を定める必要のない一般信用がある。",
+  "detail": "証券会社から資金や株を借りて取引を行うため、それに見合う担保を証券会社に預けなければならず、委託保証金と呼ばれる一定の保証金も預ける必要がある。委託保証金は買付代金・売付代金の30％以上と定められており、計算上は約3.3倍までの取引が可能。株価の変動によって当初の委託保証金だけではカバーできないほど損失が拡大する可能性がある。返済期限が6か月以内で証券取引所の規則により定められている制度信用取引と、返済期限等について証券会社と顧客との間で合意した内容に従って行う一般信用取引がある。",
   "related": [],
   "grades": [
    2,
@@ -4065,12 +4800,29 @@
   ],
   "sources": [
    {
-    "title": "日本FP協会 試験範囲（試験要綱）",
-    "url": "https://www.jafp.or.jp/exam/outline/"
+    "title": "日本取引所グループ 信用取引の概要",
+    "url": "https://www.jpx.co.jp/equities/trading/margin/outline/01.html"
    }
   ],
-  "evidence": [],
-  "reviewStatus": "draft",
+  "evidence": [
+   {
+    "url": "https://www.jpx.co.jp/equities/trading/margin/outline/01.html",
+    "quote": "信用取引は証券会社から資金や株を借りて取引を行うわけですから、それに見合う担保を証券会社に預けなければなりません"
+   },
+   {
+    "url": "https://www.jpx.co.jp/equities/trading/margin/outline/01.html",
+    "quote": "委託保証金は、買付代金、売付代金の30％以上（レバレッジ型・ダブルインバース型ＥＴＦ及びＥＴＮの場合、買付代金、売付代金の60％以上）と定められており"
+   },
+   {
+    "url": "https://www.jpx.co.jp/equities/trading/margin/outline/01.html",
+    "quote": "株価の変動によって当初の委託保証金だけではカバーできないほどに損失が拡大した場合には、担保価値が不十分になる可能性もあります"
+   },
+   {
+    "url": "https://www.jpx.co.jp/equities/trading/margin/outline/01.html",
+    "quote": "信用取引には、返済期限が6か月以内であること、品貸料を授受することや対象銘柄等が証券取引所の規則により定められている「制度信用取引」と、返済期限等について証券会社と顧客との間で合意した内容に従って行う「一般信用取引」があります"
+   }
+  ],
+  "reviewStatus": "verified",
   "checkedAt": "2026-10-21",
   "aliases": [
    "委託保証金"
@@ -4083,7 +4835,7 @@
   "field": "C",
   "importance": 3,
   "short": "株式の売買注文の方法で、成行は価格を指定せず、指値は価格を指定する。",
-  "detail": "成行注文は約定しやすいが、価格は市場に左右される。指値注文は希望価格で売買できるが、約定しないことがある。注文の優先順位は、価格優先の原則（成行が最優先）→時間優先の原則。",
+  "detail": "注文には基本的に、成行注文と指値注文がある。成行注文はどの値段でもよいから買いたい／売りたいという注文で、値段を指定した呼値（指値）に優先する。競争売買は、価格優先の原則と時間優先の原則にしたがって行われる。",
   "related": [],
   "grades": [
    2,
@@ -4091,12 +4843,37 @@
   ],
   "sources": [
    {
-    "title": "日本FP協会 試験範囲（試験要綱）",
-    "url": "https://www.jafp.or.jp/exam/outline/"
+    "title": "日本取引所グループ 売買の方法（内国株）",
+    "url": "https://www.jpx.co.jp/equities/trading/domestic/04.html"
    }
   ],
-  "evidence": [],
-  "reviewStatus": "draft",
+  "evidence": [
+   {
+    "url": "https://www.jpx.co.jp/equities/trading/domestic/04.html",
+    "quote": "注文には基本的に、成行注文と指値注文があります"
+   },
+   {
+    "url": "https://www.jpx.co.jp/equities/trading/domestic/04.html",
+    "quote": "どの値段でもよいから、買いたい／売りたいという注文"
+   },
+   {
+    "url": "https://www.jpx.co.jp/equities/trading/domestic/04.html",
+    "quote": "価格優先の原則とは、売呼値については、値段の低い呼値が値段の高い呼値に優先し、買呼値については、値段の高い呼値が値段の低い呼値に優先するという原則です"
+   },
+   {
+    "url": "https://www.jpx.co.jp/equities/trading/domestic/04.html",
+    "quote": "成行呼値は、いくらでもよいから売りたい又は買いたいというものですので、成行呼値は値段を指定した呼値（指値）に優先することになります"
+   },
+   {
+    "url": "https://www.jpx.co.jp/equities/trading/domestic/04.html",
+    "quote": "時間優先の原則とは、同じ値段の呼値については、呼値が行われた時間の先後によって、先に行われた呼値が後に行われた呼値に優先するという原則です"
+   },
+   {
+    "url": "https://www.jpx.co.jp/equities/trading/domestic/04.html",
+    "quote": "競争売買とは、価格優先の原則と時間優先の原則にしたがって"
+   }
+  ],
+  "reviewStatus": "verified",
   "checkedAt": "2026-10-21",
   "aliases": [
    "成行注文",
@@ -4110,7 +4887,7 @@
   "field": "C",
   "importance": 3,
   "short": "日本の株式市場全体の動きを表す代表的な株価指数。",
-  "detail": "日経平均株価は東京証券取引所プライム市場上場の代表的な225銘柄の株価を基にした株価平均型の指数で、株価の高い銘柄の影響を受けやすい。TOPIX（東証株価指数）は東京証券取引所に上場する銘柄の時価総額を基に算出する時価総額加重型の指数。",
+  "detail": "日経平均株価は、東京証券取引所プライム市場に上場する225銘柄を選定し、その株価を使って算出する株価平均型の指数。TOPIX（東証株価指数）は、浮動株時価総額加重型の指数で、起算日は1968年1月4日・基準値100ポイント。日本の株式市場を広範に網羅するマーケット・ベンチマーク。",
   "related": [],
   "grades": [
    2,
@@ -4118,12 +4895,37 @@
   ],
   "sources": [
    {
-    "title": "日本FP協会 試験範囲（試験要綱）",
-    "url": "https://www.jafp.or.jp/exam/outline/"
+    "title": "日本経済新聞社 日経平均株価 プロフィル",
+    "url": "https://indexes.nikkei.co.jp/nkave/index/profile?idx=nk225"
+   },
+   {
+    "title": "日本取引所グループ TOPIX（東証株価指数）",
+    "url": "https://www.jpx.co.jp/markets/indices/topix/"
+   },
+   {
+    "title": "日本取引所グループ 株価指数等、基準価額及び市場価格",
+    "url": "https://www.jpx.co.jp/equities/products/etfs/etf-outline/03.html"
    }
   ],
-  "evidence": [],
-  "reviewStatus": "draft",
+  "evidence": [
+   {
+    "url": "https://indexes.nikkei.co.jp/nkave/index/profile?idx=nk225",
+    "quote": "日経平均は東京証券取引所プライム市場に上場する225銘柄を選定し、その株価を使って算出する株価平均型の指数です"
+   },
+   {
+    "url": "https://www.jpx.co.jp/markets/indices/topix/",
+    "quote": "算出方法浮動株時価総額加重型"
+   },
+   {
+    "url": "https://www.jpx.co.jp/markets/indices/topix/",
+    "quote": "起算日・基準値1968年1月4日・100ポイント"
+   },
+   {
+    "url": "https://www.jpx.co.jp/equities/products/etfs/etf-outline/03.html",
+    "quote": "TOPIXは、日本の株式市場を広範に網羅するとともに、投資対象としての機能性を有するマーケット・ベンチマークです"
+   }
+  ],
+  "reviewStatus": "verified",
   "checkedAt": "2026-10-21",
   "aliases": [
    "日経平均",
@@ -4197,7 +4999,7 @@
   "field": "C",
   "importance": 3,
   "short": "株価指数などに連動することを目指して、金融商品取引所に上場している投資信託。",
-  "detail": "上場株式と同様に、指値・成行注文や信用取引ができ、取引時間中に市場価格で売買できる。日経平均株価やTOPIXなどに連動するもののほか、海外の指数や商品指数に連動するものもある。信託報酬が通常の投資信託より低い傾向。",
+  "detail": "上場株式と同様に、指値・成行注文や信用取引ができ、取引時間中に市場価格で売買できる。",
   "related": [
    "toshi-shintaku",
    "j-reit"
@@ -4208,12 +5010,41 @@
   ],
   "sources": [
    {
-    "title": "日本FP協会 試験範囲（試験要綱）",
-    "url": "https://www.jafp.or.jp/exam/outline/"
+    "title": "日本取引所グループ アクティブ運用型ETFの説明",
+    "url": "https://www.jpx.co.jp/equities/products/etfs/actively-managed-etfs/index.html"
+   },
+   {
+    "title": "日本取引所グループ ETFと他の投資信託の違い",
+    "url": "https://www.jpx.co.jp/equities/products/etfs/etf-outline/01.html"
+   },
+   {
+    "title": "日本取引所グループ 売買制度（ETF）",
+    "url": "https://www.jpx.co.jp/equities/products/etfs/trading/index.html"
    }
   ],
-  "evidence": [],
-  "reviewStatus": "draft",
+  "evidence": [
+   {
+    "url": "https://www.jpx.co.jp/equities/products/etfs/actively-managed-etfs/index.html",
+    "quote": "株価指数など特定の指標に連動した投資成果を目指すETF（以下「指標連動型ETF」といいます。）"
+   },
+   {
+    "url": "https://www.jpx.co.jp/equities/products/etfs/trading/index.html",
+    "quote": "株式と同じように指値注文や成行注文、また寄付条件付注文や引け条件付注文が可能です"
+   },
+   {
+    "url": "https://www.jpx.co.jp/equities/products/etfs/etf-outline/01.html",
+    "quote": "取引価格リアルタイムで変動する市場価格"
+   },
+   {
+    "url": "https://www.jpx.co.jp/equities/products/etfs/etf-outline/01.html",
+    "quote": "取引可能時間取引所立会時間（リアルタイム）"
+   },
+   {
+    "url": "https://www.jpx.co.jp/equities/products/etfs/etf-outline/01.html",
+    "quote": "信用取引可能（上場初日から貸借銘柄）"
+   }
+  ],
+  "reviewStatus": "verified",
   "checkedAt": "2026-10-21",
   "aliases": [
    "上場投資信託"
@@ -4226,7 +5057,7 @@
   "field": "C",
   "importance": 3,
   "short": "投資家から集めた資金で不動産に投資し、賃料収入や売却益を分配する、証券取引所に上場している投資信託。",
-  "detail": "上場株式と同様に市場で売買できる。分配金は配当所得として扱われる。不動産の価格や賃料、金利、不動産市況の影響を受ける。分配金を投資家に分配すると、一定の要件のもとで法人税が課されない仕組みがある。",
+  "detail": "上場株式と同様に、全国の証券会社を通して東証で売買ができ、指値・成行注文も可能。不動産賃貸市場や金利環境等、その他様々な経済情勢等の影響を受けて、価格が下落したり、分配金が減少する可能性がある。",
   "related": [
    "etf"
   ],
@@ -4236,12 +5067,29 @@
   ],
   "sources": [
    {
-    "title": "日本FP協会 試験範囲（試験要綱）",
-    "url": "https://www.jafp.or.jp/exam/outline/"
+    "title": "日本取引所グループ 概要（REIT）",
+    "url": "https://www.jpx.co.jp/equities/products/reits/outline/index.html"
    }
   ],
-  "evidence": [],
-  "reviewStatus": "draft",
+  "evidence": [
+   {
+    "url": "https://www.jpx.co.jp/equities/products/reits/outline/index.html",
+    "quote": "REIT（不動産投信）とは、たくさんの投資家から資金を集めて「不動産」を購入し、そこから生じる賃料や売却益を投資家に配当（正確には分配）する商品です"
+   },
+   {
+    "url": "https://www.jpx.co.jp/equities/products/reits/outline/index.html",
+    "quote": "証券取引所に上場している株式と同様、全国の証券会社を通して、東証で売買ができます"
+   },
+   {
+    "url": "https://www.jpx.co.jp/equities/products/reits/outline/index.html",
+    "quote": "東証で売買が可能です（指値注文も成行注文もできます）"
+   },
+   {
+    "url": "https://www.jpx.co.jp/equities/products/reits/outline/index.html",
+    "quote": "不動産賃貸市場や金利環境等、その他、様々な経済情勢等の影響を受けて、不動産投信の価格が下落したり、分配金が減少する可能性があります"
+   }
+  ],
+  "reviewStatus": "verified",
   "checkedAt": "2026-10-21",
   "aliases": [
    "REIT",
@@ -4256,7 +5104,7 @@
   "field": "C",
   "importance": 3,
   "short": "株価指数などのベンチマークに連動する運用を目指すのがインデックスファンド、ベンチマークを上回る運用成果を目指すのがアクティブファンド。",
-  "detail": "インデックスファンドは運用コストが低い傾向。アクティブファンドは運用者の調査・判断で銘柄選択を行うため、成果にばらつきがあり、信託報酬が高い傾向。",
+  "detail": "アクティブ運用では、運用会社やファンドマネージャーが、予め定められた運用方針に沿って、その専門知識を生かしながら組入銘柄や資産配分を選択することで、ベンチマークを上回る投資成果を得る可能性を提供する。",
   "related": [
    "toshi-shintaku"
   ],
@@ -4266,12 +5114,21 @@
   ],
   "sources": [
    {
-    "title": "日本FP協会 試験範囲（試験要綱）",
-    "url": "https://www.jafp.or.jp/exam/outline/"
+    "title": "日本取引所グループ アクティブ運用型ETFの説明",
+    "url": "https://www.jpx.co.jp/equities/products/etfs/actively-managed-etfs/index.html"
    }
   ],
-  "evidence": [],
-  "reviewStatus": "draft",
+  "evidence": [
+   {
+    "url": "https://www.jpx.co.jp/equities/products/etfs/actively-managed-etfs/index.html",
+    "quote": "アクティブ運用型ETFとは、株価指数など特定の指標に連動した投資成果を目指すETF（以下「指標連動型ETF」といいます。）とは異なり、連動対象となる指標が存在しないETFのことをいいます"
+   },
+   {
+    "url": "https://www.jpx.co.jp/equities/products/etfs/actively-managed-etfs/index.html",
+    "quote": "アクティブ運用型ETFは、運用会社やファンドマネージャーが、予め定められた運用方針に沿って、その専門知識を生かしながら組入銘柄や資産配分を選択することで、ベンチマークを上回る投資成果を得る可能性を提供します"
+   }
+  ],
+  "reviewStatus": "verified",
   "checkedAt": "2026-10-21",
   "aliases": [
    "インデックスファンド",
@@ -4314,8 +5171,8 @@
   "reading": "あせっとあろけーしょん",
   "field": "C",
   "importance": 3,
-  "short": "投資資金を、株式・債券・不動産・現預金などの資産クラスにどのような比率で配分するかを決めること。",
-  "detail": "長期の運用成果の大部分は、個別銘柄の選択よりも資産配分で決まるとされる。相関が低い資産を組み合わせると、ポートフォリオ全体のリスクを抑えられる（分散効果）。",
+  "short": "投資資金を、株式・債券・不動産・現金等価資産などの資産クラスにどのような比率で配分するかを決めること。",
+  "detail": "リスクを抑えつつ安定したリターンを獲得するために、運用資産を配分することをいう。主な運用対象は国内株式・国内債券・海外証券・不動産・現金等価資産などがあり、これらの配分を決定した後に、運用対象ごとに銘柄の選定を行うのが一般的。",
   "related": [
    "sokan-keisu",
    "portfolio"
@@ -4326,12 +5183,21 @@
   ],
   "sources": [
    {
-    "title": "日本FP協会 試験範囲（試験要綱）",
-    "url": "https://www.jafp.or.jp/exam/outline/"
+    "title": "日本取引所グループ 用語集 アセットアロケーション",
+    "url": "https://www.jpx.co.jp/glossary/a/513.html"
    }
   ],
-  "evidence": [],
-  "reviewStatus": "draft",
+  "evidence": [
+   {
+    "url": "https://www.jpx.co.jp/glossary/a/513.html",
+    "quote": "リスクを抑えつつ安定したリターンを獲得するために、運用資産を配分することをいいます"
+   },
+   {
+    "url": "https://www.jpx.co.jp/glossary/a/513.html",
+    "quote": "主な運用対象としては、「国内株式」・「国内債券」・「海外証券」・「不動産」・「現金等価資産」などがあり、これらの配分を決定した後に、運用対象ごとに銘柄の選定を行うのが一般的です"
+   }
+  ],
+  "reviewStatus": "verified",
   "checkedAt": "2026-10-21",
   "aliases": [
    "資産配分"
@@ -4344,7 +5210,7 @@
   "field": "C",
   "importance": 2,
   "short": "複数の資産を組み合わせた投資の組合せ。期待収益率は構成資産の期待収益率の加重平均、リスクは標準偏差で表す。",
-  "detail": "ポートフォリオの期待収益率＝Σ（各資産の組入比率×期待収益率）。標準偏差は、資産間の相関係数が1より小さいほど、構成資産の標準偏差の加重平均より小さくなる。標準偏差が大きいほど収益のばらつきが大きく、リスクが高い。",
+  "detail": "資産運用の世界では、様々な資産ないし銘柄の組み合わせのことをいい、投資家の保有証券リストといった意味として使われている。ポートフォリオの期待収益率＝Σ（各資産の組入比率×期待収益率）。",
   "related": [
    "sokan-keisu",
    "sharpe-ratio",
@@ -4355,12 +5221,17 @@
   ],
   "sources": [
    {
-    "title": "日本FP協会 試験範囲（試験要綱）",
-    "url": "https://www.jafp.or.jp/exam/outline/"
+    "title": "日本取引所グループ 用語集 ポートフォリオ",
+    "url": "https://www.jpx.co.jp/glossary/ha/417.html"
    }
   ],
-  "evidence": [],
-  "reviewStatus": "draft",
+  "evidence": [
+   {
+    "url": "https://www.jpx.co.jp/glossary/ha/417.html",
+    "quote": "資産運用の世界では、様々な資産ないし、銘柄の組み合わせのことであり、投資家の保有証券リストといった意味として使われています"
+   }
+  ],
+  "reviewStatus": "verified",
   "checkedAt": "2026-10-21",
   "aliases": [
    "標準偏差",
@@ -4374,7 +5245,7 @@
   "field": "C",
   "importance": 2,
   "short": "市場全体の収益率の変動に対して、個別銘柄やポートフォリオの収益率がどれだけ変動するかを示す指標。",
-  "detail": "ベータが1なら市場と同じ動き、1より大きければ市場より大きく、1より小さければ市場より小さく変動する。CAPM（資本資産評価モデル）では、期待収益率＝無リスク資産利子率＋ベータ×（市場の期待収益率－無リスク資産利子率）。",
+  "detail": "TOPIXの変動率を1とした場合の、個々の銘柄の変動率を表す。例えばβ値が1.2なら、その銘柄はTOPIXより2割方大きく動く傾向があることを意味する。",
   "related": [
    "sharpe-ratio"
   ],
@@ -4383,12 +5254,21 @@
   ],
   "sources": [
    {
-    "title": "日本FP協会 試験範囲（試験要綱）",
-    "url": "https://www.jafp.or.jp/exam/outline/"
+    "title": "日本取引所グループ 用語集 β値",
+    "url": "https://www.jpx.co.jp/glossary/0-9/512.html"
    }
   ],
-  "evidence": [],
-  "reviewStatus": "draft",
+  "evidence": [
+   {
+    "url": "https://www.jpx.co.jp/glossary/0-9/512.html",
+    "quote": "β値は、個々の銘柄の値動きとTOPIXの変動の関係を示す尺度、すなわち、TOPIXの変動率を１とした場合の個々の銘柄の変動率を表しています"
+   },
+   {
+    "url": "https://www.jpx.co.jp/glossary/0-9/512.html",
+    "quote": "例えば、Ａ銘柄のβ値が1.2であるとすれば、Ａ銘柄の方が２割方、TOPIXより大きく動く傾向があることを意味しています"
+   }
+  ],
+  "reviewStatus": "verified",
   "checkedAt": "2026-10-21",
   "aliases": [
    "β",
@@ -4402,7 +5282,7 @@
   "field": "C",
   "importance": 3,
   "short": "米ドルなどの外貨で預け入れる預金。",
-  "detail": "為替レートの変動により、円換算の元本割れ（為替差損）が生じるリスクがある。預金保険制度の対象外。為替差益は雑所得として総合課税、利息は源泉分離課税の対象。預入時は円を外貨に換えるTTS、払戻時は外貨を円に換えるTTBが適用される。",
+  "detail": "預金保険制度の対象外。為替差益は雑所得として扱われ、所得として認識する必要がある。利息は利子所得として源泉分離課税の対象となり、確定申告をすることはできない。",
   "related": [
    "tts-ttb",
    "yokin-hoken"
@@ -4413,12 +5293,53 @@
   ],
   "sources": [
    {
-    "title": "日本FP協会 試験範囲（試験要綱）",
-    "url": "https://www.jafp.or.jp/exam/outline/"
+    "title": "預金保険機構 預金保険制度の基礎知識",
+    "url": "https://www.dic.go.jp/yokinsha/kihon.html"
+   },
+   {
+    "title": "預金保険機構 万が一金融機関が破綻した時",
+    "url": "https://www.dic.go.jp/yokinsha/hatan.html"
+   },
+   {
+    "title": "国税庁 No.1310 利息を受け取ったとき（利子所得）",
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1310.htm"
+   },
+   {
+    "title": "国税庁 質疑応答事例 外国通貨の交換による為替差損益の取扱い",
+    "url": "https://www.nta.go.jp/law/shitsugi/shotoku/02/41.htm"
+   },
+   {
+    "title": "国税庁 税務大学校論叢 個人における為替差損益の認識とその計上時期について",
+    "url": "https://www.nta.go.jp/about/organization/ntc/kenkyu/ronsou/111/02/index.htm"
    }
   ],
-  "evidence": [],
-  "reviewStatus": "draft",
+  "evidence": [
+   {
+    "url": "https://www.dic.go.jp/yokinsha/kihon.html",
+    "quote": "一方、外貨預金、譲渡性預金、無記名預金、募集債である金融債及び保護預り契約が終了した金融債などは預金保険の保護の対象外です"
+   },
+   {
+    "url": "https://www.dic.go.jp/yokinsha/hatan.html",
+    "quote": "預金保険の対象外預金等外貨預金、譲渡性預金、金融債（募集債及び保護預り契約が終了したもの）など保護対象外"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1310.htm",
+    "quote": "利子所得とは、預貯金および公社債の利子ならびに合同運用信託、公社債投資信託および公募公社債等運用投資信託の収益の分配に係る所得をいいます"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1310.htm",
+    "quote": "これにより納税が完結する源泉分離課税の対象となり、確定申告をすることはできません"
+   },
+   {
+    "url": "https://www.nta.go.jp/law/shitsugi/shotoku/02/41.htm",
+    "quote": "為替差益を所得として認識する必要があります"
+   },
+   {
+    "url": "https://www.nta.go.jp/about/organization/ntc/kenkyu/ronsou/111/02/index.htm",
+    "quote": "外貨両替を行ったり、外貨建金銭債権の弁済を受けたりした際の為替差損益による雑所得の実現時期は"
+   }
+  ],
+  "reviewStatus": "verified",
   "checkedAt": "2026-10-21",
   "aliases": [
    "外貨建て預金"
@@ -4460,7 +5381,7 @@
   "field": "C",
   "importance": 2,
   "short": "株式、債券、投資信託、デリバティブなど幅広い金融商品の取引について、投資者保護のための販売・勧誘ルールなどを定めた法律。",
-  "detail": "金融商品取引業者は、契約前の書面交付、適合性の原則（顧客の知識・経験・財産状況・目的に適合した勧誘）、断定的判断の提供の禁止、損失補填の禁止などを守る必要がある。",
+  "detail": "金融商品取引業者は、契約締結前の情報提供、適合性の原則（顧客の知識・経験・財産状況・目的に適合した勧誘）、断定的判断の提供の禁止、損失補填の禁止などを守る必要がある。",
   "related": [
    "kinyu-hanbai-ho"
   ],
@@ -4470,12 +5391,33 @@
   ],
   "sources": [
    {
-    "title": "日本FP協会 試験範囲（試験要綱）",
-    "url": "https://www.jafp.or.jp/exam/outline/"
+    "title": "e-Gov法令検索 金融商品取引法",
+    "url": "https://laws.e-gov.go.jp/law/323AC0000000025"
    }
   ],
-  "evidence": [],
-  "reviewStatus": "draft",
+  "evidence": [
+   {
+    "url": "https://laws.e-gov.go.jp/law/323AC0000000025",
+    "quote": "国民経済の健全な発展及び投資者の保護に資することを目的とする"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/323AC0000000025",
+    "quote": "第三十七条の三金融商品取引業者等は、金融商品取引契約を締結しようとするときは、内閣府令で定めるところにより、あらかじめ、顧客に対し、次に掲げる事項に係る情報を提供しなければならない"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/323AC0000000025",
+    "quote": "顧客に対し、不確実な事項について断定的判断を提供し、又は確実であると誤解させるおそれのあることを告げて金融商品取引契約の締結の勧誘をする行為"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/323AC0000000025",
+    "quote": "（損失補塡等の禁止）第三十九条金融商品取引業者等は、次に掲げる行為をしてはならない"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/323AC0000000025",
+    "quote": "（適合性の原則等）第四十条金融商品取引業者等は、業務の運営の状況が次の各号のいずれかに該当することのないように、その業務を行わなければならない。一金融商品取引行為について、顧客の知識、経験、財産の状況及び金融商品取引契約を締結する目的に照らして不適当と認められる勧誘を行つて投資者の保護に欠けること"
+   }
+  ],
+  "reviewStatus": "verified",
   "checkedAt": "2026-10-21",
   "aliases": [
    "金商法"
@@ -4488,7 +5430,7 @@
   "field": "C",
   "importance": 2,
   "short": "金融商品の販売時に、販売業者に重要事項の説明義務を課し、説明義務違反があったときの損害賠償責任を定めた法律。",
-  "detail": "正式名称は「金融サービスの提供に関する法律」。元本欠損が生じるおそれがあることなどの重要事項を説明しなかった場合、損害額が推定される。顧客が理解できる方法・程度の説明が必要で、顧客が説明を要しない意思を表明したときなどは除外される。",
+  "detail": "正式名称は「金融サービスの提供及び利用環境の整備等に関する法律」（令和5年改正で改称）。元本欠損が生じるおそれがあることなどの重要事項を説明しなかった場合、損害額が推定される。顧客が理解できる方法・程度の説明が必要で、顧客が説明を要しない意思を表明したときなどは除外される。",
   "related": [
    "kinsho-ho",
    "shohisha-keiyaku-ho"
@@ -4499,12 +5441,33 @@
   ],
   "sources": [
    {
-    "title": "日本FP協会 試験範囲（試験要綱）",
-    "url": "https://www.jafp.or.jp/exam/outline/"
+    "title": "e-Gov法令検索 金融サービスの提供及び利用環境の整備等に関する法律",
+    "url": "https://laws.e-gov.go.jp/law/412AC0000000101"
    }
   ],
-  "evidence": [],
-  "reviewStatus": "draft",
+  "evidence": [
+   {
+    "url": "https://laws.e-gov.go.jp/law/412AC0000000101",
+    "quote": "（金融商品販売業者等の説明義務）第四条金融商品販売業者等は、金融商品の販売等を業として行うときは、当該金融商品の販売等に係る金融商品の販売が行われるまでの間に、顧客に対し、次に掲げる事項（以下この章において「重要事項」という。）について説明をしなければならない。一当該金融商品の販売について金利、通貨の価格、金融商品市場（金融商品取引法第二条第十四項に規定する金融商品市場をいう。以下この条において同じ。）における相場その他の指標に係る変動を直接の原因として元本欠損が生ずるおそれがあるときは"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/412AC0000000101",
+    "quote": "前項の説明は、顧客の知識、経験、財産の状況及び当該金融商品の販売に係る契約を締結する目的に照らして、当該顧客に理解されるために必要な方法及び程度によるものでなければならない"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/412AC0000000101",
+    "quote": "重要事項について説明を要しない旨の顧客の意思の表明があったとき"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/412AC0000000101",
+    "quote": "（金融商品販売業者等の損害賠償責任）第六条金融商品販売業者等は、顧客に対し第四条の規定により重要事項について説明をしなければならない場合において当該重要事項について説明をしなかったとき、又は前条の規定に違反して断定的判断の提供等を行ったときは、これによって生じた当該顧客の損害を賠償する責めに任ずる"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/412AC0000000101",
+    "quote": "（損害の額の推定）第七条顧客が前条の規定により損害の賠償を請求する場合には、元本欠損額は、金融商品販売業者等が重要事項について説明をしなかったこと又は断定的判断の提供等を行ったことによって当該顧客に生じた損害の額と推定する"
+   }
+  ],
+  "reviewStatus": "verified",
   "checkedAt": "2026-10-21",
   "aliases": [
    "金融サービスの提供に関する法律",
@@ -4528,12 +5491,53 @@
   ],
   "sources": [
    {
-    "title": "日本FP協会 試験範囲（試験要綱）",
-    "url": "https://www.jafp.or.jp/exam/outline/"
+    "title": "e-Gov法令検索 消費者契約法",
+    "url": "https://laws.e-gov.go.jp/law/412AC0000000061"
    }
   ],
-  "evidence": [],
-  "reviewStatus": "draft",
+  "evidence": [
+   {
+    "url": "https://laws.e-gov.go.jp/law/412AC0000000061",
+    "quote": "事業者の一定の行為により消費者が誤認し、又は困惑した場合等について契約の申込み又はその承諾の意思表示を取り消すことができることとするとともに、事業者の損害賠償の責任を免除する条項その他の消費者の利益を不当に害することとなる条項の全部又は一部を無効とする"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/412AC0000000061",
+    "quote": "重要事項について事実と異なることを告げること。当該告げられた内容が事実であるとの誤認"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/412AC0000000061",
+    "quote": "将来における変動が不確実な事項につき断定的判断を提供すること。当該提供された断定的判断の内容が確実であるとの誤認"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/412AC0000000061",
+    "quote": "当該重要事項について当該消費者の不利益となる事実（当該告知により当該事実が存在しないと消費者が通常考えるべきものに限る。）を故意又は重大な過失によって告げなかったことにより、当該事実が存在しないとの誤認をし"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/412AC0000000061",
+    "quote": "当該事業者に対し、当該消費者が、その住居又はその業務を行っている場所から退去すべき旨の意思を示したにもかかわらず、それらの場所から退去しないこと"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/412AC0000000061",
+    "quote": "当該事業者が当該消費者契約の締結について勧誘をしている場所から当該消費者が退去する旨の意思を示したにもかかわらず、その場所から当該消費者を退去させないこと"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/412AC0000000061",
+    "quote": "（取消権の行使期間等）第七条第四条第一項から第四項までの規定による取消権は、追認をすることができる時から一年間"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/412AC0000000061",
+    "quote": "当該消費者契約の締結の時から五年"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/412AC0000000061",
+    "quote": "（消費者の利益を一方的に害する条項の無効）第十条"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/412AC0000000061",
+    "quote": "民法第一条第二項に規定する基本原則に反して消費者の利益を一方的に害するものは、無効とする"
+   }
+  ],
+  "reviewStatus": "verified",
   "checkedAt": "2026-10-21"
  },
  {
@@ -4543,7 +5547,7 @@
   "field": "C",
   "importance": 2,
   "short": "証券会社が破綻して、顧客の資産が返還されない場合に、一定額まで補償する制度。",
-  "detail": "補償の対象は証券会社が分別管理している顧客の資産。補償限度額は1顧客あたり1,000万円。銀行で購入した投資信託や、保険会社の変額保険などは対象外（それぞれの制度で保護の範囲が異なる）。",
+  "detail": "会員である証券会社が破綻し、分別管理の不備などで顧客が返還を受けられなかった金銭や有価証券がある場合に、その被害額を補償する。補償限度額は、破綻した証券会社ごとに1人あたり合計1,000万円まで。銀行などで購入した投資信託は補償の対象にならない。",
   "related": [
    "yokin-hoken"
   ],
@@ -4568,7 +5572,7 @@
   "field": "C",
   "importance": 3,
   "short": "上場株式や投資信託の譲渡益・配当の税金計算の方法による口座の種類。",
-  "detail": "特定口座（源泉徴収あり）は証券会社が年間の損益を計算して源泉徴収まで行うため、原則として確定申告が不要。特定口座（源泉徴収なし）と一般口座は自分で確定申告する。譲渡益・配当にかかる税率は合計20.315％（所得税15.315％、住民税5％）。",
+  "detail": "特定口座では、金融商品取引業者等が損益の計算を行い、送られる特定口座年間取引報告書により簡便に申告（簡易申告口座の場合）を行うことができる。特定口座内で生じる所得に対して源泉徴収することを選択した口座（源泉徴収口座）では、その口座内の譲渡による所得を申告不要とすることができる（他の口座との相殺や繰越控除の適用を受ける場合は確定申告が必要）。",
   "related": [
    "nisa",
    "joto-sonshitsu-kurikoshi"
@@ -4579,12 +5583,25 @@
   ],
   "sources": [
    {
-    "title": "日本FP協会 試験範囲（試験要綱）",
-    "url": "https://www.jafp.or.jp/exam/outline/"
+    "title": "国税庁 No.1476 特定口座制度",
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1476.htm"
    }
   ],
-  "evidence": [],
-  "reviewStatus": "draft",
+  "evidence": [
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1476.htm",
+    "quote": "その特定口座内の上場株式等の譲渡による譲渡所得等の金額については、特定口座外で譲渡した他の株式等の譲渡による所得と区分して計算します。この計算は金融商品取引業者等が行いますので、金融商品取引業者等から送られる特定口座年間取引報告書により、簡便に申告（簡易申告口座の場合）を行うことができます"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1476.htm",
+    "quote": "特定口座内で生じる所得に対して源泉徴収することを選択した場合には、その特定口座（以下「源泉徴収口座」といいます。）内の上場株式等の譲渡による所得を申告不要とすることができます"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1476.htm",
+    "quote": "源泉徴収口座内の上場株式等の譲渡による所得について、他の口座の上場株式等の譲渡損益と相殺する場合やコード1474「上場株式等に係る譲渡損失の損益通算及び繰越控除の特例」の適用を受ける場合には、確定申告をする必要があります"
+   }
+  ],
+  "reviewStatus": "verified",
   "checkedAt": "2026-10-21",
   "aliases": [
    "特定口座",
@@ -4610,12 +5627,33 @@
   ],
   "sources": [
    {
-    "title": "日本FP協会 試験範囲（試験要綱）",
-    "url": "https://www.jafp.or.jp/exam/outline/"
+    "title": "国税庁 No.1474 上場株式等に係る譲渡損失の損益通算及び繰越控除",
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1474.htm"
    }
   ],
-  "evidence": [],
-  "reviewStatus": "draft",
+  "evidence": [
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1474.htm",
+    "quote": "上場株式等を金融商品取引業者等を通じて譲渡したこと等により生じた譲渡損失の金額（以下「上場株式等に係る譲渡損失の金額」といいます。）は、確定申告により、その年分の上場株式等の配当等に係る利子所得の金額および配当所得の金額（上場株式等に係る配当所得については、申告分離課税を選択したものに限ります。"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1474.htm",
+    "quote": "その年分の翌年以後3年間にわたり、確定申告により、上場株式等に係る譲渡所得等の金額および上場株式等に係る配当所得等の金額から繰越控除することができます"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1474.htm",
+    "quote": "その後の年において連続して「所得税及び復興特別所得税の確定申告書付表(上場株式等に係る譲渡損失の損益通算及び繰越控除用)」の添付のある確定申告書を提出すること"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1474.htm",
+    "quote": "（注）上場株式等の譲渡がなかった年も、譲渡損失を翌年へ繰り越すための申告が必要です"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1474.htm",
+    "quote": "（注3）非課税口座（NISA）及び未成年者口座（ジュニアNISA）内の上場株式等を譲渡したことにより生じた譲渡損失については、損益通算及び繰越控除はできません"
+   }
+  ],
+  "reviewStatus": "verified",
   "checkedAt": "2026-10-21",
   "aliases": [
    "譲渡損失の繰越控除"
@@ -5440,7 +6478,7 @@
   "field": "E",
   "importance": 2,
   "short": "市街地の火災の危険を防ぐために指定される地域で、建築物の構造に制限がある。",
-  "detail": "防火地域内では、階数が3以上または延べ面積が100㎡を超える建築物は耐火建築物とする必要がある。建ぺい率の上限が80％とされる地域の防火地域内の耐火建築物は、建ぺい率の制限がなくなる（100％）。建築物が防火地域と準防火地域にまたがる場合は、厳しい方の規制が適用される。",
+  "detail": "防火地域内では、階数が3以上または延べ面積が100㎡を超える建築物は耐火建築物等とする必要がある。建ぺい率の上限が80％とされる地域の防火地域内の耐火建築物等は、建ぺい率の制限がなくなる（100％）。建築物が防火地域と準防火地域にまたがる場合は、厳しい方の規制（防火地域の規定）が適用される。",
   "related": [
    "kenpeiritsu"
   ],
@@ -5449,17 +6487,92 @@
   ],
   "sources": [
    {
-    "title": "日本FP協会 試験範囲（試験要綱）",
-    "url": "https://www.jafp.or.jp/exam/outline/"
+    "title": "e-Gov法令検索 都市計画法",
+    "url": "https://laws.e-gov.go.jp/law/343AC0000000100"
+   },
+   {
+    "title": "e-Gov法令検索 建築基準法",
+    "url": "https://laws.e-gov.go.jp/law/325AC0000000201"
+   },
+   {
+    "title": "e-Gov法令検索 建築基準法施行令",
+    "url": "https://laws.e-gov.go.jp/law/325CO0000000338"
    }
   ],
-  "evidence": [],
-  "reviewStatus": "draft",
+  "evidence": [
+   {
+    "url": "https://laws.e-gov.go.jp/law/343AC0000000100",
+    "quote": "防火地域又は準防火地域は、市街地における火災の危険を防除するため定める地域とする"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/325AC0000000201",
+    "quote": "防火地域又は準防火地域内にある建築物は、その外壁の開口部で延焼のおそれのある部分に防火戸その他の政令で定める防火設備を設け"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/325CO0000000338",
+    "quote": "防火地域内にある建築物で階数が三以上のもの若しくは延べ面積が百平方メートルを超えるもの"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/325AC0000000201",
+    "quote": "前各項の規定は、次の各号のいずれかに該当する建築物については、適用しない。一防火地域（第一項第二号から第四号までの規定により建蔽率の限度が十分の八とされている地域に限る。）内にある耐火建築物等"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/325AC0000000201",
+    "quote": "建築物が防火地域及び準防火地域にわたる場合においては、その全部について防火地域内の建築物に関する規定を適用する"
+   }
+  ],
+  "reviewStatus": "verified",
   "checkedAt": "2026-10-21",
   "aliases": [
    "防火地域",
    "準防火地域"
   ]
+ },
+ {
+  "id": "kenchiku-kakunin",
+  "name": "建築確認",
+  "reading": "けんちくかくにん",
+  "field": "E",
+  "importance": 2,
+  "short": "建築物を建てる前に、その計画が建築基準法等の規定に適合しているかを確認する手続き。",
+  "detail": "建築主は、工事の着手前に建築主事や指定確認検査機関の確認を受ける必要がある。工事完了後は完了検査を受けて検査済証の交付を受ける。",
+  "related": [
+   "kenpeiritsu"
+  ],
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "e-Gov法令検索 建築基準法",
+    "url": "https://laws.e-gov.go.jp/law/325AC0000000201"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://laws.e-gov.go.jp/law/325AC0000000201",
+    "quote": "当該工事に着手する前に、その計画が建築基準関係規定"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/325AC0000000201",
+    "quote": "確認の申請書を提出して建築主事又は建築副主事（以下「建築主事等」という。）の確認"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/325AC0000000201",
+    "quote": "前条第一項各号に掲げる建築物の計画（前条第三項各号のいずれかに該当するものを除く。）が建築基準関係規定に適合するものであることについて、第七十七条の十八から第七十七条の二十一までの規定の定めるところにより国土交通大臣又は都道府県知事が指定した者の確認を受け"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/325AC0000000201",
+    "quote": "建築主は、第六条第一項の規定による工事を完了したときは、国土交通省令で定めるところにより、建築主事等の検査"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/325AC0000000201",
+    "quote": "当該建築物及びその敷地が建築基準関係規定に適合していることを認めたときは、国土交通省令で定めるところにより、当該建築物の建築主に対して検査済証を交付しなければならない"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-10-21"
  },
  {
   "id": "zenmen-doro-yosekiritsu",
@@ -5506,31 +6619,6 @@
    "name": "前面道路の容積率制限",
    "tex": "\\text{幅員(m)} \\times \\frac{4}{10}\\ (\\text{住居系}),\\ \\ \\times \\frac{6}{10}\\ (\\text{その他})"
   }
- },
- {
-  "id": "kenchiku-kakunin",
-  "name": "建築確認",
-  "reading": "けんちくかくにん",
-  "field": "E",
-  "importance": 2,
-  "short": "建築物を建てる前に、その計画が建築基準法等の規定に適合しているかを確認する手続き。",
-  "detail": "建築主は、工事の着手前に建築主事や指定確認検査機関の確認を受ける必要がある。工事完了後は完了検査を受けて検査済証の交付を受ける。",
-  "related": [
-   "kenpeiritsu"
-  ],
-  "grades": [
-   2,
-   3
-  ],
-  "sources": [
-   {
-    "title": "日本FP協会 試験範囲（試験要綱）",
-    "url": "https://www.jafp.or.jp/exam/outline/"
-   }
-  ],
-  "evidence": [],
-  "reviewStatus": "draft",
-  "checkedAt": "2026-10-21"
  },
  {
   "id": "kubun-shoyuho",
@@ -5724,8 +6812,8 @@
   "reading": "ばいかいほうしゅう",
   "field": "E",
   "importance": 3,
-  "short": "不動産会社が売買の媒介で受け取れる報酬の上限額は、宅地建物取引業法で定められている。",
-  "detail": "売買価格（税抜）が400万円を超える場合は、売買価格×3％＋6万円（税抜）が上限（速算式）。200万円以下の部分は5％、200万円超400万円以下の部分は4％、400万円超の部分は3％で計算した合計額と同じ。これに消費税が加わる。",
+  "short": "不動産会社が売買の媒介で受け取れる報酬の上限額は、宅地建物取引業法で定められている（国土交通大臣の定めるところにより、この額を超えて受けてはならない）。",
+  "detail": "報酬の額は、売買代金の額（消費税等相当額を含まない）を区分して計算する。200万円以下の金額には100分の5.5、200万円を超え400万円以下の金額には100分の4.4、400万円を超える金額には100分の3.3（いずれも消費税込み）を乗じて合計した金額以内とする。",
   "related": [
    "baikai-keiyaku"
   ],
@@ -5735,16 +6823,41 @@
   ],
   "sources": [
    {
-    "title": "日本FP協会 試験範囲（試験要綱）",
-    "url": "https://www.jafp.or.jp/exam/outline/"
+    "title": "e-Gov法令検索 宅地建物取引業法",
+    "url": "https://laws.e-gov.go.jp/law/327AC1000000176"
+   },
+   {
+    "title": "大阪府 宅地建物取引業者が受けることができる報酬の額（建設省告示第1552号）",
+    "url": "https://www.pref.osaka.lg.jp/o130200/kenshin/kokuji/index.html"
    }
   ],
-  "evidence": [],
-  "reviewStatus": "draft",
+  "evidence": [
+   {
+    "url": "https://laws.e-gov.go.jp/law/327AC1000000176",
+    "quote": "宅地建物取引業者が宅地又は建物の売買、交換又は貸借の代理又は媒介に関して受けることのできる報酬の額は、国土交通大臣の定めるところによる"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/327AC1000000176",
+    "quote": "宅地建物取引業者は、前項の額をこえて報酬を受けてはならない"
+   },
+   {
+    "url": "https://www.pref.osaka.lg.jp/o130200/kenshin/kokuji/index.html",
+    "quote": "当該売買に係る代金の額（当該売買に係る消費税等相当額を含まないものとする。）"
+   },
+   {
+    "url": "https://www.pref.osaka.lg.jp/o130200/kenshin/kokuji/index.html",
+    "quote": "を次の表の左欄に掲げる金額に区分してそれぞれの金額に同表の右欄に掲げる割合を乗じて得た金額を合計した金額以内とする"
+   },
+   {
+    "url": "https://www.pref.osaka.lg.jp/o130200/kenshin/kokuji/index.html",
+    "quote": "200万円以下の金額100分の5.5200万円を超え400万円以下の金額100分の4.4400万円を超える金額100分の3.3"
+   }
+  ],
+  "reviewStatus": "verified",
   "checkedAt": "2026-10-21",
   "formula": {
-   "name": "媒介報酬の上限（400万円超）",
-   "tex": "\\text{売買価格(税抜)} \\times 3\\% + 6\\text{万円}"
+   "name": "媒介報酬の上限（400万円超・消費税込み速算式）",
+   "tex": "\\text{売買価格(税抜)} \\times 3.3\\% + 6.6\\text{万円}"
   },
   "aliases": [
    "仲介手数料"
@@ -5853,12 +6966,73 @@
   ],
   "sources": [
    {
-    "title": "日本FP協会 試験範囲（試験要綱）",
-    "url": "https://www.jafp.or.jp/exam/outline/"
+    "title": "e-Gov法令検索 地方税法",
+    "url": "https://laws.e-gov.go.jp/law/325AC0000000226"
+   },
+   {
+    "title": "総務省 地方税制度｜固定資産税",
+    "url": "https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/150790_15.html"
    }
   ],
-  "evidence": [],
-  "reviewStatus": "draft",
+  "evidence": [
+   {
+    "url": "https://laws.e-gov.go.jp/law/325AC0000000226",
+    "quote": "固定資産税は、固定資産の所有者"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/325AC0000000226",
+    "quote": "固定資産税の賦課期日は、当該年度の初日の属する年の一月一日とする"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/325AC0000000226",
+    "quote": "基準年度の固定資産税の課税標準は、当該土地又は家屋の基準年度に係る賦課期日における価格"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/325AC0000000226",
+    "quote": "又は家屋課税台帳若しくは家屋補充課税台帳（以下「家屋課税台帳等」という。）に登録されたものとする"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/325AC0000000226",
+    "quote": "固定資産税の標準税率は、百分の一・四とする"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/325AC0000000226",
+    "quote": "住宅用地でその面積が二百平方メートル以下であるもの"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/325AC0000000226",
+    "quote": "当該小規模住宅用地に係る固定資産税の課税標準となるべき価格の六分の一の額とする"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/325AC0000000226",
+    "quote": "当該住宅用地に係る固定資産税の課税標準となるべき価格の三分の一の額とする"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/325AC0000000226",
+    "quote": "同法第七条第一項に規定する市街化区域"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/325AC0000000226",
+    "quote": "内に所在する土地及び家屋に対し、その価格を課税標準として、当該土地又は家屋の所有者に都市計画税を課することができる"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/325AC0000000226",
+    "quote": "都市計画税の税率は、百分の〇・三を超えることができない"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/325AC0000000226",
+    "quote": "当該土地に係る都市計画税の課税標準となるべき価格の三分の二の額とする"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/325AC0000000226",
+    "quote": "当該土地に係る都市計画税の課税標準となるべき価格の三分の一の額とする"
+   },
+   {
+    "url": "https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/150790_15.html",
+    "quote": "土地や家屋などの固定資産が所在する市町村に、市町村税として納税します"
+   }
+  ],
+  "reviewStatus": "verified",
   "checkedAt": "2026-10-21",
   "aliases": [
    "固定資産税",
@@ -5872,7 +7046,7 @@
   "field": "E",
   "importance": 3,
   "short": "不動産の取得・登記・契約書の作成に係る税。",
-  "detail": "不動産取得税は、売買・贈与・新築などで取得したときに一度だけ課される都道府県税（相続による取得は非課税）。課税標準は固定資産税評価額。登録免許税は、登記を受けるときに課される国税。印紙税は、契約書などの文書に課される国税。",
+  "detail": "不動産取得税は、売買・贈与・新築などで取得したときに課される都道府県税（相続による取得は非課税）。課税標準は固定資産税評価額。登録免許税は、登記を受けるときに課される国税。印紙税は、契約書などの課税文書に課される国税。",
   "related": [
    "kotei-shisanzei"
   ],
@@ -5882,12 +7056,61 @@
   ],
   "sources": [
    {
-    "title": "日本FP協会 試験範囲（試験要綱）",
-    "url": "https://www.jafp.or.jp/exam/outline/"
+    "title": "e-Gov法令検索 地方税法",
+    "url": "https://laws.e-gov.go.jp/law/325AC0000000226"
+   },
+   {
+    "title": "e-Gov法令検索 登録免許税法",
+    "url": "https://laws.e-gov.go.jp/law/342AC0000000035"
+   },
+   {
+    "title": "国税庁 No.7100 課税文書に該当するかどうかの判断",
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/inshi/7100.htm"
+   },
+   {
+    "title": "国税庁 No.7140 印紙税額の一覧表（その1）",
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/inshi/7140.htm"
    }
   ],
-  "evidence": [],
-  "reviewStatus": "draft",
+  "evidence": [
+   {
+    "url": "https://laws.e-gov.go.jp/law/325AC0000000226",
+    "quote": "不動産取得税は、不動産の取得に対し、当該不動産所在の道府県において、当該不動産の取得者に課する"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/325AC0000000226",
+    "quote": "一相続（包括遺贈及び被相続人から相続人に対してなされた遺贈を含む。）による不動産の取得"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/325AC0000000226",
+    "quote": "不動産取得税の課税標準は、不動産を取得した時における不動産の価格とする"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/325AC0000000226",
+    "quote": "道府県知事は、固定資産課税台帳に固定資産の価格が登録されている不動産については、当該価格により当該不動産に係る不動産取得税の課税標準となるべき価格を決定するものとする"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/342AC0000000035",
+    "quote": "登録免許税は、別表第一に掲げる登記、登録、特許、免許、許可、認可、認定、指定及び技能証明（以下「登記等」という。）について課する"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/342AC0000000035",
+    "quote": "登記等を受ける者は、この法律により登録免許税を納める義務がある"
+   },
+   {
+    "url": "https://laws.e-gov.go.jp/law/342AC0000000035",
+    "quote": "当該登記等につき課されるべき登録免許税の額に相当する登録免許税を国に納付し"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/inshi/7100.htm",
+    "quote": "印紙税が課税されるのは、印紙税法で定められた課税文書に限られています"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/inshi/7140.htm",
+    "quote": "不動産売買契約書、不動産交換契約書、不動産売渡証書など"
+   }
+  ],
+  "reviewStatus": "verified",
   "checkedAt": "2026-10-21",
   "aliases": [
    "不動産取得税",
@@ -5912,12 +7135,37 @@
   ],
   "sources": [
    {
-    "title": "日本FP協会 試験範囲（試験要綱）",
-    "url": "https://www.jafp.or.jp/exam/outline/"
+    "title": "国土交通省 不動産鑑定評価基準",
+    "url": "https://www.mlit.go.jp/notice/noticedata/sgml/018/74000514/74000514.html"
    }
   ],
-  "evidence": [],
-  "reviewStatus": "draft",
+  "evidence": [
+   {
+    "url": "https://www.mlit.go.jp/notice/noticedata/sgml/018/74000514/74000514.html",
+    "quote": "不動産の鑑定評価の方式には、原価方式、比較方式及び収益方式の三方式がある"
+   },
+   {
+    "url": "https://www.mlit.go.jp/notice/noticedata/sgml/018/74000514/74000514.html",
+    "quote": "原価法は、価格時点における対象不動産の再調達原価を求め、この再調達原価について減価修正を行って対象不動産の試算価格を求める手法である"
+   },
+   {
+    "url": "https://www.mlit.go.jp/notice/noticedata/sgml/018/74000514/74000514.html",
+    "quote": "取引事例比較法は、まず多数の取引事例を収集して適切な事例の選択を行い"
+   },
+   {
+    "url": "https://www.mlit.go.jp/notice/noticedata/sgml/018/74000514/74000514.html",
+    "quote": "収益還元法は、対象不動産が将来生み出すであろうと期待される純収益の現在価値の総和を求めることにより対象不動産の試算価格を求める手法である"
+   },
+   {
+    "url": "https://www.mlit.go.jp/notice/noticedata/sgml/018/74000514/74000514.html",
+    "quote": "収益価格を求める方法には、一期間の純収益を還元利回りによって還元する方法(以下「直接還元法」という。)と"
+   },
+   {
+    "url": "https://www.mlit.go.jp/notice/noticedata/sgml/018/74000514/74000514.html",
+    "quote": "連続する複数の期間に発生する純収益及び復帰価格を、その発生時期に応じて現在価値に割り引き、それぞれを合計する方法(DiscountedCashFlow法(以下「DCF法」という。))がある"
+   }
+  ],
+  "reviewStatus": "verified",
   "checkedAt": "2026-10-21",
   "aliases": [
    "原価法",
@@ -5932,7 +7180,7 @@
   "field": "E",
   "importance": 3,
   "short": "投資用不動産の収益性を測る指標。",
-  "detail": "表面利回り（グロス）＝年間賃料収入÷物件価格。純利回り（NOI利回り）＝（年間賃料収入－諸経費）÷（物件価格＋購入時の諸費用）。直接還元法による収益価格＝1年間の純収益（NOI）÷還元利回り。",
+  "detail": "表面利回り（グロス）＝年間家賃収入÷物件価格。純利回り（NOI利回り）＝（年間家賃収入－運営管理費）÷物件価格。直接還元法による収益価格＝1年間の純収益（NOI）÷還元利回り。",
   "related": [
    "fudosan-hyoka-3shuho"
   ],
@@ -5942,16 +7190,37 @@
   ],
   "sources": [
    {
-    "title": "日本FP協会 試験範囲（試験要綱）",
-    "url": "https://www.jafp.or.jp/exam/outline/"
+    "title": "日本FP協会 コラム 不動産投資における利回りの意味",
+    "url": "https://www.jafp.or.jp/know/info/column/20220513.shtml"
+   },
+   {
+    "title": "国土交通省 不動産鑑定評価基準",
+    "url": "https://www.mlit.go.jp/notice/noticedata/sgml/018/74000514/74000514.html"
    }
   ],
-  "evidence": [],
-  "reviewStatus": "draft",
+  "evidence": [
+   {
+    "url": "https://www.jafp.or.jp/know/info/column/20220513.shtml",
+    "quote": "表面利回り（％）＝年間家賃収入÷物件価格×100"
+   },
+   {
+    "url": "https://www.jafp.or.jp/know/info/column/20220513.shtml",
+    "quote": "NOI利回り（％）＝（年間家賃収入－運営管理費）÷物件価格×100"
+   },
+   {
+    "url": "https://www.jafp.or.jp/know/info/column/20220513.shtml",
+    "quote": "年間家賃収入から不動産を管理、運営していくための経費を差し引いた純収益を言います"
+   },
+   {
+    "url": "https://www.mlit.go.jp/notice/noticedata/sgml/018/74000514/74000514.html",
+    "quote": "(1)直接還元法P＝a／RP：求める不動産の収益価格a：一期間の純収益R：還元利回り"
+   }
+  ],
+  "reviewStatus": "verified",
   "checkedAt": "2026-10-21",
   "formula": {
-   "name": "純利回り",
-   "tex": "\\frac{\\text{年間賃料収入} - \\text{諸経費}}{\\text{物件価格} + \\text{購入時諸費用}}"
+   "name": "純利回り（NOI利回り）",
+   "tex": "\\frac{\\text{年間家賃収入} - \\text{運営管理費}}{\\text{物件価格}}"
   },
   "aliases": [
    "表面利回り",
@@ -5979,12 +7248,45 @@
   ],
   "sources": [
    {
-    "title": "日本FP協会 試験範囲（試験要綱）",
-    "url": "https://www.jafp.or.jp/exam/outline/"
+    "title": "国税庁 No.1370 不動産収入を受け取ったとき（不動産所得）",
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1370.htm"
+   },
+   {
+    "title": "国税庁 No.1391 不動産所得が赤字のときの他の所得との通算",
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1391.htm"
+   },
+   {
+    "title": "国税庁 No.2250 損益通算",
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2250.htm"
    }
   ],
-  "evidence": [],
-  "reviewStatus": "draft",
+  "evidence": [
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1370.htm",
+    "quote": "（1）土地や建物などの不動産の貸付け"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1370.htm",
+    "quote": "総収入金額-必要経費＝不動産所得の金額"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1370.htm",
+    "quote": "主なものとして貸付資産に係る次に掲げるものがあります。イ固定資産税ロ損害保険料ハ減価償却費ニ修繕費"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1391.htm",
+    "quote": "不動産所得の金額は、その年中の不動産所得に係る総収入金額から必要経費を差し引いて計算します"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1391.htm",
+    "quote": "不動産所得の金額の計算上必要経費に算入した土地等を取得するために要した負債の利子に相当する部分の金額"
+   },
+   {
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2250.htm",
+    "quote": "（2）土地（土地の上に存する権利を含みます。）を取得するために要した負債の利子に相当する部分の金額"
+   }
+  ],
+  "reviewStatus": "verified",
   "checkedAt": "2026-10-21"
  },
  {
