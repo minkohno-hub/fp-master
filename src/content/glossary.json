@@ -5660,6 +5660,439 @@
   ]
  },
  {
+  "id": "derivatives",
+  "name": "デリバティブ取引",
+  "reading": "でりばてぃぶとりひき",
+  "field": "C",
+  "importance": 3,
+  "short": "株式・債券・通貨などの現物（原資産）から派生した取引の総称で、金融派生商品ともいう。代表例は先物取引・オプション取引・スワップ取引。",
+  "detail": "原資産は、日経平均株価やTOPIXなどの株価指数、国債、外国為替、金利のほか、大豆・トウモロコシなどの農産物や金、原油・石油といった工業品まで多岐にわたる。",
+  "related": [
+   "sakimono",
+   "options",
+   "swap"
+  ],
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "日本取引所グループ 用語集 デリバティブ",
+    "url": "https://www.jpx.co.jp/glossary/ta/316.html"
+   },
+   {
+    "title": "東証マネ部！ 北浜博士のデリバティブ教室 デリバティブの種類",
+    "url": "https://money-bu-jpx.com/basic/derivatives/school/about/about-02/"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://money-bu-jpx.com/basic/derivatives/school/about/about-02/",
+    "quote": "デリバティブ取引も文字どおり、株式や債券、通貨、農作物、エネルギーなどの現物（原資産）から「派生した」取引という意味です"
+   },
+   {
+    "url": "https://money-bu-jpx.com/basic/derivatives/school/about/about-02/",
+    "quote": "デリバティブ取引は大きく分けて先物取引、オプション取引、スワップ取引があります"
+   },
+   {
+    "url": "https://www.jpx.co.jp/glossary/ta/316.html",
+    "quote": "派生商品のこと。日経平均株価、TOPIX（東証株価指数）など株価指数、国債、外国為替、金利のほか大豆・トウモロコシなどの農産物や金、原油・石油といった工業品を対象にした先物・オプション取引があります"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-10-21",
+  "aliases": [
+   "金融派生商品"
+  ]
+ },
+ {
+  "id": "sakimono",
+  "name": "先物取引",
+  "reading": "さきものとりひき",
+  "field": "C",
+  "importance": 3,
+  "short": "ある対象商品を、決められた将来の期日に、現段階で決めた価格で売買する約束の取引。",
+  "detail": "株式投資と違って取引できる期間が決まっており、証拠金という保証金を預けて取引する。取引金額が証拠金額の数十倍になるレバレッジ効果が作用し、大きな利益が見込める一方、相場の見通しを誤った場合には損失も拡大する。取引所取引で取引条件が標準化されているため、決済期日（限月）の前に転売や反対売買によって取引を解消することが比較的容易である。対象は、商品（トウモロコシ・金・ガソリンなど）のほか、金利、為替、国債や株価指数など金融商品まで多岐にわたる。",
+  "related": [
+   "derivatives",
+   "sakiwatashi",
+   "hedge"
+  ],
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "日本取引所グループ 用語集 先物取引",
+    "url": "https://www.jpx.co.jp/glossary/sa/168.html"
+   },
+   {
+    "title": "一橋大学 ファイナンス用語集 先物取引・先渡取引",
+    "url": "https://glossary.hub.hit-u.ac.jp/faq/show/1129/"
+   },
+   {
+    "title": "東証マネ部！ 北浜博士のデリバティブ教室 デリバティブの種類",
+    "url": "https://money-bu-jpx.com/basic/derivatives/school/about/about-02/"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.jpx.co.jp/glossary/sa/168.html",
+    "quote": "ある対象商品を（1）決められた将来の期日に（2）現段階で決めた価格で売買する約束の取引です"
+   },
+   {
+    "url": "https://www.jpx.co.jp/glossary/sa/168.html",
+    "quote": "株式投資と違って取引できる期間が決まっているほか、証拠金という保証金を預けて取引をします"
+   },
+   {
+    "url": "https://www.jpx.co.jp/glossary/sa/168.html",
+    "quote": "取引金額が証拠金額の数十倍になるレバレッジ効果が作用して、大きな利益が見込める一方、相場の見通しを誤った場合、その分損失も拡大するリスクも抱えています"
+   },
+   {
+    "url": "https://glossary.hub.hit-u.ac.jp/faq/show/1129/",
+    "quote": "先物取引は、日時・数量などの取引条件が標準化されているため、契約の決済期日（限月）の前に転売や反対売買によって取引を解消することが比較的容易である"
+   },
+   {
+    "url": "https://money-bu-jpx.com/basic/derivatives/school/about/about-02/",
+    "quote": "先物取引には、トウモロコシや金、ガソリンなどの商品を対象にしたものや、金利、為替、国債や株価指数など金融商品を対象にしたものなど多くの種類があります"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-10-21",
+  "aliases": [
+   "フューチャー"
+  ]
+ },
+ {
+  "id": "sakiwatashi",
+  "name": "先渡取引",
+  "reading": "さきわたしとりひき",
+  "field": "C",
+  "importance": 2,
+  "short": "将来のあらかじめ定められた期日に、現時点で決めた価格で商品を売買する契約のうち、店頭で行われ、現物決済による決済が行われるもの。フォワード取引ともいう。",
+  "detail": "売り手と買い手の交渉によって個別に契約が締結される相対取引であり、基本的にはあらかじめ定められた決済期日に契約が履行される。決済は実際に商品の受渡しを行う現物決済で、先物取引と異なり、基本的には証拠金が必要とされない。先物取引とは、取引方法（取引所か店頭か）と決済方法（差金決済か現物決済か）が異なる。",
+  "related": [
+   "sakimono"
+  ],
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "一橋大学 ファイナンス用語集 先物取引・先渡取引",
+    "url": "https://glossary.hub.hit-u.ac.jp/faq/show/1129/"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://glossary.hub.hit-u.ac.jp/faq/show/1129/",
+    "quote": "取引が店頭で行われ、現物決済による決済が行われる場合には、先渡取引と呼ばれる"
+   },
+   {
+    "url": "https://glossary.hub.hit-u.ac.jp/faq/show/1129/",
+    "quote": "先渡取引は、売り手と買い手の交渉によって個別に契約が締結される相対取引であり、基本的にはあらかじめ定められた決済期日に契約が履行される"
+   },
+   {
+    "url": "https://glossary.hub.hit-u.ac.jp/faq/show/1129/",
+    "quote": "決済方法については、実際に商品の受渡しを行う現物決済が行われるが、先物取引と異なり、基本的には証拠金が必要とされない"
+   },
+   {
+    "url": "https://glossary.hub.hit-u.ac.jp/faq/show/1129/",
+    "quote": "先物取引と先渡取引は、主にその取引方法と決済方法に関して異なる特徴を有する"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-10-21",
+  "aliases": [
+   "フォワード取引"
+  ]
+ },
+ {
+  "id": "options",
+  "name": "オプション取引",
+  "reading": "おぷしょんとりひき",
+  "field": "C",
+  "importance": 3,
+  "short": "将来、特定の価格で原資産を買い付ける権利（コール）または売り付ける権利（プット）を売買する取引。",
+  "detail": "オプションは権利であるため、買い手は自分に都合が良い場合だけ権利行使を利用するという選択ができ、売り手は買い手が権利行使をした場合に応じる義務がある。コール・オプションは原資産を権利行使価格で買う権利、プット・オプションは売る権利。権利の価格（オプション価格）をプレミアムといい、本質的価値と時間的価値からなる。",
+  "related": [
+   "derivatives",
+   "hedge"
+  ],
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "東証マネ部！ 北浜博士のデリバティブ教室 デリバティブの種類",
+    "url": "https://money-bu-jpx.com/basic/derivatives/school/about/about-02/"
+   },
+   {
+    "title": "日本取引所グループ 用語集 コール・オプション",
+    "url": "https://www.jpx.co.jp/glossary/ka/142.html"
+   },
+   {
+    "title": "日本取引所グループ 用語集 プット・オプション",
+    "url": "https://www.jpx.co.jp/glossary/ha/395.html"
+   },
+   {
+    "title": "日本取引所グループ 用語集 プレミアム",
+    "url": "https://www.jpx.co.jp/glossary/ha/405.html"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://money-bu-jpx.com/basic/derivatives/school/about/about-02/",
+    "quote": "将来、特定の値段で「買い付ける権利」あるいは「売り付ける権利」を売買するのがオプション取引です"
+   },
+   {
+    "url": "https://money-bu-jpx.com/basic/derivatives/school/about/about-02/",
+    "quote": "オプションは権利ですので、買い手は自分に都合が良い場合だけ利用するという選択ができます。一方、売り手は買い手が権利行使をした場合に応じる義務があります"
+   },
+   {
+    "url": "https://www.jpx.co.jp/glossary/ka/142.html",
+    "quote": "原資産を権利行使価格で「買う」権利のことです"
+   },
+   {
+    "url": "https://www.jpx.co.jp/glossary/ha/395.html",
+    "quote": "原資産を権利行使価格で「売る」権利のことです"
+   },
+   {
+    "url": "https://www.jpx.co.jp/glossary/ha/405.html",
+    "quote": "オプション取引のオプション価格のことで、株式投資の株価に相当するものです"
+   },
+   {
+    "url": "https://www.jpx.co.jp/glossary/ha/405.html",
+    "quote": "プレミアムは、オプションの本質的価値と時間的価値からなります"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-10-21",
+  "aliases": [
+   "コール・オプション",
+   "プット・オプション",
+   "プレミアム"
+  ]
+ },
+ {
+  "id": "swap",
+  "name": "スワップ取引",
+  "reading": "すわっぷとりひき",
+  "field": "C",
+  "importance": 2,
+  "short": "将来のキャッシュ・フローを交換する取引。同一通貨の固定金利と変動金利を交換する金利スワップが代表例。",
+  "detail": "スワップは「交換」という意味で、交換されるものによって、エクイティスワップや金利スワップなどと呼ばれる。金利スワップは、一方の当事者が契約締結時に定めた想定元本に対する固定金利をもう一方に支払い、もう一方が同額の想定元本に対する変動金利を支払う取引。同じ通貨で異なるタイプの利息（固定金利と変動金利、長期金利と短期金利など）を交換する。",
+  "related": [
+   "derivatives"
+  ],
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "日本取引所グループ 用語集 スワップ",
+    "url": "https://www.jpx.co.jp/glossary/sa/522.html"
+   },
+   {
+    "title": "東証マネ部！ 北浜博士のデリバティブ教室 デリバティブの種類",
+    "url": "https://money-bu-jpx.com/basic/derivatives/school/about/about-02/"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.jpx.co.jp/glossary/sa/522.html",
+    "quote": "金融取引でいうスワップ取引とは、将来のキャッシュ・フローを交換することをいい、交換されるものによって、エクイティスワップや金利スワップなどと呼ばれます"
+   },
+   {
+    "url": "https://www.jpx.co.jp/glossary/sa/522.html",
+    "quote": "同一通貨の固定金利と変動金利を交換する金利スワップは、一方の当事者（Ａ）が契約締結時に定めた想定元本に対する固定金利を、もう一方の当事者（Ｂ）に支払う一方、ＢがＡに対して、同額の想定元本に対する変動金利を支払う取引です"
+   },
+   {
+    "url": "https://money-bu-jpx.com/basic/derivatives/school/about/about-02/",
+    "quote": "同じ通貨で異なるタイプの利息（例えば、固定金利と変動金利、長期金利と短期金利）を交換する金利スワップなどがあります"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-10-21",
+  "aliases": [
+   "金利スワップ"
+  ]
+ },
+ {
+  "id": "arbitrage",
+  "name": "裁定取引",
+  "reading": "さいていとりひき",
+  "field": "C",
+  "importance": 2,
+  "short": "同一の性格を持つ2つの商品の間で、割高な方を売り、割安な方を買うポジションを組み、その価格差を利益として得る取引。アービトラージともいう。",
+  "detail": "先物と現物間の裁定のほか、先物の限月間や、日経225先物取引と日経225miniなど異なる商品間の裁定取引もある。",
+  "related": [
+   "sakimono"
+  ],
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "日本取引所グループ 用語集 裁定取引",
+    "url": "https://www.jpx.co.jp/glossary/sa/163.html"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.jpx.co.jp/glossary/sa/163.html",
+    "quote": "アービトラージともいいます。同一の性格を持つ2つの商品の間で、割高な方を売り、割安な方を買うポジションを組み、その価格差を利益として得る取引です"
+   },
+   {
+    "url": "https://www.jpx.co.jp/glossary/sa/163.html",
+    "quote": "先物と現物間の裁定のほか、先物の限月間や、日経225先物取引と日経225miniなど異なる商品間の裁定取引もあります"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-10-21",
+  "aliases": [
+   "アービトラージ"
+  ]
+ },
+ {
+  "id": "hedge",
+  "name": "ヘッジ取引",
+  "reading": "へっじとりひき",
+  "field": "C",
+  "importance": 2,
+  "short": "保有しているか将来保有する予定の現物の価格変動リスクを回避・軽減するため、先物・オプション取引で現物と反対のポジションをとる取引。",
+  "detail": "現物を保有している場合に先物の売付けを行う売りヘッジと、将来現物を保有する予定のある場合に先物の買付けを行う買いヘッジの2種類がある。例えば、保有する現物株やファンドの値下がりに備えて先物を売り建てるか、プットオプションを買い建てる。",
+  "related": [
+   "sakimono",
+   "options"
+  ],
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "日本取引所グループ 用語集 ヘッジ取引",
+    "url": "https://www.jpx.co.jp/glossary/ha/413.html"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.jpx.co.jp/glossary/ha/413.html",
+    "quote": "現在保有しているか又は将来保有する予定のある現物の価格変動リスクを回避又は軽減するために、先物・オプション取引において現物と反対のポジションをとる取引をヘッジ取引といいます"
+   },
+   {
+    "url": "https://www.jpx.co.jp/glossary/ha/413.html",
+    "quote": "ヘッジ取引には、現物を保有している場合に先物の売付けを行う売りヘッジ、将来現物を保有する予定のある場合に先物の買付けを行う買いヘッジの2種類があります"
+   },
+   {
+    "url": "https://www.jpx.co.jp/glossary/ha/413.html",
+    "quote": "保有する現物株やファンドが今後値下がりしそうだと判断した場合、先物を売り建てるか、プットオプションを買い建てます"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-10-21",
+  "aliases": [
+   "売りヘッジ",
+   "買いヘッジ"
+  ]
+ },
+ {
+  "id": "keika-rishi",
+  "name": "経過利子",
+  "reading": "けいかりし",
+  "field": "C",
+  "importance": 2,
+  "short": "利付債の売買において、買手から売手に支払われる利子相当額。売買代金に加えて授受される。",
+  "detail": "利付債の利子は利払日の権利者に対して支払われるため、利払日前に売却する場合には、売手が保有期間に相当する利子を得られるよう、買手から売買代金に加えて経過利子を受け取る必要がある。経過利子額の計算対象となる経過日数は、直前利払期日から受渡日までの実日数を片落ち計算して算出する。",
+  "related": [
+   "saishu-rimawari"
+  ],
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "日本取引所グループ 用語集 経過利子",
+    "url": "https://www.jpx.co.jp/glossary/ka/119.html"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.jpx.co.jp/glossary/ka/119.html",
+    "quote": "経過利子とは、利付債の売買において、買手から売手に支払われる利子相当額のことをいいます"
+   },
+   {
+    "url": "https://www.jpx.co.jp/glossary/ka/119.html",
+    "quote": "利付債の利子は利払日の権利者に対して支払われることから、利払日前に売却する場合には、売手が保有期間に相当する利子を得られるよう買手から売買代金に加えて経過利子を受け取る必要があります"
+   },
+   {
+    "url": "https://www.jpx.co.jp/glossary/ka/119.html",
+    "quote": "経過利子額を計算する際に対象となる経過日数は直前利払期日から受渡日までの実日数を片落ち計算して算出します"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-10-21"
+ },
+ {
+  "id": "cb",
+  "name": "転換社債型新株予約権付社債",
+  "reading": "てんかんしゃさいがたしんかぶよやくけんつきしゃさい",
+  "field": "C",
+  "importance": 2,
+  "short": "新株予約権付社債のうち、新株予約権が行使された場合に、その払込みに代えて社債の全額が償還されるもの。英語の convertible bond の頭文字からCBとも呼ばれる。",
+  "detail": "平成14年4月の商法改正前の転換社債に相当するもの。新株予約権付社債は、行使期間内であれば発行会社の株式を一定の価格で取得できる権利の付与された社債であり、社債の一形態として確定利付債としての利息収入を毎期得られるほか、株価との連動商品という特徴から時価の変動の影響を受ける。",
+  "related": [
+   "credit-risk"
+  ],
+  "grades": [
+   2,
+   3
+  ],
+  "sources": [
+   {
+    "title": "日本取引所グループ 用語集 転換社債型新株予約権付社債",
+    "url": "https://www.jpx.co.jp/glossary/ta/555.html"
+   },
+   {
+    "title": "日本取引所グループ 用語集 新株予約権付社債",
+    "url": "https://www.jpx.co.jp/glossary/sa/221.html"
+   }
+  ],
+  "evidence": [
+   {
+    "url": "https://www.jpx.co.jp/glossary/ta/555.html",
+    "quote": "新株予約権付社債のうち、新株予約権が行使された場合には、当該行使に係る払込に代えて、当該社債の全額が償還されるものは、転換社債型新株予約権付社債と呼ばれています"
+   },
+   {
+    "url": "https://www.jpx.co.jp/glossary/ta/555.html",
+    "quote": "英語でconvertiblebondといわれるので、頭文字を取ってCBとも呼ばれます"
+   },
+   {
+    "url": "https://www.jpx.co.jp/glossary/ta/555.html",
+    "quote": "転換社債型新株予約権付社債は、社債の一形態ですから確定利付債としての利息収入を毎期得られるほか、株価との連動商品という特徴から時価の変動の影響を受けることになります"
+   },
+   {
+    "url": "https://www.jpx.co.jp/glossary/sa/221.html",
+    "quote": "行使期間内であれば、発行会社の株式を一定の価格で取得できる権利の付与された社債をいいます"
+   }
+  ],
+  "reviewStatus": "verified",
+  "checkedAt": "2026-10-21",
+  "aliases": [
+   "CB",
+   "転換社債",
+   "新株予約権付社債"
+  ]
+ },
+ {
   "id": "shotoku-10shu",
   "name": "所得の10種類",
   "reading": "しょとくの10しゅるい",
