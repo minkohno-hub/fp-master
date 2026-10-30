@@ -1452,7 +1452,7 @@
    "missing": []
   },
   "https://www.jafp.or.jp/aim/fptoha/fp/": {
-   "fetched": false,
+   "fetched": true,
    "checkedAt": "2026-10-30",
    "missing": []
   },
@@ -2132,7 +2132,7 @@
    "missing": []
   },
   "https://www.mof.go.jp/jgbs/individual/kojinmuke/": {
-   "fetched": false,
+   "fetched": true,
    "checkedAt": "2026-10-30",
    "missing": []
   },
@@ -4137,11 +4137,11 @@
   "expl:g2o-a05-16": "verified",
   "expl:g2o-a06-01": "verified",
   "expl:g2o-a06-02": "verified",
-  "expl:g2o-a06-03": "draft",
-  "expl:g2o-a06-04": "draft",
-  "expl:g2o-a06-05": "draft",
+  "expl:g2o-a06-03": "verified",
+  "expl:g2o-a06-04": "verified",
+  "expl:g2o-a06-05": "verified",
   "expl:g2o-a06-06": "verified",
-  "expl:g2o-a06-07": "draft",
+  "expl:g2o-a06-07": "verified",
   "expl:g2o-b01-01": "verified",
   "expl:g2o-b01-02": "verified",
   "expl:g2o-b01-03": "verified",
@@ -4346,7 +4346,7 @@
   "expl:g2o-c09-06": "verified",
   "expl:g2o-c09-07": "verified",
   "expl:g2o-c10-01": "verified",
-  "expl:g2o-c10-02": "draft",
+  "expl:g2o-c10-02": "verified",
   "expl:g2o-c10-03": "verified",
   "expl:g2o-c10-04": "verified",
   "expl:g2o-c10-05": "verified",
