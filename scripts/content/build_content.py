@@ -51,7 +51,9 @@ def fetch(url: str) -> str | None:
     m = _EGOV.match(url)
     if m:
         url = f'https://laws.e-gov.go.jp/api/1/lawdata/{m.group(1)}'
-    for i in range(3):
+    # 一部の公式サイト（日本FP協会・財務省等）は連続アクセス時に一時的に応答しないことがあるため、
+    # 照合の取りこぼし（正しい引用が未照合になる）を避ける目的でリトライを厚めにする（照合基準は不変）
+    for i in range(6):
         try:
             req = urllib.request.Request(url, headers={'User-Agent': UA})
             with urllib.request.urlopen(req, timeout=30) as r:
@@ -61,7 +63,7 @@ def fetch(url: str) -> str | None:
             except UnicodeDecodeError:
                 return raw.decode('cp932', errors='replace')  # 国税庁の通達ページなど
         except Exception:
-            time.sleep(2 ** i)
+            time.sleep(min(2 ** i, 30))
     return None
 
 

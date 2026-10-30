@@ -1,0 +1,386 @@
+{
+ "id": "g2o_c13",
+ "exam": "g2",
+ "title": "FP2級 オリジナル演習 C13（金融資産運用：EB債・デュアルカレンシー債・デリバティブ・ベンチマーク・リスク分類・外貨建投信）",
+ "officialSet": false,
+ "lawBaseDate": "2026-04-01",
+ "questions": [
+  {
+   "id": "g2o-c13-01",
+   "exam": "g2",
+   "field": "C",
+   "theme": "他社株転換条項付債券（EB債）",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（日本FP協会の試験範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "大和証券 金融・証券用語解説 他社株転換債",
+      "url": "https://www.daiwa.jp/glossary/YST1030.html"
+     },
+     {
+      "title": "日本証券業協会 EB債（他社株転換可能債券）の特徴やリスクとは？",
+      "url": "https://www.jsda.or.jp/about/hatten/risk/eb/index.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "他社株転換条項付債券（EB債）に関する次の記述のうち、最も不適切なものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "EB債は、通常の債券に株式オプション（プットオプションの売り）を組み込んだ仕組債の一種であり、対象株式の株価が設定水準より高い場合は「元本＋金利」が、低い場合は「株式＋金利」が償還される。"
+      },
+      {
+       "id": "2",
+       "text": "EB債は、償還日までの特定銘柄の株価変動によっては、満期日に金銭ではなく、当該債券の発行会社とは異なる会社の株式（他社株）が交付される場合がある債券である。"
+      },
+      {
+       "id": "3",
+       "text": "EB債が株式で償還される場合、そのときの株式の価格によっては、実質的な償還金額が投資元本を下回る（損失が生じる）可能性がある。"
+      },
+      {
+       "id": "4",
+       "text": "EB債は高クーポンであるため、対象株式の価格が下落した場合でも、満期には必ず額面金額が金銭で償還され、元本が確保される。"
+      }
+     ],
+     "answer": "4"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 4,
+   "topic": "C4.3-2"
+  },
+  {
+   "id": "g2o-c13-02",
+   "exam": "g2",
+   "field": "C",
+   "theme": "二重通貨建債・逆二重通貨建債",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（日本FP協会の試験範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "大和証券 金融・証券用語解説 二重通貨建て債",
+      "url": "https://www.daiwa.jp/glossary/YST1424.html"
+     },
+     {
+      "title": "大和証券 金融・証券用語解説 逆二重通貨建て債",
+      "url": "https://www.daiwa.jp/glossary/YST0380.html"
+     },
+     {
+      "title": "日本証券業協会 パワー・リバース・デュアルカレンシー債の特徴やリスクとは？",
+      "url": "https://www.jsda.or.jp/about/hatten/risk/prdc/index.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "二重通貨建債（デュアルカレンシー債）と逆二重通貨建債（リバースデュアルカレンシー債）に関する次の記述のうち、最も不適切なものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "二重通貨建債は、元本の払い込みと利払いが同じ通貨で、元本の償還が別の通貨で行われる債券である。"
+      },
+      {
+       "id": "2",
+       "text": "二重通貨建債では、償還が外貨建てであっても、円換算した償還金額があらかじめ確定しているため、為替変動の影響を受けることはない。"
+      },
+      {
+       "id": "3",
+       "text": "パワー・リバース・デュアルカレンシー債（PRDC債）は逆二重通貨建債の一形態であり、為替レートが円高になった場合、利率は低くなり、最悪0％になってしまう可能性がある。"
+      },
+      {
+       "id": "4",
+       "text": "逆二重通貨建債は、元本の払い込みと償還が同じ通貨で、利息の支払い通貨が異なる債券であり、元本の払い込みと償還が円払いで、利息の支払いが外貨建てになる。"
+      }
+     ],
+     "answer": "2"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 4,
+   "topic": "C4.3-4"
+  },
+  {
+   "id": "g2o-c13-03",
+   "exam": "g2",
+   "field": "C",
+   "theme": "デリバティブ取引のメリットとリスク",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（日本FP協会の試験範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "東証マネ部！ 北浜博士のデリバティブ教室 デリバティブの種類",
+      "url": "https://money-bu-jpx.com/basic/derivatives/school/about/about-02/"
+     },
+     {
+      "title": "東証マネ部！ 北浜博士のデリバティブ教室 デリバティブの起源",
+      "url": "https://money-bu-jpx.com/basic/derivatives/school/about/about-01/"
+     },
+     {
+      "title": "日本取引所グループ 用語集 先物取引",
+      "url": "https://www.jpx.co.jp/glossary/sa/168.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "デリバティブ取引の特徴とリスクに関する次の記述のうち、最も不適切なものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "オプション取引の買い手は、購入した権利を必ず行使する義務を負うため、相場が不利に変動した場合でも取引を履行しなければならない。"
+      },
+      {
+       "id": "2",
+       "text": "デリバティブ取引は、株価の変動に伴うリスクを回避（ヘッジ）する手段として利用される。"
+      },
+      {
+       "id": "3",
+       "text": "デリバティブ取引は、株式や債券、通貨、農作物、エネルギーなどの現物（原資産）から「派生した」取引であり、大きく先物取引、オプション取引、スワップ取引に分けられる。"
+      },
+      {
+       "id": "4",
+       "text": "先物取引では、取引金額が証拠金額の数十倍になるレバレッジ効果が作用し、大きな利益が見込める一方、相場の見通しを誤った場合には損失も拡大するリスクがある。"
+      }
+     ],
+     "answer": "1"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 4,
+   "topic": "C8.1-5"
+  },
+  {
+   "id": "g2o-c13-04",
+   "exam": "g2",
+   "field": "C",
+   "theme": "ベンチマーク（TOPIX・日経平均株価）",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（日本FP協会の試験範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "日本取引所グループ 株価指数等、基準価額及び市場価格",
+      "url": "https://www.jpx.co.jp/equities/products/etfs/etf-outline/03.html"
+     },
+     {
+      "title": "日本取引所グループ TOPIX（東証株価指数）",
+      "url": "https://www.jpx.co.jp/markets/indices/topix/"
+     },
+     {
+      "title": "日本経済新聞社 日経平均株価 プロフィル",
+      "url": "https://indexes.nikkei.co.jp/nkave/index/profile?idx=nk225"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "株式市場のベンチマークとして用いられる株価指数に関する次の記述のうち、最も不適切なものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "TOPIX（東証株価指数）は、日本の株式市場を広範に網羅するマーケット・ベンチマークであり、ETFなどの金融商品のベンチマークとして利用されている。"
+      },
+      {
+       "id": "2",
+       "text": "株価指数とは、株式の相場全体の状況を示すために、個々の株価を一定の計算方法で総合し、数値化したものである。"
+      },
+      {
+       "id": "3",
+       "text": "日経平均株価は、TOPIXと同様に浮動株時価総額加重型で算出され、東京証券取引所プライム市場の全上場銘柄を対象としている。"
+      },
+      {
+       "id": "4",
+       "text": "TOPIXは浮動株時価総額加重型の指数であり、1968年1月4日の時価総額を100として、その後の時価総額を指数化したものである。"
+      }
+     ],
+     "answer": "3"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 5,
+   "topic": "C9.2-11"
+  },
+  {
+   "id": "g2o-c13-05",
+   "exam": "g2",
+   "field": "C",
+   "theme": "リスクの分類と内容",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（日本FP協会の試験範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "資産運用業協会 投資信託が持つリスク",
+      "url": "https://www.imaj.or.jp/study/investmenttrust/meritrisk/risk.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "投資信託の基準価額に影響を及ぼすリスクの分類に関する次の記述のうち、最も適切なものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "価格変動リスクとは、為替レートが変動する可能性のことであり、外貨建て資産に投資する場合にのみ生じる。"
+      },
+      {
+       "id": "2",
+       "text": "信用（デフォルト）リスクとは、金利が上がると債券価格が下落し、金利が下がると債券価格が上がるという、金利変動による価格変動の可能性のことである。"
+      },
+      {
+       "id": "3",
+       "text": "投資信託には元本の保証があるため、基準価額が購入金額を下回って損失が生じることはない。"
+      },
+      {
+       "id": "4",
+       "text": "為替変動リスクについて、外国通貨建ての資産に投資する投資信託の場合、一般的には円高になれば基準価額にマイナスの影響、円安ならプラスの影響がある。"
+      }
+     ],
+     "answer": "4"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 3,
+   "topic": "C9.2-5"
+  },
+  {
+   "id": "g2o-c13-06",
+   "exam": "g2",
+   "field": "C",
+   "theme": "株式投資のメリットとリスク",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（日本FP協会の試験範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "日本取引所グループ 用語集 キャピタルゲイン",
+      "url": "https://www.jpx.co.jp/glossary/ka/111.html"
+     },
+     {
+      "title": "日本取引所グループ 用語集 インカムゲイン",
+      "url": "https://www.jpx.co.jp/glossary/a/24.html"
+     },
+     {
+      "title": "日本取引所グループ 用語集 株主優待",
+      "url": "https://www.jpx.co.jp/glossary/ka/543.html"
+     },
+     {
+      "title": "資産運用業協会 投資信託が持つリスク",
+      "url": "https://www.imaj.or.jp/study/investmenttrust/meritrisk/risk.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "株式投資のメリット（リターン）とリスクに関する次の記述のうち、最も不適切なものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "インカムゲインとは、配当金など株主の権利として受け取る利益のことである。"
+      },
+      {
+       "id": "2",
+       "text": "株価は発行会社の業績のみによって決まるため、国内及び海外の政治・経済情勢の影響を受けることはない。"
+      },
+      {
+       "id": "3",
+       "text": "キャピタルゲインとは、保有株が買った値段より値上がりするなど、株価の変動によって得る利益のことである。"
+      },
+      {
+       "id": "4",
+       "text": "株主優待は、企業が株主に対して配当とは別に自社製品やサービスを無料でプレゼントする制度であり、日本企業独特の施策といえる。"
+      }
+     ],
+     "answer": "2"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 3,
+   "topic": "C5.1-6"
+  },
+  {
+   "id": "g2o-c13-07",
+   "exam": "g2",
+   "field": "C",
+   "theme": "外貨建投資信託",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（日本FP協会の試験範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "大和証券 金融・証券用語解説 外国籍投信",
+      "url": "https://www.daiwa.jp/glossary/YST0214.html"
+     },
+     {
+      "title": "大和証券 金融・証券用語解説 為替ヘッジ",
+      "url": "https://www.daiwa.jp/glossary/YST0327.html"
+     },
+     {
+      "title": "大和証券 金融・証券用語解説 為替リスク",
+      "url": "https://www.daiwa.jp/glossary/YST0330.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "外貨建ての資産を投資対象とする投資信託に関する次の記述のうち、最も不適切なものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "海外の株式や債券で運用するファンドであっても、日本で設定されたものは国内投信に分類される。"
+      },
+      {
+       "id": "2",
+       "text": "海外に投資している投資信託（ファンド）には、為替ヘッジを行うケースと行わないケースがあり、通常、「ヘッジ付き」「ヘッジ無し」と表記されている。"
+      },
+      {
+       "id": "3",
+       "text": "外貨建て資産に投資する投資信託では、円高になると円に換金する際の換算金額が増えるため、為替変動は利益の要因にしかならない。"
+      },
+      {
+       "id": "4",
+       "text": "外国投信（外国籍投信）は、外国の法律に基づき外国で設定された投資信託であり、証券会社などが輸入して国内でも販売している。"
+      }
+     ],
+     "answer": "3"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 4,
+   "topic": "C6.1-3"
+  }
+ ]
+}

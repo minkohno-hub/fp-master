@@ -1,0 +1,362 @@
+{
+ "id": "g2o_c15",
+ "exam": "g2",
+ "title": "FP2級 オリジナル演習 C15（金融資産運用：マーケット・信託商品・抵当証券・特金/ファントラ・効率的フロンティア・海外債券市場・統計基礎）",
+ "officialSet": false,
+ "lawBaseDate": "2026-04-01",
+ "questions": [
+  {
+   "id": "g2o-c15-01",
+   "exam": "g2",
+   "field": "C",
+   "theme": "マーケットの特徴と相互関係",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（日本FP協会の試験範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "Wikipedia 金融市場",
+      "url": "https://ja.wikipedia.org/wiki/%E9%87%91%E8%9E%8D%E5%B8%82%E5%A0%B4"
+     },
+     {
+      "title": "Wikipedia 外国為替市場",
+      "url": "https://ja.wikipedia.org/wiki/%E5%A4%96%E5%9B%BD%E7%82%BA%E6%9B%BF%E5%B8%82%E5%A0%B4"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "株式・債券・外国為替・短期金融市場など、各種マーケットの特徴と相互関係に関する次の記述のうち、最も不適切なものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "外国為替市場では、為替銀行同士が相互に外国為替を売買する銀行間取引が行われ、その市場を銀行間市場（インターバンク市場）という。"
+      },
+      {
+       "id": "2",
+       "text": "金融市場を構成する株式市場・公社債市場・外国為替市場などの個別市場は、それぞれ独立して存在し、相互に影響を及ぼし合うことはない。"
+      },
+      {
+       "id": "3",
+       "text": "証券市場は、株式・公社債が発行され売買される過程を総称したもので、取引される証券の種類によって株式市場と公社債市場に分けられる。"
+      },
+      {
+       "id": "4",
+       "text": "金融市場は、取引される資金が短期か中長期かによって、短期金融市場（マネー・マーケット）と長期金融市場（資本市場、キャピタルマーケット）に分けられる。"
+      }
+     ],
+     "answer": "2"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 4,
+   "topic": "C1.1-1"
+  },
+  {
+   "id": "g2o-c15-02",
+   "exam": "g2",
+   "field": "C",
+   "theme": "各種信託商品の種類と特徴",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（日本FP協会の試験範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "一般社団法人信託協会 金銭信託",
+      "url": "https://www.shintaku-kyokai.or.jp/products/individual/assetmanagement/money_trusts.html"
+     },
+     {
+      "title": "一般社団法人信託協会 年金信託",
+      "url": "https://www.shintaku-kyokai.or.jp/products/individual/assetmanagement/pension_trusts.html"
+     },
+     {
+      "title": "一般社団法人信託協会 特定贈与信託",
+      "url": "https://www.shintaku-kyokai.or.jp/products/public_interest/public_interest/specific_gift.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "金銭信託・年金信託・特定贈与信託など、各種信託商品に関する次の記述のうち、最も不適切なものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "金銭信託は、委託者が信託銀行等に金銭を信託し、信託銀行等がその金銭を管理したり、貸付金や債券などに運用したりする信託である。"
+      },
+      {
+       "id": "2",
+       "text": "特定贈与信託を利用すると、特別障害者については6,000万円、特別障害者以外の特定障害者については3,000万円を限度として、贈与税が非課税となる。"
+      },
+      {
+       "id": "3",
+       "text": "金銭信託は、実績配当型の商品を含め、すべての商品について元本が保証されている。"
+      },
+      {
+       "id": "4",
+       "text": "年金信託では、信託銀行等が企業年金の資産の管理・運用だけでなく、加入者・受給者の管理、年金等の支払い、年金の掛金の計算等も行う。"
+      }
+     ],
+     "answer": "3"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 4,
+   "topic": "C2.1-2"
+  },
+  {
+   "id": "g2o-c15-03",
+   "exam": "g2",
+   "field": "C",
+   "theme": "抵当証券",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（日本FP協会の試験範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "Wikipedia 抵当証券",
+      "url": "https://ja.wikipedia.org/wiki/%E6%8A%B5%E5%BD%93%E8%A8%BC%E5%88%B8"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "抵当証券に関する次の記述のうち、最も不適切なものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "抵当証券の金利は利息制限法の範囲内で自由に設定でき、金融類似商品として源泉分離課税の対象となっている。"
+      },
+      {
+       "id": "2",
+       "text": "抵当証券は、抵当証券法に基づいて、不動産に対する抵当権およびその被担保債権を小口の証券とし、一般投資家が購入できるようにした有価証券である。"
+      },
+      {
+       "id": "3",
+       "text": "抵当証券の元利金は原則として発行会社が保証するため、抵当権の価値に元本が左右されることはないが、発行会社が倒産したときは元本が戻ってこない危険性がある。"
+      },
+      {
+       "id": "4",
+       "text": "抵当権が根抵当権である場合であっても、通常の抵当権と同様に抵当証券を発行することができる。"
+      }
+     ],
+     "answer": "4"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 4,
+   "topic": "C2.2-2"
+  },
+  {
+   "id": "g2o-c15-04",
+   "exam": "g2",
+   "field": "C",
+   "theme": "特定金銭信託とファンドトラスト",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（日本FP協会の試験範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "一般社団法人信託協会 特定金銭信託・ファンドトラスト",
+      "url": "https://www.shintaku-kyokai.or.jp/products/corporation/corporate_investment_fund.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "信託型の資産運用商品である特定金銭信託（特金）とファンドトラスト（ファントラ）に関する次の記述のうち、最も不適切なものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "信託終了時の財産の交付は、特定金銭信託では受託者が保管する有価証券を売却せず現状のまま交付し、ファンドトラストでは有価証券を売却して金銭を交付する。"
+      },
+      {
+       "id": "2",
+       "text": "特定金銭信託では、運用について、委託者または委託者から委任を受けた投資顧問会社が、受託者である信託銀行等に対して個別具体的に指図する。"
+      },
+      {
+       "id": "3",
+       "text": "特定金銭信託およびファンドトラストは、元本補てん契約を付すことはできず、実績配当型の金融商品である。"
+      },
+      {
+       "id": "4",
+       "text": "ファンドトラストでは、委託者が株式や債券など運用の範囲や運用の方針を定め、その範囲の中で受託者が投資判断の裁量を持って有価証券運用を行う。"
+      }
+     ],
+     "answer": "1"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 5,
+   "topic": "C2.2-3"
+  },
+  {
+   "id": "g2o-c15-05",
+   "exam": "g2",
+   "field": "C",
+   "theme": "効率的フロンティア",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（日本FP協会の試験範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "Wikipedia 現代ポートフォリオ理論",
+      "url": "https://ja.wikipedia.org/wiki/%E7%8F%BE%E4%BB%A3%E3%83%9D%E3%83%BC%E3%83%88%E3%83%95%E3%82%A9%E3%83%AA%E3%82%AA%E7%90%86%E8%AB%96"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "効率的フロンティアに関する次の記述のうち、最も不適切なものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "効率的フロンティアとは、最小分散フロンティアのうち、大域的最小分散ポートフォリオより上側の部分の曲線をいう。"
+      },
+      {
+       "id": "2",
+       "text": "最小分散フロンティア上のポートフォリオは、所与の期待リターンを得られる分散が最小のポートフォリオである。"
+      },
+      {
+       "id": "3",
+       "text": "平均分散分析を行う投資家にとって、最適なポートフォリオは必ず効率的フロンティア上にある。"
+      },
+      {
+       "id": "4",
+       "text": "個々の資産や資産から組成されるポートフォリオは、リスク・リターン平面において、最小分散フロンティアの左側に位置することもある。"
+      }
+     ],
+     "answer": "4"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 4,
+   "topic": "C9.2-7"
+  },
+  {
+   "id": "g2o-c15-06",
+   "exam": "g2",
+   "field": "C",
+   "theme": "海外の債券市場",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（日本FP協会の試験範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "Wikipedia ユーロ債",
+      "url": "https://ja.wikipedia.org/wiki/%E3%83%A6%E3%83%BC%E3%83%AD%E5%82%B5"
+     },
+     {
+      "title": "Wikipedia サムライ債",
+      "url": "https://ja.wikipedia.org/wiki/%E3%82%B5%E3%83%A0%E3%83%A9%E3%82%A4%E5%82%B5"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "ユーロ債・サムライ債など海外の債券市場に関する次の記述のうち、最も不適切なものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "ユーロ債とは、狭義では、その債券の表示通貨国以外の国で起債・購買される債券をいう。"
+      },
+      {
+       "id": "2",
+       "text": "ユーロ債の名称の「ユーロ」は通貨のユーロとは関係がなく、ユーロ債はユーロ建て債券という意味ではない。"
+      },
+      {
+       "id": "3",
+       "text": "ショーグン債とは、日本の発行体が海外市場で発行する円建て債券のことである。"
+      },
+      {
+       "id": "4",
+       "text": "サムライ債は、日本に居住していない海外の発行体が日本国内市場で募集・発行する円建て債券であり、正式には円建外債という。"
+      }
+     ],
+     "answer": "3"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 4,
+   "topic": "C4.3-8"
+  },
+  {
+   "id": "g2o-c15-07",
+   "exam": "g2",
+   "field": "C",
+   "theme": "計量分析と統計学の基礎",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（日本FP協会の試験範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "Wikipedia 算術平均",
+      "url": "https://ja.wikipedia.org/wiki/%E7%AE%97%E8%A1%93%E5%B9%B3%E5%9D%87"
+     },
+     {
+      "title": "Wikipedia 分散（確率論）",
+      "url": "https://ja.wikipedia.org/wiki/%E5%88%86%E6%95%A3_(%E7%A2%BA%E7%8E%87%E8%AB%96)"
+     },
+     {
+      "title": "Wikipedia 相関係数",
+      "url": "https://ja.wikipedia.org/wiki/%E7%9B%B8%E9%96%A2%E4%BF%82%E6%95%B0"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "計量分析と統計学の基礎概念（平均・分散・相関）に関する次の記述のうち、最も不適切なものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "相関係数は、2つの変数の間にある因果関係の強さを測る指標である。"
+      },
+      {
+       "id": "2",
+       "text": "相関係数は、2つ以上のデータまたは確率変数の間にある関係の強弱を測る指標であり、通常はピアソンの積率相関係数を指す。"
+      },
+      {
+       "id": "3",
+       "text": "算術平均は、データの総和をその個数で割って得られる値であり、日常語の「平均」は多くの場合この算術平均を指す。"
+      },
+      {
+       "id": "4",
+       "text": "分散は、平均値からの偏差の2乗の平均に等しい値であり、データの散らばり具合を表す。"
+      }
+     ],
+     "answer": "1"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 3,
+   "topic": "C9.2-1"
+  }
+ ]
+}
