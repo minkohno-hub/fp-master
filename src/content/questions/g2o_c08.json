@@ -1,0 +1,342 @@
+{
+ "id": "g2o_c08",
+ "exam": "g2",
+ "title": "FP2級 オリジナル演習 C08（金融資産運用：証券化・現先/レポ・オルタナティブ・不動産小口化・リスク・公募/私募・ETF）",
+ "officialSet": false,
+ "lawBaseDate": "2026-04-01",
+ "questions": [
+  {
+   "id": "g2o-c08-01",
+   "exam": "g2",
+   "field": "C",
+   "theme": "証券化商品",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（日本FP協会の試験範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "大和証券 金融・証券用語解説 証券化",
+      "url": "https://www.daiwa.jp/glossary/YST0805.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "証券化（セキュリタイゼーション）と証券化商品に関する次の記述のうち、最も不適切なものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "証券化により流動化された証券は、証券化商品として市場で流通する。"
+      },
+      {
+       "id": "2",
+       "text": "証券化（セキュリタイゼーション）とは、金融資産や不動産などの保有資産を有価証券を利用して流動化することである。"
+      },
+      {
+       "id": "3",
+       "text": "証券化は、資産を保有する側にとって、資産を早期に資金化できる手段となり得る。"
+      },
+      {
+       "id": "4",
+       "text": "証券化商品の利回りは、裏付けとなる資産の信用力ではなく、発行体の一般信用力のみによって決まる。"
+      }
+     ],
+     "answer": "4"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 4,
+   "topic": "C4.3-6"
+  },
+  {
+   "id": "g2o-c08-02",
+   "exam": "g2",
+   "field": "C",
+   "theme": "現先取引・レポ取引",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（日本FP協会の試験範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "日本取引所グループ 用語集 （債券の）現先取引",
+      "url": "https://www.jpx.co.jp/glossary/ka/128.html"
+     },
+     {
+      "title": "日本取引所グループ 用語集 レポ取引",
+      "url": "https://www.jpx.co.jp/glossary/ra/470.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "債券の現先取引およびレポ取引に関する次の記述のうち、最も不適切なものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "レポ取引は、貸借銘柄を特定するかどうかによる区分はなく、すべて同一の方式で行われる。"
+      },
+      {
+       "id": "2",
+       "text": "レポ取引は、現金を担保とした債券の消費貸借契約であり、現金担保付債券貸借取引の略である。"
+      },
+      {
+       "id": "3",
+       "text": "現先取引は、債券の売り手にとっては短期の資金調達の手段として、買い手にとっては短期の資金運用の手段として利用される。"
+      },
+      {
+       "id": "4",
+       "text": "現先取引とは、債券を一定期間後に一定の価格で買い戻す、あるいは売り戻すことを条件に売買する取引である。"
+      }
+     ],
+     "answer": "1"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 4,
+   "topic": "C4.3-7"
+  },
+  {
+   "id": "g2o-c08-03",
+   "exam": "g2",
+   "field": "C",
+   "theme": "オルタナティブ投資",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（日本FP協会の試験範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "大和証券 金融・証券用語解説 オルタナティブ投資",
+      "url": "https://www.daiwa.jp/glossary/YST0195.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "オルタナティブ投資（代替投資）に関する次の記述のうち、最も不適切なものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "オルタナティブ投資の代表的な対象には、ヘッジファンド、ベンチャー・キャピタル、商品ファンド、不動産などがある。"
+      },
+      {
+       "id": "2",
+       "text": "オルタナティブ投資は、株式や債券との相関性が一般に高いため、ポートフォリオに組み込んでもリスク分散の効果は期待できない。"
+      },
+      {
+       "id": "3",
+       "text": "オルタナティブ投資は、年金などの機関投資家の運用でも利用されている。"
+      },
+      {
+       "id": "4",
+       "text": "オルタナティブ投資とは、株式や債券といった伝統的な投資対象とは異なる対象への投資のことである。"
+      }
+     ],
+     "answer": "2"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 4,
+   "topic": "C3.3-2"
+  },
+  {
+   "id": "g2o-c08-04",
+   "exam": "g2",
+   "field": "C",
+   "theme": "不動産小口化商品",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（日本FP協会の試験範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "国土交通省 不動産特定共同事業の許可とは",
+      "url": "https://www.mlit.go.jp/tochi_fudousan_kensetsugyo/tochi_fudousan_kensetsugyo_tk5_000001_00009.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "不動産小口化商品（不動産特定共同事業）に関する次の記述のうち、最も不適切なものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "不動産小口化商品は、複数の投資家が出資して不動産を運用し、その収益を出資に応じて分配する仕組みである。"
+      },
+      {
+       "id": "2",
+       "text": "契約の類型には、任意組合契約、匿名組合契約、賃貸委任契約がある。"
+      },
+      {
+       "id": "3",
+       "text": "任意組合契約型では、投資家は出資のみを行い、組合の業務執行や対象不動産の運用には一切関与せず、収益の分配も行われない。"
+      },
+      {
+       "id": "4",
+       "text": "不動産特定共同事業を行うには、不動産特定共同事業法に基づく許可を受けなければならない。"
+      }
+     ],
+     "answer": "3"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 4,
+   "topic": "C2.2-4"
+  },
+  {
+   "id": "g2o-c08-05",
+   "exam": "g2",
+   "field": "C",
+   "theme": "信用リスクと金利リスク",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（日本FP協会の試験範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "資産運用業協会 投資信託が持つリスク",
+      "url": "https://www.imaj.or.jp/study/investmenttrust/meritrisk/risk.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "信用リスクと金利リスク（金利変動リスク）に関する次の記述のうち、最も適切なものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "信用リスクは発行体が利息や償還金を支払えなくなる可能性をいい、金利リスクについては、一般に金利が上がると債券価格は下落し、金利が下がると債券価格は上がる。"
+      },
+      {
+       "id": "2",
+       "text": "金利リスクとは、債券等を発行する国や企業が財政難・経営不振などにより、利息や償還金をあらかじめ定めた条件で支払うことができなくなる可能性をいう。"
+      },
+      {
+       "id": "3",
+       "text": "信用リスクとは、金利が変動することにより債券価格が変動する可能性をいう。"
+      },
+      {
+       "id": "4",
+       "text": "為替変動リスクは金利リスクの一種であり、円建て資産にも生じる。"
+      }
+     ],
+     "answer": "1"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 3,
+   "topic": "C4.2-2"
+  },
+  {
+   "id": "g2o-c08-06",
+   "exam": "g2",
+   "field": "C",
+   "theme": "公募投資信託と私募投資信託",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（日本FP協会の試験範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "みんかぶ（マガジン）株式投資信託とは？投資信託と株式投資・ファンドの違いもわかりやすく解説",
+      "url": "https://mag.minkabu.jp/itf-beginner/itf-tips/stock-investment-trust/"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "公募投資信託と私募投資信託に関する次の記述のうち、最も不適切なものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "私募投資信託は、金融機関などの特定の投資家や、ごく少数の投資家だけに販売する投資信託である。"
+      },
+      {
+       "id": "2",
+       "text": "公募投資信託は、一般的に50人以上の不特定多数の投資家を対象に募集をする投資信託である。"
+      },
+      {
+       "id": "3",
+       "text": "一般的な株式投資信託は、公募投資信託に該当する。"
+      },
+      {
+       "id": "4",
+       "text": "私募投資信託は、不特定多数の投資家に広く販売されるため、公募投資信託よりも情報開示の規制が厳しい。"
+      }
+     ],
+     "answer": "4"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 4,
+   "topic": "C3.1-3"
+  },
+  {
+   "id": "g2o-c08-07",
+   "exam": "g2",
+   "field": "C",
+   "theme": "ETF（上場投資信託）",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（日本FP協会の試験範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "みんかぶ（マガジン）株式投資信託とは？投資信託と株式投資・ファンドの違いもわかりやすく解説",
+      "url": "https://mag.minkabu.jp/itf-beginner/itf-tips/stock-investment-trust/"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "ETF（上場投資信託）に関する次の記述のうち、最も不適切なものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "ETFの価格はリアルタイムで値動きしており、指値注文と成行注文のどちらも利用できる。"
+      },
+      {
+       "id": "2",
+       "text": "ETFとは、Exchange Traded Fundの頭文字をとったもので、上場投資信託という意味である。"
+      },
+      {
+       "id": "3",
+       "text": "ETFは上場していないため、証券会社や金融機関の窓口で、基準価額により購入する。"
+      },
+      {
+       "id": "4",
+       "text": "ETFは証券取引所に上場しているので、証券会社を通じて証券取引所に買付や売却の注文をする。"
+      }
+     ],
+     "answer": "3"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 4,
+   "topic": "C3.3-3"
+  }
+ ]
+}
