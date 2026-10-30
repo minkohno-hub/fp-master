@@ -308,6 +308,17 @@ S.update({
     'nk_shien': src('日本年金機構 年金生活者支援給付金', 'https://www.nenkin.go.jp/service/jukyu/seido/sonota-kyufu/shienkyufukin/20190805.html'),
 })
 
+# ── バッチ6（未収録語の追加 2026-10-30）の出典 ──
+S.update({
+    'mlit_futoku': src('国土交通省 不動産特定共同事業の許可とは', 'https://www.mlit.go.jp/tochi_fudousan_kensetsugyo/tochi_fudousan_kensetsugyo_tk5_000001_00009.html'),
+    'zenginkyo_gold': src('一般社団法人全国銀行協会 純金積立', 'https://www.zenginkyo.or.jp/article/keywords/words/5205/'),
+    'daiwa_ruitou': src('大和証券 金融・証券用語解説 株式累積投資制度', 'https://www.daiwa.jp/glossary/YST0301.html'),
+    'mhlw_tokubetsu_kanyu': src('厚生労働省 特別加入制度とは何ですか', 'https://www.mhlw.go.jp/bunya/roudoukijun/faq_kijyungyosei15.html'),
+    'egov_zeirishi': src('e-Gov法令検索 税理士法', EGOV + '326AC1000000237'),
+    'egov_bengoshi': src('e-Gov法令検索 弁護士法', EGOV + '324AC1000000205'),
+    'egov_hokengyo': src('e-Gov法令検索 保険業法', EGOV + '407AC0000000105'),
+})
+
 
 def T(id, name, reading, field, importance, short, detail, related=(), grades=(2, 3), example=None, system=None,
       formula=None, aliases=None, sources=(), evidence=()):
