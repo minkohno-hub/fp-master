@@ -1,0 +1,354 @@
+{
+ "id": "g2o_f11",
+ "exam": "g2",
+ "title": "第11回 F分野・相続財産の評価（F11）",
+ "officialSet": false,
+ "lawBaseDate": "2026-04-01",
+ "questions": [
+  {
+   "id": "g2o-f11-01",
+   "exam": "g2",
+   "field": "F",
+   "theme": "相続財産の評価（不動産）",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（日本FP協会の試験範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "国税庁 財産評価基本通達（奥行長大補正等）",
+      "url": "https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/02/03.htm"
+     },
+     {
+      "title": "国税庁 財産評価基本通達 付表（奥行長大補正率表）",
+      "url": "https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/02/07.htm"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "普通住宅地区に所在し、正面路線のみに接する宅地（不整形地・無道路地には該当しない）について、正面路線価200,000円／㎡、奥行価格補正率1.00、間口距離6m、奥行距離24m、地積150㎡に基づき相続税評価額を求めた場合、その金額として最も適切なものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "2,940万円"
+      },
+      {
+       "id": "2",
+       "text": "2,820万円"
+      },
+      {
+       "id": "3",
+       "text": "3,000万円"
+      },
+      {
+       "id": "4",
+       "text": "2,880万円"
+      }
+     ],
+     "answer": "2"
+    }
+   ],
+   "requiresCalculation": true,
+   "status": "verified",
+   "level": 5,
+   "topic": "F6.2-2",
+   "calcReason": "200,000円×1.00（奥行価格補正率）×0.94（付表7・普通住宅地区・4以上5未満）×150㎡＝28,200,000円。コードで計算。"
+  },
+  {
+   "id": "g2o-f11-02",
+   "exam": "g2",
+   "field": "F",
+   "theme": "相続財産の評価（不動産）",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（日本FP協会の試験範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "国税庁 財産評価基本通達（貸宅地・定期借地権等）",
+      "url": "https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/02/05.htm"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "定期借地権等の目的となっている宅地について、自用地としての価額8,000万円、定期借地権等の価額（財産評価基本通達27-2により評価した金額）600万円、定期借地権等の残存期間12年に基づき、貸主側（土地所有者）の相続税評価額を求めた場合、最も適切なものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "7,600万円"
+      },
+      {
+       "id": "2",
+       "text": "7,400万円"
+      },
+      {
+       "id": "3",
+       "text": "6,800万円"
+      },
+      {
+       "id": "4",
+       "text": "3,200万円"
+      }
+     ],
+     "answer": "3"
+    }
+   ],
+   "requiresCalculation": true,
+   "status": "verified",
+   "level": 5,
+   "topic": "F6.4-6",
+   "calcReason": "上限額＝8,000万円×15%（残存期間10年超15年以下）＝1,200万円。定期借地権等の価額600万円＜1,200万円のため控除額は1,200万円、評価額＝8,000万円−1,200万円＝6,800万円。コードで計算。"
+  },
+  {
+   "id": "g2o-f11-03",
+   "exam": "g2",
+   "field": "F",
+   "theme": "相続財産の評価（不動産）",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（日本FP協会の試験範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "国税庁 使用貸借に係る土地についての相続税及び贈与税の取扱いについて（昭和48年11月1日付法令解釈通達）",
+      "url": "https://www.nta.go.jp/law/tsutatsu/kobetsu/sozoku/731101/01.htm"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "使用貸借に係る土地の相続税の評価等について、誤っているものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "使用貸借に係る使用権の価額は、借地権の取引慣行のある地域であっても、零として取り扱う。"
+      },
+      {
+       "id": "2",
+       "text": "使用貸借に係る土地を相続により取得した場合の課税価格に算入すべき価額は、その土地の上に貸家が建っている場合であっても、自用のものであるとした場合の価額とする。"
+      },
+      {
+       "id": "3",
+       "text": "使用貸借に係る土地の上に存する建物等は、その建物等の自用又は貸付けの区分に応じて評価する。"
+      },
+      {
+       "id": "4",
+       "text": "使用貸借に係る土地を相続により取得し、その上に貸家が建っている場合、その土地は貸家建付地として評価する。"
+      }
+     ],
+     "answer": "4"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 4,
+   "topic": "F6.4-7"
+  },
+  {
+   "id": "g2o-f11-04",
+   "exam": "g2",
+   "field": "F",
+   "theme": "相続財産の評価（不動産）",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（日本FP協会の試験範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "国税庁 相当の地代を支払っている場合等の借地権等についての相続税及び贈与税の取扱いについて（昭和60年6月5日付法令解釈通達）",
+      "url": "https://www.nta.go.jp/law/tsutatsu/kobetsu/sozoku/850605/01.htm"
+     },
+     {
+      "title": "国税庁 財産評価基本通達（貸宅地・定期借地権等）",
+      "url": "https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/02/05.htm"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "「土地の無償返還に関する届出書」が提出されている場合の借地権及び貸宅地の評価について、誤っているものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "借地権の価額は、自用地としての価額に、借地権割合に100分の20を乗じて得た割合を乗じて計算する。"
+      },
+      {
+       "id": "2",
+       "text": "借地権の価額は、零として取り扱う。"
+      },
+      {
+       "id": "3",
+       "text": "貸宅地の価額は、自用地としての価額の100分の80に相当する金額によって評価する。"
+      },
+      {
+       "id": "4",
+       "text": "使用貸借に係る土地について無償返還届出書が提出されている場合の貸宅地の価額は、自用地としての価額によって評価する。"
+      }
+     ],
+     "answer": "1"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 5,
+   "topic": "F6.4-8"
+  },
+  {
+   "id": "g2o-f11-05",
+   "exam": "g2",
+   "field": "F",
+   "theme": "相続財産の評価（不動産）",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（日本FP協会の試験範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "国税庁 財産評価基本通達（農地）",
+      "url": "https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/02/08.htm"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "農地法第4条の転用許可を受けた農地（市街化区域外に所在する）について、地積500㎡、その農地が宅地であるとした場合の価額1㎡当たり30,000円、造成費に相当する金額（国税局長の定める金額）1㎡当たり1,500円、固定資産税評価額600万円（参考：近傍の純農地の倍率1.1）に基づき相続税評価額を求めた場合、最も適切なものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "660万円"
+      },
+      {
+       "id": "2",
+       "text": "1,140万円"
+      },
+      {
+       "id": "3",
+       "text": "1,425万円"
+      },
+      {
+       "id": "4",
+       "text": "1,500万円"
+      }
+     ],
+     "answer": "3"
+    }
+   ],
+   "requiresCalculation": true,
+   "status": "verified",
+   "level": 4,
+   "topic": "F6.5-4",
+   "calcReason": "（30,000円−1,500円）×500㎡＝14,250,000円。コードで計算。"
+  },
+  {
+   "id": "g2o-f11-06",
+   "exam": "g2",
+   "field": "F",
+   "theme": "相続財産の評価（不動産）",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（日本FP協会の試験範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "e-Gov法令検索 相続税法",
+      "url": "https://laws.e-gov.go.jp/law/325AC0000000073"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "借地借家法に規定する借地権に該当しない地上権（残存期間22年）について、その目的となっている土地の、権利取得時における権利が設定されていない場合の時価を6,000万円として、相続税法第23条に基づき評価額を求めた場合、最も適切なものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "2,400万円"
+      },
+      {
+       "id": "2",
+       "text": "1,800万円"
+      },
+      {
+       "id": "3",
+       "text": "3,000万円"
+      },
+      {
+       "id": "4",
+       "text": "1,200万円"
+      }
+     ],
+     "answer": "2"
+    }
+   ],
+   "requiresCalculation": true,
+   "status": "verified",
+   "level": 5,
+   "topic": "F6.6-1",
+   "calcReason": "6,000万円×30%（残存期間20年超25年以下）＝1,800万円。コードで計算。"
+  },
+  {
+   "id": "g2o-f11-07",
+   "exam": "g2",
+   "field": "F",
+   "theme": "相続財産の評価（不動産）",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（日本FP協会の試験範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "国税庁 財産評価基本通達（家屋・借家権）",
+      "url": "https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/03/01.htm"
+     },
+     {
+      "title": "国税庁 財産評価基本通達（貸宅地・定期借地権等）",
+      "url": "https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/02/05.htm"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "借家権の評価について、誤っているものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "貸家とは、借家権の目的となっている家屋をいう。"
+      },
+      {
+       "id": "2",
+       "text": "借家権の価額は算式により計算した価額によって評価するが、権利金等の名称をもって取引される慣行のない地域にあるものについては、評価しない。"
+      },
+      {
+       "id": "3",
+       "text": "借家権の算式における借家権割合は、国税局長の定める割合による。"
+      },
+      {
+       "id": "4",
+       "text": "借家権の価額は、自用家屋の価額に借地権割合と賃借割合を乗じて計算する。"
+      }
+     ],
+     "answer": "4"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 4,
+   "topic": "F6.8-3"
+  }
+ ]
+}
