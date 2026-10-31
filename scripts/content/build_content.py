@@ -33,7 +33,7 @@ from fporig.core import write_question_sets  # noqa: E402
 ROOT = HERE.parents[1]
 OUT = ROOT / 'src' / 'content'
 CHECK = OUT / 'source-check.json'
-UA = 'Mozilla/5.0 (compatible; fp-master-source-check/1.0; +https://github.com/minkohno-hub/fp-master)'
+UA = 'Mozilla/5.0 (compatible; fp-master-source-check/1.0; +https://github.com/sylpica/fp-master)'
 
 
 def page_text(raw: str) -> str:

@@ -1,0 +1,370 @@
+{
+ "id": "g2o_a07",
+ "exam": "g2",
+ "title": "FP2級 オリジナル演習 A07（ライフプランニングと資金計画：FPの社会的役割・プランニングの手順・個人年金保険・雇用保険二事業）",
+ "officialSet": false,
+ "lawBaseDate": "2026-04-01",
+ "questions": [
+  {
+   "id": "g2o-a07-01",
+   "exam": "g2",
+   "field": "A",
+   "theme": "FPの社会的役割",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（日本FP協会の試験範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "日本FP協会 ファイナンシャル・プランナー（FP）とは",
+      "url": "https://www.jafp.or.jp/aim/fptoha/fp/"
+     },
+     {
+      "title": "日本FP協会 FP相談の流れ",
+      "url": "https://jafp.or.jp/confer/fpsoudan/flow/"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "ファイナンシャル・プランナー（FP）の社会的役割に関する次の記述のうち、最も不適切なものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "FPは、必要に応じて弁護士・税理士・社会保険労務士などの専門家のネットワークを活かし、各分野の専門家と連携しながらプランニングを行う。"
+      },
+      {
+       "id": "2",
+       "text": "FPは、家計管理、老後の生活設計、教育資金、年金・社会保険、住宅資金、資産運用、税制、保険、相続・贈与など、「くらしとお金」に関する幅広い相談に対応する。"
+      },
+      {
+       "id": "3",
+       "text": "FPは、相談者の立場やライフイベントを考慮し、長期的かつ総合的な視点でアドバイスや資産設計を行い、その実行まで援助する。"
+      },
+      {
+       "id": "4",
+       "text": "FPの役割は計画の立案までであり、作成したプランを定期的に見直す必要はなく、相談後もFPが関与することはない。"
+      }
+     ],
+     "answer": "4"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 4,
+   "topic": "A1-2"
+  },
+  {
+   "id": "g2o-a07-02",
+   "exam": "g2",
+   "field": "A",
+   "theme": "ライフプランニング",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（日本FP協会の試験範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "金融広報中央委員会 知るぽると 大人のためのお金と生活の知恵 Ⅲ より豊かで安心できる生活のために",
+      "url": "https://www.shiruporuto.jp/public/document/container/otona/otona003.html"
+     },
+     {
+      "title": "日本FP協会 便利ツールで家計をチェック",
+      "url": "https://www.jafp.or.jp/know/fp/sheet/"
+     },
+     {
+      "title": "日本FP協会 FP相談の流れ",
+      "url": "https://jafp.or.jp/confer/fpsoudan/flow/"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "ライフプランニングの目的と効用に関する次の記述のうち、最も適切なものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "ライフプランニングでは、今後の人生や生活に対する希望を踏まえ、お金の用途（目的）に応じて管理や運用を考えていく。"
+      },
+      {
+       "id": "2",
+       "text": "ライフプランニングは資産運用の収益を最大化するためのものであり、生活上の希望や目標とは切り離して資金計画を立てる。"
+      },
+      {
+       "id": "3",
+       "text": "ライフプランニングは、将来の出来事や収支を正確に予測し、家計の将来を確定させることを目的とする。"
+      },
+      {
+       "id": "4",
+       "text": "ライフプランを作成すれば、そのままの家計で夢や目標が達成できるかどうかを検証する必要はない。"
+      }
+     ],
+     "answer": "1"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 4,
+   "topic": "A3.1-1"
+  },
+  {
+   "id": "g2o-a07-03",
+   "exam": "g2",
+   "field": "A",
+   "theme": "情報の収集・把握",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（日本FP協会の試験範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "日本FP協会 FP相談の流れ",
+      "url": "https://jafp.or.jp/confer/fpsoudan/flow/"
+     },
+     {
+      "title": "日本FP協会 ファイナンシャル・プランナー（FP）とは",
+      "url": "https://www.jafp.or.jp/aim/fptoha/fp/"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "FP相談における顧客情報の収集・把握に関する次の記述のうち、最も不適切なものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "相談の事前準備として、質問票を事前に記入したり、家計簿や資産簿を持参したりすることで、情報の収集を進めることがある。"
+      },
+      {
+       "id": "2",
+       "text": "情報収集にあたっては、まず相談者の悩みや希望を聞き、夢や目標を一緒に整理することから始める。"
+      },
+      {
+       "id": "3",
+       "text": "収集する情報は収入や資産などの金額に関するものに限られ、相談者のライフスタイルや価値観は、プランニングに影響しないため確認する必要はない。"
+      },
+      {
+       "id": "4",
+       "text": "現状把握では、家族構成、収入や支出、預金・資産、ローン、保険などの現状を確認する。"
+      }
+     ],
+     "answer": "3"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 5,
+   "topic": "A3.2-1"
+  },
+  {
+   "id": "g2o-a07-04",
+   "exam": "g2",
+   "field": "A",
+   "theme": "提案書の作成",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（日本FP協会の試験範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "日本FP協会 FP相談の流れ",
+      "url": "https://jafp.or.jp/confer/fpsoudan/flow/"
+     },
+     {
+      "title": "日本FP協会 提案書作成ツール",
+      "url": "https://www.jafp.or.jp/aim/afp/training/proposaltool/"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "ファイナンシャル・プランの提案書（プラン）の作成に関する次の記述のうち、最も不適切なものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "提案書（プラン）は、現状把握と分析・評価を経て、改善策を具体的に織り込んで作成される。"
+      },
+      {
+       "id": "2",
+       "text": "提案書は一度作成して提示すれば、その後の家族の事情や社会情勢が変化しても、見直しを行う必要はない。"
+      },
+      {
+       "id": "3",
+       "text": "プランは、FPが一方的に決定するのではなく、相談者がFPと話し合いながらベストなプランを決定する。"
+      },
+      {
+       "id": "4",
+       "text": "提案書には、問題点とその解決策、さらに導入後の効果などを盛り込むことが想定されている。"
+      }
+     ],
+     "answer": "2"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 4,
+   "topic": "A3.2-6"
+  },
+  {
+   "id": "g2o-a07-05",
+   "exam": "g2",
+   "field": "A",
+   "theme": "個人年金保険",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（日本FP協会の試験範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "生命保険文化センター 民間の個人年金保険の目的と加入率は？",
+      "url": "https://www.jili.or.jp/lifeplan/lifesecurity/9158.html"
+     },
+     {
+      "title": "生命保険文化センター 個人年金保険｜主契約の種類",
+      "url": "https://www.jili.or.jp/knows_learns/kind/main/30.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "民間の個人年金保険に関する次の記述のうち、最も不適切なものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "個人年金保険は、払い込まれた保険料のうちから資金を積み立て、それを原資に、契約時に定めた年齢から年金を受け取る仕組みである。"
+      },
+      {
+       "id": "2",
+       "text": "民間の個人年金保険は、老後の生活資金準備を主な目的としたものである。"
+      },
+      {
+       "id": "3",
+       "text": "個人年金保険では、年金受取開始日前に被保険者が死亡した場合、死亡給付金はなく、払い込んだ保険料は一切戻らない。"
+      },
+      {
+       "id": "4",
+       "text": "一生涯受け取るタイプ（保証期間付終身年金）は、公的年金だけでは不足する生活費の上乗せ資金として活用できる。"
+      }
+     ],
+     "answer": "3"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 4,
+   "topic": "A6.6-1"
+  },
+  {
+   "id": "g2o-a07-06",
+   "exam": "g2",
+   "field": "A",
+   "theme": "個人年金の分類",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（日本FP協会の試験範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "生命保険文化センター 個人年金保険｜主契約の種類",
+      "url": "https://www.jili.or.jp/knows_learns/kind/main/30.html"
+     },
+     {
+      "title": "生命保険文化センター 変額個人年金保険｜主契約の種類",
+      "url": "https://www.jili.or.jp/knows_learns/kind/main/28.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "個人年金保険の分類に関する次の記述のうち、最も不適切なものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "有期年金は、契約時に定めた一定期間中、被保険者が生存している限り年金を受け取れる点で、確定年金と異なる。"
+      },
+      {
+       "id": "2",
+       "text": "確定年金は、被保険者の生死に関係なく、契約時に定めた5年・10年・15年などの一定期間、年金を受け取れる。"
+      },
+      {
+       "id": "3",
+       "text": "変額個人年金保険は、株式や債券を中心に特別勘定で運用し、運用実績によって将来受け取れる年金額などが変動する。"
+      },
+      {
+       "id": "4",
+       "text": "定額個人年金保険は、特別勘定で運用され、運用実績によって将来受け取れる年金額が変動する。"
+      }
+     ],
+     "answer": "4"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 5,
+   "topic": "A6.6-2"
+  },
+  {
+   "id": "g2o-a07-07",
+   "exam": "g2",
+   "field": "A",
+   "theme": "雇用保険二事業",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（日本FP協会の試験範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "e-Gov法令検索 雇用保険法",
+      "url": "https://laws.e-gov.go.jp/law/349AC0000000116"
+     },
+     {
+      "title": "厚生労働省 雇用保険制度",
+      "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/koyou/koyouhoken/index_00003.html"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "雇用保険二事業に関する次の記述のうち、最も不適切なものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "能力開発事業は、失業の予防や雇用機会の増大を図ることを目的とする事業であり、労働者の能力の開発及び向上を図るのは雇用安定事業である。"
+      },
+      {
+       "id": "2",
+       "text": "雇用安定事業は、失業の予防、雇用状態の是正、雇用機会の増大その他雇用の安定を図るため、経済上の理由で労働者を休業させる事業主への助成などの事業を行う。"
+      },
+      {
+       "id": "3",
+       "text": "能力開発事業には、公共職業能力開発施設や職業能力開発総合大学校を設置し、運営する事業が含まれる。"
+      },
+      {
+       "id": "4",
+       "text": "雇用保険は、失業等給付及び育児休業等給付を行うほか、雇用安定事業及び能力開発事業を行うことができる。"
+      }
+     ],
+     "answer": "1"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 5,
+   "topic": "A4.4-3"
+  }
+ ]
+}
