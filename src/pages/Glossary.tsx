@@ -1,5 +1,5 @@
 import { useMemo, useState } from 'react';
-import { Link, useParams } from 'react-router';
+import { Link, useLocation, useParams } from 'react-router';
 import { useLiveQuery } from 'dexie-react-hooks';
 import { useContent } from '../content/store';
 import { db } from '../db/db';
@@ -31,6 +31,11 @@ function kanaRow(reading: string): string {
 
 type Sort = 'kana' | 'field' | 'importance';
 
+/** カタカナをひらがなにそろえる（読み検索の表記ゆれ吸収） */
+function kataToHira(s: string): string {
+  return s.replace(/[ァ-ヶ]/g, (c) => String.fromCharCode(c.charCodeAt(0) - 0x60));
+}
+
 export async function setTermState(termId: string, patch: { favorite?: boolean; learned?: boolean }) {
   const cur = await db.termState.get(termId);
   await db.termState.put({ termId, favorite: false, learned: false, ...cur, ...patch, updatedAt: new Date().toISOString() });
@@ -44,18 +49,24 @@ export function GlossaryPage() {
   const [sort, setSort] = useState<Sort>('kana');
   const [field, setField] = useState<FieldId | ''>('');
   const [only, setOnly] = useState<'' | 'fav' | 'unlearned'>('');
+  const [imp, setImp] = useState<'' | 1 | 2 | 3>('');
+  const [gradeFilter, setGradeFilter] = useState<'' | 2 | 3>('');
   const st = useMemo(() => new Map(states?.map((s) => [s.termId, s])), [states]);
   const list = useMemo(() => {
-    const grade = settings?.grade;
+    const grade = gradeFilter || settings?.grade;
     const norm = q.trim();
+    const normK = kataToHira(norm);
     return terms
       .filter((t) => !grade || t.grades.includes(grade))
       .filter((t) => !field || t.field === field)
+      .filter((t) => !imp || t.importance === imp)
       .filter((t) => (only === 'fav' ? st.get(t.id)?.favorite : only === 'unlearned' ? !st.get(t.id)?.learned : true))
       .filter(
         (t) =>
           !norm ||
-          [t.name, t.reading, t.short, ...(t.aliases ?? [])].some((s) => s.includes(norm) || s.includes(toFullWidth(norm)) || s.toLowerCase().includes(norm.toLowerCase())),
+          [t.name, t.reading, t.short, ...(t.aliases ?? [])].some(
+            (s) => s.includes(norm) || s.includes(toFullWidth(norm)) || s.toLowerCase().includes(norm.toLowerCase()) || kataToHira(s).includes(normK),
+          ),
       )
       .sort((a, b) =>
         sort === 'kana'
@@ -64,7 +75,7 @@ export function GlossaryPage() {
             ? a.field.localeCompare(b.field) || a.reading.localeCompare(b.reading, 'ja')
             : b.importance - a.importance || a.reading.localeCompare(b.reading, 'ja'),
       );
-  }, [terms, settings, field, only, q, sort, st]);
+  }, [terms, settings, field, only, q, sort, st, imp, gradeFilter]);
 
   const groups = useMemo(() => {
     const m = new Map<string, Term[]>();
@@ -92,6 +103,17 @@ export function GlossaryPage() {
               {FIELDS[f].short}
             </option>
           ))}
+        </select>
+        <select className="chip bg-transparent" value={imp} onChange={(e) => setImp(e.target.value === '' ? '' : (Number(e.target.value) as 1 | 2 | 3))} aria-label="重要度で絞り込み">
+          <option value="">重要度すべて</option>
+          <option value={3}>★★★のみ</option>
+          <option value={2}>★★のみ</option>
+          <option value={1}>★のみ</option>
+        </select>
+        <select className="chip bg-transparent" value={gradeFilter} onChange={(e) => setGradeFilter(e.target.value === '' ? '' : (Number(e.target.value) as 2 | 3))} aria-label="級で絞り込み">
+          <option value="">級：設定に連動</option>
+          <option value={2}>2級の範囲</option>
+          <option value={3}>3級の範囲</option>
         </select>
         <button className={`chip ${only === 'fav' ? 'chip-on' : ''}`} onClick={() => setOnly(only === 'fav' ? '' : 'fav')}>
           ★お気に入り
@@ -126,6 +148,8 @@ export function GlossaryPage() {
 
 export function TermPage() {
   const { id } = useParams();
+  const loc = useLocation();
+  const from = (loc.state as { from?: string } | null)?.from;
   const { termById, questions } = useContent();
   const t = termById.get(id ?? '');
   const state = useLiveQuery(() => db.termState.get(id ?? ''), [id]);
@@ -140,6 +164,11 @@ export function TermPage() {
   return (
     <TermPopupProvider>
       <article className="space-y-4">
+        {from && (
+          <Link to={from} className="btn-secondary w-full">
+            ← 元の問題に戻る
+          </Link>
+        )}
         <div>
           <div className="mb-1 flex flex-wrap items-center gap-2 text-sm text-slate-600 dark:text-slate-400">
             <FieldBadge field={t.field} />
@@ -162,7 +191,7 @@ export function TermPage() {
               {t.example}
             </p>
           )}
-          {t.system && <p className="text-sm">関連する制度：{t.system}</p>}
+          {t.system && <p className="text-sm">関連する制度・法令：{t.system}</p>}
           {t.formula && (
             <div>
               <h3 className="label">{t.formula.name}</h3>
@@ -170,6 +199,36 @@ export function TermPage() {
             </div>
           )}
         </section>
+        {t.facts && t.facts.length > 0 && (
+          <section>
+            <h2 className="label mb-1">重要な数字・適用条件</h2>
+            <ul className="card list-disc space-y-1 py-3 pl-9 pr-4 text-sm leading-relaxed">
+              {t.facts.map((f) => (
+                <li key={f}>{f}</li>
+              ))}
+            </ul>
+          </section>
+        )}
+        {t.cautions && t.cautions.length > 0 && (
+          <section>
+            <h2 className="label mb-1">例外・注意点</h2>
+            <ul className="card list-disc space-y-1 py-3 pl-9 pr-4 text-sm leading-relaxed">
+              {t.cautions.map((c) => (
+                <li key={c}>{c}</li>
+              ))}
+            </ul>
+          </section>
+        )}
+        {t.compare && t.compare.length > 0 && (
+          <section>
+            <h2 className="label mb-1">類似用語との違い</h2>
+            <ul className="card list-disc space-y-1 py-3 pl-9 pr-4 text-sm leading-relaxed">
+              {t.compare.map((c) => (
+                <li key={c}>{c}</li>
+              ))}
+            </ul>
+          </section>
+        )}
         <div className="flex gap-2">
           <button className={`chip ${state?.favorite ? 'chip-on' : ''}`} onClick={() => setTermState(t.id, { favorite: !state?.favorite })} aria-pressed={!!state?.favorite}>
             ★ お気に入り
@@ -208,7 +267,7 @@ export function TermPage() {
           </section>
         )}
         <section className="text-xs text-slate-600 dark:text-slate-400">
-          <h2 className="font-semibold">根拠資料（確認日 {t.checkedAt}）</h2>
+          <h2 className="font-semibold">根拠資料（確認日 {t.checkedAt}{t.lawBaseDate ? `・法令基準日 ${t.lawBaseDate}` : ''}）</h2>
           <ul>
             {t.sources.map((s) => (
               <li key={s.url}>

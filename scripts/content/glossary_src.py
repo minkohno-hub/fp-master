@@ -319,19 +319,39 @@ S.update({
     'egov_hokengyo': src('e-Gov法令検索 保険業法', EGOV + '407AC0000000105'),
 })
 
+# ── draft用語の根拠回収（2026-10-31）の出典 ──
+S.update({
+    'jsda_bunpai': src('日本証券業協会 毎月分配型の投資信託とは？', 'https://www.jsda.or.jp/about/hatten/risk/bunpai/index.html'),
+    'imaj_shintaku_hoshu': src('資産運用業協会 用語集 運用管理費用（信託報酬）', 'https://www.imaj.or.jp/glossary/detail/20.html'),
+    'imaj_dollar_cost': src('資産運用業協会 用語集 ドルコスト平均法', 'https://www.imaj.or.jp/glossary/detail/203.html'),
+    'imaj_kinri_hendo': src('資産運用業協会 用語集 金利変動リスク', 'https://www.imaj.or.jp/glossary/detail/71.html'),
+    'daiwa_oubosha_rimawari': src('大和証券 金融・証券用語解説 応募者利回り', 'https://www.daiwa.jp/glossary/YST3047.html'),
+    'daiwa_shoyu_rimawari': src('大和証券 金融・証券用語解説 所有期間利回り', 'https://www.daiwa.jp/glossary/YST3025.html'),
+    'daiwa_duration': src('大和証券 金融・証券用語解説 デュレーション', 'https://www.daiwa.jp/glossary/YST1315.html'),
+    'daiwa_tts': src('大和証券 金融・証券用語解説 TTS', 'https://www.daiwa.jp/glossary/YST1217.html'),
+    'daiwa_ttb': src('大和証券 金融・証券用語解説 TTB', 'https://www.daiwa.jp/glossary/YST1215.html'),
+    'daiwa_ttm': src('大和証券 金融・証券用語解説 TTM', 'https://www.daiwa.jp/glossary/YST1216.html'),
+    'egov_toushin': src('e-Gov法令検索 投資信託及び投資法人に関する法律', EGOV + '326AC0100000198'),
+})
+
 
 def T(id, name, reading, field, importance, short, detail, related=(), grades=(2, 3), example=None, system=None,
-      formula=None, aliases=None, sources=(), evidence=()):
+      formula=None, aliases=None, sources=(), evidence=(), facts=(), cautions=(), compare=(), topics=(),
+      law='2026-04-01', checked='2026-10-21'):
     d = {
         'id': id, 'name': name, 'reading': reading, 'field': field, 'importance': importance,
         'short': short, 'detail': detail, 'related': list(related), 'grades': list(grades),
         'sources': [S[s] for s in sources] or [S['jafp']], 'evidence': list(evidence),
-        'reviewStatus': 'draft', 'checkedAt': '2026-10-21',
+        'reviewStatus': 'draft', 'checkedAt': checked, 'lawBaseDate': law,
     }
     if example: d['example'] = example
     if system: d['system'] = system
     if formula: d['formula'] = {'name': formula[0], 'tex': formula[1]}
     if aliases: d['aliases'] = list(aliases)
+    if facts: d['facts'] = list(facts)
+    if cautions: d['cautions'] = list(cautions)
+    if compare: d['compare'] = list(compare)
+    if topics: d['topics'] = list(topics)
     return d
 
 
@@ -544,10 +564,16 @@ TERMS = [
                 ev(S['jpx_rimawari']['url'], '流通市場における利回りとしては、「直接利回り」、「最終利回り」があります')]),
     T('oubosha-rimawari', '応募者利回り', 'おうぼしゃりまわり', 'C', 2,
       '新規発行の債券を発行価格で購入し、償還まで保有した場合の利回り。',
-      '（表面利率＋（額面100円－発行価格）÷償還期間）÷発行価格×100。', ['saishu-rimawari']),
+      '（表面利率＋（額面100円－発行価格）÷償還期間）÷発行価格×100。', ['saishu-rimawari'],
+      sources=['daiwa_oubosha_rimawari'],
+      evidence=[ev(S['daiwa_oubosha_rimawari']['url'], '新発債を発行価格で購入し、償還期限まで保有し続けた場合の利回り'),
+                ev(S['daiwa_oubosha_rimawari']['url'], '計算式は「｛クーポン＋（額面金額－発行価格）÷期間｝÷発行価格×100」となります')]),
     T('shoyu-kikan-rimawari', '所有期間利回り', 'しょゆうきかんりまわり', 'C', 3,
       '債券を償還前に売却した場合の、所有期間中の利回り。',
-      '（表面利率＋（売却価格－購入価格）÷所有期間）÷購入価格×100。', ['saishu-rimawari']),
+      '（表面利率＋（売却価格－購入価格）÷所有期間）÷購入価格×100。', ['saishu-rimawari'],
+      sources=['daiwa_shoyu_rimawari'],
+      evidence=[ev(S['daiwa_shoyu_rimawari']['url'], '債券を取得してから売却するまでの期間の利回り。一般に債券を償還期限まで保有せず、途中で売却した場合を指します'),
+                ev(S['daiwa_shoyu_rimawari']['url'], '債券のキャピタルゲイン（売却益）とインカムゲイン（利息収入）を年換算し、取得価格で割った値が所有期間利回りとなります')]),
     T('chokusetsu-rimawari', '直接利回り', 'ちょくせつりまわり', 'C', 2,
       '購入価格に対する毎年の利息収入の割合。償還差損益は考慮しない。',
       '表面利率÷購入価格×100。', ['saishu-rimawari'],
@@ -612,11 +638,19 @@ TERMS = [
                 ev(S['shiruporuto_bunsan']['url'], '性質がなるべく異なる複数の（多数の）資産に分散することにより、各資産の価格の動きが打ち消しあい、リスクを減らすことができることが多い')]),
     T('futsu-bunpaikin', '普通分配金', 'ふつうぶんぱいきん', 'C', 2,
       '投資信託の収益分配金のうち、個別元本を上回る部分から支払われるもの（課税）。',
-      '分配落ち後の基準価額が個別元本を下回る場合、その下回る部分は元本払戻金（特別分配金）となり非課税。', []),
+      '分配落ち後の基準価額が個別元本を下回る場合、その下回る部分は元本払戻金（特別分配金）となり非課税。', [],
+      sources=['jsda_bunpai'],
+      evidence=[ev(S['jsda_bunpai']['url'], '普通分配金：個別元本(注)を上回る部分からの分配金です'),
+                ev(S['jsda_bunpai']['url'], '普通分配金は投資信託の元本の運用により生じた収益から支払われ、利益として課税対象となります'),
+                ev(S['jsda_bunpai']['url'], '元本払戻金（特別分配金）は、「投資した元本の一部払戻し」に当たるため、非課税となります'),
+                ev(S['jsda_bunpai']['url'], '元本払戻金（特別分配金）の額だけ個別元本は減少します')]),
     T('tts-ttb', 'TTS・TTB', 'てぃーてぃーえす', 'C', 2,
       'TTSは円を外貨に換えるときの、TTBは外貨を円に換えるときの為替レート。',
       '外貨預金の預入時はTTS、払戻時はTTBを使う。仲値（TTM）との差が為替手数料に当たる。', [],
-      aliases=['TTS', 'TTB', 'ＴＴＳ', 'ＴＴＢ']),
+      aliases=['TTS', 'TTB', 'ＴＴＳ', 'ＴＴＢ'],
+      sources=['daiwa_tts', 'daiwa_ttb'],
+      evidence=[ev(S['daiwa_tts']['url'], '英語表記「TelegraphicTransferSellingRate」の略で、円を外貨に交換するときのレート。仲値より手数料の分だけ高いレートとなります'),
+                ev(S['daiwa_ttb']['url'], '英語表記「TelegraphicTransferBuyingRate」の略で、外貨を円に交換するときのレート。仲値より手数料の分だけ安いレートとなります')]),
     # ── D タックスプランニング ──
     T('chouka-ruishin-zeiritsu', '超過累進税率', 'ちょうかるいしんぜいりつ', 'D', 3,
       '所得が一定額を超えると、超えた部分にだけ高い税率を適用する仕組み。',

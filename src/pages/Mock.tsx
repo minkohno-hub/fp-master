@@ -217,7 +217,7 @@ export function MockRunPage() {
   const mm = remaining !== null ? `${Math.floor(remaining / 60)}:${String(remaining % 60).padStart(2, '0')}` : '';
 
   return (
-    <TermPopupProvider>
+    <TermPopupProvider enabled={false}>
       <div className="pb-28">
         <div className="sticky top-0 z-10 -mx-4 bg-slate-50/95 px-4 pb-2 pt-3 backdrop-blur dark:bg-slate-950/95">
           <div className="mb-2 flex items-center justify-between text-sm">
