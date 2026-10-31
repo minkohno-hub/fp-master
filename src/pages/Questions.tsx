@@ -3,7 +3,8 @@ import { Link, useParams } from 'react-router';
 import { useLiveQuery } from 'dexie-react-hooks';
 import { useContent } from '../content/store';
 import { db } from '../db/db';
-import { toggleFlag } from '../db/repo';
+import { recordAttempt, toggleFlag } from '../db/repo';
+import { ratingFromAnswer } from '../domain/srs';
 import { scoreQuestion, type Responses } from '../domain/scoring';
 import { compareQuestionOrder } from '../domain/selection';
 import { EXAM_SPECS, FIELD_IDS, FIELDS } from '../domain/exam';
@@ -88,9 +89,17 @@ export function QuestionListPage() {
 /** 1問の表示（一覧・履歴・ブックマークから）。解いてから解説を見る */
 export function QuestionDetailPage() {
   const { id } = useParams();
-  const { questionById } = useContent();
+  const { questionById, sets } = useContent();
   const settings = useSettings();
   const q = questionById.get(id ?? '');
+  // 同じ問題セット内での前後ナビ（一覧に戻らず続けて解けるように）
+  const siblings = useMemo(() => {
+    if (!q) return { prev: undefined, next: undefined, index: -1, total: 0, title: '' };
+    const set = sets.find((s) => s.exam === q.exam && s.questions.some((x) => x.id === q.id));
+    if (!set) return { prev: undefined, next: undefined, index: -1, total: 0, title: '' };
+    const idx = set.questions.findIndex((x) => x.id === q.id);
+    return { prev: set.questions[idx - 1], next: set.questions[idx + 1], index: idx, total: set.questions.length, title: set.title };
+  }, [q, sets]);
   // 用語詳細などへ遷移して戻ってきても、入力途中の解答が失われないよう下書きを保持する
   const draftKey = `q-draft:${id ?? ''}`;
   const initialDraft = (() => {
@@ -119,6 +128,31 @@ export function QuestionDetailPage() {
     setDoneState(d);
     persistDraft();
   };
+  // 単問ページでの解答も学習履歴・成績・復習対象に記録する（演習セッションと同じ記録経路。
+  // 以前はここが無く、一覧や関連問題から解いても履歴に残らなかった）
+  const shownAtRef = useRef(Date.now());
+  const recordedForRef = useRef<string | null>(null);
+  const handleSubmit = (r: Responses) => {
+    setResponses(r);
+    setDone(true);
+    if (!q || recordedForRef.current === q.id) return;
+    const res = scoreQuestion(q, r);
+    if (!res.complete) return;
+    recordedForRef.current = q.id;
+    void recordAttempt(
+      {
+        itemId: q.id,
+        itemKind: 'question',
+        exam: q.exam,
+        field: q.field,
+        correct: res.correct,
+        unsure: false,
+        timeMs: Date.now() - shownAtRef.current,
+        mode: 'single',
+      },
+      ratingFromAnswer(res.correct, false),
+    );
+  };
   const bookmarked = useLiveQuery(() => db.bookmarks.get(id ?? ''), [id]);
   if (!q || !settings) return <Empty>問題が見つかりません。</Empty>;
   const result = done ? scoreQuestion(q, responses) : undefined;
@@ -132,7 +166,7 @@ export function QuestionDetailPage() {
           </p>
         )}
         <Stem q={q} />
-        <AnswerArea q={q} responses={responses} onChange={setResponses} onSubmit={(r) => { setResponses(r); setDone(true); }} result={result} mode="practice" />
+        <AnswerArea q={q} responses={responses} onChange={setResponses} onSubmit={handleSubmit} result={result} mode="practice" />
         {!done && (
           <button className="btn-ghost w-full" onClick={() => setDone(true)}>
             解かずに正解と解説を見る
@@ -148,6 +182,23 @@ export function QuestionDetailPage() {
             <Explanation q={q} initialMode={settings.explanationMode} />
             <NoteAndReport itemKey={q.id} />
           </>
+        )}
+        {siblings.total > 1 && (
+          <nav className="flex items-center justify-between gap-2 pt-3" aria-label="前後の問題">
+            {siblings.prev ? (
+              <Link className="btn-secondary" to={`/q/${siblings.prev.id}`}>← 前の問題</Link>
+            ) : (
+              <span />
+            )}
+            <span className="text-xs text-slate-500 dark:text-slate-400">
+              {siblings.title} {siblings.index + 1} / {siblings.total}問
+            </span>
+            {siblings.next ? (
+              <Link className="btn-secondary" to={`/q/${siblings.next.id}`}>次の問題 →</Link>
+            ) : (
+              <span />
+            )}
+          </nav>
         )}
       </div>
     </TermPopupProvider>
