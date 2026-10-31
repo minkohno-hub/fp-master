@@ -1,0 +1,360 @@
+{
+ "id": "g2o_f15",
+ "exam": "g2",
+ "title": "第15回 F分野・相続財産の評価（不動産）（F15）",
+ "officialSet": false,
+ "lawBaseDate": "2026-04-01",
+ "questions": [
+  {
+   "id": "g2o-f15-01",
+   "exam": "g2",
+   "field": "F",
+   "theme": "相続財産の評価（不動産）",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（日本FP協会の試験範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "国税庁 財産評価基本通達（農地の分類・範囲・評価）",
+      "url": "https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/02/08.htm"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "農用地区域内にある田（純農地）について、固定資産税評価額800万円、国税局長の定める倍率（田1.3、畑1.1）に基づき相続税評価額を求めた場合、その金額として最も適切なものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "1,040万円"
+      },
+      {
+       "id": "2",
+       "text": "880万円"
+      },
+      {
+       "id": "3",
+       "text": "832万円"
+      },
+      {
+       "id": "4",
+       "text": "800万円"
+      }
+     ],
+     "answer": "1"
+    }
+   ],
+   "requiresCalculation": true,
+   "status": "verified",
+   "level": 4,
+   "topic": "F6.5-1",
+   "calcReason": "固定資産税評価額800万円×倍率1.3（田）＝1,040万円。コードで計算。"
+  },
+  {
+   "id": "g2o-f15-02",
+   "exam": "g2",
+   "field": "F",
+   "theme": "相続財産の評価（不動産）",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（日本FP協会の試験範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "国税庁 財産評価基本通達（農地の分類・範囲・評価）",
+      "url": "https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/02/08.htm"
+     },
+     {
+      "title": "国税庁 財産評価基本通達（貸し付けられている農地・耕作権・永小作権）",
+      "url": "https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/02/09.htm"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "中間農地の範囲及び評価について、誤っているものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "中間農地に係る耕作権の価額は、倍率方式により評価したその農地の価額に、別表1に定める耕作権割合を乗じて計算した金額によって評価する。"
+      },
+      {
+       "id": "2",
+       "text": "中間農地の価額は、その農地が市街地農地であるとした場合の価額の100分の80に相当する金額によって評価する。"
+      },
+      {
+       "id": "3",
+       "text": "中間農地の価額は、その農地の固定資産税評価額に、国税局長の定める倍率を乗じて計算した金額によって評価する。"
+      },
+      {
+       "id": "4",
+       "text": "中間農地とは、第2種農地に該当するものなどをいう。"
+      }
+     ],
+     "answer": "2"
+    }
+   ],
+   "requiresCalculation": false,
+   "status": "verified",
+   "level": 4,
+   "topic": "F6.5-2"
+  },
+  {
+   "id": "g2o-f15-03",
+   "exam": "g2",
+   "field": "F",
+   "theme": "相続財産の評価（不動産）",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（日本FP協会の試験範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "国税庁 財産評価基本通達（農地の分類・範囲・評価）",
+      "url": "https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/02/08.htm"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "第3種農地に該当する農地（市街地周辺農地）について、その農地が宅地であるとした場合の価額1㎡当たり25,000円、造成費に相当する金額（国税局長の定める金額）1㎡当たり2,000円、地積400㎡（参考：固定資産税評価額500万円、近傍の純農地の倍率1.1）に基づき相続税評価額を求めた場合、その金額として最も適切なものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "920万円"
+      },
+      {
+       "id": "2",
+       "text": "550万円"
+      },
+      {
+       "id": "3",
+       "text": "736万円"
+      },
+      {
+       "id": "4",
+       "text": "800万円"
+      }
+     ],
+     "answer": "3"
+    }
+   ],
+   "requiresCalculation": true,
+   "status": "verified",
+   "level": 5,
+   "topic": "F6.5-3",
+   "calcReason": "（25,000円−2,000円）×400㎡＝920万円（市街地農地とした場合の価額）、920万円×80%＝736万円。コードで計算。"
+  },
+  {
+   "id": "g2o-f15-04",
+   "exam": "g2",
+   "field": "F",
+   "theme": "相続財産の評価（不動産）",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（日本FP協会の試験範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "e-Gov法令検索 相続税法",
+      "url": "https://laws.e-gov.go.jp/law/325AC0000000073"
+     },
+     {
+      "title": "国税庁 財産評価基本通達（貸し付けられている農地・耕作権・永小作権）",
+      "url": "https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/02/09.htm"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "存続期間の定めのない永小作権について、その目的となっている土地の、権利取得時における権利が設定されていない場合の時価を4,000万円として、相続税評価額を求めた場合、最も適切なものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "3,200万円"
+      },
+      {
+       "id": "2",
+       "text": "2,000万円"
+      },
+      {
+       "id": "3",
+       "text": "2,400万円"
+      },
+      {
+       "id": "4",
+       "text": "1,600万円"
+      }
+     ],
+     "answer": "4"
+    }
+   ],
+   "requiresCalculation": true,
+   "status": "verified",
+   "level": 5,
+   "topic": "F6.6-2",
+   "calcReason": "存続期間の定めなし→30年とみなす（通達43）。残存期間25年超30年以下は百分の四十のため、4,000万円×40%＝1,600万円。コードで計算。"
+  },
+  {
+   "id": "g2o-f15-05",
+   "exam": "g2",
+   "field": "F",
+   "theme": "相続財産の評価（不動産）",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（日本FP協会の試験範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "国税庁 財産評価基本通達（貸し付けられている農地・耕作権・永小作権）",
+      "url": "https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/02/09.htm"
+     },
+     {
+      "title": "国税庁 財産評価基本通達（農地の分類・範囲・評価）",
+      "url": "https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/02/08.htm"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "耕作権の目的となっている純農地について、固定資産税評価額600万円、国税局長の定める倍率1.4、別表1に定める耕作権割合100分の50に基づき、耕作権の相続税評価額を求めた場合、その金額として最も適切なものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "672万円"
+      },
+      {
+       "id": "2",
+       "text": "336万円"
+      },
+      {
+       "id": "3",
+       "text": "300万円"
+      },
+      {
+       "id": "4",
+       "text": "420万円"
+      }
+     ],
+     "answer": "4"
+    }
+   ],
+   "requiresCalculation": true,
+   "status": "verified",
+   "level": 4,
+   "topic": "F6.6-3",
+   "calcReason": "農地の価額＝600万円×1.4＝840万円。耕作権の価額＝840万円×50%＝420万円。コードで計算。"
+  },
+  {
+   "id": "g2o-f15-06",
+   "exam": "g2",
+   "field": "F",
+   "theme": "相続財産の評価（不動産）",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（日本FP協会の試験範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "国税庁 財産評価基本通達（構築物）",
+      "url": "https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/04/01.htm"
+     },
+     {
+      "title": "国税庁 財産評価基本通達（家屋・附属設備等）",
+      "url": "https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/03/01.htm"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "被相続人が居住の用に供していた自用家屋について、固定資産税評価額1,200万円、別表1に定める倍率1.0、再建築価額2,400万円（参考）に基づき相続税評価額を求めた場合、その金額として最も適切なものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "2,400万円"
+      },
+      {
+       "id": "2",
+       "text": "1,200万円"
+      },
+      {
+       "id": "3",
+       "text": "1,680万円"
+      },
+      {
+       "id": "4",
+       "text": "840万円"
+      }
+     ],
+     "answer": "2"
+    }
+   ],
+   "requiresCalculation": true,
+   "status": "verified",
+   "level": 4,
+   "topic": "F6.8-1",
+   "calcReason": "固定資産税評価額1,200万円×倍率1.0（別表1、資料）＝1,200万円。コードで計算。"
+  },
+  {
+   "id": "g2o-f15-07",
+   "exam": "g2",
+   "field": "F",
+   "theme": "相続財産の評価（不動産）",
+   "source": {
+    "kind": "original",
+    "author": "FP Master（日本FP協会の試験範囲に基づくオリジナル問題）",
+    "basis": [
+     {
+      "title": "国税庁 財産評価基本通達（構築物）",
+      "url": "https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/04/01.htm"
+     }
+    ]
+   },
+   "lawBaseDate": "2026-04-01",
+   "stem": "土地の上に存する構築物（門・塀等の設備を除く独立した構築物）について、再建築価額1,200万円、建築の時から課税時期までの期間の償却費の額の合計額400万円（資料）に基づき相続税評価額を求めた場合、その金額として最も適切なものはどれか。",
+   "parts": [
+    {
+     "kind": "choice",
+     "id": "p1",
+     "choices": [
+      {
+       "id": "1",
+       "text": "560万円"
+      },
+      {
+       "id": "2",
+       "text": "800万円"
+      },
+      {
+       "id": "3",
+       "text": "840万円"
+      },
+      {
+       "id": "4",
+       "text": "920万円"
+      }
+     ],
+     "answer": "1"
+    }
+   ],
+   "requiresCalculation": true,
+   "status": "verified",
+   "level": 5,
+   "topic": "F6.8-4",
+   "calcReason": "（再建築価額1,200万円−償却費の額の合計額400万円）×70%＝560万円。コードで計算。"
+  }
+ ]
+}
