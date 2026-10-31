@@ -32,8 +32,31 @@ export default defineConfig({
         ],
       },
       workbox: {
-        // 問題データ（JSONチャンク）もすべてプリキャッシュしてオフライン演習を可能にする
+        // プリキャッシュはアプリ本体（シェル）に限定する。問題データのチャンクは
+        // 初回読み込み時にランタイムキャッシュ（CacheFirst）へ入り、2回目以降と
+        // オフライン時はそこから配信される。全データをプリキャッシュすると
+        // SW のインストールが重くなり（約19MB）、リロード時の動的 import と
+        // 競合して読み込み失敗の原因になるため分離した（I-004/I-005）。
         globPatterns: ['**/*.{js,css,html,svg,png,woff2,json}'],
+        globIgnores: [
+          '**/g2_*.js',
+          '**/g2n_*.js',
+          '**/g2o_*.js',
+          '**/j2_*.js',
+          '**/j2o_*.js',
+          '**/explanations-*.js',
+        ],
+        runtimeCaching: [
+          {
+            urlPattern: /\/(?:g2_|g2n_|g2o_|j2_|j2o_|explanations-)[^/]*\.js$/,
+            handler: 'CacheFirst',
+            options: {
+              cacheName: 'fp-question-data-v1',
+              expiration: { maxEntries: 400, maxAgeSeconds: 60 * 60 * 24 * 30 },
+              cacheableResponse: { statuses: [200] },
+            },
+          },
+        ],
         maximumFileSizeToCacheInBytes: 6 * 1024 * 1024,
         navigateFallback: 'index.html',
       },

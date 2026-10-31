@@ -1,6 +1,6 @@
 import { createContext, useContext, useEffect, useMemo, useState, type ReactNode } from 'react';
 import type { FactCard, LawChange, Question, QuestionSet, Term } from '../domain/types';
-import { loadAllQuestionSets } from './index';
+import { importWithRetry, loadAllQuestionSets } from './index';
 import glossaryJson from './glossary.json';
 import cardsJson from './cards.json';
 import lawJson from './law-changes.json';
@@ -39,7 +39,13 @@ export type ExplanationEntry = { terms: string[]; explanation: NonNullable<Quest
 let explanationsPromise: Promise<Record<string, ExplanationEntry>> | null = null;
 /** 解説本体（問題データとは別ファイル・サイズが大きい）は、解説を表示するときに初めて読み込む */
 export function loadExplanations(): Promise<Record<string, ExplanationEntry>> {
-  explanationsPromise ??= import('./explanations.json').then((m) => m.default as unknown as Record<string, ExplanationEntry>);
+  explanationsPromise ??= importWithRetry(() => import('./explanations.json'))
+    .then((m) => m.default as unknown as Record<string, ExplanationEntry>)
+    .catch((e: unknown) => {
+      // 失敗した Promise をキャッシュし続けると再試行できなくなるため、次回呼び出しで読み直せるよう戻す
+      explanationsPromise = null;
+      throw e;
+    });
   return explanationsPromise;
 }
 
