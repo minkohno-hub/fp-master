@@ -1,5 +1,5 @@
 import { Suspense, lazy } from 'react';
-import { HashRouter, Route, Routes } from 'react-router';
+import { HashRouter, Route, Routes, useParams } from 'react-router';
 import { ContentProvider } from './content/store';
 import { Layout } from './ui/Layout';
 import { HomePage } from './pages/Home';
@@ -8,6 +8,12 @@ import { SessionPage, SessionResultPage } from './pages/Session';
 
 const QuestionListPage = lazy(() => import('./pages/Questions').then((m) => ({ default: m.QuestionListPage })));
 const QuestionDetailPage = lazy(() => import('./pages/Questions').then((m) => ({ default: m.QuestionDetailPage })));
+
+/** 問題が変わるたびに詳細ページを再マウントし、前の問題の解答状態を持ち越さない */
+function KeyedQuestionDetailPage() {
+  const { id } = useParams();
+  return <QuestionDetailPage key={id} />;
+}
 
 const CalcHomePage = lazy(() => import('./pages/Calc').then((m) => ({ default: m.CalcHomePage })));
 const CalcRunPage = lazy(() => import('./pages/Calc').then((m) => ({ default: m.CalcRunPage })));
@@ -58,7 +64,7 @@ export function App() {
             <Route path="session/:id" element={<SessionPage />} />
             <Route path="session/:id/result" element={<SessionResultPage />} />
             <Route path="questions" element={<QuestionListPage />} />
-            <Route path="q/:id" element={<QuestionDetailPage />} />
+            <Route path="q/:id" element={<KeyedQuestionDetailPage />} />
             <Route path="calc" element={<CalcHomePage />} />
             <Route path="calc/run/:gen" element={<CalcRunPage />} />
             <Route path="glossary" element={<GlossaryPage />} />

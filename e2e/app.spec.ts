@@ -180,3 +180,22 @@ test('解説の「標準」で択一問題の選択肢と正解が確認でき�
   await expect(page.getByText('← 正解')).toBeVisible();
   await expect(page.getByText('最も不適切なもの').first()).toBeVisible();
 });
+
+test('単問ページ：前後の問題へ移動でき、解答が学習履歴に記録される', async ({ page }) => {
+  await page.goto('./#/q/g2-202405-02');
+  // 同じ公表セット内の前後ナビ（2問目なので前後どちらもある）
+  await expect(page.getByRole('link', { name: '次の問題 →' })).toBeVisible();
+  await page.getByRole('link', { name: '次の問題 →' }).click();
+  await expect(page).toHaveURL(/#\/q\/g2-202405-03/);
+  await page.getByRole('link', { name: '← 前の問題' }).click();
+  await expect(page).toHaveURL(/#\/q\/g2-202405-02/);
+  // 移動先では前の問題の解答状態を持ち越さない（未解答のまま）
+  await expect(page.locator('fieldset button[aria-pressed="true"]')).toHaveCount(0);
+  // 解答すると履歴・成績に記録される
+  await page.goto('./');
+  await page.getByRole('radio', { name: '2級' }).click();
+  await page.goto('./#/q/g2-202405-02');
+  await answerCurrent(page);
+  await page.goto('./#/history');
+  await expect(page.getByText(/全1件/)).toBeVisible();
+});
