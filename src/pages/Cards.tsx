@@ -18,6 +18,11 @@ export function CardsHomePage() {
   const { cards } = useContent();
   const settings = useSettings();
   const srs = useLiveQuery(() => db.srs.where('key').startsWith('c:').toArray(), []);
+  const favStates = useLiveQuery(() => db.termState.toArray(), []);
+  const favCount = useMemo(() => {
+    const favs = new Set((favStates ?? []).filter((s) => s.favorite).map((s) => s.termId));
+    return cards.filter((c) => c.termId && favs.has(c.termId) && c.grades.includes(settings?.grade ?? 3)).length;
+  }, [cards, favStates, settings]);
   const [fields, setFields] = useState<FieldId[]>([]);
   const [kind, setKind] = useState<'' | 'term' | 'fact'>('');
   const nav = useNavigate();
@@ -50,6 +55,9 @@ export function CardsHomePage() {
             すべて
           </button>
         </div>
+        <button className="btn-secondary" onClick={() => nav('/cards/run?mode=all&fav=1')} disabled={!favCount}>
+          ★ お気に入り用語のカード（{favCount}枚）
+        </button>
       </div>
       <section className="card space-y-3">
         <h2 className="label">分野（未選択はすべて）</h2>
@@ -96,6 +104,11 @@ export function CardsRunPage() {
       const termIds = params.get('term')?.split(',');
       let pool = cards.filter((c) => c.grades.includes(grade) && (!fields.length || fields.includes(c.field)) && (!kind || c.kind === kind));
       if (termIds) pool = cards.filter((c) => c.termId && termIds.includes(c.termId));
+      if (params.get('fav')) {
+        // お気に入り登録した用語のカード（用語カード＋その用語に紐づく数字・公式カード）
+        const favs = new Set((await db.termState.toArray()).filter((s) => s.favorite).map((s) => s.termId));
+        pool = pool.filter((c) => c.termId && favs.has(c.termId));
+      }
       const srs = new Map((await db.srs.where('key').startsWith('c:').toArray()).map((s) => [s.key.slice(2), s]));
       const today = localDate();
       const rng = createRng(newSeed());

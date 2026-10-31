@@ -41,7 +41,7 @@ export function ReviewBadge({ status }: { status: 'verified' | 'draft' }) {
 
 const FOCUSABLE = 'a[href], button:not([disabled]), input:not([disabled]), select:not([disabled]), textarea:not([disabled]), [tabIndex]:not([tabIndex="-1"])';
 
-export function Sheet({ open, onClose, title, children }: { open: boolean; onClose: () => void; title: string; children: ReactNode }) {
+export function Sheet({ open, onClose, title, children, variant = 'center' }: { open: boolean; onClose: () => void; title: string; children: ReactNode; variant?: 'center' | 'side' }) {
   const dialogRef = useRef<HTMLDivElement>(null);
   // 開く直前にフォーカスがあった要素（用語リンク等）を覚え、閉じたらそこへ戻す
   const restoreRef = useRef<HTMLElement | null>(null);
@@ -83,14 +83,18 @@ export function Sheet({ open, onClose, title, children }: { open: boolean; onClo
   }, [open]);
   if (!open) return null;
   return (
-    <div className="fixed inset-0 z-40 flex items-end justify-center bg-black/40 sm:items-center" onClick={onClose}>
+    <div className={`fixed inset-0 z-40 flex items-end justify-center bg-black/40 ${variant === 'side' ? 'sm:items-stretch sm:justify-end' : 'sm:items-center'}`} onClick={onClose}>
       <div
         ref={dialogRef}
         role="dialog"
         aria-modal="true"
         aria-label={title}
         onClick={(e) => e.stopPropagation()}
-        className="max-h-[80dvh] w-full overflow-y-auto rounded-t-2xl bg-white p-4 pb-[calc(1rem+env(safe-area-inset-bottom))] text-slate-900 shadow-xl sm:max-w-lg sm:rounded-2xl dark:bg-slate-900 dark:text-slate-100"
+        className={
+          variant === 'side'
+            ? 'max-h-[80dvh] w-full overflow-y-auto rounded-t-2xl bg-white p-4 pb-[calc(1rem+env(safe-area-inset-bottom))] text-slate-900 shadow-xl sm:max-h-none sm:h-full sm:w-[26rem] sm:rounded-none sm:rounded-l-2xl sm:pb-4 dark:bg-slate-900 dark:text-slate-100'
+            : 'max-h-[80dvh] w-full overflow-y-auto rounded-t-2xl bg-white p-4 pb-[calc(1rem+env(safe-area-inset-bottom))] text-slate-900 shadow-xl sm:max-w-lg sm:rounded-2xl dark:bg-slate-900 dark:text-slate-100'
+        }
       >
         <div className="mb-2 flex items-start justify-between gap-2">
           <h2 className="text-lg font-bold">{title}</h2>

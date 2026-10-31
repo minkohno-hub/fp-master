@@ -25,6 +25,9 @@ from glossary_src import TERMS  # noqa: E402
 from glossary_more_src import ALL_MORE  # noqa: E402
 
 TERMS.extend(ALL_MORE)  # 追加原稿を結合（explanations_src は TERMS を直接更新するため、その前に結合する）
+# 用語集拡充 第2弾（分野別ファイル。仕様：2026-10-31 の用語拡充・自動リンク強化）
+for _mod in ('glossary_x_a', 'glossary_x_b', 'glossary_x_c', 'glossary_x_d', 'glossary_x_e', 'glossary_x_f'):
+    TERMS.extend(__import__(_mod).X_TERMS)
 from cards_src import CARDS  # noqa: E402
 from law_src import LAW_CHANGES  # noqa: E402
 from explanations_src import EXPLANATIONS  # noqa: E402
@@ -152,8 +155,52 @@ def main() -> None:
                 raise SystemExit(f'{e["id"]}: 用語 {t} が存在しません')
     (OUT / 'explanations.json').write_text(json.dumps({e['id']: {'terms': e['terms'], 'explanation': e['explanation']} for e in EXPLANATIONS},
                                                       ensure_ascii=False, indent=1) + '\n', encoding='utf-8')
-    # 問題IDごとの関連用語（小さなファイル）。解説本体（大きい）は画面表示時に遅延読み込みするため、用語との紐づけだけを別に持つ
-    (OUT / 'question-terms.json').write_text(json.dumps({e['id']: e['terms'] for e in EXPLANATIONS if e['terms']}, ensure_ascii=False, indent=1) + '\n', encoding='utf-8')
+    # 問題IDごとの関連用語（小さなファイル）。解説本体（大きい）は画面表示時に遅延読み込みするため、用語との紐づけだけを別に持つ。
+    # 手作業の割当（EXPLANATIONS の terms）に加え、問題文・選択肢・資料・解説テキストへの自動照合（termlink_py、
+    # UI側 termlink.ts と同じ規則）で検出した用語をマージする。用語を登録すれば関連付けも自動で増える。
+    from termlink_py import Matcher
+
+    def _texts_of(obj, skip=('evidence', 'sources')):
+        if isinstance(obj, str):
+            yield obj
+        elif isinstance(obj, dict):
+            for k, v in obj.items():
+                if k not in skip:
+                    yield from _texts_of(v, skip)
+        elif isinstance(obj, list):
+            for v in obj:
+                yield from _texts_of(v, skip)
+
+    matcher = Matcher(TERMS)
+    auto_terms: dict[str, list[str]] = {}
+    qfiles = sorted((OUT / 'questions').glob('*.json'))
+    for f in qfiles:
+        for q in json.loads(f.read_text(encoding='utf-8'))['questions']:
+            text = '\n'.join(_texts_of({k: q.get(k) for k in ('stem', 'parts', 'materials')}))
+            ids = matcher.term_ids_in(text)
+            if ids:
+                auto_terms[q['id']] = ids
+    expl_by_id = {e['id']: e for e in EXPLANATIONS}
+    for qid, e in expl_by_id.items():
+        text = '\n'.join(_texts_of(e['explanation']))
+        ids = matcher.term_ids_in(text)
+        if ids:
+            merged = auto_terms.setdefault(qid, [])
+            for i in ids:
+                if i not in merged:
+                    merged.append(i)
+    q_terms: dict[str, list[str]] = {}
+    for qid in sorted(set(auto_terms) | {e['id'] for e in EXPLANATIONS if e['terms']}):
+        merged = list(expl_by_id[qid]['terms']) if qid in expl_by_id else []
+        for i in auto_terms.get(qid, []):
+            if i not in merged:
+                merged.append(i)
+        if merged:
+            q_terms[qid] = merged
+    (OUT / 'question-terms.json').write_text(json.dumps(q_terms, ensure_ascii=False, indent=1) + '\n', encoding='utf-8')
+    _used_terms = {i for ids in q_terms.values() for i in ids}
+    print(f'用語リンク: 対象問題 {len(q_terms)} / 全 {sum(1 for f in qfiles for _ in json.loads(f.read_text(encoding="utf-8"))["questions"])} 問、'
+          f'登場する用語 {len(_used_terms)} / 全 {len(TERMS)} 語')
     (OUT / 'law-changes.json').write_text(json.dumps(LAW_CHANGES, ensure_ascii=False, indent=1) + '\n', encoding='utf-8')
     (OUT / 'cards.json').write_text(json.dumps(CARDS, ensure_ascii=False, indent=1) + '\n', encoding='utf-8')
     CHECK.write_text(json.dumps({'checkedAt': today if not offline else prev.get('checkedAt'), 'pages': pages, 'items': item_status, 'itemQuotes': item_quotes},

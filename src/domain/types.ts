@@ -198,6 +198,16 @@ export const TermSchema = z.object({
   detail: z.string().min(1),
   example: z.string().optional(),
   system: z.string().optional(),
+  /** 重要な数字・適用条件（表示用の短い文の列） */
+  facts: z.array(z.string()).optional(),
+  /** 例外規定・注意点 */
+  cautions: z.array(z.string()).optional(),
+  /** 類似用語との違い */
+  compare: z.array(z.string()).optional(),
+  /** 対応する試験範囲の細目キー（FP2シラバス等） */
+  topics: z.array(z.string()).optional(),
+  /** この用語の説明が前提とする法令基準日 */
+  lawBaseDate: IsoDate.optional(),
   formula: z.object({ name: z.string(), tex: z.string() }).optional(),
   related: z.array(z.string()),
   importance: z.union([z.literal(1), z.literal(2), z.literal(3)]),

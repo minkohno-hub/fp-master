@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react';
+import { useMemo, useRef, useState } from 'react';
 import { Link, useParams } from 'react-router';
 import { useLiveQuery } from 'dexie-react-hooks';
 import { useContent } from '../content/store';
@@ -91,8 +91,34 @@ export function QuestionDetailPage() {
   const { questionById } = useContent();
   const settings = useSettings();
   const q = questionById.get(id ?? '');
-  const [responses, setResponses] = useState<Responses>({});
-  const [done, setDone] = useState(false);
+  // 用語詳細などへ遷移して戻ってきても、入力途中の解答が失われないよう下書きを保持する
+  const draftKey = `q-draft:${id ?? ''}`;
+  const initialDraft = (() => {
+    try {
+      return JSON.parse(sessionStorage.getItem(draftKey) ?? '{}') as { r?: Responses; d?: boolean };
+    } catch {
+      return {} as { r?: Responses; d?: boolean };
+    }
+  })();
+  const [responses, setResponsesState] = useState<Responses>(initialDraft.r ?? {});
+  const [done, setDoneState] = useState<boolean>(initialDraft.d ?? false);
+  // setResponses と setDone が同一イベントで連続しても互いを上書きしないよう、最新値を ref で保持して保存する
+  const draftRef = useRef({ r: responses, d: done });
+  const persistDraft = () => {
+    try {
+      sessionStorage.setItem(draftKey, JSON.stringify(draftRef.current));
+    } catch { /* 保存できなくても学習は継続できる */ }
+  };
+  const setResponses = (r: Responses) => {
+    draftRef.current = { ...draftRef.current, r };
+    setResponsesState(r);
+    persistDraft();
+  };
+  const setDone = (d: boolean) => {
+    draftRef.current = { ...draftRef.current, d };
+    setDoneState(d);
+    persistDraft();
+  };
   const bookmarked = useLiveQuery(() => db.bookmarks.get(id ?? ''), [id]);
   if (!q || !settings) return <Empty>問題が見つかりません。</Empty>;
   const result = done ? scoreQuestion(q, responses) : undefined;
